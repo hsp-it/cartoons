@@ -472,7 +472,7 @@
 
                     <person xml:id="Lincoln_Abraham">
                         <persName><forename type="first"
-                               >Abraham</forename><surname>Lincoln</surname></persName>
+                               >Abraham</forename><surname>Lincoln Log</surname></persName>
                         <affiliation>President of the United States, 1861-1865</affiliation>
                         <!-- affiliations could also include @when, although the Greenfield exhibit displayed this awkwardly -->
                         <birth when="1809">1809</birth>
