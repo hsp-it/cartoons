@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="../../../TEI_exercise%20on%20ODDs/HSPDigitalProjectsSchema2.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:gdp="http://www.hsp.org/ns/nonTEI">
+
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">TEI description of interpretive taxonomies for the NHPRC Cartoons Digital
+          History Project Project</title>
+        <author>
+          <persName>Moloshok, Rachel</persName>
+          <persName>Newhouse, Sarah</persName>
+        </author>
+      </titleStmt>
+
+      <publicationStmt>
+        <publisher>The Historical Society of Pennsylvania</publisher>
+        <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
+        <availability status="restricted">
+          <p>Copyright 2013, The Historical Society of Pennsylvania. HSP makes a claim of copyright
+            only to original contributions made by the NHPRC Political Cartoons Digital History
+            Project participants and other staff. Permission is granted to download, transmit or
+            otherwise reproduce, distribute or display the text contributions to this work claimed
+            by HSP for non-profit educational purposes, provided that this header is included in its
+            entirety. For inquiries about commercial uses, please contact the Historical Society of
+            Pennsylvania. HSP retains the rights of all images unless otherwise noted. Possession of
+            an HSP digital image does not constitute permission to use or publish it. Requests for
+            digital imaging, other reproduction services, and the intended use of reproductions must
+            be made in writing to the Rights and Reproductions Coordinator at rnr@hsp.org.</p>
+        </availability>
+        <date when="2013"/>
+      </publicationStmt>
+
+      <sourceDesc>
+        <p>Born digital.</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The Historic Images, New Technologies (HINT) project aims to enhance description and
+          discovery of the Historical Society of Pennsylvania's graphics materials and promote the
+          linking and sharing of content among institutions and scholars. The project will result in
+          an update to HSP's digital image viewer and an online digital history exhibit, featuring
+          500 encoded political cartoons, that will demonstrate the new viewer's capabilities and
+          provide interpretive and contextual materials to encourage users to interact with
+          historical images in new ways. This project was funded by a grant from the National
+          Historical Publications and Records Commission's (NHPRC) Innovation in Archives and
+          Documentary Editing program.</p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="Cartoons_topics">
+
+          <category xml:id="sh85106475">
+            <catDesc>Presidents--United States--Election</catDesc>
+            <!-- this should be subdivided by year. do we want to bother with that? -SN -->
+          </category>
+          <category xml:id="sh2010108614">
+            <catDesc> Prohibition--United States--History</catDesc>
+          </category>
+
+          <category xml:id="sh2008110339">
+            <catDesc>Racism--United States</catDesc>
+          </category>
+          <category xml:id="sh85123326">
+            <catDesc>Slavery--United States</catDesc>
+          </category>
+          <category xml:id="n88126576">
+            <catDesc> Stamp Act Congress (1765 : New York, N.Y.)</catDesc>
+            <!-- best I could find for the Stamp Act -SN -->
+          </category>
+          <category xml:id="sh86007006">
+            <catDesc>Temperance--United States</catDesc>
+          </category>
+          <category xml:id="sh85140058">
+            <catDesc>United States--Foreign relations</catDesc>
+          </category>
+          <category xml:id="sh85140205">
+            <catDesc>United States--History--Civil War, 1861-1865</catDesc>
+            <!-- http://id.loc.gov/authorities/subjects/sh85140205.html -->
+          </category>
+          <category xml:id="sh85140194">
+            <catDesc>United States--History--War of 1812</catDesc>
+          </category>
+          <category xml:id="sh85140410">
+            <catDesc>United States--Politics and government</catDesc>
+          </category>
+
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+  </teiHeader>
+
+  <text>
+    <body>
+      <p/>
+    </body>
+  </text>
+</TEI>

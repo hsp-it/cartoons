@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="file:/G:/Education%20and%20Interpretation/Publications/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:gdp="http://www.hsp.org/ns/nonTEI">
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">TEI description of organizations mentioned and depicted in the
+                    Historic Images, New Technologies (HINT) Project</title>
+                <author><persName>Newhouse, Sarah</persName>
+                    <persName>Moloshok, Rachel</persName></author>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>The Historical Society of Pennsylvania</publisher>
+                <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
+                <availability status="restricted">
+                    <p>Copyright 2013, The Historical Society of Pennsylvania. HSP makes a claim of
+                        copyright only to original contributions made by the Historic Images, New
+                        Technologies (HINT) Project participants and other staff. Permission is
+                        granted to download, transmit or otherwise reproduce, distribute or display
+                        the text contributions to this work claimed by HSP for non-profit
+                        educational purposes, provided that this header is included in its entirety.
+                        For inquiries about commercial uses, please contact the Historical Society
+                        of Pennsylvania. HSP retains the rights of all images unless otherwise
+                        noted. Possession of an HSP digital image does not constitute permission to
+                        use or publish it. Requests for digital imaging, other reproduction
+                        services, and the intended use of reproductions must be made in writing to
+                        the Rights and Reproductions Coordinator at rnr@hsp.org.</p>
+                </availability>
+                <date when="2013"/>
+            </publicationStmt>
+
+            <sourceDesc>
+                <p>Born digital.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The Historic Images, New Technologies (HINT) project aims to enhance description
+                    and discovery of the Historical Society of Pennsylvania's graphics materials and
+                    promote the linking and sharing of content among institutions and scholars. The
+                    project will result in an update to HSP's digital image viewer and an online
+                    digital history exhibit, featuring 500 encoded political cartoons, that will
+                    demonstrate the new viewer's capabilities and provide interpretive and
+                    contextual materials to encourage users to interact with historical images in
+                    new ways. This project was funded by a grant from the National Historical
+                    Publications and Records Commission's (NHPRC) Innovation in Archives and
+                    Documentary Editing program.</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change who="SarahNewhouse" when="2013-11-14">Org-ography draft created.</change>
+            <!-- ??This is where we'll note what has changed AND keep track of whether a document has been proofread.  Add <change> elements for each revision, listing MOST RECENT FIRST. Use @when to list date. Use @who for first-lastname entries for the person responsible (choices available in Oxygen; human readers will be able to figure out who we mean).  -->
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div type="ography">
+                <listOrg>
+
+
+                    <org xml:id="Courier_NY">
+                        <orgName>New York Courier and Enquirer</orgName>
+                        <!-- published by James Watson Webb; mentioned in 11561-3133_b4f11_1_TEI.xml -->
+                    </org>
+
+                    <org xml:id="Currier_Ives">
+                        <orgName>Currier and Ives</orgName>
+                        <!-- located at 152 Nassau St., New York, NY -->
+                        <!-- publishes 11563-3133-b4f8_1_TEI.xml -->
+                    </org>
+
+                    <org xml:id="DP">
+                        <orgName>Democratic Party</orgName>
+                    </org>
+
+                    <org xml:id="EIC">
+                        <orgName>East India Company</orgName>
+                    </org>
+
+                    <org xml:id="Freedmens_Bureau">
+                        <orgName>Freedmen's Bureau</orgName>
+                        <orgName type="alt">Bureau of Refugees, Freedmen, and Abandoned
+                            Lands</orgName>
+                        <note type="org"><persName ref="Cartoons_people.xml#Lincoln_Abraham">Abraham
+                                Lincoln</persName> established the Freedmen's Bureau (also known as
+                            the Bureau of Refugees, Freedmen, and Abandoned Lands, in <date
+                               when="1865">1865</date>, via the passing of the Freedmen's Bureau
+                            Bill.</note>
+                        <bibl>http://en.wikipedia.org/wiki/Freedmen's_Bureau</bibl>
+                    </org>
+
+                    <org xml:id="Keppler_Schwarzmann">
+                        <orgName>Keppler &amp; Schwarzmann</orgName>
+                        <note type="org">Publishers of <orgName ref="Cartoons_orgs.xml#Puck"><hi
+                                   rendition="#italics">Puck</hi></orgName>.</note>
+                    </org>
+
+                    <org xml:id="Phila_Inquirer">
+                        <orgName rendition="#italics">Philadelphia Inquirer</orgName>
+                        <!-- daily newspaper -->
+                        <!-- publishes 11565-3133_b2f9_1_TEI.xml -->
+                    </org>
+
+                    <org xml:id="Phila_Ledger">
+                        <orgName rendition="#italics">Philadelphia Public Ledger</orgName>
+                        <!-- daily newspaper -->
+                        <!-- publishes 11525-3133_b2f8_1_TEI.xml -->
+                    </org>
+
+                    <org xml:id="Phila_Record">
+                        <orgName rendition="#italics">Philadelphia Record</orgName>
+                        <!-- daily newspaper -->
+                        <!-- publishes 11513-3133_b2f8_1_TEI.xml 11514-3133_b2f8_1_TEI.xml 11522-3133_b2f8_1_TEI.xml-->
+                    </org>
+
+                    <org xml:id="Prohibition_Party">
+                        <orgName>Prohibition Party</orgName>
+                        <!-- depicted in Calithumpian Serenade 11484-PG278_b5f1_TEI.xml-->
+                    </org>
+
+                    <org xml:id="Punch">
+                        <orgName rendition="#italics">Punch, or the London Charivari</orgName>
+                        <!-- illustrated magazine -->
+                        <!-- publishes 11510-3133_b1f27_1_TEI.xml (New Orleans Plum); 11511-3133_b1f27_1_TEI.xml (great cannon game) -->
+                    </org>
+
+                    <org xml:id="Puck">
+                        <orgName>Puck</orgName>
+                    </org>
+
+                    <org xml:id="RP">
+                        <orgName>Republican Party</orgName>
+                    </org>
+
+                    <org xml:id="Schmidt_Litho">
+                        <orgName>Schmidt Lithograph Company</orgName>
+                        <orgName type="alt">Schmidt Label &amp; Lithograph Co.</orgName>
+                        <!-- lithographs 11524-PG278_b5f2_1_TEI.xml -->
+                        <!-- founded by Max Schmidt of SF Wasp? -->
+                    </org>
+
+                    <org xml:id="Second_Bank_US">
+                        <orgName>Second Bank of the United States</orgName>
+                        <!-- depicted 11508-Bb612D758_01_TEI.xml -->
+                    </org>
+
+                    <org xml:id="Sons_of_Liberty">
+                        <orgName>Sons of Liberty</orgName>
+                        <!-- depicted 2562-Bb612L615_1_TEI.xml (Liberty Triumphant) -->
+                    </org>
+
+                    <org xml:id="Times_NY">
+                        <orgName>New York Times</orgName>
+                    </org>
+                    <org xml:id="Tribune_NY">
+                        <orgName>New York Tribune</orgName>
+                        <!-- mentioned in 11561-3133_b4f11_1_TEI.xml; 11564-3133_b4f7_1_TEI.xml -->
+                    </org>
+
+                    <org xml:id="US_Congress">
+                        <orgName>United States Congress</orgName>
+                        <!-- mentioned 11522-3133_b2f8_1_TEI.xml -->
+                    </org>
+
+                    <org xml:id="Wasp">
+                        <orgName rendition="#italics">San Francisco Wasp</orgName>
+                    </org>
+
+                    <org xml:id="WP">
+                        <orgName>Whig Party</orgName>
+                    </org>
+
+
+
+                </listOrg>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="../../HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:gdp="http://www.hsp.org/ns/nonTEI">
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">TEI description of symbols mentioned and depicted in the Historic
+                    Images, New Technologies (HINT) Project</title>
+                <author><persName>Newhouse, Sarah</persName>
+                    <persName>Moloshok, Rachel</persName></author>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>The Historical Society of Pennsylvania</publisher>
+                <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
+                <availability status="restricted">
+                    <p>Copyright 2013, The Historical Society of Pennsylvania. HSP makes a claim of
+                        copyright only to original contributions made by the Historic Images, New
+                        Technologies (HINT) Project participants and other staff. Permission is
+                        granted to download, transmit or otherwise reproduce, distribute or display
+                        the text contributions to this work claimed by HSP for non-profit
+                        educational purposes, provided that this header is included in its entirety.
+                        For inquiries about commercial uses, please contact the Historical Society
+                        of Pennsylvania. HSP retains the rights of all images unless otherwise
+                        noted. Possession of an HSP digital image does not constitute permission to
+                        use or publish it. Requests for digital imaging, other reproduction
+                        services, and the intended use of reproductions must be made in writing to
+                        the Rights and Reproductions Coordinator at rnr@hsp.org.</p>
+                </availability>
+                <date when="2013"/>
+            </publicationStmt>
+
+            <sourceDesc>
+                <p>Born digital.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The Historic Images, New Technologies (HINT) project aims to enhance description
+                    and discovery of the Historical Society of Pennsylvania's graphics materials and
+                    promote the linking and sharing of content among institutions and scholars. The
+                    project will result in an update to HSP's digital image viewer and an online
+                    digital history exhibit, featuring 500 encoded political cartoons, that will
+                    demonstrate the new viewer's capabilities and provide interpretive and
+                    contextual materials to encourage users to interact with historical images in
+                    new ways. This project was funded by a grant from the National Historical
+                    Publications and Records Commission's (NHPRC) Innovation in Archives and
+                    Documentary Editing program.></p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change who="RachelMoloshok" when="2013-11-21">Test file created</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div type="ography">
+                <list type="symbols">
+                    
+                    <item xml:id="ballot_box">
+                        <label>Ballot Box</label>
+                        <note type="symbol">Used to represent the democratic process.</note>
+                    </item>
+                    
+                    <item xml:id="Beelzebub">
+                        <label>Beelzebub</label>
+                        <note type="symbol">"Prince of Devils." See <rs ref="#devil">Devil</rs></note>
+                    </item>
+                    
+                    <item xml:id="Britannia">
+                        <label>Britannia</label>
+                        <note type="symbol">Personification of Britain</note>
+                    </item>
+                    
+                    <item xml:id="cat">
+                        <label>Cat</label>
+                        <!-- depicted in 2562-Bb612L615_1_TEI.xml (Liberty Triumphant) -->
+                    </item>
+                    
+                    <item xml:id="Columbia">
+                        <label>Columbia</label>
+                        <note type="symbol">A personification of the United States.</note>
+                    </item>
+                    
+                    <item xml:id="devil">
+                        <label>The Devil</label>
+                        <note type="symbol">A common character in political cartoons.</note>
+                    </item>
+                    
+                    <item xml:id="Downing_Jack">
+                        <label>Major Jack Downing</label>
+                        <!-- popular fictional character, used to represent United States/Americans in general. Forrest Gump-like everyman-->
+                        <!-- http://www.readex.com/readex-report/mascot-militant-many-campaigns-seba-smiths-major-jack-downing -->
+                        <!-- depicted in 11508-Bb612D758_01_TEI.xml -->
+                    </item>
+                    
+                    <item xml:id="elephant">
+                        <label>Elephant</label>
+                        <!-- represents the Republican Party, depicted in 11567-3133_b2f9_1_TEI.xml -->
+                    </item>
+                    
+                    <item xml:id="fame">
+                        <label>Fame</label>
+                        <!-- in 2562-Bb612L615_1_TEI.xml (Liberty Triumphant) -->
+                    </item>
+                    
+                    <item xml:id="fox">
+                        <label>Fox</label>
+                        <note type="symbol">What does the fox say?</note>
+                    </item>
+                    
+                    <item xml:id="John_Bull">
+                        <label>John Bull</label>
+                        <!-- depicted 11524-PG278_b5f2_1_TEI.xml -->
+                    </item>
+                    
+                    <item xml:id="laurel_wreath">
+                        <label>Laurel Wreath</label>
+                        <note type="symbol">Symbol of victory</note>
+                        <!-- depicted in 2562-Bb612L615_1_TEI.xml (Liberty Triumphant) -->
+                    </item>
+                    
+                    <item xml:id="Liberty">
+                        <label>Liberty</label>
+                        <!--  depicted as a woman in 2562-Bb612L615_1_TEI.xml (Liberty Triumphant) -->
+                    </item>
+                    
+                    <item xml:id="liberty_cap">
+                        <label>Liberty Cap</label>
+                        <!--  depicted in 2562-Bb612L615_1_TEI.xml (Liberty Triumphant) -->
+                    </item>
+                    
+                    <item xml:id="liberty_tree">
+                        <label>Liberty Tree</label>
+                        <!-- http://en.wikipedia.org/wiki/Liberty_Tree; chapter in David Hackett Fischer's "Liberty and Freedom" -->
+                        <!-- maybe depicted in 2562-Bb612L615_1_TEI.xml (Liberty Triumphant)? -->
+                    </item>
+                    
+                    <item xml:id="uncle_sam">
+                        <label>Uncle Sam</label>
+                        <note type="symbol">Personification of the United States</note>
+                        <!--  depicted in 11513-3133_b2f8_1_TEI.xml 11514-3133_b2f8_1_TEI.xml 11525-3133_b2f8_1_TEI.xml -->
+                    </item>
+
+                </list>
+
+            </div>
+
+
+        </body>
+    </text>
+</TEI>
