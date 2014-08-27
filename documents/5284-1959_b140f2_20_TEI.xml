@@ -70,7 +70,7 @@
                   Samuel G.</persName></gdp:recipient>
               <gdp:recipient><persName ref="Greenfield_project_people.xml#Greenfield_Albert"
                   >Greenfield, Albert M.</persName>, 1887-1967</gdp:recipient>
-              <title type="main" level="u">Memo from Albert Greenfield to Samuel Barker</title>
+              <title type="main" level="u">UPDATED FROM GIT - Memo from Albert Greenfield to Samuel Barker</title>
               <bibl>
                 <date from="1930-08-19">August 19, 1930</date>
                 <extent>1 loose page</extent></bibl>

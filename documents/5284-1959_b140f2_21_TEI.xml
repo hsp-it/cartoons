@@ -65,7 +65,7 @@
                   M.</persName>, 1887-1967 </author>
               <gdp:recipient><persName ref="Greenfield_project_people.xml#Brown_Mr2">Brown,
                   Mr.</persName></gdp:recipient>
-              <title type="main" level="u">Memo from Albert Greenfield to Mr. Brown</title>
+              <title type="main" level="u">UPDATED FROM GIT - Memo from Albert Greenfield to Mr. Brown</title>
               <bibl>
                 <date when="1930-08-22">August 22, 1930</date>
                 <extent>1 loose page</extent></bibl>
