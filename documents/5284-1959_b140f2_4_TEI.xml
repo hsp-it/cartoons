@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/css" href="./tiny_TEI_template.css"?>
+<!-- ??The two lines of purple text above this comment are currently set to use a stylesheet from TEI training; we did not need to create an HSP-specific stylesheet. -->
+<?xml-model href="file:/G:/Education%20and%20Interpretation/Publications/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:gdp="http://www.hsp.org/ns/nonTEI">
+
+  <teiHeader xml:lang="English">
+
+    <fileDesc>
+      <titleStmt>
+        <title type="main">TEI transcription of memo regarding liquidation of Bank of Philadelphia
+          and Trust Company</title>
+        <author>
+          <persName>Unknown</persName></author>
+        <respStmt>
+          <resp key="trc">Transcribed by</resp>
+          <persName>Dorman, Dana</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="pfr">Proofread by</resp>
+          <persName>Charlton, Faith></persName>
+        </respStmt>
+      </titleStmt>
+
+      <editionStmt>
+        <p>First edition, <date when="2012">2012</date></p>
+      </editionStmt>
+
+      <publicationStmt>
+        <publisher>The Historical Society of Pennsylvania</publisher>
+        <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
+        <idno type="filename">5284-1959_b140f2_4_TEI.xml</idno>
+        <availability status="restricted">
+          <p>Copyright 2012, The Historical Society of Pennsylvania. HSP makes a claim of copyright
+            only to original contributions made by the Greenfield Digital Project participants and
+            other staff. HSP makes no claim of copyright to the original text. Permission is granted
+            to download, transmit or otherwise reproduce, distribute or display the text
+            contributions to this work claimed by HSP for non-profit educational purposes, provided
+            that this header is included in its entirety. For inquiries about commercial uses,
+            please contact the Historical Society of Pennsylvania. HSP retains the rights of all
+            images unless otherwise noted. Possession of an HSP digital image does not constitute
+            permission to use or publish it. Requests for digital imaging, other reproduction
+            services, and the intended use of reproductions must be made in writing to the Rights
+            and Reproductions Coordinator at rnr@hsp.org.</p>
+        </availability>
+        <date when="2012"/>
+      </publicationStmt>
+
+      <seriesStmt>
+        <title level="s" type="project">Greenfield Digital Project</title>
+      </seriesStmt>
+
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository>The Historical Society of Pennsylvania, Philadelphia, PA</repository>
+            <collection>Albert M. Greenfield papers (Collection 1959)</collection>
+            <idno type="citation">Box 140, Folder 2 "Bankers Trust Co. Correspondence, 1930"</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <author><persName>Unknown</persName></author>
+              <title type="main" level="u">Memo regarding liquidation of Bank of Philadelphia and
+                Trust Company</title>
+              <bibl>
+                <date from="1930-12-19">December 19, 1930</date>
+                <extent>1 loose page</extent></bibl>
+            </msItem>
+          </msContents>
+          <history>
+            <acquisition>Gift of Albert M. Greenfield, 1968</acquisition>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+
+    <encodingDesc>
+      <projectDesc>
+        <p>The Greenfield Digital Project interprets the story of Bankers Trust Company, a large
+          Philadelphia bank that failed in 1930, through a selection of primary source documents,
+          contextual essays, and teacher resources. The project is part of a larger effort funded by
+          the Albert M. Greenfield Foundation to make HSP's 20th-century holdings more
+          accessible.</p>
+      </projectDesc>
+      <editorialDecl n="4">
+        <p>This electronic file was created using manual keying following the recommendations for
+          Level 4 of "Best Practices for TEI in Libraries" guidelines v3.0.</p>
+        <p>We have generally encoded entire documents/texts, not excerpts. We have encoded page
+          breaks. We have also preserved original spelling, typographical errors, missing text, and
+          original capitalization. For clippings from newspapers or other publications, we have
+          transcribed just the text related to the article, ignoring other text or markings on the
+          page that were purposefully or inadvertently included during clipping. We have regularized
+          spacing between words and sentences to replace double (or triple) spaces to a single
+          space.</p>
+        <p>We have not coded line breaks, end-of-line hyphenation, visual rendition of layout, font
+          changes, or text alignment (left, right, center).</p>
+        <p>Annotation on people and organizations coded in this document can be found in
+          Greenfield_project_people.xml and Greenfield_project_organizations.xml.</p>
+        <p>See project web site at www.hsp.org for full description of the editorial practices in
+          the Greenfield Digital Project.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
+        <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
+        <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
+        <rendition scheme="css" xml:id="crossed-through">text-decoration: line-through</rendition>
+        <rendition scheme="other" xml:id="printed"/>
+        <rendition scheme="other" xml:id="typescript"/>
+        <rendition scheme="other" xml:id="handwritten"/>
+        <rendition scheme="other" xml:id="handwritten-underlined"/>
+        <rendition scheme="other" xml:id="handwritten-circled"/>
+        <rendition scheme="other" xml:id="handwritten-crossed-through"/>
+        <rendition scheme="other" xml:id="double-underline"/>
+        <rendition scheme="other" xml:id="stamp"/>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+        </namespace>
+      </tagsDecl>
+
+    </encodingDesc>
+
+    <profileDesc>
+      <textClass>
+        <catRef target="Greenfield_project_genres.xml#documents"/>
+        <catRef target="Greenfield_project_taxonomies.xml#trouble"/>
+      </textClass>
+    </profileDesc>
+
+    <revisionDesc>
+      <change who="DanaDorman" when="2012-11-12">Made proofreading changes, including updating
+        schema.</change>
+      <change who="FaithCharlton" when="2012-04-23">Updated to match schema revised 4/12/12, using
+        Greenfield_schema7.xml.</change>
+      <change who="DanaDorman" when="2011-07-19">Updated to match new schema,
+        Greenfield_schema6.xml.</change>
+    </revisionDesc>
+  </teiHeader>
+
+  <facsimile>
+    <graphic url="90;5284-1959_b140f2_4.tif"/>
+  </facsimile>
+
+  <text>
+    <body>
+
+      <div type="memorandum" rendition="#typescript">
+
+        <note><add rendition="#handwritten">From the <orgName
+              ref="Greenfield_project_organizations.xml#Jewish_World">Jewish World</orgName> issue
+            of <date when="1930-12-19">12/19/30</date></add></note>
+        <head rendition="#underline">EXPLANATION WITH REGARDS TO THE LIQUIDATION OF THE <orgName
+            ref="Greenfield_project_organizations.xml#Bank_of_Phila">BANK OF PHILADELPHIA AND TRUST
+            COMPANY</orgName>.</head>
+
+        <p>Through a regrettable Printer's error that crept into an article of news that appeared
+            <sic>in <date when="1930-12-17">day before yesterday</date>'s</sic> issue of the "Jewish
+          World" regarding the "Bank of Philadelphia and Trust Company", a mis-statement was made in
+          connection with that Bank. It is, therefore, of great importance that the false statement
+          that appeared in the news be corrected.</p>
+
+        <p><date when="1930-07">July last</date>, the <orgName
+            ref="Greenfield_project_organizations.xml#Bankers_Trust">Bankers Trust
+          Company</orgName>, one of the largest Banks in Philadelphia, took over the job of
+          liquidating all the resources of the Bank of Philadelphia and Trust Company, turning it
+          into cash so that the Stockholders of the Bank of Philadelphia and Trust Company would
+          receive the largest amount of cash for their stock. A short time ago the Bankers Trust
+          Company sent a letter to the Stockholders of the Bank of Philadelphia and Trust Company
+          advising them of the progress that was being made. The letter read as follows:</p>
+
+        <p>"To the Stockholders of the Bank of Philadelphia and Trust Company:-</p>
+
+        <p>The liquidation of the Bank of Philadelphia and Trust Company as it is being arranged and
+          carried out by the Bankers Trust Company for your benefit, has reached a stage that it is
+          now possible to give you information to which you are entitled.</p>
+
+        <p>On <date when="1930-07-21">July 21st, 1930</date>, when your Bank ceased doing business,
+          the Bankers Trust Company, in accordance with the agreement, paid the debts which your
+          Bank owed to other Banks and also assumed the liability for all deposits that were then in
+          your Bank. Your Bank at that time received from the Bankers Trust Company a loan of
+          $17,962,247.82, for which amount the Bank of Philadelphia and Trust Company put up as
+          security their assets worth $23,655,727.20. This loan represented a sum of money equal to
+          the amount of money the Bank of Philadelphia and Trust Company owed to other Banks and to
+          their depositors.</p>
+
+        <p>Since then the assets of the Bank of Philadelphia and Trust Company, which were deposited
+          with us, were turned into cash, the result being that your Bank has already paid us off
+          $10,113,895.17 of the loan.</p>
+
+        <p>The book worth of other assets of your Bank that still remain with us is $15,186,995.55,
+          which consists of Securities, Loans on Collateral, Mortgages, Real Estate and Commercial
+          Paper. Even though the biggest portion of these assets are good, however, a goodly part of
+          the same are of doubtful worth, and it will require some time to liquidate in order to
+          obtain the most cash <sic>therefor</sic>.</p>
+
+        <p>After the liquidating process has been completed and your Bank pays us off the balance of
+          our loan and all their other debts are paid, the balance will be turned back to you as
+          Stockholders. How large your share will be cannot be known until the liquidation has been
+          completed; however, taking into consideration what has already been accomplished, and from
+          what information we have regarding Real Estate Appraisements and Loans, we can now say
+          that you, the Stockholders, will receive much more than it was thought you could possibly
+          receive some time ago.</p>
+
+        <p>(Signed) <persName ref="Greenfield_project_people.xml#Barker_Samuel">SAMUEL H.
+            BARKER</persName>, President, Bankers Trust Co. of Philadelphia."</p>
+
+        <p>Naturally, the depositors,as well as the Stockholders of the Bank of Philadelphia and
+          Trust Company, were highly satisfied that the Bankers Trust Company, one of the largest
+          Banks of Philadelphia and a member of the <orgName
+            ref="Greenfield_project_organizations.xml#Clearing_House">Clearing House
+            Association</orgName>, undertook the above job, offering itself as a <sic>bulkwark</sic>
+          of security for the best interests of all.</p>
+
+      </div>
+    </body>
+
+    <back/>
+  </text>
+</TEI>

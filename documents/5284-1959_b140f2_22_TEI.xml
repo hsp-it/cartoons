@@ -1,0 +1,222 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/css" href="./tiny_TEI_template.css"?>
+<!-- ??The two lines of purple text above this comment are currently set to use a stylesheet from TEI training; we did not need to create an HSP-specific stylesheet. -->
+<?xml-model href="file:/G:/Education%20and%20Interpretation/Publications/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:gdp="http://www.hsp.org/ns/nonTEI">
+
+  <teiHeader xml:lang="English">
+
+    <fileDesc>
+
+      <titleStmt>
+        <title type="main">TEI transcription of letter from Ely Smith to Albert Greenfield</title>
+        <author>
+          <persName>Smith, Ely J.</persName></author>
+        <respStmt>
+          <resp key="trc">Transcribed by</resp>
+          <persName>Dorman, Dana</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="pfr">Proofread by</resp>
+          <persName>Charlton, Faith</persName>
+        </respStmt>
+      </titleStmt>
+
+      <editionStmt>
+        <p>First edition, <date when="2012">2012</date></p>
+      </editionStmt>
+
+      <publicationStmt>
+        <publisher>The Historical Society of Pennsylvania</publisher>
+        <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
+        <idno type="filename">5284-1959_b140f2_22_TEI.xml</idno>
+        <availability status="restricted">
+          <p>Copyright 2012, The Historical Society of Pennsylvania. HSP makes a claim of copyright
+            only to original contributions made by the Greenfield Digital Project participants and
+            other staff. HSP makes no claim of copyright to the original text. Permission is granted
+            to download, transmit or otherwise reproduce, distribute or display the text
+            contributions to this work claimed by HSP for non-profit educational purposes, provided
+            that this header is included in its entirety. For inquiries about commercial uses,
+            please contact the Historical Society of Pennsylvania. HSP retains the rights of all
+            images unless otherwise noted. Possession of an HSP digital image does not constitute
+            permission to use or publish it. Requests for digital imaging, other reproduction
+            services, and the intended use of reproductions must be made in writing to the Rights
+            and Reproductions Coordinator at rnr@hsp.org.</p>
+        </availability>
+        <date when="2012"/>
+      </publicationStmt>
+
+      <seriesStmt>
+        <title level="s" type="project">Greenfield Digital Project</title>
+      </seriesStmt>
+
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository>The Historical Society of Pennsylvania, Philadelphia, PA</repository>
+            <collection>Albert M. Greenfield papers (Collection 1959)</collection>
+            <idno type="citation">Box 140, Folder 2 "Bankers Trust Co. Correspondence, 1930"</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <author><persName ref="Greenfield_project_people.xml#Smith_Ely">Smith, Ely
+                  J.</persName></author>
+              <gdp:recipient><persName ref="Greenfield_project_people.xml#Greenfield_Albert"
+                  >Greenfield, Albert M.</persName>, 1887-1967</gdp:recipient>
+              <title type="main" level="u">Letter from Ely Smith to Albert Greenfield</title>
+              <bibl>
+                <date from="1930-08-19">August 19, 1930</date>
+                <extent>2 loose pages</extent></bibl>
+            </msItem>
+          </msContents>
+          <history>
+            <acquisition>Gift of Albert M. Greenfield, 1968</acquisition>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+
+    <encodingDesc>
+      <projectDesc>
+        <p>The Greenfield Digital Project interprets the story of Bankers Trust Company, a large
+          Philadelphia bank that failed in 1930, through a selection of primary source documents,
+          contextual essays, and teacher resources. The project is part of a larger effort funded by
+          the Albert M. Greenfield Foundation to make HSP's 20th-century holdings more
+          accessible.</p>
+      </projectDesc>
+      <editorialDecl n="4">
+        <p>This electronic file was created using manual keying following the recommendations for
+          Level 4 of "Best Practices for TEI in Libraries" guidelines v3.0.</p>
+        <p>We have generally encoded entire documents/texts, not excerpts. We have encoded page
+          breaks. We have also preserved original spelling, typographical errors, missing text, and
+          original capitalization. For clippings from newspapers or other publications, we have
+          transcribed just the text related to the article, ignoring other text or markings on the
+          page that were purposefully or inadvertently included during clipping. We have regularized
+          spacing between words and sentences to replace double (or triple) spaces to a single
+          space.</p>
+        <p>We have not coded line breaks, end-of-line hyphenation, visual rendition of layout, font
+          changes, or text alignment (left, right, center).</p>
+        <p>Annotation on people and organizations coded in this document can be found in
+          Greenfield_project_people.xml and Greenfield_project_organizations.xml.</p>
+        <p>See project web site at www.hsp.org for full description of the editorial practices in
+          the Greenfield Digital Project.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
+        <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
+        <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
+        <rendition scheme="css" xml:id="crossed-through">text-decoration: line-through</rendition>
+        <rendition scheme="other" xml:id="printed"/>
+        <rendition scheme="other" xml:id="typescript"/>
+        <rendition scheme="other" xml:id="handwritten"/>
+        <rendition scheme="other" xml:id="handwritten-underlined"/>
+        <rendition scheme="other" xml:id="handwritten-circled"/>
+        <rendition scheme="other" xml:id="handwritten-crossed-through"/>
+        <rendition scheme="other" xml:id="double-underline"/>
+        <rendition scheme="other" xml:id="stamp"/>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+
+    <profileDesc>
+      <textClass>
+        <catRef target="Greenfield_project_genres.xml#correspondence"/>
+        <catRef target="Greenfield_project_taxonomies.xml#trouble"/>
+      </textClass>
+    </profileDesc>
+
+    <revisionDesc>
+      <change who="DanaDorman" when="2012-11-13">Made proofreading changes, including updating
+        schema.</change>
+      <change who="FaithCharlton" when="2012-04-23">Updated to match schema revised 4/12/12, using
+        Greenfield_schema7.xml.</change>
+      <change who="DanaDorman" when="2011-08-03">Updated file to list DAMS file name
+        details.</change>
+      <change who="DanaDorman" when="2011-07-20">Updated file to link to revised schema,
+        Greenfield_schema6.rnc.</change>
+      <change who="DanaDorman" when="2011-06-07">Updated to match new schema,
+        Greenfield_schema5.xml.</change>
+    </revisionDesc>
+  </teiHeader>
+
+  <facsimile>
+    <graphic url="90;5284-1959_b140f2_22.tif"/>
+    <graphic url="90;5284-1959_b140f2_23.tif"/>
+  </facsimile>
+
+  <text>
+    <body>
+      <div type="letterhead" rendition="#printed" n="1">
+        <pb n="1" facs="5284-1959_b140f2_22.tif"/>
+        <p><orgName ref="Greenfield_project_organizations.xml#Bankers_Trust">BANKERS TRUST
+            COMPANY</orgName></p>
+        <p>OF PHILADELPHIA</p>
+        <p>WALNUT STREET AT JUNIPER</p>
+      </div>
+
+      <div type="letter" rendition="#typescript" n="2">
+        <opener><dateline><date when="1930-08-19">August 19, 1930</date></dateline>
+          <persName ref="Greenfield_project_people.xml#Greenfield_Albert">Mr. Albert M.
+            Greenfield</persName> Walnut and Juniper Streets Philadelphia, Pa.<salute>Dear Mr.
+            Greenfield:</salute></opener>
+
+        <p>There is a matter in connection with the <orgName
+            ref="Greenfield_project_organizations.xml#Womens_Medical_College">Women's Medical
+            College</orgName> which needs no action at the present time, but of which I think it
+          well to inform you as you may be able to do something regarding it in the future.</p>
+
+        <p>You have already been somewhat in touch with the situation in reference to the buildings
+          on N. College Avenue and no doubt with an institution of this kind, you may in the future
+          be consulted or interested in some of its various angles. The Finance Committee consists
+          of <persName ref="Greenfield_project_people.xml#Ritter_Sheldon">Mr. Sheldon P.
+            Ritter</persName>, <persName ref="Greenfield_project_people.xml#Middleton_Clara">Miss
+            Clara Middleton</persName>, <persName ref="Greenfield_project_people.xml#Gates_Jay">Mr.
+            Jay Gates</persName>, <persName ref="Greenfield_project_people.xml#Starr_Mrs_James">Mrs.
+            James Starr</persName>, and <rs ref="Greenfield_project_people.xml#Smith_Ely"
+            >myself</rs>. The <orgName
+            ref="Greenfield_project_organizations.xml#Pennsylvania Company">Pennsylvania
+            Company</orgName>, at the present time, <sic>is fiscal agent</sic>. This is mainly due
+          to the fact that they made a temporary loan of $100,000 secured by a mortgage upon the N.
+          College Avenue buildings several years ago. They hold in their Trust Department endowment
+          funds of the college and hospital amounting, at the present time, to about $800,000. They
+          are paid $500 a year for clerical work in handling this fund, which is an inadequate
+          payment for the work involved. With the building of the new hospital in Germantown and the
+          growing activity of the institution, there will be more funds of various kinds to handle
+          including a larger current bank account.</p>
+
+        <p>As you are probably aware, there is a very active group of people connected with this
+          institution, who could be very useful friends of the Bankers Trust Company. They do not
+          mean so much to the Pennsylvania Company, but they would mean a lot to us. Furthermore, if
+          we could get the endowment funds transferred to us, it would swell our Trust
+            <sic>fund</sic> figures considerably. It may or may not be necessary to take over the
+          $100,000 loan. That may solve itself in the sale of the College Avenue buildings.</p>
+
+        <pb n="2" facs="5284-1959_b140f2_23.tif"/>
+
+        <fw rendition="#printed">
+          <orgName ref="Greenfield_project_organizations.xml#Bankers_Trust">BANKERS TRUST
+            COMPANY</orgName> OF PHILADELPHIA WALNUT STREET AT JUNIPER </fw>
+
+        <fw>#2 <persName ref="Greenfield_project_people.xml#Greenfield_Albert">Mr. Albert M.
+            Greenfield</persName>
+          <date when="1930-08-19">August 19, 1930</date></fw>
+
+        <p>My thought in writing to you is to give you the entire picture to keep in mind so when
+          the occasion arises when you have any dealings with <persName
+            ref="Greenfield_project_people.xml#Starr_Mrs_James">Mrs. Starr</persName>, as you no
+          doubt will from time to time, that you can take whatever opportunity may present itself to
+          say a good word for us along the lines suggested.</p>
+
+        <closer><salute>Very truly yours,</salute>
+          <signed rendition="#handwritten"><persName ref="Greenfield_project_people.xml#Smith_Ely"
+              >Ely J. Smith</persName></signed> Trust Officer</closer>
+        <note>EJS:<persName ref="Greenfield_project_people.xml#T_H2">HT</persName></note>
+
+      </div>
+    </body>
+
+    <back/>
+  </text>
+</TEI>
