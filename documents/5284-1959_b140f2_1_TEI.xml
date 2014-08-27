@@ -1,12 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI>
+<?xml-stylesheet type="text/css" href="./tiny_TEI_template.css"?>
+<!-- ??The two lines of purple text above this comment are currently set to use a stylesheet from TEI training; we did not need to create an HSP-specific stylesheet. -->
+<?xml-model href="file:/G:/Education%20and%20Interpretation/Publications/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:gdp="http://www.hsp.org/ns/nonTEI">
 
   <teiHeader xml:lang="English">
 
     <fileDesc>
       <titleStmt>
         <title type="main">TEI transcription of telegram from Irland Beckman to Albert
-          Greenfield</title>
+          Greenfield - updated via git</title>
         <author>
           <persName>Beckman, Irland McKnight</persName></author>
         <respStmt>
