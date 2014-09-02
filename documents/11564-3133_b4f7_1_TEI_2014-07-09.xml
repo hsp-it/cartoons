@@ -15,16 +15,19 @@
                 <title type="main">TEI transcription for Letting the Cat Out of the Bag!!</title>
                 <respStmt>
                     <resp key="art">Artist</resp>
-                    <persName key="ENT.000003364">Maurer, Louis, 1832-1932</persName>
+                    <persName key="ENT.000003459">Maurer, Louis, 1832-1932</persName>
                 </respStmt>
                 <respStmt>
                     <resp key="trc">Transcribed by</resp>
-                    <persName key="ENT.000003371">Newhouse, Sarah</persName>
+                    <persName key="ENT.000003220">Newhouse, Sarah</persName>
                 </respStmt>
                 <respStmt>
                     <resp key="mrk">Encoded by</resp>
-                    <persName key="ENT.000003371">Newhouse, Sarah</persName>
-                    <persName key="ENT.000003343">Dorman, Dana</persName>
+                    <persName key="ENT.000003220">Newhouse, Sarah</persName>
+                </respStmt>
+                <respStmt>
+                    <resp key="mrk">Encoded by</resp>
+                    <persName key="ENT.000003528">Dorman, Dana</persName>
                 </respStmt>
                 <respStmt>
                     <resp key="pfr">Proofread by</resp>
@@ -40,7 +43,7 @@
                 <publisher><orgName key="ENT.000002473">Historical Society of
                     Pennsylvania</orgName></publisher>
                 <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
-                <idno type="filename">11564-3133_b4f7_1_TEI_2014-07-09.xml</idno>
+                <idno type="filename">11564-3133_b4f7_1_TEI_2014-07-09updated.xml</idno>
                 <availability status="restricted">
                     <p>Copyright 2014, Historical Society of Pennsylvania. HSP makes a claim of
                         copyright only to original contributions made by the Historic Images, New
@@ -96,12 +99,12 @@
                     <monogr>
                         <respStmt>
                             <resp key="art">Artist</resp>
-                            <persName><persName key="ENT.000003364">Maurer,
+                            <persName><persName key="ENT.000003459">Maurer,
                                 Louis</persName></persName>
                         </respStmt>
                         <title type="main" level="m">Letting the Cat Out of the Bag!!</title>
                         <imprint>
-                            <publisher><orgName key="ENT.000000844">Currier and
+                            <publisher><orgName key="ENT.000000386">Currier and
                                 Ives</orgName></publisher>
                             <pubPlace>New York, NY</pubPlace>
                             <date from="1855" to="1865">circa 1860</date>
@@ -115,8 +118,7 @@
                 <bibl>
                     <listRelation>
                         <relation name="depicted"
-                            active="ENT.000003352 ENT.000000447 ENT.000003376 ENT.000003383 ENT.000003283"
-                        />
+                            active="ENT.000003444 ENT.000000447 ENT.000003428 ENT.000003477"/>
                     </listRelation>
                 </bibl>
             </sourceDesc>
@@ -174,6 +176,8 @@
         </profileDesc>
 
         <revisionDesc>
+            <change who="DanaDorman" when="2014-08-26">Updated entity codes and media code to match
+                test DAMS system.</change>
             <change who="DanaDorman" when="2014-07-09">Changed people/org references to use entity
                 codes only, and switched attributes for those references to @key instead of
                 @ref.</change>
@@ -189,7 +193,9 @@
 
     <facsimile>
         <!-- ??The following text shows how to structure this section, but the URL information needs to be replaced with real text in order for this to validate. -->
-        <graphic url="FIL.000085217"/>
+        <surface>
+            <graphic url="FIL.000999000"/>
+        </surface>
 
     </facsimile>
 

@@ -17,11 +17,11 @@
           <persName key="ENT.000000011">Still, William, 1821-1902</persName></author>
         <respStmt>
           <resp key="trc">OCR transcription by</resp>
-          <orgName key="ENT.000003321">Internet Archive</orgName>
+          <orgName key="ENT.000003543">Internet Archive</orgName>
         </respStmt>
         <respStmt>
           <resp key="mrk">Encoded by</resp>
-          <persName key="ENT.000003343">Dorman, Dana</persName>
+          <persName key="ENT.000003528">Dorman, Dana</persName>
         </respStmt>
       </titleStmt>
 
@@ -33,7 +33,8 @@
         <publisher><orgName key="ENT.000002473">Historical Society of
           Pennsylvania</orgName></publisher>
         <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
-        <idno type="filename">10810-e441a58_v125_page302page303_174_TEI_TEST_2014-07-09.xml</idno>
+        <idno type="filename"
+          >10810-e441a58_v125_page302page303_174_TEI_TEST_2014-07-09updated.xml</idno>
         <availability status="restricted">
           <p>Copyright 2014, The Historical Society of Pennsylvania. HSP makes a claim of copyright
             only to original contributions made by the William Still Digital History Project
@@ -145,6 +146,8 @@
 
 
     <revisionDesc>
+      <change who="DanaDorman" when="2014-08-26">Updated entity codes and media code to match test
+        DAMS system.</change>
       <change who="DanaDorman" when="2014-07-09">Changed sample file people/org references to use
         entity codes only, and switched attributes for those references to @key instead of
         @ref.</change>
@@ -168,7 +171,9 @@
   </teiHeader>
 
   <facsimile>
-    <graphic url="FIL.000085269"/>
+    <surface>
+      <graphic url="FIL.000091799"/>
+    </surface>
 
   </facsimile>
 
@@ -176,10 +181,9 @@
     <front/>
     <body>
       <div n="1" type="chapter" rendition="#printed">
-        <!-- DLD: proofed against original 7-1-13 -->
-        <pb n="302" facs="FIL.000085269"/>
+        <pb n="302" facs="FIL.000091799"/>
         <figure>
-          <graphic url="FIL.000085269"/>
+          <graphic url="FIL.000091799"/>
           <figDesc>Illustration of a group of black men and women in two carriages.</figDesc>
         </figure>
         <head>ESCAPING WITH MASTER'S CARRIAGES AND HORSES.</head>
@@ -206,7 +210,7 @@
             key="ENT.000000011">NAME</persName>, and <persName key="ENT.000000011">NAME</persName>
           were the names of the children for whom she was willing to make any sacrifice. They were
           young, and unable to walk, and she was penniless, and unable to <pb n="303"
-            facs="FIL.000085269"/> hire a conveyance, even if she had known <sic>any one</sic> who
+            facs="FIL.000091799"/> hire a conveyance, even if she had known <sic>any one</sic> who
           would have been willing to risk the law in taking them a night's journey. So there was no
           hope in these directions. Her rude intellect being considered, she was entitled to a great
           deal of credit for seizing the horses and carriages belonging to <rs key="ENT.000000011"

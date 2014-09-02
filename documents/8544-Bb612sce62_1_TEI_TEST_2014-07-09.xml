@@ -23,12 +23,12 @@
                 </respStmt>
                 <respStmt>
                     <resp key="trc">Transcribed by</resp>
-                    <persName key="ENT.000003371">Newhouse, Sarah</persName>
+                    <persName key="ENT.000003220">Newhouse, Sarah</persName>
                 </respStmt>
                 <respStmt>
                     <resp key="mrk">Encoded by</resp>
-                    <persName key="ENT.000003371">Newhouse, Sarah</persName>
-                    <persName key="ENT.000003343">Dorman, Dana</persName>
+                    <persName key="ENT.000003220">Newhouse, Sarah</persName>
+                    <persName key="ENT.000003528">Dorman, Dana</persName>
                 </respStmt>
             </titleStmt>
 
@@ -40,7 +40,7 @@
                 <publisher><orgName key="ENT.000002473">Historical Society of
                     Pennsylvania</orgName></publisher>
                 <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
-                <idno type="filename">8544-Bb612sce62_1_TEI_2014-07-09.xml</idno>
+                <idno type="filename">8544-Bb612sce62_1_TEI_2014-07-09updated.xml</idno>
                 <availability status="restricted">
                     <p>Copyright 2014, Historical Society of Pennsylvania. HSP makes a claim of
                         copyright only to original contributions made by the Historic Images, New
@@ -87,7 +87,7 @@
                                 the <hi rendition="#underline">HUMANE</hi> BRITISH and their <hi
                                     rendition="#underline">WORTHY</hi> ALLIES</title>
                             <bibl>
-                                <date when="1812-01-01" to="1812-12-31">1812</date>
+                                <date from="1812-01-01" to="1812-12-31">1812</date>
                                 <extent>1 loose page</extent><extent>
                                     <dimensions type="image" unit="cm">
                                         <height quantity="14"/>
@@ -164,6 +164,8 @@
         </profileDesc>
 
         <revisionDesc>
+            <change who="DanaDorman" when="2014-08-26">Changed entity codes and media code to match #s in test
+                system.</change>
             <change who="DanaDorman" when="2014-07-09">Changed people/org references to use entity
                 codes only, and switched attributes for those references to @key instead of
                 @ref.</change>
@@ -179,7 +181,7 @@
 
     <facsimile>
         <surface ulx="" uly="" lrx="" lry="">
-            <graphic url="FIL.000054710"/>
+            <graphic url="FIL.000099240"/>
             <!-- images for this project will probably need to be put into a CA set for the demonstration exhibit -->
             <zone n="1" xml:id="title" points=""/>
             <zone n="2" xml:id="british-soldier" points=""/>
