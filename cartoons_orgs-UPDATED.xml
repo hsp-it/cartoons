@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="../../../../HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">TEI description of organizations mentioned and depicted in the
+                    Historic Images, New Technologies (HINT) Project</title>
+                <author>
+                    <persName key="ENT.000003526">Moloshok, Rachel</persName>
+                </author>
+                <author>
+                    <persName key="ENT.000003352">Newhouse, Sarah</persName>
+                </author>
+                <author>
+                    <persName key="ENT.000003528">Dorman, Dana</persName>
+                </author>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher><orgName key="ENT.000002473">Historical Society of
+                    Pennsylvania</orgName></publisher>
+                <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
+                <availability status="restricted">
+                    <p>Copyright 2014, The Historical Society of Pennsylvania. HSP makes a claim of
+                        copyright only to original contributions made by the Historic Images, New
+                        Technologies (HINT) Project participants and other staff. Permission is
+                        granted to download, transmit or otherwise reproduce, distribute or display
+                        the text contributions to this work claimed by HSP for non-profit
+                        educational purposes, provided that this header is included in its entirety.
+                        For inquiries about commercial uses, please contact the Historical Society
+                        of Pennsylvania. HSP retains the rights of all images unless otherwise
+                        noted. Possession of an HSP digital image does not constitute permission to
+                        use or publish it. Requests for digital imaging, other reproduction
+                        services, and the intended use of reproductions must be made in writing to
+                        the Rights and Reproductions Coordinator at rnr@hsp.org.</p>
+                </availability>
+                <date when="2014"/>
+            </publicationStmt>
+
+            <seriesStmt>
+                <title level="s" type="project" key="CARTOONS">Historic Images, New Technologies
+                    (HINT) Project</title>
+            </seriesStmt>
+
+            <sourceDesc>
+                <p>Born digital.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The Historic Images, New Technologies (HINT) project aims to enhance description
+                    and discovery of the Historical Society of Pennsylvania's graphics materials and
+                    promote the linking and sharing of content among institutions and scholars. The
+                    project will result in an update to HSP's digital image viewer and an online
+                    digital history exhibit, featuring 500 encoded political cartoons, that will
+                    demonstrate the new viewer's capabilities and provide interpretive and
+                    contextual materials to encourage users to interact with historical images in
+                    new ways. This project was funded by a grant from the National Historical
+                    Publications and Records Commission's (NHPRC) Innovation in Archives and
+                    Documentary Editing program.</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change who="HSP" when="2014-08-26">Exported from Collective Access.</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div type="ography">
+                <listOrg>
+
+
+                    <org xml:id="Congress">
+                        <orgName key="ENT.000001431">U.S. Congress</orgName>
+                    </org>
+
+                    <org xml:id="Courier_NY">
+                        <orgName key="ENT.000003317">New York Courier and Enquirer</orgName>
+
+                    </org>
+
+                    <org xml:id="Currier_Ives">
+                        <orgName key="ENT.000000844">Currier and Ives</orgName>
+
+                    </org>
+
+                    <org xml:id="DP">
+                        <orgName key="ENT.000003318">Democratic Party</orgName>
+                    </org>
+
+                    <org xml:id="EIC">
+                        <orgName key="ENT.000000637">East India Company</orgName>
+                    </org>
+
+                    <org xml:id="Freedmens_Bureau">
+                        <orgName key="ENT.000003319">Freedmen's Bureau</orgName>
+                        <orgName type="alt">Bureau of Refugees, Freedmen, and Abandoned
+                            Lands</orgName>
+                        <note type="org"><p><persName ref="cartoons_people.xml#Lincoln_Abraham"
+                                    >Abraham Lincoln</persName> established the Freedmen's Bureau
+                                (also known as the Bureau of Refugees, Freedmen, and Abandoned
+                                Lands), in <date when="1865">1865</date>, via the passing of the
+                                Freedmen's Bureau Bill.</p></note>
+                        <bibl>Wikipedia. "Freedmen's Bureau." <ref
+                                target="http://en.wikipedia.org/wiki/Freedmen's_Bureau"
+                                >http://en.wikipedia.org/wiki/Freedmen's_Bureau</ref> (accessed June
+                            2, 2014).</bibl>
+                    </org>
+
+                    <org xml:id="HSP">
+                        <orgName key="ENT.000002473">Historical Society of Pennsylvania</orgName>
+                    </org>
+
+
+
+                </listOrg>
+            </div>
+        </body>
+    </text>
+</TEI>

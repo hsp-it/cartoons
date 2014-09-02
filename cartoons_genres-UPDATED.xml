@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?xml-model href="../../../../HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">TEI description of genres for the Historic Images, New
+                    Technologies (HINT) Digital History Project</title>
+                <author>
+                    <persName key="ENT.000003526">Moloshok, Rachel</persName>
+                </author>
+                <author>
+                    <persName key="ENT.000003352">Newhouse, Sarah</persName>
+                </author>
+                <author>
+                    <persName key="ENT.000003528">Dorman, Dana</persName>
+                </author>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher><orgName key="ENT.000002473">Historical Society of
+                    Pennsylvania</orgName></publisher>
+                <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
+                <availability status="restricted">
+                    <p>Copyright 2014, The Historical Society of Pennsylvania. HSP makes a claim of
+                        copyright only to original contributions made by the NHPRC Cartoons Digital
+                        History Project participants and other staff. Permission is granted to
+                        download, transmit or otherwise reproduce, distribute or display the text
+                        contributions to this work claimed by HSP for non-profit educational
+                        purposes, provided that this header is included in its entirety. For
+                        inquiries about commercial uses, please contact the Historical Society of
+                        Pennsylvania. HSP retains the rights of all images unless otherwise noted.
+                        Possession of an HSP digital image does not constitute permission to use or
+                        publish it. Requests for digital imaging, other reproduction services, and
+                        the intended use of reproductions must be made in writing to the Rights and
+                        Reproductions Coordinator at rnr@hsp.org.</p>
+                </availability>
+                <date when="2014"/>
+            </publicationStmt>
+
+            <seriesStmt>
+                <title level="s" type="project" key="CARTOONS">Historic Images, New Technologies
+                    (HINT) Project</title>
+            </seriesStmt>
+
+            <sourceDesc>
+                <p>Born digital.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The Historic Images, New Technologies (HINT) project aims to enhance description
+                    and discovery of the Historical Society of Pennsylvania's graphics materials and
+                    promote the linking and sharing of content among institutions and scholars. The
+                    project will result in an update to HSP's digital image viewer and an online
+                    digital history exhibit, featuring 500 encoded political cartoons, that will
+                    demonstrate the new viewer's capabilities and provide interpretive and
+                    contextual materials to encourage users to interact with historical images in
+                    new ways. This project was funded by a grant from the National Historical
+                    Publications and Records Commission's (NHPRC) Innovation in Archives and
+                    Documentary Editing program.</p>
+            </projectDesc>
+
+            <classDecl>
+                <taxonomy xml:id="LCTGM">
+                    <bibl>
+                        <title type="main">Library of Congress Thesaurus for Graphic
+                            Materials</title>
+                        <ref type="source" target="http://id.loc.gov/vocabulary/graphicMaterials"/>
+                    </bibl>
+                    <category xml:id="clippings"
+                        corresp="http://id.loc.gov/vocabulary/graphicMaterials/tgm002169">
+                        <catDesc>Clippings</catDesc>
+                    </category>
+                    <category xml:id="diaries"
+                        corresp="http://id.loc.gov/vocabulary/graphicMaterials/tgm003279">
+                        <!-- DLD 6_2_14: this LC TGM term isn't showing up in the Linked Data Services dataset right now, but it's unclear why. I've used the "contact us" feature on LC to see if I can get clarity, and in the meantime, have linked this to another term that doesn't give a 404 error. The correct code for diaries is tgm012350 -->
+                        <catDesc>Diaries</catDesc>
+                    </category>
+                    <category xml:id="drawings"
+                        corresp="http://id.loc.gov/vocabulary/graphicMaterials/tgm003279">
+                        <catDesc>Drawings</catDesc>
+                    </category>
+                    <category xml:id="engravings"
+                        corresp="http://id.loc.gov/vocabulary/graphicMaterials/tgm003610">
+                        <catDesc>Engravings</catDesc>
+                    </category>
+                    <category xml:id="intaglio"
+                        corresp="http://id.loc.gov/vocabulary/graphicMaterials/tgm005434">
+                        <catDesc>Intaglio prints</catDesc>
+                    </category>
+                    <category xml:id="lithographs"
+                        corresp="http://id.loc.gov/vocabulary/graphicMaterials/tgm006027">
+                        <catDesc>Lithographs</catDesc>
+                    </category>
+                    <category xml:id="books"
+                        corresp="http://id.loc.gov/vocabulary/graphicMaterials/tgm001221">
+                        <!-- this is for testing import only; not actually any books in HINT project -->
+                        <catDesc>Books</catDesc>
+                    </category>
+                    <category xml:id="radio_broadcasting"
+                        corresp="http://id.loc.gov/vocabulary/graphicMaterials/tgm008518">
+                        <!-- this is for testing import only; not actually any audio files in HINT project -->
+                        <catDesc>Radio Broadcasting</catDesc>
+                    </category>
+                    <category xml:id="sound_recording"
+                        corresp="http://id.loc.gov/vocabulary/graphicMaterials/tgm009871">
+                        <!-- this is for testing import only; not actually any audio files in HINT project -->
+                        <catDesc>Sound Recording</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+
+        <revisionDesc>
+            <change who="HSP" when="2014-08-26">Exported from Collective Access.</change>
+        </revisionDesc>
+
+    </teiHeader>
+
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

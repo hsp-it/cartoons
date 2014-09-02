@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?xml-model href="../../../../HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">TEI description of people mentioned and depicted in the Historic
+                    Images, New Technologies (HINT) Project</title>
+                <author>
+                    <persName key="ENT.000003526">Moloshok, Rachel</persName>
+                </author>
+                <author>
+                    <persName key="ENT.000003352">Newhouse, Sarah</persName>
+                </author>
+                <author>
+                    <persName key="ENT.000003528">Dorman, Dana</persName>
+                </author>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher><orgName key="ENT.000002473">Historical Society of
+                    Pennsylvania</orgName></publisher>
+                <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
+                <availability status="restricted">
+                    <p>Copyright 2014, The Historical Society of Pennsylvania. HSP makes a claim of
+                        copyright only to original contributions made by the Historic Images, New
+                        Technologies (HINT) Project participants and other staff. Permission is
+                        granted to download, transmit or otherwise reproduce, distribute or display
+                        the text contributions to this work claimed by HSP for non-profit
+                        educational purposes, provided that this header is included in its entirety.
+                        For inquiries about commercial uses, please contact the Historical Society
+                        of Pennsylvania. HSP retains the rights of all images unless otherwise
+                        noted. Possession of an HSP digital image does not constitute permission to
+                        use or publish it. Requests for digital imaging, other reproduction
+                        services, and the intended use of reproductions must be made in writing to
+                        the Rights and Reproductions Coordinator at rnr@hsp.org.</p>
+                </availability>
+                <date when="2014"/>
+            </publicationStmt>
+
+            <seriesStmt>
+                <title level="s" type="project" key="CARTOONS">Historic Images, New Technologies
+                    (HINT) Project</title>
+            </seriesStmt>
+
+            <sourceDesc>
+                <p>Born digital.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The Historic Images, New Technologies (HINT) project aims to enhance description
+                    and discovery of the Historical Society of Pennsylvania's graphics materials and
+                    promote the linking and sharing of content among institutions and scholars. The
+                    project will result in an update to HSP's digital image viewer and an online
+                    digital history exhibit, featuring 500 encoded political cartoons, that will
+                    demonstrate the new viewer's capabilities and provide interpretive and
+                    contextual materials to encourage users to interact with historical images in
+                    new ways. This project was funded by a grant from the National Historical
+                    Publications and Records Commission's (NHPRC) Innovation in Archives and
+                    Documentary Editing program.</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change who="HSP" when="2014-08-26">Exported from Collective Access.</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div type="ography">
+                <listPerson>
+
+
+                    <person xml:id="ENT.000003331">
+                        <persName>
+                            <forename type="first">John</forename>
+                            <surname>Bell</surname>
+                        </persName>
+                        <birth when="1796">1796</birth>
+                        <death when="1869">1869</death>
+                    </person>
+
+
+                    <person xml:id="ENT.000000447">
+                        <persName>
+                            <forename type="first">Abraham</forename>
+                            <surname>Lincoln</surname>
+                        </persName>
+                        <birth when="1809">1809</birth>
+                        <death when="1865">1865</death>
+                        <note type="biography">
+                            <p>Abraham Lincoln served as president of the United States from 1861
+                                until his assassination in 1865. He married <persName
+                                    ref="cartoons_people.xml#Lincoln_Mary_Todd">Mary Todd
+                                    Lincoln</persName> in <date when="1842">1842</date>.</p>
+                        </note>
+                    </person>
+
+                    <person xml:id="ENT.000000011">
+                        <!-- this is for testing online; not actually part of the HINT project -->
+                        <persName><forename type="first"
+                            >William</forename><surname>Still</surname></persName>
+                        <sex>M</sex>
+                        <birth when="1821">1821</birth>
+                        <death when="1902">1902</death>
+                        <note type="biography"><p>William Still was born in Burlington County, New
+                                Jersey, near Medford. His parents were both former slaves who
+                                escaped from their masters before William was born. Much of his
+                                childhood and young adult life was spent as a farmhand in New Jersey
+                                before he moved to Philadelphia in <date when="1844">1844</date>.
+                                There he took on odd jobs until he finally established himself as a
+                                clerk for the Pennsylvania Anti-Slavery Society in <date when="1847"
+                                    >1847</date>.</p>
+                            <p>Also in <date when="1847">1847</date>, William married Letitia George
+                                and they had four children. Letitia was a dressmaker who, for
+                                additional income, took boarders into the Still home in
+                                Philadelphia. She was a strong supporter of her husband's
+                                anti-slavery work and eventually witnessed and oversaw the
+                                transformation of her household from a home and boarding house into
+                                a frequent stop for fugitive slaves on the Underground Railroad in
+                                Philadelphia. The famous Henry "Box" Brown, for example, spent two
+                                nights in the Still home. By the latter half of the nineteenth
+                                century, however, Letitia's primary occupation concerned the
+                                business of running her household as the need to provide shelter for
+                                escaped slaves waned and the Still family was, by then, wealthy (one
+                                writer indicates that Still's "personal fortune was nearly $1
+                                million" at the time of his death in <date when="1902">1902</date>).
+                                The Still children likewise benefited from the family's financial
+                                security and their parents' ambition and dedication to social
+                                causes. Caroline Still, the eldest of the Still children, attended
+                                Oberlin College in Ohio and went on to become one of the first
+                                African American female physicians in Pennsylvania. She was an
+                                advocate for temperance, education, and the improvement of the
+                                conditions of the poor among other causes.</p>
+                            <p>Though William Still himself was mostly self-educated, he excelled as
+                                a clerk at the Pennsylvania Anti-Slavery Society, was eventually
+                                appointed secretary and chairman of the Vigilance Committee in <date
+                                    when="1852">1852</date>, and kept meticulous records of that
+                                committee's efforts throughout the 1850s. His book, <hi
+                                    rendition="#italics">The Underground Rail Road</hi>, published
+                                in <date when="1872">1872</date>, and his "Journal C" (which
+                                included records of the committee's finances), are the definitive
+                                sources regarding the Vigilance Committee's efforts. During his time
+                                working with the Pennsylvania Anti-Slavery Society, William was
+                                reunited with his brother, Peter, who had been kidnapped and sold
+                                into slavery forty years before the brothers' reunion. William
+                                Still's work, then, connected him with his own family, thousands of
+                                fugitive slaves, abolitionists, and many of the most prominent
+                                figures in Philadelphia, and, indeed, the United States.</p>
+                            <p>Despite his ambitious work on the Underground Railroad and for the
+                                Vigilance Committee, Still took on additional causes and occupations
+                                beyond abolition. He protested against racial discrimination in
+                                Philadelphia's railroad cars, organized a Young Men's Christian
+                                Association (YMCA) for young blacks, and served on the Freedman's
+                                Aid Commission which offered assistance to newly-freed African
+                                Americans after the U.S. Civil War. After ending his employment with
+                                the Pennsylvania Anti-Slavery Society in <date when="1861"
+                                    >1861</date>, Still also sold stoves and coal in Philadelphia
+                                and was, by his later years and until his death in <date when="1902"
+                                    >1902</date>, a successful businessman.</p>
+                        </note>
+                        <bibl>Calarco, Tom. <hi rendition="#italics">People of the Underground
+                                Railroad: A Biographical Dictionary</hi>. Westport, CT and London:
+                            Greenwood Press, 2008.</bibl>
+                        <bibl>Temple University Libraries. "William Still: An African-American
+                            Abolitionist." <ref
+                                target="http://stillfamily.library.temple.edu/people-and-places/still-william"
+                                >http://stillfamily.library.temple.edu/people-and-places/still-william</ref>
+                            (accessed 11/4/2013).</bibl>
+                        <bibl>Temple University Libraries. "Biography of Caroline Still Anderson."
+                                <ref
+                                target="http://stillfamily.library.temple.edu/historical-perspective/biography-caroline-still-ander"
+                                >http://stillfamily.library.temple.edu/historical-perspective/biography-caroline-still-ander</ref>
+                            (accessed 11/4/2013).</bibl>
+                    </person>
+
+                    <person xml:id="ENT.000003382">
+                        <persName>
+                            <forename type="first">John</forename>
+                            <surname>Stuart</surname>
+                        </persName>
+                        <persName type="alt">
+                            <addName type="honorific">Third Earl of Bute</addName>
+                        </persName>
+                        <birth when="1713">1713</birth>
+                        <death when="1792">1792</death>
+                    </person>
+
+
+                </listPerson>
+            </div>
+        </body>
+    </text>
+</TEI>

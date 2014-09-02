@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/css" href="./tiny_TEI_template.css"?>
+<!-- ??The two lines of purple text above this comment need to be updated based on our final, actual schema. This is currently set to use the schema from TEI training. -->
+
+
+<?xml-model href="../../../../HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+
+    <teiHeader xml:lang="English">
+
+        <fileDesc>
+
+            <titleStmt>
+                <title type="main">TEI transcription for Letting the Cat Out of the Bag!!</title>
+                <respStmt>
+                    <resp key="art">Artist</resp>
+                    <persName key="ENT.000003364">Maurer, Louis, 1832-1932</persName>
+                </respStmt>
+                <respStmt>
+                    <resp key="trc">Transcribed by</resp>
+                    <persName key="ENT.000003371">Newhouse, Sarah</persName>
+                </respStmt>
+                <respStmt>
+                    <resp key="mrk">Encoded by</resp>
+                    <persName key="ENT.000003371">Newhouse, Sarah</persName>
+                    <persName key="ENT.000003343">Dorman, Dana</persName>
+                </respStmt>
+                <respStmt>
+                    <resp key="pfr">Proofread by</resp>
+                    <persName><!-- ??Whoever the other responsible parties are; use additional respStmt's for each additional person/role --></persName>
+                </respStmt>
+            </titleStmt>
+
+            <editionStmt>
+                <p>First edition, <date when="2014">2014</date></p>
+            </editionStmt>
+
+            <publicationStmt>
+                <publisher><orgName key="ENT.000002473">Historical Society of
+                    Pennsylvania</orgName></publisher>
+                <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
+                <idno type="filename">11564-3133_b4f7_1_TEI_2014-07-09.xml</idno>
+                <availability status="restricted">
+                    <p>Copyright 2014, Historical Society of Pennsylvania. HSP makes a claim of
+                        copyright only to original contributions made by the Historic Images, New
+                        Technologies (HINT) Project participants and other staff. HSP makes no claim
+                        of copyright to the original text. Permission is granted to download,
+                        transmit or otherwise reproduce, distribute or display the text
+                        contributions to this work claimed by HSP for non-profit educational
+                        purposes, provided that this header is included in its entirety. For
+                        inquiries about commercial uses, please contact the Historical Society of
+                        Pennsylvania. HSP retains the rights of all images unless otherwise noted.
+                        Possession of an HSP digital image does not constitute permission to use or
+                        publish it. Requests for digital imaging, other reproduction services, and
+                        the intended use of reproductions must be made in writing to the Rights and
+                        Reproductions Coordinator at rnr@hsp.org.</p>
+                </availability>
+                <date when="2014"/>
+            </publicationStmt>
+
+            <seriesStmt>
+                <title level="s" type="project" key="CARTOONS">Historic Images, New Technologies
+                    (HINT) Project</title>
+            </seriesStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository key="ENT.000002473">Historical Society of Pennsylvania,
+                            Philadelphia, PA</repository>
+                        <collection key="3133">Historical Society of Pennsylvania Cartoons and
+                            Caricatures Collection</collection>
+                        <idno type="citation"><idno type="box">4</idno>
+                            <idno type="folder">7</idno></idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <bibl><date from="1855-01-01" to="1865-12-31">circa 1860</date><extent>1
+                                    loose page</extent>
+                                <extent><!-- Best Practices v3.0. recommends use of two extent fields: one for the the item, the other for its physical dimensions. To enable Collective Access "roundtripping," encode physical dimensions within extent using the dimensions element -->
+                                    <dimensions type="image" unit="cm">
+                                        <height quantity="10"/>
+                                        <!-- dummy value for import testing -->
+                                        <width quantity="12"/>
+                                        <!-- dummy value for import testing -->
+                                    </dimensions>
+                                </extent></bibl>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <acquisition/>
+                    </history>
+                </msDesc>
+                <biblStruct>
+                    <monogr>
+                        <respStmt>
+                            <resp key="art">Artist</resp>
+                            <persName><persName key="ENT.000003364">Maurer,
+                                Louis</persName></persName>
+                        </respStmt>
+                        <title type="main" level="m">Letting the Cat Out of the Bag!!</title>
+                        <imprint>
+                            <publisher><orgName key="ENT.000000844">Currier and
+                                Ives</orgName></publisher>
+                            <pubPlace>New York, NY</pubPlace>
+                            <date from="1855" to="1865">circa 1860</date>
+                        </imprint>
+
+                    </monogr>
+                    <relatedItem type="references" target="2189-3133_b5f20_1_TEI_TEST_2014-07-09"/>
+                    <!-- doesn't actually reference, just encoded to test import -->
+                    <!-- Use to relatedItem here AS NEEDED to reference related objects (NOT collections or entities) in Collective Access. Use @target to identify filename.  -->
+                </biblStruct>
+                <bibl>
+                    <listRelation>
+                        <relation name="depicted"
+                            active="ENT.000003352 ENT.000000447 ENT.000003376 ENT.000003383 ENT.000003283"
+                        />
+                    </listRelation>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <projectDesc>
+                <p>The Historic Images, New Technologies (HINT) project aims to enhance description
+                    and discovery of the Historical Society of Pennsylvania's graphics materials and
+                    promote the linking and sharing of content among institutions and scholars. The
+                    project will result in an update to HSP's digital image viewer and an online
+                    digital history exhibit, featuring 500 encoded political cartoons, that will
+                    demonstrate the new viewer's capabilities and provide interpretive and
+                    contextual materials to encourage users to interact with historical images in
+                    new ways. This project was funded by a grant from the National Historical
+                    Publications and Records Commission's (NHPRC) Innovation in Archives and
+                    Documentary Editing program</p>
+            </projectDesc>
+            <editorialDecl n="4">
+                <p><!-- ??This is where we'd describe any notable editorial decisions made about THIS document during encoding; use multiple p elements to list each. FYI, the @n of "4" shows that we're matching Library Best Practices of level 4. made for the NHPRC Political Cartoons Digital History Project. --></p>
+                <p>This electronic file was created using manual keying following the
+                    recommendations for Level 4 of "Best Practices for TEI in Libraries" guidelines
+                    v3.0.</p>
+                <p>This XML file uses unique entity identifiers, media file identifiers, and
+                    collection identifiers in HSP's Digital Library, available at
+                    http://digitallibrary.hsp.org</p>
+
+            </editorialDecl>
+            <tagsDecl>
+                <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
+                <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
+                <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
+                <rendition scheme="css" xml:id="crossed-through">text-decoration:
+                    line-through</rendition>
+                <rendition scheme="other" xml:id="printed"/>
+                <rendition scheme="other" xml:id="typescript"/>
+                <rendition scheme="other" xml:id="handwritten"/>
+                <rendition scheme="other" xml:id="handwritten-underlined"/>
+                <rendition scheme="other" xml:id="handwritten-circled"/>
+                <rendition scheme="other" xml:id="handwritten-crossed-through"/>
+                <rendition scheme="other" xml:id="double-underline"/>
+                <rendition scheme="other" xml:id="stamp"/>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+        </encodingDesc>
+
+        <profileDesc>
+            <textClass>
+                <catRef target="cartoons_taxonomies.xml#presidential_elections"/>
+                <catRef target="cartoons_genres.xml#lithographs"/>
+
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change who="DanaDorman" when="2014-07-09">Changed people/org references to use entity
+                codes only, and switched attributes for those references to @key instead of
+                @ref.</change>
+            <change who="DanaDorman" when="2014-06-23">Added more corrections for canonical TEI
+                plans.</change>
+            <change who="DanaDorman" when="2014-05-20">Updated file to match canonical TEI
+                plans.</change>
+            <change who="RachelMoloshok" when="2014-03-13">Additional sample encoding added for
+                import testing</change>
+            <change who="SarahNewhouse" when="2014-02-07">Shell file created</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <facsimile>
+        <!-- ??The following text shows how to structure this section, but the URL information needs to be replaced with real text in order for this to validate. -->
+        <graphic url="FIL.000085217"/>
+
+    </facsimile>
+
+    <text>
+        <!-- ??See separate ODD file with full encoding guidelines. -->
+        <front>
+            <div type="editorial_desc" n="1">
+                <p>Radical antislavery senator <persName key="ENT.000003383">Charles
+                        Sumner</persName> releases a snarling cat, labeled "Spirit of Discord," from
+                    the "Republican Bag." Horace Greeley, Abraham Lincoln, Henry J. Raymond, and
+                    William H. Seward, worried that perceived Republican opposition to slavery will
+                    doom Lincoln's hopes for the presidential election of <date when="1860"
+                        >1860</date>, express alarm. <!-- test description --></p>
+            </div>
+        </front>
+        <body>
+            <div type="section"/>
+        </body>
+
+    </text>
+</TEI>
