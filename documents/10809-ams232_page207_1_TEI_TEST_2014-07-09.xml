@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="./tiny_TEI_template.css"?>
+
+
+<?xml-model href="../../../../HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+
+            <titleStmt>
+                <title type="main">TEI transcription of entry for November 8, 1855 from Journal C of
+                    Station No. 2 of the Underground Railroad, Agent William Still,
+                    1852-1857</title>
+                <author>
+                    <persName key="ENT.000000011">Still, William, 1821-1902</persName>
+                </author>
+                <respStmt>
+                    <resp key="trc">Transcribed by</resp>
+                    <persName key="ENT.000003354">Hinks, Peter</persName>
+                </respStmt>
+                <respStmt>
+                    <resp key="mrk">Encoded by</resp>
+                    <persName key="ENT.000003368">Moloshok, Rachel</persName>
+                </respStmt>
+                <respStmt>
+                    <resp key="mrk">Encoded by</resp>
+                    <persName key="ENT.000003343">Dorman, Dana</persName>
+                </respStmt>
+                <respStmt>
+                    <resp key="pfr">Proofread by</resp>
+                    <persName key="ENT.000003371">Newhouse, Sarah</persName>
+                </respStmt>
+            </titleStmt>
+
+            <editionStmt>
+                <p>First edition, <date when="2014">2014</date></p>
+            </editionStmt>
+
+            <publicationStmt>
+                <publisher>
+                    <orgName key="ENT.000002473">Historical Society of Pennsylvania</orgName>
+                </publisher>
+                <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
+                <idno type="filename">10809-ams232_page207_1_TEI_TEST_2014-07-09.xml</idno>
+                <availability status="restricted">
+                    <p>Copyright 2014, Historical Society of Pennsylvania. HSP makes a claim of
+                        copyright only to original contributions made by the William Still Digital
+                        History Project participants and other staff. HSP makes no claim of
+                        copyright to the original text. Permission is granted to download, transmit
+                        or otherwise reproduce, distribute or display the text contributions to this
+                        work claimed by HSP for non-profit educational purposes, provided that this
+                        header is included in its entirety. For inquiries about commercial uses,
+                        please contact the Historical Society of Pennsylvania. HSP retains the
+                        rights of all images unless otherwise noted. Possession of an HSP digital
+                        image does not constitute permission to use or publish it. Requests for
+                        digital imaging, other reproduction services, and the intended use of
+                        reproductions must be made in writing to the Rights and Reproductions
+                        Coordinator at rnr@hsp.org.</p>
+                </availability>
+                <date when="2014"/>
+            </publicationStmt>
+
+            <seriesStmt>
+                <title level="s" type="project" key="STILLFAM">William Still Digital History
+                    Project</title>
+            </seriesStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository key="ENT.000002473">Historical Society of Pennsylvania,
+                            Philadelphia, PA</repository>
+                        <idno type="citation">AmS .232</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <title type="main" level="a">Journal entry</title>
+                            <author>
+                                <persName key="ENT.000000011">Still, William, 1821-1902</persName>
+                            </author>
+                            <title type="main" level="u">Journal C of Station No. 2 of the
+                                Underground Railroad, Agent William Still, 1852-1857</title>
+                            <bibl>
+                                <date from="1855-11-08">November 8, 1855</date>
+                                <extent>2 bound pages</extent>
+                            </bibl>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <acquisition>Held in trust by HSP on behalf of the Pennsylvania Abolition
+                            Society</acquisition>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <projectDesc>
+                <p>The William Still Digital History Project weaves new connections between the
+                    manuscript journal and published book of William Still, known as the "Father of
+                    the Underground Railroad." Through text encoding, mapping, and other
+                    interpretive and contextual resources, this project will provide insight into
+                    the experiences of enslaved individuals and families who passed through
+                    Philadelphia between 1852 and 1857 and the covert networks that aided their
+                    escape.</p>
+            </projectDesc>
+            <editorialDecl n="4">
+                <p>This electronic file was created using manual keying following the
+                    recommendations for Level 4 of "Best Practices for TEI in Libraries" guidelines
+                    v3.0.</p>
+                <p>We have generally encoded entire documents/texts, not excerpts. We have encoded
+                    page breaks. We have also preserved original spelling, typographical errors,
+                    missing text, and original capitalization. We have regularized spacing between
+                    words and sentences to replace double (or triple) spaces to a single space.</p>
+                <p>We have not coded line breaks, end-of-line hyphenation, visual rendition of
+                    layout, font changes, or text alignment (left, right, center).</p>
+                <p>Annotation on people and organizations coded in this document can be found in
+                    Still_project_people.xml and Still_project_organizations.xml.</p>
+                <p>See project web site at http://hsp.org/underground-railroad for full description
+                    of the editorial practices in the William Still Digital History Project.</p>
+                <p>This XML file uses unique entity identifiers, media file identifiers, and
+                    collection identifiers in HSP's Digital Library, available at
+                    http://digitallibrary.hsp.org</p>
+            </editorialDecl>
+            <tagsDecl>
+                <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
+                <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
+                <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
+                <rendition scheme="css" xml:id="crossed-through">text-decoration:
+                    line-through</rendition>
+                <rendition scheme="other" xml:id="printed"/>
+                <rendition scheme="other" xml:id="typescript"/>
+                <rendition scheme="other" xml:id="handwritten"/>
+                <rendition scheme="other" xml:id="handwritten-underlined"/>
+                <rendition scheme="other" xml:id="handwritten-circled"/>
+                <rendition scheme="other" xml:id="handwritten-crossed-through"/>
+                <rendition scheme="other" xml:id="double-underline"/>
+                <rendition scheme="other" xml:id="stamp"/>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+        </encodingDesc>
+
+        <profileDesc>
+            <textClass>
+                <catRef target="cartoons_genres.xml#books"/>
+                <catRef target="cartoons_taxonomies.xml#Shephard"/>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change who="DanaDorman" when="2014-07-09">Changed sample file to update people/org
+                references to use entity codes only, and switched attributes for those references to
+                @key instead of @ref.</change>
+            <change who="DanaDorman" when="2014-06-23">Added more corrections for canonical TEI
+                plans.</change>
+            <change who="DanaDorman" when="2014-05-20">Updated file for testing HINT import tool;
+                switched to dummy text using HINT ographies and to match canonical TEI
+                plans.</change>
+            <change who="SarahNewhouse" when="2013-12-16">Added taxonomy tags.</change>
+            <change who="SarahNewhouse" when="2013-12-08">Made proofreading changes.</change>
+            <change who="SarahNewhouse" when="2013-10-08">Journal C excerpts copied into separate
+                files.</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <facsimile>
+        <graphic url="FIL.000078106"/>
+        <graphic url="FIL.000078107"/>
+    </facsimile>
+
+    <text>
+        <body>
+            <div type="entry" rendition="#handwritten">
+                <pb n="207" facs="FIL.000078106"/>
+                <!-- encoded DLD 8/28/13 -->
+                <addSpan type="used" spanTo="used207-208"/>
+                <p>(6) <date when="1855-11-08">Nov. 8/55</date>
+                    <add><hi rendition="#bold">(Cut)</hi></add> 11 head in carriages<sic>)</sic></p>
+                <p>Arrived_ <persName key="ENT.000000011">NAME</persName> of America Co. Md. arrived
+                    with her 5 children, as follows: <persName key="ENT.000000011">NAME</persName>,
+                        <persName key="ENT.000000011">NAME</persName>, <persName key="ENT.000000011"
+                        >NAME</persName>, <persName key="ENT.000000011">NAME</persName> &amp;
+                        <persName key="ENT.000000011">NAME</persName><note type="editorial" n="1"
+                            ><p>Because of her audacity in fleeing with so many children in their
+                            master's carriage, Harriet and her children and companions were closely
+                            pursued. She was assisted by <persName key="ENT.000000011"
+                                >NAME</persName>, a Quaker conductor in Wilmington, Delaware. He
+                            forwarded them safely to underground stations in southeastern
+                            Pennsylvania, from which they ultimately arrived in Philadelphia. Once
+                            there, the <persName key="ENT.000000011">NAME</persName> wasted no time
+                            in placing them on safe trains for Canada.</p></note>; all hail looking.
+                    Her <rs key="ENT.000000011">husband</rs>, who lived near Chestertown, was left
+                    behind.</p>
+                <p>Harriet left because she did not receive kind treatment from her <rs
+                        key="ENT.000000011">Mistress</rs>, besides her <rs key="ENT.000000011"
+                        >Master's <sic>Farther</sic></rs> was a "Georgia Trader", and she was
+                    fearful of falling into his hands.</p>
+                <p>To facilitate their flight the mother <pb n="208" facs="FIL.000078107"/> with her
+                    cildren, with 5 others helped themselves to their masters horses &amp; carriges
+                    (two carri<add>a</add>ges) and so came – rode into Wilmington, and from thence,
+                    after leaving the carriages, were sent <del>on</del> a by way.
+                        The<del>y</del><add>ir</add>
+                    <sic>oppertunities</sic> for improvement had not been favourable, evidently_ as
+                        <del>was the clearly evidenced by</del> their manners <del>and ways</del>
+                    indicated.</p>
+                <anchor xml:id="used207-208"/>
+            </div>
+
+        </body>
+    </text>
+</TEI>

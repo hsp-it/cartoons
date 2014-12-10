@@ -1,0 +1,442 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/css" href="./tiny_TEI_template.css"?>
+<!-- ??The two lines of purple text above this comment are currently set to use a stylesheet from TEI training; we did not need to create an HSP-specific stylesheet. -->
+
+
+<?xml-model href="../../../../HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:gdp="http://www.hsp.org/ns/nonTEI">
+
+  <teiHeader xml:lang="English">
+
+    <fileDesc>
+
+      <titleStmt>
+        <title type="main">TEI transcription of "State decrees liquidation of Bankers Trust"</title>
+        <author><persName key="ENT.000003387">unknown</persName></author>
+        <respStmt>
+          <resp key="trc">Transcribed by</resp>
+          <persName key="ENT.000003343">NAME</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="pfr">Proofread by</resp>
+          <persName key="ENT.000003343">Dorman, Dana</persName>
+        </respStmt>
+      </titleStmt>
+
+      <editionStmt>
+        <p>First edition, <date when="2014">2014</date></p>
+      </editionStmt>
+
+      <publicationStmt>
+        <publisher><orgName key="ENT.000002473">Historical Society of
+          Pennsylvania</orgName></publisher>
+        <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
+        <idno type="filename">5727-3344_b0f193132_5_TEI_TEST_2014-07-09.xml</idno>
+        <availability status="restricted">
+          <p>Copyright 2014, The Historical Society of Pennsylvania. HSP makes a claim of copyright
+            only to original contributions made by the Greenfield Digital Project participants and
+            other staff. HSP makes no claim of copyright to the original text. Permission is granted
+            to download, transmit or otherwise reproduce, distribute or display the text
+            contributions to this work claimed by HSP for non-profit educational purposes, provided
+            that this header is included in its entirety. For inquiries about commercial uses,
+            please contact the Historical Society of Pennsylvania. HSP retains the rights of all
+            images unless otherwise noted. Possession of an HSP digital image does not constitute
+            permission to use or publish it. Requests for digital imaging, other reproduction
+            services, and the intended use of reproductions must be made in writing to the Rights
+            and Reproductions Coordinator at rnr@hsp.org.</p>
+        </availability>
+        <date when="2014"/>
+      </publicationStmt>
+
+      <seriesStmt>
+        <title level="s" type="project" key="CARTOONS">Greenfield Digital Project</title>
+      </seriesStmt>
+
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository key="ENT.000002473">Historical Society of Pennsylvania, Philadelphia,
+              PA</repository>
+            <collection key="3344">Philadelphia Record News Clippings Morgue</collection>
+            <idno type="citation"><idno type="box">0</idno>0<idno type="folder">"Bankers Trust Co.
+                1931-32"</idno></idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <bibl><date from="1931-09-24">September 24, 1931</date><extent>1
+                clipping</extent></bibl>
+            </msItem>
+          </msContents>
+          <history>
+            <acquisition/>
+          </history>
+        </msDesc>
+        <biblStruct>
+          <analytic>
+            <author><persName key="ENT.000003387">Unknown</persName></author>
+            <title type="main" level="a">"State decrees liquidation of Bankers Trust"</title>
+          </analytic>
+          <monogr>
+            <author><orgName key="ENT.000000572">The Philadelphia Inquirer</orgName></author>
+            <title type="marc245a" level="j"><orgName key="ENT.000000572">The Philadelphia
+                Inquirer</orgName></title>
+            <imprint>
+              <publisher><orgName key="ENT.000000572">The Philadelphia
+                Inquirer</orgName></publisher>
+              <pubPlace>Philadelphia</pubPlace>
+              <date from="1931-09-24">September 24, 1931</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+
+    <encodingDesc>
+      <projectDesc>
+        <p>The Greenfield Digital Project interprets the story of Bankers Trust Company, a large
+          Philadelphia bank that failed in 1930, through a selection of primary source documents,
+          contextual essays, and teacher resources. The project is part of a larger effort funded by
+          the Albert M. Greenfield Foundation to make HSP's 20th-century holdings more
+          accessible.</p>
+      </projectDesc>
+      <editorialDecl n="4">
+        <p>This electronic file was created using manual keying following the recommendations for
+          Level 4 of "Best Practices for TEI in Libraries" guidelines v3.0.</p>
+        <p>We have generally encoded entire documents/texts, not excerpts. We have encoded page
+          breaks. We have also preserved original spelling, typographical errors, missing text, and
+          original capitalization. For clippings from newspapers or other publications, we have
+          transcribed just the text related to the article, ignoring other text or markings on the
+          page that were purposefully or inadvertently included during clipping. We have regularized
+          spacing between words and sentences to replace double (or triple) spaces to a single
+          space.</p>
+        <p>We have not coded line breaks, end-of-line hyphenation, visual rendition of layout, font
+          changes, or text alignment (left, right, center).</p>
+        <p>Annotation on people and organizations coded in this document can be found in
+          Greenfield_project_people.xml and Greenfield_project_organizations.xml.</p>
+        <p>See project web site at www.hsp.org for full description of the editorial practices in
+          the Greenfield Digital Project.</p>
+        <p>This XML file uses unique entity identifiers, media file identifiers, and collection
+          identifiers in HSP's Digital Library, available at http://digitallibrary.hsp.org</p>
+      </editorialDecl>
+      <tagsDecl>
+        <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
+        <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
+        <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
+        <rendition scheme="css" xml:id="crossed-through">text-decoration: line-through</rendition>
+        <rendition scheme="other" xml:id="printed"/>
+        <rendition scheme="other" xml:id="typescript"/>
+        <rendition scheme="other" xml:id="handwritten"/>
+        <rendition scheme="other" xml:id="handwritten-underlined"/>
+        <rendition scheme="other" xml:id="handwritten-circled"/>
+        <rendition scheme="other" xml:id="handwritten-crossed-through"/>
+        <rendition scheme="other" xml:id="double-underline"/>
+        <rendition scheme="other" xml:id="stamp"/>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+
+    <profileDesc>
+      <textClass>
+        <catRef target="cartoons.xml#books"/>
+        <catRef target="Greenfield_project_taxonomies.xml#core"/>
+        <catRef target="Greenfield_project_taxonomies.xml#intervention"/>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change who="DanaDorman" when="2014-07-09">Changed people/org references to use entity codes
+        only, and switched attributes for those references to @key instead of @ref.</change>
+      <change who="DanaDorman" when="2014-06-23">Added more corrections for canonical TEI
+        plans.</change>
+      <change who="DanaDorman" when="2014-05-20">Updated file for HINT import testing; updated
+        ography references to point to HINT ographies and made changes to match canonical TEI
+        plans.</change>
+      <change who="SarahNewhouse" when="2013-03-13">Made proofreading changes.</change>
+      <change who="FaithCharlton" when="2012-04-23">Updated to match schema revised 4/12/12, using
+        Greenfield_schema7.xml.</change>
+      <change who="DanaDorman" when="2011-07-20">Updated file to link to revised schema,
+        Greenfield_schema6.rnc.</change>
+      <change who="DanaDorman" when="2011-06-07">Updated to match new schema,
+        Greenfield_schema5.xml.</change>
+    </revisionDesc>
+  </teiHeader>
+
+  <facsimile>
+    <graphic url="FIL.000078073"/>
+    <graphic url="FIL.000041451"/>
+    <graphic url="FIL.000078073"/>
+    <graphic url="FIL.000041451"/>
+    <graphic url="FIL.000078073"/>
+    <graphic url="FIL.000041451"/>
+  </facsimile>
+
+  <text>
+    <body>
+      <pb n="1" facs="FIL.000078073"/>
+      <div rendition="#printed" type="clipping">
+        <opener>
+          <title level="a" type="main">STATE DECREES LIQUIDATION OF <orgName key="ENT.000001422"
+              >BANKERS TRUST</orgName></title><title type="sub"><persName key="ENT.000000011"
+              >NAME</persName> Denies Plea to Reopen; <orgName key="ENT.000000187">NAME</orgName>
+            Unable to Meet <rs key="ENT.000000187">NAME</rs>'s Terms</title><title type="sub"
+            >Backers Refuse to Abandon Reorganization Plan; 25 P. C. Preliminary Payment May Be Made
+            by <date when="1931-12">December</date></title><add type="stamp"><date when="1931-09-24"
+              >SEP 24 1931</date></add><figure>
+            <graphic url="FIL.000078073"/>
+            <figDesc>Photograph of William D. Gordon</figDesc>
+            <p><add rendition="#handwritten-circled"><unclear reason="handwriting"
+                >Inq.</unclear></add></p>
+            <head>WILLIAM D. GORDON</head>
+            <p>Secretary of the <orgName key="ENT.000000187">NAME</orgName>, who has ordered
+              liquidation of the Bankers Trust Company.</p>
+            <p><add rendition="#handwritten">Phila Banks</add></p>
+          </figure>
+        </opener>
+        <p>The <hi rendition="#handwritten-underlined">Bankers Trust Company</hi> will be liquidated
+          as soon as the necessary legal steps can be completed by Dr. William Gordon, Secretary of
+          the State Department of Banking, announced in Harrisburg last night.</p>
+        <p>He made no estimate of what percentage of their deposits the depositors might expect to
+          receive but stated that 25 <sic>per cent.</sic> of all deposits would be paid by straight
+          liquidation as soon as several <unclear reason="torn">legal</unclear> hurdles can be
+          cleared which <unclear reason="torn"/> probably will not be before <unclear reason="torn"
+            >early <date when="1931-12">December</date>.</unclear></p>
+        <p>In the face of his decision, supported by a lengthy statement in review of the situation,
+          both <persName key="ENT.000000011">NAME</persName>, president of the defunct institution
+          at Juniper and Walnut streets, and <persName key="ENT.000000011">NAME</persName>, counsel
+          for the Depositors' Committee, announced that the plan for reorganization will not be
+          abandoned.</p>
+        <p rendition="#bold">Backed by <persName key="ENT.000000011">NAME</persName></p>
+        <p>They were supported in this decision by Sidney J. Burgoyne, chairman of the committee
+          which has been at work for nine months attempting to prepare a plan which <fw
+            rendition="#bold">Continued on 12th Page, <sic>2d</sic> column</fw> would meet the
+          approval of the Banking Department.</p>
+        <p>"We do not take the position of <sic>believeing</sic> that Dr. Gordon's decision is
+          final," Mr. Shapiro said last night. "I am firmly of the opinion that we can still prove
+          to Dr. Gordon that reorganization of Bankers Trust Company, in conformity with our plan,
+          is not only a constructive move, but an imperative one.</p>
+        <p>"We believe that the straight liquidation of the bank not only will delay relief to the
+          depositors, who have suffered desperately already, but that it will measurably decrease
+          the amount of money which they might receive under a reorganization. I think that we can
+          persuade Dr. Gordon that the disposition of approximately $31,000,000 worth of <pb n="2"
+            facs="FIL.000041451"/> the present market is not a <unclear reason="torn">wise
+            move</unclear>, and is not one likely <unclear reason="torn">to</unclear> improve either
+          the business nor the banking situation in this city."</p>
+        <p rendition="#bold">Committee Summoned</p>
+        <p>He revealed that a meeting of the entire <orgName key="ENT.000000187">NAME</orgName> will
+          be held this morning in his office, where the situation will be discussed and some plan
+          for further pressing the attempt to reorganize the <rs key="ENT.000000187">NAME</rs> will
+          be taken. </p>
+        <p>"I must say that I am surprised," <persName key="ENT.000000011">NAME</persName> declared
+          last night, when asked to comment on <persName key="ENT.000000011">NAME</persName>'s
+          decision. "None the less, I am still persuaded that <orgName key="ENT.000000187"
+            >NAME</orgName> can be reopened under the reorganization plan now overwhelmingly
+          assented to by both stockholders and depositors. That plan will not be abandoned." </p>
+        <p>The <orgName key="ENT.000000187">NAME</orgName>'s decision to order liquidation of the
+          assets of the trust company, instead of approving the plan for reorganization, as had been
+          confidently hoped by the depositors and directors, was based upon the failure of the
+          depositors' committee to comply with two of the four conditions upon which Dr. Gordon
+          founded his approval of the attempt to devise a reorganization plan.</p>
+        <p rendition="#bold">Unable To Raise Fund</p>
+        <p>These were failures to raise the sum of $3,500,000 in cash, and the failure to obtain
+          officers and directors who would be of such standing in the community as not only to meet
+          the approval of the department, but as would also command the respect and confidence of
+          the community generally.</p>
+        <p>Both <persName key="ENT.000000011">NAME</persName> and <persName key="ENT.000000011"
+            >NAME</persName> confessed to such failure last night, but said that there were factors
+          in the situation which in their <unclear reason="torn">opinion</unclear> tended to
+          mitigate the importance of the conditions.</p>
+        <p>Dr. Gordon took up the matter in a 1200-word typewritten statement, issued at Harrisburg,
+          in which he traced every step taken since the Bankers Trust Company, at Juniper and Walnut
+          streets, closed its doors last <date when="1930-12-22">December 22</date>.</p>
+        <p>The reason for the voluntary closing of the doors by the directors, as announced at that
+          time, was "the steady seepage of deposits over a period of several months," actually
+          dating from the preceding <date when="1930-07">July</date>.</p>
+        <p>The most recent called statement of the institution prior to its closing, that of <date
+            when="1930-09">September, 1930</date>, listed the deposits at approximately $42,500,000.
+          The institution had approximately 105,000 depositors and operated nineteen branches.</p>
+        <p>In <ref target="5719-3344_b0f1930_4_TEI.xml">an address which he made on <date
+              when="1930-12-26">December 26</date> last</ref>, Mr. Barker told the men and women who
+          gathered in the <orgName key="ENT.000000187">NAME</orgName> to form a depositors'
+          committee, that the Bankers Trust had time and demands deposits totaling $34,500,000 and
+          that the institution's condition warranted the statement that depositors would be paid 100
+          cents <unclear reason="torn">on</unclear> the dollar, with a surplus of about $5,000,000
+          for stockholders.</p>
+        <p>A number of guesses at the condition of the bank have been made since that time, all of
+          them apocryphal, and conjectures as to the amount that the depositors will receive have
+          ranged anywhere from 40 to 70 cents on the dollar.</p>
+        <p rendition="#bold">Seek Former Firm's Funds</p>
+        <p>The first step toward liquidation will be instituting of legal proceedings to take
+          possession of the assets of the <orgName key="ENT.000000187">NAME</orgName>, which was
+          merged with Bankers Trust Company on <date when="1930-07-21">July 21, 1930</date>.</p>
+        <p>This was the largest of the eight consolidations that had been effected since <date
+            when="1926-12">December, 1926</date>, and, according to Dr. Gordon, the assets of the
+          last and largest of the consolidated institutions were being liquidated by "a joint
+          committee of that institution and by my deputy under a former agreement between that
+          institution and Bankers Trust Company."</p>
+        <p>Following that, an appraisal will be made of the assets of Bankers Trust, and thirty days
+          time shall be given for the filing of claims by all depositors and creditors.</p>
+        <p>"As soon as the necessary legal requirements are fulfilled," the statement says, "the
+          department will make a preliminary distribution of 25 <sic>per cent.</sic> to
+          depositors."</p>
+        <p rendition="#bold">Text of Statement</p>
+        <p>Dr. Gordon's statement follows:</p>
+        <p>"The Bankers Trust Company, of Philadelphia, was closed by resolution of its board of
+          directors and possession surrendered to the Secretary of Banking <date when="1930-12-22"
+            >December 22, 1930</date>. Before and since my appointment as Secretary of Banking the
+          Department of Banking has labored industriously to collect as rapidly as possible the
+          outstanding loans and obligations and convert them into cash <pb n="3"
+            facs="FIL.000078073"/>
+          <fw><orgName key="ENT.000000187">NAME</orgName>, THURSDAY MORNING, <unclear reason="torn"
+                ><date when="1931-09-24">SEPTEMBER</date></unclear>
+            <gap reason="torn"/></fw>
+          <fw rend="bold"><gap reason="torn"/>LIQUIDATION <unclear reason="torn">BANKERS</unclear>
+            TRUST</fw> toward meeting the deposit liability of approximately $28,000,000. Since the
+          department took possession, it has succeeded in paying off $9,000,000 of obligations owed
+          by Bankers Trust Company to other banking institutions, thereby regaining possession of
+          collateral which had been pledged for such loans. In addition, we have made collection of
+          cash which brings the cash balance to over $7,000,000.</p>
+        <p>"Since <date when="1931-04">April</date> a committee of depositors of the closed
+          institution has been engaged in a plan for a proposed reorganization of the bank and
+          opening of the central office by a new institution to be organized by the former
+          depositors and stockholders. This committee has worked untiringly to accomplish this
+          result.</p>
+        <p>"Through the co-operation of the Department of Banking, there was <pb n="4"
+            facs="FIL.000041451"/> passed by the Legislature and approved by <persName
+            key="ENT.000000011">NAME</persName> on <date when="1931-05-28">May 28, 1931</date>, an
+          Act of Assembly enlarging the powers of the <rs key="ENT.000000187">NAME</rs> and
+          conferring certain powers to aid in the effecting of reorganizations of banks, should
+          feasible plans be at hand.</p>
+        <p rendition="#bold">Four Demands Listed</p>
+        <p>"Four prerequisites, as absolutely essential to the successful accomplishment of the
+          proposed plan of reorganization, were stipulated by me:</p>
+        <p>"1. The raising of $3,500,000 in cash from the depositors of the existing institution
+          secured by collateral now held in my possession which is to be sold to the new company if
+          the same is organized, the selection of this collateral for sale to the new company
+          together with cash assets in my possession to be determined exclusively by me.</p>
+        <p>"2. Personnel consisting of officers and directors of the new institution entirely
+          acceptable to me and to be of such character as will unquestionably command the support
+          and confidence of the depositors and the public of Philadelphia.</p>
+        <p>"3. Evidence of payment of cash by the subscribing stockholders to the new company of
+          $800,000 for their stock subscriptions.</p>
+        <p>"4. Reasonable assurance to me that the new institution, if chartered, will be able to
+          continue functioning, and will not exist merely for the purpose of gradual liquidation by
+          the payment of depositors' claims.</p>
+        <p rendition="#bold">Urged Final Decision</p>
+        <p>"From the beginning I specified these conditions, and have rigidly adhered to them up
+          until the present time.</p>
+        <p>"I have given every aid and <unclear reason="torn">sympathetic </unclear> consideration
+          to the requests <gap reason="torn"/> time made by the depositors' committee, although I
+          have repeatedly urged a final decision in view of the necessity of the situation and of
+          the many inquiries being made of me and of my department by innumerable depositors whose
+          funds have been tied up in the closed institution.</p>
+        <p>"At first, it was believed that a decision on this matter of reorganization could be
+          attained during the latter part of June. However, at that time no substantial progress had
+          been made with respect to the obtaining of cash and of personnel. At the request of the
+          committee, I then granted an extension until July 15 to bring the problem to a conclusion.
+          While splendid efforts were made by the members of the depositors' committee they were
+          still unable to furnish me with a satisfactory personnel of officers and directors and
+          with evidence of the necessary cash on hand.</p>
+        <p rendition="bold">Extensions Granted</p>
+        <p>"To enable members of the committee to pursue certain lines of endeavor, at their
+          request, an <unclear reason="torn">extension</unclear> was given for final decision
+            <unclear reason="torn">until</unclear>
+          <date when="1931-08-15">August 15</date>. It was impressed on <unclear reason="torn"
+            >the</unclear> committee that in justice to the <unclear reason="torn">mass</unclear> of
+          depositors their efforts must be expedited. Subsequently, a joint meeting of the
+          stockholders and depositors' committee was held in my office to permit a presentation of
+          the status of the work of the latter committee. The depositors' committee submitted a new
+          plan and confidently stated that with a further extension of thirty days it could obtain
+          the necessary amount of cash to insure the opening of the new institution from a financial
+          standpoint, and would present a personnel of officers and directors which would meet the
+          requirements mentioned by me as well as meet the other stipulations.</p>
+        <p>"A further effort to co-operate with the committee was made by me when I granted an
+          extension until <date when="1931-09-21">September 21</date>, for a presentation of
+          evidence showing a final culmination of the plan in accordance with the four prerequisites
+          heretofore mentioned.</p>
+        <p>"On Friday, <date when="1931-09-18">September 18</date>, the committee met with me to
+          present its report. It reported that it had been unable to obtain the loan of $3,500,000,
+          which was one of the basic essentials to the plan. It also informed me that every effort
+          had been made to enlist the aid of outstanding types of business men and bankers to serve
+          as officers and directors of the proposed institution, but that their efforts to date had
+          been in vain.</p>
+        <p>"The committee requested a further extension of time to follow entirely new lines of
+          endeavor to raise the necessary cash, to obtain a satisfactory personnel, and to meet the
+          other requirements for the plan.</p>
+        <p rendition="#bold">Refuses Extension</p>
+        <p>"I informed the committee at this meeting that under no circumstances would I grant a
+          further extension without discussing the matter fully with Governor Pinchot on <date
+            when="1931-09-28">Monday</date>.</p>
+        <p>"Because of the legal phases involved, I had <persName key="ENT.000000011"
+            >NAME</persName>, Deputy Attorney General, present at the conference with the
+          Governor.</p>
+        <p>"After deliberate consideration, Governor Pinchot and I agreed to grant a final extension
+          of thirty days, namely, until Wednesday, <date when="1931-10-21">October 21</date>, to the
+          depositors' committee to enable it to determine whether it could successfully obtain the
+          required cash from the source outlined and to fulfill the other stipulations set forth by
+          me as essential for the reorganization of the trust company. Furthermore, it was
+          stipulated that this extension was being made with the express understanding that no other
+          request would be made directly or indirectly of the Governor or of me for a further
+          extension beyond <date when="1931-10-21">October 21, 1931</date>.</p>
+        <p>"After reviewing the agreement of extension subject to the conditions enumerated, the
+          committee returned the original agreement of extension unsigned and submitted therefore an
+          alternative agreement with material changes drawn up by the committee. In view of the
+          decision not to agree to the thirty days as a final extension as prescribed by me and in
+          view of the fact that to date, aside from the fact that the $3,500,000 in cash has not
+          been secured, the committee has not succeeded in obtaining a leadership for the new bank
+          of such executives and directors as would inspire the necessary confidence required to
+          hold a substantial part of the depositors with which the new bank would open and beyond
+          that would attract business to the bank, which would justify its existence.</p>
+        <p rendition="#bold">Aid Quest Fails</p>
+        <p>"In the last few weeks I have been cognizant that the situation was approaching the point
+          where a decision had to be conclusively made. In the event that this decision would be for
+          liquidation I, on my own initiative, made overtures to certain banking institutions to
+          come to the relief of <orgName key="ENT.000000187">NAME</orgName> by making available
+          promptly such a percentage of their <pb n="5" facs="FIL.000078073"/>
+          <fw><orgName key="ENT.000000187">NAME</orgName>, <date when="1931-09-24">THURSDAY MORNING,
+              SEPTEMBER</date>
+            <gap reason="torn"/></fw> deposits as to be agreed upon a safely and quickly realizable
+          in <unclear reason="torn">case</unclear> from the assets. Such a plan <unclear
+            reason="torn">could</unclear> have been consummated with <unclear reason="torn"
+            >the</unclear> Act of Assembly of <date when="1931-05-28">May 28, 1931</date>. However,
+          such efforts have proved unrealizable in view of the desire of these other institutions to
+          avoid the misunderstanding that might <unclear reason="torn">be</unclear> caused by the
+          appearance at their doors of large numbers of people making demands for funds under
+          misapprehensions as to the scope of relief being suggested.</p>
+        <p>"In view of the foregoing, I have no alternative except to proceed with an orderly
+          liquidation of the assets of <orgName key="ENT.000000187">NAME</orgName> in accordance
+          with the procedure fixed and the powers conferred upon me by the banking code of
+          Pennsylvania.</p>
+        <p rendition="#bold">Lauds Committee</p>
+        <p>"The <orgName key="ENT.000000187">NAME</orgName> worked faithfully and diligently in its
+          endeavor to effect a plan of reorganization. For several months it has given of its means,
+          time and ability <unclear reason="torn">to</unclear> this end. Unfortunately, through
+            <unclear reason="torn">a</unclear> combination of circumstances be- <pb n="6"
+            facs="FIL.000041451"/> yond its control, it has not been able to accomplish its
+          objectives. Nevertheless it is deserving of credit for its services.</p>
+        <p>"My first step will be to file the necessary proceedings to take possession of the assets
+          of the <orgName key="ENT.000000187">NAME</orgName>, which were being liquidated by a joint
+          committee of that institution and by my deputy under a former agreement between that
+          institution and <orgName key="ENT.000000187">NAME</orgName>. These assets now, therefore,
+          will be under my sole control and direction.</p>
+        <p>"In accordance with the law, I shall then proceed to have an appraisal prepared of all
+          the assets of Bankers Trust Company and of Bank of Philadelphia and Trust Company by
+          disinterested appraisers, and I shall give thirty days' time in accordance with the recent
+          enabling act for the filing of claims by all depositors and creditors.</p>
+        <p>"Soon as the necessary legal requirements are fulfilled the department will make a
+          preliminary distribution of 25 <sic>per cent.</sic> to depositors. Every effort will then
+          be made by me to realize as quickly as is practicable on the other assets of the bank, so
+          that the money can be paid out to depositors as quickly as it is humanly possible to do
+          so.</p>
+        <p>"The interest of the depositors is foremost in the minds of <persName key="ENT.000000011"
+            >NAME</persName> and of me, and the assets of the institution will be liquidated solely
+          by the <orgName key="ENT.000000187">NAME</orgName>, thus insuring liquidation by an
+          impartial agency which is interested only in obtaining the highest percentage on the
+          dollar for the depositors."</p>
+
+      </div>
+    </body>
+
+    <back/>
+  </text>
+</TEI>

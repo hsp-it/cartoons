@@ -1,0 +1,944 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/css" href="./tiny_TEI_template.css"?>
+<!-- ??The two lines of purple text above this comment need to be updated based on our final, actual schema. This is currently set to use the schema from TEI training. -->
+
+
+<?xml-model href="../../../../HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader xml:lang="English">
+
+    <fileDesc>
+
+      <titleStmt>
+        <title type="main">TEI transcription of Eternal Vigilance in Business</title>
+        <respStmt>
+          <resp key="pro">Produced by</resp>
+          <orgName key="ENT.000003320">Institute for Oral and Visual Education</orgName>
+        </respStmt>
+        <respStmt>
+          <resp key="pbl">Published by</resp>
+          <orgName key="ENT.000003320">Institute for Oral and Visual Education</orgName>
+        </respStmt>
+        <respStmt>
+          <resp key="trc">Transcribed by</resp>
+          <persName key="ENT.000003368">Moloshok, Rachel</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="pfr">Proofread by</resp>
+          <persName key="ENT.000003368">Moloshok, Rachel</persName>
+        </respStmt>
+      </titleStmt>
+
+      <editionStmt>
+        <p>First edition, <date when="2014">2014</date></p>
+      </editionStmt>
+
+      <publicationStmt>
+        <publisher><orgName key="ENT.000002473">Historical Society of
+          Pennsylvania</orgName></publisher>
+        <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
+        <idno type="filename">6236-3572_b15f5_pm_slp_TEST_2014-07-09.xml</idno>
+        <availability status="restricted">
+          <p>Copyright 2014, The Historical Society of Pennsylvania. HSP makes a claim of copyright
+            only to original contributions made by the Bank of America Digital Project participants
+            and other staff. HSP makes no claim of copyright to the original text. Permission is
+            granted to download, transmit or otherwise reproduce, distribute or display the text
+            contributions to this work claimed by HSP for non-profit educational purposes, provided
+            that this header is included in its entirety. For inquiries about commercial uses,
+            please contact the Historical Society of Pennsylvania. HSP retains the rights of all
+            images unless otherwise noted. Possession of an HSP digital image does not constitute
+            permission to use or publish it. Requests for digital imaging, other reproduction
+            services, and the intended use of reproductions must be made in writing to the Rights
+            and Reproductions Coordinator at rnr@hsp.org.</p>
+        </availability>
+        <date when="2014"/>
+      </publicationStmt>
+
+      <seriesStmt>
+        <title level="s" type="project" key="CARTOONS">Bank of America Digital Project</title>
+      </seriesStmt>
+
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository key="ENT.000002473">Historical Society of Pennsylvania, Philadelphia,
+              PA</repository>
+            <collection key="3572">Philadelphia Fellowship Commission Recordings</collection>
+            <idno type="citation">Box 1, disc 5, side A</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <bibl>
+                <date from="1943-01-01" to="1943-12-31">1943</date>
+              </bibl>
+            </msItem>
+          </msContents>
+
+          <history>
+            <acquisition>Transfer from the Balch Institute of Ethnic Studies
+              Collection.</acquisition>
+          </history>
+        </msDesc>
+        <biblStruct>
+          <analytic>
+            <title type="main" level="a">Eternal Vigilance in Business</title>
+          </analytic>
+          <monogr>
+            <title type="marc245a" level="s">Lest We Forget: Eternal Vigilance is the Price of
+              Liberty</title>
+            <imprint>
+              <publisher><orgName key="ENT.000003320">Institute for Oral and Visual
+                  Education</orgName></publisher>
+              <pubPlace>Washington, DC</pubPlace>
+              <date from="1943-01-01" to="1943-12-31">1943</date>
+              <biblScope>7th ser., no. 5</biblScope>
+            </imprint>
+            <extent>14 minutes, 50 seconds</extent>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+
+    <encodingDesc>
+      <projectDesc>
+        <p>The Bank of America Digital Project, "Preserving American Freedom," explores how
+          Americans have interpreted and fought for their freedoms from the 1600s to the present day
+          and how these freedoms have shaped America's history. To this end, the project presents a
+          selection of primary source documents from HSP's collection that illuminate conceptions,
+          facets, and conflicts of freedom, as well as interpretive and contextual essays and
+          resources for educators.</p>
+      </projectDesc>
+      <editorialDecl n="4">
+        <p><!-- ??This is where we'd describe any notable editorial decisions made about THIS document during encoding; use multiple p elements to list each. FYI, the @n of "4" shows that we're matching Library Best Practices of level 4.--></p>
+        <p>This electronic file was created using manual keying following the recommendations for
+          Level 4 of "Best Practices for TEI in Libraries" guidelines v3.0.</p>
+        <p>We have generally encoded entire documents/texts, not excerpts. We have encoded page
+          breaks. We have also preserved original spelling, typographical errors, missing text, and
+          original capitalization. For clippings from newspapers or other publications, we have
+          transcribed just the text related to the article, ignoring other text or markings on the
+          page that were purposefully or inadvertently included during clipping. We have regularized
+          spacing between words and sentences to replace double (or triple) spaces to a single
+          space.</p>
+        <p>We have not coded line breaks, end-of-line hyphenation, visual rendition of layout, font
+          changes, or text alignment (left, right, center).</p>
+        <p>Annotation on people and organizations coded in this document can be found in
+          Greenfield_project_people.xml and Greenfield_project_organizations.xml.</p>
+        <p>Some transcribed correspondence pulls text and coding for its letterhead from
+          Greenfield_project_letterheads.xml.</p>
+        <p>See project web site at www.hsp.org for full description of the editorial practices in
+          the Greenfield Digital Project.</p>
+        <p>This XML file uses unique entity identifiers, media file identifiers, and collection
+          identifiers in HSP's Digital Library, available at http://digitallibrary.hsp.org</p>
+      </editorialDecl>
+      <tagsDecl>
+        <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
+        <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
+        <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
+        <rendition scheme="css" xml:id="crossed-through">text-decoration: line-through</rendition>
+        <rendition scheme="other" xml:id="printed"/>
+        <rendition scheme="other" xml:id="typescript"/>
+        <rendition scheme="other" xml:id="handwritten"/>
+        <rendition scheme="other" xml:id="handwritten-underlined"/>
+        <rendition scheme="other" xml:id="handwritten-circled"/>
+        <rendition scheme="other" xml:id="handwritten-crossed-through"/>
+        <rendition scheme="other" xml:id="double-underline"/>
+        <rendition scheme="other" xml:id="stamp"/>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+
+    <profileDesc>
+      <textClass>
+        <catRef target="cartoons_genres.xml#radio_broadcasting"/>
+        <catRef target="cartoons_genres.xml#sound_recording"/>
+        <catRef target="cartoons_taxonomies.xml#war"/>
+        <catRef target="cartoons_taxonomies.xml#economic"/>
+      </textClass>
+    </profileDesc>
+
+    <revisionDesc>
+      <change who="DanaDorman" when="2014-07-09">Changed people/org references to use entity codes
+        only, and switched attributes for those references to @key instead of @ref.</change>
+      <change who="DanaDorman" when="2014-06-23">Added more corrections for canonical TEI
+        plans.</change>
+      <change who="DanaDorman" when="2014-05-20">Updated file for testing HINT import; changed
+        ography references to the cartoons project and updated file to match canonical TEI
+        plans.</change>
+      <change who="RachelMoloshok" when="2013-01-16">Basic proofreading</change>
+      <change who="RachelMoloshok" when="2013-01-08">Updates to persName and orgName @refs</change>
+      <change who="RachelMoloshok" when="2013-01-04">Basic proofreading. Decision made to reference
+        genres using catRef@target, not keyword; date element within msDesc will contain content,
+        @when changed to @from for search purposes. Updated to associate revised HSP Digital
+        Projects Schema, updated 2012-12-04.</change>
+    </revisionDesc>
+  </teiHeader>
+
+  <facsimile>
+    <graphic url="FIL.000039254"/>
+  </facsimile>
+
+  <text>
+    <body>
+      <div n="1" type="section" rendition="#audio">
+        <sp>
+          <speaker>ANNOUNCER</speaker>
+          <p>During the following program we will offer you something you will prize for your home,
+            den, or classroom. It is absolutely free. Listen, and have your pencil and paper
+            handy.</p>
+        </sp>
+
+        <incident>
+          <desc>Yankee Doodle plays over title</desc>
+        </incident>
+
+        <sp>
+          <speaker>ANNOUNCER</speaker>
+          <p>Lest We Forget Lest We Forget: Eternal Vigilance is the Price of Liberty. Today we
+            present: Eternal Vigilance in Business.</p>
+        </sp>
+
+        <incident>
+          <desc>Music fades out</desc>
+        </incident>
+      </div>
+
+      <div n="2" type="section" rendition="#audio">
+
+        <sp>
+          <speaker>ANNOUNCER</speaker>
+          <p>We are engaged in a total war. A total war must be fought by all people. And it is the
+            people's war on the home front as well as on the battle front.<note n="1"
+              type="editorial">World War II was commonly called a "people's war," referencing not
+              only its inclusion of the entire state as a fighting force (overseas military was
+              matched by war production on the home front), but also the wide range of support the
+              war received.</note> On the home front we cannot contribute our full strength to the
+            war effort if we allow preconceived prejudices and artificial hiring standards to
+            sabotage production. How can we expect to win a people's war if we maintain barriers
+            against any group? For is not this great country dedicated to the proposition that all
+            men are created equal? One man or woman, or one group of men or women, cannot win this
+            people's war. The people must win it, all together. An important meeting is taking place
+            in the offices of one of our largest organizations engaged in the manufacture of the
+            machinery of war.</p>
+        </sp>
+      </div>
+
+      <div n="3" type="section" rendition="#audio">
+
+        <incident>
+          <desc>talking</desc>
+        </incident>
+
+        <sp>
+          <speaker><persName>JOHNS</persName></speaker>
+          <p>The War Department is not satisfied with your production.</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>PETERS</persName></speaker>
+          <p><persName>Mr. Johns</persName>, I assure you we're doing our level best.</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>JOHNS</persName></speaker>
+          <p>Well, frankly, <persName>Mr. Peters</persName>, it isn't good enough. We had expected
+            your tremendous industrial organization to make a great contribution to our war effort.
+            The results so far have been definitely unsatisfactory. May I ask why?</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>PETERS</persName></speaker>
+          <p>The answer is simple: labor. We can't get the skilled machinists we need at Plant 32.
+            And although Plant 32 is small in comparison to the rest of our factories, it is the
+            keystone.</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>JOHNS</persName></speaker>
+          <p>Hmm. Or the bottleneck. How can this bottleneck be eliminated?</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>PETERS</persName></speaker>
+          <p>I don't know. We've tried our best.</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>JOHNS</persName></speaker>
+          <p>You wouldn't want us to pirate our labor, take men away from other factories?</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>PETERS</persName></speaker>
+          <p>Oh no, of course not. We'd only be hurting ourselves to pull a stunt like that.</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>JOHNS</persName></speaker>
+          <p>We were almost desperate enough to try even that, but Mr. Kinley, our president,
+            counseled against it.</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>PETERS</persName></speaker>
+          <p>By the way, where is <persName>Mr. Kinley</persName>? In my telegram, I stated
+            definitely that I wanted to speak to him.</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>JOHNS</persName></speaker>
+          <p>Well...uh...well, you see that...</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>PETERS</persName></speaker>
+          <p>Where is he?</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>JOHNS</persName></speaker>
+          <incident>
+            <desc>stammers</desc>
+          </incident>
+          <p>He...well, frankly, we...we don't know!</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>PETERS</persName></speaker>
+          <p>You don't know?</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>JOHNS</persName></speaker>
+          <p>You see, he left about three weeks ago, and we haven't heard from him.</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>PETERS</persName></speaker>
+          <p>Didn't he say where he was going?</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>JOHNS</persName></speaker>
+          <p>No, he just left.</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>PETERS</persName></speaker>
+          <p>Well, I must say that this is highly irregular. I shall have to recommend that--</p>
+        </sp>
+
+        <incident>
+          <desc>sound of door opening</desc>
+        </incident>
+
+        <sp>
+          <speaker>SECRETARY</speaker>
+          <p>Now look here, you can't go in there!</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>KINLEY</persName></speaker>
+          <incident>
+            <desc>talking over her</desc>
+          </incident>
+          <p>I'm afraid I must!</p>
+          <p>Good morning, gentlemen. I'm sorry if I'm late.</p>
+        </sp>
+
+        <sp>
+          <speaker>SECRETARY</speaker>
+          <p>I'm sorry, <persName>Mr. Peters</persName>, this man brushed past me.</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>JOHNS</persName> AND <persName>PETERS</persName></speaker>
+          <incident>
+            <desc>over each other</desc>
+          </incident>
+          <p><persName>Mr. Kinley!</persName></p>
+        </sp>
+
+        <sp>
+          <speaker><persName>KINLEY</persName></speaker>
+          <p>It's quite all right, young lady. You may go now.</p>
+        </sp>
+
+        <sp>
+          <speaker>SECRETARY</speaker>
+          <p>Yes, sir.</p>
+        </sp>
+
+        <incident>
+          <desc>sound of door closing</desc>
+        </incident>
+
+        <sp>
+          <speaker><persName>PETERS</persName></speaker>
+          <incident>
+            <desc>stammering</desc>
+          </incident>
+          <p><persName>Mr. Kinley</persName>, why are you...?</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>KINLEY</persName></speaker>
+          <p>Dressed as a worker?</p>
+          <incident>
+            <desc>chuckles</desc>
+          </incident>
+          <p>You men haven't forgotten that I started out in my business life as a worker?</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>JOHNS</persName></speaker>
+          <p>Now that we've had our little masquerade, suppose you get down to business,
+              <persName>Mr. Kinley</persName>. I've been waiting to see you for the last hour.</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>KINLEY</persName></speaker>
+          <p>I'm sorry to have kept you waiting, <persName>Mr. Johns</persName>, but you see, this
+            little masquerade, as you call it, has been doing a job.</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>PETERS</persName></speaker>
+          <p>You don't mean to say that you've actually been working in the plant yourself,
+              <persName>Mr. Kinley</persName>?</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>KINLEY</persName></speaker>
+          <p>You sound so shocked, <persName>Peters</persName>. Yes, I'm happy to say that I've
+            discovered I'm still a pretty good machinist.</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>JOHNS</persName></speaker>
+          <p>Surely you didn't intend to remedy the labor shortage by going to work in your own
+            factory, <persName>Mr. Kinley</persName>?</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>KINLEY</persName></speaker>
+          <p>Well, three weeks ago, I was almost ready to do that. But the main reason for this
+            so-called disguise was to find out for myself just exactly what was wrong with 32. And
+            gentlemen, I think I've gotten to the root of our trouble. I went to 32 and applied for
+            a job. After standing in line for nearly three hours, I finally got in to see the
+            personnel manager, <persName>George Rimmer</persName>. He didn't recognize me...</p>
+        </sp>
+      </div>
+
+      <div n="4" type="section" rendition="#audio">
+
+        <incident>
+          <desc>Sounds of paper being shuffled</desc>
+        </incident>
+
+        <sp>
+          <speaker><persName>RIMMER</persName></speaker>
+          <p>Ah yes...about your application, this name is <persName>Kinley</persName>. Any relation
+            to <persName>Wilson Kinley</persName>, the president of our concern?</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>KINLEY</persName></speaker>
+          <p>Do I have to be to get this job?</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>RIMMER</persName></speaker>
+          <p>No, no, no. But even the initials are the same: <persName>W. A.</persName></p>
+        </sp>
+
+        <sp>
+          <speaker><persName>KINLEY</persName></speaker>
+          <p>Er, <persName>William Ashton Kinley</persName>'s the name.</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>RIMMER</persName></speaker>
+          <p>Oh, I see.</p>
+          <incident>
+            <desc>clears throat</desc>
+          </incident>
+          <p>Well, now to get at it. You say that you're a skilled machinist, but you haven't worked
+            at your trade for the last twenty-five years. Why?</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>KINLEY</persName></speaker>
+          <p>I've been in business for myself. When the war came along, I thought I'd do the thing
+            I'm best fitted for to help the war effort.</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>RIMMER</persName></speaker>
+          <p>The high wages wouldn't have anything to do with it, would they?</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>KINLEY</persName></speaker>
+          <p>There is such a thing as patriotism, sir.</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>RIMMER</persName></speaker>
+          <p>Hm? Ah, yes—yes, of course. Well, your application seems to be in order. When can you
+            come to work?</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>KINLEY</persName></speaker>
+          <p>Tomorrow morning, sir.</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>RIMMER</persName></speaker>
+          <p>Good. Oh, by the way, you say your name is <persName>Kinley</persName>...</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>KINLEY</persName></speaker>
+          <p>I don't only say it—it is <persName>Kinley</persName>.</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>RIMMER</persName></speaker>
+          <p>I've no doubt that it is, but is it your adopted name, or were you born with it?</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>KINLEY</persName></speaker>
+          <p>I don't understand.</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>RIMMER</persName></speaker>
+          <p>Well, many men on arriving in this country from Europe or other places change their
+            name under the—the impression that things will be easier for them with a more Anglicized
+            name.</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>KINLEY</persName></speaker>
+          <p>I don't really understand what you're trying to find out. Suppose I were
+            foreign-born.</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>RIMMER</persName></speaker>
+          <p>Well, during war times, er, we must check on the background of our employees—it's very
+            important.</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>KINLEY</persName></speaker>
+          <p>I see. Well, it happens that the name has been in my family for quite a long time. And
+            I'm an American citizen.</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>RIMMER</persName></speaker>
+          <p>Thank you. That's all. You will receive word at your lodging house when to report for
+            work. Oh, just a moment, <persName>Kinley</persName>. Er, do you have any objections to
+            working on Sundays?</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>KINLEY</persName></speaker>
+          <p>No, not if it's necessary.</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>RIMMER</persName></speaker>
+          <p>Well, some of our men prefer to take Sunday off because of their church.</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>KINLEY</persName></speaker>
+          <p>Well, I consider myself a religious man, but if I can do something extra for my country
+            by working Sundays...well, no objection.</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>RIMMER</persName></speaker>
+          <p>Fine, fine. Er, then you may have Saturday or any other day that will make your Sabbath
+            churchgoing convenient. Saturday all right?</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>KINLEY</persName></speaker>
+          <p>My church doesn't hold services on Saturday.</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>RIMMER</persName></speaker>
+          <p>Er, well, well, something probably can be arranged with some of the other men. Good
+            day, Mr. Kinley—you'll hear from us not later than tomorrow. </p>
+        </sp>
+
+        <sp>
+          <speaker><persName>KINLEY</persName></speaker>
+          <p>Good day, <persName>Mr. Rimmer</persName>.</p>
+        </sp>
+      </div>
+
+      <div n="5" type="section" rendition="#audio">
+        <sp>
+          <speaker><persName>KINLEY</persName></speaker>
+          <p>I left the personnel office of the factory and crossed the street to a little lunch
+            room that catered to the factory workers. I sat down on one of the stools, and...</p>
+        </sp>
+      </div>
+
+      <div n="6" type="section" rendition="#audio">
+        <incident>
+          <desc>diner sounds: people talking, dishes clinking</desc>
+        </incident>
+
+        <sp>
+          <speaker><persName>GLADYS</persName></speaker>
+          <p>What'll it be, mister?</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>KINLEY</persName></speaker>
+          <p>Scrambled eggs, toast, and coffee.</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>GLADYS</persName></speaker>
+          <p>Okay, comin' up. Scrambled 2, burned 2, and ration 1!</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>JANOWSKY</persName></speaker>
+          <p>What's good on the blue plate today, <persName>Gladys</persName>?</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>GLADYS</persName></speaker>
+          <p>Hi, <persName>Mr. Janowsky</persName>. Spaghetti's good.</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>JANOWSKY</persName></speaker>
+          <incident>
+            <desc>Laughs</desc>
+          </incident>
+          <p>Always spaghetti. All right, give me the spaghetti.</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>GLADYS</persName></speaker>
+          <p>All right. Tied in a knot on the blue!</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>KINLEY</persName></speaker>
+          <p>Hello, <persName>Gregor</persName>. Still eating spaghetti, eh?</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>JANOWSKY</persName></speaker>
+          <p>Eh? Ah yes, I always order it. Why, for goodness sake, <persName>Bill</persName>! Where
+            you come from?</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>KINLEY</persName></speaker>
+          <p>I wondered if you'd recognize me.</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>JANOWSKY</persName></speaker>
+          <p>Oh, I recognize you, all right. Golly, I never forget my old pal. What are you do in
+            work clothes? I thought you get big big-shot in plant, get rich!</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>KINLEY</persName></speaker>
+          <p>Well, that's all over, <persName>Greg</persName>.</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>JANOWSKY</persName></speaker>
+          <p>Oh, too bad. You lose all your money, eh? You lookin' for job in plant? After all, you
+            still fine machinist.</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>KINLEY</persName></speaker>
+          <p>I just got one, <persName>Greg</persName>.</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>JANOWSKY</persName></speaker>
+          <p>Yeah? Ah, you lucky. I try for some time now, but I can't do it.</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>KINLEY</persName></speaker>
+          <p>Why not? There's plenty of work, and you're a fine machinist.</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>JANOWSKY</persName></speaker>
+          <p>Why not? Plenty "why nots." Plenty good men, but can't get job with that
+              <persName>Rimmer</persName>.</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>KINLEY</persName></speaker>
+          <p>I don't understand, <persName>Greg</persName>.</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>JANOWSKY</persName></speaker>
+          <p>After lunch, you come with me. I show you some "why not."</p>
+        </sp>
+      </div>
+
+      <div n="6" type="section" rendition="#audio">
+        <sp>
+          <speaker><persName>JANOWSKY</persName></speaker>
+          <p>Hello, <persName>Johnson</persName>. I want you to meet a good friend of mine,
+              <persName>Bill Kinley</persName>.</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>JOHNSON</persName></speaker>
+          <p>How do you do, <persName>Mr. Kinley</persName>?</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>JANOWSKY</persName></speaker>
+          <p>Hey, <persName>Johnson</persName>, tell <persName>Mr. Kinley</persName> about you not
+            able to get job in plant.</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>JOHNSON</persName></speaker>
+          <p>Ain't much to tell. I been to school to learn machine tunin'. I got good marks. I
+            graduated, but that man <persName>Rimmer</persName> won't hire me 'cause...'cause I
+            ain't the same color he is.</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>KINLEY</persName></speaker>
+          <p>But there's nothing in the application blank that asks race, religion, or color.</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>JOHNSON</persName></speaker>
+          <p>Nobody get in that plant 'til he gets an interview with <persName>Rimmer</persName>. He
+            didn't even bother to talk to me—took one look at me and said no.</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>KINLEY</persName></speaker>
+          <p>Hm. That explains the interview. Come on, <persName>Janowsky</persName>. I want to see
+            more "why nots."</p>
+        </sp>
+      </div>
+
+      <div n="7" type="section" rendition="#audio">
+        <sp>
+          <speaker>UNNAMED JEWISH MAN</speaker>
+          <p>Interview with <persName>Rimmer</persName>?</p>
+          <incident>
+            <desc>chuckles</desc>
+          </incident>
+          <p>I never even got that far. He took one look at my name on the application and told me
+            it wasn't the policy of the plant to hire Jews. Didn't find out if I was a good hand at
+            my trade, just wanted to know what my religion was, that's all.</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>JANOWSKY</persName></speaker>
+          <p>Are you satisfied, <persName>Bill</persName>? I have you meet five men, all good
+            workers, but can't get job at plant.</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>KINLEY</persName></speaker>
+          <p>Yeah, that's pretty bad. What about you, <persName>Greg</persName>? Why can't you get a
+            job there?</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>JANOWSKY</persName></speaker>
+          <p>Why? Because he no like my people, too. In first place, he thinks I am foreign. In
+            second place, I am Catholic.</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>KINLEY</persName></speaker>
+          <p>But you're an American citizen, <persName>Greg</persName>! He has no right to bar
+            you.</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>JANOWSKY</persName></speaker>
+          <p>Sure, I am American citizen—sure, I am American citizen! And my two boys in army,
+            fighting in north Africa, they are good American citizens too. What I'm going to do
+            about it?</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>KINLEY</persName></speaker>
+          <p>I'll tell you what I'm going to do about it. You and I are going to see
+              <persName>Rimmer</persName> in the personnel office together.</p>
+        </sp>
+      </div>
+
+      <div n="8" type="section" rendition="#audio">
+        <sp>
+          <speaker><persName>KINLEY</persName></speaker>
+          <p>Mr. Rimmer, I know that you're shorthanded for men, so I brought back <persName>Gregor
+              Janowsky</persName>. I used to work with <persName>Mr. Janowsky</persName>. In fact,
+            he taught me most of what I know about machine tools. He needs a job. Now, you've got a
+            job to give him.</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>RIMMER</persName></speaker>
+          <p>Mr. Kinley, I have already interviewed <persName>Mr. Janowsky here</persName>, and
+            unfortunately, he does not come up to our specifications.</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>KINLEY</persName></speaker>
+          <p>But you haven't given him a chance! How can you tell?</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>RIMMER</persName></speaker>
+          <p><persName>Mr. Kinley</persName>, you will please confine your activities to the factory
+            bench. I think I am the best judge of <persName>Mr. Janowsky</persName>'s
+            qualifications.</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>KINLEY</persName></speaker>
+          <p>Just exactly what are the qualifications for employment here, <persName>Mr.
+              Rimmer</persName>? I've discovered that you won't hire a Negro because of his color,
+            or a Jew or a Catholic because of their religion. The men you've turned down are all
+            good Americans, all expert workmen. Does a man have to be your color, go to your church,
+            belong to your political party to work here? On whose authority do you make these
+            restrictions?</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>RIMMER</persName></speaker>
+          <p>Listen here, you Red agitator!<note n="2" type="editorial">To be a "red agitator" was
+              to advocate communist or socialist tenets. Ethnic prejudice often led minorities and
+              foreigners to be labeled as Communists.</note> If you don't get out of this office
+            immediately, I'll have you put out forcibly! I'll tell you whose authority counts around
+            here! Mine! I do the hiring and firing!</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>KINLEY</persName></speaker>
+          <p>Really.</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>RIMMER</persName></speaker>
+          <p>I put your name down this morning as hired. But we don't want your kind around here!
+            Now get out, and stay out!</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>KINLEY</persName></speaker>
+          <p>That's all I wanted to know, <persName>Mr. Rimmer</persName>. It so happens there is
+            one who can fire you. I say you're fired.</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>RIMMER</persName></speaker>
+          <p>What?</p>
+        </sp>
+
+        <sp>
+          <speaker><persName>KINLEY</persName></speaker>
+          <p>I'm afraid that an American plant manufacturing the weapons for the people's war
+            against Nazism and all the things it stands for is hardly the right place for you. I'll
+            give you one hour to leave the plant. I happen to be your boss: <persName>W. A.
+              Kinley</persName>.</p>
+        </sp>
+      </div>
+
+      <div n="9" type="section" rendition="#audio">
+        <sp>
+          <speaker><persName>KINLEY</persName></speaker>
+          <p>And that, gentlemen, was our bottleneck: not the fact that we couldn't find good
+            workmen, but that we had as our personnel manager <persName>Rimmer</persName>—a man who
+            should have been working for <persName key="ENT.000000011">NAME</persName> and company.
+            I think that we shall no longer have trouble at Number 32, and I intend to go through
+            the entire organization and root out every single instance of racial and religious
+            prejudice. And I'm willing to wager that we shall have increased production as a direct
+            result. The only way for Americans to fight a war is with American weapons, and we can't
+            make American weapons with un-American intolerance. And now, gentlemen, I should like to
+            introduce my new personnel manager, in complete charge of the personnel at all our
+            plants.</p>
+
+          <incident>
+            <desc>sound of door opening</desc>
+          </incident>
+
+          <p>Come in, <persName>Greg</persName>, and meet some of your fellow workers!</p>
+        </sp>
+      </div>
+
+      <div n="10" type="section" rendition="#audio">
+        <incident>
+          <desc>music plays over closing narration</desc>
+        </incident>
+
+        <sp>
+          <speaker>ANNOUNCER</speaker>
+          <p>Management must take the initiative, must open its doors to all loyal and capable
+            workers. Individually, we may have our differences, but this one thing we have in
+            common: our great love for our principles set down in our Constitution and written into
+            our laws, that all men are created equal, and that they are endowed by their Creator
+            with certain unalienable rights. Among these are life, liberty, and the pursuit of
+            happiness. And may we add another: the right to work. Lest We Forget: Eternal Vigilance
+            in Business is the Price of Liberty.</p>
+        </sp>
+      </div>
+
+      <div n="11" type="section" rendition="#audio">
+        <incident>
+          <desc>"Yankee Doodle" plays over advertisements</desc>
+        </incident>
+
+        <sp>
+          <speaker>ANNOUNCER</speaker>
+          <p>Would you like, absolutely free, a beautifully printed portfolio containing the
+            portraits of <persName key="ENT.000000011">NAME</persName> and <persName
+              key="ENT.000000011">NAME</persName>? Also reproductions of the flags of the United
+            Nations in full color? A copy of the historic Atlantic Charter?<note n="3"
+              type="editorial">The Atlantic Charter, drafted <date when="1941-08-14">August 14,
+                1941</date>, outlined the Allied goals of their involvement in World War II.</note>
+            And photographs of America's outstanding heroes of the Second World War? Each of these
+            stirring subjects is suitable for framing for your home, den, or classroom. Just send a
+            penny postcard with your name and address to Post Office Box 22, New York City, New
+            York. You will receive this beautiful portfolio absolutely free by return mail. I
+            repeat, Post Office Box 22, New York City, New York.</p>
+          <p>The next electrically transcribed program of Lest We Forget, Seventh Series, will be
+            heard again over this same station next week at the same time. This is an educational
+            presentation of the <orgName key="ENT.000003320">Institute of Oral and Visual
+              Education</orgName>, Washington, D.C.</p>
+        </sp>
+      </div>
+
+    </body>
+
+    <back/>
+  </text>
+</TEI>

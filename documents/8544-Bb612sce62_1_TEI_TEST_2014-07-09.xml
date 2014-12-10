@@ -1,0 +1,267 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/css" href="./tiny_TEI_template.css"?>
+<!-- ??The two lines of purple text above this comment need to be updated based on our final, actual schema. This is currently set to use the schema from TEI training. -->
+
+<?xml-model href="../../../../HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+
+
+    <teiHeader xml:lang="English">
+
+        <fileDesc>
+
+            <titleStmt>
+                <title type="main">TEI transcription of A Scene on the FRONTIERS as Practiced by the
+                    HUMANE BRITISH and their WORTHY ALLIES</title>
+                <author>
+                    <persName key="ENT.000000848">Charles, William</persName></author>
+                <!-- check for LC authority  -->
+                <respStmt>
+                    <resp key="egr">Engraved by</resp>
+                    <persName key="ENT.000000848">Charles, William</persName>
+                </respStmt>
+                <respStmt>
+                    <resp key="trc">Transcribed by</resp>
+                    <persName key="ENT.000003220">Newhouse, Sarah</persName>
+                </respStmt>
+                <respStmt>
+                    <resp key="mrk">Encoded by</resp>
+                    <persName key="ENT.000003220">Newhouse, Sarah</persName>
+                    <persName key="ENT.000003528">Dorman, Dana</persName>
+                </respStmt>
+            </titleStmt>
+
+            <editionStmt>
+                <p>First edition, <date when="2014">2014</date></p>
+            </editionStmt>
+
+            <publicationStmt>
+                <publisher><orgName key="ENT.000002473">Historical Society of
+                    Pennsylvania</orgName></publisher>
+                <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
+                <idno type="filename">8544-Bb612sce62_1_TEI_2014-07-09updated.xml</idno>
+                <availability status="restricted">
+                    <p>Copyright 2014, Historical Society of Pennsylvania. HSP makes a claim of
+                        copyright only to original contributions made by the Historic Images, New
+                        Technologies participants and other staff. HSP makes no claim of copyright
+                        to the original text. Permission is granted to download, transmit or
+                        otherwise reproduce, distribute or display the text contributions to this
+                        work claimed by HSP for non-profit educational purposes, provided that this
+                        header is included in its entirety. For inquiries about commercial uses,
+                        please contact the Historical Society of Pennsylvania. HSP retains the
+                        rights of all images unless otherwise noted. Possession of an HSP digital
+                        image does not constitute permission to use or publish it. Requests for
+                        digital imaging, other reproduction services, and the intended use of
+                        reproductions must be made in writing to the Rights and Reproductions
+                        Coordinator at rnr@hsp.org.</p>
+                </availability>
+                <date when="2014"/>
+            </publicationStmt>
+
+            <seriesStmt>
+                <title level="s" type="project" key="CARTOONS">Historic Images, New
+                    Technologies</title>
+            </seriesStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository key="ENT.000002473">The Historical Society of Pennsylvania,
+                            Philadelphia, PA</repository>
+                        <collection key="V64"> Historical Society of Pennsylvania medium graphics
+                            collection</collection>
+                        <idno type="citation">Bb 612 Sce 62</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <respStmt>
+                                <resp key="art">Artist</resp>
+                                <persName key="ENT.000000848">Charles, William </persName>
+                            </respStmt>
+                            <respStmt>
+                                <resp key="egr">Engraver</resp>
+                                <persName key="ENT.000000848">Charles, William </persName>
+                            </respStmt>
+                            <title type="main" level="u">A Scene on the FRONTIERS as Practiced by
+                                the <hi rendition="#underline">HUMANE</hi> BRITISH and their <hi
+                                    rendition="#underline">WORTHY</hi> ALLIES</title>
+                            <bibl>
+                                <date from="1812-01-01" to="1812-12-31">1812</date>
+                                <extent>1 loose page</extent><extent>
+                                    <dimensions type="image" unit="cm">
+                                        <height quantity="14"/>
+                                        <!-- these are made-up dimensions for test file only -->
+                                        <width quantity="20"/>
+                                    </dimensions></extent>
+                                <listRelation>
+                                    <relation name="mentioned" active="ENT.000003392"/>
+                                    <relation name="mentioned"
+                                        active="cartoons_symbols.xml#Columbia"/>
+                                </listRelation>
+                            </bibl>
+                        </msItem>
+                    </msContents>
+
+                    <history>
+                        <acquisition><!-- ??Provenance/acquisition info, ex.,  "Gift of Albert M. Greenfield, 1968" --></acquisition>
+                    </history>
+                </msDesc>
+
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <projectDesc>
+                <p>The Historic Images, New Technologies (HINT) project aims to enhance description
+                    and discovery of the Historical Society of Pennsylvania's graphics materials and
+                    promote the linking and sharing of content among institutions and scholars. The
+                    project will result in an update to HSP's digital image viewer and an online
+                    digital history exhibit, featuring 500 encoded political cartoons, that will
+                    demonstrate the new viewer's capabilities and provide interpretive and
+                    contextual materials to encourage users to interact with historical images in
+                    new ways. This project was funded by a grant from the National Historical
+                    Publications and Records Commission's (NHPRC) Innovation in Archives and
+                    Documentary Editing program</p>
+            </projectDesc>
+            <editorialDecl n="4">
+                <p><!-- ??This is where we'd describe any notable editorial decisions made about THIS document during encoding; use multiple p elements to list each. FYI, the @n of "4" shows that we're matching Library Best Practices of level 4. made for the NHPRC Political Cartoons Digital History Project. --></p>
+                <p>This electronic file was created using manual keying following the
+                    recommendations for Level 4 of "Best Practices for TEI in Libraries" guidelines
+                    v3.0.</p>
+                <p>This XML file uses unique entity identifiers, media file identifiers, and
+                    collection identifiers in HSP's Digital Library, available at
+                    http://digitallibrary.hsp.org</p>
+
+            </editorialDecl>
+            <tagsDecl>
+                <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
+                <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
+                <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
+                <rendition scheme="css" xml:id="crossed-through">text-decoration:
+                    line-through</rendition>
+                <rendition scheme="other" xml:id="printed"/>
+                <rendition scheme="other" xml:id="typescript"/>
+                <rendition scheme="other" xml:id="handwritten"/>
+                <rendition scheme="other" xml:id="handwritten-underlined"/>
+                <rendition scheme="other" xml:id="handwritten-circled"/>
+                <rendition scheme="other" xml:id="handwritten-crossed-through"/>
+                <rendition scheme="other" xml:id="double-underline"/>
+                <rendition scheme="other" xml:id="stamp"/>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+        </encodingDesc>
+
+        <profileDesc>
+            <textClass>
+                <catRef target="cartoons_genres.xml#lithographs"/>
+                <catRef target="Cartoons_taxonomies.xml#war_of_1812"/>
+                <catRef target="Cartoons_taxonomies.xml#racism"/>
+                <catRef target="Cartoons_taxonomies.xml#foreign_relations"/>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change who="DanaDorman" when="2014-08-26">Changed entity codes and media code to match #s in test
+                system.</change>
+            <change who="DanaDorman" when="2014-07-09">Changed people/org references to use entity
+                codes only, and switched attributes for those references to @key instead of
+                @ref.</change>
+            <change who="DanaDorman" when="2014-06-23">Added more corrections for canonical TEI
+                plans.</change>
+            <change who="DanaDorman" when="2014-05-20">Updated file with changes to match canonical
+                TEI plans.</change>
+            <change who="SarahNewhouse" when="2014-03-07">Updated to include recent encoding
+                decisions.</change>
+            <change who="SarahNewhouse" when="2013-12-12">Created file.</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <facsimile>
+        <surface ulx="" uly="" lrx="" lry="">
+            <graphic url="FIL.000099240"/>
+            <!-- images for this project will probably need to be put into a CA set for the demonstration exhibit -->
+            <zone n="1" xml:id="title" points=""/>
+            <zone n="2" xml:id="british-soldier" points=""/>
+            <zone n="3" xml:id="scalper" points=""/>
+            <zone n="4" xml:id="dancing" points=""/>
+            <zone n="5" xml:id="soldier-speech" points=""/>
+            <zone n="6" xml:id="soldier-money" points=""/>
+            <zone n="7" xml:id="reward" points=""/>
+            <zone n="8" xml:id="artist" points=""/>
+            <zone n="9" xml:id="caption" points=""/>
+            <zone n="10" xml:id="US-soldier" points=""/>
+        </surface>
+    </facsimile>
+
+    <text>
+        <front>
+            <div type="editorial_desc" n="1">
+                <p>A Native American man scalps an American soldier who is laying on the ground,
+                    while another Native American man hands a bleeding scalp to a British
+                    soldier.</p>
+                <!-- this is a test description; needs to be revised with real content -->
+            </div>
+        </front>
+        <body>
+            <div n="1" type="image_title" facs="#title">
+                <head>A Scene on the FRONTIERS as Practiced by the <hi rendition="#underline"
+                        >HUMANE</hi> BRITISH and their <hi rendition="#underline">WORTHY</hi>
+                    ALLIES_____</head>
+            </div>
+            <div n="2" type="image_ID" facs="#british-soldier">
+                <head><supplied resp="editorial">British soldier</supplied></head>
+                <desc>This British soldier wears the insignia "GR" for George Rex or <persName
+                        key="ENT.000003392">King George III</persName></desc>
+            </div>
+            <div n="3" type="image_ID" facs="#scalper">
+                <head><supplied resp="editorial">A Native American man</supplied></head>
+                <p>This Native American man is handing a scalp (presumably taken from an American
+                    soldier) to the British soldier. Like the British soldier, he wears several
+                    items that bear the inscription "GR" for George Rex or <persName
+                        key="ENT.000003392">King George III</persName>.</p>
+            </div>
+            <div n="4" type="image_ID" facs="#dancing">
+                <head><supplied resp="editorial">Soldiers and women dancing</supplied></head>
+                <!-- see wiki notes for discussion of how to encode interpretive description -->
+                <desc>British soldiers and Native American women dancing around a fire.</desc>
+            </div>
+            <div n="5" type="speech_bubble" facs="#soldier-speech">
+                <head><supplied resp="editorial">British soldier</supplied></head>
+                <p>Bring me the Scalps and <rs key="ENT.000003392">the King</rs> our master will
+                    reward you.__</p>
+            </div>
+            <div n="6" type="image_diegetic" facs="#soldier-money">
+                <head><supplied resp="editorial">Handkerchief</supplied></head>
+                <p>Secret Service Money</p>
+            </div>
+            <div n="7" type="image_diegetic" facs="#reward">
+                <head><supplied resp="editorial">Musket</supplied></head>
+                <p>Reward for Sixteen Scalps</p>
+            </div>
+            <div n="8" type="image_imprint" facs="#artist">
+                <head><persName key="ENT.000000848">Wm Charles</persName>, del et Sculp</head>
+            </div>
+            <div n="9" type="image_caption" facs="#caption">
+                <p><lg>
+                        <l>Arise <rs ref="cartoons_symbols.xml#Columbia">Columbia</rs>'s Sons and
+                            forward press,</l>
+                        <l>Your Country's wrongs call loudly for redress;</l>
+                        <l>The Savage Indian with his Scalping knife,</l>
+                        <l>Or tomahawk may seek to take your life,</l>
+                    </lg></p>
+                <p><lg>
+                        <l>By bravery aw'd they'll in a dreadful Fright,</l>
+                        <l>Shrink back for Refuge to the Woods in Flight;</l>
+                        <l>Their British leaders then will quickly shake,</l>
+                        <l>And for those wrongs shall restitution make.</l>
+                    </lg></p>
+            </div>
+            <div n="10" type="image_ID" facs="#US-soldier">
+                <head><supplied resp="editorial">United States soldier</supplied></head>
+            </div>
+        </body>
+    </text>
+</TEI>
