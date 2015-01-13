@@ -1,0 +1,295 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+
+    <teiHeader xml:lang="English">
+
+        <fileDesc>
+
+            <titleStmt>
+                <title type="main">TEI transcription of The Downfall of Mother Bank</title>
+
+                <respStmt>
+                    <resp key="art">Artist</resp>
+                    <persName key="ENT.000000132"/>
+                </respStmt>
+                <respStmt>
+                    <resp key="trc">Transcribed by</resp>
+                    <persName key="ENT.000003368"/>
+                </respStmt>
+                <respStmt>
+                    <resp key="mrk">Encoded by</resp>
+                    <persName key="ENT.000003368"/>
+                </respStmt>
+            </titleStmt>
+
+            <editionStmt>
+                <p>First edition, <date when="2015">2015</date></p>
+            </editionStmt>
+
+            <publicationStmt>
+                <publisher>Historical Society of Pennsylvania</publisher>
+                <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
+                <idno type="filename">11508</idno>
+                <availability status="restricted">
+                    <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of
+                        copyright only to original contributions made by the Historic Images, New
+                        Technologies (HINT) Project participants and other staff. HSP makes no claim
+                        of copyright to the original text. Permission is granted to download,
+                        transmit or otherwise reproduce, distribute or display the text
+                        contributions to this work claimed by HSP for non-profit educational
+                        purposes, provided that this header is included in its entirety. For
+                        inquiries about commercial uses, please contact the Historical Society of
+                        Pennsylvania. HSP retains the rights of all images unless otherwise noted.
+                        Possession of an HSP digital image does not constitute permission to use or
+                        publish it. Requests for digital imaging, other reproduction services, and
+                        the intended use of reproductions must be made in writing to the Rights and
+                        Reproductions Coordinator at rnr@hsp.org.</p>
+                </availability>
+                <date when="2015"/>
+            </publicationStmt>
+
+            <seriesStmt>
+                <title level="s" type="project" key="CARTOONS">Historic Images, New Technologies
+                    (HINT) Project</title>
+            </seriesStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository key="ENT.000002473">The Historical Society of Pennsylvania,
+                            Philadelphia, PA</repository>
+                        <collection key="V64">Historical Society of Pennsylvania Medium Graphics
+                            Collection (Collection V64)</collection>
+                        <idno type="citation">Bb 612 D758</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <bibl>
+                                <date from="1833-01-01" to="1833-12-31">1833</date>
+                                <extent>1 loose page</extent>
+                                <listRelation>
+                                    <relation name="depicted"
+                                        active="ENT.000002223 cartoons_symbols.xml#jack_downing ENT.000000552 ENT.000003535 ENT.000003390 ENT.000001368 ENT.000002230 ENT.000003536 ENT.000003326"/>
+                                    <relation name="mentioned" active="ENT.000003537"/>
+                                    <!-- add national_gazette courier_enquirer us_gazette national_intelligencer evening_star pennsylvanian kentucky boston_courier albany_gazette columbian_sentinel journal_commerce NY_american commercial advertiser -->
+                                </listRelation>
+                            </bibl>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+                <biblStruct>
+                    <monogr>
+                        <respStmt>
+                            <resp key="art">Artist</resp>
+                            <persName key="ENT.000000132"/>
+                        </respStmt>
+                        <respStmt>
+                            <resp key="pbl">Publisher</resp>
+                            <persName key="ENT.000000132"/>
+                        </respStmt>
+                        <title type="main" level="m">The Downfall of Mother Bank</title>
+                        <imprint>
+                            <publisher><persName key="ENT.000000132"/>E. W. Clay</publisher>
+                            <date from="1833">1833</date>
+                            <pubPlace>New York</pubPlace>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <projectDesc>
+                <p>The Historic Images, New Technologies (HINT) project aims to enhance description
+                    and discovery of the Historical Society of Pennsylvania's graphics materials and
+                    promote the linking and sharing of content among institutions and scholars. The
+                    project will result in an update to HSP's digital image viewer and an online
+                    digital history exhibit that will demonstrate the new viewer's capabilities and
+                    provide interpretive and contextual materials to encourage users to interact
+                    with historical images in new ways. This project was funded by a grant from the
+                    National Historical Publications and Records Commission's (NHPRC) Innovation in
+                    Archives and Documentary Editing program.</p>
+            </projectDesc>
+            <editorialDecl n="4">
+                <p>This electronic file was created using manual keying following the
+                    recommendations for Level 4 of "Best Practices for TEI in Libraries" guidelines
+                    v3.0.</p>
+
+            </editorialDecl>
+            <tagsDecl>
+                <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
+                <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
+                <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
+                <rendition scheme="css" xml:id="crossed-through">text-decoration:
+                    line-through</rendition>
+                <rendition scheme="other" xml:id="printed"/>
+                <rendition scheme="other" xml:id="typescript"/>
+                <rendition scheme="other" xml:id="handwritten"/>
+                <rendition scheme="other" xml:id="handwritten-underlined"/>
+                <rendition scheme="other" xml:id="handwritten-circled"/>
+                <rendition scheme="other" xml:id="handwritten-crossed-through"/>
+                <rendition scheme="other" xml:id="double-underline"/>
+                <rendition scheme="other" xml:id="stamp"/>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+        </encodingDesc>
+
+        <profileDesc>
+            <textClass>
+                <catRef target="cartoons_genres.xml#lithograph"/>
+                <catRef target="cartoons_taxonomies.xml#early"/>
+                <catRef target="cartoons_taxonomies.xml#featured"/>
+                <catRef target="cartoons_taxonomies.xml#econ"/>
+                <catRef target="cartoons_taxonomies.xml#press"/>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change who="RachelMoloshok" when="2015-01-13">Updated test file to match live DAMS
+                entity and media codes</change>
+            <change who="RachelMoloshok" when="2014-12-09">Updated to match updated encoding
+                guidelines and schema changes</change>
+            <change who="RachelMoloshok" when="2014-01-09">Shell file created</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <facsimile>
+        <surface ulx="" uly="" lrx="" lry="">
+            <graphic url="FIL.000085202"/>
+            <zone n="1" xml:id="title"/>
+            <zone n="2" xml:id="byline"/>
+            <zone n="3" xml:id="date"/>
+            <zone n="4" xml:id="downing"/>
+            <zone n="5" xml:id="jackson"/>
+            <zone n="6" xml:id="order"/>
+            <zone n="7" xml:id="biddle"/>
+            <zone n="8" xml:id="noah_webb"/>
+            <zone n="9" xml:id="bag"/>
+            <zone n="10" xml:id="clay"/>
+            <zone n="11" xml:id="editors"/>
+            <zone n="12" xml:id="shakespeare"/>
+        </surface>
+    </facsimile>
+
+    <text>
+        <front>
+            <div type="editorial_desc">
+                <p><persName ref="ENT.000002223">President Andrew Jackson</persName> holds a
+                    document labeled "Order for the removal of the public money deposited in the
+                    United States Bank." An upside-down top hat sits on the ground to Jackson's
+                    right. Lightning bolts shoot out from the document, causing the pillars of the
+                        <orgName ref="ENT.000003326">Second Bank of the United States</orgName> to
+                    topple. Jackson's political foes, including pro-Whig newspaper editors, flee the
+                    wreckage, among them <persName ref="ENT.000000552">Nicholas Biddle</persName>
+                    (pictured as a devil), <persName ref="ENT.000003535">Mordecai Manuel
+                        Noah</persName>, <persName ref="ENT.000003390">James Watson Webb</persName>,
+                        <persName ref="ENT.000001368">Daniel Webster</persName>, <persName
+                        ref="ENT.000002230">Henry Clay</persName>, and <persName ref="ENT.000003536"
+                        >Silas Wright Jr.</persName> Receipts and newspapers are scattered over the
+                    ground. The fictional character <rs ref="cartoons_symbols.xml#jack_downing"
+                        >Major Jack Downing</rs>, stands to Jackson's left, waving his hat over his
+                    head and patting Jackson's shoulder approvingly.</p>
+            </div>
+        </front>
+
+        <body>
+            <div type="image_transcription" n="1" facs="#title">
+                <head><supplied resp="editorial">Title/imprint</supplied></head>
+                <p>THE DOWNFALL OF <orgName ref="ENT.000003326">MOTHER BANK</orgName>. Entered
+                    according to act of Congress in the year <date when="1833">1833</date> by
+                        <persName ref="ENT.000000132">E. W. Clay</persName>, in the Clerks Office of
+                    the Southern District of New York.</p>
+            </div>
+            <div type="image_transcription" n="2" facs="#byline">
+                <head><supplied resp="editorial">Byline</supplied></head>
+                <p><sic>Draw'd</sic> off from <sic>Natur</sic> by <sic>Zek. Downing</sic>,
+                        <sic>Neffu</sic> to <rs ref="cartoons_symbols.xml#jack_downing">Major Jack
+                        Downing</rs>.</p>
+            </div>
+            <div type="image_transcription" n="3" facs="#date">
+                <head><supplied resp="editorial">Date</supplied></head>
+                <p><add>1833</add></p>
+            </div>
+            <div type="image_transcription" n="4" facs="#downing">
+                <head><supplied resp="editorial"><rs ref="cartoons_symbols.xml#jack_downing">Major
+                            Jack Downing</rs></supplied></head>
+                <p>Hurrah! <rs ref="ENT.000002223"><choice>
+                            <sic>Gineral</sic>
+                            <corr>General</corr>
+                        </choice></rs>! if this don't beat <sic>skunkin</sic>, I'm a nigger! Only
+                    see that varmint <persName ref="ENT.000000552">Nick</persName> how spry he is—
+                    He runs along like a <orig>Weathersfield</orig> Hog with an <sic>inion</sic> in
+                    his mouth!</p>
+            </div>
+            <div type="image_transcription" n="5" facs="#jackson">
+                <head><supplied resp="editorial"><persName ref="ENT.000002223">Andrew
+                            Jackson</persName></supplied></head>
+                <p><rs ref="cartoons_symbols.xml#jack_downing">Major Jack Downing</rs>, I must act
+                    in this case with energy and decision— You see the downfall of this party engine
+                    and corrupt monopoly.</p>
+            </div>
+            <div type="image_transcription" n="6" facs="#order">
+                <head><supplied resp="editorial"><persName ref="ENT.000002223">Jackson</persName>'s
+                        order</supplied></head>
+                <p>ORDER for the Removal of the Public money deposited in the <orgName
+                        ref="ENT.000003326">UNITED STATES BANK</orgName></p>
+            </div>
+            <div type="image_transcription" n="7" facs="#biddle">
+                <head><supplied resp="editorial"><persName ref="ENT.000000552">Nicholas
+                            Biddle</persName>/Old Nick (devil)</supplied></head>
+                <p>It is time for me to resign my presidency</p>
+            </div>
+            <div type="image_transcription" n="8" facs="#noah_webb">
+                <head><supplied resp="editorial"><persName ref="ENT.000003535">Mordecai Manuel
+                            Noah</persName> and <persName ref="ENT.000003390">James Watson
+                            Webb</persName></supplied></head>
+                <p>No more fees to be obtained here! I move we adjourn <hi rendition="#underline"
+                        >sine die!</hi></p>
+            </div>
+            <div type="image_transcription" n="9" facs="#bag">
+                <head><supplied resp="editorial">Bag</supplied></head>
+                <p>Fees</p>
+            </div>
+            <div type="image_transcription" n="10" facs="#clay">
+                <head><supplied resp="editorial"><persName ref="ENT.000002230">Henry
+                        Clay</persName></supplied></head>
+                <p>Help me up! <persName ref="ENT.000001368">Webster</persName>! or I shall lose my
+                    Stakes.</p>
+            </div>
+            <div type="image_transcription" n="11" facs="#editors">
+                <head><supplied resp="editorial">Whig editors and scattered papers</supplied></head>
+                <p><hi rendition="#underline">Burrow</hi> under the mammoth sheet <persName
+                        ref="ENT.000003536">Silas</persName></p>
+                <p>Salary $6000.</p>
+                <p>Printing Expenses $80000</p>
+                <p>Courier and Enquirer $52000</p>
+                <p>National Gazette</p>
+                <p>United States Gazette</p>
+                <p>Pennsylvanian</p>
+                <p>National Intelligencer $10000</p>
+                <p>N.Y. American</p>
+                <p>Journal of Commerce.</p>
+                <p>Commercial Advertiser</p>
+                <p>Columbian Sentinel.</p>
+                <p>Evening Star.</p>
+                <p>Albany Gazette.</p>
+                <p>Kentucky.</p>
+                <p>Boston <sic>Courrier</sic></p>
+            </div>
+            <div type="image_transcription" n="12" facs="#shakespeare">
+                <head><supplied resp="editorial">Floating text</supplied></head>
+                <p>"There is a tide in the affairs of men" as <persName ref="ENT.000003537"
+                        >Shakespeare</persName> says So my dear <persName ref="ENT.000002230"
+                        >Clay</persName> look out for yourself</p>
+            </div>
+        </body>
+
+        <back/>
+    </text>
+</TEI>
