@@ -82,7 +82,7 @@
                                 </extent>
                                 <listRelation>
                                     <relation name="depicted"
-                                        active="ENT.000003532 ENT.000002593 ENT.000003533 ENT.000000054"/>
+                                        active="ENT.000003532 ENT.000002593 ENT.000003533 ENT.000000054 cartoons_symbols.xml#fox"/>
                                     <relation name="mentioned" active="ENT.000003534"/>
                                 </listRelation>
                             </bibl>

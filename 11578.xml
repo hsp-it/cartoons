@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 
-
 <?xml-model href="../../../Downloads/HSPDigitalProjectsSchema15%20(1).rnc" type="application/relax-ng-compact-syntax"?>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="English">
     <fileDesc>
       <titleStmt>
-        <title type="main">TEI transcription of the Crowning Insult to Him Who Occupies the
+        <title type="main">TEI transcription of The Crowning Insult to Him Who Occupies the
           Presidential Chair</title>
         <author/>
         <respStmt>
-          <resp key="art">artist</resp>
+          <resp key="art">Artist</resp>
           <persName key="ENT.000000251">Nast, Thomas, 1840-1902</persName>
         </respStmt>
         <respStmt>
           <resp key="trc">Transcribed by</resp>
-          <persName key="ENT.000003216">Moloshok, Rachel</persName>
+          <persName key="ENT.00000336">Moloshok, Rachel</persName>
         </respStmt>
         <respStmt>
           <resp key="mrk">Encoded by</resp>
-          <persName key="ENT.000003216">Moloshok, Rachel</persName>
+          <persName key="ENT.00000336">Moloshok, Rachel</persName>
         </respStmt>
         <respStmt>
-          <resp key="pbl">publisher</resp>
-          <orgName key="ENT.00007892">Harper &amp; Brothers</orgName>
+          <resp key="pbl">Publisher</resp>
+          <orgName key="ENT.000003540">Harper &amp; Brothers</orgName>
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <p>First edition, <date when="2014">2014</date></p>
+        <p>First edition, <date when="2015">2015</date></p>
       </editionStmt>
       <publicationStmt>
         <publisher><orgName key="ENT.000002473">Historical Society of
@@ -36,7 +36,7 @@
         <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
         <idno type="filename">11578</idno>
         <availability status="restricted">
-          <p>Copyright 2014, Historical Society of Pennsylvania. HSP makes a claim of copyright only
+          <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of copyright only
             to original contributions made by the Historic Images, New Technologies (HINT) Project
             participants and other staff. HSP makes no claim of copyright to the original text.
             Permission is granted to download, transmit or otherwise reproduce, distribute or
@@ -71,8 +71,8 @@
                 <extent>1 loose page</extent>
                 <listRelation>
                   <relation name="depicted"
-                    active="cartoons_symbols.xml#donkey ENT.000003443 ENT.00006791 ENT.000009012 ENT.00008712"/>
-                  <relation name="mentioned" active="ENT.000000251"/>
+                    active="ENT.000000941 ENT.000003329 ENT.000003541 ENT.000003328 cartoons_symbols.xml#donkey cartoons_symbols.xml#dogs cartoons_symbols.xml#giraffe cartoons_symbols.xml#fox cartoons_symbols.xml#lion cartoons_symbols.xml#unicorn"
+                  />
                 </listRelation>
               </bibl>
             </msItem>
@@ -88,16 +88,11 @@
         <biblStruct>
           <analytic>
             <respStmt>
-              <resp key="art">artist</resp>
+              <resp key="art">Artist</resp>
               <persName key="ENT.000000251">Nast, Thomas, 1840-1902</persName>
-            </respStmt>
-            <respStmt>
-              <resp key="pbl">publisher</resp>
-              <orgName key="ENT.00007892">Harper &amp; Brothers</orgName>
             </respStmt>
             <title type="main" level="a">The Crowning Insult to Him Who Occupies the Presidential
               Chair</title>
-            <date from="1876-05-13">May 13, 1876</date>
           </analytic>
           <monogr>
             <title type="marc245a" level="j"><orgName key="ENT.000003139">Harper's
@@ -107,7 +102,7 @@
               <date from="1876-05-13">1876-05-13</date>
               <biblScope unit="page">388-389</biblScope>
               <publisher>
-                <orgName key="ENT.00007892">Harper &amp; Brothers</orgName>
+                <orgName key="ENT.000003540">Harper &amp; Brothers</orgName>
               </publisher>
             </imprint>
           </monogr>
@@ -120,15 +115,14 @@
         <p>The Historic Images, New Technologies (HINT) project aims to enhance description and
           discovery of the Historical Society of Pennsylvania's graphics materials and promote the
           linking and sharing of content among institutions and scholars. The project will result in
-          an update to HSP's digital image viewer and an online digital history exhibit, featuring
-          500 encoded political cartoons, that will demonstrate the new viewer's capabilities and
-          provide interpretive and contextual materials to encourage users to interact with
-          historical images in new ways. This project was funded by a grant from the National
-          Historical Publications and Records Commission's (NHPRC) Innovation in Archives and
-          Documentary Editing program</p>
+          an update to HSP's digital image viewer and an online digital history exhibit that will
+          demonstrate the new viewer's capabilities and provide interpretive and contextual
+          materials to encourage users to interact with historical images in new ways. This project
+          was funded by a grant from the National Historical Publications and Records Commission's
+          (NHPRC) Innovation in Archives and Documentary Editing program</p>
       </projectDesc>
       <editorialDecl>
-        <p><!-- ??This is where we'd describe any notable editorial decisions made about THIS document during encoding; use multiple p elements to list each. FYI, the @n of "4" shows that we're matching Library Best Practices of level 4. made for the NHPRC Political Cartoons Digital History Project. --></p>
+
         <p>This electronic file was created using manual keying following the recommendations for
           Level 4 of "Best Practices for TEI in Libraries" guidelines v3.0.</p>
         <p>This XML file uses unique entity identifiers, media file identifiers, and collection
@@ -155,10 +149,14 @@
     <profileDesc>
       <textClass>
         <catRef target="cartoons_genres.xml#clippings"/>
-        <catRef target="cartoons_taxonomies.xml#politics"/>
+        <catRef target="cartoons_taxonomies.xml#reconstruction"/>
+        <catRef target="cartoons_taxonomies.xml#featured"/>
+        <catRef target="cartoons_taxonomies.xml#press"/>
       </textClass>
     </profileDesc>
     <revisionDesc>
+      <change who="RachelMoloshok" when="2015-01-13">Updated test file to reference media and entity
+        codes in live DAMS site; featured-level encoding added</change>
       <change who="RachelMoloshok" when="2014-12-09">Updated to match revised schema and recent
         Collective Access import/export workflows; added head elements to divs</change>
       <change who="RachelMoloshok" when="2014-10-28">Basic proofreading; zone annotations
@@ -169,7 +167,7 @@
   </teiHeader>
   <facsimile>
     <surface ulx="0" uly="0" lrx="100" lry="100">
-      <graphic url="FIL.00011578"/>
+      <graphic url="FIL.000085232"/>
       <zone n="1" xml:id="heading"/>
       <zone n="2" xml:id="scapegoat"/>
       <zone n="3" xml:id="book"/>
@@ -178,21 +176,27 @@
       <zone n="6" xml:id="press"/>
       <zone n="7" xml:id="signature"/>
       <zone n="8" xml:id="title"/>
+      <zone n="9" xml:id="fox_donkey"/>
+      <zone n="10" xml:id="unicorn"/>
+      <zone n="11" xml:id="giraffe"/>
+      <zone n="12" xml:id="donkey"/>
+      <zone n="13" xml:id="dogs"/>
+      <zone n="14" xml:id="lion"/>
     </surface>
   </facsimile>
   <text>
     <front>
-      <div type="editorial_desc" n="1">
-        <p>"<persName key="ENT.000000251">Nast</persName> expresses his sympathy for <persName
-            key="ENT.000003443">President Grant</persName> but in an allegorical fashion with the
-          presidential lion being 'crowned' with a goat's head labeled 'scapegoat' by a fox standing
-          on the back of a <rs ref="cartoons_symbols.xml#donkey">donkey</rs>. In the distance are
-          the barking dogs of the 'Press,' including a giraffe symbolizing the <orgName
-            key="ENT.00006791">New York Tribune</orgName>, an ass representing the <orgName
-            key="ENT.000009012">New York Herald</orgName>, and a unicorn wearing a monocle, the
-            <orgName key="ENT.00008712">New York Times</orgName>."</p>
-        <bibl>George Austin Test, <hi rendition="#italics">Satire: Spirit and Art</hi> (Gainesville:
-          University of Florida Press, 1991)</bibl>
+      <div type="editorial_desc">
+        <p>A <rs ref="cartoons_symbols.xml#fox">fox</rs>, standing on the back of a <rs ref="cartoons_symbols.xml#donkey">donkey</rs>, places a "crown"—actually, a goat's head labeled
+          "The Scapegoat"—on the head of a <rs ref="cartoons_symbols.xml#lion">lion</rs> seated in a throne labeled "presidential chair." The
+          fox has a book titled "Party Catechism" sticking out of its pocket. Assorted animals,
+          including rabbits, mice, a duck, a vulture, and dogs, look on. In the distance, the U.S.
+          Capitol provides a backdrop. In front of the capitol building are members of the press,
+          represented by barking <rs ref="cartoons_symbols.xml#dogs">dogs</rs> and a <rs ref="cartoons_symbols.xml#unicorn">unicorn</rs>, a <rs ref="cartoons_symbols.xml#giraffe">giraffe</rs>, a donkey, and a bear holding up
+          quills. In this cartoon, <persName key="ENT.000000251">Thomas Nast</persName> expresses
+          sympathy for outgoing president <persName key="ENT.000000941">Ulysses S. Grant</persName>,
+          who was criticized in the press for the misdeeds of his officials and for (in Nast's view)
+          forces beyond the president's control.</p>
       </div>
     </front>
     <body>
@@ -237,6 +241,54 @@
         <head><supplied resp="editorial">Title</supplied></head>
         <p>The crowning insult to him who occupies the presidential chair.</p>
       </div>
+      <div type="image_annotation" n="9" facs="#fox_donkey">
+        <head><supplied resp="editorial"><rs ref="cartoons_symbols.xml#fox">Fox</rs> and <rs ref="cartoons_symbols.xml#donkey">donkey</rs></supplied></head>
+        <p>A donkey clutches the legs of the "Presidential Chair." Although the donkey is often used
+          in political cartoons to symbolize the Democratic Party, <persName key="ENT.000000251"
+            >Thomas Nast</persName> often used the donkey as a symbol of the pro-Democratic
+          newspaper <hi rendition="#italics"><orgName key="ENT.000003541">New York
+            Herald</orgName></hi> and used the fox as a symbol of the Democratic Party itself. Here,
+          the fox stands on top of the donkey to place the "scapegoat" crown on the president's
+          head.</p>
+      </div>
+
+      <div type="image_annotation" n="10" facs="#unicorn">
+        <head><supplied resp="editorial">Unicorn</supplied></head>
+        <p>In several of his cartoons, <persName key="ENT.000000251">Thomas Nast</persName> used a
+          unicorn wearing a monocle to symbolize the <hi rendition="#italics"><orgName
+              key="ENT.000003328">New York Times</orgName></hi>. The unicorn is a symbol used in
+          Britain's coat of arms, and the editor of the <hi rendition="#italics">Times</hi> in 1876
+          was English.</p>
+      </div>
+
+      <div type="image_annotation" n="11" facs="#giraffe">
+        <head><supplied resp="editorial"><rs ref="cartoons_symbols.xml#giraffe">Giraffe</rs></supplied></head>
+        <p><persName key="ENT.000000251">Thomas Nast</persName> used the giraffe as a symbol for the
+            <hi rendition="#italics"><orgName key="ENT.000003329">New York Tribune</orgName></hi> in
+          several of his cartoons. The <hi rendition="#italics">Tribune's</hi> office building—under
+          construction when Nast debuted his giraffe symbol—was tall and skinny, like the neck of a
+          giraffe.</p>
+      </div>
+
+      <div type="image_annotation" n="12" facs="#donkey">
+        <head><supplied resp="editorial"><rs ref="cartoons_symbols.xml#donkey">Donkey</rs></supplied></head>
+        <p><persName key="ENT.000000251">Thomas Nast</persName> frequently used the donkey to
+          symbolize not the Democratic Party itself but the <hi rendition="#italics"><orgName
+              key="ENT.000003541">New York Herald</orgName></hi>, a reliably pro-Democratic
+          newspaper.</p>
+      </div>
+
+      <div type="image_annotation" n="13" facs="#dogs">
+        <head><supplied resp="editorial"><rs ref="cartoons_symbols.xml#dogs">Dogs</rs></supplied></head>
+        <p>Dogs are often used in political cartoons to symbolize the press.</p>
+      </div>
+
+      <div type="image_annotation" n="14" facs="#lion">
+        <head><supplied resp="editorial"><rs ref="cartoons_symbols.xml#lion">Lion</rs></supplied></head>
+        <p>The presidential lion in this cartoon is an obvious symbol for U.S. president <persName key="ENT.000000941">Ulysses S. Grant</persName>.</p>
+      </div>
+
+
     </body>
   </text>
 </TEI>
