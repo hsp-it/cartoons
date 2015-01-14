@@ -1,24 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?xml-model href="../../../TEI_exercise%20on%20ODDs/HSPDigitalProjectsSchema2.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:gdp="http://www.hsp.org/ns/nonTEI">
+<?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
 
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">TEI description of interpretive taxonomies for the NHPRC Cartoons Digital
-          History Project Project</title>
+        <title type="main">TEI description of interpretive taxonomies for the Historic Images, New
+          Technologies (HINT) Digital History Project</title>
         <author>
-          <persName>Moloshok, Rachel</persName>
-          <persName>Newhouse, Sarah</persName>
+          <persName key="ENT.000003526">Moloshok, Rachel</persName>
+        </author>
+        <author>
+          <persName key="ENT.000003352">Newhouse, Sarah</persName>
+        </author>
+        <author>
+          <persName key="ENT.000003528">Dorman, Dana</persName>
         </author>
       </titleStmt>
 
       <publicationStmt>
-        <publisher>The Historical Society of Pennsylvania</publisher>
+        <publisher><orgName key="ENT.000002473">Historical Society of
+          Pennsylvania</orgName></publisher>
         <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
         <availability status="restricted">
-          <p>Copyright 2013, The Historical Society of Pennsylvania. HSP makes a claim of copyright
+          <p>Copyright 2015, The Historical Society of Pennsylvania. HSP makes a claim of copyright
             only to original contributions made by the NHPRC Political Cartoons Digital History
             Project participants and other staff. Permission is granted to download, transmit or
             otherwise reproduce, distribute or display the text contributions to this work claimed
@@ -29,8 +36,13 @@
             digital imaging, other reproduction services, and the intended use of reproductions must
             be made in writing to the Rights and Reproductions Coordinator at rnr@hsp.org.</p>
         </availability>
-        <date when="2013"/>
+        <date when="2015"/>
       </publicationStmt>
+
+      <seriesStmt>
+        <title level="s" type="project" key="CARTOONS">Historic Images, New Technologies (HINT)
+          Project</title>
+      </seriesStmt>
 
       <sourceDesc>
         <p>Born digital.</p>
@@ -48,49 +60,113 @@
           Historical Publications and Records Commission's (NHPRC) Innovation in Archives and
           Documentary Editing program.</p>
       </projectDesc>
-      <classDecl>
-        <taxonomy xml:id="Cartoons_topics">
-
-          <category xml:id="sh85106475">
-            <catDesc>Presidents--United States--Election</catDesc>
-            <!-- this should be subdivided by year. do we want to bother with that? -SN -->
-          </category>
-          <category xml:id="sh2010108614">
-            <catDesc> Prohibition--United States--History</catDesc>
-          </category>
-
-          <category xml:id="sh2008110339">
-            <catDesc>Racism--United States</catDesc>
-          </category>
-          <category xml:id="sh85123326">
-            <catDesc>Slavery--United States</catDesc>
-          </category>
-          <category xml:id="n88126576">
-            <catDesc> Stamp Act Congress (1765 : New York, N.Y.)</catDesc>
-            <!-- best I could find for the Stamp Act -SN -->
-          </category>
-          <category xml:id="sh86007006">
-            <catDesc>Temperance--United States</catDesc>
-          </category>
-          <category xml:id="sh85140058">
-            <catDesc>United States--Foreign relations</catDesc>
-          </category>
-          <category xml:id="sh85140205">
-            <catDesc>United States--History--Civil War, 1861-1865</catDesc>
-            <!-- http://id.loc.gov/authorities/subjects/sh85140205.html -->
-          </category>
-          <category xml:id="sh85140194">
-            <catDesc>United States--History--War of 1812</catDesc>
-          </category>
-          <category xml:id="sh85140410">
-            <catDesc>United States--Politics and government</catDesc>
-          </category>
-
-        </taxonomy>
-      </classDecl>
-    </encodingDesc>
-  </teiHeader>
-
+<classDecl>
+  <taxonomy xml:id="cartoons_eras">
+    <bibl>
+      <title type="main">HINT chronological topics</title><!-- EACH CARTOON MUST BE TAGGED WITH ONE OF THESE TOPICS -->
+      <ref type="source"/>
+    </bibl>
+    <category xml:id="early">
+      <catDesc>Early Period (1754-1860)</catDesc>
+    </category>
+    <category xml:id="civil_war">
+      <catDesc>Civil War (1861-1865)</catDesc>
+    </category>
+    <category xml:id="reconstruction">
+      <catDesc>Reconstruction (1866-1877)</catDesc>
+    </category>
+    <category xml:id="gilded">
+      <catDesc>Early Gilded Age (1878-1889)</catDesc>
+    </category>
+    <category xml:id="nineties">
+      <catDesc>Gay Nineties (1890-1899)</catDesc>
+    </category>
+    <category xml:id="twentieth">
+      <catDesc>Early Twentieth Century (1900-1922)</catDesc>
+    </category>
+  </taxonomy>
+  <taxonomy xml:id="cartoons_exhibit_topics">
+    <bibl>
+      <title type="main">HINT exhibit topics</title><!-- ALL FEATURED AND LESSON PLAN CARTOONS MUST RECEIVE ONE OF THESE TOPICS -->
+      <ref type="source"/>
+    </bibl>
+    <category xml:id="featured">
+      <catDesc>Featured cartoon</catDesc>
+    </category>
+    <category xml:id="lesson_plan">
+      <catDesc>Used in a lesson plan</catDesc>
+    </category>
+  </taxonomy>
+  <taxonomy xml:id="cartoons_subjects">
+    <bibl>
+      <title type="main">HINT subject topics</title>
+      <ref type="source"/>
+    </bibl>
+    <category xml:id="Pennsylvania">
+      <catDesc>Pennsylvania</catDesc>
+    </category>
+    <category xml:id="war">
+      <catDesc>Military conflict</catDesc><!-- use for cartoons relating to any war or conflict -->
+    </category>
+    <category xml:id="slavery">
+      <catDesc>Slavery</catDesc><!-- use for cartoons commenting on slavery and abolition/antislavery -->
+    </category>
+    <category xml:id="African_American">
+      <catDesc>African American</catDesc><!-- use for cartoons that relate to black life, including slavery but of course also Reconstruction, Jim Crow, etc. -->
+    </category>
+    <category xml:id="immigration">
+      <catDesc>Immigration</catDesc>
+    </category>
+    <category xml:id="stereotypes">
+      <catDesc>Ethnic and racial stereotypes</catDesc>
+    </category>
+    <category xml:id="elections">
+      <catDesc>Elections</catDesc><!-- use for any cartoons related to voting, candidates for office, or the election itself, including political conventions -->
+    </category>
+    <category xml:id="labor">
+      <catDesc>Labor and industry</catDesc>
+    </category>
+    <category xml:id="gender">
+      <catDesc>Gender</catDesc><!-- applies to women's issues and commentary on gender roles (ex, cartoons that feature cross-dressing) -->
+    </category>
+    <category xml:id="econ">
+      <catDesc>Economics and finance</catDesc><!-- also applies to anything tax-related -->
+    </category>
+    <category xml:id="international">
+      <catDesc>International relations</catDesc>
+    </category>
+    <category xml:id="culture">
+      <catDesc>Culture and entertainment</catDesc><!-- applies to anything literary, music, nursery rhymes, circus, sports -->
+    </category>
+    <category xml:id="science">
+      <catDesc>Science</catDesc><!-- we don't have many, but teachers requested it; use for obviously scientific topics but also cartoons relating to hygiene, health, water quality, exploration -->
+    </category>
+    <category xml:id="religion">
+      <catDesc>Religion</catDesc>
+    </category>
+    <category xml:id="native">
+      <catDesc>Native American</catDesc>
+    </category>
+    <category xml:id="press">
+      <catDesc>Media and the press</catDesc>
+    </category>
+    <category xml:id="laws">
+      <catDesc>Lawmaking and legal matters</catDesc>
+    </category>
+    <category xml:id="children">
+      <catDesc>Children</catDesc>
+    </category>
+  </taxonomy>
+</classDecl>
+</encodingDesc>
+    <revisionDesc>
+      <change who="RachelMoloshok" when="2015-01-14">Basic proofreading</change>
+      <change who="RachelMoloshok" when="2015-01-12">Exported from CA</change>
+      <change who="DanaDorman" when="2014-06-02">Updated taxonomies ography draft to include basic
+        info for test CA import.</change>
+      <!-- ??This is where we'll note what has changed AND keep track of whether a document has been proofread.  Add <change> elements for each revision, listing MOST RECENT FIRST. Use @when to list date. Use @who for first-lastname entries for the person responsible (choices available in Oxygen; human readers will be able to figure out who we mean).  -->
+    </revisionDesc>
+</teiHeader>
   <text>
     <body>
       <p/>

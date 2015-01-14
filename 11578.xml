@@ -187,16 +187,19 @@
   <text>
     <front>
       <div type="editorial_desc">
-        <p>A <rs ref="cartoons_symbols.xml#fox">fox</rs>, standing on the back of a <rs ref="cartoons_symbols.xml#donkey">donkey</rs>, places a "crown"—actually, a goat's head labeled
-          "The Scapegoat"—on the head of a <rs ref="cartoons_symbols.xml#lion">lion</rs> seated in a throne labeled "presidential chair." The
-          fox has a book titled "Party Catechism" sticking out of its pocket. Assorted animals,
-          including rabbits, mice, a duck, a vulture, and dogs, look on. In the distance, the U.S.
-          Capitol provides a backdrop. In front of the capitol building are members of the press,
-          represented by barking <rs ref="cartoons_symbols.xml#dogs">dogs</rs> and a <rs ref="cartoons_symbols.xml#unicorn">unicorn</rs>, a <rs ref="cartoons_symbols.xml#giraffe">giraffe</rs>, a donkey, and a bear holding up
-          quills. In this cartoon, <persName key="ENT.000000251">Thomas Nast</persName> expresses
-          sympathy for outgoing president <persName key="ENT.000000941">Ulysses S. Grant</persName>,
-          who was criticized in the press for the misdeeds of his officials and for (in Nast's view)
-          forces beyond the president's control.</p>
+        <p>A <rs ref="cartoons_symbols.xml#fox">fox</rs>, standing on the back of a <rs
+            ref="cartoons_symbols.xml#donkey">donkey</rs>, places a "crown"—actually, a goat's head
+          labeled "The Scapegoat"—on the head of a <rs ref="cartoons_symbols.xml#lion">lion</rs>
+          seated in a throne labeled "presidential chair." The fox has a book titled "Party
+          Catechism" sticking out of its pocket. Assorted animals, including rabbits, mice, a duck,
+          a vulture, and dogs, look on. In the distance, the U.S. Capitol provides a backdrop. In
+          front of the capitol building are members of the press, represented by barking <rs
+            ref="cartoons_symbols.xml#dogs">dogs</rs> and a <rs ref="cartoons_symbols.xml#unicorn"
+            >unicorn</rs>, a <rs ref="cartoons_symbols.xml#giraffe">giraffe</rs>, a donkey, and a
+          bear holding up quills. In this cartoon, <persName key="ENT.000000251">Thomas
+            Nast</persName> expresses sympathy for outgoing president <persName key="ENT.000000941"
+            >Ulysses S. Grant</persName>, who was criticized in the press for the misdeeds of his
+          officials and for (in Nast's view) forces beyond the president's control.</p>
       </div>
     </front>
     <body>
@@ -242,7 +245,8 @@
         <p>The crowning insult to him who occupies the presidential chair.</p>
       </div>
       <div type="image_annotation" n="9" facs="#fox_donkey">
-        <head><supplied resp="editorial"><rs ref="cartoons_symbols.xml#fox">Fox</rs> and <rs ref="cartoons_symbols.xml#donkey">donkey</rs></supplied></head>
+        <head><supplied resp="editorial"><rs ref="cartoons_symbols.xml#fox">Fox</rs> and <rs
+              ref="cartoons_symbols.xml#donkey">donkey</rs></supplied></head>
         <p>A donkey clutches the legs of the "Presidential Chair." Although the donkey is often used
           in political cartoons to symbolize the Democratic Party, <persName key="ENT.000000251"
             >Thomas Nast</persName> often used the donkey as a symbol of the pro-Democratic
@@ -262,7 +266,8 @@
       </div>
 
       <div type="image_annotation" n="11" facs="#giraffe">
-        <head><supplied resp="editorial"><rs ref="cartoons_symbols.xml#giraffe">Giraffe</rs></supplied></head>
+        <head><supplied resp="editorial"><rs ref="cartoons_symbols.xml#giraffe"
+            >Giraffe</rs></supplied></head>
         <p><persName key="ENT.000000251">Thomas Nast</persName> used the giraffe as a symbol for the
             <hi rendition="#italics"><orgName key="ENT.000003329">New York Tribune</orgName></hi> in
           several of his cartoons. The <hi rendition="#italics">Tribune's</hi> office building—under
@@ -271,7 +276,8 @@
       </div>
 
       <div type="image_annotation" n="12" facs="#donkey">
-        <head><supplied resp="editorial"><rs ref="cartoons_symbols.xml#donkey">Donkey</rs></supplied></head>
+        <head><supplied resp="editorial"><rs ref="cartoons_symbols.xml#donkey"
+            >Donkey</rs></supplied></head>
         <p><persName key="ENT.000000251">Thomas Nast</persName> frequently used the donkey to
           symbolize not the Democratic Party itself but the <hi rendition="#italics"><orgName
               key="ENT.000003541">New York Herald</orgName></hi>, a reliably pro-Democratic
@@ -279,13 +285,16 @@
       </div>
 
       <div type="image_annotation" n="13" facs="#dogs">
-        <head><supplied resp="editorial"><rs ref="cartoons_symbols.xml#dogs">Dogs</rs></supplied></head>
+        <head><supplied resp="editorial"><rs ref="cartoons_symbols.xml#dogs"
+          >Dogs</rs></supplied></head>
         <p>Dogs are often used in political cartoons to symbolize the press.</p>
       </div>
 
       <div type="image_annotation" n="14" facs="#lion">
-        <head><supplied resp="editorial"><rs ref="cartoons_symbols.xml#lion">Lion</rs></supplied></head>
-        <p>The presidential lion in this cartoon is an obvious symbol for U.S. president <persName key="ENT.000000941">Ulysses S. Grant</persName>.</p>
+        <head><supplied resp="editorial"><rs ref="cartoons_symbols.xml#lion"
+          >Lion</rs></supplied></head>
+        <p>The presidential lion in this cartoon is an obvious symbol for U.S. president <persName
+            key="ENT.000000941">Ulysses S. Grant</persName>.</p>
       </div>
 
 
