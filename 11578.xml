@@ -70,9 +70,16 @@
                 <date from="1876-05-13">May 13, 1876</date>
                 <extent>1 loose page</extent>
                 <listRelation>
-                  <relation name="depicted"
-                    active="ENT.000000941 ENT.000003329 ENT.000003541 ENT.000003328 cartoons_symbols.xml#donkey cartoons_symbols.xml#dogs cartoons_symbols.xml#giraffe cartoons_symbols.xml#fox cartoons_symbols.xml#lion cartoons_symbols.xml#unicorn"
-                  />
+                  <relation name="depicted" active="ENT.000000941"/>
+                  <relation name="depicted" active="ENT.000003329"/>
+                  <relation name="depicted" active="ENT.000003541"/>
+                  <relation name="depicted" active="ENT.000003328"/>
+                  <relation name="depicted" active="cartoons_symbols.xml#donkey"/>
+                  <relation name="depicted" active="cartoons_symbols.xml#dogs"/>
+                  <relation name="depicted" active="cartoons_symbols.xml#giraffe"/>
+                  <relation name="depicted" active="cartoons_symbols.xml#fox"/>
+                  <relation name="depicted" active="cartoons_symbols.xml#lion"/>
+                  <relation name="depicted" active="cartoons_symbols.xml#unicorn"/>
                 </listRelation>
               </bibl>
             </msItem>
@@ -155,6 +162,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
+      <change who="RachelMoloshok" when="2015-01-14">Updated to encode one relation element per referenced entity/symbol</change>
       <change who="RachelMoloshok" when="2015-01-13">Updated test file to reference media and entity
         codes in live DAMS site; featured-level encoding added</change>
       <change who="RachelMoloshok" when="2014-12-09">Updated to match revised schema and recent

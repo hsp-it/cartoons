@@ -78,7 +78,8 @@
                                 <relatedItem type="references" target="8532.xml"/>
                                 <listRelation>
                                     <relation name="depicted"
-                                        active="cartoons_symbols.xml#john_bull ENT.000003542"/>
+                                        active="cartoons_symbols.xml#john_bull"/>
+                                    <relation name="depicted" active="ENT.000003542"/>
                                     <relation name="mentioned" active="ENT.000003543"/>
                                 </listRelation>
                             </bibl>
@@ -156,6 +157,7 @@
         </profileDesc>
 
         <revisionDesc>
+            <change who="RachelMoloshok" when="2015-01-14">Updated to encode one relation element per referenced entity/symbol</change>
             <change who="RachelMoloshok" when="2015-01-13">Updated test file with media and entity
                 codes from live DAMS</change>
             <change who="RachelMoloshok" when="2014-10-21">Cut and pasted surface and zone

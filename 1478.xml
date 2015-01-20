@@ -81,8 +81,11 @@
                                     </dimensions>
                                 </extent>
                                 <listRelation>
-                                    <relation name="depicted"
-                                        active="ENT.000003532 ENT.000002593 ENT.000003533 ENT.000000054 cartoons_symbols.xml#fox"/>
+                                    <relation name="depicted" active="ENT.000003532"/>
+                                    <relation name="depicted" active="ENT.000002593"/>
+                                    <relation name="depicted" active="ENT.000003533"/>
+                                    <relation name="depicted" active="ENT.000000054"/>
+                                    <relation name="depicted" active="cartoons_symbols.xml#fox"/>
                                     <relation name="mentioned" active="ENT.000003534"/>
                                 </listRelation>
                             </bibl>
@@ -103,12 +106,11 @@
                     and discovery of the Historical Society of Pennsylvania's graphics materials and
                     promote the linking and sharing of content among institutions and scholars. The
                     project will result in an update to HSP's digital image viewer and an online
-                    digital history exhibit that will
-                    demonstrate the new viewer's capabilities and provide interpretive and
-                    contextual materials to encourage users to interact with historical images in
-                    new ways. This project was funded by a grant from the National Historical
-                    Publications and Records Commission's (NHPRC) Innovation in Archives and
-                    Documentary Editing program</p>
+                    digital history exhibit that will demonstrate the new viewer's capabilities and
+                    provide interpretive and contextual materials to encourage users to interact
+                    with historical images in new ways. This project was funded by a grant from the
+                    National Historical Publications and Records Commission's (NHPRC) Innovation in
+                    Archives and Documentary Editing program</p>
             </projectDesc>
             <editorialDecl n="4">
                 <p><!-- ??This is where we'd describe any notable editorial decisions made about THIS document during encoding; use multiple p elements to list each. FYI, the @n of "4" shows that we're matching Library Best Practices of level 4. made for the NHPRC Political Cartoons Digital History Project. --></p>
@@ -152,7 +154,10 @@
         </profileDesc>
 
         <revisionDesc>
-            <change who="RachelMoloshok" when="2015-01-12">Test file updated to match live DAMS entity and media codes</change>
+            <change who="RachelMoloshok" when="2015-01-14">Updated to encode one relation element
+                per referenced entity/symbol</change>
+            <change who="RachelMoloshok" when="2015-01-12">Test file updated to match live DAMS
+                entity and media codes</change>
             <change who="RachelMoloshok" when="2014-11-25">Test file created</change>
         </revisionDesc>
     </teiHeader>
