@@ -61,7 +61,7 @@
                     <msIdentifier>
                         <repository key="ENT.000002473">Historical Society of Pennsylvania,
                             Philadelphia, PA</repository>
-                        <collection key="V65"/>
+                        <collection key="V65">Historical Society of Pennsylvania large graphics collection</collection>
                         <idno type="citation">Bc 612 Q24</idno>
                     </msIdentifier>
                     <msContents>
@@ -113,7 +113,6 @@
                     Archives and Documentary Editing program</p>
             </projectDesc>
             <editorialDecl n="4">
-                <p><!-- ??This is where we'd describe any notable editorial decisions made about THIS document during encoding; use multiple p elements to list each. FYI, the @n of "4" shows that we're matching Library Best Practices of level 4. made for the NHPRC Political Cartoons Digital History Project. --></p>
                 <p>This electronic file was created using manual keying following the
                     recommendations for Level 4 of "Best Practices for TEI in Libraries" guidelines
                     v3.0.</p>

@@ -1,22 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?xml-model href="../../HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:gdp="http://www.hsp.org/ns/nonTEI">
+<?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
 
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title type="main">TEI description of symbols mentioned and depicted in the Historic
                     Images, New Technologies (HINT) Project</title>
-                <author><persName>Newhouse, Sarah</persName>
-                    <persName>Moloshok, Rachel</persName></author>
+                <author>
+                    <persName key="ENT.000003526">Moloshok, Rachel</persName>
+                </author>
+                <author>
+                    <persName key="ENT.000003352">Newhouse, Sarah</persName>
+                </author>
+                <author>
+                    <persName key="ENT.000003528">Dorman, Dana</persName>
+                </author>
             </titleStmt>
 
             <publicationStmt>
-                <publisher>The Historical Society of Pennsylvania</publisher>
+                <publisher><orgName key="ENT.000002473">Historical Society of
+                    Pennsylvania</orgName></publisher>
                 <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
                 <availability status="restricted">
-                    <p>Copyright 2013, The Historical Society of Pennsylvania. HSP makes a claim of
+                    <p>Copyright 2014, The Historical Society of Pennsylvania. HSP makes a claim of
                         copyright only to original contributions made by the Historic Images, New
                         Technologies (HINT) Project participants and other staff. Permission is
                         granted to download, transmit or otherwise reproduce, distribute or display
@@ -29,8 +37,13 @@
                         services, and the intended use of reproductions must be made in writing to
                         the Rights and Reproductions Coordinator at rnr@hsp.org.</p>
                 </availability>
-                <date when="2013"/>
+                <date when="2014"/>
             </publicationStmt>
+
+            <seriesStmt>
+                <title level="s" type="project" key="CARTOONS">Historic Images, New Technologies
+                    (HINT) Project</title>
+            </seriesStmt>
 
             <sourceDesc>
                 <p>Born digital.</p>
@@ -51,7 +64,7 @@
             </projectDesc>
         </encodingDesc>
         <revisionDesc>
-            <change who="RachelMoloshok" when="2013-11-21">Test file created</change>
+            <change who="HSP" when="2014-08-26">Exported from Collective Access.</change>
         </revisionDesc>
     </teiHeader>
 
@@ -59,97 +72,56 @@
         <body>
             <div type="ography">
                 <list type="symbols">
-                    
-                    <item xml:id="ballot_box">
-                        <label>Ballot Box</label>
-                        <note type="symbol">Used to represent the democratic process.</note>
-                    </item>
-                    
-                    <item xml:id="Beelzebub">
-                        <label>Beelzebub</label>
-                        <note type="symbol">"Prince of Devils." See <rs ref="#devil">Devil</rs></note>
-                    </item>
-                    
-                    <item xml:id="Britannia">
-                        <label>Britannia</label>
-                        <note type="symbol">Personification of Britain</note>
-                    </item>
-                    
-                    <item xml:id="cat">
-                        <label>Cat</label>
-                        <!-- depicted in 2562-Bb612L615_1_TEI.xml (Liberty Triumphant) -->
-                    </item>
-                    
-                    <item xml:id="Columbia">
-                        <label>Columbia</label>
-                        <note type="symbol">A personification of the United States.</note>
-                    </item>
-                    
-                    <item xml:id="devil">
-                        <label>The Devil</label>
-                        <note type="symbol">A common character in political cartoons.</note>
-                    </item>
-                    
-                    <item xml:id="Downing_Jack">
-                        <label>Major Jack Downing</label>
-                        <!-- popular fictional character, used to represent United States/Americans in general. Forrest Gump-like everyman-->
-                        <!-- http://www.readex.com/readex-report/mascot-militant-many-campaigns-seba-smiths-major-jack-downing -->
-                        <!-- depicted in 11508-Bb612D758_01_TEI.xml -->
-                    </item>
-                    
-                    <item xml:id="elephant">
-                        <label>Elephant</label>
-                        <!-- represents the Republican Party, depicted in 11567-3133_b2f9_1_TEI.xml -->
-                    </item>
-                    
-                    <item xml:id="fame">
-                        <label>Fame</label>
-                        <!-- in 2562-Bb612L615_1_TEI.xml (Liberty Triumphant) -->
-                    </item>
-                    
-                    <item xml:id="fox">
-                        <label>Fox</label>
-                        <note type="symbol">What does the fox say?</note>
-                    </item>
-                    
-                    <item xml:id="John_Bull">
-                        <label>John Bull</label>
-                        <!-- depicted 11524-PG278_b5f2_1_TEI.xml -->
-                    </item>
-                    
-                    <item xml:id="laurel_wreath">
-                        <label>Laurel Wreath</label>
-                        <note type="symbol">Symbol of victory</note>
-                        <!-- depicted in 2562-Bb612L615_1_TEI.xml (Liberty Triumphant) -->
-                    </item>
-                    
-                    <item xml:id="Liberty">
-                        <label>Liberty</label>
-                        <!--  depicted as a woman in 2562-Bb612L615_1_TEI.xml (Liberty Triumphant) -->
-                    </item>
-                    
-                    <item xml:id="liberty_cap">
-                        <label>Liberty Cap</label>
-                        <!--  depicted in 2562-Bb612L615_1_TEI.xml (Liberty Triumphant) -->
-                    </item>
-                    
-                    <item xml:id="liberty_tree">
-                        <label>Liberty Tree</label>
-                        <!-- http://en.wikipedia.org/wiki/Liberty_Tree; chapter in David Hackett Fischer's "Liberty and Freedom" -->
-                        <!-- maybe depicted in 2562-Bb612L615_1_TEI.xml (Liberty Triumphant)? -->
-                    </item>
-                    
-                    <item xml:id="uncle_sam">
-                        <label>Uncle Sam</label>
-                        <note type="symbol">Personification of the United States</note>
-                        <!--  depicted in 11513-3133_b2f8_1_TEI.xml 11514-3133_b2f8_1_TEI.xml 11525-3133_b2f8_1_TEI.xml -->
-                    </item>
-
-                </list>
-
-            </div>
-
-
-        </body>
-    </text>
+<item xml:id="jack_downing">
+  <label>Jack Downing</label>
+  <note type="symbol">A fictional character popularized in a serial newspaper narrative by author Seba Smith, Jack Downing (who, over the course of his adventures, rose to the rank of Major) appears frequently in American political cartoons from the early republic as a stand-in for the American everyman.</note>
+</item>
+<item xml:id="donkey">
+  <label>Donkey</label>
+  <note type="symbol">Usage as a symbol of the Democratic Party attributed to Thomas Nast by many, but "jackass" also used in iconography of Andrew Jackson's 1828 presidential campaign. Nast also used donkey to symbolize Democratic-supporting newspaper the New York Herald during the 1870s.</note>
+</item>
+<item xml:id="fox">
+  <label>Fox</label>
+  <note type="symbol"><!-- Thomas Nast used occasionally as symbol of Democratic Party (ex, 11578); also used in early cartoons to represent  Joseph Fox (see 1478) --></note>
+</item>
+<item xml:id="lion">
+  <label>Lion</label>
+  <note type="symbol">Often used as a symbol of Great Britain. Nast also used lion to represent President Ulysses S. Grant</note>
+</item>
+<item xml:id="unicorn">
+  <label>Unicorn</label>
+  <note type="symbol">Used occasionally to symbolize Great Britain; in the 1870s, Thomas Nast also used a unicorn wearing a monocle to represent the New York Times.</note>
+</item>
+<item xml:id="dogs">
+  <label>Dogs</label>
+  <note type="symbol">Dogs are often depicted in political cartoons as representatives of the press.</note>
+</item>
+<item xml:id="giraffe">
+  <label>Giraffe</label>
+  <note type="symbol">In the 1870s, Thomas Nast used the giraffe to represent the New York Tribune.</note>
+</item>
+<item xml:id="john_bull">
+  <label>John Bull</label>
+  <note type="symbol">Symbolic representation of Great Britain, often depicted as a paunchy, middle-aged man.</note>
+</item>
+<item xml:id="beelzebub">
+  <label>Beelzebub</label>
+  <note type="symbol"><!-- depicted in 2562 --></note>
+</item>
+<item xml:id="britannia">
+  <label>Britannia</label>
+  <note type="symbol">Symbolic representation of Great Britain, often depicted as a woman holding a shield and a spear.</note>
+</item>
+<item xml:id="fame">
+  <label>Fame</label>
+  <note type="symbol">Personification of fame, often depicted as a winged goddess holding a laurel wreath and a trumpet. In Greek mythology, this goddess is called Pheme; in Roman mythology, Fama.</note>
+</item>
+<item xml:id="columbia">
+  <label>Columbia</label>
+  <note type="symbol">Personification of America, often depicted as a woman wearing a liberty cap (or holding a staff topped with a liberty cap) and accompanied by an American bald eagle.</note>
+</item>
+</list>
+</div>
+</body>
+</text>
 </TEI>
