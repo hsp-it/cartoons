@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-
-<?xml-model href="../../../Downloads/HSPDigitalProjectsSchema15%20(1).rnc" type="application/relax-ng-compact-syntax"?>
-
+<?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="English">
     <fileDesc>
@@ -106,7 +104,7 @@
               Weekly</orgName></title>
             <imprint>
               <pubPlace>New York</pubPlace>
-              <date from="1876-05-13">1876-05-13</date>
+              <date from="1876-05-13">May 13, 1876</date>
               <biblScope unit="page">388-389</biblScope>
               <publisher>
                 <orgName key="ENT.000003540">Harper &amp; Brothers</orgName>
