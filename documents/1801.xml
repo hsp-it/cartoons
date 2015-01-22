@@ -13,25 +13,29 @@
         <fileDesc>
 
             <titleStmt>
-                <title type="main">TEI transcription of Let us have Peace, Now A President's Elected</title>
+                <title type="main">TEI transcription of Let us have Peace, Now A President's
+                    Elected</title>
                 <respStmt>
                     <resp key="art">Artist</resp>
-                    <persName key="ENT.000000379">
-                      </persName>
+                    <persName key="ENT.000000379">Joseph Keppler</persName>
                 </respStmt>
                 <respStmt>
                     <resp key="pbl">Publisher</resp>
-                    <persName key="ENT.000003163"></persName>
+                    <persName key="ENT.000003163">Keppler &amp;Schwarzmann</persName>
                 </respStmt>
                 <!-- Add <respStmt> elements as appropriate for additional artists, lithographer(s), engraver(s), colorist(s), printer(s), publisher(s), etc. Full list of resp codes available here: http://www.loc.gov/marc/relators/relacode.html-->
                 <respStmt>
+                    <resp key="ltg">Lithographer</resp>
+                    <persName key="ENT.000000380">Mayer Merkel &amp; Ottomann</persName>
+                </respStmt>
+                
+                <respStmt>
                     <resp key="trc">Transcribed by</resp>
-                    <!-- ??The person who's responsible for transcribing the TEI document; include multiple respStmt's for however many roles are needed. Note that the <resp> element within <respStmt> uses @key attribute to record the person's role in authority-control form: trc = transcriber, mrk = markup editor (if different than transcriber); pfr = proofreader; full list of codes available here: http://www.loc.gov/marc/relators/relacode.html -->
-                    <persName key="ENT.000003544"/>
+                    <persName key="ENT.000003544">Diane Biunno</persName>
                 </respStmt>
                 <respStmt>
                     <resp key="mrk">Encoded by</resp>
-                    <persName key="ENT.000003544"/>
+                    <persName key="ENT.000003544">Diane Biunno</persName>
                 </respStmt>
 
             </titleStmt>
@@ -72,18 +76,16 @@
                     <msIdentifier>
                         <repository key="ENT.000002473"/>
                         <collection key="3133"/>
-                        <!-- ??Enter collection number as value of key. Ex: 3133 for Historical Society of Pennsylvania cartoons and caricatures collection; V65 for Historical Society of Pennsylvania large graphics collection (cartoons with call numbers beginning with Bc); V64 for Historical Society of Pennsylvania medium graphics collection (cartoons with call numbers beginning with Bb); V63 for Historical Socity of Pennsylvania small graphics collection (cartoons with call numbers beginning with Ba); 3213 for Balch Institute broadsides (cartoons with call numbers beginning with NB). For more, refer to "Collections key for encoding" document in Google Drive, available at:  https://docs.google.com/spreadsheet/ccc?key=0AlBHpf7xHD3SdFlwRGRPTTlwOGxoWHpqRkRTYmhkN3c#gid=0 -->
-                        <idno type="citation">
-                            <idno type="box">7</idno>
-                            <idno type="folder">27</idno>
-                        </idno>
+                            <idno type="citation">
+                                <idno type="box">7</idno>
+                                <idno type="folder">27</idno>
+                            </idno>
                     </msIdentifier>
                     <msContents>
                         <msItem>
                             <bibl>
                                 <date from="1880-11-03">November 3, 1880</date>
-                                <extent>1 loose sheet<!-- ??Extent and basic physical description of the source document; i.e. 2 loose pages --></extent>
-                                
+                                <extent>1 loose sheet</extent>
                                 <relatedItem type="copy_of" target="1801"/>
                                 <!-- Use AS NEEDED to reference related objects (NOT collections or entities) in Collective Access. Use @target to identify filename, ex, 11564.xml. DELETE THIS ELEMENT IF NOT USING  -->
                                 <listRelation>
@@ -103,18 +105,22 @@
                                     <relation name="depicted" active="ENT.000003567"/>
                                     <relation name="depicted" active="ENT.000003362"/>
                                     <relation name="depicted" active="ENT.000003569"/>
-                                   
+
                                     <!-- use to list entities and symbols DEPICTED in the document, pointing to relevant DAMS entity codes and/or symbolography files (ex., <relation name="depicted" active="ENT.000005678 cartoons_people.xml#uncle_sam/> DELETE THIS ELEMENT IF NOT USING -->
                                     <!--relation name="mentioned" active=""/-->
                                     <!-- use to list entities and symbols MENTIONED in the transcript of the document, pointing to relevant DAMS entity codes and/or symbolography files DO NOT USE for entities that are also depicted. DELETE THIS ELEMENT IF NOT USING -->
                                 </listRelation>
-                         </bibl>
+                            </bibl>
                         </msItem>
                     </msContents>
 
                     <history>
-                        <acquisition>This is an artificial collection created over time by HSP staff mostly through donations and purchases of individual prints. It also incorporates previously uncataloged materials collected by the Balch Institute for Ethnic Studies. Some of the 20th century cartoons and drawings were removed from the J. Hampton Moore papers (Collection 1541).
-                            
+                        <acquisition>This is an artificial collection created over time by HSP staff
+                            mostly through donations and purchases of individual prints. It also
+                            incorporates previously uncataloged materials collected by the Balch
+                            Institute for Ethnic Studies. Some of the 20th century cartoons and
+                            drawings were removed from the J. Hampton Moore papers (Collection
+                            1541).
                             <!-- ??Provenance/acquisition info, ex., "This is an artificial collection created over time by HSP staff mostly through donations and purchases of individual prints. It also incorporates previously uncataloged materials collected by the Balch Institute for Ethnic Studies. Some of the 20th century cartoons and drawings were removed from the J. Hampton Moore papers (Collection 1541)." Look up in collection finding aid. If no acquisition information exists for the collection, leave this element empty-->
                         </acquisition>
                     </history>
@@ -132,29 +138,18 @@
                         </title>
                     </analytic>
                     <monogr>
-                        <title type="marc245a" level="j">Puck
-                            <orgName key="ENT.000000384">
-  <!-- Value of @key is DAMS entity code for the newspaper or magazine in which this cartoon was published, ex, Harper's Weekly -->
+                        <title type="marc245a" level="j">Puck <orgName key="ENT.000000384">
                             </orgName>
                         </title>
                         <imprint>
                             <publisher>
-                                <orgName key="ENT.000003163"
-                                    ><!-- Value of @key is DAMS entity code for periodical publisher, ex, Harper & Brothers. Replace <orgName> tags with <persName> if the publisher is an individual, rather than an organization.  -->
-                                </orgName>
+                                <orgName key="ENT.000003163"> </orgName>
                             </publisher>
-                            <pubPlace> New York
-                                <!-- enter place of publication, ex., Philadelphia -->
-                            </pubPlace>
-                            <date when="1880-11-03">November 3, 1880
-                                
-                            <!-- ??Use @from attribute to list the publication date; use @to if necessary. Ex, if the publication date is 1900, fill out from="1900-01-01" to "1900-12-31". Enter front-facing date within <date> tags, ex, "1900" or "circa 1905" -->
-                            </date>
+                            <pubPlace> New York </pubPlace>
+                            <date when="1880-11-03">November 3, 1880 </date>
                             <biblScope unit="volume">8</biblScope>
                             <biblScope unit="issue">191</biblScope>
-                            
-                                <!-- use multiple biblScope elements as needed to record volume, issue, and page information -->
-                            
+
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -210,7 +205,7 @@
                 <catRef target="cartoons_taxonomies.xml#gilded"/>
                 <catRef target="cartoons_taxonomies.xml#elections"/>
                 <catRef target="cartoon_genres.xml#lithographs"/>
-                <!-- use this section to apply genre and taxonomy tags, as outlined in encoding guidelines -->
+
             </textClass>
         </profileDesc>
 
@@ -222,31 +217,125 @@
     </teiHeader>
 
     <facsimile>
-        <!-- ??The following text shows how to structure this section, but the URL information needs to be replaced with real text in order for this to validate. -->
+
         <surface ulx="" uly="" lrx="" lry="">
-            <!-- Leave values for <surface> attributes blank; coordinates will be provided by Collective Access upon export. Use <surface> to contain <graphic> and <zone>. Use multiple <surface> elements as needed for multiple pages/images -->
-            <graphic
-                url="FIL.000085253"/>
-            <!-- Use as many zone elements as needed. Provide each zone with a number and a unique (to this file) xml:id. @points values will be provided by Collective Access upon export.  -->
-            <zone n="1" xml:id="title" points=""/>
+
+            <graphic url="FIL.000085253"/>
+
+            <zone n="1" xml:id="Title" points=""/>
+            <zone n="2" xml:id="Signature" points=""/>
+            <zone n="3" xml:id="Office" points=""/>
+            <zone n="4" xml:id="Lithog" points=""/>
+            <zone n="5" xml:id="Democrat" points=""/>
+            <zone n="6" xml:id="Repub" points=""/>
+            <zone n="7" xml:id="Date" points=""/>
+            <zone n="8" xml:id="Conkling" points=""/>
+            <zone n="9" xml:id="Garfield" points=""/>
+            <zone n="10" xml:id="Hancock" points=""/>
+            <zone n="11" xml:id="Kelly" points=""/>
+            <zone n="12" xml:id="Arthur" points=""/>
+            <zone n="13" xml:id="Grant" points=""/>
+            <zone n="14" xml:id="Butler" points=""/>
+            <zone n="15" xml:id="Dana" points=""/>
+            <zone n="16" xml:id="Tilden" points=""/>
+            
+            
         </surface>
     </facsimile>
 
     <text>
-        <!-- ??See separate ODD file with full encoding guidelines. -->
         <front>
             <div type="editorial_desc">
-                <p>Lady Republican and Lady Democrat shake hands.  The faces of presidential candidates and political figures of the Election of 1880 are hidden in the landscape.<!-- Use this section to enter a BRIEF description of the image. --></p>
+                <p>Lady Republican and Lady Democrat shake hands. The faces of the presidential
+                    candidates of the 1880 Election, as well as other noteable political figures are
+                    hidden in the landscape.</p>
             </div>
         </front>
 
         <body>
-            <div type="image_transcription" facs="#title" n="1">
-                <!-- ??This is where the actual text of the transcription goes, using all the appropriate elements and attributes. See separate ODD file with encoding guidelines. To add "footnote"-style zone annotations to featured cartoons, use  <div type="image_annotation">   -->
+            <div type="image_transcription" facs="#Title" n="1">
                 <head><supplied resp="editorial">Title</supplied></head>
-                <p>LET US HAVE PEACE,NOW A PRESIDENT'S ELECTED Chorus of Invisibles.-But Where are his Features to be detected?</p>
+                <p>LET US HAVE PEACE,NOW A PRESIDENT'S ELECTED</p>
+                <p>Chorus of Invisibles.-But <hi rendition="#bold">Where</hi> are his Features to be
+                    detected?</p>
             </div>
-            <div type="image_annotation" facs="" n="2"></div>
+
+            <div type="image_transcription" facs="#Signature" n="2">
+                <head><supplied resp="editorial">Signature</supplied></head>
+                <p>KEPPLER</p>
+            </div>
+            
+            <div type="image_transcription" facs="#Office" n="3">
+                <head><supplied resp="editorial">Office</supplied></head>
+                <p>OFFICE OF PUCK 23 WARREN ST. NEW YORK</p>
+            </div>
+            
+            <div type="image_transcription" facs="#Lithog" n="4">
+                <head><supplied resp="editorial">Lithog</supplied></head>
+                <p>MAYER MERCKEL &amp; OTTOMANN LITHOG.2325 WARREN ST. N.Y</p>
+            </div>
+            
+            <div type="image_transcription" facs="#Democrat" n="5">
+                <head><supplied resp="editorial">Democrat</supplied></head>
+                <p>DEMOCRAT</p>
+            </div>
+            
+            <div type="image_transcription" facs="#Repub" n="6">
+                <head><supplied resp="editorial">Repub</supplied></head>
+                <p>REPUB</p>
+            </div>
+            
+            <div type="image_transcription" facs="#Date" n="7">
+                <head><supplied resp="editorial">Date</supplied></head>
+                <p><add>November 3rd 1880</add></p>
+                <p><add>Grant &amp; Arthur</add></p>
+                <p><add>Hancock &amp; English </add></p>    
+            </div>
+            
+            <div type="image_transcription" facs="#Conkling" n="8">
+                <head><supplied resp="editorial">Conkling</supplied></head>
+                <p><add>Conkling</add></p>      
+            </div>
+            
+            <div type="image_transcription" facs="#Garfield" n="9">
+                <head><supplied resp="editorial">Garfield</supplied></head>
+                <p><add>Garfield</add></p>
+            </div>
+            
+            <div type="image_transcription" facs="#Hancock" n="10">
+                <head><supplied resp="editorial">Hancock</supplied></head>
+                <p><add><hi rendition="#handwritten-circled">Hancock</hi></add></p>
+            </div>
+            
+            <div type="image_transcription" facs="#Kelly" n="11">
+                <head><supplied resp="editorial">Kelly</supplied></head>
+                <p><add><hi rendition="#handwritten-circled">Kelly</hi></add></p>
+            </div>
+            
+            <div type="image_transcription" facs="#Arthur" n="12">
+                <head><supplied resp="editorial">Arthur</supplied></head>
+                <p><add>Arthur</add></p>
+            </div>
+            
+            <div type="image_transcription" facs="#Grant" n="13">
+                <head><supplied resp="editorial">Grant</supplied></head>
+                <p><add>Grant</add></p>
+            </div>
+            
+            <div type="image_transcription" facs="#Butler" n="14">
+                <head><supplied resp="editorial">Butler</supplied></head>
+                <p><add>Butler</add></p>
+            </div>
+            
+            <div type="image_transcription" facs="#Dana" n="15">
+                <head><supplied resp="editorial">Dana</supplied></head>
+                <p><add>Dana?</add></p>
+            </div>
+            
+            <div type="image_transcription" facs="#Tilden" n="16">
+                <head><supplied resp="editorial">Tilden</supplied></head>
+                <p><add>Tilden</add></p>
+            </div>
         </body>
 
         <back/>
