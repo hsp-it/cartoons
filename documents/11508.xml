@@ -63,7 +63,7 @@
                         <repository key="ENT.000002473">The Historical Society of Pennsylvania,
                             Philadelphia, PA</repository>
                         <collection key="V64">Historical Society of Pennsylvania Medium Graphics
-                            Collection (Collection V64)</collection>
+                            Collection</collection>
                         <idno type="citation">Bb 612 D758</idno>
                     </msIdentifier>
                     <msContents>
@@ -126,6 +126,9 @@
                 <p>This electronic file was created using manual keying following the
                     recommendations for Level 4 of "Best Practices for TEI in Libraries" guidelines
                     v3.0.</p>
+                <p>This xml file uses unique entity identifiers, media file identifiers, and
+                    collection identifiers in HSP's Digital Library, available at
+                    http://digitallibrary.hsp.org.</p>
 
             </editorialDecl>
             <tagsDecl>

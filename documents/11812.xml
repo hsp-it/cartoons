@@ -209,7 +209,7 @@
             </div>
 
             <div n="2" type="image_transcription" facs="#imprint">
-                <p><abbr>Phla</abbr>Philadelphia <abbr>Pubd</abbr> and sold at 12 <choice>
+                <p><abbr>Phla</abbr> <abbr>Pubd</abbr> and sold at 12 <choice>
                         <sic>Chesnut</sic>
                         <corr>Chestnut</corr>
                     </choice> St</p>
@@ -234,7 +234,7 @@
             </div>
 
             <div n="5" type="image_transcription" facs="#bottle">
-                <head><persName key="ENT.000003543">Perry</persName><note type="editorial" n="1"
+                <head><persName key="ENT.000003543">Perry</persName><note type="editorial" n="2"
                         >Liquid shoots out of a bottle labeled "Perry"; each spray is labeled with
                         the name of American warships that fought in the Battle of Lake
                     Erie.</note></head>
@@ -250,7 +250,7 @@
 
             <div n="6" type="image_transcription" facs="#signature">
                 <p><persName key="ENT.000000848">Wm Charles</persName> del et Sculp.<note
-                        type="editorial" n="1">"Del et Sculp" means "drawn and engraved."</note></p>
+                        type="editorial" n="3">"Del et Sculp" means "drawn and engraved."</note></p>
             </div>
 
             <div n="7" type="image_transcription" facs="#newspapers">
@@ -259,7 +259,7 @@
                     Loss</p>
                 <p>Lake Erie in the</p>
                 <p><supplied resp="editorial">illegible</supplied> of the Charlotte<note
-                        type="editorial" n="1">The <hi rendition="#italics">Charlotte</hi> was a
+                        type="editorial" n="4">The <hi rendition="#italics">Charlotte</hi> was a
                         British warship defeated during the Battle of Lake Erie.</note></p>
                 <p>Whole Fleet <orig>Conseque</orig></p>
             </div>
