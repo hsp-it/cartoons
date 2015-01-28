@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-
 <?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="English">
     <fileDesc>
       <titleStmt>
-        <title type="main">TEI transcription of Honest Abe Taking Them On The Half Shell</title>
+        <title type="main">TEI transcription for Letting the Cat out of the Bag!!</title>
         <author/>
         <respStmt>
           <resp key="art">artist</resp>
           <persName key="ENT.000003364">Maurer, Louis, 1832-1932</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="trc">Transcribed by</resp>
+          <persName key="ENT.000003371">Newhouse, Sarah</persName>
         </respStmt>
         <respStmt>
           <resp key="trc">Transcribed by</resp>
@@ -19,6 +22,10 @@
         <respStmt>
           <resp key="mrk">Encoded by</resp>
           <persName key="ENT.000003371">Newhouse, Sarah</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="mrk">Encoded by</resp>
+          <persName key="ENT.000003343">Dorman, Dana</persName>
         </respStmt>
         <respStmt>
           <resp key="mrk">Encoded by</resp>
@@ -36,7 +43,7 @@
         <publisher><orgName key="ENT.000002473">Historical Society of
           Pennsylvania</orgName></publisher>
         <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
-        <idno type="filename">11562</idno>
+        <idno type="filename">11564</idno>
         <availability status="restricted">
           <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of copyright only
             to original contributions made by the Historic Images, New Technologies (HINT) Project
@@ -63,18 +70,21 @@
               collection</collection>
             <idno type="citation">
               <idno type="box">4</idno>
-              <idno type="folder">4</idno>
+              <idno type="folder">7</idno>
             </idno>
           </msIdentifier>
           <msContents>
             <msItem>
               <bibl>
-                <date from="1860-01-01" to="1860-12-31">1861</date>
+                <date from="1860-01-01" to="1861-12-31">circa 1860</date>
                 <extent>1 loose page</extent>
                 <listRelation>
                   <relation name="depicts" active="ENT.000000447"/>
-                  <relation name="depicts" active="ENT.000003344"/>
-                  <relation name="depicts" active="ENT.000003333"/>
+                  <relation name="depicts" active="ENT.000003283"/>
+                  <relation name="depicts" active="ENT.000003383"/>
+                  <relation name="depicts" active="ENT.000003352"/>
+                  <relation name="depicts" active="ENT.000003376"/>
+                  <relation name="depicted"/>
                 </listRelation>
               </bibl>
             </msItem>
@@ -97,7 +107,7 @@
               <resp key="pbl">publisher</resp>
               <persName key="ENT.000000844">Currier and Ives</persName>
             </respStmt>
-            <title type="main" level="m">Honest Abe Taking Them on the Half Shell</title>
+            <title type="main" level="m">Letting the Cat out of the Bag!!</title>
             <imprint>
               <pubPlace>New York, NY</pubPlace>
               <date from="1860-01-01" to="1860-12-31">1860</date>
@@ -124,8 +134,8 @@
       <editorialDecl n="4">
         <p>This electronic file was created using manual keying following the recommendations for
           Level 4 of "Best Practices for TEI in Libraries" guidelines v3.0.</p>
-        <p>This xml file uses unique entity identifiers, media file identifiers, and collection
-          identifiers in HSP's Digital Library, available at http://digitallibrary.hsp.org.</p>
+        <p>This XML file uses unique entity identifiers, media file identifiers, and collection
+          identifiers in HSP's Digital Library, available at http://digitallibrary.hsp.org</p>
       </editorialDecl>
       <tagsDecl>
         <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
@@ -147,70 +157,103 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <catRef target="cartoons_genres.xml#lithographs"/>
-        <catRef target="cartoons_taxonomies.xml#early"/>
+        <catRef target="cartoons_genres.xml#lithograph"/>
+        <catRef
+          target="cartoons_taxonomies.xml#early"/>
+        <catRef target="cartoons_taxonomies.xml#culture"/>
+        <catRef target="cartoons_taxonomies.xml#slavery"/>
+        <catRef target="cartoons_taxonomies.xml#press"/>
         <catRef target="cartoons_taxonomies.xml#elections"/>
       </textClass>
     </profileDesc>
     <revisionDesc>
       <change who="RachelMoloshok" when="2015-01-28">Exported from HSP DAMS</change>
-      <change who="RachelMoloshok" when="2015-01-21">Shell file updated to reflect encoding
-        decisions and DAMS media and entity codes</change>
-      <change who="SarahNewhouse" when="2014-02-05">Shell file created</change>
+      <change who="RachelMoloshok" when="2015-01-28">Completed full encoding to basic level,
+        referencing DAMS media and entity codes</change>
+      <change who="DanaDorman" when="2014-08-26">Updated entity codes and media code to match test
+        DAMS system.</change>
+      <change who="DanaDorman" when="2014-07-09">Changed people/org references to use entity codes
+        only, and switched attributes for those references to @key instead of @ref.</change>
+      <change who="DanaDorman" when="2014-06-23">Added more corrections for canonical TEI
+        plans.</change>
+      <change who="DanaDorman" when="2014-05-20">Updated file to match canonical TEI plans.</change>
+      <change who="RachelMoloshok" when="2014-03-13">Additional sample encoding added for import
+        testing</change>
+      <change who="SarahNewhouse" when="2014-02-07">Shell file created</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
     <surface ulx="0" uly="0" lrx="100" lry="100">
-      <graphic url="FIL.000085215"/>
-      <zone n="1" xml:id="sign" points="11.41,8.02 31.78,7.67 31.78,21.58 11.28,21.75"/>
-      <zone n="2" xml:id="lincoln"
-        points="38.97,18.97 51.3,11.3 85.06,26.27 91.2,73.73 57.08,80.91 55.33,82.99 51.76,82.87 51.93,80.91 16.5,80.16 26.69,57.04 41.58,46.09 37.66,29.92"/>
-      <zone n="3" xml:id="douglas"
-        points="26.58,39.31 40.14,38.44 58.68,63.3 52.68,71.99 41.71,84.16 38.7,83.81 26.58,44.31"/>
-      <zone n="4" xml:id="breckinridge"
-        points="60.85,35.55 80.49,37.05 90.29,53.39 81.54,83.98 75.92,84.16 59.21,42.44"/>
-      <zone n="5" xml:id="title" points="13.17,84.61 90.16,84.41 90.03,94.34 12.99,93.81"/>
+      <graphic url="FIL.000085217"/>
+      <zone n="1" xml:id="title"
+        points="41.22,77.07 66.85,77.07 77,81.05 88.45,85.89 10.9,86.58 20.53,81.22"/>
+      <zone n="2" xml:id="greeley"
+        points="12.08,17.95 31.33,19.3 26.65,33.65 34.32,41.78 24.43,76.9 10.25,74.82 11.16,55.1 17.15,36.42"/>
+      <zone n="3" xml:id="lincoln"
+        points="30.28,16.8 45.38,17.22 44.99,30.2 36.27,34.35 41.87,52.85 39.92,70.84 18.58,69.98 24.82,34"/>
+      <zone n="4" xml:id="raymond"
+        points="46.3,18.2 59.3,18.78 59.43,25.87 52.93,53.55 37.05,63.92 39.01,39.36 45.64,25.87"/>
+      <zone n="5" xml:id="cat"
+        points="47.49,52.87 54.88,50.43 60.99,50.95 68.8,54.58 64.9,62.71 48.37,63.92 46.81,58.39"/>
+      <zone n="6" xml:id="bag" points="62.51,49.52 69.84,53.03 80.51,67.9 71.27,71.19 60.6,65.13"/>
+      <zone n="7" xml:id="sumner"
+        points="55.67,28.53 73.74,28.98 85.19,54.58 78.17,73.09 73.61,72.92 69.71,54.24 62.56,49.91 67.63,41.96 55.79,41.96"/>
+      <zone n="8" xml:id="seward"
+        points="63.73,15.34 82.59,16.19 93.13,37.98 90.53,70.67 79.6,68.25 80.64,45.76 76.09,27.26 64.51,27.26"
+      />
     </surface>
   </facsimile>
   <text>
     <front>
       <div type="editorial_desc">
-        <p>In this political cartoon commenting on developments in the presidential election of
-          1860, the gigantic face of Abraham Lincoln fills the page as he holds up two oyster shells
-          on which his Democratic opponents Stephen A. Douglas and John C. Breckinridge are sitting.
-          Douglas, on the hard shell, cries "I'm a gone sucker!" while Breckinridge, on the hard
-          shell, complains "Alas! that ever I should live to be swallowed by a rail splitter."
-          Lincoln remarks "These fellows have been planted so long in Washington that they are as
-          fat as Butter. I hardly know which to swallow first."</p>
+        <p>Radical antislavery senator Charles Sumner releases a snarling cat, labeled "Spirit of
+          Discord," from the "Republican Bag." Horace Greeley, Abraham Lincoln, Henry J. Raymond,
+          and William H. Seward, worried that perceived Republican opposition to slavery will doom
+          Lincoln's hopes for the presidential election of 1860, express alarm.</p>
       </div>
     </front>
     <body>
-      <div type="image_transcription" n="1" facs="#sign">
-        <head><supplied resp="editorial">Sign</supplied></head>
-        <p>POLITICAL OYSTER HOUSE.</p>
-        <p>Hardshells &amp; Softshells Constantly on hand</p>
-        <p>Democrats fried, Stewed, Roasted or on the half Shell.</p>
+      <div type="image_transcription" n="1" facs="#title">
+        <head>LETTING THE CAT OUT OF THE BAG!!</head>
+        <p><unclear reason="faded"/>by Currier &amp; Ives, in the Clerk's Office of the <unclear
+            reason="faded"/> of N.Y.</p>
+        <p>Published by Currier &amp; Ives.</p>
+        <p>152 Nassau St. N. Y.</p>
       </div>
-      <div type="image_transcription" n="2" facs="#lincoln">
-        <head>Lincoln.</head>
-        <p>These fellows have been planted so long in Washington, that they are as fat as Butter, I
-          hardly know, which to swallow first.</p>
+      <div type="image_transcription" n="2" facs="#greeley">
+        <head><supplied resp="editorial">Horace Greeley</supplied></head>
+        <p>What are you doing Sumner! you'll spoil all! she aint to be let out until after Lincoln
+          is elected,_</p>
+        <p>TRIBUNE</p>
       </div>
-      <div type="image_transcription" n="3" facs="#douglas">
-        <head>Douglas.</head>
-        <p>I'm a gone sucker!!_</p>
-        <p>SOFT SHELL.</p>
+      <div type="image_transcription" n="3" facs="#lincoln">
+        <head><supplied resp="editorial">Abraham Lincoln</supplied></head>
+        <p>Oh Sumner! this is too bad!_ I thought we had her safely bagged at Chicago, now there
+          will be the old scratch to pay, unless I can drive her back again with my rail!_</p>
       </div>
-      <div type="image_transcription" n="4" facs="#breckinridge">
-        <head>Breckinridge.</head>
-        <p>Alas! that ever I should live to be swallowed by a rail splitter!</p>
-        <p>HARD SHELL.</p>
+      <div type="image_transcription" n="4" facs="#raymond">
+        <head><supplied resp="editorial">Henry J. Raymond</supplied></head>
+        <p>Scat!_ s'cat!- back with her, or our fat will all be in the fire._</p>
       </div>
-      <div type="image_transcription" n="5" facs="title">
-        <head>HONEST ABE TAKING THEM ON THE HALF SHELL. _</head>
-        <p>Published by Currier &amp; Ives, 152 Nassau St. N.Y.</p>
-        <p>Entered according to act of Congress in the year 1860, by Currier &amp; Ives, in the
-          Clerk's Office of the District Court for the Southern <abbr>Distt.</abbr> of N.Y.</p>
+      <div type="image_transcription" n="5" facs="#cat">
+        <head><supplied resp="editorial">Cat</supplied></head>
+        <p>SPIRIT OF DISCORD.</p>
+      </div>
+      <div type="image_transcription" n="6" facs="#bag">
+        <head><supplied resp="editorial">Bag</supplied></head>
+        <p>REPUBLICAN BAG</p>
+      </div>
+      <div type="image_transcription" n="7" facs="#sumner">
+        <head><supplied resp="editorial">Charles Sumner</supplied></head>
+        <p>It's no use talking Gentlemen, <sic>I was'nt</sic> mentioned at Chicago, and now I'm
+          going to do something desperate, I can't afford to have my head broken and be kept corked
+          up four years for nothing! _</p>
+      </div>
+      <div type="image_transcription" n="8" facs="#seward">
+        <head><supplied resp="editorial">William H. Seward</supplied></head>
+        <p>Gentlemen be cautious, you <sic>dont</sic> know how to manage that animal as well as I
+          did, and I'm afraid that some of you will get <hi rendition="#underline"
+          >scratched</hi></p>
       </div>
     </body>
   </text>
