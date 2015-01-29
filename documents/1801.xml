@@ -19,11 +19,7 @@
                     <resp key="art">Artist</resp>
                     <persName key="ENT.000000379">Joseph Keppler</persName>
                 </respStmt>
-                <respStmt>
-                    <resp key="pbl">Publisher</resp>
-                    <persName key="ENT.000003163">Keppler &amp;Schwarzmann</persName>
-                </respStmt>
-                <!-- Add <respStmt> elements as appropriate for additional artists, lithographer(s), engraver(s), colorist(s), printer(s), publisher(s), etc. Full list of resp codes available here: http://www.loc.gov/marc/relators/relacode.html-->
+                
                 <respStmt>
                     <resp key="ltg">Lithographer</resp>
                     <persName key="ENT.000000380">Mayer Merkel &amp; Ottomann</persName>
@@ -75,7 +71,7 @@
                 <msDesc>
                     <msIdentifier>
                         <repository key="ENT.000002473"/>
-                        <collection key="3133"/>
+                        <collection key="3133">Historical Society of Pennsylvania cartoons and caricatures collection</collection>
                             <idno type="citation">
                                 <idno type="box">7</idno>
                                 <idno type="folder">27</idno>
@@ -86,8 +82,8 @@
                             <bibl>
                                 <date from="1880-11-03">November 3, 1880</date>
                                 <extent>1 loose sheet</extent>
-                                <relatedItem type="copy_of" target="1801"/>
-                                <!-- Use AS NEEDED to reference related objects (NOT collections or entities) in Collective Access. Use @target to identify filename, ex, 11564.xml. DELETE THIS ELEMENT IF NOT USING  -->
+                               
+                                 
                                 <listRelation>
                                     <relation name="depicted" active="ENT.000003555"/>
                                     <relation name="depicted" active="ENT.000003379"/>
@@ -121,7 +117,6 @@
                             Institute for Ethnic Studies. Some of the 20th century cartoons and
                             drawings were removed from the J. Hampton Moore papers (Collection
                             1541).
-                            <!-- ??Provenance/acquisition info, ex., "This is an artificial collection created over time by HSP staff mostly through donations and purchases of individual prints. It also incorporates previously uncataloged materials collected by the Balch Institute for Ethnic Studies. Some of the 20th century cartoons and drawings were removed from the J. Hampton Moore papers (Collection 1541)." Look up in collection finding aid. If no acquisition information exists for the collection, leave this element empty-->
                         </acquisition>
                     </history>
                 </msDesc>
@@ -132,9 +127,13 @@
                             <persName key="ENT.000000379">Joseph Keppler</persName>
                             <!-- Value of @key is DAMS entity code. If artist is unknown, use key for "Unknown Artist": ENT.000000553 -->
                         </respStmt>
-                        <!-- add additional <respStmt> elements as needed for lithographers, printers, colorists, etc., but NOT publishers, transcribers, encoders, or proofreaders -->
+                        
+                            <respStmt><resp key="ltg">Lithographer</resp>
+                                <persName key="ENT.000000380">Mayer, Merkel &amp; Ottmann </persName>
+                            </respStmt>
+                        
                         <title type="main" level="a">Let us have Peace, Now A President's Elected
-                            <!-- title of cartoon -->
+                            
                         </title>
                     </analytic>
                     <monogr>
@@ -248,7 +247,7 @@
             <div type="editorial_desc">
                 <p>Lady Republican and Lady Democrat shake hands. The faces of the presidential
                     candidates of the 1880 Election, as well as other noteable political figures are
-                    hidden in the landscape.</p>
+                    hidden in the landscape.  The faces include: James A. Garfield, Carl Schurz, Marshall Jewell, James Blaine, Roscoe Conkling, Benjamin Butler, William Hayden English, Ulysses S. Grant, Chester Arthur, Thomas Bayard, John Kelly, Winfield Hancock, Samuel Tilden, Rutherford Hayes, John Logan,and Abram Hewitt.  There are some notes written on the images.  These notes identify some of the names of the political figures hidden in the cartoon.</p>
             </div>
         </front>
 
@@ -336,6 +335,10 @@
                 <head><supplied resp="editorial">Tilden</supplied></head>
                 <p><add>Tilden</add></p>
             </div>
+            
+            
+              
+            
         </body>
 
         <back/>
