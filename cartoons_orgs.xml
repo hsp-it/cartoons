@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">TEI description of organizations mentioned and depicted in the Historic
+          Images, New Technologies (HINT) Project</title>
+        <author>
+          <persName key="ENT.000003526">Moloshok, Rachel</persName>
+        </author>
+        <author>
+          <persName key="ENT.000003352">Newhouse, Sarah</persName>
+        </author>
+        <author>
+          <persName key="ENT.000003528">Dorman, Dana</persName>
+        </author>
+      </titleStmt>
+
+      <publicationStmt>
+        <publisher><orgName key="ENT.000002473">Historical Society of
+          Pennsylvania</orgName></publisher>
+        <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
+        <availability status="restricted">
+          <p>Copyright 2014, The Historical Society of Pennsylvania. HSP makes a claim of copyright
+            only to original contributions made by the Historic Images, New Technologies (HINT)
+            Project participants and other staff. Permission is granted to download, transmit or
+            otherwise reproduce, distribute or display the text contributions to this work claimed
+            by HSP for non-profit educational purposes, provided that this header is included in its
+            entirety. For inquiries about commercial uses, please contact the Historical Society of
+            Pennsylvania. HSP retains the rights of all images unless otherwise noted. Possession of
+            an HSP digital image does not constitute permission to use or publish it. Requests for
+            digital imaging, other reproduction services, and the intended use of reproductions must
+            be made in writing to the Rights and Reproductions Coordinator at rnr@hsp.org.</p>
+        </availability>
+        <date when="2014"/>
+      </publicationStmt>
+
+      <seriesStmt>
+        <title level="s" type="project" key="CARTOONS">Historic Images, New Technologies (HINT)
+          Project</title>
+      </seriesStmt>
+
+      <sourceDesc>
+        <p>Born digital.</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The Historic Images, New Technologies (HINT) project aims to enhance description and
+          discovery of the Historical Society of Pennsylvania's graphics materials and promote the
+          linking and sharing of content among institutions and scholars. The project will result in
+          an update to HSP's digital image viewer and an online digital history exhibit, featuring
+          500 encoded political cartoons, that will demonstrate the new viewer's capabilities and
+          provide interpretive and contextual materials to encourage users to interact with
+          historical images in new ways. This project was funded by a grant from the National
+          Historical Publications and Records Commission's (NHPRC) Innovation in Archives and
+          Documentary Editing program.</p>
+      </projectDesc>
+    </encodingDesc>
+    <revisionDesc>
+      <change who="HSP" when="2014-08-26">Exported from Collective Access.</change>
+    </revisionDesc>
+  </teiHeader>
+
+  <text>
+    <body>
+      <div type="ography">
+        <listOrg>
+          <org xml:id="ENT.000003574">
+            <orgName key="ENT.000003574">Albany Gazette</orgName>
+            <note type="org"><p>Founded by brothers Alexander and James Robertson in November 1771,
+                the <hi rendition="#italics">Albany Gazette</hi> was the first newspaper published
+                in the New York colony outside of New York City. The Robertson brothers printed the
+                Gazette for less than a year, as difficulties obtaining supplies, distributing the
+                paper, and a lack of subscriptions overwhelmed the small operation; their last issue
+                was published in August 1772. The brothers began their publication ambivalent about
+                the impending conflict for American independence and their paper was largely devoid
+                of content relating to political tensions. The <hi rendition="#italics">Albany
+                  Gazette</hi> was resurrected after the Revolution in 1784 by another pair of
+                brothers, Charles and George Webster. Under their direction, the <hi
+                  rendition="#italics">Albany Gazette</hi> largely matched the general New York
+                political leanings toward Federalism, and they reprinted 12 of the 85 Federalist
+                papers in 1788. The <hi rendition="#italics">Albany Gazette</hi> ceased printing in
+                1817.</p></note>
+          </org>
+          <org xml:id="ENT.000003326">
+            <orgName key="ENT.000003326">Bank of the United States (1816-1836)</orgName>
+          </org>
+          <org xml:id="ENT.000003575">
+            <orgName key="ENT.000003575">Boston Courier</orgName>
+            <note type="org"><p>The <hi rendition="#italics">Boston Courier</hi> was the first daily
+                newspaper printed in Boston, with its first issue published on March 2, 1824. The
+                  <hi rendition="#italics">Boston Courier</hi> was founded, published, and edited by
+                prominent Boston conservative Joseph T. Buckingham, who had gained notoriety for
+                publishing the New England Galaxy and Masonic Magazine. The <hi rendition="#italics"
+                  >Boston Courier</hi> was an early mouthpiece of the Whig Party and before that,
+                the National Republicans; the paper spent a large portion of its early issues
+                publishing pro-tariff editorial letters written by Buckingham. The newspaper was
+                also notable for its “Geoponics” columns, published every Saturday, which gave
+                readers useful information about farming practices and tools. The columns were
+                distinct for a paper based in a large city. </p>
+              <p>Buckingham sold out his shares in the paper in 1848, and his sons, Joseph H.
+                Buckingham and Edwin Buckingham, who had been involved with the editing and
+                publishing the paper since 1831, also abandoned the project to their longtime
+                partner E.B. Foster. The paper changed hands and political profiles several times in
+                the years leading up to the Civil War, becoming a conservative weekly paper in 1871.
+              </p></note>
+          </org>
+          <org xml:id="ENT.000003577">
+            <orgName key="ENT.000003577">Columbian Centinel</orgName>
+            <note type="org"><p>The <hi rendition="#italics">Columbian Centinel</hi> was a
+                continuation of the <hi rendition="#italics">Massachusetts Centinel</hi> and the <hi
+                  rendition="#italics">Republican Journal</hi>, first published by Benjamin Russell
+                and William Warden in Boston, 1784. The publishers changed the paper’s name to <hi
+                  rendition="#italics">Columbian Centinel</hi> to reflect their project taking on
+                more national news, rather than Massachusetts-specific content; the first issue
+                under that title was published on June 16, 1790. The <hi rendition="#italics"
+                  >Columbian Centinel</hi> was fiercely Federalist and feuded with its rival, the
+                anti-Federalist Boston Chronicle from 1790 to 1793. The <hi rendition="#italics"
+                  >Columbian Centinel</hi> had the largest subscription base of any newspaper in
+                Boston in the years after the Revolution, and successfully reported on the
+                Napoleonic Wars in Europe as well as national and local news. </p>
+              <p>As Federalism dissolved with the election of James Monroe in 1816, the influence of
+                the <hi rendition="#italics">Columbian Centinel</hi> waned. It merged with the <hi
+                  rendition="#italics">New England Palladium</hi> in 1830, and then again in 1836
+                with the <hi rendition="#italics">Boston Gazette</hi>. It was finally bought out by
+                the <hi rendition="#italics">Boston Daily Advertiser</hi> in 1840. </p>
+            </note>
+          </org>
+          <org xml:id="ENT.000003570">
+            <orgName key="ENT.000003570">Commercial Advertiser</orgName>
+            <note type="org"><p>Originally published by Noah Webster under the title <hi
+                  rendition="#italics">American Minerva</hi>, the paper began as the <hi
+                  rendition="#italics">Commercial Advertiser</hi> in September 1797 after a series
+                of intermediate name changes. Webster ceased his work with the paper in 1803, and
+                Zachariah Lewis took over as publisher. Under its two first publishers the <hi
+                  rendition="#italics">Commercial Advertiser</hi> was strongly Federalist, and when
+                Lewis sold the paper to William Stone (editor) and Francis Hall (publisher) in April
+                1820, it remained loyal to DeWitt Clinton and the Federalist project to construct
+                the Eerie Canal. With Stone and Hall, the paper became known for publishing
+                cutting-edge literary works by Robert Charles Sands, Lucretia and Margaret Davidson,
+                and other prominent poets. </p>
+              <p> In the election of 1828, the <hi rendition="#italics">Commercial Advertiser</hi>
+                supported National Republican candidate John Quincy Adams, who lost to Andrew
+                Jackson; even with a losing endorsement, the paper remained popular and moved to
+                support the newly forming Whig Party. During these years, the <hi
+                  rendition="#italics">Commercial Advertiser</hi> also gained notoriety for publicly
+                feuding with novelist James Fennimore Cooper; along with a number of other papers,
+                Cooper sued the paper in 1840 for libel over reviews of his books <hi
+                  rendition="#italics">Home as Found</hi> and <hi rendition="#italics">History of
+                  the Navy in the United States</hi>. Early in 1844, Stone left his editorship due
+                to illness and died soon after; Francis Hall assumed his position. Leadership of the
+                paper changed hands several times over the next decades, until the <hi
+                  rendition="#italics">Commercial Advertiser</hi> was rebranded in 1904 as <hi
+                  rendition="#italics">The Globe and Commercial Advertiser</hi>, popularly known as
+                the <hi rendition="#italics">New York Globe</hi>. In 1923, Frank Munsey bought the
+                paper and merged it with the <hi rendition="#italics">New York Sun</hi>. </p>
+            </note>
+          </org>
+          <org xml:id="ENT.000000844">
+            <orgName key="ENT.000000844">Currier &amp; Ives</orgName>
+          </org>
+          <org xml:id="ENT.000003554">
+            <orgName key="ENT.000003554">E. C. MacFarlane &amp; Co.<orgName type="alt">E. C.
+                MacFarlane and Company</orgName></orgName>
+          </org>
+          <org xml:id="ENT.000000637">
+            <orgName key="ENT.000000637">East India Company</orgName>
+          </org>
+          <org xml:id="ENT.000003578">
+            <orgName key="ENT.000003578">Evening Star</orgName>
+          </org>
+          <org xml:id="ENT.000003540">
+            <orgName key="ENT.000003540">Harper &amp; Brothers</orgName>
+          </org>
+          <org xml:id="ENT.000003163">
+            <orgName key="ENT.000003163">Keppler &amp; Schwarzmann<orgName type="alt">Keppler and
+                Schwarzmann</orgName></orgName>
+          </org>
+          <org xml:id="ENT.000003557">
+            <orgName key="ENT.000003557">Life</orgName>
+          </org>
+          <org xml:id="ENT.000003317">
+            <orgName key="ENT.000003317">New York Courier and Enquirer</orgName>
+            <note type="org"><p>The <hi rendition="#italics">New York Courier and Enquirer</hi>
+                formed in 1829 with the merger of James Watson Webb’s <hi rendition="#italics">New
+                  York Morning Courier</hi> and the <hi rendition="#italics">New-York Enquirer</hi>,
+                edited by Mordecai Noah. Webb assumed editorship over the new paper, and after
+                hiring associate editor James Gordon Bennett, it became an early mouthpiece of the
+                Democratic Party. The <hi rendition="#italics">New York Courier and Enquirer</hi>
+                gained notoriety in 1830 for setting up a pony express system to bring memos from
+                Washington D.C. to the New York City newspapers. </p>
+              <p>However, as Jacksonian populism lost steam with the growing business class in New
+                York, the paper began to support Henry Clay’s burgeoning National Republicanism.
+                Webb and the <hi rendition="#italics">New York Courier and Enquirer</hi> were
+                founding tenets of the new party, and the paper became one of the most powerful in
+                the country. As part of the party machine, it sparked ferocious debate in the U.S.
+                House of Representatives in its 1837-1838 sessions: Kentucky congressman William J.
+                Graves challenged a Maine Democratic congressman, Jonathan Cilley, to a duel after
+                Cilly criticized the Courier and Enquirer on the House floor. It ended with Graves
+                shooting Cilley to death. </p>
+              <p>The <hi rendition="#italics">New York Courier and Enquirer</hi> went into decline
+                with the Whig party, as the country moved towards greater unrest. The paper, which
+                had always supported slavery, fell out of favor as many New Yorkers and other
+                Northerners began to become more earnestly interested in abolition. With the
+                election of President Lincoln in 1861 and the onset of the Civil War, the paper
+                merged with the <hi rendition="#italics">New York World</hi>. </p></note>
+          </org>
+          <org xml:id="ENT.000003541">
+            <orgName key="ENT.000003541">New York Herald</orgName>
+          </org>
+          <org xml:id="ENT.000003329">
+            <orgName key="ENT.000003329">New York Tribune</orgName>
+          </org>
+          <org xml:id="ENT.000003556">
+            <orgName key="ENT.000003556">North American</orgName>
+          </org>
+          <org xml:id="ENT.000000435">
+            <orgName key="ENT.000000435">Philadelphia Public Ledger</orgName>
+          </org>
+          <org xml:id="ENT.000003327">
+            <orgName key="ENT.000003327">Sons of Liberty</orgName>
+          </org>
+          <org xml:id="ENT.000003328">
+            <orgName key="ENT.000003328">The New York Times</orgName>
+          </org>
+          <org xml:id="ENT.000000382">
+            <orgName key="ENT.000000382">Wasp (San Francisco, Calif.)<orgName type="alt">San
+                Francisco Illustrated Wasp</orgName></orgName>
+          </org>
+        </listOrg>
+      </div>
+    </body>
+  </text>
+</TEI>
