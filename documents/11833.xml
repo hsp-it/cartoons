@@ -1,6 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/css" href="./tiny_TEI_template.css"?>
-<!-- ??The two lines of purple text above this comment need to be updated based on our final, actual schema. This is currently set to use the schema from TEI training. -->
 
 <?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
 
@@ -20,7 +18,7 @@
                 
                 <respStmt>
                     <resp key="trc">Transcribed by</resp>
-                    <!-- ??The person who's responsible for transcribing the TEI document; include multiple respStmt's for however many roles are needed. Note that the <resp> element within <respStmt> uses @key attribute to record the person's role in authority-control form: trc = transcriber, mrk = markup editor (if different than transcriber); pfr = proofreader; full list of codes available here: http://www.loc.gov/marc/relators/relacode.html -->
+                    
                     <persName key="ENT.000003544">Diane Biunno</persName>
                 </respStmt>
                 <respStmt>
@@ -86,11 +84,8 @@
                                 </extent>
                                 
                                 <listRelation>
-                                    <relation name="depicted" active=""/>
-                                   
-                                    <!-- use to list entities and symbols DEPICTED in the document, pointing to relevant DAMS entity codes and/or symbolography files (ex., <relation name="depicted" active="ENT.000005678 cartoons_people.xml#uncle_sam/> DELETE THIS ELEMENT IF NOT USING -->
-                                    <relation name="mentioned" active=""/>
-                                    <!-- use to list entities and symbols MENTIONED in the transcript of the document, pointing to relevant DAMS entity codes and/or symbolography files DO NOT USE for entities that are also depicted. DELETE THIS ELEMENT IF NOT USING -->
+                                    <relation name="depicted" active="cartoons_symbols.xml#statue_of_liberty"/>
+                                      
                                 </listRelation>
                             </bibl>
                         </msItem>
@@ -107,7 +102,7 @@
                             <persName key="ENT.000003164">George Frederick Keller</persName>
                         
                         </respStmt>
-                        <!-- add additional <respStmt> elements as needed for lithographers, printers, colorists, etc., but NOT publishers, transcribers, encoders, or proofreaders -->
+                        
                         <title type="main" level="a">A Statue for our Harbor</title>
                     </analytic>
                     <monogr>
@@ -183,6 +178,7 @@
 
         <revisionDesc>
             <!-- ??This is where we'll note what has changed AND keep track of whether a document has been proofread. Add <change> elements for each revision, listing MOST RECENT FIRST. Use @when to list date. Use @who for first-lastname entries for the person responsible (choices available in Oxygen; human readers will be able to figure out who we mean).  -->
+            <change who="DianeBiunno" when="2015-02-02">Encoded to featured level</change>
             <change who="DianeBiunno" when="2015-01-28">Encoded to basic level</change>
             <change who="RachelMoloshok" when="2015-01-07">Template file created</change>
         </revisionDesc>
@@ -196,23 +192,24 @@
                 url="FIL.000089725"/>
             
             <zone n="1" xml:id="Title" points=""/>
-            <zone n="2" xml:id="Author" points=""/>
-            <zone n="3" xml:id="Filth" points=""/>
-            <zone n="4" xml:id="Immorality" points=""/>
-            <zone n="5" xml:id="Diseases" points=""/>
-            <zone n="6" xml:id="Ruin" points=""/>
-            <zone n="7" xml:id="White" points=""/>
-            <zone n="8" xml:id="Labor" points=""/>
-            <zone n="9" xml:id="Wasp"></zone>
+            <zone n="2" xml:id="Artist" points=""/>
+            <zone n="3" xml:id="Statue" points=""/>
+            <zone n="4" xml:id="Wasp" points=""/>
+            <zone n="5" xml:id="Pipe" points=""/>
+            <zone n="6" xml:id="Skull" points=""/>
+            <zone n="7" xml:id="Statue_of_Liberty" points=""/>
+            <zone n="8" xml:id="Moon" points=""/>
+           
             
         </surface>
     </facsimile>
 
     <text>
-        <!-- ??See separate ODD file with full encoding guidelines. -->
+        
         <front>
             <div type="editorial_desc">
-                <p>A statue of a Chinese immigrant man, representing the Statue of Liberty, wears tattered clothing and holds a torch from which six beams of light emanate.  The words "filth", "immorality", "diseases", "ruin to", "white", and "labor" are written in the beams of light.  The Chinese man holds an opium pipe in his left hand, stands on a podium, and rests his leg on skull.  In the harbor there are steamships and boats. </p>
+                <p>Keppler's cartoon was published a few years before construction on the Statue of Liberty in the New York Harbor had been completed.  The cartoon expresses concern over the immigration policies and suggests that Chinese immigrants have brought disease, filth, and poverty to San Francisco.  In the cartoon, a statue of a Chinese immigrant man, representing the Statue of Liberty wears tattered clothing and holds a torch from which six beams of light emanate.  The words "filth", "immorality", "diseases", "ruin to", "white", and "labor" are written in the beams of light.  The Chinese man holds an opium pipe in his left hand, stands on a podium, and rests his leg on a skull.  In the harbor there are steamships and boats. A moon with the face of a Chinese man shines in the night sky.</p>
+                <p>Chinese immigrant laborers often worked for less pay than White laborers; consequently anti-Chinese sentiment grew among White laborers who feared they would lose their jobs.  Exaggerated stories of rampant gambling, drug-use, and prostitution in the Chinese immigrant neighborhoods led many to Whites to believe that the Chinese were destroying the cultural and moral standards of American society.</p>
             </div>
         </front>
 
@@ -222,46 +219,46 @@
                 <p>A STATUE FOR <hi rendition="#italics">OUR</hi> HARBOR</p>
             </div>
             
-            <div type="image_transcription" facs="#Author" n="2">
+            <div type="image_transcription" facs="#Artist" n="2">
                 <head><supplied resp="editorial">Author</supplied></head>
                 <p>KELLER</p>
             </div>
             
-            <div type="image_transcription" facs="#Filth" n="3">
-            <head><supplied resp="editorial">Filth</supplied></head>
+            <div type="image_transcription" facs="#Statue" n="3">
+            <head><supplied resp="editorial">Statue</supplied></head>
             <p>FILTH</p>
+            <p>IMMORALITY</p>
+            <p>DISEASES</p>
+            <p>RUIN TO</p>
+            <p>WHITE</p>
+            <p>LABOR</p>     
             </div>
             
-            <div type="image_transcription" facs="#Immorality" n="4">
-                <head><supplied resp="editorial">Immorality</supplied></head>
-                <p>IMMORALITY</p>
-            </div>
             
-            <div type="image_transcription" facs="#Diseases" n="5">
-                <head><supplied resp="editorial">Diseases</supplied></head>
-                <p>DISEASES</p>
-            </div>
-
-            <div type="image_transcription" facs="#Ruin" n="6">
-                <head><supplied resp="editorial">Ruin</supplied></head>
-                <p>RUIN TO</p>
-            </div>
-            
-            <div type="image_transcription" facs="#White" n="7">
-                <head><supplied resp="editorial">White</supplied></head>
-                <p>WHITE</p>
-            </div>
-            
-            <div type="image_transcription" facs="#Labor" n="8">
-                <head><supplied resp="editorial">Labor</supplied></head>
-                <p>LABOR</p>
-            </div>
-            
-            <div type="image_transcription" facs="#Wasp" n="9">
-                <head><supplied resp="editorial">Wasp</supplied></head>
+            <div type="image_transcription" facs="#Wasp" n="4">
+                <head><supplied resp="editorial"><orgName key="ENT.000000382">Wasp</orgName></supplied></head>
                 <p>The Wasp</p>
             </div>
             
+            <div type="image_annotation" facs="#Pipe" n="5">
+                <head><supplied resp="editorial">Pipe</supplied></head>
+                <p>Chinese man holds opium pipe.</p>
+            </div>
+            
+            
+            <div type="image_annotation" facs="#Skull" n="6">
+                <head><supplied resp="editorial">Skull</supplied></head>
+                <p>Chinese man rests his leg on a human skull.  It is implied that the skull belongs to a white man.</p>
+            </div>
+            
+           <div type="image_annotation" facs="#Statue_of_Liberty" n="7">
+               <head><supplied resp="editorial"><rs ref="cartoons_symbols.xml#statue_of_liberty">Statue of Liberty</rs></supplied></head>
+           </div> 
+            
+            <div type="image_annotation" facs="#Moon" n="8">
+                <head><supplied resp="editorial">Moon</supplied></head>
+                <p>The moon has the face of a Chinese man.</p>
+            </div>
             
             
         </body>
