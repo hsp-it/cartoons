@@ -171,13 +171,13 @@
                 <catRef target="cartoons_taxonomies.xml#gilded"/>
                 <catRef target="cartoons_taxonomies.xml#immigration"/>
                 <catRef target="cartoons_taxonomies.xml#stereotypes"/>
-                <catRef target="cartoon_genres.xml#lithographs"/>
+                <catRef target="cartoon_genres.xml#Lithographs"/>
                
             </textClass>
         </profileDesc>
 
         <revisionDesc>
-            <!-- ??This is where we'll note what has changed AND keep track of whether a document has been proofread. Add <change> elements for each revision, listing MOST RECENT FIRST. Use @when to list date. Use @who for first-lastname entries for the person responsible (choices available in Oxygen; human readers will be able to figure out who we mean).  -->
+            
             <change who="DianeBiunno" when="2015-02-02">Encoded to featured level</change>
             <change who="DianeBiunno" when="2015-01-28">Encoded to basic level</change>
             <change who="RachelMoloshok" when="2015-01-07">Template file created</change>
@@ -208,8 +208,8 @@
         
         <front>
             <div type="editorial_desc">
-                <p>Keppler's cartoon was published a few years before construction on the Statue of Liberty in the New York Harbor had been completed.  The cartoon expresses concern over the immigration policies and suggests that Chinese immigrants have brought disease, filth, and poverty to San Francisco.  In the cartoon, a statue of a Chinese immigrant man, representing the Statue of Liberty wears tattered clothing and holds a torch from which six beams of light emanate.  The words "filth", "immorality", "diseases", "ruin to", "white", and "labor" are written in the beams of light.  The Chinese man holds an opium pipe in his left hand, stands on a podium, and rests his leg on a skull.  In the harbor there are steamships and boats. A moon with the face of a Chinese man shines in the night sky.</p>
-                <p>Chinese immigrant laborers often worked for less pay than White laborers; consequently anti-Chinese sentiment grew among White laborers who feared they would lose their jobs.  Exaggerated stories of rampant gambling, drug-use, and prostitution in the Chinese immigrant neighborhoods led many to Whites to believe that the Chinese were destroying the cultural and moral standards of American society.</p>
+                <p>Keppler's cartoon was published a few years before construction on the Statue of Liberty in the New York Harbor had been completed.  The cartoon expresses concern over the immigration policies and suggests that Chinese immigrants have brought disease, filth, and poverty to San Francisco.  In the cartoon, a statue of a Chinese immigrant man, representing the Statue of Liberty, wears tattered clothing and holds a torch from which six beams of light emanate.  The words "filth," "immorality," "diseases," "ruin to," "white," and "labor" are written in the beams of light.  The Chinese man holds an opium pipe in his left hand, stands on a podium, and rests his leg on a skull.  In the harbor there are steamships and boats. A moon with the face of a Chinese man shines in the night sky.</p>
+                <p>Chinese immigrant laborers often worked for less pay than white laborers; consequently anti-Chinese sentiment grew among white laborers who feared they would lose their jobs.  Exaggerated stories of rampant gambling, drug-use, and prostitution in the Chinese immigrant neighborhoods led many to whites to believe that the Chinese were destroying the cultural and moral standards of American society.</p>
             </div>
         </front>
 
@@ -220,7 +220,7 @@
             </div>
             
             <div type="image_transcription" facs="#Artist" n="2">
-                <head><supplied resp="editorial">Author</supplied></head>
+                <head><supplied resp="editorial">Artist</supplied></head>
                 <p>KELLER</p>
             </div>
             
@@ -242,7 +242,7 @@
             
             <div type="image_annotation" facs="#Pipe" n="5">
                 <head><supplied resp="editorial">Pipe</supplied></head>
-                <p>Chinese man holds opium pipe.</p>
+                <p>Many whites believed that Chinese immigrants abused opium.  The political cartoon highlights this Chinese immigrant stereotype and replaces the Statue of Liberty's tablet of laws with an opium pipe.</p>
             </div>
             
             
