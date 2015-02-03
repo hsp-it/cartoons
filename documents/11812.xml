@@ -1,277 +1,268 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 
 <?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-
-    <teiHeader xml:lang="English">
-
-        <fileDesc>
-
-            <titleStmt>
-                <title type="main">TEI transcription of Queen Charlotte and Johnny Bull Got Their
-                    Dose of Perry</title>
-                <respStmt>
-                    <resp key="art">Artist</resp>
-                    <persName key="ENT.000000848">Charles, William, 1776-1820</persName>
-                </respStmt>
-                <respStmt>
-                    <resp key="trc">Transcribed by</resp>
-                    <persName key="ENT.000003368">Moloshok, Rachel</persName>
-                </respStmt>
-                <respStmt>
-                    <resp key="mrk">Encoded by</resp>
-                    <persName key="ENT.000003368">Moloshok, Rachel</persName>
-                </respStmt>
-            </titleStmt>
-
-            <editionStmt>
-                <p>First edition, <date when="2015">2015</date></p>
-            </editionStmt>
-
-            <publicationStmt>
-                <publisher><orgName key="ENT.000002473">Historical Society of
-                    Pennsylvania</orgName></publisher>
-                <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
-                <idno type="filename">11812</idno>
-                <availability status="restricted">
-                    <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of
-                        copyright only to original contributions made by the Historic Images, New
-                        Technologies (HINT) Project participants and other staff. HSP makes no claim
-                        of copyright to the original text. Permission is granted to download,
-                        transmit or otherwise reproduce, distribute or display the text
-                        contributions to this work claimed by HSP for non-profit educational
-                        purposes, provided that this header is included in its entirety. For
-                        inquiries about commercial uses, please contact the Historical Society of
-                        Pennsylvania. HSP retains the rights of all images unless otherwise noted.
-                        Possession of an HSP digital image does not constitute permission to use or
-                        publish it. Requests for digital imaging, other reproduction services, and
-                        the intended use of reproductions must be made in writing to the Rights and
-                        Reproductions Coordinator at rnr@hsp.org.</p>
-                </availability>
-                <date when="2015"/>
-            </publicationStmt>
-
-            <seriesStmt>
-                <title level="s" type="project" key="CARTOONS">Historic Images, New Technologies
-                    (HINT) Project</title>
-            </seriesStmt>
-
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <repository key="ENT.000002473">Historical Society of Pennsylvania,
-                            Philadelphia, PA</repository>
-                        <collection key="V64">Historical Society of Pennsylvania medium graphics
-                            collection</collection>
-                        <idno type="citation">Bb 612 Q31</idno>
-                    </msIdentifier>
-                    <msContents>
-                        <msItem>
-                            <bibl><date from="1813-01-01" to="1813-12-31">1813</date>
-                                <extent>1 loose sheet</extent>
-                                <extent>
-                                    <dimensions type="image" unit="cm">
-                                        <height quantity="28.5"/>
-                                        <width quantity="44"/>
-                                    </dimensions>
-                                </extent>
-                                <relatedItem type="references" target="8532.xml"/>
-                                <listRelation>
-                                    <relation name="depicted"
-                                        active="cartoons_symbols.xml#john_bull"/>
-                                    <relation name="depicted" active="ENT.000003542"/>
-                                    <relation name="mentioned" active="ENT.000003543"/>
-                                </listRelation>
-                            </bibl>
-                        </msItem>
-                    </msContents>
-
-                </msDesc>
-                <biblStruct>
-                    <monogr>
-                        <respStmt>
-                            <resp key="art">Artist</resp>
-                            <persName key="ENT.000000848">Charles, William, 1776-1820</persName>
-                        </respStmt>
-                        <title type="main" level="m">Queen Charlotte and Johnny Bull Got Their Dose
-                            of Perry</title>
-                        <imprint>
-                            <publisher><persName key="ENT.000003387">Unknown</persName></publisher>
-                            <pubPlace>Philadelphia</pubPlace>
-                            <date from="1813-01-01" to="1813-12-31">1813</date>
-                        </imprint>
-
-
-                    </monogr>
-                </biblStruct>
-            </sourceDesc>
-        </fileDesc>
-
-        <encodingDesc>
-            <projectDesc>
-                <p>The Historic Images, New Technologies (HINT) project aims to enhance description
-                    and discovery of the Historical Society of Pennsylvania's graphics materials and
-                    promote the linking and sharing of content among institutions and scholars. The
-                    project will result in an update to HSP's digital image viewer and an online
-                    digital history exhibit that will demonstrate the new viewer's capabilities and
-                    provide interpretive and contextual materials to encourage users to interact
-                    with historical images in new ways. This project was funded by a grant from the
-                    National Historical Publications and Records Commission's (NHPRC) Innovation in
-                    Archives and Documentary Editing program</p>
-            </projectDesc>
-            <editorialDecl n="4">
-                <p>This electronic file was created using manual keying following the
-                    recommendations for Level 4 of "Best Practices for TEI in Libraries" guidelines
-                    v3.0.</p>
-                <p>This XML file uses unique entity identifiers, media file identifiers, and
-                    collection identifiers in HSP's Digital Library, available at
-                    http://digitallibrary.hsp.org</p>
-
-            </editorialDecl>
-            <tagsDecl>
-                <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
-                <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
-                <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
-                <rendition scheme="css" xml:id="crossed-through">text-decoration:
-                    line-through</rendition>
-                <rendition scheme="other" xml:id="printed"/>
-                <rendition scheme="other" xml:id="typescript"/>
-                <rendition scheme="other" xml:id="handwritten"/>
-                <rendition scheme="other" xml:id="handwritten-underlined"/>
-                <rendition scheme="other" xml:id="handwritten-circled"/>
-                <rendition scheme="other" xml:id="handwritten-crossed-through"/>
-                <rendition scheme="other" xml:id="double-underline"/>
-                <rendition scheme="other" xml:id="stamp"/>
-                <namespace name="http://www.tei-c.org/ns/1.0">
-                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
-                </namespace>
-            </tagsDecl>
-        </encodingDesc>
-
-        <profileDesc>
-            <textClass>
-                <catRef target="cartoons_genres.xml#engravings"/>
-                <catRef target="cartoons_taxonomies.xml#war"/>
-                <catRef target="cartoons_taxonomies.xml#early"/>
-            </textClass>
-        </profileDesc>
-
-        <revisionDesc>
-            <change who="RachelMoloshok" when="2015-01-14">Updated to encode one relation element per referenced entity/symbol</change>
-            <change who="RachelMoloshok" when="2015-01-13">Updated test file with media and entity
-                codes from live DAMS</change>
-            <change who="RachelMoloshok" when="2014-10-21">Cut and pasted surface and zone
-                coordinates from 11812-Bb6112Q31_1_TEI_TEST_exported.xml</change>
-            <change who="RachelMoloshok" when="2014-10-14">File created</change>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile>
-        <surface ulx="0" uly="0" lrx="100" lry="100">
-            <graphic url="FIL.000089704"/>
-            <zone n="1" xml:id="title" points="17.69,83.44 78.18,84.14 77.72,89.06 17.69,88.44"/>
-            <zone n="2" xml:id="imprint" points="45.16,79.58 60.21,80.28 60.33,82.74 45.27,82.56"/>
-            <zone n="3" xml:id="Charlotte_speech"
-                points="18.26,18.24 41.42,19.02 41.31,34.29 50.64,36.05 41.31,50.97 41.42,75.01 17.5,79.58 32.32,33.06 18.2,32.36"/>
-            <zone n="4" xml:id="john_bull_speech"
-                points="60.51,17.61 84.72,17.44 80.05,71.5 59.16,70.62"/>
-            <zone n="5" xml:id="bottle"
-                points="38.97,16.91 59.51,17.26 60.44,30.78 57.53,38.33 51.46,41.14 50.99,52.19 46.09,51.67 45.74,41.66 47.61,35.87 42.59,34.29"/>
-            <zone n="6" xml:id="signature" points="70.71,80.45 83.32,81.16 83.67,83.79 70.29,83.13"/>
-            <zone n="7" xml:id="newspapers" points="59.28,71.15 76.25,71.74 74.33,80.45 62.08,78.17"/>
-            <zone n="8" xml:id="note" points="90.39,89.24 95.39,89.24 95.39,94.24 90.39,94.24"/>
-        </surface>
-    </facsimile>
-
-    <text>
-        <front>
-            <div type="editorial_desc">
-                <p>Queen Charlotte of England and John Bull (a symbolic character representing Great
-                    Britain) react to news of American naval commander Matthew Perry's victories
-                    during the War of 1812. At left, Queen Charlotte, drunk and hiccuping, offers a
-                    bottle of perry (an alcoholic drink made of fermented pears) to John Bull, at
-                    right, who is sitting on a commode (toilet) and suffering from a stomachache.
-                    The bottle is spraying out streams of liquid, each labeled with the name of an
-                    American warship that fought in the Battle of Lake Erie, where Perry won a
-                    decisive victory. At John Bull's feet lie scattered pages of newspapers and
-                    letters announcing America's victories, including the destruction of the British
-                    warship <hi rendition="#italics">Charlotte</hi>. John Bull complains that, in
-                    addition to his indigestion, he has not yet recovered from the bloody nose he
-                    received at the "<ref target="8532.xml">Boxing Match</ref>" (the title of
-                    another political cartoon by William Charles).</p>
-            </div>
-        </front>
-
-        <body>
-            <div n="1" type="image_transcription" facs="#title">
-                <head><persName key="ENT.000003542">Queen Charlotte</persName> and <rs
-                        ref="cartoons_symbols.xml#john_bull">Johnny Bull</rs> Got their dose of
-                        <persName key="ENT.000003543">Perry</persName></head>
-            </div>
-
-            <div n="2" type="image_transcription" facs="#imprint">
-                <p><abbr>Phla</abbr> <abbr>Pubd</abbr> and sold at 12 <choice>
-                        <sic>Chesnut</sic>
-                        <corr>Chestnut</corr>
-                    </choice> St</p>
-            </div>
-
-            <div n="3" type="image_transcription" facs="#Charlotte_speech">
-                <head><supplied resp="editorial"><persName key="ENT.000003542">Queen
-                            Charlotte</persName></supplied></head>
-                <p><rs ref="cartoons_symbols.xml#john_bull">Johnny</rs> wont you take some more
-                    Perry! I did not think it was composed of such strong Ingredients _ Hic up _ I
-                    wish I had not tried its strength _ I _ I _ I am quite over power'd by it--</p>
-            </div>
-
-            <div n="4" type="image_transcription" facs="#john_bull_speech">
-                <head><supplied resp="editorial"><rs ref="cartoons_symbols.xml#john_bull">John
-                            Bull</rs></supplied></head>
-                <p>Oh! <persName key="ENT.000003543">Perry</persName>!!! Curse that Perry! _ It has
-                    Griped me enough already _ Such a revolution in my guts _ One disaster after
-                    another _ I have not half recovered of the Bloody nose I got at the <ref
-                        target="8532.xml">Boxing Match</ref>!_<note type="editorial" n="1">See "The
-                        Boxing Match" (cartoon)</note></p>
-            </div>
-
-            <div n="5" type="image_transcription" facs="#bottle">
-                <head><persName key="ENT.000003543">Perry</persName><note type="editorial" n="2"
-                        >Liquid shoots out of a bottle labeled "Perry"; each spray is labeled with
-                        the name of American warships that fought in the Battle of Lake
-                    Erie.</note></head>
-                <p>Porcupine</p>
-                <p>Tigres</p>
-                <p>Trippe</p>
-                <p>Somers</p>
-                <p>Scorpion</p>
-                <p>Ariel</p>
-                <p>Caledonia</p>
-                <p>Niagara</p>
-            </div>
-
-            <div n="6" type="image_transcription" facs="#signature">
-                <p><persName key="ENT.000000848">Wm Charles</persName> del et Sculp.<note
-                        type="editorial" n="3">"Del et Sculp" means "drawn and engraved."</note></p>
-            </div>
-
-            <div n="7" type="image_transcription" facs="#newspapers">
-                <head><supplied resp="editorial">Torn-up newspapers</supplied></head>
-                <p>LONDON. EX GAZETTE By Authority My Lords and Gentlemen_ I am sorry to you
-                    Loss</p>
-                <p>Lake Erie in the</p>
-                <p><supplied resp="editorial">illegible</supplied> of the Charlotte<note
-                        type="editorial" n="4">The <hi rendition="#italics">Charlotte</hi> was a
-                        British warship defeated during the Battle of Lake Erie.</note></p>
-                <p>Whole Fleet <orig>Conseque</orig></p>
-            </div>
-
-            <div n="8" type="image_transcription" facs="note">
-                <head><supplied resp="editorial">Note</supplied></head>
-                <p><add>1812</add></p>
-            </div>
-
-
-        </body>
-
-        <back/>
-    </text>
+  <teiHeader xml:lang="English">
+    <fileDesc>
+      <titleStmt>
+        <title type="main">TEI transcription of Queen Charlotte and Johnny Bull Got Their Dose of
+          Perry</title>
+        <author/>
+        <respStmt>
+          <resp key="art">Artist</resp>
+          <persName key="ENT.000000848">Charles, William, 1776-1820</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="trc">Transcribed by</resp>
+          <persName key="ENT.000003368">Moloshok, Rachel</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="mrk">Encoded by</resp>
+          <persName key="ENT.000003368">Moloshok, Rachel</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="pbl">Publisher</resp>
+          <persName key="ENT.000003387">Unknown</persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <p>First edition, <date when="2015">2015</date></p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName key="ENT.000002473">Historical Society of Pennsylvania</orgName>
+        </publisher>
+        <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
+        <idno type="filename">11812</idno>
+        <availability status="restricted">
+          <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of copyright only
+            to original contributions made by the Historic Images, New Technologies (HINT) Project
+            participants and other staff. HSP makes no claim of copyright to the original text.
+            Permission is granted to download, transmit or otherwise reproduce, distribute or
+            display the text contributions to this work claimed by HSP for non-profit educational
+            purposes, provided that this header is included in its entirety. For inquiries about
+            commercial uses, please contact the Historical Society of Pennsylvania. HSP retains the
+            rights of all images unless otherwise noted. Possession of an HSP digital image does not
+            constitute permission to use or publish it. Requests for digital imaging, other
+            reproduction services, and the intended use of reproductions must be made in writing to
+            the Rights and Reproductions Coordinator at rnr@hsp.org.</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="project" key="CARTOONS">Historic Images, New Technologies (HINT)
+          Project</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository key="ENT.000002473">Historical Society of Pennsylvania</repository>
+            <collection key="V64">Historical Society of Pennsylvania medium graphics
+              collection</collection>
+            <idno type="citation">Bb 612 Q31</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <bibl>
+                <date from="1813-01-01" to="1813-12-31">1813</date>
+                <extent>1 loose sheet</extent>
+                <extent>
+                  <dimensions type="image" unit="cm"/>
+                  <height quantity="28.5"/>
+                  <width quantity="44"/>
+                </extent>
+                <listRelation>
+                  <relation name="depicted" active="ENT.000003542"/>
+                  <relation name="mentioned" active="ENT.000003543"/>
+                  <relation name="depicted" active="cartoons_symbols.xml#John Bull"/>
+                </listRelation>
+              </bibl>
+            </msItem>
+          </msContents>
+        </msDesc>
+        <biblStruct>
+          <monogr>
+            <respStmt>
+              <resp key="art">Artist</resp>
+              <persName key="ENT.000000848">Charles, William, 1776-1820</persName>
+            </respStmt>
+            <respStmt>
+              <resp key="pbl">Publisher</resp>
+              <persName key="ENT.000003387">Unknown</persName>
+            </respStmt>
+            <title type="main" level="m">Queen Charlotte and Johnny Bull Got Their Dose of
+              Perry</title>
+            <imprint>
+              <pubPlace>Philadelphia</pubPlace>
+              <date from="1813-01-01" to="1813-12-31">1813</date>
+              <publisher>
+                <persName key="ENT.000003387">Unknown</persName>
+              </publisher>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <bibl/>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The Historic Images, New Technologies (HINT) project aims to enhance description and
+          discovery of the Historical Society of Pennsylvania's graphics materials and promote the
+          linking and sharing of content among institutions and scholars. The project will result in
+          an update to HSP's digital image viewer and an online digital history exhibit that will
+          demonstrate the new viewer's capabilities and provide interpretive and contextual
+          materials to encourage users to interact with historical images in new ways. This project
+          was funded by a grant from the National Historical Publications and Records Commission's
+          (NHPRC) Innovation in Archives and Documentary Editing program</p>
+      </projectDesc>
+      <editorialDecl n="4">
+        <p>This electronic file was created using manual keying following the recommendations for
+          Level 4 of "Best Practices for TEI in Libraries" guidelines v3.0.</p>
+        <p>This XML file uses unique entity identifiers, media file identifiers, and collection
+          identifiers in HSP's Digital Library, available at http://digitallibrary.hsp.org</p>
+      </editorialDecl>
+      <tagsDecl>
+        <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
+        <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
+        <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
+        <rendition scheme="css" xml:id="crossed-through">text-decoration: line-through</rendition>
+        <rendition scheme="other" xml:id="printed"/>
+        <rendition scheme="other" xml:id="typescript"/>
+        <rendition scheme="other" xml:id="handwritten"/>
+        <rendition scheme="other" xml:id="handwritten-underlined"/>
+        <rendition scheme="other" xml:id="handwritten-circled"/>
+        <rendition scheme="other" xml:id="handwritten-crossed-through"/>
+        <rendition scheme="other" xml:id="double-underline"/>
+        <rendition scheme="other" xml:id="stamp"/>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <catRef target="cartoons_genres.xml#Engravings"/>
+        <catRef target="cartoons_taxonomies.xml#war"/>
+        <catRef target="cartoons_taxonomies.xml#early"/>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change who="RachelMoloshok" when="2015-02-02">Exported from DAMS</change>
+      <change who="RachelMoloshok" when="2015-01-14">Updated to encode one relation element per
+        referenced entity/symbol</change>
+      <change who="RachelMoloshok" when="2015-01-13">Updated test file with media and entity codes
+        from live DAMS</change>
+      <change who="RachelMoloshok" when="2014-10-21">Cut and pasted surface and zone coordinates
+        from 11812-Bb6112Q31_1_TEI_TEST_exported.xml</change>
+      <change who="RachelMoloshok" when="2014-10-14">File created</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="100" lry="100">
+      <graphic url="FIL.000089704"/>
+      <zone n="1" xml:id="title"
+        points="12.91,94.52 23.62,94.44 72.07,94.78 72.18,100.76 12.93,100.08"/>
+      <zone n="2" xml:id="imprint" points="45.2,79.7 59.93,79.86 60.14,83.13 45.05,83.23"/>
+      <zone n="3" xml:id="Charlotte_speech"
+        points="18.32,17.62 39.31,17.91 42.65,29.82 39.89,32.26 41.03,37.43 49.05,33.84 50.48,37.14 42.56,49.05 41.51,74.03 17.75,80.48 17.94,69.15 25.29,51.06 34.16,30.97 18.13,31.4"/>
+      <zone n="4" xml:id="john_bull_speech"
+        points="59.71,17.18 84.18,17.18 84.03,28.91 74,28.8 74.72,32.6 73.64,39.55 79.7,42.48 78.91,51.6 81,72.98 57.83,70.16 58.63,43.13 65.05,39 68.15,29.23 59.35,28.91"/>
+      <zone n="5" xml:id="bottle"
+        points="38.72,17.09 58.93,16.97 61.78,29.46 59.24,36.05 53.48,36.62 51.56,40.9 51.02,51.54 45.87,50.73 46.56,40.09 42.1,34.43"/>
+      <zone n="6" xml:id="signature" points="71.04,80.63 81.73,80.97 83.44,82.86 71.04,82.86"/>
+      <zone n="7" xml:id="newspapers" points="59.38,70.32 76.04,72.07 76.56,80.71 60.54,79.23"/>
+      <zone n="8" xml:id="note" points="90.64,89.75 95.64,89.75 95.64,94.75 90.64,94.75"/>
+    </surface>
+  </facsimile>
+  <text>
+    <front>
+      <div type="editorial_desc">
+        <p>Queen Charlotte of England and John Bull (a symbolic character representing Great
+          Britain) react to news of American naval commander Matthew Perry's victories during the
+          War of 1812. At left, Queen Charlotte, drunk and hiccuping, offers a bottle of perry (an
+          alcoholic drink made of fermented pears) to John Bull, at right, who is sitting on a
+          commode (toilet) and suffering from a stomachache. The bottle is spraying out streams of
+          liquid, each labeled with the name of an American warship that fought in the Battle of
+          Lake Erie, where Perry won a decisive victory. At John Bull's feet lie scattered pages of
+          newspapers and letters announcing America's victories, including the destruction of the
+          British warship <hi rendition="#italics">Charlotte</hi>. John Bull complains that, in
+          addition to his indigestion, he has not yet recovered from the bloody nose he received at
+          the "<ref target="8532.xml">Boxing Match</ref>" (the title of another political cartoon by
+          William Charles).</p>
+      </div>
+    </front>
+    <body>
+      <div type="image_transcription" n="1" facs="#title">
+        <head><persName key="ENT.000003542">Queen Charlotte</persName> and <rs
+            ref="cartoons_symbols.xml#john_bull">Johnny Bull</rs> Got their dose of <persName
+            key="ENT.000003543">Perry</persName></head>
+      </div>
+      <div type="image_transcription" n="2" facs="#imprint">
+        <p><abbr>Phla</abbr>
+          <abbr>Pubd</abbr> and sold at 12 <choice>
+            <sic>Chesnut</sic>
+            <corr>Chestnut</corr>
+          </choice> St</p>
+      </div>
+      <div type="image_transcription" n="3" facs="#Charlotte_speech">
+        <head>
+          <supplied resp="editorial">
+            <persName key="ENT.000003542">Queen Charlotte</persName>
+          </supplied>
+        </head>
+        <p><rs ref="cartoons_symbols.xml#john_bull">Johnny</rs> wont you take some more Perry! I did
+          not think it was composed of such strong Ingredients _ Hic up _ I wish I had not tried its
+          strength _ I _ I _ I am quite over power'd by it--</p>
+      </div>
+      <div type="image_transcription" n="4" facs="#john_bull_speech">
+        <head>
+          <supplied resp="editorial">
+            <rs ref="cartoons_symbols.xml#john_bull">John Bull</rs>
+          </supplied>
+        </head>
+        <p>Oh! <persName key="ENT.000003543">Perry</persName>!!! Curse that Perry! _ It has Griped
+          me enough already _ Such a revolution in my guts _ One disaster after another _ I have not
+          half recovered of the Bloody nose I got at the <ref target="8532.xml">Boxing
+            Match</ref>!_<note type="editorial" n="1">See "The Boxing Match" (cartoon)</note></p>
+      </div>
+      <div type="image_transcription" n="5" facs="#bottle">
+        <head>
+          <persName key="ENT.000003543">Perry</persName>
+          <note type="editorial" n="2">Liquid shoots out of a bottle labeled "Perry"; each spray is
+            labeled with the name of American warships that fought in the Battle of Lake
+            Erie.</note>
+        </head>
+        <p>Porcupine</p>
+        <p>Tigres</p>
+        <p>Trippe</p>
+        <p>Somers</p>
+        <p>Scorpion</p>
+        <p>Ariel</p>
+        <p>Caledonia</p>
+        <p>Niagara</p>
+      </div>
+      <div type="image_transcription" n="6" facs="#signature">
+        <p><persName key="ENT.000000848">Wm Charles</persName> del et Sculp.<note type="editorial"
+            n="3">"Del et Sculp" means "drawn and engraved."</note></p>
+      </div>
+      <div type="image_transcription" n="7" facs="#newspapers">
+        <head>
+          <supplied resp="editorial">Torn-up newspapers</supplied>
+        </head>
+        <p>LONDON. EX GAZETTE By Authority My Lords and Gentlemen_ I am sorry to you Loss</p>
+        <p>Lake Erie in the</p>
+        <p><supplied resp="editorial">illegible</supplied> of the Charlotte<note type="editorial"
+            n="4">The <hi rendition="#italics">Charlotte</hi> was a British warship defeated during
+            the Battle of Lake Erie.</note></p>
+        <p>Whole Fleet <orig>Conseque</orig></p>
+      </div>
+      <div type="image_transcription" n="8" facs="note">
+        <head>
+          <supplied resp="editorial">Note</supplied>
+        </head>
+        <p>
+          <add>1812</add>
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

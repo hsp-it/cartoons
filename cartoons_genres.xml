@@ -1,26 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?xml-model href="../../HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:gdp="http://www.hsp.org/ns/nonTEI">
+<?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
 
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="main">TEI description of genres for the NHPRC Cartoons Digital History
-                    Project Digital Project - test edit</title>
+                <title type="main">TEI description of genres for the Historic Images, New
+                    Technologies (HINT) Digital History Project</title>
                 <author>
-                    <persName>Moloshok, Rachel</persName>
+                    <persName key="ENT.000003526">Moloshok, Rachel</persName>
                 </author>
                 <author>
-                    <persName>Newhouse, Sarah</persName>
+                    <persName key="ENT.000003352">Newhouse, Sarah</persName>
+                </author>
+                <author>
+                    <persName key="ENT.000003528">Dorman, Dana</persName>
                 </author>
             </titleStmt>
 
             <publicationStmt>
-                <publisher>The Historical Society of Pennsylvania</publisher>
+                <publisher>
+                    <orgName key="ENT.000002473">Historical Society of Pennsylvania</orgName>
+                </publisher>
                 <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
                 <availability status="restricted">
-                    <p>Copyright 2013, The Historical Society of Pennsylvania. HSP makes a claim of
+                    <p>Copyright 2014, The Historical Society of Pennsylvania. HSP makes a claim of
                         copyright only to original contributions made by the NHPRC Cartoons Digital
                         History Project participants and other staff. Permission is granted to
                         download, transmit or otherwise reproduce, distribute or display the text
@@ -33,8 +38,13 @@
                         the intended use of reproductions must be made in writing to the Rights and
                         Reproductions Coordinator at rnr@hsp.org.</p>
                 </availability>
-                <date when="2013"/>
+                <date when="2014"/>
             </publicationStmt>
+
+            <seriesStmt>
+                <title level="s" type="project" key="CARTOONS">Historic Images, New Technologies
+                    (HINT) Project</title>
+            </seriesStmt>
 
             <sourceDesc>
                 <p>Born digital.</p>
@@ -42,27 +52,92 @@
         </fileDesc>
         <encodingDesc>
             <projectDesc>
-                <p><!-- Project description goes here --></p>
+                <p>The Historic Images, New Technologies (HINT) project aims to enhance description
+                    and discovery of the Historical Society of Pennsylvania's graphics materials and
+                    promote the linking and sharing of content among institutions and scholars. The
+                    project will result in an update to HSP's digital image viewer and an online
+                    digital history exhibit, featuring 500 encoded political cartoons, that will
+                    demonstrate the new viewer's capabilities and provide interpretive and
+                    contextual materials to encourage users to interact with historical images in
+                    new ways. This project was funded by a grant from the National Historical
+                    Publications and Records Commission's (NHPRC) Innovation in Archives and
+                    Documentary Editing program.</p>
             </projectDesc>
+
             <classDecl>
-                <taxonomy xml:id="LCTGM2">
+                <taxonomy xml:id="LCTGM">
                     <bibl>
-                        <title type="main">Library of Congress Thesaurus for Graphic Materials
-                            II</title>
-                        <ref type="source" target="http://www.loc.gov/rr/print/tgm2/"/>
+                        <title type="main">Library of Congress Thesaurus for Graphic
+                            Materials</title>
+                        <ref type="source" target="http://id.loc.gov/vocabulary/graphicMaterials"/>
                     </bibl>
-                    <category xml:id="drawings">
+                    <category xml:id="chromolithographs"
+                        corresp="http://id.loc.gov/vocabulary/graphicMaterials/tgm002041.html">
+                        <catDesc>Chromolithographs</catDesc>
+                    </category>
+                    <category xml:id="clippings"
+                        corresp="http://id.loc.gov/vocabulary/graphicMaterials/tgm002169.html">
+                        <catDesc>Clippings</catDesc>
+                    </category>
+                    <category xml:id="collages"
+                        corresp="http://id.loc.gov/vocabulary/graphicMaterials/tgm002269.html">
+                        <catDesc>Collages</catDesc>
+                    </category>
+                    <category xml:id="drawings"
+                        corresp="http://id.loc.gov/vocabulary/graphicMaterials/tgm003279.html">
                         <catDesc>Drawings</catDesc>
                     </category>
-                    <category xml:id="intaglio">
-                        <catDesc>Intaglio prints</catDesc>
+                    <category xml:id="engravings"
+                        corresp="http://id.loc.gov/vocabulary/graphicMaterials/tgm003610">
+                        <catDesc>Engravings</catDesc>
                     </category>
-                    <category xml:id="lithographs">
+                    <category xml:id="etchings"
+                        corresp="http://id.loc.gov/vocabulary/graphicMaterials/tgm003666">
+                        <catDesc>Etchings</catDesc>
+                    </category>
+                    <category xml:id="lithographs"
+                        corresp="http://id.loc.gov/vocabulary/graphicMaterials/tgm006027">
                         <catDesc>Lithographs</catDesc>
+                    </category>
+                    <category xml:id="mixed_media"
+                        corresp="http://id.lov.gov/vocabulary/graphicMaterials/tgm006675">
+                        <catDesc>Mixed media</catDesc>
+                    </category>
+                    <category xml:id="periodical_illustrations"
+                        corresp="http://id.loc.gov/vocabulary/graphicMaterials/tgm007639">
+                        <catDesc>Periodical illustrations</catDesc>
+                    </category>
+                    <category xml:id="photomechanical_prints"
+                        corresp="http://id.lov.gov/vocabulary/graphicMaterials/tgm007730">
+                        <catDesc>Photomechanical prints</catDesc>
+                    </category>
+                    <category xml:id="prints"
+                        corresp="http://id.loc.gov/vocabulary/graphicMaterials/tgm008237">
+                        <catDesc>Prints</catDesc>
+                    </category>
+                    <category xml:id="scrapbooks"
+                        corresp="http://id.loc.gov/vocabulary/graphicMaterials/tgm009266">
+                        <catDesc>Scrapbooks</catDesc>
+                    </category>
+                    <category xml:id="watercolors"
+                        corresp="http://id.loc.gov/vocabulary/graphicMaterials/tgm011580.html">
+                        <catDesc>Watercolors</catDesc>
+                    </category>
+                    <category xml:id="wood_engravings"
+                        corresp="http://id.loc.gov/vocabulary/graphicMaterials/tgm011783.html">
+                        <catDesc>Wood engravings</catDesc>
+                    </category>
+                    <category xml:id="woodcuts"
+                        corresp="http://id.loc.gov/vocabulary/graphicMaterials/tgm011790.html">
+                        <catDesc>Woodcuts</catDesc>
                     </category>
                 </taxonomy>
             </classDecl>
         </encodingDesc>
+
+        <revisionDesc>
+            <change who="HSP" when="2015-02-02">Exported from Collective Access</change>
+        </revisionDesc>
 
     </teiHeader>
 
