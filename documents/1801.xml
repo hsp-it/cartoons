@@ -1,12 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/css" href="./tiny_TEI_template.css"?>
-<!-- ??The two lines of purple text above this comment need to be updated based on our final, actual schema. This is currently set to use the schema from TEI training. -->
-
-
 <?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-
 
     <teiHeader xml:lang="English">
 
@@ -19,12 +14,12 @@
                     <resp key="art">Artist</resp>
                     <persName key="ENT.000000379">Joseph Keppler</persName>
                 </respStmt>
-                
+
                 <respStmt>
                     <resp key="ltg">Lithographer</resp>
                     <persName key="ENT.000000380">Mayer Merkel &amp; Ottomann</persName>
                 </respStmt>
-                
+
                 <respStmt>
                     <resp key="trc">Transcribed by</resp>
                     <persName key="ENT.000003544">Diane Biunno</persName>
@@ -71,19 +66,18 @@
                 <msDesc>
                     <msIdentifier>
                         <repository key="ENT.000002473"/>
-                        <collection key="3133">Historical Society of Pennsylvania cartoons and caricatures collection</collection>
-                            <idno type="citation">
-                                <idno type="box">7</idno>
-                                <idno type="folder">27</idno>
-                            </idno>
+                        <collection key="3133">Historical Society of Pennsylvania cartoons and
+                            caricatures collection</collection>
+                        <idno type="citation">
+                            <idno type="box">7</idno>
+                            <idno type="folder">27</idno>
+                        </idno>
                     </msIdentifier>
                     <msContents>
                         <msItem>
                             <bibl>
                                 <date from="1880-11-03">November 3, 1880</date>
                                 <extent>1 loose sheet</extent>
-                               
-                                 
                                 <listRelation>
                                     <relation name="depicted" active="ENT.000003555"/>
                                     <relation name="depicted" active="ENT.000003379"/>
@@ -101,10 +95,6 @@
                                     <relation name="depicted" active="ENT.000003567"/>
                                     <relation name="depicted" active="ENT.000003362"/>
                                     <relation name="depicted" active="ENT.000003569"/>
-
-                                    <!-- use to list entities and symbols DEPICTED in the document, pointing to relevant DAMS entity codes and/or symbolography files (ex., <relation name="depicted" active="ENT.000005678 cartoons_people.xml#uncle_sam/> DELETE THIS ELEMENT IF NOT USING -->
-                                    <!--relation name="mentioned" active=""/-->
-                                    <!-- use to list entities and symbols MENTIONED in the transcript of the document, pointing to relevant DAMS entity codes and/or symbolography files DO NOT USE for entities that are also depicted. DELETE THIS ELEMENT IF NOT USING -->
                                 </listRelation>
                             </bibl>
                         </msItem>
@@ -116,8 +106,7 @@
                             incorporates previously uncataloged materials collected by the Balch
                             Institute for Ethnic Studies. Some of the 20th century cartoons and
                             drawings were removed from the J. Hampton Moore papers (Collection
-                            1541).
-                        </acquisition>
+                            1541). </acquisition>
                     </history>
                 </msDesc>
                 <biblStruct>
@@ -125,26 +114,26 @@
                         <respStmt>
                             <resp key="art">Artist</resp>
                             <persName key="ENT.000000379">Joseph Keppler</persName>
-                            <!-- Value of @key is DAMS entity code. If artist is unknown, use key for "Unknown Artist": ENT.000000553 -->
+
                         </respStmt>
-                        
-                            <respStmt><resp key="ltg">Lithographer</resp>
-                                <persName key="ENT.000000380">Mayer, Merkel &amp; Ottmann </persName>
-                            </respStmt>
-                        
+
+                        <respStmt>
+                            <resp key="ltg">Lithographer</resp>
+                            <persName key="ENT.000000380">Mayer, Merkel &amp; Ottmann </persName>
+                        </respStmt>
+
                         <title type="main" level="a">Let us have Peace, Now A President's Elected
-                            
                         </title>
                     </analytic>
                     <monogr>
-                        <title type="marc245a" level="j">Puck <orgName key="ENT.000000384">
-                            </orgName>
+                        <title type="marc245a" level="j">Puck <orgName key="ENT.000000384"
+                            > </orgName>
                         </title>
                         <imprint>
                             <publisher>
                                 <orgName key="ENT.000003163"> </orgName>
                             </publisher>
-                            <pubPlace> New York </pubPlace>
+                            <pubPlace>New York</pubPlace>
                             <date when="1880-11-03">November 3, 1880 </date>
                             <biblScope unit="volume">8</biblScope>
                             <biblScope unit="issue">191</biblScope>
@@ -209,7 +198,6 @@
         </profileDesc>
 
         <revisionDesc>
-            <!-- ??This is where we'll note what has changed AND keep track of whether a document has been proofread. Add <change> elements for each revision, listing MOST RECENT FIRST. Use @when to list date. Use @who for first-lastname entries for the person responsible (choices available in Oxygen; human readers will be able to figure out who we mean).  -->
             <change who="DianeBiunno" when="2015-01-21">Began text encoding</change>
             <change who="RachelMoloshok" when="2015-01-07">Template file created</change>
         </revisionDesc>
@@ -224,10 +212,10 @@
             <zone n="1" xml:id="Title" points=""/>
             <zone n="2" xml:id="Signature" points=""/>
             <zone n="3" xml:id="Office" points=""/>
-            <zone n="4" xml:id="Lithog" points=""/>
+            <zone n="4" xml:id="Lithographer" points=""/>
             <zone n="5" xml:id="Democrat" points=""/>
-            <zone n="6" xml:id="Repub" points=""/>
-            <zone n="7" xml:id="Date" points=""/>
+            <zone n="6" xml:id="Republican" points=""/>
+            <zone n="7" xml:id="Notes" points=""/>
             <zone n="8" xml:id="Conkling" points=""/>
             <zone n="9" xml:id="Garfield" points=""/>
             <zone n="10" xml:id="Hancock" points=""/>
@@ -237,8 +225,8 @@
             <zone n="14" xml:id="Butler" points=""/>
             <zone n="15" xml:id="Dana" points=""/>
             <zone n="16" xml:id="Tilden" points=""/>
-            
-            
+
+
         </surface>
     </facsimile>
 
@@ -246,8 +234,13 @@
         <front>
             <div type="editorial_desc">
                 <p>Lady Republican and Lady Democrat shake hands. The faces of the presidential
-                    candidates of the 1880 Election, as well as other noteable political figures are
-                    hidden in the landscape.  The faces include: James A. Garfield, Carl Schurz, Marshall Jewell, James Blaine, Roscoe Conkling, Benjamin Butler, William Hayden English, Ulysses S. Grant, Chester Arthur, Thomas Bayard, John Kelly, Winfield Hancock, Samuel Tilden, Rutherford Hayes, John Logan,and Abram Hewitt.  There are some notes written on the images.  These notes identify some of the names of the political figures hidden in the cartoon.</p>
+                    candidates of the 1880 election, as well as other noteable political figures,are
+                    hidden in the landscape. The faces include: James A. Garfield, Carl Schurz,
+                    Marshall Jewell, James Blaine, Roscoe Conkling, Benjamin Butler, William Hayden
+                    English, Ulysses S. Grant, Chester Arthur, Thomas Bayard, John Kelly, Winfield
+                    Hancock, Samuel Tilden, Rutherford Hayes, John Logan,and Abram Hewitt. There are
+                    some notes written on the images. These notes identify some of the names of the
+                    political figures hidden in the cartoon.</p>
             </div>
         </front>
 
@@ -263,82 +256,82 @@
                 <head><supplied resp="editorial">Signature</supplied></head>
                 <p>KEPPLER</p>
             </div>
-            
+
             <div type="image_transcription" facs="#Office" n="3">
                 <head><supplied resp="editorial">Office</supplied></head>
                 <p>OFFICE OF PUCK 23 WARREN ST. NEW YORK</p>
             </div>
-            
-            <div type="image_transcription" facs="#Lithog" n="4">
-                <head><supplied resp="editorial">Lithog</supplied></head>
+
+            <div type="image_transcription" facs="#Lithographer" n="4">
+                <head><supplied resp="editorial">Lithographer</supplied></head>
                 <p>MAYER MERCKEL &amp; OTTOMANN LITHOG.2325 WARREN ST. N.Y</p>
             </div>
-            
+
             <div type="image_transcription" facs="#Democrat" n="5">
                 <head><supplied resp="editorial">Democrat</supplied></head>
                 <p>DEMOCRAT</p>
             </div>
-            
-            <div type="image_transcription" facs="#Repub" n="6">
-                <head><supplied resp="editorial">Repub</supplied></head>
+
+            <div type="image_transcription" facs="#Republican" n="6">
+                <head><supplied resp="editorial">Republican</supplied></head>
                 <p>REPUB</p>
             </div>
-            
-            <div type="image_transcription" facs="#Date" n="7">
-                <head><supplied resp="editorial">Date</supplied></head>
+
+            <div type="image_transcription" facs="#Notes" n="7">
+                <head><supplied resp="editorial">Notes</supplied></head>
                 <p><add>November 3rd 1880</add></p>
                 <p><add>Grant &amp; Arthur</add></p>
-                <p><add>Hancock &amp; English </add></p>    
+                <p><add>Hancock &amp; English </add></p>
             </div>
-            
+
             <div type="image_transcription" facs="#Conkling" n="8">
                 <head><supplied resp="editorial">Conkling</supplied></head>
-                <p><add>Conkling</add></p>      
+                <p><add>Conkling</add></p>
             </div>
-            
+
             <div type="image_transcription" facs="#Garfield" n="9">
                 <head><supplied resp="editorial">Garfield</supplied></head>
                 <p><add>Garfield</add></p>
             </div>
-            
+
             <div type="image_transcription" facs="#Hancock" n="10">
                 <head><supplied resp="editorial">Hancock</supplied></head>
                 <p><add><hi rendition="#handwritten-circled">Hancock</hi></add></p>
             </div>
-            
+
             <div type="image_transcription" facs="#Kelly" n="11">
                 <head><supplied resp="editorial">Kelly</supplied></head>
                 <p><add><hi rendition="#handwritten-circled">Kelly</hi></add></p>
             </div>
-            
+
             <div type="image_transcription" facs="#Arthur" n="12">
                 <head><supplied resp="editorial">Arthur</supplied></head>
                 <p><add>Arthur</add></p>
             </div>
-            
+
             <div type="image_transcription" facs="#Grant" n="13">
                 <head><supplied resp="editorial">Grant</supplied></head>
                 <p><add>Grant</add></p>
             </div>
-            
+
             <div type="image_transcription" facs="#Butler" n="14">
                 <head><supplied resp="editorial">Butler</supplied></head>
                 <p><add>Butler</add></p>
             </div>
-            
+
             <div type="image_transcription" facs="#Dana" n="15">
                 <head><supplied resp="editorial">Dana</supplied></head>
                 <p><add>Dana?</add></p>
             </div>
-            
+
             <div type="image_transcription" facs="#Tilden" n="16">
                 <head><supplied resp="editorial">Tilden</supplied></head>
                 <p><add>Tilden</add></p>
             </div>
-            
-            
-              
-            
+
+
+
+
         </body>
 
         <back/>

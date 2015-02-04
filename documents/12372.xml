@@ -1,8 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/css" href="./tiny_TEI_template.css"?>
-<!-- ??The two lines of purple text above this comment need to be updated based on our final, actual schema. This is currently set to use the schema from TEI training. -->
-
-
 <?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
@@ -19,9 +15,6 @@
                     <resp key="art">Artist</resp>
                     <persName key="ENT.000003164">George Frederick Keller</persName>
                 </respStmt>
-
-                <!-- ??The person who's responsible for transcribing the TEI document; include multiple respStmt's for however many roles are needed. Note that the <resp> element within <respStmt> uses @key attribute to record the person's role in authority-control form: trc = transcriber, mrk = markup editor (if different than transcriber); pfr = proofreader; full list of codes available here: http://www.loc.gov/marc/relators/relacode.html -->
-
                 <respStmt>
                     <resp key="trc">Transcribed by</resp>
                     <persName key="ENT.000003544">Diane Biunno</persName>
@@ -176,7 +169,7 @@
                 <catRef target="cartoons_taxonomies.xml#gilded"/>
                 <catRef target="cartoons_taxonomies.xml#immigration"/>
                 <catRef target="cartoons_taxonomies.xml#stereotypes"/>
-                <catRef target="cartoon_genres.xml#lithographs"/>
+                <catRef target="cartoon_genres.xml#Lithographs"/>
             </textClass>
         </profileDesc>
 
@@ -191,13 +184,13 @@
         <!-- ??The following text shows how to structure this section, but the URL information needs to be replaced with real text in order for this to validate. -->
         <surface ulx="" uly="" lrx="" lry="">
             <!-- Leave values for <surface> attributes blank; coordinates will be provided by Collective Access upon export. Use <surface> to contain <graphic> and <zone>. Use multiple <surface> elements as needed for multiple pages/images -->
-            <graphic url=""/>
+            <graphic url="FIL.000090250"/>
             <!-- Use as many zone elements as needed. Provide each zone with a number and a unique (to this file) xml:id. @points values will be provided by Collective Access upon export.  -->
             <zone n="1" xml:id="Title_left" points=""/>
-            <zone n="2" xml:id="Author" points=""/>
+            <zone n="2" xml:id="Artist" points=""/>
             <zone n="3" xml:id="Garden" points=""/>
             <zone n="4" xml:id="Wasp" points=""/>
-            <zone n="5" xml:id="Title-right"></zone>
+            <zone n="5" xml:id="Title_right"></zone>
         </surface>
     </facsimile>
 
@@ -213,17 +206,17 @@
 
         <body>
             <div type="image_transcription" facs="#Title_left" n="1">
-                <head><supplied resp="editorial">Title_left</supplied></head>
+                <head><supplied resp="editorial">Title 1</supplied></head>
                 <p>RECEPTION OF EUROPEAN EMIGRANTS TWENTY YEARS AGO.</p>
             </div>
             
-            <div type="image_transcription" facs="#Author" n="2">
-                <head><supplied resp="editorial">Author</supplied></head>
+            <div type="image_transcription" facs="#Artist" n="2">
+                <head><supplied resp="editorial">Artist</supplied></head>
                 <p><hi rendition="#circled">KELLER</hi></p>
             </div>
             
             <div type="image_transcription" facs="#Garden" n="3">
-                <head><supplied resp="editorial">Garden</supplied></head>
+                <head><supplied resp="editorial">Castle Garden</supplied></head>
                 <p>CASTLE GARDEN</p>
             </div>
             
@@ -233,7 +226,7 @@
             </div>
             
             <div type="image_transcription" facs="#Title_right" n="5">
-                <head><supplied resp="editorial">Title_right</supplied></head>
+                <head><supplied resp="editorial">Title 2</supplied></head>
                 <p>RECEPTION OF ASIATIC EMIGRANTS IN THE PRESENT TIME</p>
             </div>
         </body>
