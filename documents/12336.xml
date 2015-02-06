@@ -68,7 +68,6 @@
                             </bibl>
                         </msItem>
                     </msContents>
-
                     <history>
                         <acquisition>This is an artificial collection created over time by HSP staff mostly through donations and purchases of individual prints. It also incorporates previously uncataloged materials collected by the Balch Institute for Ethnic Studies. Some of the 20th century cartoons and drawings were removed from the J. Hampton Moore papers (Collection 1541).</acquisition>
                     </history>
@@ -76,7 +75,6 @@
                 <biblStruct>
                     <monogr>
                         <respStmt>
-                            
                             <resp key="art">Artist</resp>
                             <persName key="ENT.000000553"/>
                         </respStmt>
@@ -90,10 +88,8 @@
                         </imprint>
                     </monogr>
                 </biblStruct>
-
             </sourceDesc>
         </fileDesc>
-
         <encodingDesc>
             <projectDesc>
                 <p>The Historic Images, New Technologies (HINT) project aims to enhance description
@@ -114,7 +110,6 @@
                 <p>This xml file uses unique entity identifiers, media file identifiers, and
                     collection identifiers in HSP's Digital Library, available at
                     http://digitallibrary.hsp.org.</p>
-
             </editorialDecl>
             <tagsDecl>
                 <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
@@ -135,7 +130,6 @@
                 </namespace>
             </tagsDecl>
         </encodingDesc>
-
         <profileDesc>
             <textClass>
                 <catRef target="cartoons_taxonomies.xml#featured"/>
@@ -144,35 +138,51 @@
             </textClass>
         </profileDesc>
         <revisionDesc>
+            <change who="SaraBorden" when="2015-02-06">Cleaned up header, added more description, and created zones</change>
             <change who="SaraBorden" when="2015-01-21">Filled out header</change>
             <change who="RachelMoloshok" when="2015-01-07">Template file created</change>
         </revisionDesc>
     </teiHeader>
-
     <facsimile>
         <surface ulx="" uly="" lrx="" lry="">
             <graphic
                 url="FIL.000090248"/>
-            <zone n="1" xml:id="donkey" />
+            <zone n="1" xml:id="donkey"/>
+            <zone n="2" xml:id="post"/>
+            <zone n="3" xml:id="title"/>
+            <zone n="4" xml:id= "ownership"/>
+            <zone n="5" xml:id="donor"/>
         </surface>
     </facsimile>
-
     <text>
         <front>
             <div type="editorial_desc">
                 <p>Cartoon depicts a donkey labeled "South Carolina" trying to pull away from a post labeled "Union." The donkey has South Carolina's secession flag flying from its tail.  The post from which the donkey pulls is flying a tattered American flag. The donkey and post appear to be on a hill. The hill looks down on a body of water. Two fortifications are represented (possibly Fort Sumter and Fort Moultrie), and other buildings are drawn along the water. The title of the cartoon, "Southern Ass-stock-crazy," is a play on the phrase "Southern Aristocracy," which appears parenthetically below the title text. </p>
             </div>
         </front>
-
         <body>
             <div type="image_transcription" facs="#donkey" n="1">
                 <head><supplied resp="editorial">Donkey</supplied></head>
-                <p>South Carolina</p>
-                
-                <p><!-- transcribed text/annotation text goes here. Use as many <p> elements as needed per zone --></p>
+                <p>SOUTH CAROLINA.</p>
             </div>
+            <div type="image_transcription" facs="#post" n="2">
+                <head><supplied resp="editorial">Post</supplied></head>
+                <p>UNION.</p>
+            </div>
+            <div type="image_transcription" facs="#title" n="3">
+                <head> <supplied resp="editorial">Title</supplied> </head>
+                <p>Southern Ass-stock-crazy.</p>
+                <p><hi rendition="#italics">(Southern Aristocracy.)</hi></p>
+            </div>
+                <div type="image_transcription" facs="#ownership" n="4">
+                   <head><supplied resp="editorial">Stamp</supplied></head>
+                    <p><add>HISTORICAL SOCIETY OF PENNSYLVANIA</add></p>
+                </div>
+      <div type="image_transcription" facs="#donor" n="5">
+          <head><supplied resp="editorial">Donor</supplied></head>
+          <p>From HN Smith</p>
+      </div>
         </body>
-
         <back/>
     </text>
 </TEI>
