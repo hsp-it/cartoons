@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../../HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 
     <teiHeader>
@@ -20,9 +20,8 @@
             </titleStmt>
 
             <publicationStmt>
-                <publisher>
-                    <orgName key="ENT.000002473">Historical Society of Pennsylvania</orgName>
-                </publisher>
+                <publisher><orgName key="ENT.000002473">Historical Society of
+                    Pennsylvania</orgName></publisher>
                 <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
                 <availability status="restricted">
                     <p>Copyright 2014, The Historical Society of Pennsylvania. HSP makes a claim of
@@ -71,72 +70,64 @@
                             Materials</title>
                         <ref type="source" target="http://id.loc.gov/vocabulary/graphicMaterials"/>
                     </bibl>
-                    <category xml:id="chromolithographs"
-                        corresp="http://id.loc.gov/vocabulary/graphicMaterials/tgm002041.html">
-                        <catDesc>Chromolithographs</catDesc>
-                    </category>
-                    <category xml:id="clippings"
-                        corresp="http://id.loc.gov/vocabulary/graphicMaterials/tgm002169.html">
-                        <catDesc>Clippings</catDesc>
-                    </category>
-                    <category xml:id="collages"
-                        corresp="http://id.loc.gov/vocabulary/graphicMaterials/tgm002269.html">
-                        <catDesc>Collages</catDesc>
-                    </category>
-                    <category xml:id="drawings"
-                        corresp="http://id.loc.gov/vocabulary/graphicMaterials/tgm003279.html">
-                        <catDesc>Drawings</catDesc>
-                    </category>
-                    <category xml:id="engravings"
-                        corresp="http://id.loc.gov/vocabulary/graphicMaterials/tgm003610">
-                        <catDesc>Engravings</catDesc>
-                    </category>
-                    <category xml:id="etchings"
-                        corresp="http://id.loc.gov/vocabulary/graphicMaterials/tgm003666">
-                        <catDesc>Etchings</catDesc>
-                    </category>
-                    <category xml:id="lithographs"
-                        corresp="http://id.loc.gov/vocabulary/graphicMaterials/tgm006027">
-                        <catDesc>Lithographs</catDesc>
-                    </category>
-                    <category xml:id="mixed_media"
-                        corresp="http://id.lov.gov/vocabulary/graphicMaterials/tgm006675">
-                        <catDesc>Mixed media</catDesc>
-                    </category>
-                    <category xml:id="periodical_illustrations"
-                        corresp="http://id.loc.gov/vocabulary/graphicMaterials/tgm007639">
-                        <catDesc>Periodical illustrations</catDesc>
-                    </category>
-                    <category xml:id="photomechanical_prints"
-                        corresp="http://id.lov.gov/vocabulary/graphicMaterials/tgm007730">
-                        <catDesc>Photomechanical prints</catDesc>
-                    </category>
-                    <category xml:id="prints"
-                        corresp="http://id.loc.gov/vocabulary/graphicMaterials/tgm008237">
-                        <catDesc>Prints</catDesc>
-                    </category>
-                    <category xml:id="scrapbooks"
-                        corresp="http://id.loc.gov/vocabulary/graphicMaterials/tgm009266">
-                        <catDesc>Scrapbooks</catDesc>
-                    </category>
-                    <category xml:id="watercolors"
-                        corresp="http://id.loc.gov/vocabulary/graphicMaterials/tgm011580.html">
-                        <catDesc>Watercolors</catDesc>
-                    </category>
-                    <category xml:id="wood_engravings"
-                        corresp="http://id.loc.gov/vocabulary/graphicMaterials/tgm011783.html">
-                        <catDesc>Wood engravings</catDesc>
-                    </category>
-                    <category xml:id="woodcuts"
-                        corresp="http://id.loc.gov/vocabulary/graphicMaterials/tgm011790.html">
-                        <catDesc>Woodcuts</catDesc>
-                    </category>
+<category xml:id="chromolithographs" corresp="http://id.loc.gov/vocabulary/graphicMaterials/tgm002041.html">
+  <catDesc>Chromolithographs</catDesc>
+</category>
+<category xml:id="clippings" corresp="http://id.loc.gov/vocabulary/graphicMaterials/tgm002169.html">
+  <catDesc>Clippings</catDesc>
+</category>
+<category xml:id="collages" corresp="http://id.loc.gov/vocabulary/graphicMaterials/tgm002269.html">
+  <catDesc>Collages</catDesc>
+</category>
+<category xml:id="drawings" corresp="http://id.loc.gov/vocabulary/graphicMaterials/tgm003279.html">
+  <catDesc>Drawings</catDesc>
+</category>
+<category xml:id="engravings" corresp="http://id.loc.gov/vocabulary/graphicMaterials/tgm003610">
+  <catDesc>Engravings</catDesc>
+</category>
+<category xml:id="etchings" corresp="http://id.loc.gov/vocabulary/graphicMaterials/tgm003666">
+  <catDesc>Etchings</catDesc>
+</category>
+<category xml:id="illustrations" corresp="http://id.loc.gov/vocabulary/graphicMaterials/tgm005314.html">
+  <catDesc>Illustrations</catDesc>
+</category>
+<category xml:id="lithographs" corresp="http://id.loc.gov/vocabulary/graphicMaterials/tgm006027">
+  <catDesc>Lithographs</catDesc>
+</category>
+<category xml:id="mixed_media" corresp="http://id.lov.gov/vocabulary/graphicMaterials/tgm006675">
+  <catDesc>Mixed media</catDesc>
+</category>
+<category xml:id="periodical_illustrations" corresp="http://id.loc.gov/vocabulary/graphicMaterials/tgm007639">
+  <catDesc>Periodical illustrations</catDesc>
+</category>
+<category xml:id="photographs">
+  <catDesc>Photographs</catDesc>
+</category>
+<category xml:id="photomechanical_prints" corresp="http://id.lov.gov/vocabulary/graphicMaterials/tgm007730">
+  <catDesc>Photomechanical prints</catDesc>
+</category>
+<category xml:id="prints" corresp="http://id.loc.gov/vocabulary/graphicMaterials/tgm008237">
+  <catDesc>Prints</catDesc>
+</category>
+<category xml:id="scrapbooks" corresp="http://id.loc.gov/vocabulary/graphicMaterials/tgm009266">
+  <catDesc>Scrapbooks</catDesc>
+</category>
+<category xml:id="watercolors" corresp="http://id.loc.gov/vocabulary/graphicMaterials/tgm011580.html">
+  <catDesc>Watercolors</catDesc>
+</category>
+<category xml:id="wood_engravings" corresp="http://id.loc.gov/vocabulary/graphicMaterials/tgm011783.html">
+  <catDesc>Wood engravings</catDesc>
+</category>
+<category xml:id="woodcuts" corresp="http://id.loc.gov/vocabulary/graphicMaterials/tgm011790.html">
+  <catDesc>Woodcuts</catDesc>
+</category>
                 </taxonomy>
             </classDecl>
         </encodingDesc>
 
         <revisionDesc>
-            <change who="HSP" when="2015-02-02">Exported from Collective Access</change>
+            <change who="HSP" when="2015-02-09">Exported from Collective Access.</change>
+            <change who="HSP" when="2014-08-26">Exported from Collective Access.</change>
         </revisionDesc>
 
     </teiHeader>
