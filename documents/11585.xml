@@ -187,6 +187,7 @@
         </profileDesc>
 
         <revisionDesc>
+            <change who="DianeBiunno" when="2015-02-09">Proofreading and made minor corrections</change>
             <change who="DianeBiunno" when="2015-02-04">Encoded to featured level</change>
             <change who="DianeBiunno" when="2015-02-03">Encoded to basic level</change>
             <change who="RachelMoloshok" when="2015-01-07">Template file created</change>
@@ -291,21 +292,21 @@
             
             <div type="image_transcription" facs="#Schurz" n="9">
                 <head><supplied resp="editorial"><persName key="ENT.000003379">Carl Schurz</persName></supplied></head>
-                <p><add>Schurtz</add><note n="4" rendition"editorial">Carl Schurz was an ambassador, senator, and US Secretary of the Interior.  In the cartoon, he appears to be speaking with the man seated to his left.</note></p>    
+                <p><add>Schurtz</add><note n="4" type="editorial">Carl Schurz was an ambassador, senator, and US Secretary of the Interior.  In the cartoon, he appears to be speaking with the man seated to his left.</note></p>    
             </div>
             
             <div type="image_transcription" facs="#Logan" n="10">
                 <head><supplied resp="editorial"><persName key="ENT.000003362">John Alexander Logan</persName></supplied></head>
-                <p><add>Logan</add><note n="5" rendition"editorial">John Alexander Logan was a former General in the Union Army during the Civil War.  In the cartoon, he raises his right arm, points at Blaine, and laughs.</note></p>
+                <p><add>Logan</add><note n="5" type="editorial">John Alexander Logan was a former General in the Union Army during the Civil War.  In the cartoon, he raises his right arm, points at Blaine, and laughs.</note></p>
             </div>
             
             <div type="image_annotation" facs="#Edmunds" n="11">
-                <head><supplied resp="editorial"><persName key="ENT.000003345">George Edmunds</supplied></persName></head>
+                <head><supplied resp="editorial"><persName key="ENT.000003345">George Edmunds</persName></supplied></head>
                 <p>George Edmunds (1828-1919) was a lawyer and Republican senator from Vermont.  In the cartoon he has a pensive expression and places his hand on his chin.</p>
             </div>
             
             <div type="image_annotation" facs="#Harrison" n="12">
-                <head><supplied resp="editorial"><persName key="ENT.000001948">Benjamin Harrison</supplied></perName></head>
+                <head><supplied resp="editorial"><persName key="ENT.000001948">Benjamin Harrison</persName></supplied></head>
                 <p>Benjamin Harrison was a senator and the 23rd president of the United States.  In the cartoon, he expresses his surprise by throwing his arms into the air.</p>
             </div>
             
