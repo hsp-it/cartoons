@@ -1,0 +1,270 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+
+
+  <teiHeader xml:lang="English">
+
+    <fileDesc>
+
+      <titleStmt>
+        <title type="main">TEI transcription of The True Issue or "That's What's the Matter"</title>
+        <respStmt>
+          <resp key="art">Artist</resp>
+          <persName key="ENT.000000553">Unknown Artist</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="trc">Transcribed by</resp>
+          <persName key="ENT.000003368">Moloshok, Rachel</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="mrk">Encoded by</resp>
+          <persName key="ENT.000003368">Moloshok, Rachel</persName>
+        </respStmt>
+      </titleStmt>
+
+      <editionStmt>
+        <p>First edition, <date when="2015">2015</date></p>
+      </editionStmt>
+
+      <publicationStmt>
+        <publisher><orgName key="ENT.000002473">Historical Society of
+          Pennsylvania</orgName></publisher>
+        <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
+        <idno type="filename">2189</idno>
+        <availability status="restricted">
+          <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of copyright only
+            to original contributions made by the Historic Images, New Technologies (HINT) Project
+            participants and other staff. HSP makes no claim of copyright to the original text.
+            Permission is granted to download, transmit or otherwise reproduce, distribute or
+            display the text contributions to this work claimed by HSP for non-profit educational
+            purposes, provided that this header is included in its entirety. For inquiries about
+            commercial uses, please contact the Historical Society of Pennsylvania. HSP retains the
+            rights of all images unless otherwise noted. Possession of an HSP digital image does not
+            constitute permission to use or publish it. Requests for digital imaging, other
+            reproduction services, and the intended use of reproductions must be made in writing to
+            the Rights and Reproductions Coordinator at rnr@hsp.org.</p>
+        </availability>
+        <date when="2015"/>
+      </publicationStmt>
+
+      <seriesStmt>
+        <title level="s" type="project" key="CARTOONS"/>
+      </seriesStmt>
+
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository key="ENT.000002473"/>
+            <collection key="3133"/>
+            <idno type="citation"><idno type="box">5</idno>
+              <idno type="folder">20</idno></idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <bibl>
+                <date from="1864-01-01" to="1864-12-31">1864</date>
+                <extent>1 loose sheet</extent>
+                <listRelation>
+                  <relation name="depicted" active="ENT.000001783"/>
+                  <relation name="depicted" active="ENT.000001041"/>
+                  <relation name="depicted" active="ENT.000000447"/>
+                </listRelation>
+              </bibl>
+            </msItem>
+          </msContents>
+          <history>
+            <acquisition/>
+          </history>
+        </msDesc>
+        <biblStruct>
+          <monogr>
+            <respStmt>
+              <resp key="art">Artist</resp>
+              <persName key="ENT.000000553">Unknown Artist</persName>
+            </respStmt>
+            <title type="main" level="m">The True Issue or "That's What's the Matter"</title>
+            <imprint>
+              <publisher><orgName key="ENT.000000844">Currier &amp; Ives</orgName></publisher>
+              <pubPlace>New York, NY</pubPlace>
+              <date from="1864-01-01" to="1864-12-31">1864</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+
+    <encodingDesc>
+      <projectDesc>
+        <p>The Historic Images, New Technologies (HINT) project aims to enhance description and
+          discovery of the Historical Society of Pennsylvania's graphics materials and promote the
+          linking and sharing of content among institutions and scholars. The project will result in
+          an update to HSP's digital image viewer and an online digital history exhibit that will
+          demonstrate the new viewer's capabilities and provide interpretive and contextual
+          materials to encourage users to interact with historical images in new ways. This project
+          was funded by a grant from the National Historical Publications and Records Commission's
+          (NHPRC) Innovation in Archives and Documentary Editing program</p>
+      </projectDesc>
+      <editorialDecl n="4">
+        <p>This electronic file was created using manual keying following the recommendations for
+          Level 4 of "Best Practices for TEI in Libraries" guidelines v3.0.</p>
+        <p>This XML file uses unique entity identifiers, media file identifiers, and collection
+          identifiers in HSP's Digital Library, available at http://digitallibrary.hsp.org</p>
+
+      </editorialDecl>
+      <tagsDecl>
+        <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
+        <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
+        <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
+        <rendition scheme="css" xml:id="crossed-through">text-decoration: line-through</rendition>
+        <rendition scheme="other" xml:id="printed"/>
+        <rendition scheme="other" xml:id="typescript"/>
+        <rendition scheme="other" xml:id="handwritten"/>
+        <rendition scheme="other" xml:id="handwritten-underlined"/>
+        <rendition scheme="other" xml:id="handwritten-circled"/>
+        <rendition scheme="other" xml:id="handwritten-crossed-through"/>
+        <rendition scheme="other" xml:id="double-underline"/>
+        <rendition scheme="other" xml:id="stamp"/>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+
+    <profileDesc>
+      <textClass>
+        <catRef target="cartoons_taxonomies.xml#civil_war"/>
+        <catRef target="cartoons_taxonomies.xml#featured"/>
+        <catRef target="cartoons_taxonomies.xml#lesson_plan"/>
+        <catRef target="cartoons_taxonomies.xml#war"/>
+        <catRef target="cartoons_taxonomies.xml#slavery"/>
+        <catRef target="cartoons_taxonomies.xml#elections"/>
+        <!-- add genre: lithographs -->
+      </textClass>
+    </profileDesc>
+
+    <revisionDesc>
+      <change who="RachelMolosok" when="2015-02-09">Updated test file to match revised encoding
+        guidelines, updated entity and media codes to match values in live DAMS site, combined and
+        reordered zones from test file encoding</change>
+      <change who="RachelMoloshok" when="2014-10-01">Plugged in exported points values from
+        CA</change>
+      <change who="RachelMoloshok" when="2014-08-26">Changed entity and media codes for CA test site
+        import</change>
+      <change who="DanaDorman" when="2014-07-09">Changed people/org references to use entity codes
+        only, and switched attributes for those references to @key instead of @ref.</change>
+      <change who="DanaDorman" when="2014-06-23">Added more corrections for canonical TEI
+        plans.</change>
+      <change who="DanaDorman" when="2014-05-20">Updated file to match canonical TEI plans.</change>
+      <change who="SarahNewhouse" when="2014-03-07">Updated file with new encoding
+        decisions.</change>
+      <change who="RachelMoloshok" when="2013-10-30">Test file created</change>
+    </revisionDesc>
+  </teiHeader>
+
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="100" lry="100">
+      <graphic url="FIL.000001926"/>
+      <zone n="1" xml:id="title" points="17.96,89.36 84.01,89.03 84.71,92.84 17.84,93.83"/>
+      <zone n="2" xml:id="imprint" points="30.88,84.33 69.53,85.38 58.29,97.31 42.64,97.31"/>
+      <zone n="3" xml:id="lincoln" points="13.08,13.12 18.08,13.12 54.11,75.6 18.54,88.03"/>
+      <zone n="4" xml:id="mac" points="45.95,4.71 50.95,4.71 69.87,87.87 29.89,88.03"/>
+      <zone n="5" xml:id="davis" points="79.76,15.95 84.76,15.95 77.76,89.86 50.87,77.76"/>
+      <zone n="6" xml:id="map" points="37.13,31.93 69.06,33.01 61.99,63.51 36.38,60.36"/>
+    </surface>
+  </facsimile>
+
+  <text>
+    <front>
+      <div type="editorial_desc">
+        <p>In this cartoon commentary on the presidential election of 1864, Union general and
+          Democratic presidential candidate George McClellan is shown holding the lapels of the
+          coats of President Abraham Lincoln, who was then running for re-election on the Republican
+          ticket, and Confederate president Jefferson Davis, apparently in an effort to stop them
+          from fighting. Lincoln, who insists on abolition, and Davis, who insists on separation of
+          the Confederate states from the Union, are each pulling on opposite sides of a map of the
+          United States, tearing it down the middle. This is one of the few cartoons published
+          in the run-up to the 1864 election that is sympathetic to McClellan. In this cartoon,
+          McClellan is depicted as a mature leader who puts the preservation of the United States
+          above all other priorities. In contrast, Lincoln is shown pursuing abolition at the
+          expense of establishing peace, and tearing the country apart in the process.</p>
+      </div>
+    </front>
+
+    <body>
+      <div type="image_transcription" n="1" facs="#title">
+        <head><supplied resp="editorial">Title</supplied></head>
+        <p>THE TRUE ISSUE OR "THATS WHATS THE MATTER".<note type="editorial" n="1"/>"That's What's
+          the Matter" is a pro-Union Civil War song by American folk musician Stephen Foster. The
+          chorus proclaims "That's what's the matter / The rebels have to scatter." Music and lyrics
+          can be accessed at <ref target="http://www.civilwarpoetry.org/union/songs/matter.html"
+            >www.civilwarpoetry.org/union/songs/matter.html</ref>.</p>
+      </div>
+
+      <div type="image_transcription" n="2" facs="#imprint">
+        <head><supplied resp="editorial">Imprint</supplied></head>
+        <p>Entered according to act of Congress in the year <date when="1864">1864</date>, by
+            <orgName key="ENT.000000844">Currier &amp; Ives</orgName>, in the Clerk's Office of the
+          District Court of the United States, for the Southern Dist. of N.Y.</p>
+        <p>Published by Currier &amp; Ives, 152 Nassau St. N.Y.</p>
+      </div>
+
+      <div n="3" facs="#lincoln" type="image_transcription">
+        <head><persName key="ENT.000000447">Lincoln.</persName></head>
+        <p>No peace without Abolition!</p>
+      </div>
+
+      <div type="image_transcription" n="4" facs="#mac">
+        <head><persName key="ENT.000001783">Mac.</persName></head>
+        <p>The Union must be preserved at all hazards!</p>
+      </div>
+
+      <div type="image_transcription" n="5" facs="#davis">
+        <head><persName key="ENT.000001041">Jeff.</persName></head>
+        <p>No peace without Separation!!</p>
+      </div>
+
+      <div type="image_transcription" n="6" facs="#map">
+        <head>Map of the United States</head>
+        <p>Maine</p>
+        <p>New Hampshire</p>
+        <p>Massachusetts</p>
+        <p>Connecticut</p>
+        <p>New Jersey</p>
+        <p>Maryland</p>
+        <p>Virginia <note type="editorial" n="2">Virginia is split down the middle as the map tears.
+            During the Civil War, Virginia did indeed split into two states: Confederate Virginia
+            and Unionist West Virginia.</note></p>
+        <p>North Carolina</p>
+        <p>South Carolina</p>
+        <p>Georgia</p>
+        <p>Florida</p>
+        <p>Alabama</p>
+        <p>Tennessee</p>
+        <p>Kentucky</p>
+        <p>Pennsylvania</p>
+        <p>New-York</p>
+        <p>Ohio</p>
+        <p>Missouri</p>
+        <p>Arkansas</p>
+        <p>Mississippi</p>
+        <p>Louisiana</p>
+        <p>Texas</p>
+        <p>Indiana Territory</p>
+        <p>Iowa</p>
+        <p>Indiana</p>
+        <p>Michigan</p>
+        <p><choice>
+            <orig><unclear reason="handwriting">Minastea</unclear></orig>
+            <corr>Minnesota</corr>
+          </choice>
+        </p>
+      </div>
+
+    </body>
+
+    <back/>
+  </text>
+</TEI>
