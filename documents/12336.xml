@@ -152,17 +152,18 @@
             <zone n="3" xml:id="title"/>
             <zone n="4" xml:id= "ownership"/>
             <zone n="5" xml:id="donor"/>
+            <zone n="6" xml:id="flag"/>
         </surface>
     </facsimile>
     <text>
         <front>
             <div type="editorial_desc">
-                <p>Cartoon depicts a donkey labeled "South Carolina" trying to pull away from a post labeled "Union." The donkey has South Carolina's secession flag flying from its tail.  The post from which the donkey pulls is flying a tattered American flag. The donkey and post appear to be on a hill. The hill looks down on a body of water. Two fortifications are represented (possibly Fort Sumter and Fort Moultrie), and other buildings are drawn along the water. The title of the cartoon, "Southern Ass-stock-crazy," is a play on the phrase "Southern Aristocracy," which appears parenthetically below the title text. </p>
+                <p>Cartoon depicts a donkey labeled "South Carolina" trying to pull away from a post labeled "Union." The donkey has South Carolina's secession flag flying from its tail.  The post from which the donkey pulls is flying a tattered American flag. The donkey and post appear to be on a hill, which looks down on a body of water, likely Charleston Harbor. Two fortifications are represented (possibly Fort Sumter and Fort Moultrie), and other buildings are drawn along the water. The title of the cartoon, "Southern Ass-stock-crazy," is a play on the phrase "Southern Aristocracy," which appears parenthetically below the title text. </p>
             </div>
         </front>
         <body>
             <div type="image_transcription" facs="#donkey" n="1">
-                <head><supplied resp="editorial">Donkey</supplied></head>
+                <head><supplied resp="editorial"><rs ref="cartoons_symbols.xml#donkey">Donkey</rs></supplied></head>
                 <p>SOUTH CAROLINA.</p>
             </div>
             <div type="image_transcription" facs="#post" n="2">
@@ -180,8 +181,12 @@
                 </div>
       <div type="image_transcription" facs="#donor" n="5">
           <head><supplied resp="editorial">Donor</supplied></head>
-          <p>From HN Smith</p>
+          <p>From <persName key="ENT.000003587">HN Smith</persName></p>
       </div>
+            <div type="image_annotation" facs="#flag" n="6">
+                <head>Secession flag of South Carolina</head>
+                <p>This flag, also called the Sovereignty Flag, briefly flew over Fort Sumter after South Carolina seceded from the Union. The fifteen stars stand for the slave-holding states and the large star in the center signifies South Carolina. The pairing of the crescent and palmetto traditionally symbolizes South Carolina. The origin of the crescent is of some debate, but the palmetto represents Fort Moultrie. South Carolina is known as "The Palmetto State."</p>
+            </div>
         </body>
         <back/>
     </text>
