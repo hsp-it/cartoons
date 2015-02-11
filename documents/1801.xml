@@ -131,7 +131,7 @@
                         </title>
                         <imprint>
                             <publisher>
-                                <orgName key="ENT.000003163"> </orgName>
+                                <orgName key="ENT.000003163">Keppler &amp; Schwarzmann</orgName>
                             </publisher>
                             <pubPlace>New York</pubPlace>
                             <date when="1880-11-03">November 3, 1880 </date>
@@ -192,13 +192,14 @@
                 <catRef target="cartoons_taxonomies.xml#featured"/>
                 <catRef target="cartoons_taxonomies.xml#gilded"/>
                 <catRef target="cartoons_taxonomies.xml#elections"/>
-                <catRef target="cartoon_genres.xml#lithographs"/>
+                <catRef target="cartoon_genres.xml#Lithographs"/>
 
             </textClass>
         </profileDesc>
 
         <revisionDesc>
-            <change who="DianeBiunno" when="2015-01-21">Began text encoding</change>
+            <change who="DianeBiunno" when="2015-02-10">text encoding to featured level</change>
+            <change who="DianeBiunno" when="2015-01-21">text encoding to basic level</change>
             <change who="RachelMoloshok" when="2015-01-07">Template file created</change>
         </revisionDesc>
     </teiHeader>
@@ -225,6 +226,12 @@
             <zone n="14" xml:id="Butler" points=""/>
             <zone n="15" xml:id="Dana" points=""/>
             <zone n="16" xml:id="Tilden" points=""/>
+            <zone n="17" xml:id="Face_1" points=""/>
+            <zone n="18" xml:id="Face_2" points=""/>
+            <zone n="19" xml:id="Face_3" points=""/>
+            <zone n="20" xml:id="Face_4" points=""/>
+            <zone n="21" xml:id="Face_5" points=""/>
+            <zone n="22" xml:id="Face_6" points=""/>
 
 
         </surface>
@@ -233,105 +240,133 @@
     <text>
         <front>
             <div type="editorial_desc">
-                <p>Lady Republican and Lady Democrat shake hands. The faces of the presidential
-                    candidates of the 1880 election, as well as other noteable political figures,are
-                    hidden in the landscape. The faces include: James A. Garfield, Carl Schurz,
+                <p>In order to meet the publication deadline, Joseph Keppler was forced to draw the cartoon before the results of the election were known.  Faced with this challenge, he made a puzzle and hid the faces of sixteen political figures within the cartoon.  Keppler made puzzles out of several other political cartoons including "A Presidential Ride through the Haunted Forest" and "The Deadly Upas Tree of Wall Street."</p>
+                <p>In the cartoon Lady Republican and Lady Democrat shake hands. The faces of the presidential
+                    candidates of the 1880 election, as well as other notable political figures,are
+                    hidden in the rocks, trees, and lake. The faces include: James A. Garfield, Carl Schurz,
                     Marshall Jewell, James Blaine, Roscoe Conkling, Benjamin Butler, William Hayden
                     English, Ulysses S. Grant, Chester Arthur, Thomas Bayard, John Kelly, Winfield
-                    Hancock, Samuel Tilden, Rutherford Hayes, John Logan,and Abram Hewitt. There are
-                    some notes written on the images. These notes identify some of the names of the
-                    political figures hidden in the cartoon.</p>
+                    Hancock, Samuel Tilden, Rutherford Hayes, John Logan,and Abram Hewitt.</p>
+                <p>There are handwritten notes next to some of the hidden faces.  The staff at the Historical Society of Pennsylvania was able to identify fifteen of the sixteen faces hidden in the cartoon.  Staff was unable to find the sixteenth image of Abram Hewitt.</p>
+                
             </div>
         </front>
 
         <body>
             <div type="image_transcription" facs="#Title" n="1">
-                <head><supplied resp="editorial">Title</supplied></head>
+                <head><supplied resp="editorial">Title and caption</supplied></head>
                 <p>LET US HAVE PEACE,NOW A PRESIDENT'S ELECTED</p>
                 <p>Chorus of Invisibles.-But <hi rendition="#bold">Where</hi> are his Features to be
                     detected?</p>
             </div>
 
             <div type="image_transcription" facs="#Signature" n="2">
-                <head><supplied resp="editorial">Signature</supplied></head>
+                <head><supplied resp="editorial"><persName key="ENT.000000379">Joseph Keppler</persName></supplied></head>
                 <p>KEPPLER</p>
             </div>
 
             <div type="image_transcription" facs="#Office" n="3">
-                <head><supplied resp="editorial">Office</supplied></head>
+                <head><supplied resp="editorial">Periodical Address</supplied></head>
                 <p>OFFICE OF PUCK 23 WARREN ST. NEW YORK</p>
             </div>
 
             <div type="image_transcription" facs="#Lithographer" n="4">
-                <head><supplied resp="editorial">Lithographer</supplied></head>
+                <head><supplied resp="editorial"><orgName key="ENT.000000380">Mayer, Merckel &amp; Ottomann</orgName></supplied></head>
                 <p>MAYER MERCKEL &amp; OTTOMANN LITHOG.2325 WARREN ST. N.Y</p>
             </div>
 
             <div type="image_transcription" facs="#Democrat" n="5">
-                <head><supplied resp="editorial">Democrat</supplied></head>
+                <head><supplied resp="editorial">Lady Democrat</supplied></head>
                 <p>DEMOCRAT</p>
             </div>
 
             <div type="image_transcription" facs="#Republican" n="6">
-                <head><supplied resp="editorial">Republican</supplied></head>
+                <head><supplied resp="editorial">Lady Republican</supplied></head>
                 <p>REPUB</p>
             </div>
 
             <div type="image_transcription" facs="#Notes" n="7">
                 <head><supplied resp="editorial">Notes</supplied></head>
                 <p><add>November 3rd 1880</add></p>
-                <p><add>Grant &amp; Arthur</add></p>
-                <p><add>Hancock &amp; English </add></p>
+                <p><add><persName key="ENT.000000941">Grant</persName> &amp; <persName key="ENT.000003560">Arthur</persName></add></p>
+                <p><add><persName key="ENT.000003565">Hancock</persName> &amp; <persName key="ENT.000003553">English</persName></add></p>
             </div>
 
             <div type="image_transcription" facs="#Conkling" n="8">
-                <head><supplied resp="editorial">Conkling</supplied></head>
-                <p><add>Conkling</add></p>
+                <head><supplied resp="editorial"><persName key="ENT.000003552">Roscoe Conkling</persName></supplied></head>
+                <p><add>Conkling</add><note n="1" type="editorial">The handwritten notes indicate that the image might be of Roscoe Conkling.  The image could also be <persName key="ENT.000003332">James G. Blaine</persName>.</note></p>
             </div>
 
             <div type="image_transcription" facs="#Garfield" n="9">
-                <head><supplied resp="editorial">Garfield</supplied></head>
+                <head><supplied resp="editorial"><persName key="ENT.000003555">James A. Garfield</persName></supplied></head>
                 <p><add>Garfield</add></p>
             </div>
 
             <div type="image_transcription" facs="#Hancock" n="10">
-                <head><supplied resp="editorial">Hancock</supplied></head>
+                <head><supplied resp="editorial"><persName key="ENT.000003565">Winfield Hancock</persName></supplied></head>
                 <p><add><hi rendition="#handwritten-circled">Hancock</hi></add></p>
             </div>
 
             <div type="image_transcription" facs="#Kelly" n="11">
-                <head><supplied resp="editorial">Kelly</supplied></head>
+                <head><supplied resp="editorial"><persName key="ENT.000003564">John Kelly</persName></supplied></head>
                 <p><add><hi rendition="#handwritten-circled">Kelly</hi></add></p>
             </div>
 
             <div type="image_transcription" facs="#Arthur" n="12">
-                <head><supplied resp="editorial">Arthur</supplied></head>
+                <head><supplied resp="editorial"><persName key="ENT.000003560">Chester A. Arthur</persName></supplied></head>
                 <p><add>Arthur</add></p>
             </div>
 
             <div type="image_transcription" facs="#Grant" n="13">
-                <head><supplied resp="editorial">Grant</supplied></head>
+                <head><supplied resp="editorial"><persName key="ENT.000000941">Ulysses S. Grant</persName></supplied></head>
                 <p><add>Grant</add></p>
             </div>
 
             <div type="image_transcription" facs="#Butler" n="14">
-                <head><supplied resp="editorial">Butler</supplied></head>
+                <head><supplied resp="editorial"><persName key="ENT.000003551">Benjamin Butler</persName></supplied></head>
                 <p><add>Butler</add></p>
             </div>
 
             <div type="image_transcription" facs="#Dana" n="15">
-                <head><supplied resp="editorial">Dana</supplied></head>
-                <p><add>Dana?</add></p>
+                <head><supplied resp="editorial"><persName key="ENT.000003594">Charles A. Dana</persName></supplied></head>
+                <p><add>Dana?</add><note n="2" type="editorial">The handwritten note indicates that the image might be of Charles A. Dana.  The image could also be Roscoe Conkling.</note></p>
             </div>
 
             <div type="image_transcription" facs="#Tilden" n="16">
-                <head><supplied resp="editorial">Tilden</supplied></head>
+                <head><supplied resp="editorial"><persName key="ENT.000003566">Samuel Tilden</persName></supplied></head>
                 <p><add>Tilden</add></p>
             </div>
-
-
-
-
+            
+            <div type="image_annotation" facs="#Face_1" n="17">
+                <head><supplied resp="editorial">Face 1</supplied></head>
+                <p>The identity of the image is unknown.  It is most likely <persName key="ENT.000003553">William Hayden English</persName>.</p>
+            </div>
+            
+            <div type="image_annotation" facs="Face_2" n="18">
+                <head><supplied resp="editorial">Face 2</supplied></head>
+                <p>The identity of the image is unknown.  It is most likely <persName key="ENT.000003362">John Logan</persName></p>
+            </div>
+            
+            <div type="image_annotation" facs="#Face_3" n="19">
+                <head><supplied resp="editorial">Face 3</supplied></head>
+                <p>The identity of the image is unknown.  It is most likely <persName key="ENT.000003561">Thomas Bayard.</persName></p>
+            </div>
+            
+            <div type="image_annotation" facs="#Face_4" n="20">
+                <head><supplied resp="editorial">Face 4</supplied></head>
+                <p>The identity of the image is unknown.  It may be of <persName key="ENT.000003379">Carl Schurz</persName>.</p>
+            </div>
+            
+            <div type="image_annotation" facs="#Face_5" n="21">
+                <head><supplied resp="editorial">Face 5</supplied></head>
+                <p>The identity of the image is unknown.  It may be of <persName key="ENT.000003563">Marshall Jewell</persName></p>
+            </div>
+            
+            <div type="image_annotation" facs="#Face_6" n="22">
+                <head><supplied resp="editorial">Face 6</supplied></head>
+                <p>The identity of the image is unknown.  It may be of <persName key="ENT.000003567">Rutherford Hayes</persName></p>
+            </div>
+            
         </body>
 
         <back/>
