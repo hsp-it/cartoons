@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+
 <?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 
@@ -61,7 +62,7 @@
       </projectDesc>
     </encodingDesc>
     <revisionDesc>
-      <change who="HSP" when="2014-08-26">Exported from Collective Access.</change>
+      <change who="HSP" when="2015-02-11">Exported from Collective Access.</change>
     </revisionDesc>
   </teiHeader>
 
@@ -69,6 +70,26 @@
     <body>
       <div type="ography">
         <listPerson>
+          <person xml:id="ENT.000003378">
+            <persName key="ENT.000003378">
+              <forename type="first">William</forename>
+              <forename type="middle">Henry</forename>
+              <surname type="last">Robertson</surname>
+            </persName>
+            <birth when="1823">1823</birth>
+            <death when="1898">1898</death>
+            <sex>Male</sex>
+          </person>
+          <person xml:id="ENT.000002503">
+            <persName key="ENT.000002503">
+              <forename type="first">John</forename>
+              <forename type="middle">Quincy</forename>
+              <surname type="last">Adams</surname>
+            </persName>
+            <birth when="1767">1767</birth>
+            <death when="1848">1848</death>
+            <sex>Male</sex>
+          </person>
           <person xml:id="ENT.000003560">
             <persName key="ENT.000003560">
               <forename type="first">Chester</forename>
@@ -108,7 +129,7 @@
             <persName key="ENT.000003561">
               <forename type="first">Thomas </forename>
               <forename type="middle">Francis</forename>
-              <surname type="last">Baynard</surname>
+              <surname type="last">Bayard</surname>
             </persName>
             <birth when="1828">1828</birth>
             <death when="1898">1898</death>
@@ -166,6 +187,16 @@
             <bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). Historical dictionary of the Gilded Age.
               Armonk, N.Y.: M.E. Sharpe.</bibl>
           </person>
+          <person xml:id="ENT.000003602">
+            <persName key="ENT.000003602">
+              <forename type="first">Francis</forename>
+              <forename type="middle">Preston</forename>
+              <surname type="last">Blair</surname>
+            </persName>
+            <birth when="1821">1821</birth>
+            <death when="1875">1875</death>
+            <sex>Male</sex>
+          </person>
           <person xml:id="ENT.000003333">
             <persName key="ENT.000003333">
               <forename type="first">John</forename>
@@ -201,10 +232,10 @@
               prosecute the Whisky Ring. Following his resignation in 1876, he returned to New York
               to practice law and was later elected the second president of the American Bar
               Association. He died in New York in 1896.</note>
-            <bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). Historical dictionary of the Gilded Age.
-              Armonk, N.Y.: M.E. Sharpe. Solicitor General Benjamin H Bristow. The United States
-              Department of Justice. Accessed January 21, 2015
-              http://www.justice.gov/osg/bio/benjamin-h-bristow</bibl>
+            <bibl><bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). Historical dictionary of the Gilded
+                Age. Armonk, N.Y.: M.E. Sharpe. </bibl><bibl>Solicitor General Benjamin H Bristow.
+                The United States Department of Justice. Accessed January 21, 2015
+                http://www.justice.gov/osg/bio/benjamin-h-bristow</bibl></bibl>
           </person>
           <person xml:id="ENT.000003382">
             <persName key="ENT.000003382">
@@ -224,6 +255,19 @@
             <birth when="1818">1818</birth>
             <death when="1893">1893</death>
             <sex>Male</sex>
+            <note type="biography">Benjamin Franklin Butler was a lawyer, member US House of
+              Representatives, and Governor of Massachusetts. He was born in 1818 in Deerfield, New
+              Hampshire and in 1838 graduated from Waterville College in Maine. He was admitted to
+              the bar in 1840 and practiced law in Lowell, Massachusetts. He served in the
+              Massachusetts House of Representatives in 1853 and later in 1859 in the State senate.
+              During the Civil War, he became a Major General in the Union Army. Butler became a
+              representative in the US House of Representatives in 1867, and in 1868 served as one
+              of the managers in the Senatorial impeachment hearings against President Andrew
+              Johnson. He served as Massachusetts Governor from 1883-1884 and died in Washington DC
+              in 1893.</note>
+            <bibl>Butler, Benjamin Franklin. Biographical Directory of the United States Congress.
+              Last Accessed February 3, 2015
+              http://bioguide.congress.gov/scripts/biodisplay.pl?index=b001174</bibl>
           </person>
           <person xml:id="ENT.000003336">
             <persName key="ENT.000003336">
@@ -234,6 +278,22 @@
             <birth when="1833">1833</birth>
             <death when="1918">1918</death>
             <sex>Male</sex>
+            <note type="biography">James Donald Cameron was a US Republican Senator, Secretary of
+              War, and Republican National Committee Chairman. Cameron was born in Middletown, PA on
+              May 14, 1833 and was the son of Simon Cameron, a prominent Republican politician and
+              the Secretary of War in President Lincoln’s Cabinet. After graduating from Princeton
+              College in 1852, he worked for the family businesses, including banking and the North
+              Central Railroad. In 1866 he helped his father win a seat in the US Senate, and later
+              in 1876, campaigned for Ulysses S. Grant. When Grant won the presidential election, he
+              appointed Cameron Secretary of War. Cameron served for one year (1876-1877). He served
+              in the US Senate from 1877-1897 and served as the Republican National Committee
+              Chairman from 1879-1880. He died in his home in Lancaster County Pennsylvania on
+              August 30, 1918.</note>
+            <bibl><bibl>Cameron, James Donald. Biographical Directory of the United States Congress.
+                Last Accessed February 3, 2015.
+                http://bioguide.congress.gov/scripts/biodisplay.pl?index=c000065</bibl><bibl>Schlup,
+                L. C., &amp; Ryan, J. G. (2003). Historical dictionary of the Gilded Age. Armonk,
+                N.Y.: M.E. Sharpe.</bibl></bibl>
           </person>
           <person xml:id="ENT.000003337">
             <persName key="ENT.000003337">
@@ -243,6 +303,34 @@
             <birth when="1799">1799</birth>
             <death when="1889">1889</death>
             <sex>Male</sex>
+            <note type="biography">Simon Cameron was born on March 8, 1799 in Pennsylvania and was
+              the father of James Donald Cameron, (Secretary of War during the Grant
+              Administration). At seventeen years old Simon Cameron became an editor for the
+              newspaper <hi rendition="#italics">Northumberland Gazette </hi>and later a newspaper
+              owner and editor. In 1822 was appointed to the post of State Printer and later in 1829
+              became the Adjutant General of the Pennsylvania state militia. He became an
+              influential politician whose support convinced Democrats to nominate Martin Van Buren
+              as the 1832 vice presidential candidate. In addition to his work as a politician,
+              Cameron was a successful businessman who earned his fortune in the banking and
+              railroad industries. In 1845 he successfully ran for the US Senate and later, in 1861,
+              became Abraham Lincoln’s secretary of war. He served a ten month term, resigned in
+              1862 due to corruption allegations, and was appointed by Lincoln to serve as the
+              ambassador to Russia. In 1863 Cameron resigned, ran unsuccessfully for the US Senate,
+              and was accused of bribing politicians in order to sway the election. He was never
+              formally charged with corruption. Cameron supported Lincoln’s re-election, and in
+              return, Lincoln appointed politicians loyal to Cameron to federal positions in
+              Pennsylvania. Consequently, Cameron’s political power grew and he soon became the
+              leader of Pennsylvania’s political machine. political influence was so great that he
+              convinced President Ulysses S. Grant to appoint his son, James Donald Cameron,
+              secretary of war in 1876. His After James Donald resigned amongst rumors of
+              corruption, Cameron resigned his seat in the US Senate, making sure that his son would
+              replace him. Simon Cameron died on June 26, 1899 at his home in Pennsylvania.</note>
+            <bibl><bibl>Cameron, Simon. Biographical Directory of the United States Congress. Last
+                Accessed February 3, 2015.
+                http://bioguide.congress.gov/scripts/biodisplay.pl?index=c000068</bibl><bibl>Simon
+                Cameron. Pennsylvania Historical and Museum Commission. Last Accessed February 3,
+                2015.
+                http://www.ddap.pa.gov/portal/server.pt/community/people/4277/cameron,_simon/443541</bibl></bibl>
           </person>
           <person xml:id="ENT.000000848">
             <persName key="ENT.000000848">
@@ -257,7 +345,6 @@
             <persName key="ENT.000003542">
               <addName type="honorific">Queen</addName>
               <forename type="first">Charlotte</forename>
-              <genName>Queen</genName>
             </persName>
             <birth when="1744">1744</birth>
             <death when="1818">1818</death>
@@ -289,6 +376,25 @@
             <birth when="1829">1829</birth>
             <death when="1888">1888</death>
             <sex>Male</sex>
+            <note type="biography">Roscoe Conkling was a congressman, politician, and leader of the
+              Stalwart faction of the Republican Party. He was born on October 30, 1829 in New York,
+              studied at the Auburn Academy, and joined the bar in 1850. He was elected to serve in
+              the US House of Representatives in 1859 and later became a US Senator (1867-1881). He
+              helped draft the Electoral Commission Act of 1877, as well as the 14th and 15th
+              amendments, and he supported and helped pass Reconstruction legislation and the Civil
+              Rights Act of 1875. He was nominated in 1873 by Ulysses S. Grant to the post of chief
+              justice of the Supreme Court, but declined the offer. In 1876 he unsuccessfully sought
+              the Republican presidential nomination. By 1880 Conkling had become the leader of the
+              Stalwart Faction of the Republican Party. The Stalwarts staunchly supported Ulysses S.
+              Grant in his bid for a presidential third term. Due to divisions within the party,
+              however, Republicans did not give Grant the nomination and opted instead to place
+              James A. Garfield on the ticket. He resigned from the Senate in 1881, returned to his
+              law practice in New York City, and died on April 18, 1888.</note>
+            <bibl><bibl>Conkling, Roscoe. Biographical Directory of the United States Congress. Last
+                Accessed February 3, 2015.
+                http://bioguide.congress.gov/scripts/biodisplay.pl?index=c000681</bibl><bibl>Schlup,
+                L. C., &amp; Ryan, J. G. (2003). Historical dictionary of the Gilded Age. Armonk,
+                N.Y.: M.E. Sharpe. </bibl></bibl>
           </person>
           <person xml:id="ENT.000003572">
             <persName key="ENT.000003572">
@@ -309,6 +415,25 @@
             <birth when="1824">1824</birth>
             <death when="1892">1892</death>
             <sex>Male</sex>
+            <note type="biography">George William Curtis was a journalist and editor. He was born on
+              February 24, 1824 in Providence, RI, attended private school in New York, and traveled
+              throughout Europe, Egypt, and Syria in the 1840s. Upon his return to the US, he wrote
+              for and helped George Palmer Putnam found <hi rendition="#italics">Putman’s
+                Magazine</hi>. Shortly thereafter, he began writing for the <hi rendition="#italics"
+                >Tribune and Harper’s Weekly</hi>, a popular New York political magazine. He served
+              as the editor of <hi rendition="#italics">Harper’s Weekly</hi> from 1863 to 1892. In
+              1864 he served as a delegate to the Republican National Convention where he supported
+              Lincoln, and even wrote the letter notifying the incumbent president of his
+              re-nomination. Curtis was politically active, and a Mugwump who believed in civil
+              service, education, and trade reforms. During the Grant administration he became
+              Chairman of the Civil Service Reform Commission and later the president of the
+              National Civil Service Reform League and the New York Civil Service Reform
+              Association. He died in Staten Island on August 31, 1892.</note>
+            <bibl><bibl>George William Curtis Papers Finding Aid. Staten Island Museum. Last
+                Accessed February 3, 2015.
+                http://www.statenislandmuseum.org/images/uploads/collections/Curtis_(George_William)_Papers_Finding_Aids.pdf
+                </bibl><bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). Historical dictionary of the
+                Gilded Age. Armonk, N.Y.: M.E. Sharpe.</bibl></bibl>
           </person>
           <person xml:id="ENT.000003549">
             <persName key="ENT.000003549">
@@ -317,6 +442,39 @@
             </persName>
             <birth when="1841">1841</birth>
             <death when="1942">1942</death>
+            <sex>Male</sex>
+          </person>
+          <person xml:id="ENT.000003594">
+            <persName key="ENT.000003594">
+              <forename type="first">Charles</forename>
+              <forename type="middle">Anderson</forename>
+              <surname type="last">Dana</surname>
+            </persName>
+            <birth when="1819">1819</birth>
+            <death when="1897">1897</death>
+            <sex>Male</sex>
+            <note type="biography"><p>Charles Anderson Dana was born on August 8, 1819 in Hinsdale,
+                New Hampshire and became the editor of the <hi rendition="#italics">New York
+                  Sun</hi>. In 1839 he enrolled at Havard College, but due to financial problems,
+                was forced to leave school. He later began writing for the <hi rendition="#italics"
+                  >New York Tribune</hi>. He became the managing editor for the <hi
+                  rendition="#italics">New York Tribune</hi> in 1849, but in 1862 was forced to
+                resign because he did not get along with the editor-publisher Horace Greeley. In
+                1868 Dana became an owner and editor of the <hi rendition="#italics">New York
+                  Sun</hi>. Dana also authored several books including <hi rendition="#italics"
+                  >Recollections of the Civil War</hi> and <hi rendition="#italics">The Art of
+                  Newspaper Making</hi>.</p></note>
+            <bibl><bibl>“Charles A. Dana Biography - American Journalist” Encyclopedia Britannica,
+                accessed February 10, 2015,
+                http://www.britannica.com/EBchecked/topic/150676/Charles-A-Dana.</bibl></bibl>
+          </person>
+          <person xml:id="ENT.000001041">
+            <persName key="ENT.000001041">
+              <forename type="first">Jefferson</forename>
+              <surname type="last">Davis</surname>
+            </persName>
+            <birth when="1808">1808</birth>
+            <death when="1889">1889</death>
             <sex>Male</sex>
           </person>
           <person xml:id="ENT.000003341">
@@ -347,6 +505,27 @@
             <birth when="1828">1828</birth>
             <death when="1919">1919</death>
             <sex>Male</sex>
+            <note type="biography">George Franklin Edmunds was a lawyer and Republican senator who
+              was born on February 1, 1828 in Richmond, Vermont. He studied law, and was admitted to
+              the bar in 1849. In 1854 he became a representative in the Vermont House of
+              Representatives and later in 1856, the speaker of the Vermont House of
+              Representatives. He joined the US Senate in 1866 and continued to serve until 1891. As
+              Senator, he supported Reconstruction policies, was active in the impeachment of Andrew
+              Johnson, and drafted the Tenure of Office Act in 1867. He served as chairman of the
+              Senate Judiciary Committee from 1872 to 1879 and again from 1882 to 1891. He worked to
+              pass legislation to outlaw Mormon polygamy and to regulate railroads, as well as,
+              drafted and supported the 1877 Electoral Commission Act which helped settle the
+              election between Rutherford Hayes and Samuel Tilden. After Edmunds resigning from the
+              Senate, Edmunds continued to practice law and successfully argued before the Supreme
+              Court the unconstitutionality of the income tax in the 1895 Pollock v. Famers’ Loan
+              and Trust Co. Case. He died in Pasadena, California on February 27, 1919.</note>
+            <bibl><bibl>Edmunds, George Franklin. Biographical Directory of the United States
+                Congress. Last Accessed February 3, 2015.
+                http://bioguide.congress.gov/scripts/biodisplay.pl?index=e000056</bibl><bibl>George
+                Franklin Edmunds. Encyclopedia Britannica Online. Last Accessed February 3, 2015
+                http://www.britannica.com/EBchecked/topic/179355/George-Franklin-Edmunds
+                </bibl><bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). Historical dictionary of the
+                Gilded Age. Armonk, N.Y.: M.E. Sharpe. </bibl></bibl>
           </person>
           <person xml:id="ENT.000003553">
             <persName key="ENT.000003553">
@@ -357,6 +536,28 @@
             <birth when="1822">1822</birth>
             <death when="1896">1896</death>
             <sex>Male</sex>
+            <note type="biography"><p> William Hayden English was a lawyer, historian, Democratic
+                politician, and candidate for Vice President. He was born on August 27, 1822 in
+                Lexington, Indiana, studied at Hanover College, and was admitted to the Indiana bar
+                in 1840. In 1851 he was elected to the Indiana House of Representatives and served
+                as speaker. Two years later he became the Indiana State Representative in the US
+                House of Representatives where he served until 1861. After his retirement, he
+                founded the First National Bank of Indianapolis and later became the chairman of the
+                Indiana Democratic Central Committee. In 1880, the Democrats nominated him as
+                Winfield Scott Hancock’s vice presidential running-mate. After losing the election
+                to Republicans James A. Garfield and Chester Arthur, English served as the president
+                of the Indiana Historical Society, published a book on the history of Indiana, and
+                two other history books entitled <hi rendition="#italics">Conquest of the Country
+                  Northwest of the River Ohio, 1778-1783</hi> and <hi rendition="#italics">Life of
+                  General George Rogers Clark</hi>. English died from complications due to heart
+                disease on February 7, 1896.</p></note>
+            <bibl>
+              <bibl>“ENGLISH, William Hayden - Biographical Information,” accessed February 4, 2015,
+                http://bioguide.congress.gov/scripts/biodisplay.pl?index=E000191.</bibl>
+              <bibl>“IDOA: William H. English,” accessed February 4, 2015,
+                http://www.in.gov/idoa/2791.htm. </bibl>
+              <bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). Historical dictionary of the Gilded
+                Age. Armonk, N.Y.: M.E. Sharpe. </bibl></bibl>
           </person>
           <person xml:id="ENT.000003346">
             <persName key="ENT.000003346">
@@ -367,6 +568,27 @@
             <birth when="1818">1818</birth>
             <death when="1901">1901</death>
             <sex>Male</sex>
+            <note type="biography">William Maxwell Evarts was a lawyer, politician, and Secretary of
+              State. He was born in Boston, Massachusetts on February 6, 1818. He studied at Yale
+              College and Harvard Law School and joined the bar in 1841. He was the Assistant
+              District Attorney of the southern district of New York from 1848-1853. Evarts served
+              as chief counsel during President Andrew Johnson’s impeachment trial and was later
+              appointed Attorney General by Johnson. Evarts remained in the post for one year from
+              1868 to 1869, and then returned to private practice, helped found the New York Bar
+              Association, and served as its first president, 1870-1879. In 1876 Evarts represented
+              Benjamin Hayes before the Electoral Commission during the disputed election of 1876
+              between Hayes and Samuel J. Tilden. Evarts later served as Secretary of State from
+              1877 to 1881 during President Hayes’ administration. After leaving office, he was
+              elected to the US Senate and served from 1885 to 1891 and died on February 28, 1901. </note>
+            <bibl>
+              <bibl>“EVARTS, William Maxwell - Biographical Information,” accessed February 4, 2015,
+                http://bioguide.congress.gov/scripts/biodisplay.pl?index=E000262. </bibl>
+              <bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). Historical dictionary of the Gilded
+                Age. Armonk, N.Y.: M.E. Sharpe. </bibl>
+              <bibl>“William Maxwell Evarts - People - Department History - Office of the
+                Historian,” accessed February 4, 2015,
+                https://history.state.gov/departmenthistory/people/evarts-william-maxwell.
+              </bibl></bibl>
           </person>
           <person xml:id="ENT.000003347">
             <persName key="ENT.000003347">
@@ -397,12 +619,22 @@
               Edward Stokes and the pair attempted to blackmail Fisk out of a large sum of money. On
               January 6, 1872 an argument between Stokes and Fisk turned deadly when Stokes shot and
               murdered Fisk. </note>
-            <bibl>1. “James Fisk | Biography - American Financier,” Encyclopedia Britannica,
-              accessed January 21, 2015,
-              http://www.britannica.com/EBchecked/topic/208740/James-Fisk.2. Ellen Terrell, “Robber
-              Barons: Gould and Fisk | Inside Adams: Science, Technology &amp; Business,” webpage,
-              (September 26, 2012),
-              http://blogs.loc.gov/inside_adams/2012/09/robber-barons-gould-and-fisk/.</bibl>
+            <bibl><bibl>“James Fisk | Biography - American Financier,” <hi rendition="#italics"
+                  >Encyclopedia Britannica</hi>, accessed January 21, 2015,
+                http://www.britannica.com/EBchecked/topic/208740/James-Fisk.</bibl>
+              <bibl>Ellen Terrell, “Robber Barons: Gould and Fisk | Inside Adams: Science,
+                Technology &amp; Business,” webpage, (September 26, 2012),
+                http://blogs.loc.gov/inside_adams/2012/09/robber-barons-gould-and-fisk/.</bibl></bibl>
+          </person>
+          <person xml:id="ENT.000003601">
+            <persName key="ENT.000003601">
+              <forename type="first">Nathan</forename>
+              <forename type="middle">Bedford</forename>
+              <surname type="last">Forrest</surname>
+            </persName>
+            <birth when="1821">1821</birth>
+            <death when="1877">1877</death>
+            <sex>Male</sex>
           </person>
           <person xml:id="ENT.000003532">
             <persName key="ENT.000003532">
@@ -411,6 +643,15 @@
             </persName>
             <birth when="1710">1710</birth>
             <death when="1779">1779</death>
+            <sex>Male</sex>
+          </person>
+          <person xml:id="ENT.000000054">
+            <persName key="ENT.000000054">
+              <forename type="first">Benjamin</forename>
+              <surname type="last">Franklin</surname>
+            </persName>
+            <birth when="1706">1706</birth>
+            <death when="1790">1790</death>
             <sex>Male</sex>
           </person>
           <person xml:id="ENT.000003555">
@@ -425,17 +666,18 @@
               and was assassinated 200 days into his presidency. He was born on November 19, 1831 in
               Ohio, and lost his father when he was two years old. He graduated in 1856 from
               Williams College, became a classics professor, and served as president of the Western
-              Reserve Eclectic Institute (Hiram College). He became a state senator in 1859 and
-              later a major general in the Union Army. He served nine consecutive terms in the US
-              House of Representatives from 1863 to 1880. In 1880 Republicans nominated Garfield as
-              their presidential candidate. He won a narrow victory against his Democratic opponent
+              Reserve Eclectic Institute. He became a state senator in 1859 and later a major
+              general in the Union Army. He served nine consecutive terms in the US House of
+              Representatives from 1863 to 1880. In 1880 Republicans nominated Garfield as their
+              presidential candidate. He won a narrow victory against his Democratic opponent
               Winfield S. Hancock. As president, Garfield fought for civil service reform and called
               for an investigation of the Post Office. On July 2, 1881 Charles Guiteau shot the
               President in a Washington D.C Railway Station. Due to his injuries, Garfield was no
               longer able to govern and died eighty days later on September 19, 1881.</note>
-            <bibl>1. Schlup, L. C., &amp; Ryan, J. G. (2003). Historical dictionary of the Gilded
-              Age. Armonk, N.Y.: M.E. Sharpe. 2. “James Garfield,” Whitehouse.gov, accessed January
-              21, 2015, http://www.whitehouse.gov/1600/presidents/jamesgarfield.</bibl>
+            <bibl><bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). <hi rendition="#italics">Historical
+                  dictionary of the Gilded Age</hi>. Armonk, N.Y.: M.E. Sharpe. </bibl><bibl> “James
+                Garfield,” <hi rendition="#italics">Whitehouse.gov</hi>, accessed January 21, 2015,
+                http://www.whitehouse.gov/1600/presidents/jamesgarfield.</bibl></bibl>
           </person>
           <person xml:id="ENT.000003392">
             <persName key="ENT.000003392">
@@ -458,14 +700,14 @@
             <sex>Male</sex>
             <note type="biography">Jean-Léon Gérôme was born on May 11, 1824 in Vesoul, France and
               was a 19th century French artist. He was a student of Paul Delaroche and many of his
-              paintings explored Greco-Roman themes and classical mythology. His paintings were also
+              paintings explored Greco-Roman themes and classical mythology. His paintings were
               inspired by his travels to Egypt, the Holy Land, and Asia Minor. In addition to being
               a successful painter, Gérôme was a sculptor and a teacher.</note>
-            <bibl>1. “Jean-Leon Gerome | Biography - French Artist,” Encyclopedia Britannica,
-              accessed January 21, 2015,
-              http://www.britannica.com/EBchecked/topic/231830/Jean-Leon-Gerome.2. “The Spectacular
-              Art of Jean-Léon Gérôme,” The J. Paul Getty Museum, accessed January 21, 2015,
-              http://www.getty.edu/art/exhibitions/gerome/</bibl>
+            <bibl><bibl> “Jean-Leon Gerome | Biography - French Artist,” Encyclopedia Britannica,
+                accessed January 21, 2015,
+                http://www.britannica.com/EBchecked/topic/231830/Jean-Leon-Gerome.</bibl>
+              <bibl>“The Spectacular Art of Jean-Léon Gérôme,” The J. Paul Getty Museum, accessed
+                January 21, 2015, http://www.getty.edu/art/exhibitions/gerome/</bibl></bibl>
           </person>
           <person xml:id="ENT.000003351">
             <persName key="ENT.000003351">
@@ -475,19 +717,21 @@
             <birth when="1856">1856</birth>
             <death when="1896">1896</death>
             <sex>Male</sex>
-            <note type="biography">Bernhard Gillam was born on April 28, 1856 in Banbury, Oxforshire
-              in England and was a famous 19th century American cartoonist. At the age of ten,
-              Gillam’s family immigrated to the United States and settled in New York. He studied
-              engraving and worked as a cartoonist for Leslie’s Weekly, the New York Graphic, and
-              Harper’s Weekly. Joseph Keppler later hired Gillam to work for Puck, a weekly humor
-              magazine. At Puck, Gillam characterized a number of political figures including the
-              1884 presidential candidate James A. Blaine. In 1886 Gillam became part owner of the
-              humor magazine Judge where he continued to poke fun at presidential candidates and
-              their policies. He died of typhoid fever on January 19, 1896 in Canajoharie, New
-              York.</note>
-            <bibl>1. “Bernhard Gillam | Biography - American Cartoonist,” Encyclopedia Britannica,
-              accessed January 21, 2015,
-              http://www.britannica.com/EBchecked/topic/233731/Bernhard-Gillam.</bibl>
+            <note type="biography"><p>Bernhard Gillam was born on April 28, 1856 in Banbury,
+                Oxforshire in England and was a famous 19th century American cartoonist. At the age
+                of ten, Gillam’s family immigrated to the United States and settled in New York. He
+                studied engraving and worked as a cartoonist for <hi rendition="#italics">Leslie’s
+                  Weekly</hi>, the <hi rendition="#italics">New York Graphic</hi>, and <hi
+                  rendition="#italics">Harper’s Weekly</hi>. Joseph Keppler later hired Gillam to
+                work for <hi rendition="#italics">Puck</hi>, a weekly humor magazine. At <hi
+                  rendition="#italics">Puck</hi>, Gillam characterized a number of political figures
+                including the 1884 presidential candidate James A. Blaine. In 1886 Gillam became
+                part owner of the humor magazine <hi rendition="#italics">Judge</hi> where he
+                continued to poke fun at presidential candidates and their policies. He died of
+                typhoid fever on January 19, 1896 in Canajoharie, New York. </p></note>
+            <bibl><bibl> “Bernhard Gillam | Biography - American Cartoonist,” <hi
+                  rendition="#italics">Encyclopedia Britannica</hi>, accessed January 21, 2015,
+                http://www.britannica.com/EBchecked/topic/233731/Bernhard-Gillam.</bibl></bibl>
           </person>
           <person xml:id="ENT.000003559">
             <persName key="ENT.000003559">
@@ -497,27 +741,30 @@
             <birth when="1836">1836</birth>
             <death when="1892">1892</death>
             <sex>Male</sex>
-            <note type="biography">Jay Gould was born on May 27, 1836 in Roxbury, New York and was
-              an American railroad financier and one of the “robber barons”. He attended Hobart
-              Academy and worked as a surveyor. He later began dealing in railroad stocks, became
-              business partners with James Fisk and Daniel Drew, and formed a Wall Street Brokerage
-              House. In 1868, Gould, Fisk, and Drew successfully gained control of the Eerie
-              Railroad from Cornelius Vanderbilt by inflating the value of the company’s stocks.
-              Gould and Fisk engaged in political bribery and formed a partnership with the infamous
-              William “Boss” Tweed. On September 24, 1869, Gould and Fisk’s financial schemes led to
-              the panic of “Black Friday” and Gould was forced to relinquish control of the Eerie
-              Railroad. In the 1870s Gould bought stock of railroads in the West and gained control
-              of several railroad companies including the Union Pacific Railroad. He also was owner
-              of the Western Union Telegraph Company and the New York World Newspaper. He died in
-              New York City on December 2, 1892 and left his $72 million fortune to his
-              children.</note>
-            <bibl>1. Ellen Terrell, “Robber Barons: Gould and Fisk | Inside Adams: Science,
-              Technology &amp; Business,” webpage, (September 26, 2012),
-              http://blogs.loc.gov/inside_adams/2012/09/robber-barons-gould-and-fisk/.2. “Jay Gould
-              | Biography - American Financier,” Encyclopedia Britannica, accessed January 21, 2015,
-              http://www.britannica.com/EBchecked/topic/239993/Jay-Gould3. Schlup, L. C., &amp;
-              Ryan, J. G. (2003). Historical dictionary of the Gilded Age. Armonk, N.Y.: M.E.
-              Sharpe.</bibl>
+            <note type="biography"><p>Jay Gould was born on May 27, 1836 in Roxbury, New York and
+                was an American railroad financier and one of the “robber barons”. He attended
+                Hobart Academy and worked as a surveyor. He later began dealing in railroad stocks,
+                became business partners with James Fisk and Daniel Drew, and formed a Wall Street
+                Brokerage House. In 1868, Gould, Fisk, and Drew successfully gained control of the
+                Eerie Railroad from Cornelius Vanderbilt by inflating the value of the company’s
+                stocks. Gould and Fisk engaged in political bribery and formed a partnership with
+                the infamous William “Boss” Tweed.</p>
+              <p>On September 24, 1869, Gould and Fisk’s financial schemes led to the panic of
+                “Black Friday” and Gould was forced to relinquish control of the Eerie Railroad. In
+                the 1870s Gould bought stock of railroads in the West and gained control of several
+                railroad companies including the Union Pacific Railroad. He also was owner of the
+                Western Union Telegraph Company and the <hi rendition="#italics">New York World</hi>
+                Newspaper. He died in New York City on December 2, 1892 and left his $72 million
+                fortune to his children. </p></note>
+            <bibl>
+              <bibl>Ellen Terrell, “Robber Barons: Gould and Fisk | Inside Adams: Science,
+                Technology &amp; Business,” webpage, (September 26, 2012),
+                http://blogs.loc.gov/inside_adams/2012/09/robber-barons-gould-and-fisk/.</bibl>
+              <bibl> “Jay Gould | Biography - American Financier,” <hi rendition="#italics"
+                  >Encyclopedia Britannica, </hi>. accessed January 21, 2015,
+                http://www.britannica.com/EBchecked/topic/239993/Jay-Gould</bibl>
+              <bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). <hi rendition="#italics">Historical
+                  dictionary of the Gilded Age</hi>. Armonk, N.Y.: M.E. Sharpe. </bibl></bibl>
           </person>
           <person xml:id="ENT.000000941">
             <persName key="ENT.000000941">
@@ -528,6 +775,30 @@
             <birth when="1822">1822</birth>
             <death when="1885">1885</death>
             <sex>Male</sex>
+            <note type="biography"><p>Ulysses Simpson Grant was a Union General and the 18th
+                President of the United States. He served two consecutive terms as
+                president,1869-1876.</p>
+              <p>He was born in Point Pleasant, Ohio on April 27, 1822. He graduated from West Point
+                in 1843 and later became one of the most distinguished generals in the Union Army.
+                In 1868 he was nominated to run as the Republican presidential nominee. He won a
+                sizeable victory over his Democratic opponent Horatio Seymour. Grant served during
+                Reconstruction and used the army to suppress violence perpetrated by the Ku Klux
+                Klan. Grant initially maintained a peace policy towards Native Americans which he
+                eventually was forced to abandon due to the increasing violence between Native
+                Americans and settlers. Grant was plagued by accusations of corruption and bribery
+                because he often accepted lavish gifts, was photographed with the infamous Jay Gould
+                and Jay Fisk, and appointed his family members to serve in government positions. In
+                fact, the term “Grantism” was used to signify corruption. Consequently, Grant was
+                unable to secure a third term as president. </p>
+              <p>After leaving office, Grant went bankrupt and developed throat cancer. In order to
+                overcome his financial difficulties, he wrote his <hi rendition="#italics">Personal
+                  Memoirs</hi> which eventually earned over $400,000. He died on July 23, 1885, a
+                few days after he finished writing.</p></note>
+            <bibl><bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). <hi rendition="#italics">Historical
+                  dictionary of the Gilded Age</hi>. Armonk, N.Y.: M.E. Sharpe.
+                </bibl><bibl>“Ulysses S. Grant" <hi rendition="#italics">Whitehouse.gov</hi>,
+                accessed February 4, 2015, http://www.whitehouse.gov/1600/presidents/ulyssessgrant.
+              </bibl></bibl>
           </person>
           <person xml:id="ENT.000003352">
             <persName key="ENT.000003352">
@@ -538,6 +809,15 @@
             <death when="1872">1872</death>
             <sex>Male</sex>
           </person>
+          <person xml:id="ENT.000003603">
+            <persName key="ENT.000003603">
+              <forename type="first">Wade</forename>
+              <surname type="last">Hampton</surname>
+            </persName>
+            <birth when="1818">1818</birth>
+            <death when="1902">1902</death>
+            <sex>Male</sex>
+          </person>
           <person xml:id="ENT.000003565">
             <persName key="ENT.000003565">
               <forename type="first">Winfield</forename>
@@ -546,6 +826,17 @@
             </persName>
             <birth when="1824">1824</birth>
             <death when="1886">1886</death>
+            <sex>Male</sex>
+            <bibl><bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). <hi rendition="#italics">Historical
+                  dictionary of the Gilded Age</hi>. Armonk, N.Y.: M.E. Sharpe. </bibl></bibl>
+          </person>
+          <person xml:id="ENT.000001948">
+            <persName key="ENT.000001948">
+              <forename type="first">Benjamin</forename>
+              <surname type="last">Harrison</surname>
+            </persName>
+            <birth when="1833">1833</birth>
+            <death when="1901">1901</death>
             <sex>Male</sex>
           </person>
           <person xml:id="ENT.000003567">
@@ -566,6 +857,15 @@
             </persName>
             <birth when="1822">1822</birth>
             <death when="1903">1903</death>
+            <sex>Male</sex>
+          </person>
+          <person xml:id="ENT.000002863">
+            <persName key="ENT.000002863">
+              <forename type="first">Anthony</forename>
+              <surname type="last">Imbert</surname>
+            </persName>
+            <birth when="1794">circa 1794</birth>
+            <death when="1834">1834</death>
             <sex>Male</sex>
           </person>
           <person xml:id="ENT.000002223">
@@ -656,6 +956,15 @@
             </persName>
             <sex>Male</sex>
           </person>
+          <person xml:id="ENT.000002471">
+            <persName key="ENT.000002471">
+              <forename type="first">James</forename>
+              <surname type="last">Madison</surname>
+            </persName>
+            <birth when="1751">1751</birth>
+            <death when="1836">1836</death>
+            <sex>Male</sex>
+          </person>
           <person xml:id="ENT.000003364">
             <persName key="ENT.000003364">
               <forename type="first">Louis</forename>
@@ -663,6 +972,25 @@
             </persName>
             <birth when="1832">1832</birth>
             <death when="1932">1932</death>
+            <sex>Male</sex>
+          </person>
+          <person xml:id="ENT.000001783">
+            <persName key="ENT.000001783">
+              <forename type="first">George</forename>
+              <forename type="middle">Brinton</forename>
+              <surname type="last">McClellan</surname>
+            </persName>
+            <birth when="1826">1826</birth>
+            <death when="1885">1885</death>
+            <sex>Male</sex>
+          </person>
+          <person xml:id="ENT.000003367">
+            <persName key="ENT.000003367">
+              <forename type="first">Warner</forename>
+              <surname type="last">Miller</surname>
+            </persName>
+            <birth when="1838">1838</birth>
+            <death when="1918">1918</death>
             <sex>Male</sex>
           </person>
           <person xml:id="ENT.000000251">
@@ -698,7 +1026,6 @@
               <addName type="honorific">Lord</addName>
               <forename type="first">Frederick</forename>
               <surname type="last">North</surname>
-              <genName>Lord</genName>
             </persName>
             <birth when="1732">1732</birth>
             <death when="1792">1792</death>
@@ -732,7 +1059,6 @@
               <addName type="honorific">Sir</addName>
               <forename type="first">John</forename>
               <surname type="last">Pringle</surname>
-              <genName>Sir</genName>
             </persName>
             <birth when="1707">1707</birth>
             <death when="1782">1782</death>
@@ -802,6 +1128,21 @@
             <death when="1616">1616</death>
             <sex>Male</sex>
           </person>
+          <person xml:id="ENT.000003380">
+            <persName key="ENT.000003380">
+              <forename type="first">John</forename>
+              <surname type="last">Sherman</surname>
+            </persName>
+            <birth when="1823">1823</birth>
+            <death when="1900">1900</death>
+            <sex>Male</sex>
+          </person>
+          <person xml:id="ENT.000003587">
+            <persName key="ENT.000003587">
+              <forename type="first">HN</forename>
+              <surname type="last">Smith</surname>
+            </persName>
+          </person>
           <person xml:id="ENT.000003383">
             <persName key="ENT.000003383">
               <forename type="first">Charles</forename>
@@ -809,6 +1150,23 @@
             </persName>
             <birth when="1811">1811</birth>
             <death when="1874">1874</death>
+            <sex>Male</sex>
+          </person>
+          <person xml:id="ENT.000003579">
+            <persName key="ENT.000003579">
+              <forename type="first">R.</forename>
+              <forename type="middle">C.</forename>
+              <surname type="last">Swayze</surname>
+            </persName>
+            <sex>Male</sex>
+          </person>
+          <person xml:id="ENT.000003590">
+            <persName key="ENT.000003590">
+              <forename type="first">John</forename>
+              <surname type="last">Tenniel</surname>
+            </persName>
+            <birth when="1820">1820</birth>
+            <death when="1914">1914</death>
             <sex>Male</sex>
           </person>
           <person xml:id="ENT.000003566">
