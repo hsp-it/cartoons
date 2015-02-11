@@ -73,7 +73,8 @@
                 <listRelation>
                   <relation name="depicted" active="ENT.000003542"/>
                   <relation name="mentioned" active="ENT.000003543"/>
-                  <relation name="depicted" active="cartoons_symbols.xml#John Bull"/>
+                  <relation name="depicted" active="cartoons_symbols.xml#john_bull"/>
+                  <relation name="depicted" active="ENT.000003392"/>
                 </listRelation>
               </bibl>
             </msItem>
@@ -146,6 +147,8 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
+      <change who="RachelMoloshok" when="2015-02-09">Added George III (ENT.000003392) as depicted
+        entity and updated image description</change>
       <change who="RachelMoloshok" when="2015-02-02">Exported from DAMS</change>
       <change who="RachelMoloshok" when="2015-01-14">Updated to encode one relation element per
         referenced entity/symbol</change>
@@ -180,14 +183,15 @@
           Britain) react to news of American naval commander Matthew Perry's victories during the
           War of 1812. At left, Queen Charlotte, drunk and hiccuping, offers a bottle of perry (an
           alcoholic drink made of fermented pears) to John Bull, at right, who is sitting on a
-          commode (toilet) and suffering from a stomachache. The bottle is spraying out streams of
-          liquid, each labeled with the name of an American warship that fought in the Battle of
-          Lake Erie, where Perry won a decisive victory. At John Bull's feet lie scattered pages of
-          newspapers and letters announcing America's victories, including the destruction of the
-          British warship <hi rendition="#italics">Charlotte</hi>. John Bull complains that, in
-          addition to his indigestion, he has not yet recovered from the bloody nose he received at
-          the "<ref target="8532.xml">Boxing Match</ref>" (the title of another political cartoon by
-          William Charles).</p>
+          commode (toilet) and suffering from a stomachache. John Bull is drawn to resemble King
+          George III of England. The bottle is spraying out streams of liquid, each labeled with the
+          name of an American warship that fought in the Battle of Lake Erie, where Perry won a
+          decisive victory. At John Bull's feet lie scattered pages of newspapers and letters
+          announcing America's victories, including the destruction of the British warship <hi
+            rendition="#italics">Charlotte</hi>. John Bull complains that, in addition to his
+          indigestion, he has not yet recovered from the bloody nose he received at the "<ref
+            target="8532.xml">Boxing Match</ref>" (the title of another political cartoon by William
+          Charles).</p>
       </div>
     </front>
     <body>

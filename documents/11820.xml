@@ -1,0 +1,276 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+
+    <teiHeader xml:lang="English">
+
+        <fileDesc>
+
+            <titleStmt>
+                <title type="main">TEI transcription of Patience on a Monument</title>
+                <respStmt>
+                    <resp key="art">Artist</resp>
+                    <persName key="ENT.000000251">Nast, Thomas</persName>
+                </respStmt>
+
+                <respStmt>
+                    <resp key="trc">Transcribed by</resp>
+                    <persName key="ENT.000003368">Moloshok, Rachel</persName>
+                </respStmt>
+                <respStmt>
+                    <resp key="mrk">Encoded by</resp>
+                    <persName key="ENT.000003368">Moloshok, Rachel</persName>
+                </respStmt>
+
+            </titleStmt>
+
+            <editionStmt>
+                <p>First edition, <date when="2015">2015</date></p>
+            </editionStmt>
+
+            <publicationStmt>
+                <publisher><orgName key="ENT.000002473">Historical Society of
+                    Pennsylvania</orgName></publisher>
+                <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
+                <idno type="filename">11820</idno>
+                <availability status="restricted">
+                    <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of
+                        copyright only to original contributions made by the Historic Images, New
+                        Technologies (HINT) Project participants and other staff. HSP makes no claim
+                        of copyright to the original text. Permission is granted to download,
+                        transmit or otherwise reproduce, distribute or display the text
+                        contributions to this work claimed by HSP for non-profit educational
+                        purposes, provided that this header is included in its entirety. For
+                        inquiries about commercial uses, please contact the Historical Society of
+                        Pennsylvania. HSP retains the rights of all images unless otherwise noted.
+                        Possession of an HSP digital image does not constitute permission to use or
+                        publish it. Requests for digital imaging, other reproduction services, and
+                        the intended use of reproductions must be made in writing to the Rights and
+                        Reproductions Coordinator at rnr@hsp.org.</p>
+                </availability>
+                <date when="2015"/>
+            </publicationStmt>
+
+            <seriesStmt>
+                <title level="s" type="project" key="CARTOONS"/>
+            </seriesStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository key="ENT.000002473"/>
+                        <collection key="V64"/>
+                        <idno type="citation">Bb 61 N189</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <bibl>
+                                <date from="1868-10-08">October 8, 1868</date>
+                                <listRelation>
+                                    <relation name="depicted" active="ENT.000003599"/><!-- KKK -->
+                                    <relation name="depicted" active="ENT.000003600"/><!-- Colored Orphans' Asylum -->
+                                    <relation name="mentioned" active="ENT.000003598"/><!-- Cincinnati Gazette -->
+                                    <relation name="mentioned" active="ENT.000000447"/><!-- Lincoln -->
+                                    <relation name="mentioned" active="ENT.000003601"/><!-- Forrest -->
+                                    <relation name="mentioned" active="ENT.000003602"/><!-- Blair -->
+                                    <relation name="mentioned" active="ENT.000003603"/><!-- Hampton -->
+                                    
+                                    <!-- mentioned:Texas Jefferson (newspaper), Meridian (MS) Mercury (newspaper), Richmond (VA) Whig (newspaper), NY World (newspaper) -->
+                                </listRelation>
+                            </bibl>
+                        </msItem>
+                    </msContents>
+
+                    <history>
+                        <acquisition/>
+                    </history>
+                </msDesc>
+                <biblStruct>
+                    <analytic>
+                        <respStmt>
+                            <resp key="art">Artist</resp>
+                            <persName key="ENT.000000251">Nast, Thomas</persName>
+                        </respStmt>
+                        <title type="main" level="a">Patience on a Monument</title>
+                    </analytic>
+                    <monogr>
+                        <title type="marc245a" level="j"><orgName key="ENT.000003598">Cincinnati
+                                Gazette</orgName></title>
+                        <imprint>
+                            <publisher><orgName key="ENT.000003598">Cincinnati
+                                Gazette</orgName></publisher>
+                            <pubPlace>Cincinnati, OH</pubPlace>
+                            <date from="1868-10-08">October 8, 1868</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <projectDesc>
+                <p>The Historic Images, New Technologies (HINT) project aims to enhance description
+                    and discovery of the Historical Society of Pennsylvania's graphics materials and
+                    promote the linking and sharing of content among institutions and scholars. The
+                    project will result in an update to HSP's digital image viewer and an online
+                    digital history exhibit that will demonstrate the new viewer's capabilities and
+                    provide interpretive and contextual materials to encourage users to interact
+                    with historical images in new ways. This project was funded by a grant from the
+                    National Historical Publications and Records Commission's (NHPRC) Innovation in
+                    Archives and Documentary Editing program.</p>
+            </projectDesc>
+            <editorialDecl n="4">
+                <p>This electronic file was created using manual keying following the
+                    recommendations for Level 4 of "Best Practices for TEI in Libraries" guidelines
+                    v3.0.</p>
+                <p>This xml file uses unique entity identifiers, media file identifiers, and
+                    collection identifiers in HSP's Digital Library, available at
+                    http://digitallibrary.hsp.org.</p>
+
+            </editorialDecl>
+            <tagsDecl>
+                <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
+                <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
+                <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
+                <rendition scheme="css" xml:id="crossed-through">text-decoration:
+                    line-through</rendition>
+                <rendition scheme="other" xml:id="printed"/>
+                <rendition scheme="other" xml:id="typescript"/>
+                <rendition scheme="other" xml:id="handwritten"/>
+                <rendition scheme="other" xml:id="handwritten-underlined"/>
+                <rendition scheme="other" xml:id="handwritten-circled"/>
+                <rendition scheme="other" xml:id="handwritten-crossed-through"/>
+                <rendition scheme="other" xml:id="double-underline"/>
+                <rendition scheme="other" xml:id="stamp"/>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+        </encodingDesc>
+
+        <profileDesc>
+            <textClass>
+                <catRef target="cartoons_taxonomies.xml#reconstruction"/>
+                <catRef target="cartoons_taxonomies.xml#featured"/>
+                <catRef target="cartoons_taxonomies.xml#slavery"/>
+                <catRef target="cartoons_taxonomies.xml#African_American"/>
+                <!-- add genre: clippings -->
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change who="RachelMoloshok" when="2015-02-09">Encoded to basic level</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <facsimile>
+        <surface ulx="" uly="" lrx="" lry="">
+            <graphic url="FIL.000089711"/>
+            <zone n="??" xml:id="??" points=""/>
+        </surface>
+    </facsimile>
+
+    <text>
+        <front>
+            <div type="editorial_desc">
+                <p><!-- Use this section to enter a BRIEF description of the image. --></p>
+            </div>
+        </front>
+
+        <body>
+
+            <div type="image_transcription" facs="#masthead" n="??">
+                <head><supplied resp="editorial">Masthead</supplied></head>
+                <p>SUPPLEMENT TO THE CINCINNATI GAZETTE.</p>
+            </div>
+            <div type="image_transcription" facs="#top">
+                <head><supplied resp="editorial">Man atop monument</supplied></head>
+                <p>US</p>
+                <p>EMANCIPATED BY A. LINCOLN</p>
+            </div>
+            <div type="image_transcription" facs="#title" n="??">
+                <head><supplied resp="editorial">Title</supplied></head>
+                <p>PATIENCE ON A MONUMENT.</p>
+            </div>
+            <div type="image_transcription" facs="#column" n="??">
+                <head><supplied resp="editorial">Monument column</supplied></head>
+                <p>THE WHIPPING-POST.</p>
+                <p>HUNTED DOWN WITH BLOOD-HOUNDS.</p>
+                <p>SLAVERY FOR YEARS.</p>
+                <p>BRANDED AND MANACLED</p>
+                <p>THE AUCTION BLOCK—HUSBAND AND WIFE, PARENT AND CHILD, BROTHER AND SISTER SOLD
+                    APART.</p>
+                <p>DAUGHTERS, MOTHERS, WIVES, AND SISTERS RUINED.</p>
+                <p>KNOWLEDGE A SEALED BOOK.</p>
+                <p>FORT PILLOW MASSACRE.</p>
+                <p>"<hi rendition="#italics">Resolved by the Congress of the Confederate States of
+                        America,</hi> That the thanks of Congress are due and are hereby cordially
+                    tendered to Major-General FORREST and other officers and men of his command, for
+                    their late brilliant and successful campaign in Mississippi, West Tennessee, and
+                    Kentucky—a campaign which has conferred on its authors fame as enduring as the
+                    records of the struggle which they have so brilliantly illustrated."</p>
+                <p>NO QUARTER TO THE "NIGGER!"</p>
+                <p>NEW YORK RIOTS—BURNING OF THE COLORED ORPHAN ASYLUM; LAMP-POST GALLOWS.</p>
+                <p>HOMES BURNED.</p>
+                <p>NEW ORLEANS AND MEMPHIS MASSACRES.</p>
+                <p>"A NEGRO HAS NO RIGHTS WHICH A WHITE MAN IS BOUND TO RESPECT."</p>
+                <p>"THIS IS A WHITE MAN'S GOVERNMENT."</p>
+                <p>"The nigger and the white man are not likely to agree unless the nigger yields to
+                    the white man's views, which he can do, or die."—<hi rendition="#italics">The
+                        Jefferson</hi> (Texas).</p>
+                <p>"We must make the negro understand we are the men we were when we held them in
+                    abject bondage."—<hi rendition="#italics">Meridian</hi> (Miss.) <hi
+                        rendition="#italics">Mercury</hi>.</p>
+                <p>"Agree among yourselves, and act firmly on this agreement, that you will not
+                    employ any one who votes the Radical ticket."—WADE HAMPTON.</p>
+                <p>"And now I say that, unless the negroes submit to the intelligent guidance of the
+                    powerful white race, their fate will be that of the Indians: they will be
+                    exterminated. The negroes can only be happy and prosperous as long as they are
+                    guided by the intelligence of the white race. Whenever it is sought to
+                    disfranchise the intelligence of the country, and make it subordinate to the
+                    ignorance of the country; whenver it is sought to subordinate the white race of
+                    the country to the black barbarism of the negro, the prosperity of the country
+                    is at an end."—BLAIR.</p>
+                <p>"We are bound to have a war of races, and when there is one drop of blood
+                    spilled, we predict that it will flow as freely as does the Mississippi."—<hi
+                        rendition="#italics">The Jefferson</hi> (Texas).</p>
+            </div>
+            <div type="image_transcription" facs="#base">
+                <head><supplied resp="editorial">Monument base</supplied></head>
+                <p>BULLETS—REBEL PROTESTS AGAINST REPUBLICAN MEETINGS: CAMILLA, GEORGIA. KU-KLUX
+                    KLAN.</p>
+                <p>NEGRO KILLED—"ONE VOTE LESS."—<hi rendition="#italics">Richmond Whig</hi>.</p>
+                <p>EXPULSION OF COLORED MEMBERS OF THE HOUSE OF REPRESENTATIVES IN GEORGIA.</p>
+                <p>EXPELLED FROM THE JURY BOX.</p>
+                <p>FORCED AWAY FROM THE POLLS.</p>
+                <p>BURNING SCHOOL-HOUSES AND CHURCHES THROUGHOUT THE "RECONSTRUCTED STATES."</p>
+                <p>HUNG UP OR SHOT DOWN IN THE ROADS AND STREETS.</p>
+                <p>"COLORED CRIMINALS SUFFER SEVERER PUNISHMENT THAN WHITES GUILTY OF THE SAME
+                    CRIMES."</p>
+                <p>WE DESPISE THE NEGRO."—<hi rendition="#italics">N.Y. World</hi>.</p>
+            </div>
+
+            <div type="image_transcription" facs="#asylum">
+                <head><supplied resp="editorial">New York Colored Orphan Asylum</supplied></head>
+                <p>COLORED ORPHAN</p>
+            </div>
+            <div type="image_transcription" facs="#school">
+                <head><supplied resp="editorial">Freedmen's school</supplied></head>
+                <p>FREEDMAN SCHOOL</p>
+            </div>
+            <div type="image_transcription" facs="#KKK">
+                <head><supplied resp="editorial">KKK member</supplied></head>
+                <p>KKK</p>
+            </div>
+            <div type="image_transcription" facs="#signature">
+                <head><supplied resp="editorial">Artist's signature</supplied></head>
+                <p>Th: Nast.</p>
+            </div>
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>

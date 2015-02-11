@@ -1,0 +1,240 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/css" href="./tiny_TEI_template.css"?>
+<?oxygen RNGSchema="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="English">
+        <fileDesc>
+            <titleStmt>
+                <title type="main"
+                    >TEI transcription of The "Secession Movement"</title>
+                <respStmt>
+                    <resp key="art">Artist</resp>
+                    <persName key="ENT.000000553">Unknown Artist</persName>
+                </respStmt>
+                <respStmt>
+                    <resp key="trc">Transcribed by</resp>
+                    <persName key="ENT.000003545"></persName>
+                </respStmt>
+                <respStmt>
+                    <resp key="mrk">Encoded by</resp>
+                    <persName key="ENT.000003545"/>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <p>First edition, <date when="2015">2015</date></p>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><orgName key="ENT.000002473">Historical Society of
+                    Pennsylvania</orgName></publisher>
+                <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
+                <idno type="filename">5545</idno>
+                <availability status="restricted">
+                    <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of
+                        copyright only to original contributions made by the Historic Images, New
+                        Technologies (HINT) Project participants and other staff. HSP makes no claim
+                        of copyright to the original text. Permission is granted to download,
+                        transmit or otherwise reproduce, distribute or display the text
+                        contributions to this work claimed by HSP for non-profit educational
+                        purposes, provided that this header is included in its entirety. For
+                        inquiries about commercial uses, please contact the Historical Society of
+                        Pennsylvania. HSP retains the rights of all images unless otherwise noted.
+                        Possession of an HSP digital image does not constitute permission to use or
+                        publish it. Requests for digital imaging, other reproduction services, and
+                        the intended use of reproductions must be made in writing to the Rights and
+                        Reproductions Coordinator at rnr@hsp.org.</p>
+                </availability>
+                <date when="2015"/>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s" type="project" key="CARTOONS"/>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository key="ENT.000002473"/>
+                        <collection key="3133"></collection>
+                        <idno type="citation">
+                            <idno type="box">4</idno>
+                            <idno type="folder">21</idno>
+                        </idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <bibl>
+                                <date from="1861-01-01" to="1861-12-31"></date>
+                                <extent>One loose sheet.</extent>
+                                <relatedItem type="references" target="12052"></relatedItem>
+                                <listRelation>
+                                    <relation name="depicted" active="cartoons_symbols.xml#donkey"/>
+                                    <relation name="mentioned" active="ENT.000002223"/>
+                                </listRelation>
+                            </bibl>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <acquisition>This is an artificial collection created over time by HSP staff mostly through donations and purchases of individual prints. It also incorporates previously uncataloged materials collected by the Balch Institute for Ethnic Studies. Some of the 20th century cartoons and drawings were removed from the J. Hampton Moore papers (Collection 1541).</acquisition>
+                    </history>
+                </msDesc>
+                <biblStruct>
+                    <monogr>
+                        <respStmt>
+                            <resp key="art">Artist</resp>
+                            <persName key="ENT.000000553">Unknown</persName>
+                            </respStmt>
+                        <title type="main" level="m">The "Secession Movement"</title>
+                        <imprint>
+                            <publisher><orgName key="ENT.000000386"
+                                    >Currier and Ives</orgName></publisher>
+                            <pubPlace>New York</pubPlace>
+                            <date from="1861"
+                                >1861</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The Historic Images, New Technologies (HINT) project aims to enhance description
+                    and discovery of the Historical Society of Pennsylvania's graphics materials and
+                    promote the linking and sharing of content among institutions and scholars. The
+                    project will result in an update to HSP's digital image viewer and an online
+                    digital history exhibit that will demonstrate the new viewer's capabilities and
+                    provide interpretive and contextual materials to encourage users to interact
+                    with historical images in new ways. This project was funded by a grant from the
+                    National Historical Publications and Records Commission's (NHPRC) Innovation in
+                    Archives and Documentary Editing program.</p>
+            </projectDesc>
+            <editorialDecl n="4">
+                <p>This electronic file was created using manual keying following the
+                    recommendations for Level 4 of "Best Practices for TEI in Libraries" guidelines
+                    v3.0.</p>
+                <p>This xml file uses unique entity identifiers, media file identifiers, and
+                    collection identifiers in HSP's Digital Library, available at
+                    http://digitallibrary.hsp.org.</p>
+
+            </editorialDecl>
+            <tagsDecl>
+                <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
+                <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
+                <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
+                <rendition scheme="css" xml:id="crossed-through">text-decoration:
+                    line-through</rendition>
+                <rendition scheme="other" xml:id="printed"/>
+                <rendition scheme="other" xml:id="typescript"/>
+                <rendition scheme="other" xml:id="handwritten"/>
+                <rendition scheme="other" xml:id="handwritten-underlined"/>
+                <rendition scheme="other" xml:id="handwritten-circled"/>
+                <rendition scheme="other" xml:id="handwritten-crossed-through"/>
+                <rendition scheme="other" xml:id="double-underline"/>
+                <rendition scheme="other" xml:id="stamp"/>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+        </encodingDesc>
+
+        <profileDesc>
+            <textClass>
+                <catRef target="cartoons_taxonomies.xml#featured"/>
+                <catRef target="cartoons_taxonomies.xml#civil_war"/> 
+                <!-- Need to add genres. cartoon is a lithograph -->
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change who="SaraBorden" when="2015-02-09">Cleaned up header, added more description, created zones</change>
+            <change who="TammyGaskell" when="2015-01-21">filled out header</change>
+            <change who="RachelMoloshok" when="2015-01-07">Template file created</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface ulx="" uly="" lrx="" lry="">
+            <graphic
+                url="FIL.000017393"/>
+            <zone n="1" xml:id="humbug"/>
+            <zone n="2" xml:id="South_Carolina"/>
+            <zone n="3" xml:id="Florida"/>
+            <zone n="4" xml:id="Alabama"/>
+            <zone n="5" xml:id="Mississippi"/>
+            <zone n="6" xml:id="Louisiana"/>
+            <zone n="7" xml:id="Georgia"/>
+            <zone n="8" xml:id="waves"/>
+            <zone n="9" xml:id="title"/>
+            <zone n="10" xml:id="publisher"/>
+            <zone n="11" xml:id="address"/>
+            <zone n="12" xml:id="year"/>
+            <zone n="13" xml:id="butterfly"/>
+        </surface>
+    </facsimile>
+    <text>
+        <front>
+            <div type="editorial_desc">
+                <p>Representatives of various southern states, including Florida, Alabama, Mississippi, and Lousiana, ride on donkeys following South Carolina, riding on a hog, going off a cliff. Georgia also rides a donkey, but takes a different downhill path deviating from the one that leads off the edge of the cliff. The man from South Carolina is reaching for the "Secession Humbug," depicted as a butterfly. The secessionists ride off the cliff into the water below. </p>
+            </div>
+        </front>
+        <body>
+            <div type="image_transcription" facs="#humbug" n="1">
+                <head><supplied resp="editorial">Butterfly</supplied></head>
+                <p>SECESSION HUMBUG.</p>
+            </div>
+            <div type="image_transcription" facs="#South_Carolina" n="2">
+            <head><supplied resp="editorial">South Carolina</supplied></head>
+                <p>SOUTH CAROLINA.</p>
+                <p>We go the whole hog._<rs key="ENT.000002223">Old Hickory</rs> is dead; and now we'll have it.</p>
+                </div>
+<div type="image_transcription" facs="#Florida" n="3">
+    <head><supplied resp="editorial">Florida</supplied></head>
+    <p>FLORIDA.</p>
+    <p>Go it Carolina! we are the boys to <hi rendition="#underline">wreck</hi> the Union.</p>
+</div>
+            <div type="image_transcription" facs="#Alabama" n="4">
+<head><supplied resp="editorial">Alabama</supplied></head>
+                <p>ALABAMA.</p>
+            <p>We go it blind, "Cotton is King"!</p>
+            </div>
+            <div type="image_transcription" facs="#Mississippi" n="5">
+                <head><supplied resp="editorial">Mississippi</supplied></head>
+                <p>MISSISSIPPI.</p>
+                <p>Down with the Union! Mississippi <hi rendition="#underline">repudiates her bonds</hi>.</p>
+            </div>
+            <div type="image_transcription" facs="#Louisiana" n="6">
+                <head><supplied resp="editorial">Louisiana</supplied></head>
+                <p>LOUISIANA.</p>
+                <p>Go it boys! We'll soon taste the <hi rendition="#underline">sweets of</hi> secession.</p>
+            </div>
+            <div type="image_transcription" facs="#Georgia" n="7">
+<head><supplied resp="editorial">Georgia</supplied></head>
+                <p>GEORGIA.</p>
+                <p>We have some doubts about <hi rendition="#underline">the end</hi> of that road and think it expedient to deviate a little.</p>
+            </div>
+           <div type="image_transcription" facs="#waves" n="8">
+               <head><supplied resp="editorial">Waves</supplied></head>
+               <p>BREAKERS.</p>
+           </div> 
+            <div type="image_transcription" facs="#title" n="9">
+                <head><supplied resp="editorial">Title</supplied></head>
+                <p><hi rendition="#italics">Entered according to act of Congress in the Year 1861, by Currier &amp; Ives, in the Clerk's Office of the District Court of the United States for the Southern District of New York.</hi></p>
+                <p>THE "SECESSION MOVEMENT".</p>
+            </div>
+            <div type="image_transcription" facs="#publisher" n="10">
+                <head><supplied resp="editorial">Publisher</supplied></head>
+                <p><hi rendition="#italics">Published by Currier &amp; Ives</hi></p>
+            </div>
+            <div type="image_transcription" facs="#address" n="11">
+                <p>Address</p>
+                <p><hi rendition="#italics">152 Nassau St. N.Y.</hi></p>
+            </div>
+            <div type="image_transcription" facs="#year" n="12">
+                <p>Year</p>
+                <p>1861</p>
+            </div>
+            <div type="image_annotation" facs="#butterfly" n="13">
+                <head>Humbug</head>
+                <p>This butterfly, the "Secession Humbug," is a reference to a cartoon published in 1837 skewering President Andrew Jackson's fiscal policies and his desire to dismantle the Bank of the United States. Jackson's policies were considered ill-advised and in this cartoon, secession is depicted as just as foolish. South Carolina leads the charge and was the first state to secede from the Union on December 20, 1860. Mississippi followed on January 9, 1861; Florida on January 10; Alabama on January 11; Georgia on January 19; and Louisiana on January 26. Georgia, depicted as taking a different path than other southern states in this cartoon, was home to both citizens and law-makers who were reluctant to secede and who urged that the decision not be made hastily or lightly.  Georgia was not, however, the slowest state to join the secession movement.  Tennessee was the last state to secede on June 8, 1861.  Texas, Virginia, Arkansas, and North Carolina were the final states which formed the Confederacy.</p>
+            </div>
+        </body>
+
+        <back/>
+    </text>
+</TEI>
