@@ -68,15 +68,28 @@
                             <bibl>
                                 <date from="1868-10-08">October 8, 1868</date>
                                 <listRelation>
-                                    <relation name="depicted" active="ENT.000003599"/><!-- KKK -->
-                                    <relation name="depicted" active="ENT.000003600"/><!-- Colored Orphans' Asylum -->
-                                    <relation name="mentioned" active="ENT.000003598"/><!-- Cincinnati Gazette -->
-                                    <relation name="mentioned" active="ENT.000000447"/><!-- Lincoln -->
-                                    <relation name="mentioned" active="ENT.000003601"/><!-- Forrest -->
-                                    <relation name="mentioned" active="ENT.000003602"/><!-- Blair -->
-                                    <relation name="mentioned" active="ENT.000003603"/><!-- Hampton -->
-                                    
-                                    <!-- mentioned:Texas Jefferson (newspaper), Meridian (MS) Mercury (newspaper), Richmond (VA) Whig (newspaper), NY World (newspaper) -->
+                                    <relation name="depicted" active="ENT.000003599"/>
+                                    <!-- KKK -->
+                                    <relation name="depicted" active="ENT.000003600"/>
+                                    <!-- Colored Orphans' Asylum -->
+                                    <relation name="mentioned" active="ENT.000003598"/>
+                                    <!-- Cincinnati Gazette -->
+                                    <relation name="mentioned" active="ENT.000000447"/>
+                                    <!-- Lincoln -->
+                                    <relation name="mentioned" active="ENT.000003601"/>
+                                    <!-- Forrest -->
+                                    <relation name="mentioned" active="ENT.000003602"/>
+                                    <!-- Blair -->
+                                    <relation name="mentioned" active="ENT.000003603"/>
+                                    <!-- Hampton -->
+                                    <relation name="mentioned" active="ENT.000003620"/>
+                                    <!-- Meridian (MS) Mercury -->
+                                    <relation name="mentioned" active="ENT.000003621"/>
+                                    <!-- Richmond Whig -->
+                                    <relation name="mentioned" active="ENT.000003608"/>
+                                    <!-- NY World -->
+                                    <relation name="mentioned" active="ENT.000003622"/>
+                                    <!-- (Texas) Jefferson -->
                                 </listRelation>
                             </bibl>
                         </msItem>
@@ -156,11 +169,14 @@
                 <catRef target="cartoons_taxonomies.xml#featured"/>
                 <catRef target="cartoons_taxonomies.xml#slavery"/>
                 <catRef target="cartoons_taxonomies.xml#African_American"/>
-                <!-- add genre: clippings -->
+                <catRef target="cartoons_taxonomies.xml#culture"/>
+                <catRef target="cartoons_genres.xml#clippings"/>
+                <!--  genre: clippings -->
             </textClass>
         </profileDesc>
 
         <revisionDesc>
+            <change who="RachelMoloshok" when="2015-02-24">Encoded to featured level</change>
             <change who="RachelMoloshok" when="2015-02-09">Encoded to basic level</change>
         </revisionDesc>
     </teiHeader>
@@ -168,33 +184,64 @@
     <facsimile>
         <surface ulx="" uly="" lrx="" lry="">
             <graphic url="FIL.000089711"/>
-            <zone n="??" xml:id="??" points=""/>
+            <zone n="1" xml:id="masthead"/>
+            <zone n="2" xml:id="top"/>
+            <zone n="3" xml:id="title"/>
+            <zone n="4" xml:id="column"/>
+            <zone n="5" xml:id="base"/>
+            <zone n="6" xml:id="asylum"/>
+            <zone n="7" xml:id="school"/>
+            <zone n="8" xml:id="KKK"/>
+            <zone n="9" xml:id="signature"/>
+            <zone n="10" xml:id="north"/>
+            <zone n="11" xml:id="south"/>
         </surface>
     </facsimile>
 
     <text>
         <front>
             <div type="editorial_desc">
-                <p><!-- Use this section to enter a BRIEF description of the image. --></p>
+                <p>A frowning African American man, likely a veteran of the Union Army, sits atop a
+                    stele (an inscribed monument), with a rifle at his feet, a bag labeled "US," at
+                    his side, a scroll with the words "Emancipated by A. Lincoln" resting on his
+                    knee, and broken chains hanging around him. The inscription of the monument he
+                    sits upon, however, lists the violence and abuses African Americans suffered
+                    under slavery and continue to suffer in the era of Reconstruction. The monument
+                    text includes racist statements made by Democratic politicians running for
+                    office in the upcoming 1868 election. At the base of the monument, an African
+                    American woman, clutching an infant to her chest, lies dead, a pool of blood
+                    spreading from her head. The bloodied and lifeless body of a young African
+                    American child lies beside her. On either side of the monument can be seen
+                    scenes of white violence against African Americans. On the right, details from
+                    the New York City Draft Riots of 1863 are depicted, including the burning of the
+                    Colored Orphan's Asylum,the hanging of an African American man from a lamppost,
+                    and a white man brandishing a billy club. On the right, southern violence
+                    against freedpeople and their institutions is shown: a Freedman's School burns
+                    in the background, a lynched body hangs from a tree, and a masked member of the
+                    Ku Klux Klan brandishes a pistol. The title "Patience on a Monument" is a
+                    reference to a line from Shakespeare's Twelfth Night, describing a woman who
+                    "sat like Patience on a Monument, smiling at Grief." Our copy of this powerful
+                    cartoon by Thomas Nast is from a supplement to the Cincinnati Gazette; the image
+                    was also published in Harper's Weekly in the October 10, 1868, issue.</p>
             </div>
         </front>
 
         <body>
 
-            <div type="image_transcription" facs="#masthead" n="??">
+            <div type="image_transcription" facs="#masthead" n="1">
                 <head><supplied resp="editorial">Masthead</supplied></head>
-                <p>SUPPLEMENT TO THE CINCINNATI GAZETTE.</p>
+                <p>SUPPLEMENT TO THE <orgName key="ENT.000003598">CINCINNATI GAZETTE</orgName>.</p>
             </div>
-            <div type="image_transcription" facs="#top">
+            <div type="image_transcription" facs="#top" n="2">
                 <head><supplied resp="editorial">Man atop monument</supplied></head>
                 <p>US</p>
-                <p>EMANCIPATED BY A. LINCOLN</p>
+                <p>EMANCIPATED BY <persName key="ENT.000000447">A. LINCOLN</persName></p>
             </div>
-            <div type="image_transcription" facs="#title" n="??">
+            <div type="image_transcription" facs="#title" n="3">
                 <head><supplied resp="editorial">Title</supplied></head>
                 <p>PATIENCE ON A MONUMENT.</p>
             </div>
-            <div type="image_transcription" facs="#column" n="??">
+            <div type="image_transcription" facs="#column" n="4">
                 <head><supplied resp="editorial">Monument column</supplied></head>
                 <p>THE WHIPPING-POST.</p>
                 <p>HUNTED DOWN WITH BLOOD-HOUNDS.</p>
@@ -207,10 +254,11 @@
                 <p>FORT PILLOW MASSACRE.</p>
                 <p>"<hi rendition="#italics">Resolved by the Congress of the Confederate States of
                         America,</hi> That the thanks of Congress are due and are hereby cordially
-                    tendered to Major-General FORREST and other officers and men of his command, for
-                    their late brilliant and successful campaign in Mississippi, West Tennessee, and
-                    Kentucky—a campaign which has conferred on its authors fame as enduring as the
-                    records of the struggle which they have so brilliantly illustrated."</p>
+                    tendered to Major-General <persName key="ENT.000003601">FORREST</persName> and
+                    other officers and men of his command, for their late brilliant and successful
+                    campaign in Mississippi, West Tennessee, and Kentucky—a campaign which has
+                    conferred on its authors fame as enduring as the records of the struggle which
+                    they have so brilliantly illustrated."</p>
                 <p>NO QUARTER TO THE "NIGGER!"</p>
                 <p>NEW YORK RIOTS—BURNING OF THE COLORED ORPHAN ASYLUM; LAMP-POST GALLOWS.</p>
                 <p>HOMES BURNED.</p>
@@ -218,13 +266,15 @@
                 <p>"A NEGRO HAS NO RIGHTS WHICH A WHITE MAN IS BOUND TO RESPECT."</p>
                 <p>"THIS IS A WHITE MAN'S GOVERNMENT."</p>
                 <p>"The nigger and the white man are not likely to agree unless the nigger yields to
-                    the white man's views, which he can do, or die."—<hi rendition="#italics">The
-                        Jefferson</hi> (Texas).</p>
+                    the white man's views, which he can do, or die."—<hi rendition="#italics"
+                            ><orgName key="ENT.000003622">The Jefferson</orgName></hi> (Texas).</p>
                 <p>"We must make the negro understand we are the men we were when we held them in
-                    abject bondage."—<hi rendition="#italics">Meridian</hi> (Miss.) <hi
-                        rendition="#italics">Mercury</hi>.</p>
+                    abject bondage."—<orgName key="ENT.000003620"><hi rendition="#italics"
+                            >Meridian</hi> (Miss.) <hi rendition="#italics"
+                    >Mercury</hi></orgName>.</p>
                 <p>"Agree among yourselves, and act firmly on this agreement, that you will not
-                    employ any one who votes the Radical ticket."—WADE HAMPTON.</p>
+                    employ any one who votes the Radical ticket."—<persName key="ENT.000003603">WADE
+                        HAMPTON</persName>.</p>
                 <p>"And now I say that, unless the negroes submit to the intelligent guidance of the
                     powerful white race, their fate will be that of the Indians: they will be
                     exterminated. The negroes can only be happy and prosperous as long as they are
@@ -232,16 +282,17 @@
                     disfranchise the intelligence of the country, and make it subordinate to the
                     ignorance of the country; whenver it is sought to subordinate the white race of
                     the country to the black barbarism of the negro, the prosperity of the country
-                    is at an end."—BLAIR.</p>
+                    is at an end."—<persName key="ENT.000003602">BLAIR</persName>.</p>
                 <p>"We are bound to have a war of races, and when there is one drop of blood
                     spilled, we predict that it will flow as freely as does the Mississippi."—<hi
                         rendition="#italics">The Jefferson</hi> (Texas).</p>
             </div>
-            <div type="image_transcription" facs="#base">
+            <div type="image_transcription" facs="#base" n="5">
                 <head><supplied resp="editorial">Monument base</supplied></head>
-                <p>BULLETS—REBEL PROTESTS AGAINST REPUBLICAN MEETINGS: CAMILLA, GEORGIA. KU-KLUX
-                    KLAN.</p>
-                <p>NEGRO KILLED—"ONE VOTE LESS."—<hi rendition="#italics">Richmond Whig</hi>.</p>
+                <p>BULLETS—REBEL PROTESTS AGAINST REPUBLICAN MEETINGS: CAMILLA, GEORGIA. <orgName
+                        key="ENT.000003599">KU-KLUX KLAN</orgName>.</p>
+                <p>NEGRO KILLED—"ONE VOTE LESS."—<hi rendition="#italics"><orgName
+                            key="ENT.000003621">Richmond Whig</orgName></hi>.</p>
                 <p>EXPULSION OF COLORED MEMBERS OF THE HOUSE OF REPRESENTATIVES IN GEORGIA.</p>
                 <p>EXPELLED FROM THE JURY BOX.</p>
                 <p>FORCED AWAY FROM THE POLLS.</p>
@@ -249,24 +300,55 @@
                 <p>HUNG UP OR SHOT DOWN IN THE ROADS AND STREETS.</p>
                 <p>"COLORED CRIMINALS SUFFER SEVERER PUNISHMENT THAN WHITES GUILTY OF THE SAME
                     CRIMES."</p>
-                <p>WE DESPISE THE NEGRO."—<hi rendition="#italics">N.Y. World</hi>.</p>
+                <p>WE DESPISE THE NEGRO."—<hi rendition="#italics"><orgName key="ENT.000003608">N.Y.
+                            World</orgName></hi>.</p>
             </div>
-
-            <div type="image_transcription" facs="#asylum">
-                <head><supplied resp="editorial">New York Colored Orphan Asylum</supplied></head>
+            <div type="image_transcription" facs="#asylum" n="6">
+                <head><supplied resp="editorial"><orgName key="ENT.000003600">New York Colored
+                            Orphan Asylum</orgName></supplied></head>
                 <p>COLORED ORPHAN</p>
             </div>
-            <div type="image_transcription" facs="#school">
+            <div type="image_transcription" facs="#school" n="7">
                 <head><supplied resp="editorial">Freedmen's school</supplied></head>
                 <p>FREEDMAN SCHOOL</p>
             </div>
-            <div type="image_transcription" facs="#KKK">
-                <head><supplied resp="editorial">KKK member</supplied></head>
+            <div type="image_transcription" facs="#KKK" n="8">
+                <head><supplied resp="editorial"><orgName key="000003599">Ku Klux Klan</orgName>
+                        member</supplied></head>
                 <p>KKK</p>
             </div>
-            <div type="image_transcription" facs="#signature">
+            <div type="image_transcription" facs="#signature" n="9">
                 <head><supplied resp="editorial">Artist's signature</supplied></head>
-                <p>Th: Nast.</p>
+                <p><persName key="ENT.000000251">Th: Nast</persName>.</p>
+            </div>
+            <div type="image_annotation" facs="#north" n="10">
+                <head>Violence in the North</head>
+                <p>The backdrop to the left side of the monument depicts racially motivated violence
+                    against African Americans during the New York City Draft Riots of <date
+                        from="1863-07-13" to="1863-07-16">July 13-16, 1863</date>. White mobs who
+                    began by protesting the draft during the Civil War quickly ended up attacking
+                    black men, women, and children and vandalizing many their homes and businesses.
+                    The bodies of a lynching victim hanging from a lamppost and the bodies shown
+                    lying in the street are references to the more than 100 African Americans killed
+                    during the riots. The burning building in this cartoon is the <orgName
+                        key="ENT.000003600">Colored Orphan's Asylum</orgName>, which was burned to
+                    the ground on <date when="1863-07-13">July 13</date>. Luckily, all 233 children
+                    in residence were evacuated to safety.</p>
+            </div>
+            <div type="image_annotation" facs="#south" n="11">
+                <head>Violence in the South</head>
+                <p>The backdrop to the right side of the monument depicts racially motivated
+                    violence against African Americans in the Reconstruction South. The events
+                    depicted—the burning of a freedmen's school and the lynching of African
+                    Americans—took place in various places and at various times; to readers of the
+                    time, however, these illustrations would bring to mind especially the anti-black
+                    "riots" in Memphis and New Orleans that took place in the spring and summer of
+                        <date when="1866">1866</date>. A masked member of the Ku Klux Klan,
+                    brandishes a pistol above his head, mirroring the anti-black rioter waving a
+                    club on the other side of the monument. The KKK was founded in Pulaski,
+                    Tennessee, in <date when="1865">1865</date>, and quickly gained notoriety for
+                    acts of terroristic violence against African Americans and those who worked to
+                    achieve racial equality.</p>
             </div>
 
         </body>
