@@ -304,7 +304,7 @@
             </div>
             
             <div type="image_transcription" facs="#Puck" n="14">
-                <head><supplied resp="editorial">Puck</supplied></head>
+                <head><supplied resp="editorial"><orgName key="ENT.000000384">Puck</orgName></supplied></head>
                 <p>PUCK.</p>
             </div>
             
@@ -325,11 +325,11 @@
             
             <div type="image_transcription" facs="#Coins" n="18">
                 <head><supplied resp="editorial">Coins</supplied></head>
-                <p>$</p>
+                <p>$<note n="6" type="editorial">From the tree hang a large quanitity of dollar signs.</note></p>
             </div>
             
             <div type="image_annotation" facs="#Gould" n="19">
-                <head><supplied resp="editorial">Jay Gould</supplied></head>
+                <head><supplied resp="editorial"><persName key="ENT.000003559">Jay Gould</persName></supplied></head>
                <p>The two large branches of the tree form an image of Jay Gould, a railroad financier and "robber baron."</p>
             </div>
             

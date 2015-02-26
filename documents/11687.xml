@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-
 <?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 
@@ -223,7 +222,7 @@
         <front>
             <div type="editorial_desc">
                 <p>William Randolph Hearst owned the <hi rendition="#italics">New York Journal</hi> and the <hi rendition="#italics">San Francisco Examiner</hi> and in 1904 campaigned to become the democratic nominee.  He lost the nomination to Alton B. Parker in July 1904.  In the cartoon, William Randolph Hearst, dressed in formal attire, gives a toast to a cast of comic cartoon characters who are seated at a large table.  Most of the comic characters appeared in Hearst's newspapers.</p>
-                <p>Next to Hearst there is a waiter carrying a tray with drinks and a dinosaur who is eating a portrait of Theodore Roosevelt.  The comic cartoon character, Foxy Grandpa, is seated to Hearst's left.  On the window sill, characters from the <hi rendition="#italics">Little Tigers</hi> comic strip play musical instruments.  Hanz from the comic strip <hi rendition="#italics">Katzenjammer Kids</hi>, balances a champagne bottle on his nose.  His brother Fritz sprays champagne into der Captain's face. Mamma, the woman seated across from Fritz, looks stern and points her finger in disapproval. Alphose and Gaston, in the lower right corner of the image, whisper to each other.</p>
+                <p>Next to Hearst there is a waiter carrying a tray with drinks and a dinosaur who is eating a portrait of Theodore Roosevelt.  The comic cartoon character, Foxy Grandpa, is seated to Hearst's left.  On the window sill, characters from the <hi rendition="#italics">Little Tigers</hi> comic strip play musical instruments.  Hanz from the comic strip <hi rendition="#italics">Katzenjammer Kids</hi>, balances a champagne bottle on his nose.  His brother Fritz sprays champagne into der Captain's face. Mamma, the woman seated across from Fritz, looks stern and points her finger in disapproval. Alphose and Gaston, in the lower right corner of the image, bow to each other.</p>
                 
             </div>
         </front>
@@ -297,7 +296,7 @@
             
             <div type="image_annotation" n="14" facs="#Gus">
                 <head><supplied resp="editorial">Gloomy Gus</supplied></head>
-                <p>Gloomy Gus was a character in <persName key="ENT.000003616">Opper's</persName><hi rendition="#italics">Happy Hooligan</hi>.  In the political cartoon, he is dressed in ragged clothing and appears to stuff his pockets with the silverware and a bottle of champagne.</p>
+                <p>Gloomy Gus was a character in <persName key="ENT.000003616">Opper's</persName> <hi rendition="#italics">Happy Hooligan</hi>.  In the political cartoon, he is dressed in ragged clothing and appears to stuff his pockets with the silverware and a bottle of champagne.</p>
             </div>
             
             <div type="image_annotation" n="15" facs="#Dinosaur">

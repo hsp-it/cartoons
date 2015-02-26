@@ -72,7 +72,7 @@
                         <msItem>
                             <bibl>
                                 <date from="1884-06-04"
-                                    >June 4, 1884></date>
+                                    >June 4, 1884</date>
                                 <extent>1 loose page</extent>
       
                                 <listRelation>
@@ -117,7 +117,7 @@
                     </analytic>
                     <monogr>
                         <title type="marc245a" level="j"><orgName key="ENT.000000384"
-                                >Puck></orgName></title>
+                                >Puck</orgName></title>
                         <imprint>
                             <publisher><orgName key="ENT.000003163">Keppler &amp; Schwarzmann</orgName></publisher>
                                     
@@ -148,7 +148,7 @@
                     Archives and Documentary Editing program.</p>
             </projectDesc>
             <editorialDecl n="4">
-                <p><!-- ??This is where we'd describe any notable editorial decisions made about THIS document during encoding; use multiple p elements to list each. FYI, the @n of "4" shows that we're matching Library Best Practices of level 4.--></p>
+                
                 <p>This electronic file was created using manual keying following the
                     recommendations for Level 4 of "Best Practices for TEI in Libraries" guidelines
                     v3.0.</p>
@@ -342,7 +342,7 @@
             
             <div type="image_annotation" facs="#Bristow" n="19">
                 <head><supplied resp="editorial"><persName key="ENT.000003334">Benjamin Helm Bristow</persName></supplied></head>
-                <p>Benjamin Helm Bristow was a lawyer, the first Solicitor General of the United States, and the 30th US Secretary of the Treasury.  In the cartoon, he opens his eyes widely and has a suprised expression.</p>
+                <p>Benjamin Helm Bristow was a lawyer, the first Solicitor General of the United States, and the 30th US Secretary of the Treasury.  In the cartoon, he opens his eyes widely and has a surprised expression.</p>
             </div>
             
             <div type="image_annotation" facs="#Miller" n="20">

@@ -95,7 +95,7 @@
             <title type="marc245a" level="j"><orgName key="ENT.000000382">Wasp</orgName></title>
             <imprint>
               <pubPlace>San Francisco</pubPlace>
-              <date from="1881-11-11">1881-11-11</date>
+              <date from="1881-11-11">November 11, 1881</date>
               <biblScope unit="issue">276</biblScope>
               <publisher>
                 <orgName key="ENT.000003554">E. C. MacFarlane &amp; Co.</orgName>

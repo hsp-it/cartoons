@@ -104,7 +104,7 @@
                     <analytic>
                         <respStmt>
                             <resp key="art">Artist</resp>
-                            <persName key="ENT.000003547"/>
+                            <persName key="ENT.000003547">Charles Nelan</persName>
                             
                         </respStmt>
                         
@@ -113,8 +113,9 @@
                     <monogr>
                         <title type="marc245a" level="j"><orgName key="ENT.000003556">North American</orgName></title>
                         <imprint>
-                            <publisher><persName key="ENT.000003366"
-                                    >Thomas B. Wanamaker</persName></publisher>
+                            <publisher>
+                                <persName key="ENT.000003366">Thomas B. Wanamaker</persName>
+                            </publisher>
                             <pubPlace>Philadelphia</pubPlace>
                             <date from="1903-01-29">January 29, 1903</date>
                             
