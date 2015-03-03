@@ -235,7 +235,7 @@
             </div>
             
             <div type="image_annotation" facs="#Columbia" n="7">
-                <head><supplied resp="editorial">Columbia</supplied></head>
+                <head><supplied resp="editorial"><rs resp="cartoons_symbols.xml#columbia">Columbia</rs></supplied></head>
                 <p>In her right hand, Columbia raises the sword of justice.  She wears Roman armor and carries a banner.</p>
                 
             </div>

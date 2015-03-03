@@ -222,7 +222,7 @@
             </div>
             
             <div type="image_annotation" facs="#Sam" n="3">
-                <head><supplied resp="editorial">Uncle Sam</supplied></head>
+                <head><supplied resp="editorial"><rs ref="cartoons_symbols.xml#uncle_sam">Uncle Sam</rs></supplied></head>
                 <p>Uncle Sam is seated at his desk and writing with a feather pen.  He is wearing a vest with stars.</p>
             </div>
             
@@ -237,7 +237,7 @@
             </div>
             
             <div type="image_annotation" facs="#Columbia" n="5">
-                <head><supplied resp="editorial">Columbia</supplied></head>
+                <head><supplied resp="editorial"><rs resp="cartoons_symbols.xml#columbia">Columbia</rs></supplied></head>
                 <p>Columbia presents Theodore Roosevelt to Uncle Sam for a scolding.</p>
             </div>
             
