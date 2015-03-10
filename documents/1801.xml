@@ -17,7 +17,7 @@
 
                 <respStmt>
                     <resp key="ltg">Lithographer</resp>
-                    <persName key="ENT.000000380">Mayer Merkel &amp; Ottomann</persName>
+                    <orgName key="ENT.000000380">Mayer, Merkel &amp; Ottomann</orgName>
                 </respStmt>
 
                 <respStmt>
@@ -119,7 +119,7 @@
 
                         <respStmt>
                             <resp key="ltg">Lithographer</resp>
-                            <persName key="ENT.000000380">Mayer, Merkel &amp; Ottmann </persName>
+                            <orgName key="ENT.000000380">Mayer, Merkel &amp; Ottmann </orgName>
                         </respStmt>
 
                         <title type="main" level="a">Let us have Peace, Now A President's Elected
