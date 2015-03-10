@@ -171,7 +171,7 @@
                 <catRef target="cartoons_taxonomies.xml#African_American"/>
                 <catRef target="cartoons_taxonomies.xml#culture"/>
                 <catRef target="cartoons_genres.xml#clippings"/>
-                <!--  genre: clippings -->
+                <catRef target="cartoons_genres.xml#political_cartoons"/>
             </textClass>
         </profileDesc>
 
@@ -219,10 +219,12 @@
                     against freedpeople and their institutions is shown: a Freedman's School burns
                     in the background, a lynched body hangs from a tree, and a masked member of the
                     Ku Klux Klan brandishes a pistol. The title "Patience on a Monument" is a
-                    reference to a line from Shakespeare's Twelfth Night, describing a woman who
-                    "sat like Patience on a Monument, smiling at Grief." Our copy of this powerful
-                    cartoon by Thomas Nast is from a supplement to the Cincinnati Gazette; the image
-                    was also published in Harper's Weekly in the October 10, 1868, issue.</p>
+                    reference to a line from Shakespeare's <hi rendition="#italics">Twelfth
+                        Night</hi>, describing a woman who "sat like Patience on a Monument, smiling
+                    at Grief." Our copy of this powerful cartoon by Thomas Nast is from a supplement
+                    to the <hi rendition="#italics">Cincinnati Gazette</hi>; the image was also
+                    published in <hi rendition="#italics">Harper's Weekly</hi> in the October 10,
+                    1868, issue.</p>
             </div>
         </front>
 
