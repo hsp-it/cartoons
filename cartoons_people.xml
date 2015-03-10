@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-
 <?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 
@@ -65,7 +64,7 @@
             </projectDesc>
         </encodingDesc>
         <revisionDesc>
-            <change who="HSP" when="2015-03-09">Exported from Collective Access.</change>
+            <change who="HSP" when="2015-03-10">Exported from Collective Access.</change>
         </revisionDesc>
     </teiHeader>
 
@@ -73,17 +72,6 @@
         <body>
             <div type="ography">
                 <listPerson>
-<person xml:id="ENT.000003378">
-  <persName key="ENT.000003378">
-    <forename type="first">William</forename>
-    <forename type="middle">Henry</forename>
-    <surname type="last">Robertson</surname>
-  </persName>
-  <birth when="1823">1823</birth>
-  <death when="1898">1898</death>
-  <sex>Male</sex>
-  <note type="internal">depicted in 11585-Bc612P567_1_TEI.xml ; http://id.loc.gov/authorities/names/no2009045320.html</note>
-</person>
 <person xml:id="ENT.000002503">
   <persName key="ENT.000002503">
     <forename type="first">John</forename>
@@ -295,6 +283,18 @@
   <bibl><bibl>Conkling, Roscoe.  Biographical Directory of the United States Congress.  Last Accessed February 3, 2015.  http://bioguide.congress.gov/scripts/biodisplay.pl?index=c000681</bibl><bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). Historical dictionary of the Gilded Age. Armonk, N.Y.: M.E. Sharpe. </bibl></bibl>
   <note type="internal">LOC:  http://id.loc.gov/authorities/names/n85363319.html</note>
 </person>
+<person xml:id="ENT.000003633">
+  <persName key="ENT.000003633">
+    <forename type="first">Tennessee</forename>
+    <forename type="middle">Celeste</forename>
+    <surname type="last">Claflin</surname>
+    <addName type="alt">Tennessee Claflin Cook</addName>
+  </persName>
+  <birth when="1845">1845</birth>
+  <death when="1923">1923</death>
+  <sex>Female</sex>
+  <note type="internal">http://id.loc.gov/authorities/names/n80109890.html; depicted in 11747</note>
+</person>
 <person xml:id="ENT.000003572">
   <persName key="ENT.000003572">
     <forename type="first">Alonzo</forename>
@@ -473,7 +473,7 @@
   <birth when="1831">1831</birth>
   <death when="1881">1881</death>
   <sex>Male</sex>
-  <note type="biography">James Abram Garfield was the 20th president of the United States and was assassinated 200 days into his presidency.  He was born on November 19, 1831 in Ohio, and lost his father when he was two years old.  He graduated in 1856 from Williams College, became a classics professor, and served as president of the Western Reserve Eclectic Institute.  He became a state senator in 1859 and later a major general in the Union Army.  He served nine consecutive terms in the US House of Representatives from 1863 to 1880.  In 1880 Republicans nominated Garfield as their presidential candidate.  He won a narrow victory against his Democratic opponent Winfield S. Hancock.  As president, Garfield fought for civil service reform and called for an investigation of the Post Office.  On July 2, 1881 Charles Guiteau shot the President in a Washington D.C Railway Station.  Due to his injuries, Garfield was no longer able to govern and died eighty days later on September 19, 1881.</note>
+  <note type="biography">James Abram Garfield was the 20th president of the United States and was assassinated 200 days into his presidency.  He was born on November 19, 1831 in Ohio, and lost his father when he was two years old.  He graduated in 1856 from Williams College, became a classics professor, and served as president of the Western Reserve Eclectic Institute.  He became a state senator in 1859 and later a major general in the Union Army.  He served nine consecutive terms in the US House of Representatives from 1863 to 1880.  In 1880 Republicans nominated Garfield as their presidential candidate.  He won a narrow victory against his Democratic opponent Winfield S. Hancock.  As president, Garfield fought for civil service reform and called for an investigation of the Post Office.  On July 2, 1881 Charles Guiteau shot the President in a Washington D.C Railway Station.  Garfield died eighty days later on September 19, 1881.</note>
   <bibl><bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). <hi rendition="#italics">Historical dictionary of the Gilded Age</hi>. Armonk, N.Y.: M.E. Sharpe. </bibl><bibl> “James Garfield,” <hi rendition="#italics">Whitehouse.gov</hi>, accessed January 21, 2015, http://www.whitehouse.gov/1600/presidents/jamesgarfield.</bibl></bibl>
   <note type="internal">LOC:  http://id.loc.gov/authorities/names/n50015182
 </note>
@@ -955,6 +955,17 @@ fourth president of the United States (1809-1817). Not to be confused with James
   <sex>Male</sex>
   <note type="internal">depicted in 11585-Bc612P567_1_TEI.xml ; http://id.loc.gov/authorities/names/n50050931.html</note>
 </person>
+<person xml:id="ENT.000003378">
+  <persName key="ENT.000003378">
+    <forename type="first">William</forename>
+    <forename type="middle">Henry</forename>
+    <surname type="last">Robertson</surname>
+  </persName>
+  <birth when="1823">1823</birth>
+  <death when="1898">1898</death>
+  <sex>Male</sex>
+  <note type="internal">depicted in 11585-Bc612P567_1_TEI.xml ; http://id.loc.gov/authorities/names/no2009045320.html</note>
+</person>
 <person xml:id="ENT.000002738">
   <persName key="ENT.000002738">
     <forename type="first">Theodore</forename>
@@ -1019,6 +1030,17 @@ fourth president of the United States (1809-1817). Not to be confused with James
     <surname type="last">Smith</surname>
   </persName>
   <note type="internal">This is a person whose name was handwritten on a cartoon featured in the HINT project.  No further information is known about this entity.</note>
+</person>
+<person xml:id="ENT.000003631">
+  <persName key="ENT.000003631">
+    <forename type="first">Henry</forename>
+    <forename type="middle">Louis</forename>
+    <surname type="last">Stephens</surname>
+  </persName>
+  <birth when="1824">1824</birth>
+  <death when="1882">1882</death>
+  <sex>Male</sex>
+  <note type="internal">http://id.loc.gov/authorities/names/n50022429.html; artist of 11747</note>
 </person>
 <person xml:id="ENT.000003383">
   <persName key="ENT.000003383">
@@ -1101,6 +1123,28 @@ http://id.loc.gov/authorities/names/n79022244.html</note>
     <surname type="last">Unknown Artist</surname>
   </persName>
 </person>
+<person xml:id="ENT.000003634">
+  <persName key="ENT.000003634">
+    <forename type="first">Cornelius</forename>
+    <surname type="last">Vanderbilt</surname>
+    <addName type="alt">Commodore Vanderbilt</addName>
+  </persName>
+  <birth when="1794">1794</birth>
+  <death when="1877">1877</death>
+  <sex>Male</sex>
+  <note type="internal">http://id.loc.gov/authorities/names/n50045037.html; depicted in 11747</note>
+</person>
+<person xml:id="ENT.000003630">
+  <persName key="ENT.000003630">
+    <forename type="first">James</forename>
+    <forename type="middle">Albert</forename>
+    <surname type="last">Wales</surname>
+  </persName>
+  <birth when="1852">1852</birth>
+  <death when="1886">1886</death>
+  <sex>Male</sex>
+  <note type="internal">LOC:  http://id.loc.gov/authorities/names/n95002906</note>
+</person>
 <person xml:id="ENT.000003366">
   <persName key="ENT.000003366">
     <forename type="first">Thomas</forename>
@@ -1165,6 +1209,16 @@ http://strippersguide.blogspot.com/2012/11/ink-slinger-profiles-op-williams.html
   <death when="1924">1924</death>
   <sex>Male</sex>
   <note type="internal">LOC:  http://id.loc.gov/authorities/names/n79046299</note>
+</person>
+<person xml:id="ENT.000002960">
+  <persName key="ENT.000002960">
+    <forename type="first">Victoria</forename>
+    <forename type="middle">C. (Victoria Claflin)</forename>
+    <surname type="last">Woodhull</surname>
+  </persName>
+  <birth when="1838">1838</birth>
+  <death when="1927">1927</death>
+  <note type="internal">depicted in 11747</note>
 </person>
 <person xml:id="ENT.000003536">
   <persName key="ENT.000003536">
