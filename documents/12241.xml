@@ -176,7 +176,7 @@
         </profileDesc>
 
         <revisionDesc>
-            
+            <change who="DianeBiunno" when="2015-02-25">Encoded to featured level</change>
             <change who="DianeBiunno" when="2015-02-25">Encoded to basic level</change>
             <change who="RachelMoloshok" when="2015-01-07">Template file created</change>
         </revisionDesc>
@@ -223,7 +223,7 @@
             <div type="image_transcription" facs="#Basket" n="3">
                 <head><supplied resp="editorial"><orgName key="ENT.000003626">Standard Oil</orgName></supplied></head>
                 <p>STANDARD OIL</p>
-                <p>$ <note n="1" type="editorial">An oil can depicted as baby lays cries in the basket.  It is covered in dollar signs.</note></p>
+                <p>$ <note n="1" type="editorial">An oil can depicted as baby cries in a basket.  The baby is covered in dollar signs.</note></p>
             </div>
             
             <div type="image_transcription" facs="#Door" n="4">
