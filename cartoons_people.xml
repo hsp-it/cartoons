@@ -64,7 +64,7 @@
             </projectDesc>
         </encodingDesc>
         <revisionDesc>
-            <change who="HSP" when="2015-03-10">Exported from Collective Access.</change>
+            <change who="HSP" when="2015-03-11">Exported from Collective Access.</change>
         </revisionDesc>
     </teiHeader>
 
@@ -118,6 +118,18 @@
   <death when="1869">1869</death>
   <sex>Male</sex>
   <note type="internal">depicted in 11561; 11563; http://bioguide.congress.gov/scripts/biodisplay.pl?index=B000340; http://id.loc.gov/authorities/names/n87887395.html</note>
+</person>
+<person xml:id="ENT.000003636">
+  <persName key="ENT.000003636">
+    <forename type="first">Bellew</forename>
+    <forename type="middle">Frank</forename>
+    <addName type="alt">Frank Henry Temple Bellew</addName>
+  </persName>
+  <birth when="1828-04-18">1828-04-18</birth>
+  <death when="1888-06-29">1888-06-29</death>
+  <sex>Male</sex>
+  <note type="biography">Political cartoonist</note>
+  <note type="internal">http://id.loc.gov/authorities/names/n85352256.html - drew "Lincoln's Last Warning," DAMS #2188, page 2.</note>
 </person>
 <person xml:id="ENT.000000552">
   <persName key="ENT.000000552">
@@ -363,6 +375,18 @@
   <sex>Male</sex>
   <bibl>http://id.loc.gov/authorities/names/n87947371.html</bibl>
   <note type="internal">cartoonist ; artist and engraver of 2562-Bb612L615_1_TEI.xml (Liberty Triumphant)</note>
+</person>
+<person xml:id="ENT.000003637">
+  <persName key="ENT.000003637">
+    <forename type="first">George</forename>
+    <forename type="middle">Wallace</forename>
+    <surname type="last">Delamater</surname>
+  </persName>
+  <birth when="1849-03-31">1849-03-31</birth>
+  <death when="1907-08-07">1907-08-07</death>
+  <sex>Male</sex>
+  <note type="internal">Pennsylvania State Senator from 1887-1890; depicted in DAMS #11737, "The Silence of Matt Quay."
+See http://politicalgraveyard.com/death/offices.html; https://books.google.com/books?id=h68bAQAAMAAJ&amp;pg=PA10&amp;lpg=PA10&amp;dq=pa+senator+george+w.+delamater&amp;source=bl&amp;ots=FsL_qPMdN4&amp;sig=xFJCQ6KjdUFFkGITQSL6kxyW2GY&amp;hl=en&amp;sa=X&amp;ei=ejj_VNfBE8aZNpC6hJAM&amp;ved=0CCsQ6AEwAw#v=onepage&amp;q&amp;f=false; http://www.historicpa.net/bios/2g/george-w-delamater.html</note>
 </person>
 <person xml:id="ENT.000003344">
   <persName key="ENT.000003344">
@@ -702,14 +726,6 @@ mentioned in 11585-Bc612P567_1_TEI.xml; painted Phryne Before the Aeropagus</not
   <sex>Male</sex>
   <note type="internal">http://id.loc.gov/authorities/names/n87932523.html</note>
 </person>
-<person xml:id="ENT.000000961">
-  <persName key="ENT.000000961">
-    <surname type="last">King &amp; Baird</surname>
-  </persName>
-  <note type="biography"><p>Founded in 1838 at 607 Sansom Street in Philadelphia, King and Baird Printers were among the largest print shops in the city. In its early years, Robert P. King and Alexander Baird were the only two employees of the firm, King working as compositor, solicitor, bookkeeper, foreman, proofreader, and purchaser, while Baird operated a single hand press. By the time of Baird’s death in 1868, the business had grown to include over 120 employees and 20 presses, some powered by steam. The firm was well known for publishing in German and other foreign languages including Swedish and Norwegian, as well as printing in the Cherokee syllabary, and in Grebo, a West African language. </p></note>
-  <bibl><bibl>“American Dictionary of Printing and Bookmaking,” Google Books, accessed March 3, 2015, https://books.google.com/books?id=nuc-AAAAYAAJ&amp;pg=PA316&amp;lpg=PA316&amp;dq=robert+p.+king+philadelphia+printer&amp;source=bl&amp;ots=oeBSFr9nzJ&amp;sig=YUxvIrLUnU-FsvdjrFHUQpMXkw4&amp;hl=en&amp;sa=X&amp;ei=8dnwVJ7pAomjgwTZ0oFg&amp;ved=0CEEQ6AEwBw#v=onepage&amp;q=alexander baird&amp;f=false</bibl><bibl>“Robert P King (1815 - 1868),” Find A Grave Photos, accessed March 3, 2015, http://www.findagrave.com/cgi-bin/fg.cgi?page=pv&amp;GRid=68901464&amp;PIpi=41532436</bibl></bibl>
-  <note type="internal">LOC:  http://id.loc.gov/authorities/names/nr91044076.html</note>
-</person>
 <person xml:id="ENT.000000447">
   <persName key="ENT.000000447">
     <forename type="first">Abraham</forename>
@@ -841,9 +857,9 @@ fourth president of the United States (1809-1817). Not to be confused with James
 </person>
 <person xml:id="ENT.000003616">
   <persName key="ENT.000003616">
-    <forename type="first">Opper</forename>
+    <forename type="first">Frederick</forename>
     <forename type="middle">Burr</forename>
-    <surname type="last">Frederick</surname>
+    <surname type="last">Opper</surname>
   </persName>
   <birth when="1857">1857</birth>
   <death when="1937">1937</death>
@@ -881,12 +897,12 @@ fourth president of the United States (1809-1817). Not to be confused with James
 </person>
 <person xml:id="ENT.000003543">
   <persName key="ENT.000003543">
-    <forename type="first">Matthew</forename>
-    <forename type="middle">Calbraith</forename>
+    <forename type="first">Oliver</forename>
+    <forename type="middle">Hazard</forename>
     <surname type="last">Perry</surname>
   </persName>
-  <birth when="1794">1794</birth>
-  <death when="1858">1858</death>
+  <birth when="1785">1785</birth>
+  <death when="1819">1819</death>
   <note type="internal">referenced in 11812.xml</note>
 </person>
 <person xml:id="ENT.000003375">
@@ -933,6 +949,10 @@ fourth president of the United States (1809-1817). Not to be confused with James
     <forename type="middle">Stanley</forename>
     <surname type="last">Quay</surname>
   </persName>
+  <birth when="1833-09-30">1833-09-30</birth>
+  <death when="1904-05-28">1904-05-28</death>
+  <sex>Male</sex>
+  <note type="internal">Appears in DAMS #11737, "The Silence of Matt Quay."</note>
 </person>
 <person xml:id="ENT.000003376">
   <persName key="ENT.000003376">
@@ -1026,7 +1046,8 @@ fourth president of the United States (1809-1817). Not to be confused with James
 </person>
 <person xml:id="ENT.000003587">
   <persName key="ENT.000003587">
-    <forename type="first">HN</forename>
+    <forename type="first">H.</forename>
+    <forename type="middle">N.</forename>
     <surname type="last">Smith</surname>
   </persName>
   <note type="internal">This is a person whose name was handwritten on a cartoon featured in the HINT project.  No further information is known about this entity.</note>
@@ -1117,6 +1138,19 @@ http://id.loc.gov/authorities/names/n79022244.html</note>
   <death when="1788">1788</death>
   <sex>Male</sex>
   <note type="internal">mentioned in 2562-Bb612L615_1_TEI.xml (Liberty Triumphant) ; http://id.loc.gov/authorities/names/n81027825.html</note>
+</person>
+<person xml:id="ENT.000003638">
+  <persName key="ENT.000003638">
+    <forename type="first">William</forename>
+    <forename type="middle">Marcy</forename>
+    <surname type="last">Tweed</surname>
+    <addName type="alt">Tweed, Boss, 1823-1878</addName>
+    <addName type="alt">Tweed, William Magear, 1823-1878</addName>
+  </persName>
+  <birth when="1823-04-03">1823-04-03</birth>
+  <death when="1878-04-12">1878-04-12</death>
+  <sex>Male</sex>
+  <note type="internal">Depicted as a lizard in "The Silence of Matt Quay," DAMS #11737</note>
 </person>
 <person xml:id="ENT.000000553">
   <persName key="ENT.000000553">
@@ -1213,11 +1247,13 @@ http://strippersguide.blogspot.com/2012/11/ink-slinger-profiles-op-williams.html
 <person xml:id="ENT.000002960">
   <persName key="ENT.000002960">
     <forename type="first">Victoria</forename>
-    <forename type="middle">C. (Victoria Claflin)</forename>
+    <forename type="middle">Claflin</forename>
     <surname type="last">Woodhull</surname>
+    <addName type="alt">Victoria California Claflin</addName>
   </persName>
   <birth when="1838">1838</birth>
   <death when="1927">1927</death>
+  <sex>Female</sex>
   <note type="internal">depicted in 11747</note>
 </person>
 <person xml:id="ENT.000003536">
