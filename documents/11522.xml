@@ -1,0 +1,234 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="English">
+
+        <fileDesc>
+
+            <titleStmt>
+                <title type="main">TEI transcription of Revising It</title>
+                <respStmt>
+                    <resp key="art">Artist</resp>
+                    <persName key="ENT.000000436"
+                        >John L. De Mar</persName>
+                </respStmt>
+                
+                <respStmt>
+                    <resp key="trc">Transcribed by</resp>
+                    <persName key="ENT.000003544">Diane Biunno</persName>
+                </respStmt>
+                <respStmt>
+                    <resp key="mrk">Encoded by</resp>
+                    <persName key="ENT.000003544">Diane Biunno</persName>
+                </respStmt>
+                
+            </titleStmt>
+
+            <editionStmt>
+                <p>First edition, <date when="2015">2015</date></p>
+            </editionStmt>
+
+            <publicationStmt>
+                <publisher><orgName key="ENT.000002473">Historical Society of
+                    Pennsylvania</orgName></publisher>
+                <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
+                <idno type="filename"
+                    >11522</idno>
+                <availability status="restricted">
+                    <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of
+                        copyright only to original contributions made by the Historic Images, New
+                        Technologies (HINT) Project participants and other staff. HSP makes no claim
+                        of copyright to the original text. Permission is granted to download,
+                        transmit or otherwise reproduce, distribute or display the text
+                        contributions to this work claimed by HSP for non-profit educational
+                        purposes, provided that this header is included in its entirety. For
+                        inquiries about commercial uses, please contact the Historical Society of
+                        Pennsylvania. HSP retains the rights of all images unless otherwise noted.
+                        Possession of an HSP digital image does not constitute permission to use or
+                        publish it. Requests for digital imaging, other reproduction services, and
+                        the intended use of reproductions must be made in writing to the Rights and
+                        Reproductions Coordinator at rnr@hsp.org.</p>
+                </availability>
+                <date when="2015"/>
+            </publicationStmt>
+
+            <seriesStmt>
+                <title level="s" type="project" key="CARTOONS"/>
+            </seriesStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository key="ENT.000002473"/>
+                        <collection key="3133">Historical Society of Pennsylvania Cartoons and Caricatures Collection</collection>
+                        
+                        <idno type="citation">
+                            <idno type="box">2</idno> 
+                            <idno type="folder">8</idno>
+                        </idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <bibl>
+                                <date from="1907-11-08"
+                                    >November 8, 1907</date>
+                                <extent>1 loose page</extent>
+                                <listRelation>
+                                    <relation name="depicted" active="ENT.000002738"/>                                 
+                                </listRelation>
+                            </bibl>
+                        </msItem>
+                    </msContents>
+
+                    <history>
+                        <acquisition>This is an artificial collection created over time by HSP staff mostly through donations and purchases of individual prints. It also incorporates previously uncataloged materials collected by the Balch Institute for Ethnic Studies. Some of the 20th century cartoons and drawings were removed from the J. Hampton Moore papers (Collection 1541).</acquisition>
+                    </history>
+                </msDesc>
+                <biblStruct>
+                    <analytic>
+                        <respStmt>
+                            <resp key="art">Artist</resp>
+                            <persName key="ENT.000000436">John L. De Mar</persName>
+                        </respStmt>
+                        
+                        <title type="main" level="a">Revising It</title>
+                    </analytic>
+                    <monogr>
+                        <title type="marc245a" level="j"><orgName key="ENT.000000437"
+                            >Philadelphia Record</orgName></title>
+                        <imprint>
+                            <publisher><orgName key="ENT.000003387">Unknown</orgName></publisher>
+                            <pubPlace>Philadelphia</pubPlace>
+                            <date from="1907-11-08">November 8, 1907</date>
+                            <biblScope/>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <projectDesc>
+                <p>The Historic Images, New Technologies (HINT) project aims to enhance description
+                    and discovery of the Historical Society of Pennsylvania's graphics materials and
+                    promote the linking and sharing of content among institutions and scholars. The
+                    project will result in an update to HSP's digital image viewer and an online
+                    digital history exhibit that will demonstrate the new viewer's capabilities and
+                    provide interpretive and contextual materials to encourage users to interact
+                    with historical images in new ways. This project was funded by a grant from the
+                    National Historical Publications and Records Commission's (NHPRC) Innovation in
+                    Archives and Documentary Editing program.</p>
+            </projectDesc>
+            <editorialDecl n="4">
+                <p>This electronic file was created using manual keying following the
+                    recommendations for Level 4 of "Best Practices for TEI in Libraries" guidelines
+                    v3.0.</p>
+                <p>This xml file uses unique entity identifiers, media file identifiers, and
+                    collection identifiers in HSP's Digital Library, available at
+                    http://digitallibrary.hsp.org.</p>
+
+            </editorialDecl>
+            <tagsDecl>
+                <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
+                <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
+                <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
+                <rendition scheme="css" xml:id="crossed-through">text-decoration:
+                    line-through</rendition>
+                <rendition scheme="other" xml:id="printed"/>
+                <rendition scheme="other" xml:id="typescript"/>
+                <rendition scheme="other" xml:id="handwritten"/>
+                <rendition scheme="other" xml:id="handwritten-underlined"/>
+                <rendition scheme="other" xml:id="handwritten-circled"/>
+                <rendition scheme="other" xml:id="handwritten-crossed-through"/>
+                <rendition scheme="other" xml:id="double-underline"/>
+                <rendition scheme="other" xml:id="stamp"/>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+        </encodingDesc>
+
+        <profileDesc>
+            <textClass>
+                <catRef target="cartoons_taxonomies.xml#econ"/>
+                <catRef target="cartoons_taxonomies.xml#lesson_plan"/>
+                <catRef target="cartoons_taxonomies.xml#twentieth"/>
+                <catRef target="cartoon_genres.xml#clippings"/>
+                <catRef target="cartoon_genres.xml#political_cartoons"/>
+                
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            
+            <change who="DianeBiunno" when="2015-03-18">Encoded to lesson plan level</change>
+            <change who="DianeBiunno" when="2015-03-18">Encoded to basic level</change>
+            <change who="RachelMoloshok" when="2015-01-07">Template file created</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <facsimile>
+        
+        <surface ulx="" uly="" lrx="" lry="">
+            
+            <graphic
+                url="FIL.000085209"/>
+           
+            <zone n="1" xml:id="Title" points=""/>
+            <zone n="2" xml:id="Message" points=""/>
+            <zone n="3" xml:id="Paper" points=""/>
+            <zone n="4" xml:id="Chair" points=""/>
+            <zone n="5" xml:id="Building" points=""/>
+            <zone n="6" xml:id="Roosevelt" points=""/>
+            
+        </surface>
+    </facsimile>
+
+    <text>
+      
+        <front>
+            <div type="editorial_desc">
+                <p>The cartoon pokes fun at Theodore Roosevelt's image as a trust buster.  Roosevelt sits on his chair labeled "T.R." and revises his presidential plan by removing all of his "trust busting clubs."  Many of his clubs are in the waste paper basket or on the floor.  In the background there is an image of a building supported by three beams which is about to collapse.  The building is labeled "financial system."</p>
+            </div>
+        </front>
+
+        <body>
+            <div type="image_transcription" facs="#Title" n="1">
+                <head><supplied resp="editorial">Title and notes</supplied></head>
+                <p>REVISING IT</p>
+                <p><add rendition="#handwritten">Philad Record 11-8-07-</add></p>
+                <p>-By De Mar.</p>
+            </div>
+            
+            <div type="image_transcription" facs="#Message" n="2">
+                <head><supplied resp="editorial">President's Message</supplied></head>
+                <p>PRESIDENT'S MESSAGE TO CONGRESS</p>
+                <p>WALLSTREET</p>
+            </div>
+            
+            <div type="image_transcription" facs="#Paper" n="3">
+                <head><supplied resp="editorial">Presidential plan</supplied></head>
+                <p>CORPORATIONS</p>
+                <p>TRUSTS</p>
+            </div>
+            
+            <div type="image_transcription" facs="#Chair" n="4">
+                <head><supplied resp="editorial">Chair</supplied></head>
+                <p>T.R.</p>
+            </div>
+            
+            <div type="image_transcription" facs="#Building" n="5">
+                <head><supplied resp="editorial">Financial building</supplied></head>
+                <p>FINANCIAL SITUATION</p>
+            </div>
+            
+            <div type="image_annotation" facs="#Roosevelt" n="6">
+                <head><supplied resp="editorial"><persName key="ENT.000002738">Theodore Roosevelt</persName></supplied></head>
+                <p>Theodore Roosevelt served as US president from 1901 to 1909 and became known as the "trust buster."  The cartoon pokes fun at his image by depicting him cutting out all the "trust busting clubs" from his presidential plan.</p>
+            </div>
+        </body>
+
+        <back/>
+    </text>
+</TEI>

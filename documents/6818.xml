@@ -130,7 +130,7 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <catRef target="cartoons_genres.xml#Clippings"/>
+        <catRef target="cartoons_genres.xml#clippings"/>
         <catRef target="cartoons_taxonomies.xml#lesson plan"/>
         <catRef target="cartoons_taxonomies.xml#twentieth"/>
         <catRef target="cartoons_taxonomies.xml#Pennsylvania"/>

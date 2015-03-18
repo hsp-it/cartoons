@@ -177,7 +177,7 @@
                 <catRef target="cartoons_taxonomies.xml#stereotypes"/>
                 <catRef target="cartoons_taxonomies.xml#immigration"/>
                 <catRef target="cartoons_taxonomies.xml#labor"/>
-                <catRef target="cartoon_genres.xml#Lithographs"/>
+                <catRef target="cartoon_genres.xml#lithographs"/>
                 
             </textClass>
         </profileDesc>
