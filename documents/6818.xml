@@ -1,6 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-
-
 <?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
@@ -110,16 +108,17 @@
                     
                     
                     <monogr>
-                        <title type="marc245a" level="j"><orgName key="ENT.000003387"
-                            >Unknown</orgName></title>
+                        <title type="marc245a" level="j">
+                            <orgName key="ENT.000003387">Unknown</orgName>
+                        </title>
+                        
                         <imprint>
-                            <publisher><orgName key="ENT.000003387"
-                                >Unknown</orgName></publisher>
+                            <publisher><orgName key="ENT.000003387">
+                                Unknown</orgName></publisher>
                             <pubPlace>Unknown</pubPlace>
                             <date from="1903-01-01" to="1903-01-31"
                                 >circa January 1903</date>
-                           
-                                
+     
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -175,7 +174,7 @@
                 <catRef target="cartoons_taxonomies.xml#twentieth"/>
                 <catRef target="cartoons_taxonomies.xml#Pennsylvania"/>
                 <catRef target="cartoons_taxonomies.xml#elections"/>
-                <catRef target="cartoon_genres.xml#Clippings"/>
+                <catRef target="cartoon_genres.xml#clippings"/>
                 
             </textClass>
         </profileDesc>
@@ -251,13 +250,13 @@
                 <p>PENNSYLVANIA POLITICS</p>
             </div>
             
-            <div type="image_transcription" facs="#Sam" n="8">
+            <div type="image_annotation" facs="#Sam" n="8">
                 <head><supplied resp="editorial"><persName key="ENT.000000557">Samuel W. Pennypacker</persName></supplied></head>
                 <p>Samuel W. Pennypacker was Pennsylvania's 23rd governor who served from 1903 to 1907.  In the image, he is depicted as cleaning up "Pennsylvania politics" with his mop and "decent politics suds."  Matthew Quay, his cousin and corrupt political ally who helped him win the 1902 gubernatorial election, looks on disapprovingly and asks "Is that my reward?".</p>
             </div>
             
             
-            <div type="image_transcription" facs="#M_quay" n="9">
+            <div type="image_annotation" facs="#M_quay" n="9">
                 <head><supplied resp="editorial"><persName key="ENT.000001953">Matthew Quay</persName></supplied></head>
                 <p>Matthew Quay was one of Pennsylvania's most powerful and corrupt political bosses, and Samuel Pennypacker's cousin.  Using his political influence, Quay helped Pennypacker win the 1902 gubernatorial election.</p>
             </div>
