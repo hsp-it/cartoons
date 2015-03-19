@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  
   <teiHeader xml:lang="English">
     <fileDesc>
       <titleStmt>
@@ -26,11 +26,10 @@
       </titleStmt>
       <editionStmt><p>First edition, <date when="2015">2015</date></p></editionStmt>
       <publicationStmt>
-        <publisher>
-          <orgName key="ENT.000002473">Historical Society of Pennsylvania</orgName></publisher>
+        <publisher><orgName key="ENT.000002473">Historical Society of Pennsylvania</orgName></publisher>
         <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
         <idno type="filename">6818</idno>
-        <availability status="restricted"><p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of copyright only to original contributions made by the Historic Images, New Technologies (HINT) Project participants and other staff. HSP makes no claim of copyright to the original text. Permission is granted to download,          transmit or otherwise reproduce, distribute or display the text contributions to this work claimed by HSP for non-profit educational purposes, provided that this header is included in its entirety. For inquiries about commercial uses, please contact the Historical Society of Pennsylvania. HSP retains the rights of all images unless otherwise noted.  Possession of an HSP digital image does not constitute permission to use or publish it. Requests for digital imaging, other reproduction services, and                the intended use of reproductions must be made in writing to the Rights and Reproductions Coordinator at rnr@hsp.org.</p></availability>
+        <availability status="restricted"><p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of copyright only to original contributions made by the Historic Images, New Technologies (HINT) Project participants and other staff. HSP makes no claim of copyright to the original text. Permission is granted to download, transmit or otherwise reproduce, distribute or display the text contributions to this work claimed by HSP for non-profit educational purposes, provided that this header is included in its entirety. For inquiries about commercial uses, please contact the Historical Society of Pennsylvania. HSP retains the rights of all images unless otherwise noted.  Possession of an HSP digital image does not constitute permission to use or publish it. Requests for digital imaging, other reproduction services, and the intended use of reproductions must be made in writing to the Rights and Reproductions Coordinator at rnr@hsp.org.</p></availability>
         <date when="2015">2015</date>
       </publicationStmt>
       <seriesStmt>
@@ -59,6 +58,7 @@
                 <listRelation>
                   <relation name="depicted" active="ENT.000000557"/>
                   <relation name="depicted" active="ENT.000001953"/>
+                  
                 </listRelation>
               </bibl>
             </msItem>
@@ -147,15 +147,15 @@
   <facsimile>
     <surface ulx="0" uly="0" lrx="100" lry="100">
       <graphic url="FIL.000034011"/>
-      <zone n="1" xml:id="Title" points="29.4,14.9 71,15.08 71.27,17.11 28.76,17.2"/>
-      <zone n="2" xml:id="Artist" points="82.23,73.94 81.63,78.99 77,81.96 71.55,79.27"/>
-      <zone n="3" xml:id="Quay" points="73.69,21.39 78.07,20.36 75.15,22.99 69.42,24.71"/>
-      <zone n="4" xml:id="Reward" points="55.45,26.34 64.1,26.18 63.95,30.2 55.15,30.05"/>
-      <zone n="5" xml:id="Apron" points="24.48,50.13 31.61,54.15 34.35,59.55 23.57,54.15"/>
-      <zone n="6" xml:id="Bucket" points="67.95,47.99 73.61,48.07 75.99,51.91 74.76,58.26 68.6,56 63.68,53"/>
-      <zone n="7" xml:id="Rug" points="24.16,68.92 56.65,69.23 53.59,73.45 46.28,73.37 45.87,77.21 26.52,77.24 26.85,74.23 22.07,74.23"/>
-      <zone n="8" xml:id="Sam" points="34.58,27.71 40.2,23.85 43.39,22.15 47.49,26.48 47.03,34.2 48.85,41.93 44.15,50.42 42.63,57.69 43.08,69.27 30.18,68.66 17.73,66.03 28.21,45.64 26.38,37.76 28.51,33.59"/>
-      <zone n="9" xml:id="M_quay" points="68.09,21.66 71.54,23.3 69.74,27 70.03,29.71 72.17,32.42 69.66,34.55 68.24,37.3 68.84,40.65 69.24,44.17 66.93,46.16 63.55,45.07 65.24,41.57 65.15,35.95 63.97,32.87 63.97,30.36 64.35,25.47 66.57,24.93"/>
+      <zone n="1" xml:id="Title" points="28.22,14.8 71.35,15 71.25,17.52 28.82,17.02"/>
+      <zone n="2" xml:id="Artist" points="74.88,76.23 83.01,73.71 80.91,82.09 72.83,81.6"/>
+      <zone n="3" xml:id="Quay" points="72.13,21.81 75.81,20.33 77.75,20.84 74.36,23.97 70.34,25.45"/>
+      <zone n="4" xml:id="Reward" points="55.93,26.03 60.43,25.82 64.83,27.54 63.18,30.55 55.27,30.05"/>
+      <zone n="5" xml:id="Apron" points="25.78,50.5 28.75,51.84 33.85,59.39 23.31,54.36"/>
+      <zone n="6" xml:id="Bucket" points="70.26,47.49 72.74,47.99 73.56,49.83 76.03,56.87 73.39,60.06 68.29,58.05 64.17,55.53 64,53.02 67.46,49.5"/>
+      <zone n="7" xml:id="Map" points="30.72,57.54 67.46,59.56 74.71,65.42 79.49,70.96 73.39,78.84 17.71,78.67 18.2,69.11 24.46,63.41"/>
+      <zone n="8" xml:id="Sam" points="37.48,27.03 39.62,22.84 46.05,24.18 46.7,32.4 46.05,35.25 47.69,39.27 47.53,47.32 42.75,52.18 43.57,60.23 42.42,63.75 37.64,63.91 40.77,69.61 33.52,68.11 30.72,69.11 32.87,62.57 31.05,59.22 27.43,59.22 24.46,66.09 18.86,67.44 18.7,56.54 26.61,48.66 30.72,44.8 26.44,38.43 28.09,33.07"/>
+      <zone n="9" xml:id="M_quay" points="66.15,24.01 68.29,21.5 72.41,21.33 70.76,27.03 70.76,31.06 72.08,34.91 70.43,36.59 68.78,40.11 70.59,45.81 66.8,46.48 63.18,45.47 65.49,39.77 63.67,30.72 65.16,25.52"/>
     </surface>
   </facsimile>
   <text>
@@ -169,16 +169,16 @@
                 <p>Hy Gage</p></div>
       <div type="image_transcription" n="3" facs="#Quay"><head><supplied resp="editorial">Label</supplied></head>
                 <p><persName key="ENT.000001953">QUAY</persName></p></div>
-      <div type="image_transcription" n="4" facs="#Reward"><head><supplied resp="editorial">Dialog</supplied></head>
+      <div type="image_transcription" n="4" facs="#Reward"><head><supplied resp="editorial">Dialogue</supplied></head>
                 <p>IS THAT MY REWARD?</p></div>
       <div type="image_transcription" n="5" facs="#Apron"><head><supplied resp="editorial">Apron</supplied></head>
                 <p><persName key="ENT.000000557">GOV PENNYPACKER</persName></p></div>
       <div type="image_transcription" n="6" facs="#Bucket"><head><supplied resp="editorial">Bucket</supplied></head>
                 <p>DECENT POLITICS SUDS</p></div>
-      <div type="image_transcription" n="7" facs="#Rug"><head><supplied resp="editorial">Rug</supplied></head>
+      <div type="image_transcription" n="7" facs="#Map"><head><supplied resp="editorial">Pennsylvania</supplied></head>
                 <p>PENNSYLVANIA POLITICS</p></div>
       <div type="image_annotation" n="8" facs="#Sam"><head><supplied resp="editorial"><persName key="ENT.000000557">Samuel W. Pennypacker</persName></supplied></head>
-                <p>Samuel W. Pennypacker was Pennsylvania's 23rd governor who served from 1903 to 1907.  In the image, he is depicted as cleaning up "Pennsylvania politics" with his mop and "decent politics suds."  Matthew Quay, his cousin and corrupt political ally who helped him win the 1902 gubernatorial election, looks on disapprovingly and asks "Is that my reward?".</p></div>
+                <p>Samuel W. Pennypacker was Pennsylvania's 23rd governor who served from 1903 to 1907.  In the image, he is depicted as cleaning up "Pennsylvania politics" with his mop and "decent politics suds."  Matthew Quay, his cousin and corrupt political ally who helped him win the 1902 gubernatorial election, looks on disapprovingly and asks "Is that my reward?"</p></div>
       <div type="image_annotation" n="9" facs="#M_quay"><head><supplied resp="editorial"><persName key="ENT.000001953">Matthew Quay</persName></supplied></head>
                 <p>Matthew Quay was one of Pennsylvania's most powerful and corrupt political bosses, and Samuel Pennypacker's cousin.  Using his political influence, Quay helped Pennypacker win the 1902 gubernatorial election.</p></div>
     </body>
