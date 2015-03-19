@@ -131,7 +131,8 @@
     <profileDesc>
       <textClass>
         <catRef target="cartoons_genres.xml#clippings"/>
-        <catRef target="cartoons_taxonomies.xml#lesson plan"/>
+        <catRef target="cartoons_genres.xml#political_cartoons"/>
+        <catRef target="cartoons_taxonomies.xml#lesson_plan"/>
         <catRef target="cartoons_taxonomies.xml#twentieth"/>
         <catRef target="cartoons_taxonomies.xml#Pennsylvania"/>
         <catRef target="cartoons_taxonomies.xml#elections"/>
