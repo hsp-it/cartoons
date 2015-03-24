@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="English">
+    <fileDesc>
+      <titleStmt>
+        <title type="main">TEI transcription of On Hazardous Business</title>
+        <author/>
+        <respStmt>
+          <resp key="art">artist</resp>
+          <persName key="ENT.000003652">Zayas, Marius de, 1880-1961</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="trc">Transcribed by</resp>
+          <persName key="ENT.000003544">Biunno, Diane</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="mrk">Encoded by</resp>
+          <persName key="ENT.000003544">Biunno, Diane</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="pbl">publisher</resp>
+          <persName key="ENT.000003654">Major Barclay Harding Warburton I, 1866-1954</persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt><p>First edition, <date when="2015">2015</date></p></editionStmt>
+      <publicationStmt>
+        <publisher><orgName key="ENT.000002473">Historical Society of Pennsylvania</orgName></publisher>
+        <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
+        <idno type="filename">12239</idno>
+        <availability status="restricted"><p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of                        copyright only to original contributions made by the Historic Images, New                        Technologies (HINT) Project participants and other staff. HSP makes no claim                        of copyright to the original text. Permission is granted to download,                        transmit or otherwise reproduce, distribute or display the text                        contributions to this work claimed by HSP for non-profit educational                        purposes, provided that this header is included in its entirety. For                        inquiries about commercial uses, please contact the Historical Society of                        Pennsylvania. HSP retains the rights of all images unless otherwise noted.                        Possession of an HSP digital image does not constitute permission to use or                        publish it. Requests for digital imaging, other reproduction services, and                        the intended use of reproductions must be made in writing to the Rights and                        Reproductions Coordinator at rnr@hsp.org.</p></availability>
+        <date when="2015">2015</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="project" key="CARTOONS">Historic Images, New Technologies (HINT) Project</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository key="ENT.000002473">Historical Society of Pennsylvania</repository>
+            <collection key="3133">Historical Society of Pennsylvania cartoons and caricatures collection</collection>
+            <idno type="citation">
+              <idno type="box">2</idno>
+              <idno type="folder">9</idno>
+            </idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <bibl>
+                <date from="1908-11-23">November 23, 1908</date>
+                <extent>1 loose page</extent>
+                <extent>
+                  <dimensions type="image" unit="cm"/>
+                </extent>
+                <listRelation>
+                  <relation name="depicted" active="ENT.000003651"/>
+                  <relation name="depicted" active="ENT.000003626"/>
+                  <relation active="cartoons_symbols.xml#uncle_sam"/>
+                </listRelation>
+              </bibl>
+            </msItem>
+          </msContents>
+          <history>
+            <acquisition>This is an artificial collection created over time by HSP staff
+                            mostly through donations and purchases of individual prints. It also
+                            incorporates previously uncataloged materials collected by the Balch
+                            Institute for Ethnic Studies. Some of the 20th century cartoons and
+                            drawings were removed from the J. Hampton Moore papers (Collection
+                            1541).</acquisition>
+          </history>
+        </msDesc>
+        <biblStruct>
+          <analytic>
+            <respStmt>
+              <resp key="art">artist</resp>
+              <persName key="ENT.000003652">Zayas, Marius de, 1880-1961</persName>
+            </respStmt>
+            <respStmt>
+              <resp key="pbl">publisher</resp>
+              <persName key="ENT.000003654">Major Barclay Harding Warburton I, 1866-1954</persName>
+            </respStmt>
+            <title type="main" level="a">On Hazardous Business</title>
+            <date from="1908-11-23">November 23, 1908</date>
+          </analytic>
+          <monogr>
+            <title type="marc245a" level="j"><orgName key="ENT.000003653">Evening Telegraph</orgName></title>
+            <imprint>
+              <pubPlace>Philadelphia</pubPlace>
+              <date from="1908-11-23">November 23, 1908</date>
+              <publisher>
+                <persName key="ENT.000003654">Major Barclay Harding Warburton I, 1866-1954</persName>
+              </publisher>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <bibl/>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc><p>The Historic Images, New Technologies (HINT) project aims to enhance description
+                    and discovery of the Historical Society of Pennsylvania's graphics materials and
+                    promote the linking and sharing of content among institutions and scholars. The
+                    project will result in an update to HSP's digital image viewer and an online
+                    digital history exhibit that will demonstrate the new viewer's capabilities and
+                    provide interpretive and contextual materials to encourage users to interact
+                    with historical images in new ways. This project was funded by a grant from the
+                    National Historical Publications and Records Commission's (NHPRC) Innovation in
+                    Archives and Documentary Editing program.</p></projectDesc>
+      <editorialDecl n="4"><p>Text below the image of the political cartoon was not encoded. Text is incomplete
+                    and does not pertain to the political cartoon image.</p>
+                <p>This electronic file was created using manual keying following the
+                    recommendations for Level 4 of "Best Practices for TEI in Libraries" guidelines
+                    v3.0.</p>
+                <p>This xml file uses unique entity identifiers, media file identifiers, and
+                    collection identifiers in HSP's Digital Library, available at
+                    http://digitallibrary.hsp.org.</p></editorialDecl>
+      <tagsDecl>
+        <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
+        <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
+        <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
+        <rendition scheme="css" xml:id="crossed-through">text-decoration: line-through</rendition>
+        <rendition scheme="other" xml:id="printed"/>
+        <rendition scheme="other" xml:id="typescript"/>
+        <rendition scheme="other" xml:id="handwritten"/>
+        <rendition scheme="other" xml:id="handwritten-underlined"/>
+        <rendition scheme="other" xml:id="handwritten-circled"/>
+        <rendition scheme="other" xml:id="handwritten-crossed-through"/>
+        <rendition scheme="other" xml:id="double-underline"/>
+        <rendition scheme="other" xml:id="stamp"/>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <catRef target="cartoons_genres.xml#clippings"/>
+        <catRef target="cartoons_genres.xml#political_cartoons"/>
+        <catRef target="cartoons_taxonomies.xml#lesson_plan"/>
+        <catRef target="cartoons_taxonomies.xml#econ"/>
+        <catRef target="cartoons_taxonomies.xml#labor"/>
+        <catRef target="cartoons_taxonomies.xml#twentieth"/>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change who="DianeBiunno" when="2015-03-24">Exported from CA</change>
+      <change who="DianeBiunno" when="2015-03-23">Encoded to lesson plan level</change>
+      <change who="RachelMoloshok" when="2015-01-07">Template file created</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="100" lry="100">
+      <graphic url="FIL.000090264"/>
+      <zone n="1" xml:id="Title" points="25.95,2.46 71.55,2.13 71.92,8.35 25.95,8.35"/>
+      <zone n="2" xml:id="Artist" points="5,88.65 20.64,88.4 33.46,88.53 37.49,88.73 39.13,90.21 44.88,90.93 49.27,91.27 77.25,88.13 88.89,88.47 89.47,92.33 4.83,91.87"/>
+      <zone n="3" xml:id="Sam" points="28.95,16.55 34.12,14.19 40.03,14.53 46.86,14.7 50,16.71 53.88,12.68 57.75,13.35 61.45,8.14 70.31,12.68 64.95,16.71 66.25,21.93 74,27.47 74.37,31 68.28,42.1 65.32,49.16 59.23,47.65 51.48,43.11 54.43,49.5 54.8,58.24 51.85,73.54 50.37,78.24 45.57,85.3 54.8,90.85 45.38,91.02 36.15,87.66 32.83,85.3 32.65,83.79 28.77,83.79 36.71,69.5 46.31,60.76 39.29,53.87 38.55,50 34.86,48.82 32.65,45.63 28.4,40.08 29.14,35.54 25.08,28.31 27.29,26.8 25.26,24.11 25.63,18.56"/>
+      <zone n="4" xml:id="Oil" points="32.39,44.2 29.52,39.09 30.3,34.98 32.85,33.08 38.99,31.83 45.79,33.08 49.58,34.74 52.39,36.88 54.87,38.85 51.54,42.72 48.86,40.99 43.63,38.61 38.88,37.82 35.14,42.72"/>
+      <zone n="5" xml:id="Rockefeller" points="70.98,32.93 73.91,31.88 76.85,32.93 79.47,36.36 82.4,35.89 80.2,38.46 76.22,38.85 74.85,40.66 70.35,42 68.04,37.7 70.14,35.6"/>
+      <zone n="6" xml:id="Illinois" points="59.44,58.08 61.76,59.1 63.21,60.52 64.34,61.7 64.93,63.56 63.74,64.59 60.57,61.55 58.75,60.52 53.96,58.22 54.44,56.8"/>
+      <zone n="7" xml:id="Kansas" points="68.42,59.74 70.67,59.39 69.86,61.55 70.97,65.19 70.2,69.91 67.02,69.6 68,65.88 68,63.18 67.23,61.63"/>
+      <zone n="8" xml:id="Oklahoma" points="69.55,69.17 73.97,64.72 78.63,62.28 78.99,63.7 75.18,66.12 70.71,69.93"/>
+      <zone n="9" xml:id="Texas" points="71.79,69.88 76.02,67.33 81.12,65.27 88.94,62.87 89.44,64.72 73.22,71.43"/>
+      <zone n="10" xml:id="Indiana" points="9.67,62.12 25.41,61.18 25.8,63.48 9.74,64.39"/>
+      <zone n="11" xml:id="Ohio" points="11.1,69.7 23.36,66.5 23.4,69.18 11.46,72.05"/>
+      <zone n="12" xml:id="Pa" points="5.88,80.93 24.89,72.86 25.81,75.72 6.61,83.62"/>
+    </surface>
+  </facsimile>
+  <text>
+    <front>
+      <div type="editorial_desc"><p>Image depicts a "Standard Oil" snake coiled around Uncle Sam. The snake has                    several tales which are labeled "Indiana, Ohio, Pennsylvania, Illinois, Kansas,                    Oklahoma," and "Texas." On the head of the snake, the cartoonist has drawn the                    face of John D. Rockefeller, founder of Standard Oil.</p>                <p>Rockefeller drove all his competitors out of business and created a monopoly of                    the US petroleum industry. In 1908, the United States government launched a                    major anti-trust suit which targeted Rockefeller's company. In May 1911, the                    U.S. Supreme Court declared Standard Oil in violation of the Sherman Anti-Trust                    Act and dismantled the company.</p></div>
+    </front>
+    <body>
+      <div type="image_transcription" n="1" facs="#Title"><head><supplied resp="editorial">Title and Artist</supplied></head>
+                <p>ON HAZARDOUS BUSINESS</p>
+                <p>By M. de ZAYAS</p></div>
+      <div type="image_transcription" n="2" facs="#Artist"><head><supplied resp="editorial">Signature and Notes</supplied></head>
+                <p>M. de Zayas</p>
+                <p><add rendition="#handwritten">Phila Evg. Telegraph 11-23-08</add></p></div>
+      <div type="image_annotation" n="3" facs="#Sam"><head><supplied resp="editorial"><rs resp="cartoons_symbols.xml#uncle_sam">Uncle
+                            Sam</rs></supplied></head>
+                <p>Image depicts a large "Standard Oil" snake coiled around Uncle Sam.</p></div>
+      <div type="image_transcription" n="4" facs="#Oil"><head><supplied resp="editorial"><orgName key="ENT.000003626">Standard
+                        Oil</orgName></supplied></head>
+                <p></p></div>
+      <div type="image_annotation" n="5" facs="#Rockefeller"><head><supplied resp="editorial"><persName key="ENT.000003651">John D.
+                            Rockefeller</persName></supplied></head>
+                <p>Image depicts the face of John D. Rockefeller on the head of a "Standard Oil"
+                    snake.</p></div>
+      <div type="image_transcription" n="6" facs="#Illinois"><head><supplied resp="editorial">Illinois</supplied></head>
+                <p>ILLINOIS</p></div>
+      <div type="image_transcription" n="7" facs="#Kansas"><head><supplied resp="editorial">Kansas</supplied></head>
+                <p>KANSAS</p></div>
+      <div type="image_transcription" n="8" facs="#Oklahoma"><head><supplied resp="editorial">Oklahoma</supplied></head>
+                <p>OKLAHOMA</p></div>
+      <div type="image_transcription" n="9" facs="#Texas"><head><supplied resp="editorial">Texas</supplied></head>
+                <p>TEXAS</p></div>
+      <div type="image_transcription" n="10" facs="#Indiana"><head><supplied resp="editorial">Indiana</supplied></head>
+                <p>INDIANA</p></div>
+      <div type="image_transcription" n="11" facs="#Ohio"><head><supplied resp="editorial">Ohio</supplied></head>
+                <p>OHIO</p></div>
+      <div type="image_transcription" n="12" facs="#Pa"><head><supplied resp="editorial">Pennsylvania</supplied></head>
+                <p>PENNSYLVANIA</p></div>
+    </body>
+  </text>
+</TEI>
