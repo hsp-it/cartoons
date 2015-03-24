@@ -74,6 +74,8 @@
                 </extent>
                 <listRelation>
                   <relation name="depicted" active="ENT.000003651"/>
+                  <relation name="mentioned" active="ENT.000003626"/>
+                  
                 </listRelation>
               </bibl>
             </msItem>
@@ -104,7 +106,7 @@
               American</orgName></title>
             <imprint>
               <pubPlace>Philadelphia</pubPlace>
-              <date from="1908-11-20">November 11, 1908</date>
+              <date from="1908-11-20">November 20, 1908</date>
               <publisher>
                 <persName key="ENT.000003366">Wanamaker, Thomas B., 1865-1908</persName>
               </publisher>
