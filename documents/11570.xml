@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="English">
+    <fileDesc>
+      <titleStmt>
+        <title type="main">TEI transcription of Solving the Acrostic</title>
+        <author/>
+        <respStmt>
+          <resp key="trc">Transcribed by</resp>
+          <persName key="ENT.000003544">Biunno, Diane</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="mrk">Encoded by</resp>
+          <persName key="ENT.000003544">Biunno, Diane</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="pbl">publisher</resp>
+          <persName key="ENT.000003387">Unknown</persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <p>First edition, <date when="2015">2015</date></p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName key="ENT.000002473">Historical Society of Pennsylvania</orgName>
+        </publisher>
+        <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
+        <idno type="filename">11570</idno>
+        <availability status="restricted">
+          <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of copyright only
+            to original contributions made by the Historic Images, New Technologies (HINT) Project
+            participants and other staff. HSP makes no claim of copyright to the original text.
+            Permission is granted to download, transmit or otherwise reproduce, distribute or
+            display the text contributions to this work claimed by HSP for non-profit educational
+            purposes, provided that this header is included in its entirety. For inquiries about
+            commercial uses, please contact the Historical Society of Pennsylvania. HSP retains the
+            rights of all images unless otherwise noted. Possession of an HSP digital image does not
+            constitute permission to use or publish it. Requests for digital imaging, other
+            reproduction services, and the intended use of reproductions must be made in writing to
+            the Rights and Reproductions Coordinator at rnr@hsp.org.</p>
+        </availability>
+        <date when="2015">2015</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="project" key="CARTOONS">Historic Images, New Technologies (HINT)
+          Project</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository key="ENT.000002473">Historical Society of Pennsylvania</repository>
+            <collection key="3133">Historical Society of Pennsylvania cartoons and caricatures
+              collection</collection>
+            <idno type="citation">
+              <idno type="box">2</idno>
+              <idno type="folder">9</idno>
+            </idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <bibl>
+                <date from="1908-09-07">September 7, 1908</date>
+                <extent>1 loose page</extent>
+                <extent>
+                  <dimensions type="image" unit="cm"/>
+                </extent>
+                <listRelation>
+                  <relation name="mentioned" active="ENT.000003384"/>
+                </listRelation>
+              </bibl>
+            </msItem>
+          </msContents>
+          <history>
+            <acquisition>This is an artificial collection created over time by HSP staff mostly
+              through donations and purchases of individual prints. It also incorporates previously
+              uncataloged materials collected by the Balch Institute for Ethnic Studies. Some of the
+              20th century cartoons and drawings were removed from the J. Hampton Moore papers
+              (Collection 1541).</acquisition>
+          </history>
+        </msDesc>
+        <biblStruct>
+          <analytic>
+            <respStmt>
+              <resp key="pbl">publisher</resp>
+              <persName key="ENT.000003387">Unknown</persName>
+            </respStmt>
+            <title type="main" level="a">Solving the Acrostic</title>
+            <date from="1908-09-07">September 7, 1908</date>
+          </analytic>
+          <monogr>
+            <title type="marc245a" level="j"><orgName key="ENT.000000437"/>Philadelphia
+              Record</title>
+            <imprint>
+              <pubPlace>Philadelphia</pubPlace>
+              <date from="1908-09-07">September 7, 1908</date>
+              <biblScope unit="issue">14,336</biblScope>
+              <biblScope unit="page">1</biblScope>
+              <publisher>
+                <persName key="ENT.000003387">Unknown</persName>
+              </publisher>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <bibl/>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The Historic Images, New Technologies (HINT) project aims to enhance description and
+          discovery of the Historical Society of Pennsylvania's graphics materials and promote the
+          linking and sharing of content among institutions and scholars. The project will result in
+          an update to HSP's digital image viewer and an online digital history exhibit that will
+          demonstrate the new viewer's capabilities and provide interpretive and contextual
+          materials to encourage users to interact with historical images in new ways. This project
+          was funded by a grant from the National Historical Publications and Records Commission's
+          (NHPRC) Innovation in Archives and Documentary Editing program.</p>
+      </projectDesc>
+      <editorialDecl n="4">
+        <p>This electronic file was created using manual keying following the recommendations for
+          Level 4 of "Best Practices for TEI in Libraries" guidelines v3.0.</p>
+        <p>This xml file uses unique entity identifiers, media file identifiers, and collection
+          identifiers in HSP's Digital Library, available at http://digitallibrary.hsp.org.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
+        <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
+        <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
+        <rendition scheme="css" xml:id="crossed-through">text-decoration: line-through</rendition>
+        <rendition scheme="other" xml:id="printed"/>
+        <rendition scheme="other" xml:id="typescript"/>
+        <rendition scheme="other" xml:id="handwritten"/>
+        <rendition scheme="other" xml:id="handwritten-underlined"/>
+        <rendition scheme="other" xml:id="handwritten-circled"/>
+        <rendition scheme="other" xml:id="handwritten-crossed-through"/>
+        <rendition scheme="other" xml:id="double-underline"/>
+        <rendition scheme="other" xml:id="stamp"/>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <catRef target="cartoons_genres.xml#clippings"/>
+        <catRef target="cartoons_genres.xml#political_cartoons"/>
+        <catRef target="cartoons_taxonomies.xml#lesson_plan"/>
+        <catRef target="cartoons_taxonomies.xml#econ"/>
+        <catRef target="cartoons_taxonomies.xml#labor"/>
+        <catRef target="cartoons_taxonomies.xml#twentieth"/>
+        <catRef target="cartoons_taxonomies.xml#elections"/>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change who="DianeBiunno" when="2015-03-24">Exported from CA</change>
+      <change who="DianeBiunno" when="2015-03-23">Encoded to lesson plan level</change>
+      <change who="RachelMoloshok" when="2015-01-07">Template file created</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="100" lry="100">
+      <graphic url="FIL.000085223"/>
+      <zone n="1" xml:id="Title" points="34.62,91.65 91.28,91.32 91.22,94.6 34.68,94.79"/>
+      <zone n="2" xml:id="Worker"
+        points="55.39,50.11 56.11,50.8 57.53,50.28 58.33,50.55 59.72,50.06 60.23,47.99 60.98,45.65 62.92,44.13 64.12,43.53 63.88,42.56 61.91,42.46 61.88,41.61 61.09,41.37 61.65,40.34 60.57,40.39 60.32,37.95 57.99,37.02 60.4,36.02 59.36,34.17 61.12,32.71 66.96,33.37 68.58,34.36 68.58,36.89 68.7,39.64 71.06,42.73 73.3,45.81 73.92,50.54 72.43,53.51 73.88,65.7 71.19,66.62 71.81,73.44 72.93,79.06 73.19,88.76 68.19,89.38 67.98,91.42 65.05,91.79 59.39,90.31 56.88,89.2 58.51,86.54 61.74,87.31 62.95,83.82 63.16,79.92 61.28,76.77 59.18,65.27 58.28,61.57 58.97,57.48 52.91,60.9 49.96,59.05 52.58,56.63 55.22,55.15 58.54,54.04 56.5,53.86 55.24,52.93 54.13,52.56 53.7,52.56 52.52,52.06 51.63,52.6 50.06,51.22 52.15,49.55 54.35,49.57 55.66,48.96 56.24,49.5"/>
+      <zone n="3" xml:id="Taft" points="26.15,19.54 53.01,22.99 52.81,52.64 25.57,51.6"/>
+    </surface>
+  </facsimile>
+  <text>
+    <front>
+      <div type="editorial_desc">
+        <p>In the image an unemployed workingman writes graffiti on a fence. The graffiti claims
+          that Republican presidential candidate William Taft favors trusts over the workingman.
+          During the presidential campaign of 1908, Taft seemed to support several politicians who
+          were known to favor big business and the trusts.</p>
+        <p>William Taft became the 27th President of the United States and served only one term
+          (1909-1913). Although Theodore Roosevelt is known as the great "trust-buster," Taft
+          actually filed more anti-trust lawsuits than Roosevelt. In 1911 Taft launched a lawsuit
+          against J.P. Morgan's US Steel for taking over the Tennessee Coal, Iron, and Railroad
+          Company during in 1907. Roosevelt had approved the takeover during his own administration
+          in order to avoid further economic collapse during the Panic of 1907.</p>
+      </div>
+    </front>
+    <body>
+      <div type="image_transcription" n="1" facs="#Title">
+        <head>
+          <supplied resp="editorial">Title and Notes</supplied>
+        </head>
+        <p>SOLVING THE ACROSTIC</p>
+        <p>By De Mar.</p>
+        <p>
+          <add rendition="#handwritten">Phila. Record 9-7-1908</add>
+        </p>
+      </div>
+      <div type="image_transcription" n="2" facs="#Worker">
+        <head>
+          <supplied resp="editorial">Workingman</supplied>
+        </head>
+        <p>UNEMPLOYED WORKINGMAN</p>
+      </div>
+      <div type="image_transcription" n="3" facs="#Taft">
+        <head>
+          <supplied resp="editorial">
+            <persName key="ENT.000003384">William Taft</persName>
+          </supplied>
+        </head>
+        <p><hi rendition="#bold">T</hi>ARIFF</p>
+        <p><hi rendition="#bold">A</hi>LWAYS</p>
+        <p><hi rendition="#bold">F</hi>AVORS</p>
+        <p><hi rendition="#bold">T</hi>RUSTS</p>
+      </div>
+    </body>
+  </text>
+</TEI>

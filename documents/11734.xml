@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="English">
+    <fileDesc>
+      <titleStmt>
+        <title type="main">TEI transcription of A Beautiful Fairy Tale</title>
+        <author/>
+        <respStmt>
+          <resp key="art">artist</resp>
+          <persName key="ENT.000000443">Johnson, Herbert, 1878-1946</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="trc">Transcribed by</resp>
+          <persName key="ENT.000003544">Biunno, Diane</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="mrk">Encoded by</resp>
+          <persName key="ENT.000003544">Biunno, Diane</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="pbl">publisher</resp>
+          <persName key="ENT.000003366">Wanamaker, Thomas B., 1865-1908</persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <p>First edition, <date when="2015">2015</date></p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher><orgName key="ENT.000002473">Historical Society of
+          Pennsylvania</orgName></publisher>
+        <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
+        <idno type="filename">11734</idno>
+        <availability status="restricted">
+          <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of copyright only
+            to original contributions made by the Historic Images, New Technologies (HINT) Project
+            participants and other staff. HSP makes no claim of copyright to the original text.
+            Permission is granted to download, transmit or otherwise reproduce, distribute or
+            display the text contributions to this work claimed by HSP for non-profit educational
+            purposes, provided that this header is included in its entirety. For inquiries about
+            commercial uses, please contact the Historical Society of Pennsylvania. HSP retains the
+            rights of all images unless otherwise noted. Possession of an HSP digital image does not
+            constitute permission to use or publish it. Requests for digital imaging, other
+            reproduction services, and the intended use of reproductions must be made in writing to
+            the Rights and Reproductions Coordinator at rnr@hsp.org.</p>
+        </availability>
+        <date when="2015">2015</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="project" key="CARTOONS">Historic Images, New Technologies (HINT)
+          Project</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository key="ENT.000002473">Historical Society of Pennsylvania</repository>
+            <collection key="3133">Historical Society of Pennsylvania cartoons and caricatures
+              collection</collection>
+            <idno type="citation">
+              <idno type="box">2</idno>
+              <idno type="folder">9</idno>
+            </idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <bibl>
+                <date from="1908-11-20">November 20, 1908</date>
+                <extent>1 loose page</extent>
+                <extent>
+                  <dimensions type="image" unit="cm"/>
+                  <height quantity="20"/>
+                  <width quantity="17"/>
+                </extent>
+                <listRelation>
+                  <relation name="depicted" active="ENT.000003651"/>
+                </listRelation>
+              </bibl>
+            </msItem>
+          </msContents>
+          <history>
+            <acquisition>This is an artificial collection created over time by HSP staff mostly
+              through donations and purchases of individual prints. It also incorporates previously
+              uncataloged materials collected by the Balch Institute for Ethnic Studies. Some of the
+              20th century cartoons and drawings were removed from the J. Hampton Moore papers
+              (Collection 1541).</acquisition>
+          </history>
+        </msDesc>
+        <biblStruct>
+          <analytic>
+            <respStmt>
+              <resp key="art">artist</resp>
+              <persName key="ENT.000000443">Johnson, Herbert, 1878-1946</persName>
+            </respStmt>
+            <respStmt>
+              <resp key="pbl">publisher</resp>
+              <persName key="ENT.000003366">Wanamaker, Thomas B., 1865-1908</persName>
+            </respStmt>
+            <title type="main" level="a">A Beautiful Fairy Tale</title>
+            <date from="1908-11-20">November 20, 1908</date>
+          </analytic>
+          <monogr>
+            <title type="marc245a" level="j"><orgName key="ENT.000003556">North
+              American</orgName></title>
+            <imprint>
+              <pubPlace>Philadelphia</pubPlace>
+              <date from="1908-11-20">November 11, 1908</date>
+              <publisher>
+                <persName key="ENT.000003366">Wanamaker, Thomas B., 1865-1908</persName>
+              </publisher>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <bibl/>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The Historic Images, New Technologies (HINT) project aims to enhance description and
+          discovery of the Historical Society of Pennsylvania's graphics materials and promote the
+          linking and sharing of content among institutions and scholars. The project will result in
+          an update to HSP's digital image viewer and an online digital history exhibit that will
+          demonstrate the new viewer's capabilities and provide interpretive and contextual
+          materials to encourage users to interact with historical images in new ways. This project
+          was funded by a grant from the National Historical Publications and Records Commission's
+          (NHPRC) Innovation in Archives and Documentary Editing program.</p>
+      </projectDesc>
+      <editorialDecl n="4">
+        <p>This electronic file was created using manual keying following the recommendations for
+          Level 4 of "Best Practices for TEI in Libraries" guidelines v3.0.</p>
+        <p>This xml file uses unique entity identifiers, media file identifiers, and collection
+          identifiers in HSP's Digital Library, available at http://digitallibrary.hsp.org.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
+        <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
+        <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
+        <rendition scheme="css" xml:id="crossed-through">text-decoration: line-through</rendition>
+        <rendition scheme="other" xml:id="printed"/>
+        <rendition scheme="other" xml:id="typescript"/>
+        <rendition scheme="other" xml:id="handwritten"/>
+        <rendition scheme="other" xml:id="handwritten-underlined"/>
+        <rendition scheme="other" xml:id="handwritten-circled"/>
+        <rendition scheme="other" xml:id="handwritten-crossed-through"/>
+        <rendition scheme="other" xml:id="double-underline"/>
+        <rendition scheme="other" xml:id="stamp"/>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <catRef target="cartoons_genres.xml#clippings"/>
+        <catRef target="cartoons_genres.xml#political_cartoons"/>
+        <catRef target="cartoons_taxonomies.xml#lesson_plan"/>
+        <catRef target="cartoons_taxonomies.xml#econ"/>
+        <catRef target="cartoons_taxonomies.xml#labor"/>
+        <catRef target="cartoons_taxonomies.xml#twentieth"/>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change who="DianeBiunno" when="2015-03-23">Exported from CA</change>
+      <change who="DianeBiunno" when="2015-03-23">Encoded to lesson plan level</change>
+      <change who="RachelMoloshok" when="2015-01-07">Template file created</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="100" lry="100">
+      <graphic url="FIL.000089177"/>
+      <zone n="1" xml:id="Title"
+        points="51.7,87.66 94.01,87.4 93.6,94.85 6.74,94.67 6.84,90.26 16.55,90.78 26.97,91.39"/>
+      <zone n="2" xml:id="Person"
+        points="65.23,34.69 70.61,34.01 73.12,33.91 76.03,36.07 77.31,38.55 76.29,42.33 87.78,43.06 87.46,47.63 76.36,46.47 70.91,62.33 69.45,66.38 65.21,68.18 57.47,66.92 55.25,64.14 49.43,62.33 48.57,58.67 44.55,56.42 38.51,55.62 38.72,52.66 39.14,50.77 41.01,50.25 44.86,48.62 48.68,50.77 53.55,47.99 57.9,47.01 57.37,42.61 61.5,38.93 63.19,38.39"/>
+      <zone n="3" xml:id="Rockefeller"
+        points="62.12,12.13 67.47,9.26 75.84,11.22 77.68,20.08 91.68,19.89 90.81,25.08 78.33,24.9 86.65,32.12 84.24,42.68 70.46,66.39 51.64,63.98 38.51,63.98 36.87,72.05 36,83.16 39.5,89.83 12.03,90.29 12.25,86.4 25.16,83.62 9.19,84.73 8.31,81.77 24.73,76.77 19.91,74.17 24.51,52.68 34.79,50.83 38.51,45.46 29.98,44.72 22.76,43.24 23.19,41.2 30.2,36.57 39.39,39.9 52.08,38.23 60.61,27.49 64.77,26.75 61.48,23.04"/>
+      <zone n="4" xml:id="Dialogue"
+        points="9.19,7.3 53.17,7.67 57.55,11.93 60.39,22.67 55.8,29.34 49.01,32.31 41.57,33.23 9.63,33.05 6.13,25.45 5.25,16.93 5.69,9.71"
+      />
+    </surface>
+  </facsimile>
+  <text>
+    <front>
+      <div type="editorial_desc">
+        <p>John D. Rockefeller sits on a rocking chair and recounts a "fairy tale" to a child
+          sitting on his lap. The child is labeled "common people." In the fairy tale, Rockefeller
+          defends Standard Oil and his business practices.</p>
+        <p>John D. Rockefeller was an American businessman, philanthropist and founder of Standard
+          Oil. In the 1870s and 1880s, Rockefeller drove all his competitors out of business and
+          monopolized the U.S. petroleum industry. In 1908, President Theodore Roosevelt launched a
+          major anti-trust suit which targeted Rockefeller's Standard Oil. In May 1911, the U.S.
+          Supreme Court declared Standard Oil in violation of the Sherman Anti-Trust Law and
+          dissolved the company. Despite the Supreme Court's decision, Rockefeller continued to
+          amass a fortune and is considered one of the wealthiest men in US history.</p>
+      </div>
+    </front>
+    <body>
+      <div type="image_transcription" n="1" facs="#Title">
+        <head><supplied resp="editorial">Title and Notes</supplied></head>
+        <p>A BEAUTIFUL FAIRY TALE</p>
+        <p><persName key="ENT.000000443">Herbert Johnson</persName></p>
+        <p><add rendition="#handwritten"><orgName key="ENT.000003556">Phila N.
+            American</orgName></add></p>
+        <p><add rendition="#handwritten">11-20-08</add></p>
+      </div>
+      <div type="image_transcription" n="2" facs="#Person">
+        <head><supplied resp="editorial">Child</supplied></head>
+        <p>COMMON PEOPLE</p>
+      </div>
+      <div type="image_transcription" n="3" facs="#Rockefeller">
+        <head><supplied resp="editorial"><persName key="ENT.000003651">John D.
+              Rockefeller</persName></supplied></head>
+        <p>JOHN D.</p>
+      </div>
+      <div type="image_transcription" n="4" facs="#Dialogue">
+        <head><supplied resp="editorial">Fairy Tale</supplied></head>
+        <p>ONCE UPON A TIME A MODEST, KIND-HEARTED YOUNG MAN STARTED AN OIL BUSINESS. OTHERS DID SO
+          TOO, BUT THE KIND YOUNG MAN SOON DROVE THEM OUT. HE DID NOT USE COERCION. NO INDEED. HE
+          WRUNG THEIR NECKS GENTLY, AND CONTINUED TO BE MODEST AND KIND-HEARTED AND BYE AND
+          BYE.-</p>
+      </div>
+    </body>
+  </text>
+</TEI>
