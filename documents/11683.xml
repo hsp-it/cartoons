@@ -160,6 +160,7 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
+        <catRef target="cartoons_genres.xml#political_cartoons"/>
         <catRef target="cartoons_genres.xml#periodical_illustrations"/>
         <catRef target="cartoons_genres.xml#wood_engravings"/>
         <catRef target="cartoons_taxonomies.xml#featured"/>
@@ -169,6 +170,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
+      <change who="RachelMoloshok" when="2015-03-25">Added political cartoons as genre</change>
       <change who="RachelMoloshok" when="2015-03-16">Exported from Collective Access. Taxonomies and genres values corrected post-export</change>
       <change who="RachelMoloshok" when="2015-03-16">Encoded to featured level</change>
       <change who="RachelMoloshok" when="2015-03-11">Encoded to basic level</change>

@@ -1,1273 +1,1872 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title type="main">TEI description of people mentioned and depicted in the Historic
-                    Images, New Technologies (HINT) Project</title>
-                <author>
-                    <persName key="ENT.000003526">Moloshok, Rachel</persName>
-                </author>
-                <author>
-                    <persName key="ENT.000003352">Newhouse, Sarah</persName>
-                </author>
-                <author>
-                    <persName key="ENT.000003528">Dorman, Dana</persName>
-                </author>
-            </titleStmt>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">TEI description of people mentioned and depicted in the Historic Images,
+          New Technologies (HINT) Project</title>
+        <author>
+          <persName key="ENT.000003526">Moloshok, Rachel</persName>
+        </author>
+        <author>
+          <persName key="ENT.000003352">Newhouse, Sarah</persName>
+        </author>
+        <author>
+          <persName key="ENT.000003528">Dorman, Dana</persName>
+        </author>
+      </titleStmt>
 
-            <publicationStmt>
-                <publisher><orgName key="ENT.000002473">Historical Society of
-                    Pennsylvania</orgName></publisher>
-                <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
-                <availability status="restricted">
-                    <p>Copyright 2014, The Historical Society of Pennsylvania. HSP makes a claim of
-                        copyright only to original contributions made by the Historic Images, New
-                        Technologies (HINT) Project participants and other staff. Permission is
-                        granted to download, transmit or otherwise reproduce, distribute or display
-                        the text contributions to this work claimed by HSP for non-profit
-                        educational purposes, provided that this header is included in its entirety.
-                        For inquiries about commercial uses, please contact the Historical Society
-                        of Pennsylvania. HSP retains the rights of all images unless otherwise
-                        noted. Possession of an HSP digital image does not constitute permission to
-                        use or publish it. Requests for digital imaging, other reproduction
-                        services, and the intended use of reproductions must be made in writing to
-                        the Rights and Reproductions Coordinator at rnr@hsp.org.</p>
-                </availability>
-                <date when="2014"/>
-            </publicationStmt>
+      <publicationStmt>
+        <publisher><orgName key="ENT.000002473">Historical Society of
+          Pennsylvania</orgName></publisher>
+        <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
+        <availability status="restricted">
+          <p>Copyright 2014, The Historical Society of Pennsylvania. HSP makes a claim of copyright
+            only to original contributions made by the Historic Images, New Technologies (HINT)
+            Project participants and other staff. Permission is granted to download, transmit or
+            otherwise reproduce, distribute or display the text contributions to this work claimed
+            by HSP for non-profit educational purposes, provided that this header is included in its
+            entirety. For inquiries about commercial uses, please contact the Historical Society of
+            Pennsylvania. HSP retains the rights of all images unless otherwise noted. Possession of
+            an HSP digital image does not constitute permission to use or publish it. Requests for
+            digital imaging, other reproduction services, and the intended use of reproductions must
+            be made in writing to the Rights and Reproductions Coordinator at rnr@hsp.org.</p>
+        </availability>
+        <date when="2014"/>
+      </publicationStmt>
 
-            <seriesStmt>
-                <title level="s" type="project" key="CARTOONS">Historic Images, New Technologies
-                    (HINT) Project</title>
-            </seriesStmt>
+      <seriesStmt>
+        <title level="s" type="project" key="CARTOONS">Historic Images, New Technologies (HINT)
+          Project</title>
+      </seriesStmt>
 
-            <sourceDesc>
-                <p>Born digital.</p>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <projectDesc>
-                <p>The Historic Images, New Technologies (HINT) project aims to enhance description
-                    and discovery of the Historical Society of Pennsylvania's graphics materials and
-                    promote the linking and sharing of content among institutions and scholars. The
-                    project will result in an update to HSP's digital image viewer and an online
-                    digital history exhibit, featuring 500 encoded political cartoons, that will
-                    demonstrate the new viewer's capabilities and provide interpretive and
-                    contextual materials to encourage users to interact with historical images in
-                    new ways. This project was funded by a grant from the National Historical
-                    Publications and Records Commission's (NHPRC) Innovation in Archives and
-                    Documentary Editing program.</p>
-            </projectDesc>
-        </encodingDesc>
-        <revisionDesc>
-            <change who="HSP" when="2015-03-11">Exported from Collective Access.</change>
-        </revisionDesc>
-    </teiHeader>
+      <sourceDesc>
+        <p>Born digital.</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The Historic Images, New Technologies (HINT) project aims to enhance description and
+          discovery of the Historical Society of Pennsylvania's graphics materials and promote the
+          linking and sharing of content among institutions and scholars. The project will result in
+          an update to HSP's digital image viewer and an online digital history exhibit, featuring
+          500 encoded political cartoons, that will demonstrate the new viewer's capabilities and
+          provide interpretive and contextual materials to encourage users to interact with
+          historical images in new ways. This project was funded by a grant from the National
+          Historical Publications and Records Commission's (NHPRC) Innovation in Archives and
+          Documentary Editing program.</p>
+      </projectDesc>
+    </encodingDesc>
+    <revisionDesc>
+      <change who="HSP" when="2015-03-25">Exported from Collective Access.</change>
+    </revisionDesc>
+  </teiHeader>
 
-    <text>
-        <body>
-            <div type="ography">
-                <listPerson>
-<person xml:id="ENT.000002503">
-  <persName key="ENT.000002503">
-    <forename type="first">John</forename>
-    <forename type="middle">Quincy</forename>
-    <surname type="last">Adams</surname>
-  </persName>
-  <birth when="1767">1767</birth>
-  <death when="1848">1848</death>
-  <sex>Male</sex>
-  <note type="internal">http://id.loc.gov/authorities/names/n79140988.html; depicted in 11738</note>
-</person>
-<person xml:id="ENT.000003560">
-  <persName key="ENT.000003560">
-    <forename type="first">Chester</forename>
-    <forename type="middle">Alan</forename>
-    <surname type="last">Arthur</surname>
-  </persName>
-  <birth when="1829">1829</birth>
-  <death when="1886">1886</death>
-  <sex>Male</sex>
-  <note type="biography">Chester Alan Arthur was a United States Vice President and President.  He was born on October 5, 1829 in Fairfield, Vermont and was the son of an Irish immigrant.  He graduated from Union College in New York in 1848, taught secondary school in Vermont and New York, and later became a lawyer in New York City.  During the Civil War he served as Quartermaster General of the State of New York.  After the War, Arthur rose within the ranks of the Republican Party because of his allegiance to Roscoe Conkling, a New York Senator and head of the Stalwart political machine.  In 1871 President Ulysses S. Grant appointed Arthur to serve as Collector of the New York Customhouse.  In 1878 President Rutherford B. Hayes sought to reform the party and to end the practice of political patronage and so, he fired Arthur and accused the Customhouse of political corruption and patronage.   Two years later, the Republicans, seeking to gain support of the Stalwarts, nominated Arthur as James A. Garfield’s running mate.  After President Garfield was assassinated in 1881, Arthur became president, broke ties with Stalwarts, and began to enact civil service reform.  On January 18, 1883, Arthur signed the Pendleton Civil Service Reform Act which ensured federal employees they would be hired based on merit and not party loyalty.   As President, Arthur worked to modernize the United States Navy and invested in the construction of steam-powered engines.  He also supported lower tariffs and signed the Tariff Act of 1883.During Arthur’s Administration, the Chinese Exclusion Act of 1882 was enacted.  It denied citizenship to Chinese immigrants and banned them from entering the United States.  The law was finally repealed in 1943.  During his presidency, Arthur became ill with kidney disease and lost the Republican nomination for the 1884 election to James Blaine.  He died on November 18, 1886.</note>
-  <bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). Historical dictionary of the Gilded Age. Armonk, N.Y.: M.E. Sharpe.</bibl>
-  <note type="internal">LOC:  http://id.loc.gov/authorities/names/n50002601.html
-</note>
-</person>
-<person xml:id="ENT.000003561">
-  <persName key="ENT.000003561">
-    <forename type="first">Thomas </forename>
-    <forename type="middle">Francis</forename>
-    <surname type="last">Bayard</surname>
-  </persName>
-  <birth when="1828">1828</birth>
-  <death when="1898">1898</death>
-  <sex>Male</sex>
-  <note type="biography">Thomas Francis Bayard was born on October 29, 1828 in Wilmington, Delaware and was a diplomat and lawyer. Bayard did not attend college, but studied law and was admitted to the bar in 1851.  From 1863-1864 he served as the US attorney for Delaware.  In 1865 he represented Delaware in the US Senate, and then left his post in 1885 to become the Secretary of State during Grover Cleveland’s first administration.  During Cleveland’s second administration, Bayard was appointed Ambassador of Great Britain.  He died in Massachusetts on September 28, 1898.</note>
-  <bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). Historical dictionary of the Gilded Age. Armonk, N.Y.: M.E. Sharpe.</bibl>
-</person>
-<person xml:id="ENT.000003331">
-  <persName key="ENT.000003331">
-    <forename type="first">John</forename>
-    <surname type="last">Bell</surname>
-  </persName>
-  <birth when="1796">1796</birth>
-  <death when="1869">1869</death>
-  <sex>Male</sex>
-  <note type="internal">depicted in 11561; 11563; http://bioguide.congress.gov/scripts/biodisplay.pl?index=B000340; http://id.loc.gov/authorities/names/n87887395.html</note>
-</person>
-<person xml:id="ENT.000003636">
-  <persName key="ENT.000003636">
-    <forename type="first">Bellew</forename>
-    <forename type="middle">Frank</forename>
-    <addName type="alt">Frank Henry Temple Bellew</addName>
-  </persName>
-  <birth when="1828-04-18">1828-04-18</birth>
-  <death when="1888-06-29">1888-06-29</death>
-  <sex>Male</sex>
-  <note type="biography">Political cartoonist</note>
-  <note type="internal">http://id.loc.gov/authorities/names/n85352256.html - drew "Lincoln's Last Warning," DAMS #2188, page 2.</note>
-</person>
-<person xml:id="ENT.000000552">
-  <persName key="ENT.000000552">
-    <forename type="first">Nicholas</forename>
-    <surname type="last">Biddle</surname>
-  </persName>
-  <birth when="1786">1786</birth>
-  <death when="1844">1844</death>
-  <sex>Male</sex>
-</person>
-<person xml:id="ENT.000003332">
-  <persName key="ENT.000003332">
-    <forename type="first">James</forename>
-    <forename type="middle">Gillespie</forename>
-    <surname type="last">Blaine</surname>
-  </persName>
-  <birth when="1830">1830</birth>
-  <death when="1893">1893</death>
-  <sex>Male</sex>
-  <note type="biography">James Gillespie Blaine was born on January 31, 1830 in West Brownsville, Pennsylvania.  He served as Secretary of State during the Benjamin Harrison and James A. Garfield Administrations and was the 31st Speaker of the US House of Representatives.  Blaine graduated from Washington College in 1847 and became a newspaper editor in Augusta, Maine.  In 1859 he was elected to serve in the Maine House of Representatives and later, in 1862, successfully ran for the US Congress.  In 1880 he lost the Republican Presidential nomination to James A. Garfield and, after the election, chosen to serve as Secretary of State.  Four years later Republicans nominated him as their candidate, but he narrowly lost the presidential election to Grover Cleveland.  In 1888, Benjamin Harrison appointed him Secretary of State.  As Secretary of State, Blaine expanded trade with Latin America and served as chairman of the first Pan-American Conference.  Blaine resigned as Secretary of State on June 4, 1892.  He died on January 27, 1893 in Washington, DC.</note>
-  <bibl><bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). <hi rendition="#italics">Historical dictionary of the Gilded Age</hi>. Armonk, N.Y.: M.E. Sharpe. </bibl></bibl>
-  <note type="internal">http://id.loc.gov/authorities/names/n82011612 ; depicted in 11585-Bc612P567_1_TEI.xml</note>
-</person>
-<person xml:id="ENT.000003602">
-  <persName key="ENT.000003602">
-    <forename type="first">Francis</forename>
-    <forename type="middle">Preston</forename>
-    <surname type="last">Blair</surname>
-  </persName>
-  <birth when="1821">1821</birth>
-  <death when="1875">1875</death>
-  <sex>Male</sex>
-  <note type="internal">http://id.loc.gov/authorities/names/n87895303.html; mentioned in 11820 (quoted); vice-presidential candidate (with running mate Horatio Seymour) in 1868</note>
-</person>
-<person xml:id="ENT.000003333">
-  <persName key="ENT.000003333">
-    <forename type="first">John</forename>
-    <forename type="middle">C.</forename>
-    <surname type="last">Breckinridge</surname>
-  </persName>
-  <birth when="1821">1821</birth>
-  <death when="1875">1875</death>
-  <sex>Male</sex>
-  <note type="internal">depicted in 11561; 11562; 11563; http://id.loc.gov/authorities/names/n85185549.html</note>
-</person>
-<person xml:id="ENT.000003334">
-  <persName key="ENT.000003334">
-    <forename type="first">Benjamin</forename>
-    <forename type="middle">Helm</forename>
-    <surname type="last">Bristow</surname>
-  </persName>
-  <birth when="1832">1832</birth>
-  <death when="1896">1896</death>
-  <sex>Male</sex>
-  <note type="biography">Bristow was a lawyer, the first Solicitor General of the United States, and the 30th US Secretary of the Treasury.  He was born in Kentucky on June 20, 1832, and graduated from Jefferson College in Pennsylvania in 1851.  He fought as a Union Soldier in the Civil War, was seriously wounded at the Battle of Shiloh in Tennessee, became the lieutenant colonel of the 8th Kentucky Calvary, and assisted in the 1863 capture of the Confederate raider John Hunt Morgan.  On September 23, 1863 Bristow received an honorable discharge from the Union Army because he was selected to serve in the Kentucky senate.   Bristow was unaware that he had been elected and served only one term, until 1865.  One year later he became the US Attorney for the Kentucky District where he vigorously defended the Civil Rights Act of 1866.  From 1870-1872 he served as the first Solicitor General of the United States.  During his service, he argued issues related to Reconstruction and prosecuted thousands of Ku Klux Klan members.  In 1874, he became the United States Secretary of the Treasury and helped prosecute the Whisky Ring.  Following his resignation in 1876, he returned to New York to practice law and was later elected the second president of the American Bar Association.  He died in New York in 1896.</note>
-  <bibl><bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). Historical dictionary of the Gilded Age. Armonk, N.Y.: M.E. Sharpe. </bibl><bibl>Solicitor General Benjamin H Bristow. The United States Department of Justice.  Accessed January 21, 2015 http://www.justice.gov/osg/bio/benjamin-h-bristow</bibl></bibl>
-  <note type="internal">http://id.loc.gov/authorities/names/n85158278.html ; depicted in 11585-Bc612P567_1_TEI.xml</note>
-</person>
-<person xml:id="ENT.000003335">
-  <persName key="ENT.000003335">
-    <forename type="first">William</forename>
-    <forename type="middle">Jennings</forename>
-    <surname type="last">Bryan</surname>
-  </persName>
-  <birth when="1860">1860</birth>
-  <death when="1925">1925</death>
-  <sex>Male</sex>
-  <note type="internal">depicted in 11565-3133_b2f9_1_TEI.xml ; http://id.loc.gov/authorities/names/n80044871.html</note>
-</person>
-<person xml:id="ENT.000003382">
-  <persName key="ENT.000003382">
-    <forename type="first">John</forename>
-    <surname type="last">Stuart</surname>
-    <addName type="alt">Lord Bute</addName>
-  </persName>
-  <birth when="1713">1713</birth>
-  <death when="1792">1792</death>
-  <sex>Male</sex>
-  <note type="internal">depicted in 2562-Bb612L615_1_TEI.xml (Liberty Triumphant) ; http://id.loc.gov/authorities/names/n81035544.html</note>
-</person>
-<person xml:id="ENT.000003551">
-  <persName key="ENT.000003551">
-    <forename type="first">Benjamin</forename>
-    <surname type="last">Butler</surname>
-  </persName>
-  <birth when="1818">1818</birth>
-  <death when="1893">1893</death>
-  <sex>Male</sex>
-  <note type="biography">Benjamin Franklin Butler was a lawyer, member US House of Representatives, and Governor of Massachusetts.  He was born in 1818 in Deerfield, New Hampshire and in 1838 graduated from Waterville College in Maine.  He was admitted to the bar in 1840 and practiced law in Lowell, Massachusetts.  He served in the Massachusetts House of Representatives in 1853 and later in 1859 in the State senate.  During the Civil War, he became a Major General in the Union Army.  Butler became a representative in the US House of Representatives in 1867, and in 1868 served as one of the managers in the Senatorial impeachment hearings against President Andrew Johnson.  He served as Massachusetts Governor from 1883-1884 and died in Washington DC in 1893.</note>
-  <bibl>Butler, Benjamin Franklin.  Biographical Directory of the United States Congress.  Last Accessed February 3, 2015 http://bioguide.congress.gov/scripts/biodisplay.pl?index=b001174</bibl>
-  <note type="internal">LOC:  http://id.loc.gov/authorities/names/n85363511</note>
-</person>
-<person xml:id="ENT.000003336">
-  <persName key="ENT.000003336">
-    <forename type="first">James</forename>
-    <forename type="middle">Donald</forename>
-    <surname type="last">Cameron</surname>
-  </persName>
-  <birth when="1833">1833</birth>
-  <death when="1918">1918</death>
-  <sex>Male</sex>
-  <note type="biography">James Donald Cameron was a US Republican Senator, Secretary of War, and Republican National Committee Chairman.  Cameron was born in Middletown, PA on May 14, 1833 and was the son of Simon Cameron, a prominent Republican politician and the Secretary of War in President Lincoln’s Cabinet.  After graduating from Princeton College in 1852, he worked for the family businesses, including banking and the North Central Railroad.  In 1866 he helped his father win a seat in the US Senate, and later in 1876, campaigned for Ulysses S. Grant.  When Grant won the presidential election, he appointed Cameron Secretary of War.  Cameron served for one year (1876-1877).  He served in the US Senate from 1877-1897 and served as the Republican National Committee Chairman from 1879-1880.  He died in his home in Lancaster County Pennsylvania on August 30, 1918.</note>
-  <bibl><bibl>Cameron, James Donald.  Biographical Directory of the United States Congress.  Last Accessed February 3, 2015.  http://bioguide.congress.gov/scripts/biodisplay.pl?index=c000065</bibl><bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). Historical dictionary of the Gilded Age. Armonk, N.Y.: M.E. Sharpe.</bibl></bibl>
-  <note type="internal">http://id.loc.gov/authorities/names/n86114833.html ; depicted in 11585-Bc612P567_1_TEI.xml</note>
-</person>
-<person xml:id="ENT.000003337">
-  <persName key="ENT.000003337">
-    <forename type="first">Simon</forename>
-    <surname type="last">Cameron</surname>
-  </persName>
-  <birth when="1799">1799</birth>
-  <death when="1889">1889</death>
-  <sex>Male</sex>
-  <note type="biography">Simon Cameron was born on March 8, 1799 in Pennsylvania and was the father of James Donald Cameron, (Secretary of War during the Grant Administration).  At seventeen years old Simon Cameron became an editor for the newspaper <hi rendition="#italics">Northumberland Gazette </hi>and later a newspaper owner and editor.  In 1822 was appointed to the post of State Printer and later in 1829 became the Adjutant General of the Pennsylvania state militia.  He became an influential politician whose support convinced Democrats to nominate Martin Van Buren as the 1832 vice presidential candidate.   In addition to his work as a politician, Cameron was a successful businessman who earned his fortune in the banking and railroad industries.  In 1845 he successfully ran for the US Senate and later, in 1861, became Abraham Lincoln’s secretary of war.  He served a ten month term, resigned in 1862 due to corruption allegations, and was appointed by Lincoln to serve as the ambassador to Russia.   In 1863 Cameron resigned, ran unsuccessfully for the US Senate, and was accused of bribing politicians in order to sway the election.  He was never formally charged with corruption.  Cameron supported Lincoln’s re-election, and in return, Lincoln appointed politicians loyal to Cameron to federal positions in Pennsylvania.  Consequently, Cameron’s political power grew and he soon became the leader of Pennsylvania’s political machine.  political influence was so great that he convinced President Ulysses S. Grant to appoint his son, James Donald Cameron, secretary of war in 1876.  His After James Donald resigned amongst rumors of corruption, Cameron resigned his seat in the US Senate, making sure that his son would replace him.  Simon Cameron died on June 26, 1899 at his home in Pennsylvania.</note>
-  <bibl><bibl>Cameron, Simon.  Biographical Directory of the United States Congress.  Last Accessed February 3, 2015.  http://bioguide.congress.gov/scripts/biodisplay.pl?index=c000068</bibl><bibl>Simon Cameron.  Pennsylvania Historical and Museum Commission.  Last Accessed February 3, 2015.  http://www.ddap.pa.gov/portal/server.pt/community/people/4277/cameron,_simon/443541</bibl></bibl>
-  <note type="internal">depicted in 11585-Bc612P567_1_TEI.xml according to LOC, but I don't know which one is he -SN see: http://www.loc.gov/pictures/item/2005696340/ ; http://id.loc.gov/authorities/names/n86114834.html ; father of James Donald Cameron</note>
-</person>
-<person xml:id="ENT.000000848">
-  <persName key="ENT.000000848">
-    <forename type="first">William</forename>
-    <surname type="last">Charles</surname>
-  </persName>
-  <birth when="1776">1776</birth>
-  <death when="1820">1820</death>
-  <sex>Male</sex>
-</person>
-<person xml:id="ENT.000003542">
-  <persName key="ENT.000003542">
-    <addName type="honorific">Queen</addName>
-    <forename type="first">Charlotte</forename>
-  </persName>
-  <birth when="1744">1744</birth>
-  <death when="1818">1818</death>
-  <sex>Female</sex>
-</person>
-<person xml:id="ENT.000000132">
-  <persName key="ENT.000000132">
-    <forename type="first">Edward Williams</forename>
-    <surname type="last">Clay</surname>
-  </persName>
-  <birth when="1799">1799</birth>
-  <death when="1857">1857</death>
-  <sex>Male</sex>
-</person>
-<person xml:id="ENT.000002230">
-  <persName key="ENT.000002230">
-    <forename type="first">Henry</forename>
-    <surname type="last">Clay</surname>
-  </persName>
-  <birth when="1777">1777</birth>
-  <death when="1852">1852</death>
-  <sex>Male</sex>
-</person>
-<person xml:id="ENT.000003552">
-  <persName key="ENT.000003552">
-    <forename type="first">Roscoe</forename>
-    <surname type="last">Conkling</surname>
-  </persName>
-  <birth when="1829">1829</birth>
-  <death when="1888">1888</death>
-  <sex>Male</sex>
-  <note type="biography">Roscoe Conkling was a congressman, politician, and leader of the Stalwart faction of the Republican Party.  He was born on October 30, 1829 in New York, studied at the Auburn Academy, and joined the bar in 1850.  He was elected to serve in the US House of Representatives in 1859 and later became a US Senator (1867-1881).   He helped draft the Electoral Commission Act of 1877, as well as the 14th and 15th amendments, and he supported and helped pass Reconstruction legislation and the Civil Rights Act of 1875. He was nominated in 1873 by Ulysses S. Grant to the post of chief justice of the Supreme Court, but declined the offer.  In 1876 he unsuccessfully sought the Republican presidential nomination.  By 1880 Conkling had become the leader of the Stalwart Faction of the Republican Party.  The Stalwarts staunchly supported Ulysses S. Grant in his bid for a presidential third term.  Due to divisions within the party, however, Republicans did not give Grant the nomination and opted instead to place James A. Garfield on the ticket.  He resigned from the Senate in 1881, returned to his law practice in New York City, and died on April 18, 1888.</note>
-  <bibl><bibl>Conkling, Roscoe.  Biographical Directory of the United States Congress.  Last Accessed February 3, 2015.  http://bioguide.congress.gov/scripts/biodisplay.pl?index=c000681</bibl><bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). Historical dictionary of the Gilded Age. Armonk, N.Y.: M.E. Sharpe. </bibl></bibl>
-  <note type="internal">LOC:  http://id.loc.gov/authorities/names/n85363319.html</note>
-</person>
-<person xml:id="ENT.000003633">
-  <persName key="ENT.000003633">
-    <forename type="first">Tennessee</forename>
-    <forename type="middle">Celeste</forename>
-    <surname type="last">Claflin</surname>
-    <addName type="alt">Tennessee Claflin Cook</addName>
-  </persName>
-  <birth when="1845">1845</birth>
-  <death when="1923">1923</death>
-  <sex>Female</sex>
-  <note type="internal">http://id.loc.gov/authorities/names/n80109890.html; depicted in 11747</note>
-</person>
-<person xml:id="ENT.000003572">
-  <persName key="ENT.000003572">
-    <forename type="first">Alonzo</forename>
-    <forename type="middle">B</forename>
-    <surname type="last">Cornell</surname>
-  </persName>
-  <birth when="1832">1832</birth>
-  <death when="1904">1904</death>
-  <sex>Male</sex>
-  <note type="biography"><p>Alonzo Cornell was born on January 22, 1832 in Ithaca, New York and became a politician, successful businessman, and the 13th Governor of New York.  His father Ezra Cornell, was the founder of Cornell University.</p><p>Cornell helped his father found the Western Union Telegraph Company, and later served as the company’s director.  He entered politics in 1868 when he unsuccessfully ran for lieutenant governor.  He became the New York Republican State Central Committee Chairman in 1870 and served until 1878.  In 1876 he was appointed by Rutherford B. Hayes to serve as Surveyor of the Port of New York.  Because of a political dispute, Hayes removed him from the position two years later.  In 1878 Cornell became New York State Governor, beating his democratic incumbent opponent, Lucius Robinson.  As governor, Cornell established a state board of health and a state railroad commission.  After serving only one term, Cornell left politics and returned to business.  He died on October 15, 1904.</p></note>
-  <bibl><bibl>“Alonzo B. Cornell, Hallofgovernors.ny.gov,” accessed February 11, 2015, http://hallofgovernors.ny.gov/AlonzoCornell.</bibl><bibl>“Cornell, Alonzo Barton, House Divided,” accessed February 11, 2015, http://hd.housedivided.dickinson.edu/node/5481.</bibl><bibl>“Alonzo Barton Cornell, National Governors’ Association” accessed February 11, 2015, http://www.nga.org/cms/home/governors/past-governors-bios/page_new_york/col2-content/main-content-list/title_cornell_alonzo.html.</bibl></bibl>
-  <note type="internal">LOC:  http://id.loc.gov/authorities/names/no98021391</note>
-</person>
-<person xml:id="ENT.000003340">
-  <persName key="ENT.000003340">
-    <forename type="first">George</forename>
-    <forename type="middle">William</forename>
-    <surname type="last">Curtis</surname>
-  </persName>
-  <birth when="1824">1824</birth>
-  <death when="1892">1892</death>
-  <sex>Male</sex>
-  <note type="biography">George William Curtis was a journalist and editor.  He was born on February 24, 1824 in Providence, RI, attended private school in New York, and traveled throughout Europe, Egypt, and Syria in the 1840s.  Upon his return to the US, he wrote for and helped George Palmer Putnam found <hi rendition="#italics">Putman’s Magazine</hi>.  Shortly thereafter, he began writing for the <hi rendition="#italics">Tribune and Harper’s Weekly</hi>, a popular New York political magazine.  He served as the editor of <hi rendition="#italics">Harper’s Weekly</hi> from 1863 to 1892.  In 1864 he served as a delegate to the Republican National Convention where he supported Lincoln, and even wrote the letter notifying the incumbent president of his re-nomination.   Curtis was politically active, and a Mugwump who believed in civil service, education, and trade reforms.  During the Grant administration he became Chairman of the Civil Service Reform Commission and later the president of the National Civil Service Reform League and the New York Civil Service Reform Association.  He died in Staten Island on August 31, 1892.</note>
-  <bibl><bibl>George William Curtis Papers Finding Aid. Staten Island Museum.  Last Accessed February 3, 2015.  http://www.statenislandmuseum.org/images/uploads/collections/Curtis_(George_William)_Papers_Finding_Aids.pdf </bibl><bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). Historical dictionary of the Gilded Age. Armonk, N.Y.: M.E. Sharpe.</bibl></bibl>
-  <note type="internal">http://id.loc.gov/authorities/names/n50018719.html ; depicted in 11585-Bc612P567_1_TEI.xml</note>
-</person>
-<person xml:id="ENT.000003549">
-  <persName key="ENT.000003549">
-    <forename type="first">Otho</forename>
-    <surname type="last">Cushing</surname>
-  </persName>
-  <birth when="1841">1841</birth>
-  <death when="1942">1942</death>
-  <sex>Male</sex>
-  <note type="internal">LOC:  http://id.loc.gov/authorities/names/n95000553.html</note>
-</person>
-<person xml:id="ENT.000003594">
-  <persName key="ENT.000003594">
-    <forename type="first">Charles</forename>
-    <forename type="middle">Anderson</forename>
-    <surname type="last">Dana</surname>
-  </persName>
-  <birth when="1819">1819</birth>
-  <death when="1897">1897</death>
-  <sex>Male</sex>
-  <note type="biography"><p>Charles Anderson Dana was born on August 8, 1819 in Hinsdale, New Hampshire and became the editor of the <hi rendition="#italics">New York Sun</hi>.  In 1839 he enrolled at Havard College, but due to financial problems, was forced to leave school.  He later began writing for the <hi rendition="#italics">New York Tribune</hi>.  He became the managing editor for the <hi rendition="#italics">New York Tribune</hi> in 1849, but in 1862 was forced to resign because he did not get along with the editor-publisher Horace Greeley.   In 1868 Dana became an owner and editor of the <hi rendition="#italics">New York Sun</hi>.  Dana also authored several books including  <hi rendition="#italics">Recollections of the Civil War</hi> and <hi rendition="#italics">The Art of Newspaper Making</hi>.</p></note>
-  <bibl><bibl>“Charles A. Dana  Biography - American Journalist” Encyclopedia Britannica, accessed February 10, 2015, http://www.britannica.com/EBchecked/topic/150676/Charles-A-Dana.</bibl></bibl>
-  <note type="internal">http://id.loc.gov/authorities/names/n85253013.html</note>
-</person>
-<person xml:id="ENT.000001041">
-  <persName key="ENT.000001041">
-    <forename type="first">Jefferson</forename>
-    <surname type="last">Davis</surname>
-  </persName>
-  <birth when="1808">1808</birth>
-  <death when="1889">1889</death>
-  <sex>Male</sex>
-  <note type="internal">http://id.loc.gov/authorities/names/n79145410.html. Depicted in 11511, 2189</note>
-</person>
-<person xml:id="ENT.000003341">
-  <persName key="ENT.000003341">
-    <forename type="first">Henry</forename>
-    <surname type="last">Dawkins</surname>
-  </persName>
-  <death when="1786">1786</death>
-  <sex>Male</sex>
-  <bibl>http://id.loc.gov/authorities/names/n87947371.html</bibl>
-  <note type="internal">cartoonist ; artist and engraver of 2562-Bb612L615_1_TEI.xml (Liberty Triumphant)</note>
-</person>
-<person xml:id="ENT.000003637">
-  <persName key="ENT.000003637">
-    <forename type="first">George</forename>
-    <forename type="middle">Wallace</forename>
-    <surname type="last">Delamater</surname>
-  </persName>
-  <birth when="1849-03-31">1849-03-31</birth>
-  <death when="1907-08-07">1907-08-07</death>
-  <sex>Male</sex>
-  <note type="internal">Pennsylvania State Senator from 1887-1890; depicted in DAMS #11737, "The Silence of Matt Quay."
-See http://politicalgraveyard.com/death/offices.html; https://books.google.com/books?id=h68bAQAAMAAJ&amp;pg=PA10&amp;lpg=PA10&amp;dq=pa+senator+george+w.+delamater&amp;source=bl&amp;ots=FsL_qPMdN4&amp;sig=xFJCQ6KjdUFFkGITQSL6kxyW2GY&amp;hl=en&amp;sa=X&amp;ei=ejj_VNfBE8aZNpC6hJAM&amp;ved=0CCsQ6AEwAw#v=onepage&amp;q&amp;f=false; http://www.historicpa.net/bios/2g/george-w-delamater.html</note>
-</person>
-<person xml:id="ENT.000003344">
-  <persName key="ENT.000003344">
-    <forename type="first">Stephen</forename>
-    <forename type="middle">A.</forename>
-    <surname type="last">Douglas</surname>
-  </persName>
-  <birth when="1813">1813</birth>
-  <death when="1861">1861</death>
-  <sex>Male</sex>
-  <note type="internal">depicted in 11561; 11562; 11563; http://id.loc.gov/authorities/names/n50027507.html</note>
-</person>
-<person xml:id="ENT.000003345">
-  <persName key="ENT.000003345">
-    <forename type="first">George</forename>
-    <forename type="middle">F.</forename>
-    <surname type="last">Edmunds</surname>
-  </persName>
-  <birth when="1828">1828</birth>
-  <death when="1919">1919</death>
-  <sex>Male</sex>
-  <note type="biography">George Franklin Edmunds was a lawyer and Republican senator who was born on February 1, 1828 in Richmond, Vermont.  He studied law, and was admitted to the bar in 1849.  In 1854 he became a representative in the Vermont House of Representatives and later in 1856, the speaker of the Vermont House of Representatives.  He joined the US Senate in 1866 and continued to serve until 1891.  As Senator, he supported Reconstruction policies, was active in the impeachment of Andrew Johnson, and drafted the Tenure of Office Act in 1867.  He served as chairman of the Senate Judiciary Committee from 1872 to 1879 and again from 1882 to 1891.  He worked to pass legislation to outlaw Mormon polygamy and to regulate railroads, as well as, drafted and supported the 1877 Electoral Commission Act which helped settle the election between Rutherford Hayes and Samuel Tilden.  After Edmunds resigning from the Senate, Edmunds continued to practice law and successfully argued before the Supreme Court the unconstitutionality of the income tax in the 1895 Pollock v. Famers’ Loan and Trust Co. Case.  He died in Pasadena, California on February 27, 1919.</note>
-  <bibl><bibl>Edmunds, George Franklin.  Biographical Directory of the United States Congress.  Last Accessed February 3, 2015.  http://bioguide.congress.gov/scripts/biodisplay.pl?index=e000056</bibl><bibl>George Franklin Edmunds.  Encyclopedia Britannica Online.  Last Accessed February 3, 2015 http://www.britannica.com/EBchecked/topic/179355/George-Franklin-Edmunds </bibl><bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). Historical dictionary of the Gilded Age. Armonk, N.Y.: M.E. Sharpe. </bibl></bibl>
-  <note type="internal">depicted in 11585-Bc612P567_1_TEI.xml ; http://id.loc.gov/authorities/names/n88071154.html</note>
-</person>
-<person xml:id="ENT.000003553">
-  <persName key="ENT.000003553">
-    <forename type="first">William</forename>
-    <forename type="middle">Hayden</forename>
-    <surname type="last">English</surname>
-  </persName>
-  <birth when="1822">1822</birth>
-  <death when="1896">1896</death>
-  <sex>Male</sex>
-  <note type="biography"><p> William Hayden English was a lawyer, historian, Democratic politician, and candidate for Vice President.  He was born on August 27, 1822 in Lexington, Indiana, studied at Hanover College, and was admitted to the Indiana bar in 1840.  In 1851 he was elected to the Indiana House of Representatives and served as speaker.  Two years later he became the Indiana State Representative in the US House of Representatives where he served until 1861.  After his retirement, he founded the First National Bank of Indianapolis and later became the chairman of the Indiana Democratic Central Committee.  In 1880, the Democrats nominated him as Winfield Scott Hancock’s vice presidential running-mate.  After losing the election to Republicans James A. Garfield and Chester Arthur, English served as the president of the Indiana Historical Society, published a book on the history of Indiana, and two other history books entitled <hi rendition="#italics">Conquest of the Country Northwest of the River Ohio, 1778-1783</hi> and <hi rendition="#italics">Life of General George Rogers Clark</hi>.  English died from complications due to heart disease on February 7, 1896.</p></note>
-  <bibl> <bibl>“ENGLISH, William Hayden - Biographical Information,” accessed February 4, 2015, http://bioguide.congress.gov/scripts/biodisplay.pl?index=E000191.</bibl>                <bibl>“IDOA: William H. English,” accessed February 4, 2015, http://www.in.gov/idoa/2791.htm. </bibl>                 <bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). Historical dictionary of the Gilded Age. Armonk, N.Y.: M.E. Sharpe. </bibl></bibl>
-  <note type="internal">LOC:  http://id.loc.gov/authorities/names/n89611965.html</note>
-</person>
-<person xml:id="ENT.000003346">
-  <persName key="ENT.000003346">
-    <forename type="first">William</forename>
-    <forename type="middle">Maxwell</forename>
-    <surname type="last">Evarts</surname>
-  </persName>
-  <birth when="1818">1818</birth>
-  <death when="1901">1901</death>
-  <sex>Male</sex>
-  <note type="biography">William Maxwell Evarts was a lawyer, politician, and Secretary of State.  He was born in Boston, Massachusetts on February 6, 1818.  He studied at Yale College and Harvard Law School and joined the bar in 1841.  He was the Assistant District Attorney of the southern district of New York from 1848-1853.  Evarts served as chief counsel during President Andrew Johnson’s impeachment trial and was later appointed Attorney General by Johnson.  Evarts remained in the post for one year from 1868 to 1869, and then returned to private practice, helped found the New York Bar Association, and served as its first president, 1870-1879.  In 1876 Evarts represented Benjamin Hayes before the Electoral Commission during the disputed election of 1876 between Hayes and Samuel J. Tilden.  Evarts later served as Secretary of State from 1877 to 1881 during President Hayes’ administration.  After leaving office, he was elected to the US Senate and served from 1885 to 1891 and died on February 28, 1901.   </note>
-  <bibl> <bibl>“EVARTS, William Maxwell - Biographical Information,” accessed February 4, 2015, http://bioguide.congress.gov/scripts/biodisplay.pl?index=E000262. </bibl>                <bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). Historical dictionary of the Gilded Age. Armonk, N.Y.: M.E. Sharpe. </bibl>                 <bibl>“William Maxwell Evarts - People - Department History - Office of the Historian,” accessed February 4, 2015, https://history.state.gov/departmenthistory/people/evarts-william-maxwell. </bibl></bibl>
-  <note type="internal">http://id.loc.gov/authorities/names/n84124640.html ; depicted in 11585-Bc612P567_1_TEI.xml</note>
-</person>
-<person xml:id="ENT.000003347">
-  <persName key="ENT.000003347">
-    <forename type="first">Edward</forename>
-    <surname type="last">Everett</surname>
-  </persName>
-  <birth when="1794">1794</birth>
-  <death when="1865">1865</death>
-  <sex>Male</sex>
-  <note type="internal">depicted in 11561;  http://id.loc.gov/authorities/names/n85158370.html. Constitutional Party vice presidential candidate in 1860.</note>
-</person>
-<person xml:id="ENT.000003558">
-  <persName key="ENT.000003558">
-    <forename type="first">James</forename>
-    <surname type="last">Fisk </surname>
-  </persName>
-  <birth when="1835">1835</birth>
-  <death when="1872">1872</death>
-  <sex>Male</sex>
-  <note type="biography">James Fisk was born on April 1, 1834 in Bennington, Vermont.  He was a financier, stockbroker, and one of the robber barons.  He formed a brokerage firm in 1866.  A few years later, he and his business partner Jay Gould fought Cornelius Vanderbilt for control of the Erie Railroad.  During the Erie War Gould and Fisk inflated the value of the stocks and thus succeeded in gaining control of the Erie Railroad.  The pair bribed and created alliances with a number of judges, legislators, and politicians including Boss Tweed.  On September 24, 1869, their financial schemes and dishonesty led to the panic of Black Friday.  Fisk was married to Lucy Moore, but had a relationship with Josie Mansfield.  Mansfield later began a relationship with Edward Stokes and the pair attempted to blackmail Fisk out of a large sum of money.  On January 6, 1872 an argument between Stokes and Fisk turned deadly when Stokes shot and murdered Fisk.  </note>
-  <bibl><bibl>“James Fisk | Biography - American Financier,” <hi rendition="#italics">Encyclopedia Britannica</hi>, accessed January 21, 2015, http://www.britannica.com/EBchecked/topic/208740/James-Fisk.</bibl>                <bibl>Ellen Terrell, “Robber Barons: Gould and Fisk | Inside Adams: Science, Technology &amp; Business,” webpage, (September 26, 2012), http://blogs.loc.gov/inside_adams/2012/09/robber-barons-gould-and-fisk/.</bibl></bibl>
-  <note type="internal">LOC:  http://id.loc.gov/authorities/names/n80107292.html</note>
-</person>
-<person xml:id="ENT.000003601">
-  <persName key="ENT.000003601">
-    <forename type="first">Nathan</forename>
-    <forename type="middle">Bedford</forename>
-    <surname type="last">Forrest</surname>
-  </persName>
-  <birth when="1821">1821</birth>
-  <death when="1877">1877</death>
-  <sex>Male</sex>
-  <note type="internal">http://id.loc.gov/authorities/names/n80015646.html; mentioned 11820</note>
-</person>
-<person xml:id="ENT.000003532">
-  <persName key="ENT.000003532">
-    <forename type="first">Joseph</forename>
-    <surname type="last">Fox</surname>
-  </persName>
-  <birth when="1710">1710</birth>
-  <death when="1779">1779</death>
-  <sex>Male</sex>
-</person>
-<person xml:id="ENT.000000054">
-  <persName key="ENT.000000054">
-    <forename type="first">Benjamin</forename>
-    <surname type="last">Franklin</surname>
-  </persName>
-  <birth when="1706">1706</birth>
-  <death when="1790">1790</death>
-  <sex>Male</sex>
-</person>
-<person xml:id="ENT.000003555">
-  <persName key="ENT.000003555">
-    <forename type="first">James</forename>
-    <surname type="last">Garfield</surname>
-  </persName>
-  <birth when="1831">1831</birth>
-  <death when="1881">1881</death>
-  <sex>Male</sex>
-  <note type="biography">James Abram Garfield was the 20th president of the United States and was assassinated 200 days into his presidency.  He was born on November 19, 1831 in Ohio, and lost his father when he was two years old.  He graduated in 1856 from Williams College, became a classics professor, and served as president of the Western Reserve Eclectic Institute.  He became a state senator in 1859 and later a major general in the Union Army.  He served nine consecutive terms in the US House of Representatives from 1863 to 1880.  In 1880 Republicans nominated Garfield as their presidential candidate.  He won a narrow victory against his Democratic opponent Winfield S. Hancock.  As president, Garfield fought for civil service reform and called for an investigation of the Post Office.  On July 2, 1881 Charles Guiteau shot the President in a Washington D.C Railway Station.  Garfield died eighty days later on September 19, 1881.</note>
-  <bibl><bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). <hi rendition="#italics">Historical dictionary of the Gilded Age</hi>. Armonk, N.Y.: M.E. Sharpe. </bibl><bibl> “James Garfield,” <hi rendition="#italics">Whitehouse.gov</hi>, accessed January 21, 2015, http://www.whitehouse.gov/1600/presidents/jamesgarfield.</bibl></bibl>
-  <note type="internal">LOC:  http://id.loc.gov/authorities/names/n50015182
-</note>
-</person>
-<person xml:id="ENT.000003392">
-  <persName key="ENT.000003392">
-    <forename type="first">George</forename>
-    <surname type="last">III</surname>
-  </persName>
-  <birth when="1738">1738</birth>
-  <death when="1820">1820</death>
-  <sex>Male</sex>
-  <note type="biography">King of Great Britain and Ireland, 1760-1801; king of the United Kingdom of Great Britain and Ireland, 1801-1820.</note>
-  <note type="internal">http://id.loc.gov/authorities/names/n79061402.html</note>
-</person>
-<person xml:id="ENT.000003350">
-  <persName key="ENT.000003350">
-    <forename type="first">Jean-Léon</forename>
-    <surname type="last">Gérôme</surname>
-  </persName>
-  <birth when="1824">1824</birth>
-  <death when="1904">1904</death>
-  <sex>Male</sex>
-  <note type="biography">Jean-Léon Gérôme was born on May 11, 1824 in Vesoul, France and was a 19th century French artist.  He was a student of Paul Delaroche and many of his paintings explored Greco-Roman themes and classical mythology.  His paintings were inspired by his travels to Egypt, the Holy Land, and Asia Minor.  In addition to being a successful painter, Gérôme was a sculptor and a teacher.</note>
-  <bibl><bibl> “Jean-Leon Gerome | Biography - French Artist,” Encyclopedia Britannica, accessed January 21, 2015, http://www.britannica.com/EBchecked/topic/231830/Jean-Leon-Gerome.</bibl> <bibl>“The Spectacular Art of Jean-Léon Gérôme,” The J. Paul Getty Museum, accessed January 21, 2015, http://www.getty.edu/art/exhibitions/gerome/</bibl></bibl>
-  <note type="internal">NOTE: LOC does not hyphenate his first name, although most other sources do. Need to make a final decision about this. http://id.loc.gov/authorities/names/n50016499.html &#13;
-&#13;
-mentioned in 11585-Bc612P567_1_TEI.xml; painted Phryne Before the Aeropagus</note>
-</person>
-<person xml:id="ENT.000003351">
-  <persName key="ENT.000003351">
-    <forename type="first">Bernhard</forename>
-    <surname type="last">Gillam</surname>
-  </persName>
-  <birth when="1856">1856</birth>
-  <death when="1896">1896</death>
-  <sex>Male</sex>
-  <note type="biography"><p>Bernhard Gillam was born on April 28, 1856 in Banbury, Oxforshire in England and was a famous 19th century American cartoonist.  At the age of ten, Gillam’s family immigrated to the United States and settled in New York.  He studied engraving and worked as a cartoonist for <hi rendition="#italics">Leslie’s Weekly</hi>,  the <hi rendition="#italics">New York Graphic</hi>, and <hi rendition="#italics">Harper’s Weekly</hi>.  Joseph Keppler later hired Gillam to work for <hi rendition="#italics">Puck</hi>, a weekly humor magazine.  At <hi rendition="#italics">Puck</hi>, Gillam characterized a number of political figures including the 1884 presidential candidate James A. Blaine.   In 1886 Gillam became part owner of the humor magazine <hi rendition="#italics">Judge</hi> where he continued to poke fun at presidential candidates and their policies.  He died of typhoid fever on January 19, 1896 in Canajoharie, New York. </p></note>
-  <bibl><bibl> “Bernhard Gillam | Biography - American Cartoonist,” <hi rendition="#italics">Encyclopedia Britannica</hi>, accessed January 21, 2015, http://www.britannica.com/EBchecked/topic/233731/Bernhard-Gillam.</bibl></bibl>
-  <note type="internal">http://id.loc.gov/authorities/names/n94122577.html ; cartoonist for Puck, among other publications. created 11585-Bc612P567_1_TEI.xml</note>
-</person>
-<person xml:id="ENT.000003559">
-  <persName key="ENT.000003559">
-    <forename type="first">Jay</forename>
-    <surname type="last">Gould</surname>
-  </persName>
-  <birth when="1836">1836</birth>
-  <death when="1892">1892</death>
-  <sex>Male</sex>
-  <note type="biography"><p>Jay Gould was born on May 27, 1836 in Roxbury, New York and was an American railroad financier and one of the “robber barons”.  He attended Hobart Academy and worked as a surveyor.  He later began dealing in railroad stocks, became business partners with James Fisk and Daniel Drew, and formed a Wall Street Brokerage House.  In 1868, Gould, Fisk, and Drew successfully gained control of the Erie Railroad from Cornelius Vanderbilt by inflating the value of the company’s stocks.  Gould and Fisk engaged in political bribery and formed a partnership with the infamous William “Boss” Tweed.</p>                <p>On September 24, 1869, Gould and Fisk’s financial schemes led to the panic of “Black Friday” and Gould was forced to relinquish control of the Eerie Railroad.  In the 1870s Gould bought stock of railroads in the West and gained control of several railroad companies including the Union Pacific Railroad.  He also was owner of the Western Union Telegraph Company and the <hi rendition="#italics">New York World</hi> Newspaper.  He died in New York City on December 2, 1892 and left his $72 million fortune to his children. </p></note>
-  <bibl><bibl> “Jay Gould | Biography - American Financier,” <hi rendition="#italics">Encyclopedia Britannica</hi>.  accessed January 21, 2015, http://www.britannica.com/EBchecked/topic/239993/Jay-Gould</bibl><bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). <hi rendition="#italics">Historical dictionary of the Gilded Age</hi>. Armonk, N.Y.: M.E. Sharpe. </bibl><bibl>Terrell, Ellen “Robber Barons: Gould and Fisk | Inside Adams: Science, Technology &amp; Business,” webpage, (September 26, 2012), http://blogs.loc.gov/inside_adams/2012/09/robber-barons-gould-and-fisk/.</bibl></bibl>
-  <note type="internal">LOC:  http://id.loc.gov/authorities/names/n50035745</note>
-</person>
-<person xml:id="ENT.000000941">
-  <persName key="ENT.000000941">
-    <forename type="first">Ulysses</forename>
-    <forename type="middle">S.</forename>
-    <surname type="last">Grant</surname>
-  </persName>
-  <birth when="1822">1822</birth>
-  <death when="1885">1885</death>
-  <sex>Male</sex>
-  <note type="biography"><p>Ulysses Simpson Grant was a Union General and the 18th President of the United States.  He served two consecutive terms as president,1869-1876.</p>                                <p>He was born in Point Pleasant, Ohio on April 27, 1822.  He graduated from West Point in 1843 and later became one of the most distinguished generals in the Union Army. In 1868 he was nominated to run as the Republican presidential nominee.  He won a sizeable victory over his Democratic opponent Horatio Seymour.  Grant served during Reconstruction and used the army to suppress violence perpetrated by the Ku Klux Klan.  Grant initially maintained a peace policy towards Native Americans which he eventually was forced to abandon due to the increasing violence between Native Americans and settlers.  Grant was plagued by accusations of corruption and bribery because he often accepted lavish gifts, was photographed with the infamous Jay Gould and Jay Fisk, and appointed his family members to serve in government positions.  In fact, the term “Grantism” was used to signify corruption.  Consequently, Grant was unable to secure a third term as president. </p>                                <p>After leaving office, Grant went bankrupt and developed throat cancer.  In order to overcome his financial difficulties, he wrote his <hi rendition="#italics">Personal Memoirs</hi>  which eventually earned over $400,000.  He died on July 23, 1885, a few days after he finished writing.</p></note>
-  <bibl><bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). <hi rendition="#italics">Historical dictionary of the Gilded Age</hi>. Armonk, N.Y.: M.E. Sharpe. </bibl><bibl>“Ulysses S. Grant" <hi rendition="#italics">Whitehouse.gov</hi>, accessed February 4, 2015, http://www.whitehouse.gov/1600/presidents/ulyssessgrant.                </bibl></bibl>
-</person>
-<person xml:id="ENT.000003352">
-  <persName key="ENT.000003352">
-    <forename type="first">Horace</forename>
-    <surname type="last">Greeley</surname>
-  </persName>
-  <birth when="1811">1811</birth>
-  <death when="1872">1872</death>
-  <sex>Male</sex>
-  <note type="internal">depicted in 11561-3133_b4f11_1_TEI.xml; 11564-3133_b4f7_1_TEI.xml ; http://id.loc.gov/authorities/names/n80045878.html</note>
-</person>
-<person xml:id="ENT.000003603">
-  <persName key="ENT.000003603">
-    <forename type="first">Wade</forename>
-    <surname type="last">Hampton</surname>
-  </persName>
-  <birth when="1818">1818</birth>
-  <death when="1902">1902</death>
-  <sex>Male</sex>
-  <note type="internal">http://id.loc.gov/authorities/names/nr91026933.html; mentioned in 11820 (quoted); bio at http://en.wikipedia.org/wiki/Wade_Hampton_III</note>
-</person>
-<person xml:id="ENT.000003565">
-  <persName key="ENT.000003565">
-    <forename type="first">Winfield</forename>
-    <forename type="middle">Scott</forename>
-    <surname type="last">Hancock</surname>
-  </persName>
-  <birth when="1824">1824</birth>
-  <death when="1886">1886</death>
-  <sex>Male</sex>
-  <note type="biography"><p>Winfield Scott Hancock was born in Pennsylvania on February 14, 1824 and died on February 9, 1886.  He was a highly respected general and, in 1800, became the Democratic presidential candidate.</p>                <p>He graduated from West Point in 1844 and fought in the Mexican War from 1846 to 1848.  During the Civil War, he was appointed brigadier general.  He served with distinction at several important Civil War battles including Antietam, Fredericksburg, and Gettysburg.  After the war he was appointed major general and commanded the Central Military Department and the Department of Louisiana and Texas.  His views and policies concerning Reconstruction made him well respected within the Democratic Party, and in 1880 he became their presidential nominee.  He narrowly lost the election to James A. Garfield.  Hancock died on February 9, 1886 in New York City.</p></note>
-  <bibl><bibl>“Winfield Scott Hancock , Biography ,United States Military Officer, Encyclopedia Britannica,” accessed February 11, 2015, http://www.britannica.com/EBchecked/topic/254062/Winfield-Scott-Hancock.</bibl><bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). <hi rendition="#italics">Historical dictionary of the Gilded Age</hi>. Armonk, N.Y.: M.E. Sharpe. </bibl></bibl>
-  <note type="internal">LOC:  http://id.loc.gov/authorities/names/n87918075</note>
-</person>
-<person xml:id="ENT.000001948">
-  <persName key="ENT.000001948">
-    <forename type="first">Benjamin</forename>
-    <surname type="last">Harrison</surname>
-  </persName>
-  <birth when="1833">1833</birth>
-  <death when="1901">1901</death>
-  <sex>Male</sex>
-  <note type="biography">Benjamin Harrison was the 23rd President of the United States.  He was born on August 20, 1833 in North Bend, Ohio and later practiced law.  He served in the Civil War and became a colonel.  In 1876, he unsuccessfully ran for governor of Indiana, but, four years later, was elected to serve in the US Senate.  In 1884 he lost the Republican presidential nomination to James Blaine and then in 1886 lost reelection to the Senate.  Two years later, however, he ran for president and launched a well organized and successful “front-porch” campaign in which he did not travel, but gave numerous speeches to visiting supporters.  He narrowly defeated the democratic incumbent Grover Cleveland, becoming the 23rd President of the United States.  At 5 feet 6 inches tall, Harrison became one the shortest US presidents, and democrats nicknamed him “Little Ben.”  As president, Harrison hosted the first Pan American Congress in 1889 and helped establish what would later become the Pan American Union.  He put forth legislation in Congress for the annexation of Hawaii which ultimately failed, signed the Sherman Anti-Trust law, and bolstered the American navy.  He ran for second term, but lost to Cleveland.  He died on March 13, 1901 in Indianapolis.</note>
-  <bibl><bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). <hi rendition="#italics">Historical dictionary of the Gilded Age</hi>. Armonk, N.Y.: M.E. Sharpe. </bibl><bibl>“Benjamin Harrison ,Whitehouse.gov,” accessed February 11, 2015, http://www.whitehouse.gov/1600/presidents/benjaminharrison.</bibl></bibl>
-  <note type="internal">LOC:  http://id.loc.gov/authorities/names/n50026594</note>
-</person>
-<person xml:id="ENT.000003607">
-  <persName key="ENT.000003607">
-    <forename type="first">Wencel</forename>
-    <surname type="last">Hartman</surname>
-  </persName>
-  <sex>Male</sex>
-</person>
-<person xml:id="ENT.000003567">
-  <persName key="ENT.000003567">
-    <forename type="first">Rutherford</forename>
-    <forename type="middle">Birchard</forename>
-    <surname type="last">Hayes</surname>
-  </persName>
-  <birth when="1822">1822</birth>
-  <death when="1893">1893</death>
-  <sex>Male</sex>
-  <note type="internal">LOC:  http://id.loc.gov/authorities/names/n50025146</note>
-</person>
-<person xml:id="ENT.000003605">
-  <persName key="ENT.000003605">
-    <forename type="first">William</forename>
-    <forename type="middle">Randolph</forename>
-    <surname type="last">Hearst</surname>
-  </persName>
-  <birth when="1863">1863</birth>
-  <death when="1951">1951</death>
-  <sex>Male</sex>
-  <note type="internal">LOC 
-    http://id.loc.gov/authorities/names/n80004058
-</note>
-</person>
-<person xml:id="ENT.000003569">
-  <persName key="ENT.000003569">
-    <forename type="first">Abram</forename>
-    <forename type="middle">Stevens</forename>
-    <surname type="last">Hewitt</surname>
-  </persName>
-  <birth when="1822">1822</birth>
-  <death when="1903">1903</death>
-  <sex>Male</sex>
-  <note type="internal">LOC:  http://id.loc.gov/authorities/names/n86012017</note>
-</person>
-<person xml:id="ENT.000002863">
-  <persName key="ENT.000002863">
-    <forename type="first">Anthony</forename>
-    <surname type="last">Imbert</surname>
-  </persName>
-  <birth when="1794">1794</birth>
-  <death when="1834">1834</death>
-  <sex>Male</sex>
-  <note type="internal">http://id.loc.gov/authorities/names/nr90027492.html. Copy and paste bio from description of Lithography of Imbert (ENT.000003582) (org).</note>
-</person>
-<person xml:id="ENT.000002223">
-  <persName key="ENT.000002223">
-    <forename type="first">Andrew</forename>
-    <surname type="last">Jackson</surname>
-  </persName>
-  <birth when="1767">1767</birth>
-  <death when="1845">1845</death>
-  <sex>Male</sex>
-  <note type="internal">Andrew Jackson is referred to as "Old Hickory" in cartoon with DAMS #5545.  His biography should include a brief explanation of the origin of this nickname.</note>
-</person>
-<person xml:id="ENT.000003533">
-  <persName key="ENT.000003533">
-    <forename type="first">Abel</forename>
-    <surname type="last">James</surname>
-  </persName>
-  <death when="1790">1790</death>
-  <sex>Male</sex>
-</person>
-<person xml:id="ENT.000003563">
-  <persName key="ENT.000003563">
-    <forename type="first">Marshall</forename>
-    <surname type="last">Jewell</surname>
-  </persName>
-  <birth when="1825">1825</birth>
-  <death when="1883">1883</death>
-  <sex>Male</sex>
-  <note type="internal">LOC:  http://id.loc.gov/authorities/names/nr2001043325.html</note>
-</person>
-<person xml:id="ENT.000003564">
-  <persName key="ENT.000003564">
-    <forename type="first">John</forename>
-    <surname type="last">Kelly</surname>
-  </persName>
-  <birth when="1822">1822</birth>
-  <death when="1886">1886</death>
-  <sex>Male</sex>
-</person>
-<person xml:id="ENT.000003357">
-  <persName key="ENT.000003357">
-    <forename type="first">John</forename>
-    <surname type="last">Kearsley</surname>
-  </persName>
-  <birth when="1684">1684</birth>
-  <death when="1772">1772</death>
-  <sex>Male</sex>
-  <note type="internal">depicted in 2562-Bb612L615_1_TEI.xml (Liberty Triumphant) ; http://www.findagrave.com/cgi-bin/fg.cgi?page=gr&amp;GRid=8160303 ; E. P. Richardson, "Four American Political Prints," American Art Journal 6, no. 2 (37-38) ; http://id.loc.gov/authorities/names/nr89012469.html</note>
-</person>
-<person xml:id="ENT.000003164">
-  <persName key="ENT.000003164">
-    <forename type="first">George</forename>
-    <forename type="middle">Frederick</forename>
-    <surname type="last">Keller</surname>
-  </persName>
-  <birth when="1846">1846</birth>
-  <sex>Male</sex>
-</person>
-<person xml:id="ENT.000000379">
-  <persName key="ENT.000000379">
-    <forename type="first">Joseph</forename>
-    <surname type="last">Keppler</surname>
-  </persName>
-  <birth when="1838">1838</birth>
-  <death when="1894">1894</death>
-  <sex>Male</sex>
-  <note type="internal">http://id.loc.gov/authorities/names/n87932523.html</note>
-</person>
-<person xml:id="ENT.000000447">
-  <persName key="ENT.000000447">
-    <forename type="first">Abraham</forename>
-    <surname type="last">Lincoln</surname>
-  </persName>
-  <birth when="1809">1809</birth>
-  <death when="1865">1865</death>
-  <sex>Male</sex>
-  <note type="internal">depicted in 11562, 11564, 11563, 11511, 2189, 996</note>
-</person>
-<person xml:id="ENT.000003362">
-  <persName key="ENT.000003362">
-    <forename type="first">John</forename>
-    <forename type="middle">Alexander</forename>
-    <surname type="last">Logan</surname>
-  </persName>
-  <birth when="1826">1826</birth>
-  <death when="1886">1886</death>
-  <sex>Male</sex>
-  <note type="internal">depicted in 11585-Bc612P567_1_TEI.xml ; &#13;
-http://id.loc.gov/authorities/names/n79072806</note>
-</person>
-<person xml:id="ENT.000003363">
-  <persName key="ENT.000003363">
-    <forename type="first">Joseph</forename>
-    <surname type="last">Loring</surname>
-  </persName>
-  <sex>Male</sex>
-  <note type="internal">mentioned in 2562-Bb612L615_1_TEI.xml (Liberty Triumphant)&#13;
-http://id.loc.gov/authorities/names/nr2007000099.html</note>
-</person>
-<person xml:id="ENT.000002471">
-  <persName key="ENT.000002471">
-    <forename type="first">James</forename>
-    <surname type="last">Madison</surname>
-  </persName>
-  <birth when="1751">1751</birth>
-  <death when="1836">1836</death>
-  <sex>Male</sex>
-  <note type="internal">http://id.loc.gov/authorities/names/n80067022.html; depicted in 8532;&#13;
-fourth president of the United States (1809-1817). Not to be confused with James Madison (1749-1812), who was a bishop.</note>
-</person>
-<person xml:id="ENT.000000259">
-  <persName key="ENT.000000259">
-    <forename type="first">David</forename>
-    <surname type="last">Martin</surname>
-  </persName>
-  <sex>Male</sex>
-</person>
-<person xml:id="ENT.000003364">
-  <persName key="ENT.000003364">
-    <forename type="first">Louis</forename>
-    <surname type="last">Maurer</surname>
-  </persName>
-  <birth when="1832">1832</birth>
-  <death when="1932">1932</death>
-  <sex>Male</sex>
-  <note type="internal">lithographer for Currier &amp; Ives, http://en.wikipedia.org/wiki/Louis_Maurer; responsible for 11561 (The Political Gymnasium); 11564l (Cat out of the bag); 11563 (National Game); http://id.loc.gov/authorities/names/nr00026936.html</note>
-</person>
-<person xml:id="ENT.000001783">
-  <persName key="ENT.000001783">
-    <forename type="first">George</forename>
-    <forename type="middle">Brinton</forename>
-    <surname type="last">McClellan</surname>
-  </persName>
-  <birth when="1826">1826</birth>
-  <death when="1885">1885</death>
-  <sex>Male</sex>
-  <note type="internal">http://id.loc.gov/authorities/names/n50014834.html. Depicted in 2189</note>
-</person>
-<person xml:id="ENT.000003367">
-  <persName key="ENT.000003367">
-    <forename type="first">Warner</forename>
-    <surname type="last">Miller</surname>
-  </persName>
-  <birth when="1838">1838</birth>
-  <death when="1918">1918</death>
-  <sex>Male</sex>
-  <note type="internal">http://id.loc.gov/authorities/names/no95043103 ; depicted in 11585-Bc612P567_1_TEI.xml</note>
-</person>
-<person xml:id="ENT.000003623">
-  <persName key="ENT.000003623">
-    <forename type="first">John</forename>
-    <forename type="middle">Ames</forename>
-    <surname type="last">Mitchell</surname>
-  </persName>
-  <birth when="1845">1845</birth>
-  <death when="1918">1918</death>
-  <sex>Male</sex>
-</person>
-<person xml:id="ENT.000000251">
-  <persName key="ENT.000000251">
-    <forename type="first">Thomas</forename>
-    <surname type="last">Nast</surname>
-  </persName>
-  <birth when="1840">1840</birth>
-  <death when="1902">1902</death>
-  <sex>Male</sex>
-</person>
-<person xml:id="ENT.000003547">
-  <persName key="ENT.000003547">
-    <forename type="first">Charles</forename>
-    <surname type="last">Nelan</surname>
-  </persName>
-  <birth when="1858">1858</birth>
-  <death when="1904">1904</death>
-  <sex>Male</sex>
-</person>
-<person xml:id="ENT.000003535">
-  <persName key="ENT.000003535">
-    <forename type="first">Mordecai</forename>
-    <forename type="middle">Manuel</forename>
-    <surname type="last">Noah</surname>
-  </persName>
-  <birth when="1785">1785</birth>
-  <death when="1851">1851</death>
-  <sex>Male</sex>
-</person>
-<person xml:id="ENT.000003372">
-  <persName key="ENT.000003372">
-    <addName type="honorific">Lord</addName>
-    <forename type="first">Frederick</forename>
-    <surname type="last">North</surname>
-  </persName>
-  <birth when="1732">1732</birth>
-  <death when="1792">1792</death>
-  <sex>Male</sex>
-  <note type="internal">depicted in 2562-Bb612L615_1_TEI.xml (Liberty Triumphant) ; http://id.loc.gov/authorities/names/n79056537.html</note>
-</person>
-<person xml:id="ENT.000003616">
-  <persName key="ENT.000003616">
-    <forename type="first">Frederick</forename>
-    <forename type="middle">Burr</forename>
-    <surname type="last">Opper</surname>
-  </persName>
-  <birth when="1857">1857</birth>
-  <death when="1937">1937</death>
-  <sex>Male</sex>
-  <note type="internal">LOC:  http://id.loc.gov/authorities/names/n85247604</note>
-</person>
-<person xml:id="ENT.000002593">
-  <persName key="ENT.000002593">
-    <forename type="first">Israel</forename>
-    <surname type="last">Pemberton</surname>
-  </persName>
-  <birth when="1715">1715</birth>
-  <death when="1779">1779</death>
-  <sex>Male</sex>
-</person>
-<person xml:id="ENT.000000557">
-  <persName key="ENT.000000557">
-    <forename type="first">Samuel</forename>
-    <forename type="middle">Whitaker</forename>
-    <surname type="last">Pennypacker</surname>
-  </persName>
-  <birth when="1843">1843</birth>
-  <death when="1916">1916</death>
-  <sex>Male</sex>
-  <note type="internal">LOC:  http://id.loc.gov/authorities/names/n85199995.html</note>
-</person>
-<person xml:id="ENT.000002704">
-  <persName key="ENT.000002704">
-    <forename type="first">Boies</forename>
-    <surname type="last">Penrose</surname>
-  </persName>
-  <birth when="1860">1860</birth>
-  <death when="1921">1921</death>
-  <sex>Male</sex>
-</person>
-<person xml:id="ENT.000003543">
-  <persName key="ENT.000003543">
-    <forename type="first">Oliver</forename>
-    <forename type="middle">Hazard</forename>
-    <surname type="last">Perry</surname>
-  </persName>
-  <birth when="1785">1785</birth>
-  <death when="1819">1819</death>
-  <note type="internal">referenced in 11812.xml</note>
-</person>
-<person xml:id="ENT.000003375">
-  <persName key="ENT.000003375">
-    <surname type="last">Poplicola</surname>
-  </persName>
-  <note type="internal">Pen name associated with three editorials in Rivington's New York Gazetteer (November 18, December 2, and December 23, 1773) that took a pro-government, pro-East India Company stance during uproar over the Tea Act in America. Depicted in 2562-Bb612L615_1_TEI.xml (Liberty Triumphant). Looks like Poplicola was pen name of co-authored piece. Use article printouts in cartoon folder.
-
-                    </note>
-</person>
-<person xml:id="ENT.000003534">
-  <persName key="ENT.000003534">
-    <addName type="honorific">Sir</addName>
-    <forename type="first">John</forename>
-    <surname type="last">Pringle</surname>
-  </persName>
-  <birth when="1707">1707</birth>
-  <death when="1782">1782</death>
-  <sex>Male</sex>
-</person>
-<person xml:id="ENT.000003548">
-  <persName key="ENT.000003548">
-    <forename type="first">J.S. (John S.)</forename>
-    <surname type="last">Pughe</surname>
-  </persName>
-  <birth when="1870">1870</birth>
-  <death when="1909">1909</death>
-  <sex>Male</sex>
-  <bibl>LOC:  http://id.loc.gov/authorities/names/n95000431.html</bibl>
-</person>
-<person xml:id="ENT.000003609">
-  <persName key="ENT.000003609">
-    <forename type="first">Joseph</forename>
-    <surname type="last">Pulitzer</surname>
-    <addName type="alt">Politzer, József</addName>
-  </persName>
-  <birth when="1847">1847</birth>
-  <death when="1911">1911</death>
-  <sex>Male</sex>
-</person>
-<person xml:id="ENT.000001953">
-  <persName key="ENT.000001953">
-    <forename type="first">Matthew</forename>
-    <forename type="middle">Stanley</forename>
-    <surname type="last">Quay</surname>
-  </persName>
-  <birth when="1833-09-30">1833-09-30</birth>
-  <death when="1904-05-28">1904-05-28</death>
-  <sex>Male</sex>
-  <note type="internal">Appears in DAMS #11737, "The Silence of Matt Quay."</note>
-</person>
-<person xml:id="ENT.000003376">
-  <persName key="ENT.000003376">
-    <forename type="first">Henry</forename>
-    <forename type="middle">Jarvis</forename>
-    <surname type="last">Raymond</surname>
-  </persName>
-  <birth when="1820">1820</birth>
-  <death when="1869">1869</death>
-  <sex>Male</sex>
-  <note type="internal">depicted in 11564; http://id.loc.gov/authorities/names/n86111499.html</note>
-</person>
-<person xml:id="ENT.000003377">
-  <persName key="ENT.000003377">
-    <forename type="first">Whitelaw</forename>
-    <surname type="last">Reid</surname>
-  </persName>
-  <birth when="1837">1837</birth>
-  <death when="1912">1912</death>
-  <sex>Male</sex>
-  <note type="internal">depicted in 11585-Bc612P567_1_TEI.xml ; http://id.loc.gov/authorities/names/n50050931.html</note>
-</person>
-<person xml:id="ENT.000003378">
-  <persName key="ENT.000003378">
-    <forename type="first">William</forename>
-    <forename type="middle">Henry</forename>
-    <surname type="last">Robertson</surname>
-  </persName>
-  <birth when="1823">1823</birth>
-  <death when="1898">1898</death>
-  <sex>Male</sex>
-  <note type="internal">depicted in 11585-Bc612P567_1_TEI.xml ; http://id.loc.gov/authorities/names/no2009045320.html</note>
-</person>
-<person xml:id="ENT.000002738">
-  <persName key="ENT.000002738">
-    <forename type="first">Theodore</forename>
-    <surname type="last">Roosevelt</surname>
-  </persName>
-  <birth when="1858">1858</birth>
-  <death when="1919">1919</death>
-  <sex>Male</sex>
-  <note type="internal">LOC:  http://id.loc.gov/authorities/names/n79027239</note>
-</person>
-<person xml:id="ENT.000003562">
-  <persName key="ENT.000003562">
-    <forename type="first">John</forename>
-    <forename type="middle">T.</forename>
-    <surname type="last">Ruoff</surname>
-  </persName>
-</person>
-<person xml:id="ENT.000003379">
-  <persName key="ENT.000003379">
-    <forename type="first">Carl</forename>
-    <surname type="last">Schurz</surname>
-  </persName>
-  <birth when="1829">1829</birth>
-  <death when="1906">1906</death>
-  <sex>Male</sex>
-  <note type="internal">http://id.loc.gov/authorities/names/n50003179.html ; depicted in 11585-Bc612P567_1_TEI.xml</note>
-</person>
-<person xml:id="ENT.000003283">
-  <persName key="ENT.000003283">
-    <forename type="first">William</forename>
-    <forename type="middle">Henry</forename>
-    <surname type="last">Seward</surname>
-  </persName>
-  <birth when="1801">1801</birth>
-  <death when="1872">1872</death>
-  <sex>Male</sex>
-  <note type="internal">depicted in 11564</note>
-</person>
-<person xml:id="ENT.000003537">
-  <persName key="ENT.000003537">
-    <forename type="first">William</forename>
-    <surname type="last">Shakespeare</surname>
-  </persName>
-  <birth when="1564">1564</birth>
-  <death when="1616">1616</death>
-  <sex>Male</sex>
-  <note type="internal">referenced in 11508; http://id.loc.gov/authorities/names/n78095332.html</note>
-</person>
-<person xml:id="ENT.000003380">
-  <persName key="ENT.000003380">
-    <forename type="first">John</forename>
-    <surname type="last">Sherman</surname>
-  </persName>
-  <birth when="1823">1823</birth>
-  <death when="1900">1900</death>
-  <sex>Male</sex>
-  <note type="internal">depicted in 11585-Bc612P567_1_TEI.xml ; http://id.loc.gov/authorities/names/n50023075</note>
-</person>
-<person xml:id="ENT.000003587">
-  <persName key="ENT.000003587">
-    <forename type="first">H.</forename>
-    <forename type="middle">N.</forename>
-    <surname type="last">Smith</surname>
-  </persName>
-  <note type="internal">This is a person whose name was handwritten on a cartoon featured in the HINT project.  No further information is known about this entity.</note>
-</person>
-<person xml:id="ENT.000003631">
-  <persName key="ENT.000003631">
-    <forename type="first">Henry</forename>
-    <forename type="middle">Louis</forename>
-    <surname type="last">Stephens</surname>
-  </persName>
-  <birth when="1824">1824</birth>
-  <death when="1882">1882</death>
-  <sex>Male</sex>
-  <note type="internal">http://id.loc.gov/authorities/names/n50022429.html; artist of 11747</note>
-</person>
-<person xml:id="ENT.000003383">
-  <persName key="ENT.000003383">
-    <forename type="first">Charles</forename>
-    <surname type="last">Sumner</surname>
-  </persName>
-  <birth when="1811">1811</birth>
-  <death when="1874">1874</death>
-  <sex>Male</sex>
-  <note type="internal">depicted in 11564-3133_b4f7_1_TEI.xml ; http://id.loc.gov/authorities/names/n81057079.html</note>
-</person>
-<person xml:id="ENT.000003579">
-  <persName key="ENT.000003579">
-    <forename type="first">R.</forename>
-    <forename type="middle">C.</forename>
-    <surname type="last">Swayze</surname>
-  </persName>
-  <sex>Male</sex>
-</person>
-<person xml:id="ENT.000003617">
-  <persName key="ENT.000003617">
-    <forename type="first">Jimmy</forename>
-    <surname type="last">Swinnerton</surname>
-  </persName>
-  <birth when="1875">1875</birth>
-  <death when="1974">1974</death>
-  <sex>Male</sex>
-  <note type="internal">LOC:  http://id.loc.gov/authorities/names/n79026907</note>
-</person>
-<person xml:id="ENT.000003384">
-  <persName key="ENT.000003384">
-    <forename type="first">William</forename>
-    <forename type="middle">Howard</forename>
-    <surname type="last">Taft</surname>
-  </persName>
-  <birth when="1857">1857</birth>
-  <death when="1930">1930</death>
-  <sex>Male</sex>
-  <note type="internal">depicted in 1782-3313_b2f8_1_TEI.xml; 11565-3133_b2f9_1_TEI.xml &#13;
-&#13;
-mentioned in 11570-3313_b2f9_1_TEI.xml &#13;
-&#13;
-LOC:  http://id.loc.gov/authorities/names/n79022244&#13;
-&#13;
-http://id.loc.gov/authorities/names/n79022244.html</note>
-</person>
-<person xml:id="ENT.000003590">
-  <persName key="ENT.000003590">
-    <forename type="first">John</forename>
-    <surname type="last">Tenniel</surname>
-  </persName>
-  <birth when="1820">1820</birth>
-  <death when="1914">1914</death>
-  <sex>Male</sex>
-  <note type="internal">http://id.loc.gov/authorities/names/n79058883.html. Artist of 11511</note>
-</person>
-<person xml:id="ENT.000003566">
-  <persName key="ENT.000003566">
-    <forename type="first">Samuel</forename>
-    <forename type="middle">Jones</forename>
-    <surname type="last">Tilden</surname>
-  </persName>
-  <birth when="1814">1814</birth>
-  <death when="1886">1886</death>
-  <sex>Male</sex>
-  <note type="internal">LOC:  http://id.loc.gov/authorities/names/n50013053</note>
-</person>
-<person xml:id="ENT.000003386">
-  <persName key="ENT.000003386">
-    <forename type="first">William</forename>
-    <surname type="last">Tryon</surname>
-  </persName>
-  <birth when="1729">1729</birth>
-  <death when="1788">1788</death>
-  <sex>Male</sex>
-  <note type="internal">mentioned in 2562-Bb612L615_1_TEI.xml (Liberty Triumphant) ; http://id.loc.gov/authorities/names/n81027825.html</note>
-</person>
-<person xml:id="ENT.000003638">
-  <persName key="ENT.000003638">
-    <forename type="first">William</forename>
-    <forename type="middle">Marcy</forename>
-    <surname type="last">Tweed</surname>
-    <addName type="alt">Tweed, Boss, 1823-1878</addName>
-    <addName type="alt">Tweed, William Magear, 1823-1878</addName>
-  </persName>
-  <birth when="1823-04-03">1823-04-03</birth>
-  <death when="1878-04-12">1878-04-12</death>
-  <sex>Male</sex>
-  <note type="internal">Depicted as a lizard in "The Silence of Matt Quay," DAMS #11737</note>
-</person>
-<person xml:id="ENT.000000553">
-  <persName key="ENT.000000553">
-    <surname type="last">Unknown Artist</surname>
-  </persName>
-</person>
-<person xml:id="ENT.000003634">
-  <persName key="ENT.000003634">
-    <forename type="first">Cornelius</forename>
-    <surname type="last">Vanderbilt</surname>
-    <addName type="alt">Commodore Vanderbilt</addName>
-  </persName>
-  <birth when="1794">1794</birth>
-  <death when="1877">1877</death>
-  <sex>Male</sex>
-  <note type="internal">http://id.loc.gov/authorities/names/n50045037.html; depicted in 11747</note>
-</person>
-<person xml:id="ENT.000003630">
-  <persName key="ENT.000003630">
-    <forename type="first">James</forename>
-    <forename type="middle">Albert</forename>
-    <surname type="last">Wales</surname>
-  </persName>
-  <birth when="1852">1852</birth>
-  <death when="1886">1886</death>
-  <sex>Male</sex>
-  <note type="internal">LOC:  http://id.loc.gov/authorities/names/n95002906</note>
-</person>
-<person xml:id="ENT.000003366">
-  <persName key="ENT.000003366">
-    <forename type="first">Thomas</forename>
-    <forename type="middle">B.</forename>
-    <surname type="last">Wanamaker</surname>
-  </persName>
-  <birth when="1865">1865</birth>
-  <death when="1908">1908</death>
-  <sex>Male</sex>
-</person>
-<person xml:id="ENT.000003390">
-  <persName key="ENT.000003390">
-    <forename type="first">James</forename>
-    <forename type="middle">Watson</forename>
-    <surname type="last">Webb</surname>
-  </persName>
-  <birth when="1802">1802</birth>
-  <death when="1884">1884</death>
-  <sex>Male</sex>
-  <note type="internal">depicted in 11561, 11508 ; http://id.loc.gov/authorities/names/nr89007202.html</note>
-</person>
-<person xml:id="ENT.000001368">
-  <persName key="ENT.000001368">
-    <forename type="first">Daniel</forename>
-    <surname type="last">Webster</surname>
-  </persName>
-  <birth when="1782">1782</birth>
-  <death when="1852">1852</death>
-  <sex>Male</sex>
-</person>
-<person xml:id="ENT.000003571">
-  <persName key="ENT.000003571">
-    <forename type="first">Theodoric</forename>
-    <forename type="middle">R</forename>
-    <surname type="last">Westbrook</surname>
-  </persName>
-  <birth when="1821">1821</birth>
-  <death when="1885">1885</death>
-  <sex>Male</sex>
-  <note type="internal">LOC:  http://id.loc.gov/authorities/names/no98076093.html
-</note>
-</person>
-<person xml:id="ENT.000003391">
-  <persName key="ENT.000003391">
-    <forename type="first">Orville</forename>
-    <forename type="middle">Peter</forename>
-    <surname type="last">Williams</surname>
-  </persName>
-  <birth when="1876">1876</birth>
-  <death when="1944">1944</death>
-  <sex>Male</sex>
-  <note type="internal">artist of 11567-3133_b2f9_1_TEI.xml &#13;
-&#13;
-http://strippersguide.blogspot.com/2012/11/ink-slinger-profiles-op-williams.html</note>
-</person>
-<person xml:id="ENT.000003084">
-  <persName key="ENT.000003084">
-    <forename type="first">Woodrow</forename>
-    <surname type="last">Wilson</surname>
-  </persName>
-  <birth when="1856">1856</birth>
-  <death when="1924">1924</death>
-  <sex>Male</sex>
-  <note type="internal">LOC:  http://id.loc.gov/authorities/names/n79046299</note>
-</person>
-<person xml:id="ENT.000002960">
-  <persName key="ENT.000002960">
-    <forename type="first">Victoria</forename>
-    <forename type="middle">Claflin</forename>
-    <surname type="last">Woodhull</surname>
-    <addName type="alt">Victoria California Claflin</addName>
-  </persName>
-  <birth when="1838">1838</birth>
-  <death when="1927">1927</death>
-  <sex>Female</sex>
-  <note type="internal">depicted in 11747</note>
-</person>
-<person xml:id="ENT.000003536">
-  <persName key="ENT.000003536">
-    <forename type="first">Silas</forename>
-    <surname type="last">Wright</surname>
-  </persName>
-  <birth when="1795">1795</birth>
-  <death when="1847">1847</death>
-  <sex>Male</sex>
-  <note type="internal">May be depicted in 11508; http://id.loc.gov/authorities/names/n88130501.html</note>
-</person>
-                </listPerson>
-            </div>
-        </body>
-    </text>
+  <text>
+    <body>
+      <div type="ography">
+        <listPerson>
+          <person xml:id="ENT.000002503">
+            <persName key="ENT.000002503">
+              <forename type="first">John</forename>
+              <forename type="middle">Quincy</forename>
+              <surname type="last">Adams</surname>
+            </persName>
+            <birth when="1767">1767</birth>
+            <death when="1848">1848</death>
+            <sex>Male</sex>
+            <note type="internal">http://id.loc.gov/authorities/names/n79140988.html; depicted in
+              11738</note>
+          </person>
+          <person xml:id="ENT.000003560">
+            <persName key="ENT.000003560">
+              <forename type="first">Chester</forename>
+              <forename type="middle">Alan</forename>
+              <surname type="last">Arthur</surname>
+            </persName>
+            <birth when="1829">1829</birth>
+            <death when="1886">1886</death>
+            <sex>Male</sex>
+            <note type="biography">Chester Alan Arthur was a United States Vice President and
+              President. He was born on October 5, 1829 in Fairfield, Vermont and was the son of an
+              Irish immigrant. He graduated from Union College in New York in 1848, taught secondary
+              school in Vermont and New York, and later became a lawyer in New York City. During the
+              Civil War he served as Quartermaster General of the State of New York. After the War,
+              Arthur rose within the ranks of the Republican Party because of his allegiance to
+              Roscoe Conkling, a New York Senator and head of the Stalwart political machine. In
+              1871 President Ulysses S. Grant appointed Arthur to serve as Collector of the New York
+              Customhouse. In 1878 President Rutherford B. Hayes sought to reform the party and to
+              end the practice of political patronage and so, he fired Arthur and accused the
+              Customhouse of political corruption and patronage. Two years later, the Republicans,
+              seeking to gain support of the Stalwarts, nominated Arthur as James A. Garfield’s
+              running mate. After President Garfield was assassinated in 1881, Arthur became
+              president, broke ties with Stalwarts, and began to enact civil service reform. On
+              January 18, 1883, Arthur signed the Pendleton Civil Service Reform Act which ensured
+              federal employees they would be hired based on merit and not party loyalty. As
+              President, Arthur worked to modernize the United States Navy and invested in the
+              construction of steam-powered engines. He also supported lower tariffs and signed the
+              Tariff Act of 1883. During Arthur’s Administration, the Chinese Exclusion Act of 1882
+              was enacted. It denied citizenship to Chinese immigrants and banned them from entering
+              the United States. The law was finally repealed in 1943. During his presidency, Arthur
+              became ill with kidney disease and lost the Republican nomination for the 1884
+              election to James Blaine. He died on November 18, 1886.</note>
+            <bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). Historical dictionary of the Gilded Age.
+              Armonk, N.Y.: M.E. Sharpe.</bibl>
+            <note type="internal">LOC: http://id.loc.gov/authorities/names/n50002601.html </note>
+          </person>
+          <person xml:id="ENT.000003561">
+            <persName key="ENT.000003561">
+              <forename type="first">Thomas </forename>
+              <forename type="middle">Francis</forename>
+              <surname type="last">Bayard</surname>
+            </persName>
+            <birth when="1828">1828</birth>
+            <death when="1898">1898</death>
+            <sex>Male</sex>
+            <note type="biography">Thomas Francis Bayard was born on October 29, 1828 in Wilmington,
+              Delaware and was a diplomat and lawyer. Bayard did not attend college, but studied law
+              and was admitted to the bar in 1851. From 1863-1864 he served as the US attorney for
+              Delaware. In 1865 he represented Delaware in the US Senate, and then left his post in
+              1885 to become the Secretary of State during Grover Cleveland’s first administration.
+              During Cleveland’s second administration, Bayard was appointed Ambassador of Great
+              Britain. He died in Massachusetts on September 28, 1898.</note>
+            <bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). Historical dictionary of the Gilded Age.
+              Armonk, N.Y.: M.E. Sharpe.</bibl>
+          </person>
+          <person xml:id="ENT.000003331">
+            <persName key="ENT.000003331">
+              <forename type="first">John</forename>
+              <surname type="last">Bell</surname>
+            </persName>
+            <birth when="1796">1796</birth>
+            <death when="1869">1869</death>
+            <sex>Male</sex>
+            <note type="internal">depicted in 11561; 11563;
+              http://bioguide.congress.gov/scripts/biodisplay.pl?index=B000340;
+              http://id.loc.gov/authorities/names/n87887395.html</note>
+          </person>
+          <person xml:id="ENT.000003636">
+            <persName key="ENT.000003636">
+              <forename type="first">Bellew</forename>
+              <forename type="middle">Frank</forename>
+              <addName type="alt">Frank Henry Temple Bellew</addName>
+            </persName>
+            <birth when="1828-04-18">1828-04-18</birth>
+            <death when="1888-06-29">1888-06-29</death>
+            <sex>Male</sex>
+            <note type="biography">Political cartoonist</note>
+            <note type="internal">http://id.loc.gov/authorities/names/n85352256.html - drew
+              "Lincoln's Last Warning," DAMS #2188, page 2.</note>
+          </person>
+          <person xml:id="ENT.000000552">
+            <persName key="ENT.000000552">
+              <forename type="first">Nicholas</forename>
+              <surname type="last">Biddle</surname>
+            </persName>
+            <birth when="1786">1786</birth>
+            <death when="1844">1844</death>
+            <sex>Male</sex>
+          </person>
+          <person xml:id="ENT.000003544">
+            <persName key="ENT.000003544">
+              <forename type="first">Diane</forename>
+              <surname type="last">Biunno</surname>
+            </persName>
+            <note type="internal">HINT project staff</note>
+          </person>
+          <person xml:id="ENT.000003332">
+            <persName key="ENT.000003332">
+              <forename type="first">James</forename>
+              <forename type="middle">Gillespie</forename>
+              <surname type="last">Blaine</surname>
+            </persName>
+            <birth when="1830">1830</birth>
+            <death when="1893">1893</death>
+            <sex>Male</sex>
+            <note type="biography">James Gillespie Blaine was born on January 31, 1830 in West
+              Brownsville, Pennsylvania. He served as Secretary of State during the Benjamin
+              Harrison and James A. Garfield Administrations and was the 31st Speaker of the US
+              House of Representatives. Blaine graduated from Washington College in 1847 and became
+              a newspaper editor in Augusta, Maine. In 1859 he was elected to serve in the Maine
+              House of Representatives and later, in 1862, successfully ran for the US Congress. In
+              1880 he lost the Republican Presidential nomination to James A. Garfield and, after
+              the election, chosen to serve as Secretary of State. Four years later Republicans
+              nominated him as their candidate, but he narrowly lost the presidential election to
+              Grover Cleveland. In 1888, Benjamin Harrison appointed him Secretary of State. As
+              Secretary of State, Blaine expanded trade with Latin America and served as chairman of
+              the first Pan-American Conference. Blaine resigned as Secretary of State on June 4,
+              1892. He died on January 27, 1893 in Washington, DC.</note>
+            <bibl><bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). <hi rendition="#italics">Historical
+                  dictionary of the Gilded Age</hi>. Armonk, N.Y.: M.E. Sharpe. </bibl></bibl>
+            <note type="internal">http://id.loc.gov/authorities/names/n82011612 ; depicted in
+              11585-Bc612P567_1_TEI.xml</note>
+          </person>
+          <person xml:id="ENT.000003602">
+            <persName key="ENT.000003602">
+              <forename type="first">Francis</forename>
+              <forename type="middle">Preston</forename>
+              <surname type="last">Blair</surname>
+            </persName>
+            <birth when="1821">1821</birth>
+            <death when="1875">1875</death>
+            <sex>Male</sex>
+            <note type="internal">http://id.loc.gov/authorities/names/n87895303.html; mentioned in
+              11820 (quoted); vice-presidential candidate (with running mate Horatio Seymour) in
+              1868</note>
+          </person>
+          <person xml:id="ENT.000003545">
+            <persName key="ENT.000003545">
+              <forename type="first">Sara</forename>
+              <surname type="last">Borden</surname>
+            </persName>
+            <note type="internal">HINT project staff</note>
+          </person>
+          <person xml:id="ENT.000003333">
+            <persName key="ENT.000003333">
+              <forename type="first">John</forename>
+              <forename type="middle">C.</forename>
+              <surname type="last">Breckinridge</surname>
+            </persName>
+            <birth when="1821">1821</birth>
+            <death when="1875">1875</death>
+            <sex>Male</sex>
+            <note type="internal">depicted in 11561; 11562; 11563;
+              http://id.loc.gov/authorities/names/n85185549.html</note>
+          </person>
+          <person xml:id="ENT.000003334">
+            <persName key="ENT.000003334">
+              <forename type="first">Benjamin</forename>
+              <forename type="middle">Helm</forename>
+              <surname type="last">Bristow</surname>
+            </persName>
+            <birth when="1832">1832</birth>
+            <death when="1896">1896</death>
+            <sex>Male</sex>
+            <note type="biography">Bristow was a lawyer, the first Solicitor General of the United
+              States, and the 30th US Secretary of the Treasury. He was born in Kentucky on June 20,
+              1832, and graduated from Jefferson College in Pennsylvania in 1851. He fought as a
+              Union Soldier in the Civil War, was seriously wounded at the Battle of Shiloh in
+              Tennessee, became the lieutenant colonel of the 8th Kentucky Calvary, and assisted in
+              the 1863 capture of the Confederate raider John Hunt Morgan. On September 23, 1863
+              Bristow received an honorable discharge from the Union Army because he was selected to
+              serve in the Kentucky senate. Bristow was unaware that he had been elected and served
+              only one term, until 1865. One year later he became the US Attorney for the Kentucky
+              District where he vigorously defended the Civil Rights Act of 1866. From 1870-1872 he
+              served as the first Solicitor General of the United States. During his service, he
+              argued issues related to Reconstruction and prosecuted thousands of Ku Klux Klan
+              members. In 1874, he became the United States Secretary of the Treasury and helped
+              prosecute the Whisky Ring. Following his resignation in 1876, he returned to New York
+              to practice law and was later elected the second president of the American Bar
+              Association. He died in New York in 1896.</note>
+            <bibl><bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). Historical dictionary of the Gilded
+                Age. Armonk, N.Y.: M.E. Sharpe. </bibl><bibl>Solicitor General Benjamin H Bristow.
+                The United States Department of Justice. Accessed January 21, 2015
+                http://www.justice.gov/osg/bio/benjamin-h-bristow</bibl></bibl>
+            <note type="internal">http://id.loc.gov/authorities/names/n85158278.html ; depicted in
+              11585-Bc612P567_1_TEI.xml</note>
+          </person>
+          <person xml:id="ENT.000003335">
+            <persName key="ENT.000003335">
+              <forename type="first">William</forename>
+              <forename type="middle">Jennings</forename>
+              <surname type="last">Bryan</surname>
+            </persName>
+            <birth when="1860">1860</birth>
+            <death when="1925">1925</death>
+            <sex>Male</sex>
+            <note type="internal">depicted in 11565-3133_b2f9_1_TEI.xml ;
+              http://id.loc.gov/authorities/names/n80044871.html</note>
+          </person>
+          <person xml:id="ENT.000003382">
+            <persName key="ENT.000003382">
+              <forename type="first">John</forename>
+              <surname type="last">Stuart</surname>
+              <addName type="alt">Lord Bute</addName>
+            </persName>
+            <birth when="1713">1713</birth>
+            <death when="1792">1792</death>
+            <sex>Male</sex>
+            <note type="internal">depicted in 2562-Bb612L615_1_TEI.xml (Liberty Triumphant) ;
+              http://id.loc.gov/authorities/names/n81035544.html</note>
+          </person>
+          <person xml:id="ENT.000003551">
+            <persName key="ENT.000003551">
+              <forename type="first">Benjamin</forename>
+              <surname type="last">Butler</surname>
+            </persName>
+            <birth when="1818">1818</birth>
+            <death when="1893">1893</death>
+            <sex>Male</sex>
+            <note type="biography">Benjamin Franklin Butler was a lawyer, member US House of
+              Representatives, and Governor of Massachusetts. He was born in 1818 in Deerfield, New
+              Hampshire and in 1838 graduated from Waterville College in Maine. He was admitted to
+              the bar in 1840 and practiced law in Lowell, Massachusetts. He served in the
+              Massachusetts House of Representatives in 1853 and later in 1859 in the State senate.
+              During the Civil War, he became a Major General in the Union Army. Butler became a
+              representative in the US House of Representatives in 1867, and in 1868 served as one
+              of the managers in the Senatorial impeachment hearings against President Andrew
+              Johnson. He served as Massachusetts Governor from 1883-1884 and died in Washington DC
+              in 1893.</note>
+            <bibl>Butler, Benjamin Franklin. Biographical Directory of the United States Congress.
+              Last Accessed February 3, 2015
+              http://bioguide.congress.gov/scripts/biodisplay.pl?index=b001174</bibl>
+            <note type="internal">LOC: http://id.loc.gov/authorities/names/n85363511</note>
+          </person>
+          <person xml:id="ENT.000003336">
+            <persName key="ENT.000003336">
+              <forename type="first">James</forename>
+              <forename type="middle">Donald</forename>
+              <surname type="last">Cameron</surname>
+            </persName>
+            <birth when="1833">1833</birth>
+            <death when="1918">1918</death>
+            <sex>Male</sex>
+            <note type="biography">James Donald Cameron was a US Republican Senator, Secretary of
+              War, and Republican National Committee Chairman. Cameron was born in Middletown, PA on
+              May 14, 1833 and was the son of Simon Cameron, a prominent Republican politician and
+              the Secretary of War in President Lincoln’s Cabinet. After graduating from Princeton
+              College in 1852, he worked for the family businesses, including banking and the North
+              Central Railroad. In 1866 he helped his father win a seat in the US Senate, and later
+              in 1876, campaigned for Ulysses S. Grant. When Grant won the presidential election, he
+              appointed Cameron Secretary of War. Cameron served for one year (1876-1877). He served
+              in the US Senate from 1877-1897 and served as the Republican National Committee
+              Chairman from 1879-1880. He died in his home in Lancaster County Pennsylvania on
+              August 30, 1918.</note>
+            <bibl><bibl>Cameron, James Donald. Biographical Directory of the United States Congress.
+                Last Accessed February 3, 2015.
+                http://bioguide.congress.gov/scripts/biodisplay.pl?index=c000065</bibl><bibl>Schlup,
+                L. C., &amp; Ryan, J. G. (2003). Historical dictionary of the Gilded Age. Armonk,
+                N.Y.: M.E. Sharpe.</bibl></bibl>
+            <note type="internal">http://id.loc.gov/authorities/names/n86114833.html ; depicted in
+              11585-Bc612P567_1_TEI.xml</note>
+          </person>
+          <person xml:id="ENT.000003337">
+            <persName key="ENT.000003337">
+              <forename type="first">Simon</forename>
+              <surname type="last">Cameron</surname>
+            </persName>
+            <birth when="1799">1799</birth>
+            <death when="1889">1889</death>
+            <sex>Male</sex>
+            <note type="biography">Simon Cameron was born on March 8, 1799 in Pennsylvania and was
+              the father of James Donald Cameron, (Secretary of War during the Grant
+              Administration). At seventeen years old Simon Cameron became an editor for the
+              newspaper <hi rendition="#italics">Northumberland Gazette </hi>and later a newspaper
+              owner and editor. In 1822 was appointed to the post of State Printer and later in 1829
+              became the Adjutant General of the Pennsylvania state militia. He became an
+              influential politician whose support convinced Democrats to nominate Martin Van Buren
+              as the 1832 vice presidential candidate. In addition to his work as a politician,
+              Cameron was a successful businessman who earned his fortune in the banking and
+              railroad industries. In 1845 he successfully ran for the US Senate and later, in 1861,
+              became Abraham Lincoln’s secretary of war. He served a ten month term, resigned in
+              1862 due to corruption allegations, and was appointed by Lincoln to serve as the
+              ambassador to Russia. In 1863 Cameron resigned, ran unsuccessfully for the US Senate,
+              and was accused of bribing politicians in order to sway the election. He was never
+              formally charged with corruption. Cameron supported Lincoln’s re-election, and in
+              return, Lincoln appointed politicians loyal to Cameron to federal positions in
+              Pennsylvania. Consequently, Cameron’s political power grew and he soon became the
+              leader of Pennsylvania’s political machine. political influence was so great that he
+              convinced President Ulysses S. Grant to appoint his son, James Donald Cameron,
+              secretary of war in 1876. His After James Donald resigned amongst rumors of
+              corruption, Cameron resigned his seat in the US Senate, making sure that his son would
+              replace him. Simon Cameron died on June 26, 1899 at his home in Pennsylvania.</note>
+            <bibl><bibl>Cameron, Simon. Biographical Directory of the United States Congress. Last
+                Accessed February 3, 2015.
+                http://bioguide.congress.gov/scripts/biodisplay.pl?index=c000068</bibl><bibl>Simon
+                Cameron. Pennsylvania Historical and Museum Commission. Last Accessed February 3,
+                2015.
+                http://www.ddap.pa.gov/portal/server.pt/community/people/4277/cameron,_simon/443541</bibl></bibl>
+            <note type="internal">depicted in 11585-Bc612P567_1_TEI.xml according to LOC, but I
+              don't know which one is he -SN see: http://www.loc.gov/pictures/item/2005696340/ ;
+              http://id.loc.gov/authorities/names/n86114834.html ; father of James Donald
+              Cameron</note>
+          </person>
+          <person xml:id="ENT.000003338">
+            <persName key="ENT.000003338">
+              <forename type="first">Joseph</forename>
+              <forename type="middle">Gurney</forename>
+              <surname type="last">Cannon</surname>
+            </persName>
+            <birth when="1836">1836</birth>
+            <death when="1926">1926</death>
+            <sex>Male</sex>
+            <note type="internal">depicted in 1782-3313_b2f8_1_TEI.xml ;
+              http://id.loc.gov/authorities/names/n50051508.html</note>
+          </person>
+          <person xml:id="ENT.000000848">
+            <persName key="ENT.000000848">
+              <forename type="first">William</forename>
+              <surname type="last">Charles</surname>
+            </persName>
+            <birth when="1776">1776</birth>
+            <death when="1820">1820</death>
+            <sex>Male</sex>
+          </person>
+          <person xml:id="ENT.000003542">
+            <persName key="ENT.000003542">
+              <addName type="honorific">Queen</addName>
+              <forename type="first">Charlotte</forename>
+            </persName>
+            <birth when="1744">1744</birth>
+            <death when="1818">1818</death>
+            <sex>Female</sex>
+          </person>
+          <person xml:id="ENT.000000132">
+            <persName key="ENT.000000132">
+              <forename type="first">Edward Williams</forename>
+              <surname type="last">Clay</surname>
+            </persName>
+            <birth when="1799">1799</birth>
+            <death when="1857">1857</death>
+            <sex>Male</sex>
+          </person>
+          <person xml:id="ENT.000002230">
+            <persName key="ENT.000002230">
+              <forename type="first">Henry</forename>
+              <surname type="last">Clay</surname>
+            </persName>
+            <birth when="1777">1777</birth>
+            <death when="1852">1852</death>
+            <sex>Male</sex>
+          </person>
+          <person xml:id="ENT.000003552">
+            <persName key="ENT.000003552">
+              <forename type="first">Roscoe</forename>
+              <surname type="last">Conkling</surname>
+            </persName>
+            <birth when="1829">1829</birth>
+            <death when="1888">1888</death>
+            <sex>Male</sex>
+            <note type="biography">Roscoe Conkling was a congressman, politician, and leader of the
+              Stalwart faction of the Republican Party. He was born on October 30, 1829 in New York,
+              studied at the Auburn Academy, and joined the bar in 1850. He was elected to serve in
+              the US House of Representatives in 1859 and later became a US Senator (1867-1881). He
+              helped draft the Electoral Commission Act of 1877, as well as the 14th and 15th
+              amendments, and he supported and helped pass Reconstruction legislation and the Civil
+              Rights Act of 1875. He was nominated in 1873 by Ulysses S. Grant to the post of chief
+              justice of the Supreme Court, but declined the offer. In 1876 he unsuccessfully sought
+              the Republican presidential nomination. By 1880 Conkling had become the leader of the
+              Stalwart Faction of the Republican Party. The Stalwarts staunchly supported Ulysses S.
+              Grant in his bid for a presidential third term. Due to divisions within the party,
+              however, Republicans did not give Grant the nomination and opted instead to place
+              James A. Garfield on the ticket. He resigned from the Senate in 1881, returned to his
+              law practice in New York City, and died on April 18, 1888.</note>
+            <bibl><bibl>Conkling, Roscoe. Biographical Directory of the United States Congress. Last
+                Accessed February 3, 2015.
+                http://bioguide.congress.gov/scripts/biodisplay.pl?index=c000681</bibl><bibl>Schlup,
+                L. C., &amp; Ryan, J. G. (2003). Historical dictionary of the Gilded Age. Armonk,
+                N.Y.: M.E. Sharpe. </bibl></bibl>
+            <note type="internal">LOC: http://id.loc.gov/authorities/names/n85363319.html</note>
+          </person>
+          <person xml:id="ENT.000003633">
+            <persName key="ENT.000003633">
+              <forename type="first">Tennessee</forename>
+              <forename type="middle">Celeste</forename>
+              <surname type="last">Claflin</surname>
+              <addName type="alt">Tennessee Claflin Cook</addName>
+            </persName>
+            <birth when="1845">1845</birth>
+            <death when="1923">1923</death>
+            <sex>Female</sex>
+            <note type="internal">http://id.loc.gov/authorities/names/n80109890.html; depicted in
+              11747</note>
+          </person>
+          <person xml:id="ENT.000003572">
+            <persName key="ENT.000003572">
+              <forename type="first">Alonzo</forename>
+              <forename type="middle">B</forename>
+              <surname type="last">Cornell</surname>
+            </persName>
+            <birth when="1832">1832</birth>
+            <death when="1904">1904</death>
+            <sex>Male</sex>
+            <note type="biography"><p>Alonzo Cornell was born on January 22, 1832 in Ithaca, New
+                York and became a politician, successful businessman, and the 13th Governor of New
+                York. His father Ezra Cornell, was the founder of Cornell University.</p><p>Cornell
+                helped his father found the Western Union Telegraph Company, and later served as the
+                company’s director. He entered politics in 1868 when he unsuccessfully ran for
+                lieutenant governor. He became the New York Republican State Central Committee
+                Chairman in 1870 and served until 1878. In 1876 he was appointed by Rutherford B.
+                Hayes to serve as Surveyor of the Port of New York. Because of a political dispute,
+                Hayes removed him from the position two years later. In 1878 Cornell became New York
+                State Governor, beating his democratic incumbent opponent, Lucius Robinson. As
+                governor, Cornell established a state board of health and a state railroad
+                commission. After serving only one term, Cornell left politics and returned to
+                business. He died on October 15, 1904.</p></note>
+            <bibl><bibl>“Alonzo B. Cornell, Hallofgovernors.ny.gov,” accessed February 11, 2015,
+                http://hallofgovernors.ny.gov/AlonzoCornell.</bibl><bibl>“Cornell, Alonzo Barton,
+                House Divided,” accessed February 11, 2015,
+                http://hd.housedivided.dickinson.edu/node/5481.</bibl><bibl>“Alonzo Barton Cornell,
+                National Governors’ Association” accessed February 11, 2015,
+                http://www.nga.org/cms/home/governors/past-governors-bios/page_new_york/col2-content/main-content-list/title_cornell_alonzo.html.</bibl></bibl>
+            <note type="internal">LOC: http://id.loc.gov/authorities/names/no98021391</note>
+          </person>
+          <person xml:id="ENT.000003340">
+            <persName key="ENT.000003340">
+              <forename type="first">George</forename>
+              <forename type="middle">William</forename>
+              <surname type="last">Curtis</surname>
+            </persName>
+            <birth when="1824">1824</birth>
+            <death when="1892">1892</death>
+            <sex>Male</sex>
+            <note type="biography">George William Curtis was a journalist and editor. He was born on
+              February 24, 1824 in Providence, RI, attended private school in New York, and traveled
+              throughout Europe, Egypt, and Syria in the 1840s. Upon his return to the US, he wrote
+              for and helped George Palmer Putnam found <hi rendition="#italics">Putman’s
+                Magazine</hi>. Shortly thereafter, he began writing for the <hi rendition="#italics"
+                >Tribune and Harper’s Weekly</hi>, a popular New York political magazine. He served
+              as the editor of <hi rendition="#italics">Harper’s Weekly</hi> from 1863 to 1892. In
+              1864 he served as a delegate to the Republican National Convention where he supported
+              Lincoln, and even wrote the letter notifying the incumbent president of his
+              re-nomination. Curtis was politically active, and a Mugwump who believed in civil
+              service, education, and trade reforms. During the Grant administration he became
+              Chairman of the Civil Service Reform Commission and later the president of the
+              National Civil Service Reform League and the New York Civil Service Reform
+              Association. He died in Staten Island on August 31, 1892.</note>
+            <bibl><bibl>George William Curtis Papers Finding Aid. Staten Island Museum. Last
+                Accessed February 3, 2015.
+                http://www.statenislandmuseum.org/images/uploads/collections/Curtis_(George_William)_Papers_Finding_Aids.pdf
+                </bibl><bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). Historical dictionary of the
+                Gilded Age. Armonk, N.Y.: M.E. Sharpe.</bibl></bibl>
+            <note type="internal">http://id.loc.gov/authorities/names/n50018719.html ; depicted in
+              11585-Bc612P567_1_TEI.xml</note>
+          </person>
+          <person xml:id="ENT.000003549">
+            <persName key="ENT.000003549">
+              <forename type="first">Otho</forename>
+              <surname type="last">Cushing</surname>
+            </persName>
+            <birth when="1841">1841</birth>
+            <death when="1942">1942</death>
+            <sex>Male</sex>
+            <note type="internal">LOC: http://id.loc.gov/authorities/names/n95000553.html</note>
+          </person>
+          <person xml:id="ENT.000003594">
+            <persName key="ENT.000003594">
+              <forename type="first">Charles</forename>
+              <forename type="middle">Anderson</forename>
+              <surname type="last">Dana</surname>
+            </persName>
+            <birth when="1819">1819</birth>
+            <death when="1897">1897</death>
+            <sex>Male</sex>
+            <note type="biography"><p>Charles Anderson Dana was born on August 8, 1819 in Hinsdale,
+                New Hampshire and became the editor of the <hi rendition="#italics">New York
+                  Sun</hi>. In 1839 he enrolled at Havard College, but due to financial problems,
+                was forced to leave school. He later began writing for the <hi rendition="#italics"
+                  >New York Tribune</hi>. He became the managing editor for the <hi
+                  rendition="#italics">New York Tribune</hi> in 1849, but in 1862 was forced to
+                resign because he did not get along with the editor-publisher Horace Greeley. In
+                1868 Dana became an owner and editor of the <hi rendition="#italics">New York
+                  Sun</hi>. Dana also authored several books including <hi rendition="#italics"
+                  >Recollections of the Civil War</hi> and <hi rendition="#italics">The Art of
+                  Newspaper Making</hi>.</p></note>
+            <bibl><bibl>“Charles A. Dana Biography - American Journalist” Encyclopedia Britannica,
+                accessed February 10, 2015,
+                http://www.britannica.com/EBchecked/topic/150676/Charles-A-Dana.</bibl></bibl>
+            <note type="internal">http://id.loc.gov/authorities/names/n85253013.html</note>
+          </person>
+          <person xml:id="ENT.000001041">
+            <persName key="ENT.000001041">
+              <forename type="first">Jefferson</forename>
+              <surname type="last">Davis</surname>
+            </persName>
+            <birth when="1808">1808</birth>
+            <death when="1889">1889</death>
+            <sex>Male</sex>
+            <note type="internal">http://id.loc.gov/authorities/names/n79145410.html. Depicted in
+              11511, 2189</note>
+          </person>
+          <person xml:id="ENT.000003341">
+            <persName key="ENT.000003341">
+              <forename type="first">Henry</forename>
+              <surname type="last">Dawkins</surname>
+            </persName>
+            <death when="1786">1786</death>
+            <sex>Male</sex>
+            <bibl>http://id.loc.gov/authorities/names/n87947371.html</bibl>
+            <note type="internal">cartoonist ; artist and engraver of 2562-Bb612L615_1_TEI.xml
+              (Liberty Triumphant)</note>
+          </person>
+          <person xml:id="ENT.000000436">
+            <persName key="ENT.000000436">
+              <forename type="first">John</forename>
+              <forename type="middle">L.</forename>
+              <surname type="last">De Mar</surname>
+            </persName>
+            <sex>Male</sex>
+            <note type="internal">cartoonist at the Philadelphia Record, early 1900s artist
+              11513-3133_b2f8_1_TEI.xml 11514-3133_b2f8_1_TEI.xml 11522-3133_b2f8_1_TEI.xml;
+              1782-3313_b2f8_1_TEI.xml; mentioned in 11570-3313_b2f9_1_TEI.xml </note>
+          </person>
+          <person xml:id="ENT.000003637">
+            <persName key="ENT.000003637">
+              <forename type="first">George</forename>
+              <forename type="middle">Wallace</forename>
+              <surname type="last">Delamater</surname>
+            </persName>
+            <birth when="1849-03-31">1849-03-31</birth>
+            <death when="1907-08-07">1907-08-07</death>
+            <sex>Male</sex>
+            <note type="internal">Pennsylvania State Senator from 1887-1890; depicted in DAMS
+              #11737, "The Silence of Matt Quay." See
+              http://politicalgraveyard.com/death/offices.html;
+              https://books.google.com/books?id=h68bAQAAMAAJ&amp;pg=PA10&amp;lpg=PA10&amp;dq=pa+senator+george+w.+delamater&amp;source=bl&amp;ots=FsL_qPMdN4&amp;sig=xFJCQ6KjdUFFkGITQSL6kxyW2GY&amp;hl=en&amp;sa=X&amp;ei=ejj_VNfBE8aZNpC6hJAM&amp;ved=0CCsQ6AEwAw#v=onepage&amp;q&amp;f=false;
+              http://www.historicpa.net/bios/2g/george-w-delamater.html</note>
+          </person>
+          <person xml:id="ENT.000003344">
+            <persName key="ENT.000003344">
+              <forename type="first">Stephen</forename>
+              <forename type="middle">A.</forename>
+              <surname type="last">Douglas</surname>
+            </persName>
+            <birth when="1813">1813</birth>
+            <death when="1861">1861</death>
+            <sex>Male</sex>
+            <note type="internal">depicted in 11561; 11562; 11563;
+              http://id.loc.gov/authorities/names/n50027507.html</note>
+          </person>
+          <person xml:id="ENT.000003345">
+            <persName key="ENT.000003345">
+              <forename type="first">George</forename>
+              <forename type="middle">F.</forename>
+              <surname type="last">Edmunds</surname>
+            </persName>
+            <birth when="1828">1828</birth>
+            <death when="1919">1919</death>
+            <sex>Male</sex>
+            <note type="biography">George Franklin Edmunds was a lawyer and Republican senator who
+              was born on February 1, 1828 in Richmond, Vermont. He studied law, and was admitted to
+              the bar in 1849. In 1854 he became a representative in the Vermont House of
+              Representatives and later in 1856, the speaker of the Vermont House of
+              Representatives. He joined the US Senate in 1866 and continued to serve until 1891. As
+              Senator, he supported Reconstruction policies, was active in the impeachment of Andrew
+              Johnson, and drafted the Tenure of Office Act in 1867. He served as chairman of the
+              Senate Judiciary Committee from 1872 to 1879 and again from 1882 to 1891. He worked to
+              pass legislation to outlaw Mormon polygamy and to regulate railroads, as well as,
+              drafted and supported the 1877 Electoral Commission Act which helped settle the
+              election between Rutherford Hayes and Samuel Tilden. After Edmunds resigning from the
+              Senate, Edmunds continued to practice law and successfully argued before the Supreme
+              Court the unconstitutionality of the income tax in the 1895 Pollock v. Famers’ Loan
+              and Trust Co. Case. He died in Pasadena, California on February 27, 1919.</note>
+            <bibl><bibl>Edmunds, George Franklin. Biographical Directory of the United States
+                Congress. Last Accessed February 3, 2015.
+                http://bioguide.congress.gov/scripts/biodisplay.pl?index=e000056</bibl><bibl>George
+                Franklin Edmunds. Encyclopedia Britannica Online. Last Accessed February 3, 2015
+                http://www.britannica.com/EBchecked/topic/179355/George-Franklin-Edmunds
+                </bibl><bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). Historical dictionary of the
+                Gilded Age. Armonk, N.Y.: M.E. Sharpe. </bibl></bibl>
+            <note type="internal">depicted in 11585-Bc612P567_1_TEI.xml ;
+              http://id.loc.gov/authorities/names/n88071154.html</note>
+          </person>
+          <person xml:id="ENT.000003553">
+            <persName key="ENT.000003553">
+              <forename type="first">William</forename>
+              <forename type="middle">Hayden</forename>
+              <surname type="last">English</surname>
+            </persName>
+            <birth when="1822">1822</birth>
+            <death when="1896">1896</death>
+            <sex>Male</sex>
+            <note type="biography"><p> William Hayden English was a lawyer, historian, Democratic
+                politician, and candidate for Vice President. He was born on August 27, 1822 in
+                Lexington, Indiana, studied at Hanover College, and was admitted to the Indiana bar
+                in 1840. In 1851 he was elected to the Indiana House of Representatives and served
+                as speaker. Two years later he became the Indiana State Representative in the US
+                House of Representatives where he served until 1861. After his retirement, he
+                founded the First National Bank of Indianapolis and later became the chairman of the
+                Indiana Democratic Central Committee. In 1880, the Democrats nominated him as
+                Winfield Scott Hancock’s vice presidential running-mate. After losing the election
+                to Republicans James A. Garfield and Chester Arthur, English served as the president
+                of the Indiana Historical Society, published a book on the history of Indiana, and
+                two other history books entitled <hi rendition="#italics">Conquest of the Country
+                  Northwest of the River Ohio, 1778-1783</hi> and <hi rendition="#italics">Life of
+                  General George Rogers Clark</hi>. English died from complications due to heart
+                disease on February 7, 1896.</p></note>
+            <bibl>
+              <bibl>“ENGLISH, William Hayden - Biographical Information,” accessed February 4, 2015,
+                http://bioguide.congress.gov/scripts/biodisplay.pl?index=E000191.</bibl>
+              <bibl>“IDOA: William H. English,” accessed February 4, 2015,
+                http://www.in.gov/idoa/2791.htm. </bibl>
+              <bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). Historical dictionary of the Gilded
+                Age. Armonk, N.Y.: M.E. Sharpe. </bibl></bibl>
+            <note type="internal">LOC: http://id.loc.gov/authorities/names/n89611965.html</note>
+          </person>
+          <person xml:id="ENT.000003346">
+            <persName key="ENT.000003346">
+              <forename type="first">William</forename>
+              <forename type="middle">Maxwell</forename>
+              <surname type="last">Evarts</surname>
+            </persName>
+            <birth when="1818">1818</birth>
+            <death when="1901">1901</death>
+            <sex>Male</sex>
+            <note type="biography">William Maxwell Evarts was a lawyer, politician, and Secretary of
+              State. He was born in Boston, Massachusetts on February 6, 1818. He studied at Yale
+              College and Harvard Law School and joined the bar in 1841. He was the Assistant
+              District Attorney of the southern district of New York from 1848-1853. Evarts served
+              as chief counsel during President Andrew Johnson’s impeachment trial and was later
+              appointed Attorney General by Johnson. Evarts remained in the post for one year from
+              1868 to 1869, and then returned to private practice, helped found the New York Bar
+              Association, and served as its first president, 1870-1879. In 1876 Evarts represented
+              Benjamin Hayes before the Electoral Commission during the disputed election of 1876
+              between Hayes and Samuel J. Tilden. Evarts later served as Secretary of State from
+              1877 to 1881 during President Hayes’ administration. After leaving office, he was
+              elected to the US Senate and served from 1885 to 1891 and died on February 28, 1901. </note>
+            <bibl>
+              <bibl>“EVARTS, William Maxwell - Biographical Information,” accessed February 4, 2015,
+                http://bioguide.congress.gov/scripts/biodisplay.pl?index=E000262. </bibl>
+              <bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). Historical dictionary of the Gilded
+                Age. Armonk, N.Y.: M.E. Sharpe. </bibl>
+              <bibl>“William Maxwell Evarts - People - Department History - Office of the
+                Historian,” accessed February 4, 2015,
+                https://history.state.gov/departmenthistory/people/evarts-william-maxwell.
+              </bibl></bibl>
+            <note type="internal">http://id.loc.gov/authorities/names/n84124640.html ; depicted in
+              11585-Bc612P567_1_TEI.xml</note>
+          </person>
+          <person xml:id="ENT.000003347">
+            <persName key="ENT.000003347">
+              <forename type="first">Edward</forename>
+              <surname type="last">Everett</surname>
+            </persName>
+            <birth when="1794">1794</birth>
+            <death when="1865">1865</death>
+            <sex>Male</sex>
+            <note type="internal">depicted in 11561;
+              http://id.loc.gov/authorities/names/n85158370.html. Constitutional Party vice
+              presidential candidate in 1860.</note>
+          </person>
+          <person xml:id="ENT.000003348">
+            <persName key="ENT.000003348">
+              <forename type="first">Charles</forename>
+              <surname type="last">Fairbanks</surname>
+            </persName>
+            <birth when="1852">1852</birth>
+            <death when="1918">1918</death>
+            <sex>Male</sex>
+            <note type="internal">depicted in 1782-3313_b2f8_1_TEI.xml ;
+              http://id.loc.gov/authorities/names/n86114870.html</note>
+          </person>
+          <person xml:id="ENT.000003558">
+            <persName key="ENT.000003558">
+              <forename type="first">James</forename>
+              <surname type="last">Fisk </surname>
+            </persName>
+            <birth when="1835">1835</birth>
+            <death when="1872">1872</death>
+            <sex>Male</sex>
+            <note type="biography">James Fisk was born on April 1, 1834 in Bennington, Vermont. He
+              was a financier, stockbroker, and one of the robber barons. He formed a brokerage firm
+              in 1866. A few years later, he and his business partner Jay Gould fought Cornelius
+              Vanderbilt for control of the Erie Railroad. During the Erie War Gould and Fisk
+              inflated the value of the stocks and thus succeeded in gaining control of the Erie
+              Railroad. The pair bribed and created alliances with a number of judges, legislators,
+              and politicians including Boss Tweed. On September 24, 1869, their financial schemes
+              and dishonesty led to the panic of Black Friday. Fisk was married to Lucy Moore, but
+              had a relationship with Josie Mansfield. Mansfield later began a relationship with
+              Edward Stokes and the pair attempted to blackmail Fisk out of a large sum of money. On
+              January 6, 1872 an argument between Stokes and Fisk turned deadly when Stokes shot and
+              murdered Fisk. </note>
+            <bibl><bibl>“James Fisk | Biography - American Financier,” <hi rendition="#italics"
+                  >Encyclopedia Britannica</hi>, accessed January 21, 2015,
+                http://www.britannica.com/EBchecked/topic/208740/James-Fisk.</bibl>
+              <bibl>Ellen Terrell, “Robber Barons: Gould and Fisk | Inside Adams: Science,
+                Technology &amp; Business,” webpage, (September 26, 2012),
+                http://blogs.loc.gov/inside_adams/2012/09/robber-barons-gould-and-fisk/.</bibl></bibl>
+            <note type="internal">LOC: http://id.loc.gov/authorities/names/n80107292.html</note>
+          </person>
+          <person xml:id="ENT.000003349">
+            <persName key="ENT.000003349">
+              <forename type="first">Joseph</forename>
+              <surname type="last">Foraker</surname>
+            </persName>
+            <birth when="1846">1846</birth>
+            <death when="1917">1917</death>
+            <sex>Male</sex>
+            <note type="internal">depicted in 1782-3313_b2f8_1_TEI.xml ;
+              http://id.loc.gov/authorities/names/n92010125.html</note>
+          </person>
+          <person xml:id="ENT.000003601">
+            <persName key="ENT.000003601">
+              <forename type="first">Nathan</forename>
+              <forename type="middle">Bedford</forename>
+              <surname type="last">Forrest</surname>
+            </persName>
+            <birth when="1821">1821</birth>
+            <death when="1877">1877</death>
+            <sex>Male</sex>
+            <note type="internal">http://id.loc.gov/authorities/names/n80015646.html; mentioned
+              11820</note>
+          </person>
+          <person xml:id="ENT.000003532">
+            <persName key="ENT.000003532">
+              <forename type="first">Joseph</forename>
+              <surname type="last">Fox</surname>
+            </persName>
+            <birth when="1710">1710</birth>
+            <death when="1779">1779</death>
+            <sex>Male</sex>
+          </person>
+          <person xml:id="ENT.000000054">
+            <persName key="ENT.000000054">
+              <forename type="first">Benjamin</forename>
+              <surname type="last">Franklin</surname>
+            </persName>
+            <birth when="1706">1706</birth>
+            <death when="1790">1790</death>
+            <sex>Male</sex>
+          </person>
+          <person xml:id="ENT.000003645">
+            <persName key="ENT.000003645">
+              <forename type="first">Hy</forename>
+              <surname type="last">Gage</surname>
+            </persName>
+            <birth when="1878">1878</birth>
+            <death when="1971">1971</death>
+            <sex>Male</sex>
+          </person>
+          <person xml:id="ENT.000003555">
+            <persName key="ENT.000003555">
+              <forename type="first">James</forename>
+              <surname type="last">Garfield</surname>
+            </persName>
+            <birth when="1831">1831</birth>
+            <death when="1881">1881</death>
+            <sex>Male</sex>
+            <note type="biography">James Abram Garfield was the 20th president of the United States
+              and was assassinated 200 days into his presidency. He was born on November 19, 1831 in
+              Ohio, and lost his father when he was two years old. He graduated in 1856 from
+              Williams College, became a classics professor, and served as president of the Western
+              Reserve Eclectic Institute. He became a state senator in 1859 and later a major
+              general in the Union Army. He served nine consecutive terms in the US House of
+              Representatives from 1863 to 1880. In 1880 Republicans nominated Garfield as their
+              presidential candidate. He won a narrow victory against his Democratic opponent
+              Winfield S. Hancock. As president, Garfield fought for civil service reform and called
+              for an investigation of the Post Office. On July 2, 1881 Charles Guiteau shot the
+              President in a Washington D.C Railway Station. Garfield died eighty days later on
+              September 19, 1881.</note>
+            <bibl><bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). <hi rendition="#italics">Historical
+                  dictionary of the Gilded Age</hi>. Armonk, N.Y.: M.E. Sharpe. </bibl><bibl> “James
+                Garfield,” <hi rendition="#italics">Whitehouse.gov</hi>, accessed January 21, 2015,
+                http://www.whitehouse.gov/1600/presidents/jamesgarfield.</bibl></bibl>
+            <note type="internal">LOC: http://id.loc.gov/authorities/names/n50015182 </note>
+          </person>
+          <person xml:id="ENT.000003392">
+            <persName key="ENT.000003392">
+              <forename type="first">George</forename>
+              <surname type="last">III</surname>
+            </persName>
+            <birth when="1738">1738</birth>
+            <death when="1820">1820</death>
+            <sex>Male</sex>
+            <note type="biography">King of Great Britain and Ireland, 1760-1801; king of the United
+              Kingdom of Great Britain and Ireland, 1801-1820.</note>
+            <note type="internal">http://id.loc.gov/authorities/names/n79061402.html</note>
+          </person>
+          <person xml:id="ENT.000003351">
+            <persName key="ENT.000003351">
+              <forename type="first">Bernhard</forename>
+              <surname type="last">Gillam</surname>
+            </persName>
+            <birth when="1856">1856</birth>
+            <death when="1896">1896</death>
+            <sex>Male</sex>
+            <note type="biography"><p>Bernhard Gillam was born on April 28, 1856 in Banbury,
+                Oxforshire in England and was a famous 19th century American cartoonist. At the age
+                of ten, Gillam’s family immigrated to the United States and settled in New York. He
+                studied engraving and worked as a cartoonist for <hi rendition="#italics">Leslie’s
+                  Weekly</hi>, the <hi rendition="#italics">New York Graphic</hi>, and <hi
+                  rendition="#italics">Harper’s Weekly</hi>. Joseph Keppler later hired Gillam to
+                work for <hi rendition="#italics">Puck</hi>, a weekly humor magazine. At <hi
+                  rendition="#italics">Puck</hi>, Gillam characterized a number of political figures
+                including the 1884 presidential candidate James A. Blaine. In 1886 Gillam became
+                part owner of the humor magazine <hi rendition="#italics">Judge</hi> where he
+                continued to poke fun at presidential candidates and their policies. He died of
+                typhoid fever on January 19, 1896 in Canajoharie, New York. </p></note>
+            <bibl><bibl> “Bernhard Gillam | Biography - American Cartoonist,” <hi
+                  rendition="#italics">Encyclopedia Britannica</hi>, accessed January 21, 2015,
+                http://www.britannica.com/EBchecked/topic/233731/Bernhard-Gillam.</bibl></bibl>
+            <note type="internal">http://id.loc.gov/authorities/names/n94122577.html ; cartoonist
+              for Puck, among other publications. created 11585-Bc612P567_1_TEI.xml</note>
+          </person>
+          <person xml:id="ENT.000003559">
+            <persName key="ENT.000003559">
+              <forename type="first">Jay</forename>
+              <surname type="last">Gould</surname>
+            </persName>
+            <birth when="1836">1836</birth>
+            <death when="1892">1892</death>
+            <sex>Male</sex>
+            <note type="biography"><p>Jay Gould was born on May 27, 1836 in Roxbury, New York and
+                was an American railroad financier and one of the “robber barons”. He attended
+                Hobart Academy and worked as a surveyor. He later began dealing in railroad stocks,
+                became business partners with James Fisk and Daniel Drew, and formed a Wall Street
+                Brokerage House. In 1868, Gould, Fisk, and Drew successfully gained control of the
+                Erie Railroad from Cornelius Vanderbilt by inflating the value of the company’s
+                stocks. Gould and Fisk engaged in political bribery and formed a partnership with
+                the infamous William “Boss” Tweed.</p>
+              <p>On September 24, 1869, Gould and Fisk’s financial schemes led to the panic of
+                “Black Friday” and Gould was forced to relinquish control of the Eerie Railroad. In
+                the 1870s Gould bought stock of railroads in the West and gained control of several
+                railroad companies including the Union Pacific Railroad. He also was owner of the
+                Western Union Telegraph Company and the <hi rendition="#italics">New York World</hi>
+                Newspaper. He died in New York City on December 2, 1892 and left his $72 million
+                fortune to his children. </p></note>
+            <bibl><bibl> “Jay Gould | Biography - American Financier,” <hi rendition="#italics"
+                  >Encyclopedia Britannica</hi>. accessed January 21, 2015,
+                http://www.britannica.com/EBchecked/topic/239993/Jay-Gould</bibl><bibl>Schlup, L.
+                C., &amp; Ryan, J. G. (2003). <hi rendition="#italics">Historical dictionary of the
+                  Gilded Age</hi>. Armonk, N.Y.: M.E. Sharpe. </bibl><bibl>Terrell, Ellen “Robber
+                Barons: Gould and Fisk | Inside Adams: Science, Technology &amp; Business,” webpage,
+                (September 26, 2012),
+                http://blogs.loc.gov/inside_adams/2012/09/robber-barons-gould-and-fisk/.</bibl></bibl>
+            <note type="internal">LOC: http://id.loc.gov/authorities/names/n50035745</note>
+          </person>
+          <person xml:id="ENT.000003642">
+            <persName key="ENT.000003642">
+              <forename type="first">Friedrich</forename>
+              <surname type="last">Graetz</surname>
+            </persName>
+            <birth when="1840">1840</birth>
+            <death when="1913">1913</death>
+            <sex>Male</sex>
+            <note type="internal">LOC: http://id.loc.gov/authorities/names/n94122601 </note>
+          </person>
+          <person xml:id="ENT.000000941">
+            <persName key="ENT.000000941">
+              <forename type="first">Ulysses</forename>
+              <forename type="middle">S.</forename>
+              <surname type="last">Grant</surname>
+            </persName>
+            <birth when="1822">1822</birth>
+            <death when="1885">1885</death>
+            <sex>Male</sex>
+            <note type="biography"><p>Ulysses Simpson Grant was a Union General and the 18th
+                President of the United States. He served two consecutive terms as
+                president,1869-1876.</p>
+              <p>He was born in Point Pleasant, Ohio on April 27, 1822. He graduated from West Point
+                in 1843 and later became one of the most distinguished generals in the Union Army.
+                In 1868 he was nominated to run as the Republican presidential nominee. He won a
+                sizeable victory over his Democratic opponent Horatio Seymour. Grant served during
+                Reconstruction and used the army to suppress violence perpetrated by the Ku Klux
+                Klan. Grant initially maintained a peace policy towards Native Americans which he
+                eventually was forced to abandon due to the increasing violence between Native
+                Americans and settlers. Grant was plagued by accusations of corruption and bribery
+                because he often accepted lavish gifts, was photographed with the infamous Jay Gould
+                and Jay Fisk, and appointed his family members to serve in government positions. In
+                fact, the term “Grantism” was used to signify corruption. Consequently, Grant was
+                unable to secure a third term as president. </p>
+              <p>After leaving office, Grant went bankrupt and developed throat cancer. In order to
+                overcome his financial difficulties, he wrote his <hi rendition="#italics">Personal
+                  Memoirs</hi> which eventually earned over $400,000. He died on July 23, 1885, a
+                few days after he finished writing.</p></note>
+            <bibl><bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). <hi rendition="#italics">Historical
+                  dictionary of the Gilded Age</hi>. Armonk, N.Y.: M.E. Sharpe.
+                </bibl><bibl>“Ulysses S. Grant" <hi rendition="#italics">Whitehouse.gov</hi>,
+                accessed February 4, 2015, http://www.whitehouse.gov/1600/presidents/ulyssessgrant.
+              </bibl></bibl>
+          </person>
+          <person xml:id="ENT.000003352">
+            <persName key="ENT.000003352">
+              <forename type="first">Horace</forename>
+              <surname type="last">Greeley</surname>
+            </persName>
+            <birth when="1811">1811</birth>
+            <death when="1872">1872</death>
+            <sex>Male</sex>
+            <note type="internal">depicted in 11561-3133_b4f11_1_TEI.xml; 11564-3133_b4f7_1_TEI.xml
+              ; http://id.loc.gov/authorities/names/n80045878.html</note>
+          </person>
+          <person xml:id="ENT.000003350">
+            <persName key="ENT.000003350">
+              <forename type="first">Jean-Léon</forename>
+              <surname type="last">Gérôme</surname>
+            </persName>
+            <birth when="1824">1824</birth>
+            <death when="1904">1904</death>
+            <sex>Male</sex>
+            <note type="biography">Jean-Léon Gérôme was born on May 11, 1824 in Vesoul, France and
+              was a 19th century French artist. He was a student of Paul Delaroche and many of his
+              paintings explored Greco-Roman themes and classical mythology. His paintings were
+              inspired by his travels to Egypt, the Holy Land, and Asia Minor. In addition to being
+              a successful painter, Gérôme was a sculptor and a teacher.</note>
+            <bibl><bibl> “Jean-Leon Gerome | Biography - French Artist,” Encyclopedia Britannica,
+                accessed January 21, 2015,
+                http://www.britannica.com/EBchecked/topic/231830/Jean-Leon-Gerome.</bibl>
+              <bibl>“The Spectacular Art of Jean-Léon Gérôme,” The J. Paul Getty Museum, accessed
+                January 21, 2015, http://www.getty.edu/art/exhibitions/gerome/</bibl></bibl>
+            <note type="internal">NOTE: LOC does not hyphenate his first name, although most other
+              sources do. Need to make a final decision about this.
+              http://id.loc.gov/authorities/names/n50016499.html &#13; &#13; mentioned in
+              11585-Bc612P567_1_TEI.xml; painted Phryne Before the Aeropagus</note>
+          </person>
+          <person xml:id="ENT.000003603">
+            <persName key="ENT.000003603">
+              <forename type="first">Wade</forename>
+              <surname type="last">Hampton</surname>
+            </persName>
+            <birth when="1818">1818</birth>
+            <death when="1902">1902</death>
+            <sex>Male</sex>
+            <note type="internal">http://id.loc.gov/authorities/names/nr91026933.html; mentioned in
+              11820 (quoted); bio at http://en.wikipedia.org/wiki/Wade_Hampton_III</note>
+          </person>
+          <person xml:id="ENT.000003565">
+            <persName key="ENT.000003565">
+              <forename type="first">Winfield</forename>
+              <forename type="middle">Scott</forename>
+              <surname type="last">Hancock</surname>
+            </persName>
+            <birth when="1824">1824</birth>
+            <death when="1886">1886</death>
+            <sex>Male</sex>
+            <note type="biography"><p>Winfield Scott Hancock was born in Pennsylvania on February
+                14, 1824 and died on February 9, 1886. He was a highly respected general and, in
+                1800, became the Democratic presidential candidate.</p>
+              <p>He graduated from West Point in 1844 and fought in the Mexican War from 1846 to
+                1848. During the Civil War, he was appointed brigadier general. He served with
+                distinction at several important Civil War battles including Antietam,
+                Fredericksburg, and Gettysburg. After the war he was appointed major general and
+                commanded the Central Military Department and the Department of Louisiana and Texas.
+                His views and policies concerning Reconstruction made him well respected within the
+                Democratic Party, and in 1880 he became their presidential nominee. He narrowly lost
+                the election to James A. Garfield. Hancock died on February 9, 1886 in New York
+                City.</p></note>
+            <bibl><bibl>“Winfield Scott Hancock , Biography ,United States Military Officer,
+                Encyclopedia Britannica,” accessed February 11, 2015,
+                http://www.britannica.com/EBchecked/topic/254062/Winfield-Scott-Hancock.</bibl><bibl>Schlup,
+                L. C., &amp; Ryan, J. G. (2003). <hi rendition="#italics">Historical dictionary of
+                  the Gilded Age</hi>. Armonk, N.Y.: M.E. Sharpe. </bibl></bibl>
+            <note type="internal">LOC: http://id.loc.gov/authorities/names/n87918075</note>
+          </person>
+          <person xml:id="ENT.000001948">
+            <persName key="ENT.000001948">
+              <forename type="first">Benjamin</forename>
+              <surname type="last">Harrison</surname>
+            </persName>
+            <birth when="1833">1833</birth>
+            <death when="1901">1901</death>
+            <sex>Male</sex>
+            <note type="biography">Benjamin Harrison was the 23rd President of the United States. He
+              was born on August 20, 1833 in North Bend, Ohio and later practiced law. He served in
+              the Civil War and became a colonel. In 1876, he unsuccessfully ran for governor of
+              Indiana, but, four years later, was elected to serve in the US Senate. In 1884 he lost
+              the Republican presidential nomination to James Blaine and then in 1886 lost
+              reelection to the Senate. Two years later, however, he ran for president and launched
+              a well organized and successful “front-porch” campaign in which he did not travel, but
+              gave numerous speeches to visiting supporters. He narrowly defeated the democratic
+              incumbent Grover Cleveland, becoming the 23rd President of the United States. At 5
+              feet 6 inches tall, Harrison became one the shortest US presidents, and democrats
+              nicknamed him “Little Ben.” As president, Harrison hosted the first Pan American
+              Congress in 1889 and helped establish what would later become the Pan American Union.
+              He put forth legislation in Congress for the annexation of Hawaii which ultimately
+              failed, signed the Sherman Anti-Trust law, and bolstered the American navy. He ran for
+              second term, but lost to Cleveland. He died on March 13, 1901 in Indianapolis.</note>
+            <bibl><bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). <hi rendition="#italics">Historical
+                  dictionary of the Gilded Age</hi>. Armonk, N.Y.: M.E. Sharpe.
+                </bibl><bibl>“Benjamin Harrison ,Whitehouse.gov,” accessed February 11, 2015,
+                http://www.whitehouse.gov/1600/presidents/benjaminharrison.</bibl></bibl>
+            <note type="internal">LOC: http://id.loc.gov/authorities/names/n50026594</note>
+          </person>
+          <person xml:id="ENT.000003607">
+            <persName key="ENT.000003607">
+              <forename type="first">Wencel</forename>
+              <surname type="last">Hartman</surname>
+            </persName>
+            <sex>Male</sex>
+          </person>
+          <person xml:id="ENT.000003567">
+            <persName key="ENT.000003567">
+              <forename type="first">Rutherford</forename>
+              <forename type="middle">Birchard</forename>
+              <surname type="last">Hayes</surname>
+            </persName>
+            <birth when="1822">1822</birth>
+            <death when="1893">1893</death>
+            <sex>Male</sex>
+            <note type="internal">LOC: http://id.loc.gov/authorities/names/n50025146</note>
+          </person>
+          <person xml:id="ENT.000003605">
+            <persName key="ENT.000003605">
+              <forename type="first">William</forename>
+              <forename type="middle">Randolph</forename>
+              <surname type="last">Hearst</surname>
+            </persName>
+            <birth when="1863">1863</birth>
+            <death when="1951">1951</death>
+            <sex>Male</sex>
+            <note type="internal">LOC http://id.loc.gov/authorities/names/n80004058 </note>
+          </person>
+          <person xml:id="ENT.000003569">
+            <persName key="ENT.000003569">
+              <forename type="first">Abram</forename>
+              <forename type="middle">Stevens</forename>
+              <surname type="last">Hewitt</surname>
+            </persName>
+            <birth when="1822">1822</birth>
+            <death when="1903">1903</death>
+            <sex>Male</sex>
+            <note type="internal">LOC: http://id.loc.gov/authorities/names/n86012017</note>
+          </person>
+          <person xml:id="ENT.000002863">
+            <persName key="ENT.000002863">
+              <forename type="first">Anthony</forename>
+              <surname type="last">Imbert</surname>
+            </persName>
+            <birth when="1794">1794</birth>
+            <death when="1834">1834</death>
+            <sex>Male</sex>
+            <note type="internal">http://id.loc.gov/authorities/names/nr90027492.html. Copy and
+              paste bio from description of Lithography of Imbert (ENT.000003582) (org).</note>
+          </person>
+          <person xml:id="ENT.000002223">
+            <persName key="ENT.000002223">
+              <forename type="first">Andrew</forename>
+              <surname type="last">Jackson</surname>
+            </persName>
+            <birth when="1767">1767</birth>
+            <death when="1845">1845</death>
+            <sex>Male</sex>
+            <note type="internal">Andrew Jackson is referred to as "Old Hickory" in cartoon with
+              DAMS #5545. His biography should include a brief explanation of the origin of this
+              nickname.</note>
+          </person>
+          <person xml:id="ENT.000003533">
+            <persName key="ENT.000003533">
+              <forename type="first">Abel</forename>
+              <surname type="last">James</surname>
+            </persName>
+            <death when="1790">1790</death>
+            <sex>Male</sex>
+          </person>
+          <person xml:id="ENT.000003563">
+            <persName key="ENT.000003563">
+              <forename type="first">Marshall</forename>
+              <surname type="last">Jewell</surname>
+            </persName>
+            <birth when="1825">1825</birth>
+            <death when="1883">1883</death>
+            <sex>Male</sex>
+            <note type="internal">LOC: http://id.loc.gov/authorities/names/nr2001043325.html</note>
+          </person>
+          <person xml:id="ENT.000003564">
+            <persName key="ENT.000003564">
+              <forename type="first">John</forename>
+              <surname type="last">Kelly</surname>
+            </persName>
+            <birth when="1822">1822</birth>
+            <death when="1886">1886</death>
+            <sex>Male</sex>
+          </person>
+          <person xml:id="ENT.000000443">
+            <persName key="ENT.000000443">
+              <forename type="first">Herbert</forename>
+              <surname type="last">Johnson</surname>
+            </persName>
+            <birth when="1878">1878</birth>
+            <death when="1946">1946</death>
+            <sex>Male</sex>
+          </person>
+          <person xml:id="ENT.000003357">
+            <persName key="ENT.000003357">
+              <forename type="first">John</forename>
+              <surname type="last">Kearsley</surname>
+            </persName>
+            <birth when="1684">1684</birth>
+            <death when="1772">1772</death>
+            <sex>Male</sex>
+            <note type="internal">depicted in 2562-Bb612L615_1_TEI.xml (Liberty Triumphant) ;
+              http://www.findagrave.com/cgi-bin/fg.cgi?page=gr&amp;GRid=8160303 ; E. P. Richardson,
+              "Four American Political Prints," American Art Journal 6, no. 2 (37-38) ;
+              http://id.loc.gov/authorities/names/nr89012469.html</note>
+          </person>
+          <person xml:id="ENT.000003164">
+            <persName key="ENT.000003164">
+              <forename type="first">George</forename>
+              <forename type="middle">Frederick</forename>
+              <surname type="last">Keller</surname>
+            </persName>
+            <birth when="1846">1846</birth>
+            <sex>Male</sex>
+          </person>
+          <person xml:id="ENT.000000379">
+            <persName key="ENT.000000379">
+              <forename type="first">Joseph</forename>
+              <surname type="last">Keppler</surname>
+            </persName>
+            <birth when="1838">1838</birth>
+            <death when="1894">1894</death>
+            <sex>Male</sex>
+            <note type="internal">http://id.loc.gov/authorities/names/n87932523.html</note>
+          </person>
+          <person xml:id="ENT.000003358">
+            <persName key="ENT.000003358">
+              <forename type="first">Philander</forename>
+              <forename type="middle">Chase</forename>
+              <surname type="last">Knox</surname>
+            </persName>
+            <birth when="1853">1853</birth>
+            <death when="1921">1921</death>
+            <sex>Male</sex>
+            <note type="internal">depicted 11525-3133_b2f8_1_TEI.xml; 1782-3313_b2f8_1 ;
+              http://id.loc.gov/authorities/names/n86053399.html</note>
+          </person>
+          <person xml:id="ENT.000003644">
+            <persName key="ENT.000003644">
+              <surname type="last">Leo XIII</surname>
+              <addName type="alt">Pecci, Gioacchino Vincenzo, 1810-1903</addName>
+            </persName>
+            <birth when="1810">1810</birth>
+            <death when="1903">1903</death>
+            <sex>Male</sex>
+            <note type="internal">http://id.loc.gov/authorities/names/n82060350</note>
+          </person>
+          <person xml:id="ENT.000000447">
+            <persName key="ENT.000000447">
+              <forename type="first">Abraham</forename>
+              <surname type="last">Lincoln</surname>
+            </persName>
+            <birth when="1809">1809</birth>
+            <death when="1865">1865</death>
+            <sex>Male</sex>
+            <note type="internal">depicted in 11562, 11564, 11563, 11511, 2189, 996</note>
+          </person>
+          <person xml:id="ENT.000003362">
+            <persName key="ENT.000003362">
+              <forename type="first">John</forename>
+              <forename type="middle">Alexander</forename>
+              <surname type="last">Logan</surname>
+            </persName>
+            <birth when="1826">1826</birth>
+            <death when="1886">1886</death>
+            <sex>Male</sex>
+            <note type="internal">depicted in 11585-Bc612P567_1_TEI.xml ; &#13;
+              http://id.loc.gov/authorities/names/n79072806</note>
+          </person>
+          <person xml:id="ENT.000003363">
+            <persName key="ENT.000003363">
+              <forename type="first">Joseph</forename>
+              <surname type="last">Loring</surname>
+            </persName>
+            <sex>Male</sex>
+            <note type="internal">mentioned in 2562-Bb612L615_1_TEI.xml (Liberty Triumphant)&#13;
+              http://id.loc.gov/authorities/names/nr2007000099.html</note>
+          </person>
+          <person xml:id="ENT.000003641">
+            <persName key="ENT.000003641">
+              <forename type="first">James</forename>
+              <forename type="middle">Rusesell</forename>
+              <surname type="last">Lowell</surname>
+            </persName>
+            <birth when="1819">1819</birth>
+            <death when="1891">1891</death>
+            <sex>Male</sex>
+            <note type="internal">LOC: http://id.loc.gov/authorities/names/n79076124 </note>
+          </person>
+          <person xml:id="ENT.000002471">
+            <persName key="ENT.000002471">
+              <forename type="first">James</forename>
+              <surname type="last">Madison</surname>
+            </persName>
+            <birth when="1751">1751</birth>
+            <death when="1836">1836</death>
+            <sex>Male</sex>
+            <note type="internal">http://id.loc.gov/authorities/names/n80067022.html; depicted in
+              8532;&#13; fourth president of the United States (1809-1817). Not to be confused with
+              James Madison (1749-1812), who was a bishop.</note>
+          </person>
+          <person xml:id="ENT.000003654">
+            <persName key="ENT.000003654">
+              <addName type="honorific">Major</addName>
+              <forename type="first">Barclay Harding</forename>
+              <surname type="last">Warburton</surname>
+            </persName>
+            <birth when="1866">1866</birth>
+            <death when="1954">1954</death>
+            <sex>Male</sex>
+            <note type="internal">Publisher of Evening Telegraph (Phila.)</note>
+          </person>
+          <person xml:id="ENT.000000259">
+            <persName key="ENT.000000259">
+              <forename type="first">David</forename>
+              <surname type="last">Martin</surname>
+            </persName>
+            <sex>Male</sex>
+          </person>
+          <person xml:id="ENT.000003364">
+            <persName key="ENT.000003364">
+              <forename type="first">Louis</forename>
+              <surname type="last">Maurer</surname>
+            </persName>
+            <birth when="1832">1832</birth>
+            <death when="1932">1932</death>
+            <sex>Male</sex>
+            <note type="internal">lithographer for Currier &amp; Ives,
+              http://en.wikipedia.org/wiki/Louis_Maurer; responsible for 11561 (The Political
+              Gymnasium); 11564l (Cat out of the bag); 11563 (National Game);
+              http://id.loc.gov/authorities/names/nr00026936.html</note>
+          </person>
+          <person xml:id="ENT.000001783">
+            <persName key="ENT.000001783">
+              <forename type="first">George</forename>
+              <forename type="middle">Brinton</forename>
+              <surname type="last">McClellan</surname>
+            </persName>
+            <birth when="1826">1826</birth>
+            <death when="1885">1885</death>
+            <sex>Male</sex>
+            <note type="internal">http://id.loc.gov/authorities/names/n50014834.html. Depicted in
+              2189</note>
+          </person>
+          <person xml:id="ENT.000003367">
+            <persName key="ENT.000003367">
+              <forename type="first">Warner</forename>
+              <surname type="last">Miller</surname>
+            </persName>
+            <birth when="1838">1838</birth>
+            <death when="1918">1918</death>
+            <sex>Male</sex>
+            <note type="internal">http://id.loc.gov/authorities/names/no95043103 ; depicted in
+              11585-Bc612P567_1_TEI.xml</note>
+          </person>
+          <person xml:id="ENT.000003623">
+            <persName key="ENT.000003623">
+              <forename type="first">John</forename>
+              <forename type="middle">Ames</forename>
+              <surname type="last">Mitchell</surname>
+            </persName>
+            <birth when="1845">1845</birth>
+            <death when="1918">1918</death>
+            <sex>Male</sex>
+          </person>
+          <person xml:id="ENT.000003368">
+            <persName key="ENT.000003368">
+              <forename type="first">Rachel</forename>
+              <surname type="last">Moloshok</surname>
+            </persName>
+            <note type="internal">HINT project staff</note>
+          </person>
+          <person xml:id="ENT.000000251">
+            <persName key="ENT.000000251">
+              <forename type="first">Thomas</forename>
+              <surname type="last">Nast</surname>
+            </persName>
+            <birth when="1840">1840</birth>
+            <death when="1902">1902</death>
+            <sex>Male</sex>
+          </person>
+          <person xml:id="ENT.000003547">
+            <persName key="ENT.000003547">
+              <forename type="first">Charles</forename>
+              <surname type="last">Nelan</surname>
+            </persName>
+            <birth when="1858">1858</birth>
+            <death when="1904">1904</death>
+            <sex>Male</sex>
+          </person>
+          <person xml:id="ENT.000003371">
+            <persName key="ENT.000003371">
+              <forename type="first">Sarah</forename>
+              <surname type="last">Newhouse</surname>
+            </persName>
+            <note type="internal">HINT project staff</note>
+          </person>
+          <person xml:id="ENT.000003535">
+            <persName key="ENT.000003535">
+              <forename type="first">Mordecai</forename>
+              <forename type="middle">Manuel</forename>
+              <surname type="last">Noah</surname>
+            </persName>
+            <birth when="1785">1785</birth>
+            <death when="1851">1851</death>
+            <sex>Male</sex>
+          </person>
+          <person xml:id="ENT.000003372">
+            <persName key="ENT.000003372">
+              <addName type="honorific">Lord</addName>
+              <forename type="first">Frederick</forename>
+              <surname type="last">North</surname>
+            </persName>
+            <birth when="1732">1732</birth>
+            <death when="1792">1792</death>
+            <sex>Male</sex>
+            <note type="internal">depicted in 2562-Bb612L615_1_TEI.xml (Liberty Triumphant) ;
+              http://id.loc.gov/authorities/names/n79056537.html</note>
+          </person>
+          <person xml:id="ENT.000003656">
+            <persName key="ENT.000003656">
+              <forename type="first">Ole</forename>
+              <surname type="last">May</surname>
+            </persName>
+            <sex>Male</sex>
+            <note type="internal">artist of "Out with them all" political cartoon #6807</note>
+          </person>
+          <person xml:id="ENT.000003616">
+            <persName key="ENT.000003616">
+              <forename type="first">Frederick</forename>
+              <forename type="middle">Burr</forename>
+              <surname type="last">Opper</surname>
+            </persName>
+            <birth when="1857">1857</birth>
+            <death when="1937">1937</death>
+            <sex>Male</sex>
+            <note type="internal">LOC: http://id.loc.gov/authorities/names/n85247604</note>
+          </person>
+          <person xml:id="ENT.000002593">
+            <persName key="ENT.000002593">
+              <forename type="first">Israel</forename>
+              <surname type="last">Pemberton</surname>
+            </persName>
+            <birth when="1715">1715</birth>
+            <death when="1779">1779</death>
+            <sex>Male</sex>
+          </person>
+          <person xml:id="ENT.000000557">
+            <persName key="ENT.000000557">
+              <forename type="first">Samuel</forename>
+              <forename type="middle">Whitaker</forename>
+              <surname type="last">Pennypacker</surname>
+            </persName>
+            <birth when="1843">1843</birth>
+            <death when="1916">1916</death>
+            <sex>Male</sex>
+            <note type="internal">LOC: http://id.loc.gov/authorities/names/n85199995.html</note>
+          </person>
+          <person xml:id="ENT.000002704">
+            <persName key="ENT.000002704">
+              <forename type="first">Boies</forename>
+              <surname type="last">Penrose</surname>
+            </persName>
+            <birth when="1860">1860</birth>
+            <death when="1921">1921</death>
+            <sex>Male</sex>
+          </person>
+          <person xml:id="ENT.000003543">
+            <persName key="ENT.000003543">
+              <forename type="first">Oliver</forename>
+              <forename type="middle">Hazard</forename>
+              <surname type="last">Perry</surname>
+            </persName>
+            <birth when="1785">1785</birth>
+            <death when="1819">1819</death>
+            <note type="internal">referenced in 11812.xml</note>
+          </person>
+          <person xml:id="ENT.000003374">
+            <persName key="ENT.000003374">
+              <forename type="first">Phrynē</forename>
+            </persName>
+            <sex>Female</sex>
+            <note type="internal">real name Mnēsarétē ; mentioned/referenced in
+              11585-Bc612P567_1_TEI.xml&#13; &#13;
+              http://id.loc.gov/authorities/names/n2001153414</note>
+          </person>
+          <person xml:id="ENT.000003375">
+            <persName key="ENT.000003375">
+              <surname type="last">Poplicola</surname>
+            </persName>
+            <note type="internal">Pen name associated with three editorials in Rivington's New York
+              Gazetteer (November 18, December 2, and December 23, 1773) that took a pro-government,
+              pro-East India Company stance during uproar over the Tea Act in America. Depicted in
+              2562-Bb612L615_1_TEI.xml (Liberty Triumphant). Looks like Poplicola was pen name of
+              co-authored piece. Use article printouts in cartoon folder. </note>
+          </person>
+          <person xml:id="ENT.000003534">
+            <persName key="ENT.000003534">
+              <addName type="honorific">Sir</addName>
+              <forename type="first">John</forename>
+              <surname type="last">Pringle</surname>
+            </persName>
+            <birth when="1707">1707</birth>
+            <death when="1782">1782</death>
+            <sex>Male</sex>
+          </person>
+          <person xml:id="ENT.000003548">
+            <persName key="ENT.000003548">
+              <forename type="first">J.S. (John S.)</forename>
+              <surname type="last">Pughe</surname>
+            </persName>
+            <birth when="1870">1870</birth>
+            <death when="1909">1909</death>
+            <sex>Male</sex>
+            <bibl>LOC: http://id.loc.gov/authorities/names/n95000431.html</bibl>
+          </person>
+          <person xml:id="ENT.000003609">
+            <persName key="ENT.000003609">
+              <forename type="first">Joseph</forename>
+              <surname type="last">Pulitzer</surname>
+              <addName type="alt">Politzer, József</addName>
+            </persName>
+            <birth when="1847">1847</birth>
+            <death when="1911">1911</death>
+            <sex>Male</sex>
+          </person>
+          <person xml:id="ENT.000001953">
+            <persName key="ENT.000001953">
+              <forename type="first">Matthew</forename>
+              <forename type="middle">Stanley</forename>
+              <surname type="last">Quay</surname>
+            </persName>
+            <birth when="1833-09-30">1833-09-30</birth>
+            <death when="1904-05-28">1904-05-28</death>
+            <sex>Male</sex>
+            <note type="internal">Appears in DAMS #11737, "The Silence of Matt Quay."</note>
+          </person>
+          <person xml:id="ENT.000003376">
+            <persName key="ENT.000003376">
+              <forename type="first">Henry</forename>
+              <forename type="middle">Jarvis</forename>
+              <surname type="last">Raymond</surname>
+            </persName>
+            <birth when="1820">1820</birth>
+            <death when="1869">1869</death>
+            <sex>Male</sex>
+            <note type="internal">depicted in 11564;
+              http://id.loc.gov/authorities/names/n86111499.html</note>
+          </person>
+          <person xml:id="ENT.000003377">
+            <persName key="ENT.000003377">
+              <forename type="first">Whitelaw</forename>
+              <surname type="last">Reid</surname>
+            </persName>
+            <birth when="1837">1837</birth>
+            <death when="1912">1912</death>
+            <sex>Male</sex>
+            <note type="internal">depicted in 11585-Bc612P567_1_TEI.xml ;
+              http://id.loc.gov/authorities/names/n50050931.html</note>
+          </person>
+          <person xml:id="ENT.000003378">
+            <persName key="ENT.000003378">
+              <forename type="first">William</forename>
+              <forename type="middle">Henry</forename>
+              <surname type="last">Robertson</surname>
+            </persName>
+            <birth when="1823">1823</birth>
+            <death when="1898">1898</death>
+            <sex>Male</sex>
+            <note type="internal">depicted in 11585-Bc612P567_1_TEI.xml ;
+              http://id.loc.gov/authorities/names/no2009045320.html</note>
+          </person>
+          <person xml:id="ENT.000003651">
+            <persName key="ENT.000003651">
+              <forename type="first">John</forename>
+              <forename type="middle">Davison</forename>
+              <surname type="last">Rockefeller</surname>
+            </persName>
+            <birth when="1839">1839</birth>
+            <death when="1937">1937</death>
+            <sex>Male</sex>
+            <note type="internal">http://id.loc.gov/authorities/names/n79095196</note>
+          </person>
+          <person xml:id="ENT.000002738">
+            <persName key="ENT.000002738">
+              <forename type="first">Theodore</forename>
+              <surname type="last">Roosevelt</surname>
+            </persName>
+            <birth when="1858">1858</birth>
+            <death when="1919">1919</death>
+            <sex>Male</sex>
+            <note type="internal">LOC: http://id.loc.gov/authorities/names/n79027239</note>
+          </person>
+          <person xml:id="ENT.000003562">
+            <persName key="ENT.000003562">
+              <forename type="first">John</forename>
+              <forename type="middle">T.</forename>
+              <surname type="last">Ruoff</surname>
+            </persName>
+          </person>
+          <person xml:id="ENT.000003379">
+            <persName key="ENT.000003379">
+              <forename type="first">Carl</forename>
+              <surname type="last">Schurz</surname>
+            </persName>
+            <birth when="1829">1829</birth>
+            <death when="1906">1906</death>
+            <sex>Male</sex>
+            <note type="internal">http://id.loc.gov/authorities/names/n50003179.html ; depicted in
+              11585-Bc612P567_1_TEI.xml</note>
+          </person>
+          <person xml:id="ENT.000003283">
+            <persName key="ENT.000003283">
+              <forename type="first">William</forename>
+              <forename type="middle">Henry</forename>
+              <surname type="last">Seward</surname>
+            </persName>
+            <birth when="1801">1801</birth>
+            <death when="1872">1872</death>
+            <sex>Male</sex>
+            <note type="internal">depicted in 11564</note>
+          </person>
+          <person xml:id="ENT.000003537">
+            <persName key="ENT.000003537">
+              <forename type="first">William</forename>
+              <surname type="last">Shakespeare</surname>
+            </persName>
+            <birth when="1564">1564</birth>
+            <death when="1616">1616</death>
+            <sex>Male</sex>
+            <note type="internal">referenced in 11508;
+              http://id.loc.gov/authorities/names/n78095332.html</note>
+          </person>
+          <person xml:id="ENT.000003380">
+            <persName key="ENT.000003380">
+              <forename type="first">John</forename>
+              <surname type="last">Sherman</surname>
+            </persName>
+            <birth when="1823">1823</birth>
+            <death when="1900">1900</death>
+            <sex>Male</sex>
+            <note type="internal">depicted in 11585-Bc612P567_1_TEI.xml ;
+              http://id.loc.gov/authorities/names/n50023075</note>
+          </person>
+          <person xml:id="ENT.000003587">
+            <persName key="ENT.000003587">
+              <forename type="first">H.</forename>
+              <forename type="middle">N.</forename>
+              <surname type="last">Smith</surname>
+            </persName>
+            <note type="internal">This is a person whose name was handwritten on a cartoon featured
+              in the HINT project. No further information is known about this entity.</note>
+          </person>
+          <person xml:id="ENT.000003631">
+            <persName key="ENT.000003631">
+              <forename type="first">Henry</forename>
+              <forename type="middle">Louis</forename>
+              <surname type="last">Stephens</surname>
+            </persName>
+            <birth when="1824">1824</birth>
+            <death when="1882">1882</death>
+            <sex>Male</sex>
+            <note type="internal">http://id.loc.gov/authorities/names/n50022429.html; artist of
+              11747</note>
+          </person>
+          <person xml:id="ENT.000003383">
+            <persName key="ENT.000003383">
+              <forename type="first">Charles</forename>
+              <surname type="last">Sumner</surname>
+            </persName>
+            <birth when="1811">1811</birth>
+            <death when="1874">1874</death>
+            <sex>Male</sex>
+            <note type="internal">depicted in 11564-3133_b4f7_1_TEI.xml ;
+              http://id.loc.gov/authorities/names/n81057079.html</note>
+          </person>
+          <person xml:id="ENT.000003579">
+            <persName key="ENT.000003579">
+              <forename type="first">R.</forename>
+              <forename type="middle">C.</forename>
+              <surname type="last">Swayze</surname>
+            </persName>
+            <sex>Male</sex>
+          </person>
+          <person xml:id="ENT.000003617">
+            <persName key="ENT.000003617">
+              <forename type="first">Jimmy</forename>
+              <surname type="last">Swinnerton</surname>
+            </persName>
+            <birth when="1875">1875</birth>
+            <death when="1974">1974</death>
+            <sex>Male</sex>
+            <note type="internal">LOC: http://id.loc.gov/authorities/names/n79026907</note>
+          </person>
+          <person xml:id="ENT.000003384">
+            <persName key="ENT.000003384">
+              <forename type="first">William</forename>
+              <forename type="middle">Howard</forename>
+              <surname type="last">Taft</surname>
+            </persName>
+            <birth when="1857">1857</birth>
+            <death when="1930">1930</death>
+            <sex>Male</sex>
+            <note type="internal">depicted in 1782-3313_b2f8_1_TEI.xml; 11565-3133_b2f9_1_TEI.xml
+              &#13; &#13; mentioned in 11570-3313_b2f9_1_TEI.xml &#13; &#13; LOC:
+              http://id.loc.gov/authorities/names/n79022244&#13; &#13;
+              http://id.loc.gov/authorities/names/n79022244.html</note>
+          </person>
+          <person xml:id="ENT.000003590">
+            <persName key="ENT.000003590">
+              <forename type="first">John</forename>
+              <surname type="last">Tenniel</surname>
+            </persName>
+            <birth when="1820">1820</birth>
+            <death when="1914">1914</death>
+            <sex>Male</sex>
+            <note type="internal">http://id.loc.gov/authorities/names/n79058883.html. Artist of
+              11511</note>
+          </person>
+          <person xml:id="ENT.000003566">
+            <persName key="ENT.000003566">
+              <forename type="first">Samuel</forename>
+              <forename type="middle">Jones</forename>
+              <surname type="last">Tilden</surname>
+            </persName>
+            <birth when="1814">1814</birth>
+            <death when="1886">1886</death>
+            <sex>Male</sex>
+            <note type="internal">LOC: http://id.loc.gov/authorities/names/n50013053</note>
+          </person>
+          <person xml:id="ENT.000003386">
+            <persName key="ENT.000003386">
+              <forename type="first">William</forename>
+              <surname type="last">Tryon</surname>
+            </persName>
+            <birth when="1729">1729</birth>
+            <death when="1788">1788</death>
+            <sex>Male</sex>
+            <note type="internal">mentioned in 2562-Bb612L615_1_TEI.xml (Liberty Triumphant) ;
+              http://id.loc.gov/authorities/names/n81027825.html</note>
+          </person>
+          <person xml:id="ENT.000003638">
+            <persName key="ENT.000003638">
+              <forename type="first">William</forename>
+              <forename type="middle">Marcy</forename>
+              <surname type="last">Tweed</surname>
+              <addName type="alt">Tweed, Boss, 1823-1878</addName>
+              <addName type="alt">Tweed, William Magear, 1823-1878</addName>
+            </persName>
+            <birth when="1823-04-03">1823-04-03</birth>
+            <death when="1878-04-12">1878-04-12</death>
+            <sex>Male</sex>
+            <note type="internal">Depicted as a lizard in "The Silence of Matt Quay," DAMS
+              #11737</note>
+          </person>
+          <person xml:id="ENT.000003387">
+            <persName key="ENT.000003387">
+              <surname type="last">Unknown</surname>
+            </persName>
+            <note type="internal">Needed for digital history projects, which may have an unknown
+              entity who is not an artist.</note>
+          </person>
+          <person xml:id="ENT.000000553">
+            <persName key="ENT.000000553">
+              <surname type="last">Unknown Artist</surname>
+            </persName>
+          </person>
+          <person xml:id="ENT.000003634">
+            <persName key="ENT.000003634">
+              <forename type="first">Cornelius</forename>
+              <surname type="last">Vanderbilt</surname>
+              <addName type="alt">Commodore Vanderbilt</addName>
+            </persName>
+            <birth when="1794">1794</birth>
+            <death when="1877">1877</death>
+            <sex>Male</sex>
+            <note type="internal">http://id.loc.gov/authorities/names/n50045037.html; depicted in
+              11747</note>
+          </person>
+          <person xml:id="ENT.000003630">
+            <persName key="ENT.000003630">
+              <forename type="first">James</forename>
+              <forename type="middle">Albert</forename>
+              <surname type="last">Wales</surname>
+            </persName>
+            <birth when="1852">1852</birth>
+            <death when="1886">1886</death>
+            <sex>Male</sex>
+            <note type="internal">LOC: http://id.loc.gov/authorities/names/n95002906</note>
+          </person>
+          <person xml:id="ENT.000003366">
+            <persName key="ENT.000003366">
+              <forename type="first">Thomas</forename>
+              <forename type="middle">B.</forename>
+              <surname type="last">Wanamaker</surname>
+            </persName>
+            <birth when="1865">1865</birth>
+            <death when="1908">1908</death>
+            <sex>Male</sex>
+          </person>
+          <person xml:id="ENT.000003390">
+            <persName key="ENT.000003390">
+              <forename type="first">James</forename>
+              <forename type="middle">Watson</forename>
+              <surname type="last">Webb</surname>
+            </persName>
+            <birth when="1802">1802</birth>
+            <death when="1884">1884</death>
+            <sex>Male</sex>
+            <note type="internal">depicted in 11561, 11508 ;
+              http://id.loc.gov/authorities/names/nr89007202.html</note>
+          </person>
+          <person xml:id="ENT.000001368">
+            <persName key="ENT.000001368">
+              <forename type="first">Daniel</forename>
+              <surname type="last">Webster</surname>
+            </persName>
+            <birth when="1782">1782</birth>
+            <death when="1852">1852</death>
+            <sex>Male</sex>
+          </person>
+          <person xml:id="ENT.000003571">
+            <persName key="ENT.000003571">
+              <forename type="first">Theodoric</forename>
+              <forename type="middle">R</forename>
+              <surname type="last">Westbrook</surname>
+            </persName>
+            <birth when="1821">1821</birth>
+            <death when="1885">1885</death>
+            <sex>Male</sex>
+            <note type="internal">LOC: http://id.loc.gov/authorities/names/no98076093.html </note>
+          </person>
+          <person xml:id="ENT.000003391">
+            <persName key="ENT.000003391">
+              <forename type="first">Orville</forename>
+              <forename type="middle">Peter</forename>
+              <surname type="last">Williams</surname>
+            </persName>
+            <birth when="1876">1876</birth>
+            <death when="1944">1944</death>
+            <sex>Male</sex>
+            <note type="internal">artist of 11567-3133_b2f9_1_TEI.xml &#13; &#13;
+              http://strippersguide.blogspot.com/2012/11/ink-slinger-profiles-op-williams.html</note>
+          </person>
+          <person xml:id="ENT.000003084">
+            <persName key="ENT.000003084">
+              <forename type="first">Woodrow</forename>
+              <surname type="last">Wilson</surname>
+            </persName>
+            <birth when="1856">1856</birth>
+            <death when="1924">1924</death>
+            <sex>Male</sex>
+            <note type="internal">LOC: http://id.loc.gov/authorities/names/n79046299</note>
+          </person>
+          <person xml:id="ENT.000002960">
+            <persName key="ENT.000002960">
+              <forename type="first">Victoria</forename>
+              <forename type="middle">Claflin</forename>
+              <surname type="last">Woodhull</surname>
+              <addName type="alt">Victoria California Claflin</addName>
+            </persName>
+            <birth when="1838">1838</birth>
+            <death when="1927">1927</death>
+            <sex>Female</sex>
+            <note type="internal">depicted in 11747</note>
+          </person>
+          <person xml:id="ENT.000003536">
+            <persName key="ENT.000003536">
+              <forename type="first">Silas</forename>
+              <surname type="last">Wright</surname>
+            </persName>
+            <birth when="1795">1795</birth>
+            <death when="1847">1847</death>
+            <sex>Male</sex>
+            <note type="internal">May be depicted in 11508;
+              http://id.loc.gov/authorities/names/n88130501.html</note>
+          </person>
+          <person xml:id="ENT.000003652">
+            <persName key="ENT.000003652">
+              <forename type="first">Marius</forename>
+              <surname type="last">de Zayas</surname>
+            </persName>
+            <birth when="1880">1880</birth>
+            <death when="1961">1961</death>
+            <sex>Male</sex>
+            <note type="internal">http://id.loc.gov/authorities/names/n81138346</note>
+          </person>
+        </listPerson>
+      </div>
+    </body>
+  </text>
 </TEI>
