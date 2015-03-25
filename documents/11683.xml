@@ -19,6 +19,10 @@
           <persName key="ENT.000003368">Moloshok, Rachel</persName>
         </respStmt>
         <respStmt>
+          <resp key="pfr">Proofread by</resp>
+          <persName key="ENT.000003368">Moloshok, Rachel</persName>
+        </respStmt>
+        <respStmt>
           <resp key="pbl">publisher</resp>
           <orgName key="ENT.000003053">Frank Leslie's illustrated newspaper</orgName>
         </respStmt>
@@ -105,7 +109,7 @@
             </title>
             <imprint>
               <pubPlace>New York</pubPlace>
-              <date from="1869-09-25">1869-09-25</date>
+              <date from="1869-09-25">September 29, 1869</date>
               <biblScope unit="page">32</biblScope>
               <publisher>
                 <orgName key="ENT.000003053">Frank Leslie's illustrated newspaper</orgName>
