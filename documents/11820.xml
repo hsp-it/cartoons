@@ -20,6 +20,10 @@
           <persName key="ENT.000003368">Moloshok, Rachel</persName>
         </respStmt>
         <respStmt>
+          <resp key="pfr">Proofread by</resp>
+          <persName key="ENT.000003368">Moloshok, Rachel</persName>
+        </respStmt>
+        <respStmt>
           <resp key="pbl">publisher</resp>
           <orgName key="ENT.000003598">Cincinnati Gazette</orgName>
         </respStmt>
@@ -103,7 +107,7 @@
                 Gazette</orgName></title>
             <imprint>
               <pubPlace>Cincinnati, OH</pubPlace>
-              <date from="1868-10-08">1868-10-08</date>
+              <date from="1868-10-08">October 8, 1868</date>
               <publisher>
                 <orgName key="ENT.000003598">Cincinnati Gazette</orgName>
               </publisher>
