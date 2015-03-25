@@ -14,6 +14,18 @@
           <persName key="ENT.000000251">Nast, Thomas, 1840-1902</persName>
         </respStmt>
         <respStmt>
+          <resp key="trc">Transcribed by</resp>
+          <persName key="ENT.000003368">Moloshok, Rachel</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="mrk">Encoded by</resp>
+          <persName key="ENT.000003368">Moloshok, Rachel</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="pfr">Proofread by</resp>
+          <persName key="ENT.000003368">Moloshok, Rachel</persName>
+        </respStmt>
+        <respStmt>
           <resp key="pbl">publisher</resp>
           <orgName key="ENT.000003540">Harper &amp; Brothers</orgName>
         </respStmt>
@@ -66,12 +78,12 @@
                   <relation name="depicts" active="ENT.000003329"/>
                   <relation name="depicts" active="ENT.000003541"/>
                   <relation name="depicts" active="ENT.000003328"/>
-                  <relation name="depicted" active="cartoons_symbols.xml#Donkey"/>
-                  <relation name="depicted" active="cartoons_symbols.xml#Dogs"/>
-                  <relation name="depicted" active="cartoons_symbols.xml#Giraffe"/>
-                  <relation name="depicted" active="cartoons_symbols.xml#Fox"/>
-                  <relation name="depicted" active="cartoons_symbols.xml#Lion"/>
-                  <relation name="depicted" active="cartoons_symbols.xml#Unicorn"/>
+                  <relation name="depicted" active="cartoons_symbols.xml#donkey"/>
+                  <relation name="depicted" active="cartoons_symbols.xml#dogs"/>
+                  <relation name="depicted" active="cartoons_symbols.xml#giraffe"/>
+                  <relation name="depicted" active="cartoons_symbols.xml#fox"/>
+                  <relation name="depicted" active="cartoons_symbols.xml#lion"/>
+                  <relation name="depicted" active="cartoons_symbols.xml#unicorn"/>
                 </listRelation>
               </bibl>
             </msItem>
@@ -104,7 +116,7 @@
             </title>
             <imprint>
               <pubPlace>New York</pubPlace>
-              <date from="1876-05-13">1876-05-13</date>
+              <date from="1876-05-13">May 13, 1876</date>
               <publisher>
                 <orgName key="ENT.000003540">Harper &amp; Brothers</orgName>
               </publisher>
@@ -151,13 +163,15 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <catRef target="cartoons_genres.xml#Clippings"/>
+      <catRef target="cartoons_genres.xml#political_cartoons"/>
+        <catRef target="cartoons_genres.xml#clippings"/>
         <catRef target="cartoons_taxonomies.xml#reconstruction"/>
         <catRef target="cartoons_taxonomies.xml#featured"/>
         <catRef target="cartoons_taxonomies.xml#press"/>
       </textClass>
     </profileDesc>
     <revisionDesc>
+      <change who="RachelMoloshok" when="2015-03-25">Basic proofreading; added political cartoons as genre</change>
       <change who="RachelMoloshok" when="2015-01-28">Exported from HSP DAMS</change>
       <change who="RachelMoloshok" when="2015-01-14">Updated to encode one relation element per
         referenced entity/symbol</change>
@@ -198,19 +212,7 @@
   <text>
     <front>
       <div type="editorial_desc">
-        <p>A <rs ref="cartoons_symbols.xml#fox">fox</rs>, standing on the back of a <rs
-            ref="cartoons_symbols.xml#donkey">donkey</rs>, places a "crown"—actually, a goat's head
-          labeled "The Scapegoat"—on the head of a <rs ref="cartoons_symbols.xml#lion">lion</rs>
-          seated in a throne labeled "presidential chair." The fox has a book titled "Party
-          Catechism" sticking out of its pocket. Assorted animals, including rabbits, mice, a duck,
-          a vulture, and dogs, look on. In the distance, the U.S. Capitol provides a backdrop. In
-          front of the capitol building are members of the press, represented by barking <rs
-            ref="cartoons_symbols.xml#dogs">dogs</rs> and a <rs ref="cartoons_symbols.xml#unicorn"
-            >unicorn</rs>, a <rs ref="cartoons_symbols.xml#giraffe">giraffe</rs>, a donkey, and a
-          bear holding up quills. In this cartoon, <persName key="ENT.000000251">Thomas
-            Nast</persName> expresses sympathy for outgoing president <persName key="ENT.000000941"
-            >Ulysses S. Grant</persName>, who was criticized in the press for the misdeeds of his
-          officials and for (in Nast's view) forces beyond the president's control.</p>
+        <p>A fox, standing on the back of a donkey, places a "crown"—actually, a goat's head labeled "The Scapegoat"—on the head of a lion seated in a throne labeled "presidential chair." The fox has a book titled "Party Catechism" sticking out of its pocket. Assorted animals, including rabbits, mice, a duck, a vulture, and dogs, look on. In the distance, the U.S. Capitol provides a backdrop. In front of the capitol building are members of the press, represented by barking dogs and a unicorn, a giraffe, a  donkey, and a bear holding up quills. In this cartoon, Thomas Nast expresses sympathy for outgoing president Ulysses S. Grant, who was criticized in the press for the misdeeds of his officials and for (in Nast's view) forces beyond the president's control.</p>
       </div>
     </front>
     <body>
