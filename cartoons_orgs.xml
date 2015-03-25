@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 
@@ -60,7 +61,7 @@
       </projectDesc>
     </encodingDesc>
     <revisionDesc>
-      <change who="HSP" when="2015-03-11">Exported from Collective Access.</change>
+      <change who="HSP" when="2015-03-25">Exported from Collective Access.</change>
     </revisionDesc>
   </teiHeader>
 
@@ -125,10 +126,56 @@
           </org>
           <org xml:id="ENT.000003598">
             <orgName key="ENT.000003598">Cincinnati Gazette</orgName>
+            <note type="org"><p>The <hi rendition="#italics">Cincinnati Gazette</hi> was founded as
+                a weekly paper in July 1815 by publisher Thomas Palmer. Later that year, the <hi
+                  rendition="#italics">Gazette</hi> merged with another newly-founded paper, <hi
+                  rendition="#italics">Liberty Hall</hi> and <hi rendition="#italics">Cincinnati
+                  Mercury</hi>, to publish as <hi rendition="#italics">Cincinnati Gazette and
+                  Liberty Hall</hi>, and was owned and operated by Wesley Smead and S.S.
+                L’Hommedieu. The paper published only weekly until 1827, when it became Cincinnati’s
+                first daily paper, boasting new and modern printing technologies. Under the new and
+                prominent editor Charles Hammond, the <hi rendition="#italics">Cincinnati
+                  Gazette</hi> was published daily, and the <hi rendition="#italics">Cincinnati
+                  Gazette and Liberty Hall</hi> continued to be published weekly. The <hi
+                  rendition="#italics">Gazette</hi> was printed until late 1881. </p>
+            </note>
+            <bibl>“History of Cincinnati, Ohio, with Illustrations and Biographical Sketches : Ford,
+              Henry A., Comp : Internet Archive.” Accessed March 25, 2015.
+              https://archive.org/details/cu31924032193520.</bibl>
+            <note type="internal">Chronicling america:
+              http://chroniclingamerica.loc.gov/lccn/sn85034482/</note>
           </org>
           <org xml:id="ENT.000003600">
             <orgName key="ENT.000003600">Colored Orphan Asylum and Association for the Benefit of
               Colored Orphans (New York, N.Y.)</orgName>
+            <note type="org"><p>Founded by three white Quaker women in 1836, the New York Colored
+                Orphan’s Asylum housed destitute African American orphans. Founders Anna and Hanna
+                Shotwell and Mary Murry purchased a small building at 12th Street and Fifth Avenue
+                in Manhattan, and began housing 11 black orphans rescued from almshouses. In 1843,
+                the organization moved to larger house at 43rd and Fifth Avenue, which had a much
+                larger capacity. </p>
+              <p> In the summer of 1863, New York City saw the largest armed insurrection outside of
+                the Civil War: the New York Draft Riots. The riots were fueled by underlying racial
+                and class tensions in the city, and broke out after Congress passed new laws
+                allowing men to pay $300 to hire a replacement. Beginning on July 13th a white,
+                majority-Irish mob took to the streets and began burning buildings, smashing
+                windows, and pulling up cobblestones in the streets. A mob seized the Orphan’s
+                Asylum at around 4 PM, stealing everything of value, including donated infant's
+                clothing, before setting the building ablaze. Overall in the draft riots that week,
+                there were 120 deaths and 2000 people injured.</p>
+              <p>All 233 children and in-house staff survived the attack, and the organization was
+                forced to begin again on Randall’s Island (now Roosevelt Island), after all its
+                assets were destroyed in the fire, an estimated loss of $80,000. The Asylum opened a
+                new home in Harlem in 1867, and then relocated again to Riverdale, in the Bronx, in
+                1907. It continues to exist today as Harlem-Dowling Children’s Services. </p></note>
+            <bibl><bibl> “The Burning of the Colored Orphan Asylum, NYC | Jeffrey Kraus Antique
+                Photographics.” Accessed March 25, 2015.
+                http://antiquephotographics.com/the-colored-orphan-asylum-nyc/.</bibl>
+              <bibl>“MAAP | Place Detail: Colored Orphan Asylum.” Accessed March 25, 2015.
+                http://maap.columbia.edu/place/35.</bibl>
+              <bibl> “The New York Draft Riots and the Burning of the Colored Orphan Asylum New-York
+                Historical Society -.” Accessed March 25, 2015.
+                http://blog.nyhistory.org/burning-of-orphan-asylum/.</bibl></bibl>
             <note type="internal">http://id.loc.gov/authorities/names/n2005009223.html. Est. 1836,
               burned during NYC draft riots of 1863; depicted in 11820</note>
           </org>
@@ -235,8 +282,34 @@
                 handle the paper’s business alone. He sold it to the Commercial Advertiser in late
                 1840. </p></note>
           </org>
+          <org xml:id="ENT.000003653">
+            <orgName key="ENT.000003653">Evening telegraph </orgName>
+            <note type="internal">Chronicling America:
+              http://chroniclingamerica.loc.gov/lccn/sn83025925/ </note>
+          </org>
+          <org xml:id="ENT.000003053">
+            <orgName key="ENT.000003053">Frank Leslie's illustrated newspaper</orgName>
+            <note type="internal">publisher of 11683</note>
+          </org>
           <org xml:id="ENT.000003540">
             <orgName key="ENT.000003540">Harper &amp; Brothers</orgName>
+            <note type="org"><p> Harper &amp; Brothers was a publishing house founded as J.J. Harper
+                in 1817. In 1833, the company changed its name to Harper &amp; Brothers, to Harper
+                &amp; Row in 1962, and Harper Collins in 1990. Harper &amp; Brothers was
+                headquartered on Pearl Street in Manhattan, New York, and began publishing <hi
+                  rendition="#italics">Harper’s New Monthly Magazine</hi> in 1850. The company
+                gradually added more publications, beginning with <hi rendition="#italics">Harper’s
+                  Weekly</hi> in 1857, then <hi rendition="#italics">Harper’s Bazar</hi> in 1867,
+                and <hi rendition="#italics">Harper’s Young People</hi> in 1879. Throughout its
+                period of expanding periodical publication, Harper &amp; Brothers continued to
+                publish books. </p>
+              <p>In 1899, George B.M. Harvey became president of Harper &amp; Brothers. William
+                Randolph Hearst bought <hi rendition="#italics">Harper’s Bazaar</hi> in 1913.
+              </p></note>
+            <bibl><bibl>“HARPER and BROS. REORGANIZE. - G.B.M. Harvey, Editor and Proprietor of The
+                North American Review, Elected President of the Firm. - Front Page - NYTimes.com.”
+                Accessed March 25, 2015.
+                http://query.nytimes.com/gst/abstract.html?res=9505E2DB1530E132A25754C1A9679D94689ED7CF.</bibl></bibl>
             <note type="internal">Publishers of Harper's Weekly;
               http://id.loc.gov/authorities/names/n50041511.html</note>
           </org>
@@ -307,8 +380,7 @@
           </org>
           <org xml:id="ENT.000000961">
             <orgName key="ENT.000000961">King &amp; Baird<orgName type="alt">King and
-                Baird</orgName><orgName type="alt">King und Baird</orgName><orgName type="alt">Th.
-                Nast; King &amp; Baird</orgName></orgName>
+                Baird</orgName><orgName type="alt">King und Baird</orgName></orgName>
             <note type="org"><p>Founded in 1838 at 607 Sansom Street in Philadelphia, King and Baird
                 Printers were among the largest print shops in the city. In its early years, Robert
                 P. King and Alexander Baird were the only two employees of the firm, King working as
@@ -360,6 +432,25 @@
           </org>
           <org xml:id="ENT.000003620">
             <orgName key="ENT.000003620">Meridian (MS) Mercury</orgName>
+            <note type="org"><p> The <hi rendition="#italics">Meridian Mercury</hi> was a paper
+                published in Meridian, Mississippi by Colonel Alexander Grice Horn. He began the <hi
+                  rendition="#italics">Mississippi Star</hi> in 1836, another eastern Mississippi
+                paper, before founding the Mercury. Horn was the editor and primary writer for the
+                paper, and was a staunch Democrat, unwaveringly supportive of the Confederate cause
+                during the Civil War. Horn also allegedly had ties to the Ku Klux Klan, and was
+                arrested on charges of riot, riotous homicide, and arson during the 1871 Meridian
+                race riots, although he was never indicted or charged.</p>
+              <p>Horn did not allow the financial department to have any bearing on editorial
+                content of the Mercury, and when he died in 1886, the paper followed, apparently
+                unable to become sustainable.</p>
+            </note>
+            <bibl><bibl>“Ancestors of Colonel Alexander Grice Horn Sr.” Accessed March 25, 2015.
+                http://freepages.genealogy.rootsweb.ancestry.com/~talbotfamilyhistory/3657.htm.</bibl>
+              <bibl>“Editors I Have Known Since the Civil War: rewritten and Reprinted from Robert
+                Hiram Henry - Google Books.” Accessed March 25, 2015.
+                https://books.google.com/books?id=PFEOAAAAIAAJ&amp;pg=PA55&amp;lpg=PA55&amp;dq=colonel+ag+horn&amp;source=bl&amp;ots=JoocvDq62Tsig=K-1Zh2XQeI-0HDsb9tsXIcD1xFA&amp;hl=en&amp;sa=X&amp;ei=MEQMVZDOMsWhNuGjgMAH&amp;ved=0CCQQ6AEwAQ#v=onepage&amp;q=colonel
+                ag horn&amp;f=false.</bibl>
+            </bibl>
             <note type="internal">Mentioned in 11820;
               http://chroniclingamerica.loc.gov/lccn/sn85034453/; Newspaper published in Meridian,
               Mississippi</note>
@@ -481,6 +572,7 @@
           </org>
           <org xml:id="ENT.000003556">
             <orgName key="ENT.000003556">North American</orgName>
+            <note type="internal">http://chroniclingamerica.loc.gov/lccn/sn84024584/</note>
           </org>
           <org xml:id="ENT.000001300">
             <orgName key="ENT.000001300">Pennsylvania Gazette</orgName>
@@ -507,6 +599,14 @@
           </org>
           <org xml:id="ENT.000000435">
             <orgName key="ENT.000000435">Philadelphia Public Ledger</orgName>
+          </org>
+          <org xml:id="ENT.000000437">
+            <orgName key="ENT.000000437">Philadelphia Record</orgName>
+          </org>
+          <org xml:id="ENT.000003655">
+            <orgName key="ENT.000003655">Phunny Phellow</orgName>
+            <note type="internal">illustrated humor magazine, 1859-1876; publisher of 12347. Thomas
+              Nast was a cartoonist (anonymous and unsigned)</note>
           </org>
           <org xml:id="ENT.000000384">
             <orgName key="ENT.000000384">Puck</orgName>
