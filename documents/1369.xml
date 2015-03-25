@@ -1,344 +1,305 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-
-
-    <teiHeader xml:lang="English">
-
-        <fileDesc>
-
-            <titleStmt>
-                <title type="main"
-                    >TEI transcription of Uncle Sam's Lodging House</title>
-                <respStmt>
-                    <resp key="art">Artist</resp>
-                    <persName key="ENT.000000379">Joseph Ferdinand Keppler</persName>
-                </respStmt>
-                
-                
-                <respStmt>
-                    <resp key="ltg">Lithographer</resp>
-                    <persName key="ENT.000000380">Mayer, Merkel &amp; Ottmann </persName>
-                </respStmt>
-                
-                <respStmt>
-                    <resp key="trc">Transcribed by</resp>
-                    <persName key="ENT.000003544">Diane Biunno</persName>
-                </respStmt>
-                <respStmt>
-                    <resp key="mrk">Encoded by</resp>
-                    <persName key="ENT.000003544">Diane Biunno</persName>
-                </respStmt>
-                
-            </titleStmt>
-
-            <editionStmt>
-                <p>First edition, <date when="2015">2015</date></p>
-            </editionStmt>
-
-            <publicationStmt>
-                <publisher><orgName key="ENT.000002473">Historical Society of
-                    Pennsylvania</orgName></publisher>
-                <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
-                <idno type="filename">1369</idno>
-                    
-                <availability status="restricted">
-                    <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of
-                        copyright only to original contributions made by the Historic Images, New
-                        Technologies (HINT) Project participants and other staff. HSP makes no claim
-                        of copyright to the original text. Permission is granted to download,
-                        transmit or otherwise reproduce, distribute or display the text
-                        contributions to this work claimed by HSP for non-profit educational
-                        purposes, provided that this header is included in its entirety. For
-                        inquiries about commercial uses, please contact the Historical Society of
-                        Pennsylvania. HSP retains the rights of all images unless otherwise noted.
-                        Possession of an HSP digital image does not constitute permission to use or
-                        publish it. Requests for digital imaging, other reproduction services, and
-                        the intended use of reproductions must be made in writing to the Rights and
-                        Reproductions Coordinator at rnr@hsp.org.</p>
-                </availability>
-                <date when="2015"/>
-            </publicationStmt>
-
-            <seriesStmt>
-                <title level="s" type="project" key="CARTOONS"/>
-            </seriesStmt>
-
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <repository key="ENT.000002473"/>
-                        <collection key="3213">Balch Institute Broadsides</collection>
-                       
-                        <idno type="citation"
-                            >XBN1 75-371</idno>
-                    </msIdentifier>
-                    <msContents>
-                        <msItem>
-                            <bibl>
-                                <date from="1882-06-07"
-                                    >June 7, 1882</date>
-                                <extent>1 loose page></extent>
-                               
-                                
-                                <listRelation>
-                                    
-                                    
-                                    <relation name="depicted" active="cartoons_symbols.xml#uncle_sam"/>
-                                    <relation name="depicted" active="cartoons_symbols.xml#columbia"/>
-                                    <relation name="mentioned" active="ENT.000003641"/>
-                                </listRelation>
-                            </bibl>
-                        </msItem>
-                    </msContents>
-
-                    
-                </msDesc>
-                <biblStruct>
-                    <analytic>
-                        <respStmt>
-                            <resp key="art">Artist</resp>
-                            <persName key="ENT.000000379">Joseph Keppler</persName>
-                        </respStmt>
-                        
-                        <respStmt>
-                            <resp key="ltg">Lithographer</resp>
-                            <orgName key="ENT.000000380">Mayer, Merkel &amp; Ottmann </orgName>
-                        </respStmt>
-                        
-                        <title type="main" level="a">Uncle Sam's Lodging House</title>
-                    </analytic>
-                    <monogr>
-                        <title type="marc245a" level="j"><orgName key="ENT.000000384">
-                            Puck</orgName></title>
-                        <imprint>
-                            <publisher><orgName key="ENT.000003163"
-                                >Keppler &amp; Schwarzmann</orgName></publisher>
-                            <pubPlace>New York</pubPlace>
-                            <date from="1882-06-07"
-                                >June 7, 1882</date>
-                            <biblScope unit="volume">11</biblScope>
-                            <biblScope unit="issue">274</biblScope>
-                            <biblScope unit="page">220-221</biblScope>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
-
-            </sourceDesc>
-        </fileDesc>
-
-        <encodingDesc>
-            <projectDesc>
-                <p>The Historic Images, New Technologies (HINT) project aims to enhance description
-                    and discovery of the Historical Society of Pennsylvania's graphics materials and
-                    promote the linking and sharing of content among institutions and scholars. The
-                    project will result in an update to HSP's digital image viewer and an online
-                    digital history exhibit that will demonstrate the new viewer's capabilities and
-                    provide interpretive and contextual materials to encourage users to interact
-                    with historical images in new ways. This project was funded by a grant from the
-                    National Historical Publications and Records Commission's (NHPRC) Innovation in
-                    Archives and Documentary Editing program.</p>
-            </projectDesc>
-            <editorialDecl n="4">
-               
-                <p>This electronic file was created using manual keying following the
-                    recommendations for Level 4 of "Best Practices for TEI in Libraries" guidelines
-                    v3.0.</p>
-                <p>This xml file uses unique entity identifiers, media file identifiers, and
-                    collection identifiers in HSP's Digital Library, available at
-                    http://digitallibrary.hsp.org.</p>
-
-            </editorialDecl>
-            <tagsDecl>
-                <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
-                <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
-                <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
-                <rendition scheme="css" xml:id="crossed-through">text-decoration:
-                    line-through</rendition>
-                <rendition scheme="other" xml:id="printed"/>
-                <rendition scheme="other" xml:id="typescript"/>
-                <rendition scheme="other" xml:id="handwritten"/>
-                <rendition scheme="other" xml:id="handwritten-underlined"/>
-                <rendition scheme="other" xml:id="handwritten-circled"/>
-                <rendition scheme="other" xml:id="handwritten-crossed-through"/>
-                <rendition scheme="other" xml:id="double-underline"/>
-                <rendition scheme="other" xml:id="stamp"/>
-                <namespace name="http://www.tei-c.org/ns/1.0">
-                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
-                </namespace>
-            </tagsDecl>
-        </encodingDesc>
-
-        <profileDesc>
-            <textClass>
-                <catRef target="cartoons_taxonomies.xml#lesson_plan"/>
-                <catRef target="cartoons_taxonomies.xml#gilded"/>
-                <catRef target="cartoons_taxonomies.xml#stereotypes"/>
-                <catRef target="cartoons_taxonomies.xml#immigration"/>
-                <catRef target="cartoons_taxonomies.xml#labor"/>
-                <catRef target="cartoon_genres.xml#lithographs"/>
-                
-            </textClass>
-        </profileDesc>
-
-        <revisionDesc>
-            <change who="DianeBiunno" when="2015-03-11">Encoded to lesson plan level</change>
-            <change who="DianeBiunno" when="2015-03-10">Encoded to basic level</change>
-            <change who="RachelMoloshok" when="2015-01-07">Template file created</change>
-        </revisionDesc>
-    </teiHeader>
-
-    <facsimile>
-     
-        <surface ulx="" uly="" lrx="" lry="">
-           
-            <graphic
-                url="FIL.000090262"/>
-            
-            <zone n="1" xml:id="Title" points=""/>
-            <zone n="2" xml:id="Caption_1" points=""/>
-            <zone n="3" xml:id="Caption_2" points=""/>
-            <zone n="4" xml:id="Artist" points=""/>
-            <zone n="5" xml:id="Puck" points=""/>
-            <zone n="6" xml:id="Lowell" points=""/>
-            <zone n="7" xml:id="Chinese" points=""/>
-            <zone n="8" xml:id="Independence" points=""/>
-            <zone n="9" xml:id="Ethnicity_1" points=""/>
-            <zone n="10" xml:id="Ethnicity_2" points=""/>
-            <zone n="11" xml:id="Table" points=""/>
-            <zone n="12" xml:id="Bottle" points=""/>
-            <zone n="13" xml:id="Boot" points=""/>
-            <zone n="14" xml:id="Bag" points=""/>
-            <zone n="15" xml:id="Sam" points=""/>
-            <zone n="16" xml:id="Columbia" points=""/>
-            <zone n="17" xml:id="Pipe" points/>
-           
-           
-
-        </surface>
-    </facsimile>
-
-    <text>
-       
-        <front>
-            <div type="editorial_desc">
-                <p>The image depicts a lodging-house filled with sleeping immigrant laborers.  The beds are labeled "German, Englishman, Irishman, Chinaman, Italian, Russian, Negro, Spaniard, and Frenchman.  The Irishman disturbs everyone in lodge who is trying to sleep.  The Irishman throws bricks and shouts at Uncle Sam who covers his ears.  In the background, Columbia also covers her ears to protect herself from the noise.</p>
-                <p>In the editorial which accompanies the cartoon, the editors claim that all immigrant groups except the Irish have successfully integrated themselves into American society.  According to the editors, immigrants "should not come here to trouble himself and others with the dissensions and grievances of his native land." This viewpoint is represented in the political cartoon by the bricks labeled with Irish causes such as "Irish Independence."  There are several stereotypical representations of ethnic groups in the cartoon.  For example, the Irishman holds a bottle of "Rye" while the Chinese man holds an opium pipe.   </p>
-            </div>
-        </front>
-
-        <body>
-            <div type="image_transcription" facs="#Title" n="1">
-                <head><supplied resp="editorial">Title and Caption</supplied></head>
-                <p>UNCLE SAM'S LODGING-HOUSE</p>
-                <p>Uncle Sam:-"Look here, you, everybody else is quiet and peaceable, and you're all the time a-kicking up a row!"</p>
-                <p><add>June 7 1882</add></p>
-            </div>
-            
-            <div type="image_transcription" facs="#Caption_1" n="2">
-                <head><supplied resp="editorial">Address of <orgName key="ENT.000000384">Puck</orgName></supplied></head>
-                <p>OFFICE OF <hi rendition="#bold">"PUCK"</hi> 23 WARREN ST. NEW YORK.</p>
-            </div>
-            
-            
-            <div type="image_transcription" facs="#Caption_2" n="3">
-                <head><supplied resp="editorial">Address of <orgName key="ENT.000000380">Mayer, Merkel, &amp; Ottmann</orgName></supplied></head>
-                <p>MAYER MERKEL &amp; OTTMANN. LITH. 23-25 WARREN ST. N.Y.</p>
-                
-            </div>
-            
-            
-            <div type="image_transcription" facs="#Artist" n="4">
-                <head><supplied resp="editorial"><persName key="ENT.000000379">Joseph Ferdinand Keppler</persName></supplied></head>
-                <p>J. KEPPLER</p>
-            </div>
-            
-            <div type="image_transcription" facs="#Puck" n="5">
-                <head><supplied resp="editorial"><orgName key="ENT.000000384">Puck</orgName></supplied></head>
-                <p>PUCK.</p>
-            </div>
-            
-            <div type="image_transcription" facs="#Lowell" n="6">
-                <head><supplied resp="editorial">Bricks 1-3</supplied></head>
-                <p>RECALL <persName key="ENT.000003641">LOWELL</persName>.</p>
-                <p>AGITATION</p>
-                <p>AN IRISH MINISTER TO ENGLAND.</p>
-            </div>
-            
-            <div type="image_transcription" facs="#Chinese" n="7">
-                <head><supplied resp="editorial">Brick 4</supplied></head>
-                <p>THE CHINESE MUST GO.</p>
-            </div>
-            
-            <div type="image_transcription" facs="#Independence" n="8">
-                <head><supplied resp="editorial">Brick 5</supplied></head>
-                <p>IRISH INDEPENDENCE</p>
-            </div>
-            
-            <div type="image_transcription" facs="#Ethnicity_1" n="9">
-                <head><supplied resp="editorial">Bottom Row of Beds</supplied></head>
-                <p>GERMAN.</p>
-                <p>ENGLISHMAN.</p>
-                <p>IRISHMAN.</p>
-                <p>CHINA<supplied resp="editorial">MAN.</supplied></p>
-                <p>ITALIAN.</p>
-                
-            </div>
-            
-            <div type="image_transcription" facs="#Ethnicity_2" n="10">
-                <head><supplied resp="editorial">Top Row of Beds</supplied></head>
-                <p>RUSSIAN</p>
-                <p>NEGRO</p>
-                <p>SPANIARD.</p>
-                <p>JAPANESE</p>
-                <p>FRENCHMAN.</p>
-            </div>
-            
-            <div type="image_transcription" facs="#Table" n="11">
-                <head><supplied resp="editorial">Table</supplied></head>
-                <p>J. Baumann</p>
-                <p><unclear reason="handwriting">Erlan</unclear></p>
-                
-            </div>
-            
-           <div type="image_transcription" facs="#Bottle" n="12">
-               <head><supplied resp="editorial">Bottle</supplied></head>
-               <p>RYE <note n="1" type="editorial">Some Americans believed that most Irish immigrants abused alcohol.  The political cartoon highlights this stereotype by depicting a bottle of rye whiskey in the Irishman's bed.</note></p>
-           </div>
-            
-            <div type="image_transcription" facs="#Boot" n="13">
-                <head><supplied resp="editorial">Boot</supplied></head>
-                <p>NO RENT</p>
-            </div>
-            
-            <div type="image_transcription" facs="#Bag" n="14">
-                <head><supplied resp="editorial">Bag</supplied></head>
-                <p>LONDON</p>
-            </div>
-            
-            <div type="image_annotation" facs="#Sam" n="15">
-                <head><supplied resp="editorial"><rs resp="cartoons_symbols.xml#uncle_sam">Uncle Sam</rs></supplied></head>
-                <p>Image shows Uncle Sam in his pajamas, carries a lantern, and covers his ears.</p>
-               
-            </div>
-            
-            <div type="image_annotation" facs="#Columbia" n="16">
-                <head><supplied resp="editorial"><rs resp="cartoons_symbols.xml#columbia">Columbia</rs></supplied></head>
-                <p>Columbia covers her ears.</p>
-            </div>
-            
-            <div type="image_annotation" facs="#Pipe" n="17">
-                <head><supplied resp="editorial"><rs resp="cartoons_symbols.xml#columbia">Opium Pipe</rs></supplied></head>
-                <p>Some native-born americans believed that Chinese immigrants abused opium. The political cartoon highlights this Chinese immigrant stereotype by depicting the Chinese man asleep next to his opium pipe.</p>
-            </div>
-            
-            
-            
-            
-            
-        </body>
-
-        <back/>
-    </text>
+  <teiHeader xml:lang="English">
+    <fileDesc>
+      <titleStmt>
+        <title type="main">TEI transcription of Uncle Sam's Lodging House</title>
+        <author/>
+        <respStmt>
+          <resp key="art">artist</resp>
+          <persName key="ENT.000000379">Keppler, Joseph Ferdinand, 1838-1894</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="trc">Transcribed by</resp>
+          <persName key="ENT.000003544">Biunno, Diane</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="mrk">Encoded by</resp>
+          <persName key="ENT.000003544">Biunno, Diane</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="pbl">publisher</resp>
+          <orgName key="ENT.000003163">Keppler &amp; Schwarzmann</orgName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <p>First edition, <date when="2015">2015</date></p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher><orgName key="ENT.000002473">Historical Society of
+          Pennsylvania</orgName></publisher>
+        <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
+        <idno type="filename">1369</idno>
+        <availability status="restricted">
+          <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of copyright only
+            to original contributions made by the Historic Images, New Technologies (HINT) Project
+            participants and other staff. HSP makes no claim of copyright to the original text.
+            Permission is granted to download, transmit or otherwise reproduce, distribute or
+            display the text contributions to this work claimed by HSP for non-profit educational
+            purposes, provided that this header is included in its entirety. For inquiries about
+            commercial uses, please contact the Historical Society of Pennsylvania. HSP retains the
+            rights of all images unless otherwise noted. Possession of an HSP digital image does not
+            constitute permission to use or publish it. Requests for digital imaging, other
+            reproduction services, and the intended use of reproductions must be made in writing to
+            the Rights and Reproductions Coordinator at rnr@hsp.org.</p>
+        </availability>
+        <date when="2015">2015</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="project" key="CARTOONS">Historic Images, New Technologies (HINT)
+          Project</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository key="ENT.000002473">Historical Society of Pennsylvania</repository>
+            <collection key="3213">Balch Institute Broadsides</collection>
+            <idno type="citation">XBN1 75-371<idno type="box">XBN1 75-371</idno></idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <bibl>
+                <date from="1882-06-07">June 7, 1882</date>
+                <extent>1 loose page</extent>
+                <extent>
+                  <dimensions type="image" unit="cm"/>
+                </extent>
+                <listRelation>
+                  <relation name="mentioned" active="ENT.000003641"/>
+                  <relation active="cartoons_symbols.xml#uncle_sam"/>
+                  <relation active="cartoons_symbols.xml#columbia"/>
+                </listRelation>
+              </bibl>
+            </msItem>
+          </msContents>
+        </msDesc>
+        <biblStruct>
+          <analytic>
+            <respStmt>
+              <resp key="art">artist</resp>
+              <persName key="ENT.000000379">Keppler, Joseph Ferdinand, 1838-1894</persName>
+            </respStmt>
+            <respStmt>
+              <resp key="pbl">publisher</resp>
+              <orgName key="ENT.000003163">Keppler &amp; Schwarzmann</orgName>
+            </respStmt>
+            <title type="main" level="a">Uncle Sam's Lodging House</title>
+            <date from="1882-06-07">June 7, 1882</date>
+          </analytic>
+          <monogr>
+            <title type="marc245a" level="j"><orgName key="ENT.000000384"> Puck</orgName></title>
+            <imprint>
+              <pubPlace>New York</pubPlace>
+              <date from="1882-06-07">June 7, 1882</date>
+              <biblScope unit="volume">11</biblScope>
+              <biblScope unit="issue">274</biblScope>
+              <biblScope unit="page">220-221</biblScope>
+              <publisher>
+                <orgName key="ENT.000003163">Keppler &amp; Schwarzmann</orgName>
+              </publisher>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <bibl/>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The Historic Images, New Technologies (HINT) project aims to enhance description and
+          discovery of the Historical Society of Pennsylvania's graphics materials and promote the
+          linking and sharing of content among institutions and scholars. The project will result in
+          an update to HSP's digital image viewer and an online digital history exhibit that will
+          demonstrate the new viewer's capabilities and provide interpretive and contextual
+          materials to encourage users to interact with historical images in new ways. This project
+          was funded by a grant from the National Historical Publications and Records Commission's
+          (NHPRC) Innovation in Archives and Documentary Editing program.</p>
+      </projectDesc>
+      <editorialDecl n="4">
+        <p>This electronic file was created using manual keying following the recommendations for
+          Level 4 of "Best Practices for TEI in Libraries" guidelines v3.0.</p>
+        <p>This xml file uses unique entity identifiers, media file identifiers, and collection
+          identifiers in HSP's Digital Library, available at http://digitallibrary.hsp.org.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
+        <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
+        <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
+        <rendition scheme="css" xml:id="crossed-through">text-decoration: line-through</rendition>
+        <rendition scheme="other" xml:id="printed"/>
+        <rendition scheme="other" xml:id="typescript"/>
+        <rendition scheme="other" xml:id="handwritten"/>
+        <rendition scheme="other" xml:id="handwritten-underlined"/>
+        <rendition scheme="other" xml:id="handwritten-circled"/>
+        <rendition scheme="other" xml:id="handwritten-crossed-through"/>
+        <rendition scheme="other" xml:id="double-underline"/>
+        <rendition scheme="other" xml:id="stamp"/>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <catRef target="cartoons_genres.xml#lithographs"/>
+        <catRef target="cartoons_taxonomies.xml#lesson_plan"/>
+        <catRef target="cartoons_taxonomies.xml#gilded"/>
+        <catRef target="cartoons_taxonomies.xml#stereotypes"/>
+        <catRef target="cartoons_taxonomies.xml#immigration"/>
+        <catRef target="cartoons_taxonomies.xml#labor"/>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change who="DianeBiunno" when="2015-03-25">Exported from DAMS</change>
+      <change who="DianeBiunno" when="2015-03-11">Encoded to lesson plan level</change>
+      <change who="DianeBiunno" when="2015-03-10">Encoded to basic level</change>
+      <change who="RachelMoloshok" when="2015-01-07">Template file created</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="100" lry="100">
+      <graphic url="FIL.000090262"/>
+      <zone n="1" xml:id="Title" points="32.45,89.55 74.93,89.95 75.06,95.34 32.38,95.14"/>
+      <zone n="2" xml:id="Caption_1" points="7.2,89.74 15.65,89.71 15.63,90.81 7.22,90.71"/>
+      <zone n="3" xml:id="Caption_2"
+        points="82.92,90.5 82.94,89.74 92.59,89.71 92.61,90.63 82.94,90.53"/>
+      <zone n="4" xml:id="Artist" points="15.41,88.02 22.95,85.6 22.95,89.39 15.84,89.47"/>
+      <zone n="5" xml:id="Puck" points="46.31,5.99 54,6.33 53.77,10.25 46.2,10.43"/>
+      <zone n="6" xml:id="Lowell"
+        points="39.65,77.75 48.5,83.14 48.29,87.22 42.64,89.6 33.21,87.84 33.5,84.52 35.32,83.71"/>
+      <zone n="7" xml:id="Chinese"
+        points="33.9,72.02 39.59,72.26 40.88,73.77 40.84,75.52 34.73,75.23 33.67,73.77"/>
+      <zone n="8" xml:id="Independence" points="16.65,64.62 21.69,63.82 22.59,67.92 16.9,67.97"/>
+      <zone n="9" xml:id="Ethnicity_1"
+        points="31.64,42.49 36.57,30.54 46.67,34.13 52.87,34.13 59.07,45.22 67.44,40.1 93.37,50.34 88.67,66.9 78.92,75.09 79.6,83.45 71.11,91.82 18.1,53.58"/>
+      <zone n="10" xml:id="Ethnicity_2"
+        points="71.23,11.08 92.46,10.74 77.65,24.23 47.88,26.17 34.05,26.79 31.87,23.54 27.97,27.3 22,25.08 21.43,28.66 14.31,28.49 15.58,12.11"/>
+      <zone n="11" xml:id="Table" points="80.29,74.36 88.31,78.13 88.21,85.83 79.77,81.91"/>
+      <zone n="12" xml:id="Bottle"
+        points="54.83,54.31 56.3,54.88 56.26,58.66 54.55,60.38 52.91,61.02"/>
+      <zone n="13" xml:id="Boot" points="45.81,61.5 45.1,72.18 42.71,72.41 43.42,61.21 44.59,60.57"/>
+      <zone n="14" xml:id="Bag"
+        points="78.87,49.87 79.88,48.16 79.79,46.27 80.79,45.07 82.02,45.33 82.81,46.19 84.1,45.05 84.59,48.5 85.63,50.91 83.86,52.47 82.81,51.77 77.82,53.04 77.86,51.01"/>
+      <zone n="15" xml:id="Sam"
+        points="19.35,29.55 22.27,26.25 27.4,27.94 29.36,25.02 33.42,24.27 34,29.56 31.07,32.75 32.04,39.29 35.6,61.82 33.23,69.97 33.56,77.75 35.2,82.84 32.63,83.58 29.16,86.8 22.42,80.53 23.78,64.58 23.42,52.81 18.31,50.66 16.49,38.76"/>
+      <zone n="16" xml:id="Columbia"
+        points="7.8,31.21 9.21,29.14 11.63,31.1 13.39,33.39 14.17,38.5 16.02,39.24 19.02,47.94 19.59,52.93 17.52,56.32 19.09,60.57 14.88,63.96 10.6,62.48 11.21,42.41 9.65,41.09 7.94,42.3 6.84,37.29 7.92,36.39 7.23,33.23"/>
+      <zone n="17" xml:id="Pipe"
+        points="35.12,49.84 36.35,49.53 37.72,49.64 38.98,50.34 40.68,49.5 41.84,50.43 41.98,51.67 34.82,51.46"
+      />
+    </surface>
+  </facsimile>
+  <text>
+    <front>
+      <div type="editorial_desc">
+        <p>The image depicts a lodging-house filled with sleeping immigrant laborers. The Irishman
+          disturbs everyone in lodge who is trying to sleep. The Irishman throws bricks and shouts
+          at Uncle Sam who covers his ears. In the background, Columbia also covers her ears to
+          protect herself from the noise.</p>
+        <p>In the editorial which accompanies the cartoon, the editors claim that every immigrant
+          group except the Irish has successfully integrated itself into American society. According
+          to the editors, immigrants "should not come here to trouble himself and others with the
+          dissensions and grievances of his native land." This viewpoint is represented in the
+          political cartoon by the bricks labeled with Irish causes such as "Irish Independence."
+          There are several other stereotypical representations of ethnic groups in the cartoon. For
+          example, the Irishman holds a bottle of "Rye" while the Chinese man holds an opium
+          pipe.</p>
+      </div>
+    </front>
+    <body>
+      <div type="image_transcription" n="1" facs="#Title">
+        <head><supplied resp="editorial">Title and Caption</supplied></head>
+        <p>UNCLE SAM'S LODGING-HOUSE</p>
+        <p>Uncle Sam:-"Look here, you, everybody else is quiet and peaceable, and you're all the
+          time a-kicking up a row!"</p>
+        <p><add>June 7 1882</add></p>
+      </div>
+      <div type="image_transcription" n="2" facs="#Caption_1">
+        <head><supplied resp="editorial">Address of <orgName key="ENT.000000384"
+            >Puck</orgName></supplied></head>
+        <p>OFFICE OF <hi rendition="#bold">"PUCK"</hi> 23 WARREN ST. NEW YORK.</p>
+      </div>
+      <div type="image_transcription" n="3" facs="#Caption_2">
+        <head><supplied resp="editorial">Address of <orgName key="ENT.000000380">Mayer, Merkel,
+              &amp; Ottmann</orgName></supplied></head>
+        <p>MAYER MERKEL &amp; OTTMANN. LITH. 23-25 WARREN ST. N.Y.</p>
+      </div>
+      <div type="image_transcription" n="4" facs="#Artist">
+        <head><supplied resp="editorial"><persName key="ENT.000000379">Joseph Ferdinand
+              Keppler</persName></supplied></head>
+        <p>J. KEPPLER</p>
+      </div>
+      <div type="image_transcription" n="5" facs="#Puck">
+        <head><supplied resp="editorial"><orgName key="ENT.000000384"
+          >Puck</orgName></supplied></head>
+        <p>PUCK.</p>
+      </div>
+      <div type="image_transcription" n="6" facs="#Lowell">
+        <head><supplied resp="editorial">Bricks 1-3</supplied></head>
+        <p>RECALL <persName key="ENT.000003641">LOWELL</persName>.</p>
+        <p>AGITATION</p>
+        <p>AN IRISH MINISTER TO ENGLAND.</p>
+      </div>
+      <div type="image_transcription" n="7" facs="#Chinese">
+        <head><supplied resp="editorial">Brick 4</supplied></head>
+        <p>THE CHINESE MUST GO.</p>
+      </div>
+      <div type="image_transcription" n="8" facs="#Independence">
+        <head><supplied resp="editorial">Brick 5</supplied></head>
+        <p>IRISH INDEPENDENCE</p>
+      </div>
+      <div type="image_transcription" n="9" facs="#Ethnicity_1">
+        <head><supplied resp="editorial">Bottom Row of Beds</supplied></head>
+        <p>GERMAN.</p>
+        <p>ENGLISHMAN.</p>
+        <p>IRISHMAN.</p>
+        <p>CHINA<supplied resp="editorial">MAN.</supplied></p>
+        <p>ITALIAN.</p>
+      </div>
+      <div type="image_transcription" n="10" facs="#Ethnicity_2">
+        <head><supplied resp="editorial">Top Row of Beds</supplied></head>
+        <p>RUSSIAN</p>
+        <p>NEGRO</p>
+        <p>SPANIARD.</p>
+        <p>JAPANESE</p>
+        <p>FRENCHMAN.</p>
+      </div>
+      <div type="image_transcription" n="11" facs="#Table">
+        <head><supplied resp="editorial">Table</supplied></head>
+        <p>J. Baumann</p>
+        <p><unclear reason="handwriting">Erlan</unclear></p>
+      </div>
+      <div type="image_transcription" n="12" facs="#Bottle">
+        <head><supplied resp="editorial">Bottle</supplied></head>
+        <p>RYE <note n="1" type="editorial">Some Americans believed that most Irish immigrants
+            abused alcohol. The political cartoon highlights this stereotype by depicting a bottle
+            of rye whiskey in the Irishman's bed.</note></p>
+      </div>
+      <div type="image_transcription" n="13" facs="#Boot">
+        <head><supplied resp="editorial">Boot</supplied></head>
+        <p>NO RENT</p>
+      </div>
+      <div type="image_transcription" n="14" facs="#Bag">
+        <head><supplied resp="editorial">Bag</supplied></head>
+        <p>LONDON</p>
+      </div>
+      <div type="image_annotation" n="15" facs="#Sam">
+        <head><supplied resp="editorial"><rs resp="cartoons_symbols.xml#uncle_sam">Uncle
+            Sam</rs></supplied></head>
+        <p>Image shows Uncle Sam in his pajamas, carries a lantern, and covers his ears.</p>
+      </div>
+      <div type="image_annotation" n="16" facs="#Columbia">
+        <head><supplied resp="editorial"><rs resp="cartoons_symbols.xml#columbia"
+            >Columbia</rs></supplied></head>
+        <p>Columbia covers her ears.</p>
+      </div>
+      <div type="image_annotation" n="17" facs="#Pipe">
+        <head><supplied resp="editorial">Opium Pipe</supplied></head>
+        <p>Some native-born Americans believed that most Chinese immigrants abused opium. The
+          political cartoon highlights this Chinese immigrant stereotype by depicting the Chinese
+          man asleep next to his opium pipe.</p>
+      </div>
+    </body>
+  </text>
 </TEI>
