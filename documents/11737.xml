@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/css" href="./tiny_TEI_template.css"?>
+
+<?xml-model href="../../../HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?oxygen RNGSchema="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="English">
+        <fileDesc>
+            <titleStmt>
+                <title type="main"
+                    >TEI transcription of The Silence of Matt Quay</title>
+                <respStmt>
+                    <resp key="art">Artist</resp>
+                    <persName key="ENT.000000251">Thomas Nast</persName>
+                </respStmt>
+               <respStmt>
+                   <resp key="pbl">Publisher</resp>
+                   <orgName key="ENT.000003639">The Illustrated American</orgName>
+               </respStmt>
+                <respStmt>
+                    <resp key="trc">Transcribed by</resp>
+                    <persName key="ENT.000003545">Borden, Sara</persName>
+                </respStmt>
+                <respStmt>
+                    <resp key="mrk">Encoded by</resp>
+                    <persName key="ENT.000003545">Borden, Sara</persName>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <p>First edition, <date when="2015">2015</date></p>
+            </editionStmt>
+            <publicationStmt>
+                <publisher><orgName key="ENT.000002473">Historical Society of Pennsylvania</orgName></publisher>
+                <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
+                <idno type="filename">11737</idno>
+                <availability status="restricted">
+                    <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of
+                        copyright only to original contributions made by the Historic Images, New
+                        Technologies (HINT) Project participants and other staff. HSP makes no claim
+                        of copyright to the original text. Permission is granted to download,
+                        transmit or otherwise reproduce, distribute or display the text
+                        contributions to this work claimed by HSP for non-profit educational
+                        purposes, provided that this header is included in its entirety. For
+                        inquiries about commercial uses, please contact the Historical Society of
+                        Pennsylvania. HSP retains the rights of all images unless otherwise noted.
+                        Possession of an HSP digital image does not constitute permission to use or
+                        publish it. Requests for digital imaging, other reproduction services, and
+                        the intended use of reproductions must be made in writing to the Rights and
+                        Reproductions Coordinator at rnr@hsp.org.</p>
+                </availability>
+                <date when="2015"/>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s" type="project" key="CARTOONS"/>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository key="ENT.000002473"/>
+                        <collection key="V64"/>
+                        <idno type="citation">Bb 61 N269</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <bibl>
+                                <date from="1890-10-25">October 25, 1890</date>
+                                <extent>One board with clippings pasted to it</extent>
+                                <extent>
+                                    <dimensions type="image" unit="cm">
+                                        <height quantity=""/>
+                                        <width quantity=""/>
+                                    </dimensions>
+                                </extent>
+                                <listRelation>
+                                    <relation name="depicted" active="ENT.000001953"/>
+                                    <relation name="depicted" active="ENT.000003637"></relation>
+                                    <relation name="depicted" active="ENT.000003638"></relation>
+                                </listRelation>
+                            </bibl>
+                        </msItem>
+                    </msContents>
+                    <history>
+                        <acquisition>This collection of prints and drawings includes portraits; views of Philadelphia, Pennsylvania, the Delaware River, and other locations; landscapes; battle scenes; railways and fire engines; industrial settings; murders; and other subjects. Media include lithographs, etchings, engravings, aquatints, line drawings, wood cuts, water colors, washes, oil paintings, stipple prints, pencil sketches, architects' drawings, mezzotints, and other media. There are also a few photographs.</acquisition>
+                    </history>
+                </msDesc>
+                <biblStruct>
+                    <analytic>
+                        <respStmt>
+                            <resp key="art">Artist</resp>
+                            <persName key="ENT.000000251">Thomas Nast</persName>
+                        </respStmt>
+                        <title type="main" level="a">The Silence of Matt Quay</title>
+                    </analytic>
+                    <monogr>
+                        <title type="marc245a" level="j"><orgName key="ENT.000003639"
+                                >The Illustrated American</orgName></title>
+                        <imprint>
+                            <publisher><orgName key="ENT.000003640">The Illustrated American Publishing Company</orgName></publisher>
+                            <pubPlace>New York</pubPlace>
+                            <date from="1890-10-25">October 25, 1890</date>
+                            <biblScope unit="volume">4</biblScope>
+                            <biblScope unit="issue">36</biblScope>
+                            <biblScope unit="page">cover</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The Historic Images, New Technologies (HINT) project aims to enhance description
+                    and discovery of the Historical Society of Pennsylvania's graphics materials and
+                    promote the linking and sharing of content among institutions and scholars. The
+                    project will result in an update to HSP's digital image viewer and an online
+                    digital history exhibit that will demonstrate the new viewer's capabilities and
+                    provide interpretive and contextual materials to encourage users to interact
+                    with historical images in new ways. This project was funded by a grant from the
+                    National Historical Publications and Records Commission's (NHPRC) Innovation in
+                    Archives and Documentary Editing program.</p>
+            </projectDesc>
+            <editorialDecl n="4">
+                <p>This electronic file was created using manual keying following the
+                    recommendations for Level 4 of "Best Practices for TEI in Libraries" guidelines
+                    v3.0.</p>
+                <p>This xml file uses unique entity identifiers, media file identifiers, and
+                    collection identifiers in HSP's Digital Library, available at
+                    http://digitallibrary.hsp.org.</p>
+            </editorialDecl>
+            <tagsDecl>
+                <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
+                <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
+                <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
+                <rendition scheme="css" xml:id="crossed-through">text-decoration:
+                    line-through</rendition>
+                <rendition scheme="other" xml:id="printed"/>
+                <rendition scheme="other" xml:id="typescript"/>
+                <rendition scheme="other" xml:id="handwritten"/>
+                <rendition scheme="other" xml:id="handwritten-underlined"/>
+                <rendition scheme="other" xml:id="handwritten-circled"/>
+                <rendition scheme="other" xml:id="handwritten-crossed-through"/>
+                <rendition scheme="other" xml:id="double-underline"/>
+                <rendition scheme="other" xml:id="stamp"/>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <catRef target=""/>
+                <!-- use this section to apply genre and taxonomy tags, as outlined in encoding guidelines -->
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+           <change who="Sara Borden" when="2015-03-10">Filled out header, added some description</change>
+            <change who="RachelMoloshok" when="2015-01-07">Template file created</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface ulx="" uly="" lrx="" lry="">
+            <graphic url="FIL.000089305"/>
+            <!-- Use as many zone elements as needed. Provide each zone with a number and a unique (to this file) xml:id. @points values will be provided by Collective Access upon export.  -->
+            <zone n="??" xml:id="??" points=""/>
+        </surface>
+    </facsimile>
+
+    <text>
+        <!-- ??See separate ODD file with full encoding guidelines. -->
+        <front>
+            <div type="editorial_desc">
+                <p><!-- Use this section to enter a BRIEF description of the image. --></p>
+            </div>
+        </front>
+
+        <body>
+            <div type="image_transcription" facs="#??" n="??">
+                <!-- ??This is where the actual text of the transcription goes, using all the appropriate elements and attributes. See separate ODD file with encoding guidelines. To add "footnote"-style zone annotations to featured cartoons, use  <div type="image_annotation">   -->
+                <head><!-- enter a BRIEF (one- to two-word) label to aid placement of zone (ex, "Jackson" or "Scroll"). Use <supplied resp="editorial"> if you are supplyin a label that does not appear in the original. --></head>
+                <p><!-- transcribed text/annotation text goes here. Use as many <p> elements as needed per zone --></p>
+            </div>
+        </body>
+
+        <back/>
+    </text>
+</TEI>
