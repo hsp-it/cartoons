@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="English">
+    <fileDesc>
+      <titleStmt>
+        <title type="main">TEI transcription of Patience on a Monument</title>
+        <author/>
+        <respStmt>
+          <resp key="art">artist</resp>
+          <persName key="ENT.000000251">Nast, Thomas, 1840-1902</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="trc">Transcribed by</resp>
+          <persName key="ENT.000003368">Moloshok, Rachel</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="mrk">Encoded by</resp>
+          <persName key="ENT.000003368">Moloshok, Rachel</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="pfr">Proofread by</resp>
+          <persName key="ENT.000003368">Moloshok, Rachel</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="pbl">publisher</resp>
+          <orgName key="ENT.000003598">Cincinnati Gazette</orgName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <p>First edition, <date when="2015">2015</date></p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher><orgName key="ENT.000002473">Historical Society of
+          Pennsylvania</orgName></publisher>
+        <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
+        <idno type="filename">11820</idno>
+        <availability status="restricted">
+          <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of copyright only
+            to original contributions made by the Historic Images, New Technologies (HINT) Project
+            participants and other staff. HSP makes no claim of copyright to the original text.
+            Permission is granted to download, transmit or otherwise reproduce, distribute or
+            display the text contributions to this work claimed by HSP for non-profit educational
+            purposes, provided that this header is included in its entirety. For inquiries about
+            commercial uses, please contact the Historical Society of Pennsylvania. HSP retains the
+            rights of all images unless otherwise noted. Possession of an HSP digital image does not
+            constitute permission to use or publish it. Requests for digital imaging, other
+            reproduction services, and the intended use of reproductions must be made in writing to
+            the Rights and Reproductions Coordinator at rnr@hsp.org.</p>
+        </availability>
+        <date when="2015">2015</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="project" key="CARTOONS">Historic Images, New Technologies (HINT)
+          Project</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository key="ENT.000002473">Historical Society of Pennsylvania</repository>
+            <collection key="V64">Historical Society of Pennsylvania medium graphics
+              collection</collection>
+            <idno type="citation">Bb 61 N189</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <bibl>
+                <date from="1868-10-08">October 8, 1868</date>
+                <extent>
+                  <dimensions type="image" unit="cm"/>
+                  <height quantity="44.5"/>
+                  <width quantity="30.5"/>
+                </extent>
+                <listRelation>
+                  <relation name="depicted" active="ENT.000003599"/>
+                  <relation name="depicted" active="ENT.000003600"/>
+                  <relation name="mentioned" active="ENT.000003598"/>
+                  <relation name="mentioned" active="ENT.000000447"/>
+                  <relation name="mentioned" active="ENT.000003601"/>
+                  <relation name="mentioned" active="ENT.000003602"/>
+                  <relation name="mentioned" active="ENT.000003603"/>
+                  <relation name="mentioned" active="ENT.000003620"/>
+                  <relation name="mentioned" active="ENT.000003621"/>
+                  <relation name="mentioned" active="ENT.000003608"/>
+                  <relation name="mentioned" active="ENT.000003622"/>
+                </listRelation>
+              </bibl>
+            </msItem>
+          </msContents>
+        </msDesc>
+        <biblStruct>
+          <analytic>
+            <respStmt>
+              <resp key="art">artist</resp>
+              <persName key="ENT.000000251">Nast, Thomas, 1840-1902</persName>
+            </respStmt>
+            <respStmt>
+              <resp key="pbl">publisher</resp>
+              <orgName key="ENT.000003598">Cincinnati Gazette</orgName>
+            </respStmt>
+            <title type="main" level="a">Patience on a Monument</title>
+            <date from="1868-10-08">October 8, 1868</date>
+          </analytic>
+          <monogr>
+            <title type="marc245a" level="j"><orgName key="ENT.000003598">Cincinnati
+                Gazette</orgName></title>
+            <imprint>
+              <pubPlace>Cincinnati, OH</pubPlace>
+              <date from="1868-10-08">October 8, 1868</date>
+              <publisher>
+                <orgName key="ENT.000003598">Cincinnati Gazette</orgName>
+              </publisher>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <bibl/>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The Historic Images, New Technologies (HINT) project aims to enhance description and
+          discovery of the Historical Society of Pennsylvania's graphics materials and promote the
+          linking and sharing of content among institutions and scholars. The project will result in
+          an update to HSP's digital image viewer and an online digital history exhibit that will
+          demonstrate the new viewer's capabilities and provide interpretive and contextual
+          materials to encourage users to interact with historical images in new ways. This project
+          was funded by a grant from the National Historical Publications and Records Commission's
+          (NHPRC) Innovation in Archives and Documentary Editing program.</p>
+      </projectDesc>
+      <editorialDecl n="4">
+        <p>This electronic file was created using manual keying following the recommendations for
+          Level 4 of "Best Practices for TEI in Libraries" guidelines v3.0.</p>
+        <p>This xml file uses unique entity identifiers, media file identifiers, and collection
+          identifiers in HSP's Digital Library, available at http://digitallibrary.hsp.org.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
+        <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
+        <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
+        <rendition scheme="css" xml:id="crossed-through">text-decoration: line-through</rendition>
+        <rendition scheme="other" xml:id="printed"/>
+        <rendition scheme="other" xml:id="typescript"/>
+        <rendition scheme="other" xml:id="handwritten"/>
+        <rendition scheme="other" xml:id="handwritten-underlined"/>
+        <rendition scheme="other" xml:id="handwritten-circled"/>
+        <rendition scheme="other" xml:id="handwritten-crossed-through"/>
+        <rendition scheme="other" xml:id="double-underline"/>
+        <rendition scheme="other" xml:id="stamp"/>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <catRef target="cartoons_genres.xml#clippings"/>
+        <catRef target="cartoons_genres.xml#political_cartoons"/>
+        <catRef target="cartoons_taxonomies.xml#reconstruction"/>
+        <catRef target="cartoons_taxonomies.xml#featured"/>
+        <catRef target="cartoons_taxonomies.xml#slavery"/>
+        <catRef target="cartoons_taxonomies.xml#African_American"/>
+        <catRef target="cartoons_taxonomies.xml#culture"/>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change who="RachelMoloshok" when="2015-03-16">Exported from Collective Access. Genre and taxonomy values corrected and empty relation element deleted post-export.</change>
+      <change who="RachelMoloshok" when="2015-02-24">Encoded to featured level</change>
+      <change who="RachelMoloshok" when="2015-02-09">Encoded to basic level</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="100" lry="100">
+      <graphic url="FIL.000089711"/>
+      <zone n="1" xml:id="masthead" points="32.25,9.81 68.1,9.89 68.1,11.57 32.24,11.8"/>
+      <zone n="2" xml:id="top" points="48.55,13.67 53.55,13.67 60.78,28.08 40.83,28.45"/>
+      <zone n="3" xml:id="title" points="22.21,85.78 76.93,86.46 76.93,90.43 22.4,89.88"/>
+      <zone n="4" xml:id="column" points="42.29,28.42 58.86,28.58 62.28,56.42 36.68,56.34"/>
+      <zone n="5" xml:id="base" points="31.26,63.14 67.36,63.47 67.36,71.79 31.04,71.02"/>
+      <zone n="6" xml:id="asylum" points="21.99,40.95 26.99,40.95 26.99,45.95 21.99,45.95"/>
+      <zone n="7" xml:id="school" points="76.1,41.08 82.88,41.23 82.88,46.23 76.1,46.22"/>
+      <zone n="8" xml:id="KKK"
+        points="73.17,45.28 84.76,49 84.24,67 75.15,65.61 75.15,58.93 72.38,54.01"/>
+      <zone n="9" xml:id="signature" points="16.86,78.63 26.85,78.87 26.96,82.15 16.44,81.96"/>
+      <zone n="10" xml:id="north"
+        points="16.41,33.5 38.96,40.84 35.67,57.11 24.74,60.16 26.12,72.03 15.89,75.45"/>
+      <zone n="11" xml:id="south"
+        points="62.43,38.95 84.19,38.5 84.19,72.46 74.95,72.46 74.64,59 66.25,56.68"/>
+    </surface>
+  </facsimile>
+  <text>
+    <front>
+      <div type="editorial_desc">
+        <p>A frowning African American man, likely a veteran of the Union Army, sits atop a stele
+          (an inscribed monument), with a rifle at his feet, a bag labeled "US," at his side, a
+          scroll with the words "Emancipated by A. Lincoln" resting on his knee, and broken chains
+          hanging around him. The inscription of the monument he sits upon, however, lists the
+          violence and abuses African Americans suffered under slavery and continue to suffer in the
+          era of Reconstruction. The monument text includes racist statements made by Democratic
+          politicians running for office in the upcoming 1868 election. At the base of the monument,
+          an African American woman, clutching an infant to her chest, lies dead, a pool of blood
+          spreading from her head. The bloodied and lifeless body of a young African American child
+          lies beside her. On either side of the monument can be seen scenes of white violence
+          against African Americans. On the right, details from the New York City Draft Riots of
+          1863 are depicted, including the burning of the Colored Orphan's Asylum,the hanging of an
+          African American man from a lamppost, and a white man brandishing a billy club. On the
+          right, southern violence against freedpeople and their institutions is shown: a Freedman's
+          School burns in the background, a lynched body hangs from a tree, and a masked member of
+          the Ku Klux Klan brandishes a pistol. The title "Patience on a Monument" is a reference to
+          a line from Shakespeare's <hi rendition="#italics">Twelfth Night</hi>, describing a woman
+          who "sat like Patience on a Monument, smiling at Grief." Our copy of this powerful cartoon
+          by Thomas Nast is from a supplement to the <hi rendition="#italics">Cincinnati
+            Gazette</hi>; the image was also published in <hi rendition="#italics">Harper's
+            Weekly</hi> in the October 10, 1868, issue.</p>
+      </div>
+    </front>
+    <body>
+      <div type="image_transcription" n="1" facs="#masthead">
+        <head><supplied resp="editorial">Masthead</supplied></head>
+        <p>SUPPLEMENT TO THE <orgName key="ENT.000003598">CINCINNATI GAZETTE</orgName>.</p>
+      </div>
+      <div type="image_transcription" n="2" facs="#top">
+        <head><supplied resp="editorial">Man atop monument</supplied></head>
+        <p>US</p>
+        <p>EMANCIPATED BY <persName key="ENT.000000447">A. LINCOLN</persName></p>
+      </div>
+      <div type="image_transcription" n="3" facs="#title">
+        <head><supplied resp="editorial">Title</supplied></head>
+        <p>PATIENCE ON A MONUMENT.</p>
+      </div>
+      <div type="image_transcription" n="4" facs="#column">
+        <head><supplied resp="editorial">Monument column</supplied></head>
+        <p>THE WHIPPING-POST.</p>
+        <p>HUNTED DOWN WITH BLOOD-HOUNDS.</p>
+        <p>SLAVERY FOR YEARS.</p>
+        <p>BRANDED AND MANACLED</p>
+        <p>THE AUCTION BLOCK—HUSBAND AND WIFE, PARENT AND CHILD, BROTHER AND SISTER SOLD APART.</p>
+        <p>DAUGHTERS, MOTHERS, WIVES, AND SISTERS RUINED.</p>
+        <p>KNOWLEDGE A SEALED BOOK.</p>
+        <p>FORT PILLOW MASSACRE.</p>
+        <p>"<hi rendition="#italics">Resolved by the Congress of the Confederate States of
+            America,</hi> That the thanks of Congress are due and are hereby cordially tendered to
+          Major-General <persName key="ENT.000003601">FORREST</persName> and other officers and men
+          of his command, for their late brilliant and successful campaign in Mississippi, West
+          Tennessee, and Kentucky—a campaign which has conferred on its authors fame as enduring as
+          the records of the struggle which they have so brilliantly illustrated."</p>
+        <p>NO QUARTER TO THE "NIGGER!"</p>
+        <p>NEW YORK RIOTS—BURNING OF THE COLORED ORPHAN ASYLUM; LAMP-POST GALLOWS.</p>
+        <p>HOMES BURNED.</p>
+        <p>NEW ORLEANS AND MEMPHIS MASSACRES.</p>
+        <p>"A NEGRO HAS NO RIGHTS WHICH A WHITE MAN IS BOUND TO RESPECT."</p>
+        <p>"THIS IS A WHITE MAN'S GOVERNMENT."</p>
+        <p>"The nigger and the white man are not likely to agree unless the nigger yields to the
+          white man's views, which he can do, or die."—<hi rendition="#italics"><orgName
+              key="ENT.000003622">The Jefferson</orgName></hi> (Texas).</p>
+        <p>"We must make the negro understand we are the men we were when we held them in abject
+            bondage."—<orgName key="ENT.000003620"><hi rendition="#italics">Meridian</hi> (Miss.)
+              <hi rendition="#italics">Mercury</hi></orgName>.</p>
+        <p>"Agree among yourselves, and act firmly on this agreement, that you will not employ any
+          one who votes the Radical ticket."—<persName key="ENT.000003603">WADE
+          HAMPTON</persName>.</p>
+        <p>"And now I say that, unless the negroes submit to the intelligent guidance of the
+          powerful white race, their fate will be that of the Indians: they will be exterminated.
+          The negroes can only be happy and prosperous as long as they are guided by the
+          intelligence of the white race. Whenever it is sought to disfranchise the intelligence of
+          the country, and make it subordinate to the ignorance of the country; whenver it is sought
+          to subordinate the white race of the country to the black barbarism of the negro, the
+          prosperity of the country is at an end."—<persName key="ENT.000003602"
+          >BLAIR</persName>.</p>
+        <p>"We are bound to have a war of races, and when there is one drop of blood spilled, we
+          predict that it will flow as freely as does the Mississippi."—<hi rendition="#italics">The
+            Jefferson</hi> (Texas).</p>
+      </div>
+      <div type="image_transcription" n="5" facs="#base">
+        <head><supplied resp="editorial">Monument base</supplied></head>
+        <p>BULLETS—REBEL PROTESTS AGAINST REPUBLICAN MEETINGS: CAMILLA, GEORGIA. <orgName
+            key="ENT.000003599">KU-KLUX KLAN</orgName>.</p>
+        <p>NEGRO KILLED—"ONE VOTE LESS."—<hi rendition="#italics"><orgName key="ENT.000003621"
+              >Richmond Whig</orgName></hi>.</p>
+        <p>EXPULSION OF COLORED MEMBERS OF THE HOUSE OF REPRESENTATIVES IN GEORGIA.</p>
+        <p>EXPELLED FROM THE JURY BOX.</p>
+        <p>FORCED AWAY FROM THE POLLS.</p>
+        <p>BURNING SCHOOL-HOUSES AND CHURCHES THROUGHOUT THE "RECONSTRUCTED STATES."</p>
+        <p>HUNG UP OR SHOT DOWN IN THE ROADS AND STREETS.</p>
+        <p>"COLORED CRIMINALS SUFFER SEVERER PUNISHMENT THAN WHITES GUILTY OF THE SAME CRIMES."</p>
+        <p>WE DESPISE THE NEGRO."—<hi rendition="#italics"><orgName key="ENT.000003608">N.Y.
+              World</orgName></hi>.</p>
+      </div>
+      <div type="image_transcription" n="6" facs="#asylum">
+        <head><supplied resp="editorial"><orgName key="ENT.000003600">New York Colored Orphan
+              Asylum</orgName></supplied></head>
+        <p>COLORED ORPHAN</p>
+      </div>
+      <div type="image_transcription" n="7" facs="#school">
+        <head><supplied resp="editorial">Freedmen's school</supplied></head>
+        <p>FREEDMAN SCHOOL</p>
+      </div>
+      <div type="image_transcription" n="8" facs="#KKK">
+        <head><supplied resp="editorial"><orgName key="000003599">Ku Klux Klan</orgName>
+            member</supplied></head>
+        <p>KKK</p>
+      </div>
+      <div type="image_transcription" n="9" facs="#signature">
+        <head><supplied resp="editorial">Artist's signature</supplied></head>
+        <p><persName key="ENT.000000251">Th: Nast</persName>.</p>
+      </div>
+      <div type="image_annotation" n="10" facs="#north">
+        <head>Violence in the North</head>
+        <p>The backdrop to the left side of the monument depicts racially motivated violence against
+          African Americans during the New York City Draft Riots of <date from="1863-07-13"
+            to="1863-07-16">July 13-16, 1863</date>. White mobs who began by protesting the draft
+          during the Civil War quickly ended up attacking black men, women, and children and
+          vandalizing many their homes and businesses. The bodies of a lynching victim hanging from
+          a lamppost and the bodies shown lying in the street are references to the more than 100
+          African Americans killed during the riots. The burning building in this cartoon is the
+            <orgName key="ENT.000003600">Colored Orphan's Asylum</orgName>, which was burned to the
+          ground on <date when="1863-07-13">July 13</date>. Luckily, all 233 children in residence
+          were evacuated to safety.</p>
+      </div>
+      <div type="image_annotation" n="11" facs="#south">
+        <head>Violence in the South</head>
+        <p>The backdrop to the right side of the monument depicts racially motivated violence
+          against African Americans in the Reconstruction South. The events depicted—the burning of
+          a freedmen's school and the lynching of African Americans—took place in various places and
+          at various times; to readers of the time, however, these illustrations would bring to mind
+          especially the anti-black "riots" in Memphis and New Orleans that took place in the spring
+          and summer of <date when="1866">1866</date>. A masked member of the Ku Klux Klan,
+          brandishes a pistol above his head, mirroring the anti-black rioter waving a club on the
+          other side of the monument. The KKK was founded in Pulaski, Tennessee, in <date
+            when="1865">1865</date>, and quickly gained notoriety for acts of terroristic violence
+          against African Americans and those who worked to achieve racial equality.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

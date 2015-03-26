@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="English">
+    <fileDesc>
+      <titleStmt>
+        <title type="main">TEI transcription of BLOCKED</title>
+        <author/>
+        <respStmt>
+          <resp key="art">artist</resp>
+          <persName key="ENT.000000436">De Mar, John L.</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="trc">Transcribed by</resp>
+          <persName key="ENT.000003544">Biunno, Diane</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="mrk">Encoded by</resp>
+          <persName key="ENT.000003544">Biunno, Diane</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="pbl">publisher</resp>
+          <persName key="ENT.000003387">Unknown</persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <p>First edition, <date when="2015">2015</date></p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher><orgName key="ENT.000002473">Historical Society of
+          Pennsylvania</orgName></publisher>
+        <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
+        <idno type="filename">1782</idno>
+        <availability status="restricted">
+          <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of copyright only
+            to original contributions made by the Historic Images, New Technologies (HINT) Project
+            participants and other staff. HSP makes no claim of copyright to the original text.
+            Permission is granted to download, transmit or otherwise reproduce, distribute or
+            display the text contributions to this work claimed by HSP for non-profit educational
+            purposes, provided that this header is included in its entirety. For inquiries about
+            commercial uses, please contact the Historical Society of Pennsylvania. HSP retains the
+            rights of all images unless otherwise noted. Possession of an HSP digital image does not
+            constitute permission to use or publish it. Requests for digital imaging, other
+            reproduction services, and the intended use of reproductions must be made in writing to
+            the Rights and Reproductions Coordinator at rnr@hsp.org.</p>
+        </availability>
+        <date when="2015">2015</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="project" key="CARTOONS">Historic Images, New Technologies (HINT)
+          Project</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository key="ENT.000002473">Historical Society of Pennsylvania</repository>
+            <collection key="3133">Historical Society of Pennsylvania cartoons and caricatures
+              collection</collection>
+            <idno type="citation">
+              <idno type="box">2</idno>
+              <idno type="folder">8</idno>
+            </idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <bibl>
+                <date from="1907-10-17">October 17, 1907</date>
+                <extent>1 loose page</extent>
+                <listRelation>
+                  <relation name="depicted" active="ENT.000003384"/>
+                  <relation name="depicted" active="ENT.000002738"/>
+                  <relation name="depicted" active="ENT.000003348"/>
+                  <relation name="depicted" active="ENT.000003338"/>
+                  <relation name="depicted" active="ENT.000003358"/>
+                  <relation name="depicted" active="ENT.000003349"/>
+                </listRelation>
+              </bibl>
+            </msItem>
+          </msContents>
+          <history>
+            <acquisition>This is an artificial collection created over time by HSP staff mostly
+              through donations and purchases of individual prints. It also incorporates previously
+              uncataloged materials collected by the Balch Institute for Ethnic Studies. Some of the
+              20th century cartoons and drawings were removed from the J. Hampton Moore papers
+              (Collection 1541).</acquisition>
+          </history>
+        </msDesc>
+        <biblStruct>
+          <analytic>
+            <respStmt>
+              <resp key="art">artist</resp>
+              <persName key="ENT.000000436">De Mar, John L.</persName>
+            </respStmt>
+            <respStmt>
+              <resp key="pbl">publisher</resp>
+              <persName key="ENT.000003387">Unknown</persName>
+            </respStmt>
+            <title type="main" level="a">BLOCKED</title>
+            <date from="1907-10-17">October 17, 1907</date>
+          </analytic>
+          <monogr>
+            <title type="marc245a" level="j"><orgName key="ENT.000000437">Philadelphia
+                Record</orgName></title>
+            <imprint>
+              <pubPlace>Philadelphia</pubPlace>
+              <date from="1907-10-17">October 17, 1907</date>
+              <publisher>
+                <persName key="ENT.000003387">Unknown</persName>
+              </publisher>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <bibl/>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The Historic Images, New Technologies (HINT) project aims to enhance description and
+          discovery of the Historical Society of Pennsylvania's graphics materials and promote the
+          linking and sharing of content among institutions and scholars. The project will result in
+          an update to HSP's digital image viewer and an online digital history exhibit that will
+          demonstrate the new viewer's capabilities and provide interpretive and contextual
+          materials to encourage users to interact with historical images in new ways. This project
+          was funded by a grant from the National Historical Publications and Records Commission's
+          (NHPRC) Innovation in Archives and Documentary Editing program.</p>
+      </projectDesc>
+      <editorialDecl n="4">
+        <p>This electronic file was created using manual keying following the recommendations for
+          Level 4 of "Best Practices for TEI in Libraries" guidelines v3.0.</p>
+        <p>This xml file uses unique entity identifiers, media file identifiers, and collection
+          identifiers in HSP's Digital Library, available at http://digitallibrary.hsp.org.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
+        <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
+        <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
+        <rendition scheme="css" xml:id="crossed-through">text-decoration: line-through</rendition>
+        <rendition scheme="other" xml:id="printed"/>
+        <rendition scheme="other" xml:id="typescript"/>
+        <rendition scheme="other" xml:id="handwritten"/>
+        <rendition scheme="other" xml:id="handwritten-underlined"/>
+        <rendition scheme="other" xml:id="handwritten-circled"/>
+        <rendition scheme="other" xml:id="handwritten-crossed-through"/>
+        <rendition scheme="other" xml:id="double-underline"/>
+        <rendition scheme="other" xml:id="stamp"/>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <catRef target="cartoons_genres.xml#clippings"/>
+        <catRef target="cartoons_genres.xml#political_cartoons"/>
+        <catRef target="cartoons_taxonomies.xml#elections"/>
+        <catRef target="cartoons_taxonomies.xml#lesson_plan"/>
+        <catRef target="cartoons_taxonomies.xml#twentieth"/>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change who="DianeBiunno" when="2015-03-25">Ecported from DAMS</change>
+      <change who="DianeBiunno" when="2015-03-18">Encoded to lesson plan level</change>
+      <change who="DianeBiunno" when="2015-03-18">Encoded to basic level</change>
+      <change who="RachelMoloshok" when="2015-01-07">Template file created</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="100" lry="100">
+      <graphic url="FIL.000001859"/>
+      <zone n="1" xml:id="Title" points="94.82,95.63 95.59,88.47 42.71,88.79 42.56,94.83"/>
+      <zone n="2" xml:id="Taft"
+        points="39.15,15.66 41.63,10.41 46.43,6.92 54.03,9.62 57.75,17.25 65.04,22.5 67.06,17.41 70.31,16.77 71.55,19.48 69.23,24.4 72.64,34.1 66.28,41.41 46.28,43.48 23.64,39.98 29.69,24.4"/>
+      <zone n="3" xml:id="Roosevelt"
+        points="70.62,25.04 72.33,23.13 74.66,23.45 81.01,32.19 79.62,35.85 74.81,36.17 71.41,30.69 70.47,28.22"/>
+      <zone n="4" xml:id="House"
+        points="79.17,22.85 83.43,20.57 88.54,22.35 89.43,27.44 79.21,27.64"/>
+      <zone n="5" xml:id="Fairbanks"
+        points="64.71,42.01 68.51,37.83 75.13,40.71 70.51,49.08 75.5,56.42 79.76,57.45 80.21,64.05 69.6,81.06 41.58,76.13 46.57,70.65 55.64,63.86 52.37,56.33 58.63,47.78"/>
+      <zone n="6" xml:id="Cannon"
+        points="36.96,46.85 40.67,46.38 43.03,51.31 48.02,54.66 53.01,55.03 53.01,57.91 54.91,64.23 39.86,82.08 21.45,78.18 21.54,71.02 31.6,63.95 29.16,58 35.5,52.33"/>
+      <zone n="7" xml:id="Knox"
+        points="14.32,51.63 15.44,50.14 24.65,54.73 31.16,55.2 29.75,58.22 32.36,64 27.34,69.02 22.74,70.63 21.29,73.91 22.95,77.01 8.43,74.25 11.21,66.59 15.44,67.02 13.16,61.39 15.49,57.62 14.11,53.54"/>
+      <zone n="8" xml:id="Foraker"
+        points="8.39,42.29 11.41,42.24 13.63,43.46 18.18,46.96 20.34,52.39 15.62,50.06 14.02,51.57 14.31,55.07 14.88,57.12 15.05,59.92 6.85,60.39 6.97,56.01 10.84,53.5 9.87,50.06 9.64,48.36 11.35,47.72 8.79,45.1"
+      />
+    </surface>
+  </facsimile>
+  <text>
+    <front>
+      <div type="editorial_desc">
+        <p>Theodore Roosevelt decided not to seek re-election in 1908 and persuaded the Republicans
+          to nominate his friend and Secretary of War, William Taft, for the presidency. Charles
+          Fairbanks, Joseph Cannon, Philander Knox, and Joseph Foraker all sought their party's
+          nomination, but lost it to Taft. In the image, Roosevelt is driving Taft to the White
+          House. The cartoonist pokes fun at Taft's large size and depicts Taft as blocking the road
+          with his large body so that the other candidates cannot pass him.</p>
+      </div>
+    </front>
+    <body>
+      <div type="image_transcription" n="1" facs="#Title">
+        <head><supplied resp="editorial">Title and notes</supplied></head>
+        <p>BLOCKED</p>
+        <p>By De Mar.</p>
+        <p><add rendition="#handwritten">PhilaRecord 10-17-1907</add></p>
+      </div>
+      <div type="image_transcription" n="2" facs="#Taft">
+        <head><supplied resp="editorial"><persName key="ENT.000003384">William
+            Taft</persName></supplied></head>
+        <p><hi rendition="#bold">TAFT</hi></p>
+      </div>
+      <div type="image_annotation" n="3" facs="#Roosevelt">
+        <head><supplied resp="editorial"><persName key="ENT.000002738">Theodore
+            Roosevelt</persName></supplied></head>
+        <p>Theodore Roosevelt's support during the 1908 presidential race, helped <persName
+            key="ENT.000003384">William Taft</persName> win the Republican nomination and the
+          presidency. Thus, in the political cartoon, Roosevelt is depicted as driving Taft to the
+          White House.</p>
+      </div>
+      <div type="image_annotation" n="4" facs="#House">
+        <head><supplied resp="editorial">White House</supplied></head>
+        <p><persName key="ENT.000002738">Theodore Roosevelt</persName> drives <persName
+            key="ENT.000003384">William Taft</persName> to the White House. Because of Roosevelt's
+          support during the 1908 presidential race, Taft won Republican nomination and defeated
+          democratic candidate William J. Bryan.</p>
+      </div>
+      <div type="image_transcription" n="5" facs="#Fairbanks">
+        <head><supplied resp="editorial"><persName key="ENT.000003348">Charles
+            Fairbanks</persName></supplied></head>
+        <p>FAIRBANKS</p>
+      </div>
+      <div type="image_transcription" n="6" facs="#Cannon">
+        <head><supplied resp="editorial"><persName key="ENT.000003338">Joseph
+            Cannon</persName></supplied></head>
+        <p>CANNON</p>
+      </div>
+      <div type="image_transcription" n="7" facs="#Knox">
+        <head><supplied resp="editorial"><persName key="ENT.000003358">Philander
+            Knox</persName></supplied></head>
+        <p>KNOX</p>
+      </div>
+      <div type="image_transcription" n="8" facs="#Foraker">
+        <head><supplied resp="editorial"><persName key="ENT.000003349">Joseph
+            Foraker</persName></supplied></head>
+        <p>FORAKER</p>
+      </div>
+    </body>
+  </text>
+</TEI>

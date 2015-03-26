@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="English">
+    <fileDesc>
+      <titleStmt>
+        <title type="main">TEI transcription of Revising It</title>
+        <author/>
+        <respStmt>
+          <resp key="art">artist</resp>
+          <persName key="ENT.000000436">De Mar, John L.</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="trc">Transcribed by</resp>
+          <persName key="ENT.000003544">Biunno, Diane</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="mrk">Encoded by</resp>
+          <persName key="ENT.000003544">Biunno, Diane</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="pbl">publisher</resp>
+          <persName key="ENT.000003387">Unknown</persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt><p>First edition, <date when="2015">2015</date></p></editionStmt>
+      <publicationStmt>
+        <publisher><orgName key="ENT.000002473">Historical Society of
+                    Pennsylvania</orgName></publisher>
+        <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
+        <idno type="filename">11522</idno>
+        <availability status="restricted"><p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of                        copyright only to original contributions made by the Historic Images, New                        Technologies (HINT) Project participants and other staff. HSP makes no claim                        of copyright to the original text. Permission is granted to download,                        transmit or otherwise reproduce, distribute or display the text                        contributions to this work claimed by HSP for non-profit educational                        purposes, provided that this header is included in its entirety. For                        inquiries about commercial uses, please contact the Historical Society of                        Pennsylvania. HSP retains the rights of all images unless otherwise noted.                        Possession of an HSP digital image does not constitute permission to use or                        publish it. Requests for digital imaging, other reproduction services, and                        the intended use of reproductions must be made in writing to the Rights and                        Reproductions Coordinator at rnr@hsp.org.</p></availability>
+        <date when="2015">2015</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="project" key="CARTOONS">Historic Images, New Technologies (HINT) Project</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository key="ENT.000002473">Historical Society of Pennsylvania</repository>
+            <collection key="3133">Historical Society of Pennsylvania cartoons and caricatures collection</collection>
+            <idno type="citation">
+              <idno type="box">2</idno>
+              <idno type="folder">8</idno>
+            </idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <bibl>
+                <date from="1907-11-08">November 8, 1907</date>
+                <extent>1 loose page</extent>
+                <extent>
+                  <dimensions type="image" unit="cm"/>
+                </extent>
+                <listRelation>
+                  <relation name="depicted" active="ENT.000002738"/>
+                </listRelation>
+              </bibl>
+            </msItem>
+          </msContents>
+          <history>
+            <acquisition>This is an artificial collection created over time by HSP staff mostly through donations and purchases of individual prints. It also incorporates previously uncataloged materials collected by the Balch Institute for Ethnic Studies. Some of the 20th century cartoons and drawings were removed from the J. Hampton Moore papers (Collection 1541).</acquisition>
+          </history>
+        </msDesc>
+        <biblStruct>
+          <analytic>
+            <respStmt>
+              <resp key="art">artist</resp>
+              <persName key="ENT.000000436">De Mar, John L.</persName>
+            </respStmt>
+            <respStmt>
+              <resp key="pbl">publisher</resp>
+              <persName key="ENT.000003387">Unknown</persName>
+            </respStmt>
+            <title type="main" level="a">Revising It</title>
+            <date from="1907-11-08">November 8, 1907</date>
+          </analytic>
+          <monogr>
+            <title type="marc245a" level="j"><orgName key="ENT.000000437">Philadelphia Record</orgName></title>
+            <imprint>
+              <pubPlace>Philadelphia</pubPlace>
+              <date from="1907-11-08">November 8, 1907</date>
+              <publisher>
+                <persName key="ENT.000003387">Unknown</persName>
+              </publisher>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <bibl/>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc><p>The Historic Images, New Technologies (HINT) project aims to enhance description
+                    and discovery of the Historical Society of Pennsylvania's graphics materials and
+                    promote the linking and sharing of content among institutions and scholars. The
+                    project will result in an update to HSP's digital image viewer and an online
+                    digital history exhibit that will demonstrate the new viewer's capabilities and
+                    provide interpretive and contextual materials to encourage users to interact
+                    with historical images in new ways. This project was funded by a grant from the
+                    National Historical Publications and Records Commission's (NHPRC) Innovation in
+                    Archives and Documentary Editing program.</p></projectDesc>
+      <editorialDecl n="4"><p>This electronic file was created using manual keying following the
+                    recommendations for Level 4 of "Best Practices for TEI in Libraries" guidelines
+                    v3.0.</p>
+                <p>This xml file uses unique entity identifiers, media file identifiers, and
+                    collection identifiers in HSP's Digital Library, available at
+                    http://digitallibrary.hsp.org.</p></editorialDecl>
+      <tagsDecl>
+        <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
+        <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
+        <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
+        <rendition scheme="css" xml:id="crossed-through">text-decoration: line-through</rendition>
+        <rendition scheme="other" xml:id="printed"/>
+        <rendition scheme="other" xml:id="typescript"/>
+        <rendition scheme="other" xml:id="handwritten"/>
+        <rendition scheme="other" xml:id="handwritten-underlined"/>
+        <rendition scheme="other" xml:id="handwritten-circled"/>
+        <rendition scheme="other" xml:id="handwritten-crossed-through"/>
+        <rendition scheme="other" xml:id="double-underline"/>
+        <rendition scheme="other" xml:id="stamp"/>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <catRef target="cartoons_genres.xml#clippings"/>
+        <catRef target="cartoons_genres.xml#political_cartoons"/>
+        <catRef target="cartoons_taxonomies.xml#econ"/>
+        <catRef target="cartoons_taxonomies.xml#lesson_plan"/>
+        <catRef target="cartoons_taxonomies.xml#twentieth"/>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change who="DianeBiunno" when="2015-03-25">Exported from DAMS</change>
+      <change who="DianeBiunno" when="2015-03-18">Encoded to lesson plan level</change>
+      <change who="DianeBiunno" when="2015-03-18">Encoded to basic level</change>
+      <change who="RachelMoloshok" when="2015-01-07">Template file created</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="100" lry="100">
+      <graphic url="FIL.000085209"/>
+      <zone n="1" xml:id="Title" points="39.08,90.93 90.89,90.1 91.04,94.83 39.08,94.21"/>
+      <zone n="2" xml:id="Message" points="71.52,33.91 76.51,30.78 80.67,30.17 84.37,27.91 88.99,34.25 90.29,37.9 89.92,44.85 89.92,52.4 87.7,61.52 86.87,63.26 82.98,65.08 79.47,66.39 76.79,66.65 76.98,63.52 76.51,60.74 75.4,57.27 75.68,54.4 77.9,51.01 78.27,46.93 77.44,41.9 75.03,36.95"/>
+      <zone n="3" xml:id="Paper" points="41.28,36.23 55.58,41.31 72.86,43.93 57.33,48.36 54.71,57.05 50.17,70.49 47.38,75.41 42.85,79.34 33.77,83.28 7.77,70.82 11.44,64.26 18.59,69.51 23.13,60.16 25.92,51.64"/>
+      <zone n="4" xml:id="Chair" points="10.76,28.48 12.04,27.05 17.39,26.12 21.95,27.52 23.24,28.63 23.04,30.12 25.52,29.38 23.63,34.78 21.35,38.41 19.27,43.16 18.08,46.23 20.36,46.04 22.34,46.88 23.43,48.56 23.34,51.91 22.64,54.7 24.23,61.59 22.57,65.46 19.2,70.15 12.63,67.92 15,64.8 12.32,63.99 15,61.03 18.35,58.42 12.35,56.86 12.08,46.91 8.5,30.1"/>
+      <zone n="5" xml:id="Building" points="49.27,15.81 52.11,17.76 53.11,15.37 55.19,16.24 56.65,18.92 57.89,21.37 57.81,24.91 58.42,26.65 57.89,29.54 62.5,33.81 64.19,35.61 60.58,36.19 41.03,35.54"/>
+      <zone n="6" xml:id="Roosevelt" points="30.37,32.34 32.22,29.73 35.14,29.23 37.65,31.47 38.05,34.09 36.59,36.57 37.79,39.19 39.64,38.32 42.29,39.19 35.67,45.54 33.28,46.16 31.96,48.9 35.93,50.52 35.67,55.62 31.43,54.62 29.31,51.26 24.4,58.11 15.79,54 23.61,35.7"/>
+    </surface>
+  </facsimile>
+  <text>
+    <front>
+      <div type="editorial_desc"><p>In order to avoid further economic collapse during the Panic of 1907, Roosevelt allowed US Steel, a major corporate trust, to buy out Tennessee Coal, Iron, and Railroad Company.  Thus, the political cartoon pokes fun at Theodore Roosevelt's image as a trust buster.  Roosevelt sits on his chair labeled "T.R." and revises his presidential plan by removing all of his "trust busting clubs."  Many of his clubs are in the waste paper basket or on the floor.  In the background there is an image of a building supported by three beams which is about to collapse.  The building is labeled "financial system."</p></div>
+    </front>
+    <body>
+      <div type="image_transcription" n="1" facs="#Title"><head><supplied resp="editorial">Title and notes</supplied></head>
+                <p>REVISING IT</p>
+                <p><add rendition="#handwritten">Philad Record 11-8-07-</add></p>
+                <p>-By De Mar.</p></div>
+      <div type="image_transcription" n="2" facs="#Message"><head><supplied resp="editorial">President's Message</supplied></head>
+                <p>PRESIDENT'S MESSAGE TO CONGRESS</p>
+                <p>WALLSTREET</p></div>
+      <div type="image_transcription" n="3" facs="#Paper"><head><supplied resp="editorial">Presidential plan</supplied></head>
+                <p>CORPORATIONS</p>
+                <p>TRUSTS</p></div>
+      <div type="image_transcription" n="4" facs="#Chair"><head><supplied resp="editorial">Chair</supplied></head>
+                <p>T.R.</p></div>
+      <div type="image_transcription" n="5" facs="#Building"><head><supplied resp="editorial">Financial building</supplied></head>
+                <p>FINANCIAL SITUATION</p></div>
+      <div type="image_annotation" n="6" facs="#Roosevelt"><head><supplied resp="editorial"><persName key="ENT.000002738">Theodore Roosevelt</persName></supplied></head>
+                <p>Theodore Roosevelt served as US president from 1901 to 1909 and became known as the "trust buster."  However, in order to avoid further economic collapse during the Panic of 1907, Roosevelt allowed US Steel, a major corporate trust, to buy out Tennessee Coal, Iron, and Railroad Company.  The cartoon pokes fun at Roosevelt's response to the financial crisis by depicting him cutting out all the "trust busting clubs" from his presidential plan.</p></div>
+    </body>
+  </text>
+</TEI>

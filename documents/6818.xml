@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="English">
+    <fileDesc>
+      <titleStmt>
+        <title type="main">TEI transcription of "Inauguration Day Outlook - Prospects of a Cleaning Up"</title>
+        <author/>
+        <respStmt>
+          <resp key="art">artist</resp>
+          <persName key="ENT.000003645">Gage, Hy, 1878-1971</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="trc">Transcribed by</resp>
+          <persName key="ENT.000003544">Biunno, Diane</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="mrk">Encoded by</resp>
+          <persName key="ENT.000003544">Biunno, Diane</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="pbl">publisher</resp>
+          <persName key="ENT.000003387">Unknown</persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt><p>First edition, <date when="2015">2015</date></p></editionStmt>
+      <publicationStmt>
+        <publisher><orgName key="ENT.000002473">Historical Society of Pennsylvania</orgName></publisher>
+        <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
+        <idno type="filename">6818</idno>
+        <availability status="restricted"><p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of copyright only to original contributions made by the Historic Images, New Technologies (HINT) Project participants and other staff. HSP makes no claim of copyright to the original text. Permission is granted to download, transmit or otherwise reproduce, distribute or display the text contributions to this work claimed by HSP for non-profit educational purposes, provided that this header is included in its entirety. For inquiries about commercial uses, please contact the Historical Society of Pennsylvania. HSP retains the rights of all images unless otherwise noted.  Possession of an HSP digital image does not constitute permission to use or publish it. Requests for digital imaging, other reproduction services, and the intended use of reproductions must be made in writing to the Rights and Reproductions Coordinator at rnr@hsp.org.</p></availability>
+        <date when="2015">2015</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="project" key="CARTOONS">Historic Images, New Technologies (HINT) Project</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository key="ENT.000002473">Historical Society of Pennsylvania</repository>
+            <collection key="0117">Hampton L. Carson papers</collection>
+            <idno type="citation">
+              <idno type="box">58</idno>
+              <idno type="folder">7</idno>
+            </idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <bibl>
+                <date from="1903-01-01" to="1903-01-31">circa January 1903</date>
+                <extent>1 loose sheet</extent>
+                <extent>
+                  <dimensions type="image" unit="cm"/>
+                  <height quantity="16.5"/>
+                  <width quantity="16.5"/>
+                </extent>
+                <listRelation>
+                  <relation name="depicted" active="ENT.000000557"/>
+                  <relation name="depicted" active="ENT.000001953"/>
+                  
+                </listRelation>
+              </bibl>
+            </msItem>
+          </msContents>
+          <history>
+            <acquisition>Gift of Hampton L. Carson, 1929. Gift of Joseph Carson. Miscellaneous news clippings collected by Hampton Carson (part of former call number Wzz. 352, now folder 12 of box 38): Gift of Mrs. Evan Randolph, 1935</acquisition>
+          </history>
+        </msDesc>
+        <biblStruct>
+          <analytic>
+            <respStmt>
+              <resp key="art">artist</resp>
+              <persName key="ENT.000003645">Gage, Hy, 1878-1971</persName>
+            </respStmt>
+            <respStmt>
+              <resp key="pbl">publisher</resp>
+              <persName key="ENT.000003387">Unknown</persName>
+            </respStmt>
+            <title type="main" level="a">"Inauguration Day Outlook - Prospects of a Cleaning Up"</title>
+            <date from="1903-01-01" to="1903-01-31">circa January 1903</date>
+          </analytic>
+          <monogr>
+            <title type="marc245a" level="j"><orgName key="ENT.000003387">Unknown</orgName></title>
+            <imprint>
+              <pubPlace>Unknown</pubPlace>
+              <date from="1903-01-01" to="1903-01-31">circa January 1903</date>
+              <publisher>
+                <persName key="ENT.000003387">Unknown</persName>
+              </publisher>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <bibl/>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc><p>The Historic Images, New Technologies (HINT) project aims to enhance description
+                    and discovery of the Historical Society of Pennsylvania's graphics materials and
+                    promote the linking and sharing of content among institutions and scholars. The
+                    project will result in an update to HSP's digital image viewer and an online
+                    digital history exhibit that will demonstrate the new viewer's capabilities and
+                    provide interpretive and contextual materials to encourage users to interact
+                    with historical images in new ways. This project was funded by a grant from the
+                    National Historical Publications and Records Commission's (NHPRC) Innovation in
+                    Archives and Documentary Editing program.</p></projectDesc>
+      <editorialDecl n="4"><p>This electronic file was created using manual keying following the
+                    recommendations for Level 4 of "Best Practices for TEI in Libraries" guidelines
+                    v3.0.</p>
+                <p>This xml file uses unique entity identifiers, media file identifiers, and
+                    collection identifiers in HSP's Digital Library, available at
+                    http://digitallibrary.hsp.org.</p></editorialDecl>
+      <tagsDecl>
+        <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
+        <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
+        <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
+        <rendition scheme="css" xml:id="crossed-through">text-decoration: line-through</rendition>
+        <rendition scheme="other" xml:id="printed"/>
+        <rendition scheme="other" xml:id="typescript"/>
+        <rendition scheme="other" xml:id="handwritten"/>
+        <rendition scheme="other" xml:id="handwritten-underlined"/>
+        <rendition scheme="other" xml:id="handwritten-circled"/>
+        <rendition scheme="other" xml:id="handwritten-crossed-through"/>
+        <rendition scheme="other" xml:id="double-underline"/>
+        <rendition scheme="other" xml:id="stamp"/>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <catRef target="cartoons_genres.xml#clippings"/>
+        <catRef target="cartoons_genres.xml#political_cartoons"/>
+        <catRef target="cartoons_taxonomies.xml#lesson_plan"/>
+        <catRef target="cartoons_taxonomies.xml#twentieth"/>
+        <catRef target="cartoons_taxonomies.xml#Pennsylvania"/>
+        <catRef target="cartoons_taxonomies.xml#elections"/>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change who="DianeBiunno" when="2015-03-18">Exported to DAMS</change>
+      <change who="DianeBiunno" when="2015-03-17">Encoded to lesson plan level</change>
+      <change who="DianeBiunno" when="2015-03-16">Encoded to basic level</change>
+      <change who="RachelMoloshok" when="2015-01-07">Template file created</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="100" lry="100">
+      <graphic url="FIL.000034011"/>
+      <zone n="1" xml:id="Title" points="28.22,14.8 71.35,15 71.25,17.52 28.82,17.02"/>
+      <zone n="2" xml:id="Artist" points="74.88,76.23 83.01,73.71 80.91,82.09 72.83,81.6"/>
+      <zone n="3" xml:id="Quay" points="72.13,21.81 75.81,20.33 77.75,20.84 74.36,23.97 70.34,25.45"/>
+      <zone n="4" xml:id="Reward" points="55.93,26.03 60.43,25.82 64.83,27.54 63.18,30.55 55.27,30.05"/>
+      <zone n="5" xml:id="Apron" points="25.78,50.5 28.75,51.84 33.85,59.39 23.31,54.36"/>
+      <zone n="6" xml:id="Bucket" points="70.26,47.49 72.74,47.99 73.56,49.83 76.03,56.87 73.39,60.06 68.29,58.05 64.17,55.53 64,53.02 67.46,49.5"/>
+      <zone n="7" xml:id="Map" points="30.72,57.54 67.46,59.56 74.71,65.42 79.49,70.96 73.39,78.84 17.71,78.67 18.2,69.11 24.46,63.41"/>
+      <zone n="8" xml:id="Sam" points="37.48,27.03 39.62,22.84 46.05,24.18 46.7,32.4 46.05,35.25 47.69,39.27 47.53,47.32 42.75,52.18 43.57,60.23 42.42,63.75 37.64,63.91 40.77,69.61 33.52,68.11 30.72,69.11 32.87,62.57 31.05,59.22 27.43,59.22 24.46,66.09 18.86,67.44 18.7,56.54 26.61,48.66 30.72,44.8 26.44,38.43 28.09,33.07"/>
+      <zone n="9" xml:id="M_quay" points="66.15,24.01 68.29,21.5 72.41,21.33 70.76,27.03 70.76,31.06 72.08,34.91 70.43,36.59 68.78,40.11 70.59,45.81 66.8,46.48 63.18,45.47 65.49,39.77 63.67,30.72 65.16,25.52"/>
+    </surface>
+  </facsimile>
+  <text>
+    <front>
+      <div type="editorial_desc"><p>In the image, Governor Samuel Pennypacker cleans up "Pennsylvania Politics" with his mop and "decent politics suds."  His cousin, Matthew Quay, was one of Pennsylvania's most infamous political bosses.  Quay used his political influence to help Pennypacker defeat incumbent Robert Pattison in the 1902 gubernatorial election.  In the political cartoon Quay looks at Pennypacker disapprovingly and asks "Is that my reward?".</p></div>
+    </front>
+    <body>
+      <div type="image_transcription" n="1" facs="#Title"><head><supplied resp="editorial">Title</supplied></head>
+                <p><hi rendition="#italics">Inauguration Day Outlook-Prospects of a Cleaning Up.</hi></p></div>
+      <div type="image_transcription" n="2" facs="#Artist"><head><supplied resp="editorial"><persName key="ENT.000003645">Hy Gage</persName></supplied></head>
+                <p>Hy Gage</p></div>
+      <div type="image_transcription" n="3" facs="#Quay"><head><supplied resp="editorial">Label</supplied></head>
+                <p><persName key="ENT.000001953">QUAY</persName></p></div>
+      <div type="image_transcription" n="4" facs="#Reward"><head><supplied resp="editorial">Dialogue</supplied></head>
+                <p>IS THAT MY REWARD?</p></div>
+      <div type="image_transcription" n="5" facs="#Apron"><head><supplied resp="editorial">Apron</supplied></head>
+                <p><persName key="ENT.000000557">GOV PENNYPACKER</persName></p></div>
+      <div type="image_transcription" n="6" facs="#Bucket"><head><supplied resp="editorial">Bucket</supplied></head>
+                <p>DECENT POLITICS SUDS</p></div>
+      <div type="image_transcription" n="7" facs="#Map"><head><supplied resp="editorial">Pennsylvania</supplied></head>
+                <p>PENNSYLVANIA POLITICS</p></div>
+      <div type="image_annotation" n="8" facs="#Sam"><head><supplied resp="editorial"><persName key="ENT.000000557">Samuel W. Pennypacker</persName></supplied></head>
+                <p>Samuel W. Pennypacker was Pennsylvania's 23rd governor who served from 1903 to 1907.  In the image, he is depicted as cleaning up "Pennsylvania politics" with his mop and "decent politics suds."  Matthew Quay, his cousin and corrupt political ally who helped him win the 1902 gubernatorial election, looks on disapprovingly and asks "Is that my reward?"</p></div>
+      <div type="image_annotation" n="9" facs="#M_quay"><head><supplied resp="editorial"><persName key="ENT.000001953">Matthew Quay</persName></supplied></head>
+                <p>Matthew Quay was one of Pennsylvania's most powerful and corrupt political bosses, and Samuel Pennypacker's cousin.  Using his political influence, Quay helped Pennypacker win the 1902 gubernatorial election.</p></div>
+    </body>
+  </text>
+</TEI>

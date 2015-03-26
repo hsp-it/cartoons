@@ -1,0 +1,302 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+
+    <teiHeader xml:lang="English">
+
+        <fileDesc>
+
+            <titleStmt>
+                <title type="main">
+                    TEI transcription of "Free America."</title>
+                <respStmt>
+                    <resp key="art">Artist</resp>
+                    <persName key="ENT.000003616"
+                        >Frederick Burr Opper</persName>
+                </respStmt>
+              
+                <respStmt>
+                    <resp key="trc">Transcribed by</resp>
+                    <persName key="ENT.000003544">Diane Biunno</persName>
+                </respStmt>
+                <respStmt>
+                    <resp key="mrk">Encoded by</resp>
+                    <persName key="ENT.000003544">Diane Biunno</persName>
+                </respStmt>
+
+            </titleStmt>
+
+            <editionStmt>
+                <p>First edition, <date when="2015">2015</date></p>
+            </editionStmt>
+
+            <publicationStmt>
+                <publisher><orgName key="ENT.000002473">Historical Society of
+                    Pennsylvania</orgName></publisher>
+                <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
+                <idno type="filename"
+                    >11829</idno>
+                <availability status="restricted">
+                    <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of
+                        copyright only to original contributions made by the Historic Images, New
+                        Technologies (HINT) Project participants and other staff. HSP makes no claim
+                        of copyright to the original text. Permission is granted to download,
+                        transmit or otherwise reproduce, distribute or display the text
+                        contributions to this work claimed by HSP for non-profit educational
+                        purposes, provided that this header is included in its entirety. For
+                        inquiries about commercial uses, please contact the Historical Society of
+                        Pennsylvania. HSP retains the rights of all images unless otherwise noted.
+                        Possession of an HSP digital image does not constitute permission to use or
+                        publish it. Requests for digital imaging, other reproduction services, and
+                        the intended use of reproductions must be made in writing to the Rights and
+                        Reproductions Coordinator at rnr@hsp.org.</p>
+                </availability>
+                <date when="2015"/>
+            </publicationStmt>
+
+            <seriesStmt>
+                <title level="s" type="project" key="CARTOONS"/>
+            </seriesStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository key="ENT.000002473"/>
+                        <collection key="PG278">Balch Broadsides: Satirical Cartoons</collection>
+                        
+                        <idno type="citation">
+                            <idno type="box">5</idno>
+                            <idno type="folder">2</idno>
+                        </idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <bibl>
+                                <date from="1887-10-12"
+                                    >October 12, 1887</date>
+                                <extent>1 loose sheet</extent>
+                                <extent>
+                                    <dimensions type="image" unit="cm">
+                                        <height quantity="26"/>
+                                        <width quantity="33.5"/>
+                                    </dimensions>
+                                </extent>    
+                            </bibl>
+                        </msItem>
+                    </msContents>  
+                </msDesc>
+                <biblStruct>
+                    <analytic>
+                            <respStmt>
+                                <resp key="art">Artist</resp>
+                                <persName key="ENT.000003616">Frederick Burr Opper</persName>   
+                            </respStmt>
+                        <title type="main" level="a">"Free America."</title>
+                    </analytic>
+                    <monogr>
+                        <title type="marc245a" level="j"><orgName key="ENT.000000384">
+                            Puck</orgName></title>                       
+                        <imprint>
+                            <publisher><orgName key="ENT.000003163"
+                                >Keppler &amp; Schwarzmann</orgName></publisher>
+                            <pubPlace>New York</pubPlace>
+                            <date from="1887-10-12"
+                                >October 12, 1887</date>
+                            <biblScope unit="volume">22</biblScope>
+                            <biblScope unit="issue">553</biblScope>                          
+                        </imprint>                      
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The Historic Images, New Technologies (HINT) project aims to enhance description
+                    and discovery of the Historical Society of Pennsylvania's graphics materials and
+                    promote the linking and sharing of content among institutions and scholars. The
+                    project will result in an update to HSP's digital image viewer and an online
+                    digital history exhibit that will demonstrate the new viewer's capabilities and
+                    provide interpretive and contextual materials to encourage users to interact
+                    with historical images in new ways. This project was funded by a grant from the
+                    National Historical Publications and Records Commission's (NHPRC) Innovation in
+                    Archives and Documentary Editing program.</p>
+            </projectDesc>
+            <editorialDecl n="4">
+                
+                <p>This electronic file was created using manual keying following the
+                    recommendations for Level 4 of "Best Practices for TEI in Libraries" guidelines
+                    v3.0.</p>
+                <p>This xml file uses unique entity identifiers, media file identifiers, and
+                    collection identifiers in HSP's Digital Library, available at
+                    http://digitallibrary.hsp.org.</p>
+
+            </editorialDecl>
+            <tagsDecl>
+                <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
+                <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
+                <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
+                <rendition scheme="css" xml:id="crossed-through">text-decoration:
+                    line-through</rendition>
+                <rendition scheme="other" xml:id="printed"/>
+                <rendition scheme="other" xml:id="typescript"/>
+                <rendition scheme="other" xml:id="handwritten"/>
+                <rendition scheme="other" xml:id="handwritten-underlined"/>
+                <rendition scheme="other" xml:id="handwritten-circled"/>
+                <rendition scheme="other" xml:id="handwritten-crossed-through"/>
+                <rendition scheme="other" xml:id="double-underline"/>
+                <rendition scheme="other" xml:id="stamp"/>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <catRef target="cartoons_taxonomies.xml#lesson_plan"/>
+                <catRef target="cartoons_taxonomies.xml#gilded"/>
+                <catRef target="cartoons_taxonomies.xml#labor"/>
+                <catRef target="cartoons_taxonomies.xml#immigration"/>
+                <catRef target="cartoon_genres.xml#Lithographs"/>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change who="DianeBiunno" when="2015-03-12">Encoded to basic level</change>
+            <change who="RachelMoloshok" when="2015-01-07">Template file created</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <facsimile>
+       
+        <surface ulx="" uly="" lrx="" lry="">
+            
+            <graphic
+                url="FIL.000089721"/>
+            
+            <zone n="1" xml:id="Title" points=""/>
+            <zone n="2" xml:id="Artist" points=""/>
+            <zone n="3" xml:id="Puck" points=""/>
+            <zone n="4" xml:id="Contract_1" points=""/>
+            <zone n="5" xml:id="Contract_2" points=""/>
+            <zone n="6" xml:id="Contract_3" points=""/>
+            <zone n="7" xml:id="Contract_4" points=""/>
+            <zone n="8" xml:id="Contract_5" points=""/>
+            <zone n="9" xml:id="Contract_6" points=""/>
+            <zone n="10" xml:id="Note" points=""/>
+            <zone n="11" xml:id="Bag" points=""/>
+            <zone n="12" xml:id="Paper" points=""/>
+            <zone n="13" xml:id="Gloves" points=""/>
+            <zone n="14" xml:id="Bindle" points=""/>
+            <zone n="15" xml:id="Sign" points=""/>
+            
+            
+        </surface>
+    </facsimile>
+
+    <text>
+        
+        <front>
+            <div type="editorial_desc">
+                <p>In the image a group of well dressed immigrants are trying to enter the United States, but an official stops them.  Each immigrant worker holds in his or her hand a contract for employment.  Behind the official there is a crowd of poorly dressed immigrants who are depicted as criminals.  One of these immigrants holds a "socialist" newspaper and a bundle labeled "mischief."  An anarchist immigrant with a bindle speaks with a group of street musicians while another immigrant opens his "infernal machine" bag.  The caption below the political cartoon explains that the law bans immigrant workers with contracts from entering the US.</p>
+                <p>The political cartoon criticizes the Alien Contract Labor Law, otherwise known as the Foran Act which prohibited laborers with contracts or labor agreements from entering the United States.  During the 19th century a wave of immigrants from China and southern, central, and eastern Europe immigrated to the United States providing the US economy with a steady source of cheap labor. The Foran Act rose out of anti-immigrant sentiment towards these new immigrant groups and was passed in part due to protect the jobs and wages of native laborers.</p>
+            </div>
+        </front>
+
+        <body>
+            
+            <div type="image_transcription" facs="#Title" n="1">
+                <head><supplied resp="editorial">Title and Caption</supplied></head>
+                <p><hi rendition="#bold">"FREE AMERICA."</hi></p>
+                <p>CHORUS OF SKILLED FOREIGNERS.-Why are we not allowed to land, when those people over there are received with open arms?</p>
+                <p>OFFICIAL.-The law lEts them fellers in because they did n't come over under contract; an' it keeps you out because you did.</p>
+            </div>
+            
+            <div type="image_transcription" facs="#Artist" n="2">
+                <head><supplied resp="editorial"><persName key="ENT.000003616">Frederick Opper</persName></supplied></head>
+                <p>F. Opper</p>
+            </div>
+            
+            <div type="image_transcription" facs="#Puck" n="3">
+                <head><supplied resp="editorial"><orgName key="ENT.000000384">Puck</orgName></supplied></head>
+                <p>PUCK.</p>
+            </div>
+            
+            <div type="image_transcription" facs="#Contract_1" n="4">
+                <head><supplied resp="editorial">Contract 1</supplied></head>
+                <p><hi rendition="#underline">CONT</hi>RACT</p>
+                <p>SKILLED MECHANIC</p>
+            </div>
+            
+            <div type="image_transcription" facs="#Contract_2" n="5">
+                <head><supplied resp="editorial">Contract 2</supplied></head>
+                <p>CON<hi rendition="#underline">TRA</hi>CT</p>
+                <p>CLERGYMAN</p>
+            </div>
+            
+            <div type="image_transcription" facs="#Contract_3" n="6">
+                <head><supplied resp="editorial">Con<hi rendition="#underline">tra</hi>ct 3</supplied></head>
+                <p>CONTRACT</p>
+                <p><supplied resp="editorial">PHY</supplied>SICIAN</p>
+            </div>
+            
+            <div type="image_transcription" facs="#Contract_4" n="7">
+                <head><supplied resp="editorial">Contract 4</supplied></head>
+                <p>CON<hi rendition="#underline">TRA</hi>CT</p>
+                <p>SKILLED MECHANIC</p>
+            </div>
+            
+            <div type="image_transcription" facs="#Contract_5" n="8">
+                <head><supplied resp="editorial">Contract 5</supplied></head>
+                <p>CO<hi rendition="#underline">NTRA</hi>CT-</p>
+                <p>FLAX OPERATOR</p>
+                
+            </div>
+            
+            <div type="image_transcription" facs="#Contract_6" n="9">
+                <head><supplied resp="editorial">Contract 6</supplied></head>
+                <p><hi rendition="#underline">CONTR</hi>ACT</p>
+                <p>SKILL<unclear reason="missing">ED MECHANIC</unclear></p>
+            </div>
+            
+            <div type="image_transcription" facs="#Note" n="10">
+                <head><supplied resp="editorial">Note</supplied></head>
+                <p><add>OCT. 12, 1887</add></p>
+            </div>
+            
+            <div type="image_transcription" facs="#Bag" n="11">
+                <head><supplied resp="editorial">Bag</supplied></head>
+                <p>INFERNAL MACHINE</p>
+            </div>
+            
+            <div type="image_transcription" facs="#Paper" n="12">
+                <head><supplied resp="editorial">Man</supplied></head>
+                <p>SOCIALIST</p>
+                <p>MISCHIEF</p>
+            </div>
+            
+            
+            <div type="image_transcription" facs="#Gloves" n="13">
+                <head><supplied resp="editorial">Boxing Gloves</supplied></head>
+                <p>ENGLISH PUGILIST</p>
+            </div>
+            
+            <div type="image_transcription" facs="#Bindle" n="14">
+                <head><supplied resp="editorial">Bindle</supplied></head>
+                <p>ANARCH</p>
+            </div>
+            
+            <div type="image_transcription" facs="#Sign" n="15">
+                <head><supplied resp="editorial">Signs</supplied></head>
+                <p>NO FOREIGN LABOR CAN ENTER THE UNITED STATES UNDER CONTRACT</p>
+                <p>CUSTOMS OFFICE</p>
+            </div>
+            
+            
+            
+        </body>
+
+        <back/>
+    </text>
+</TEI>

@@ -6,11 +6,11 @@
   <teiHeader xml:lang="English">
     <fileDesc>
       <titleStmt>
-        <title type="main">TEI transcription of A Statue for Our Harbor</title>
+        <title type="main">TEI transcription of American Gold</title>
         <author/>
         <respStmt>
           <resp key="art">artist</resp>
-          <persName key="ENT.000003164">Keller, George Frederick, 1846-</persName>
+          <persName key="ENT.000003616">Opper, Frederick Burr, 1857-1937</persName>
         </respStmt>
         <respStmt>
           <resp key="trc">Transcribed by</resp>
@@ -22,7 +22,7 @@
         </respStmt>
         <respStmt>
           <resp key="pbl">publisher</resp>
-          <orgName key="ENT.000003554">E. C. MacFarlane &amp; Co.</orgName>
+          <orgName key="ENT.000003163">Keppler &amp; Schwarzmann</orgName>
         </respStmt>
       </titleStmt>
       <editionStmt>
@@ -32,7 +32,7 @@
         <publisher><orgName key="ENT.000002473">Historical Society of
           Pennsylvania</orgName></publisher>
         <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
-        <idno type="filename">11833</idno>
+        <idno type="filename">12150</idno>
         <availability status="restricted">
           <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of copyright only
             to original contributions made by the Historic Images, New Technologies (HINT) Project
@@ -46,6 +46,7 @@
             reproduction services, and the intended use of reproductions must be made in writing to
             the Rights and Reproductions Coordinator at rnr@hsp.org.</p>
         </availability>
+        <date when="2015">2015</date>
       </publicationStmt>
       <seriesStmt>
         <title level="s" type="project" key="CARTOONS">Historic Images, New Technologies (HINT)
@@ -64,16 +65,14 @@
           <msContents>
             <msItem>
               <bibl>
-                <date from="1881-11-11">November 11, 1881</date>
-                <extent>1 loose sheet</extent>
+                <date from="1882-05-24">May 24, 1882</date>
+                <extent>1 loose page</extent>
                 <extent>
                   <dimensions type="image" unit="cm"/>
-                  <height quantity="34.5"/>
-                  <width quantity="24.5"/>
+                  <height quantity="25.5"/>
+                  <width quantity="33"/>
                 </extent>
-                <listRelation>
-                  <relation name="depicted" active="cartoons_symbols.xml#Statue of Liberty"/>
-                </listRelation>
+               
               </bibl>
             </msItem>
           </msContents>
@@ -82,23 +81,25 @@
           <analytic>
             <respStmt>
               <resp key="art">artist</resp>
-              <persName key="ENT.000003164">Keller, George Frederick, 1846-</persName>
+              <persName key="ENT.000003616">Opper, Frederick Burr, 1857-1937</persName>
             </respStmt>
             <respStmt>
               <resp key="pbl">publisher</resp>
-              <orgName key="ENT.000003554">E. C. MacFarlane &amp; Co.</orgName>
+              <orgName key="ENT.000003163">Keppler &amp; Schwarzmann</orgName>
             </respStmt>
-            <title type="main" level="a">A Statue for our Harbor</title>
-            <date from="1881-11-11">November 11, 1881</date>
+            <title type="main" level="a">American Gold</title>
+            <date from="1882-05-24">May 24, 1882</date>
           </analytic>
           <monogr>
-            <title type="marc245a" level="j"><orgName key="ENT.000000382">Wasp</orgName></title>
+            <title type="marc245a" level="j"><orgName key="ENT.000000384"> Puck</orgName></title>
             <imprint>
-              <pubPlace>San Francisco</pubPlace>
-              <date from="1881-11-11">November 11, 1881</date>
-              <biblScope unit="issue">276</biblScope>
+              <pubPlace>New York</pubPlace>
+              <date from="1882-05-24">May 24, 1882</date>
+              <biblScope unit="volume">11</biblScope>
+              <biblScope unit="issue">272</biblScope>
+              <biblScope unit="page">194</biblScope>
               <publisher>
-                <orgName key="ENT.000003554">E. C. MacFarlane &amp; Co.</orgName>
+                <orgName key="ENT.000003163">Keppler &amp; Schwarzmann</orgName>
               </publisher>
             </imprint>
           </monogr>
@@ -118,7 +119,6 @@
           (NHPRC) Innovation in Archives and Documentary Editing program.</p>
       </projectDesc>
       <editorialDecl n="4">
-        
         <p>This electronic file was created using manual keying following the recommendations for
           Level 4 of "Best Practices for TEI in Libraries" guidelines v3.0.</p>
         <p>This xml file uses unique entity identifiers, media file identifiers, and collection
@@ -144,98 +144,96 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <catRef target="cartoons_genres.xml#Lithographs"/>
-        <catRef target="cartoons_taxonomies.xml#featured"/>
+        <catRef target="cartoons_genres.xml#lithographs"/>
+        <catRef target="cartoons_genres.xml#political_cartoons"/>
+        <catRef target="cartoons_taxonomies.xml#lesson_plan"/>
         <catRef target="cartoons_taxonomies.xml#gilded"/>
-        <catRef target="cartoons_taxonomies.xml#immigration"/>
         <catRef target="cartoons_taxonomies.xml#stereotypes"/>
+        <catRef target="cartoons_taxonomies.xml#international"/>
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change who="DianeBiunno" when="2015-02-03">Exported from DAMS</change>
-      <change who="DianeBiunno" when="2015-02-02">Encoded to featured level</change>
-      <change who="DianeBiunno" when="2015-01-28">Encoded to basic level</change>
+      <change who="DianeBiunno" when="2015-03-25">Exported from CA</change>
+      <change who="DianeBiunno" when="2015-03-10">Encoded to lesson plan level</change>
+      <change who="DianeBiunno" when="2015-03-10">Encoded to basic level</change>
       <change who="RachelMoloshok" when="2015-01-07">Template file created</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
     <surface ulx="0" uly="0" lrx="100" lry="100">
-      <graphic url="FIL.000089725"/>
-      <zone n="1" xml:id="Title" points="58.71,89.86 64.12,89.9 63.91,94.04 29.56,93.95 29.77,89.86"/>
-      <zone n="2" xml:id="Artist"
-        points="78.95,87.04 84.07,87.63 86.56,87.82 86.09,90.18 80.22,89.13"/>
-      <zone n="3" xml:id="Statue"
-        points="29.95,12.01 63.55,12.82 68.19,18.55 61.65,30.31 33.43,26.24 29.49,20.43"/>
-      <zone n="4" xml:id="Wasp" points="39.12,9.25 52.6,9.27 52.92,11.54 39.2,11.51"/>
-      <zone n="5" xml:id="Pipe"
-        points="56.7,40.76 59.23,41.55 60.29,43.7 57.41,43.99 52.41,40.22 55.23,38.9"/>
-      <zone n="6" xml:id="Skull" points="45.06,50.81 50.06,50.81 50.24,54.51 45.12,53.98"/>
-      <zone n="7" xml:id="Statue_of_Liberty"
-        points="40.67,11.06 45.88,16.71 52.64,18.46 54.58,20.74 62.5,29.75 60.57,42.12 55.54,52.88 61.53,69.15 31.97,68.88 37.57,54.09 37.38,31.9 37.19,24.37"/>
-      <zone n="8" xml:id="Moon" points="23.3,36.94 27.07,37.1 27.09,39.81 23.24,39.65"/>
+      <graphic url="FIL.000090261"/>
+      <zone n="1" xml:id="Title" points="17.36,89.61 80.12,89.04 80.34,93.7 17.46,93.41"/>
+      <zone n="2" xml:id="Artist" points="85.98,84.65 91.77,84.52 91.69,88.93 85.99,88.93"/>
+      <zone n="3" xml:id="City"
+        points="8.8,52.56 15.96,52.12 16.13,56.88 13.53,57.47 13.7,60.88 12.78,61.04 12.53,57.69 9.09,58.55"/>
+      <zone n="4" xml:id="Wash" points="7.16,12.23 28.24,12.58 28.65,32.67 7.02,32.5"/>
+      <zone n="5" xml:id="Fund"
+        points="60.7,22.13 64.93,20.77 69.71,21.86 69.93,26.98 66.02,28.96 60.9,26.98"/>
+      <zone n="6" xml:id="Ship"
+        points="52.96,31.98 54.73,34.15 55.2,36.04 58.73,41.24 57.48,43.09 56.3,43.24 56.23,45.69 49.95,45.01 49.72,44.18 48.91,43.68 48.5,42.09 49.71,40.02 49.53,37.88 48.74,36.59 49.5,35.84 48.01,34.75 48.14,33.31 49.41,33.08 49.71,32.85 50.98,32.68 51.02,32.25"/>
+      <zone n="7" xml:id="Puck" points="44.67,9.25 51.62,9.34 51.76,12.22 44.67,12.13"/>
     </surface>
   </facsimile>
   <text>
     <front>
       <div type="editorial_desc">
-        <p>Keppler's cartoon was published a few years before construction on the Statue of Liberty
-          in the New York Harbor had been completed. The cartoon expresses concern over the
-          immigration policies and suggests that Chinese immigrants have brought disease, filth, and
-          poverty to San Francisco. In the cartoon, a statue of a Chinese immigrant man,
-          representing the Statue of Liberty, wears tattered clothing and holds a torch from which
-          six beams of light emanate. The words "filth," "immorality," "diseases," "ruin to,"
-          "white," and "labor" are written in the beams of light. The Chinese man holds an opium
-          pipe in his left hand, stands on a podium, and rests his leg on a skull. In the harbor
-          there are steamships and boats. A moon with the face of a Chinese man shines in the night
-          sky.</p>
-        <p>Chinese immigrant laborers often worked for less pay than white laborers; consequently
-          anti-Chinese sentiment grew among white laborers who feared they would lose their jobs.
-          Exaggerated stories of rampant gambling, drug-use, and prostitution in the Chinese
-          immigrant neighborhoods led many to whites to believe that the Chinese were destroying the
-          cultural and moral standards of American society.</p>
+        <p>The political cartoon is divided into two parts. The left side of the image is labeled
+          "United States-Working for it" and depicts several Irishman working at a construction
+          site. A woman in the upper left corner of the image is using a wash basin to do her
+          laundry. Meanwhile, on the right side of the image labeled "Ireland-Waiting for it," a
+          poor family sits on a hillside overlooking the sea. There is a bottle of alcohol on the
+          ground, a dilapidated shack in the background, and pigs. A mother holds a baby on her lap
+          while her other children lie down lazily on the grass. The father looks out into the
+          distance at the "Relief ship." On the upper right corner of the image, two men use their
+          spyglasses to view the ship and next to them is a box labeled "agitation and disturbance
+          fund."</p>
+        <p>The political cartoon criticizes Irish Americans for sending money back to Ireland to aid
+          victims of famine and to support the Irish National Land League. The Land League sought to
+          help Irish tenant farmers who were being evicted from their lands by Anglo-Protestant Land
+          owners. The editors of <hi rendition="#italics">Puck</hi>, however, looked critically upon
+          the relief fund and the Land League, and claimed that the money was funding extremist
+          activities. In fact, the editorial which accompanies the political cartoon expresses anger
+          at naturalized Irish-Americans who "pretend to be American" and send their money to the
+          "turbulent island."</p>
       </div>
     </front>
     <body>
       <div type="image_transcription" n="1" facs="#Title">
-        <head><supplied resp="editorial">Title</supplied></head>
-        <p>A STATUE FOR <hi rendition="#italics">OUR</hi> HARBOR</p>
+        <head><supplied resp="editorial">Title and Caption</supplied></head>
+        <p>AMERICAN GOLD.</p>
+        <p>UNITED STATES-WORKING FOR IT.</p>
+        <p>IRELAND-WAITING FOR IT.</p>
       </div>
       <div type="image_transcription" n="2" facs="#Artist">
-        <head><supplied resp="editorial"><orgName key="ENT.000003164">George Frederick Keller</orgName></supplied></head>
-        <p>KELLER</p>
+        <head><supplied resp="editorial"><persName key="ENT.000003616">Frederick Burr
+              Opper</persName></supplied></head>
+        <p>F. Opper</p>
       </div>
-      <div type="image_transcription" n="3" facs="#Statue">
-        <head><supplied resp="editorial">Statue</supplied></head>
-        <p>FILTH</p>
-        <p>IMMORALITY</p>
-        <p>DISEASES</p>
-        <p>RUIN TO</p>
-        <p>WHITE</p>
-        <p>LABOR</p>
+      <div type="image_transcription" n="3" facs="#City">
+        <head><supplied resp="editorial">Sign 1</supplied></head>
+        <p>CITY IMPROVEMENTS</p>
       </div>
-      <div type="image_transcription" n="4" facs="#Wasp">
-        <head><supplied resp="editorial"><orgName key="ENT.000000382"
-          >Wasp</orgName></supplied></head>
-        <p>The Wasp</p>
+      <div type="image_transcription" n="4" facs="#Wash">
+        <head><supplied resp="editorial">Sign 2</supplied></head>
+        <p>WASHING DONE</p>
       </div>
-      <div type="image_annotation" n="5" facs="#Pipe">
-        <head><supplied resp="editorial">Pipe</supplied></head>
-        <p>Many whites believed that Chinese immigrants abused opium. The political cartoon
-          highlights this Chinese immigrant stereotype and replaces the Statue of Liberty's tablet
-          of laws with an opium pipe.</p>
+      <div type="image_transcription" n="5" facs="#Fund">
+        <head><supplied resp="editorial">Sign 3</supplied></head>
+        <p>AGITATION AND DISTURBANCE FUND <note type="editorial" n="1">The editors of <hi
+              rendition="#italics">Puck</hi> criticized Irish-Americans for contributing to the
+            relief fund. The editors believed that the money wasn't helping the poor; rather it was
+            funding Irish nationalist causes.</note></p>
       </div>
-      <div type="image_annotation" n="6" facs="#Skull">
-        <head><supplied resp="editorial">Skull</supplied></head>
-        <p>Chinese man rests his leg on a human skull. It is implied that the skull belongs to a
-          white man.</p>
+      <div type="image_transcription" n="6" facs="#Ship">
+        <head><supplied resp="editorial">Relief Aid</supplied></head>
+        <p>RELIEF SHIP</p>
+        <p>$27.000.000 <note type="editorial" n="2">The ship is loaded with sacks that have large
+            dollar signs printed across them.</note></p>
       </div>
-      <div type="image_annotation" n="7" facs="#Statue_of_Liberty">
-        <head><supplied resp="editorial"><rs ref="cartoons_symbols.xml#statue_of_liberty">Statue of
-              Liberty</rs></supplied></head>
-      </div>
-      <div type="image_annotation" n="8" facs="#Moon">
-        <head><supplied resp="editorial">Moon</supplied></head>
-        <p>The moon has the face of a Chinese man.</p>
+      <div type="image_transcription" n="7" facs="#Puck">
+        <head><supplied resp="editorial"><orgName key="ENT.000000384"
+          >Puck</orgName></supplied></head>
+        <p>PUCK.</p>
       </div>
     </body>
   </text>

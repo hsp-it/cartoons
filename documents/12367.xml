@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
 
+<?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 
 
@@ -9,11 +9,12 @@
         <fileDesc>
 
             <titleStmt>
-                <title type="main">TEI transcription of Reception of European Emigrants Twenty Years
-                    Ago/Reception of Asiatic Emigrants in the Present Time></title>
+                <title type="main"
+                    >TEI transcription of First-Line Trenches Taken--Now for the Others></title>
                 <respStmt>
                     <resp key="art">Artist</resp>
-                    <persName key="ENT.000003164">George Frederick Keller</persName>
+                    <persName key="ENT.000000553"
+                        >Unknown Artist</persName>
                 </respStmt>
                 <respStmt>
                     <resp key="trc">Transcribed by</resp>
@@ -35,7 +36,7 @@
                     Pennsylvania</orgName></publisher>
                 <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
                 <idno type="filename"
-                    >12372</idno>
+                    >12367</idno>
                 <availability status="restricted">
                     <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of
                         copyright only to original contributions made by the Historic Images, New
@@ -62,53 +63,42 @@
                 <msDesc>
                     <msIdentifier>
                         <repository key="ENT.000002473"/>
-                        <collection key="3213">Balch Institute broadsides</collection>
-                        <idno type="citation"/>
-
+                        <collection key="Vb*.9199F">Pennsylvania cartoons 1902-1915</collection>
+                        <idno type="citation">Vb*.9199F</idno>
                     </msIdentifier>
                     <msContents>
                         <msItem>
                             <bibl>
-                                <date from="1878-06-15">June 15, 1878</date>
-                                <extent>1 loose page </extent>
-                                <extent>
-                                    <dimensions type="image" unit="cm">
-                                        <height quantity="37.5"/>
-                                        <width quantity="52.5"/>
-                                    </dimensions>
-                                </extent>
-
+                                <date from="1915-11-05">November 5, 1915</date>
+                                <extent>1 scrapbook page</extent>  
+                                <listRelation>
+                                    <relation name="depicted" active="cartoons_symbols.xml#columbia"/>
+                                </listRelation>
                             </bibl>
                         </msItem>
                     </msContents>
 
-                    <history>
-                        <acquisition/>
-                    </history>
+                    
                 </msDesc>
                 <biblStruct>
                     <analytic>
                         <respStmt>
                             <resp key="art">Artist</resp>
-                            <persName key="ENT.000003164"/>
+                            <persName key="ENT.000000553">Unknown Artist</persName>
+                            
                         </respStmt>
-
-                        <title type="main" level="a">Reception of European Emigrants Twenty Years
-                            Ago/Reception of Asiatic Emigrants in the Present Time</title>
+                        
+                        <title type="main" level="a">First-Line Trenches Taken--Now for the Others</title>
                     </analytic>
                     <monogr>
-                        <title type="marc245a" level="j"><orgName key="ENT.000000382"
-                            >Wasp</orgName></title>
+                        <title type="marc245a" level="j"><orgName key="ENT.000003556">North American</orgName></title>
+                            
                         <imprint>
-
-                            <publisher><orgName key="ENT.000003546">E.C. MacFarlane &amp;
-                                    Co</orgName></publisher>
-                            <pubPlace>San Francisco</pubPlace>
-                            <date from="1878-06-15">June 15, 1878</date>
-                            <biblScope unit="volume">2</biblScope>
-                            <biblScope unit="issue">98</biblScope>
-                            <biblScope unit="page">728-729</biblScope>
-
+                            <publisher>
+                                <persName key="ENT.000003366">Thomas B. Wanamaker</persName>
+                            </publisher>
+                            <pubPlace>Philadelphia</pubPlace>
+                            <date from="1915-11-05">November 5, 1915</date>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -129,7 +119,7 @@
                     Archives and Documentary Editing program.</p>
             </projectDesc>
             <editorialDecl n="4">
-                
+              
                 <p>This electronic file was created using manual keying following the
                     recommendations for Level 4 of "Best Practices for TEI in Libraries" guidelines
                     v3.0.</p>
@@ -161,16 +151,19 @@
         <profileDesc>
             <textClass>
                 <catRef target="cartoons_taxonomies.xml#featured"/>
-                <catRef target="cartoons_taxonomies.xml#gilded"/>
-                <catRef target="cartoons_taxonomies.xml#immigration"/>
-                <catRef target="cartoons_taxonomies.xml#stereotypes"/>
-                <catRef target="cartoon_genres.xml#Lithographs"/>
+                <catRef target="cartoons_taxonomies.xml#twentieth"/>    
+                <catRef target="cartoons_taxonomies.xml#war"/>
+                <catRef target="cartoons_taxonomies.xml#gender"/>
+                <catRef target="cartoon_genres.xml#Clippings"/>
+                <catRef target="cartoon_genres.xml#Scrapbooks"/>
+                
             </textClass>
         </profileDesc>
 
         <revisionDesc>
-            <change who="DianeBiunno" when="2015-02-05">Encoded to featured level</change>
-            <change who="DianeBiunno" when="2015-01-28">Encoded to basic level</change>
+           
+            <change who="DianeBiunno" when="2015-02-26">text encoding to featured level</change>
+            <change who="DianeBiunno" when="2015-02-26">text encoding to basic level</change>
             <change who="RachelMoloshok" when="2015-01-07">Template file created</change>
         </revisionDesc>
     </teiHeader>
@@ -179,59 +172,77 @@
         
         <surface ulx="" uly="" lrx="" lry="">
             
-            <graphic url="FIL.000090250"/>
+            <graphic
+                url="FIL.000090259"/>
             
-            <zone n="1" xml:id="Title_left" points=""/>
-            <zone n="2" xml:id="Artist" points=""/>
-            <zone n="3" xml:id="Garden" points=""/>
-            <zone n="4" xml:id="Wasp" points=""/>
-            <zone n="5" xml:id="Title_right"></zone>
+            <zone n="1" xml:id="Title" points=""/>
+            <zone n="2" xml:id="Text" points=""/>
+            <zone n="3" xml:id="Banner" points=""/>
+            <zone n="4" xml:id="Belt" points=""/>
+            <zone n="5" xml:id="Note" points=""/>
+            <zone n="6" xml:id="Heading" points=""/>
+            <zone n="7" xml:id="Columbia" points=""/>
+            
         </surface>
     </facsimile>
 
     <text>
-        
+      
         <front>
             <div type="editorial_desc">
-                <p>The broadside is divided into two sections. In the first section, a mob of Americans
-                    attack a group of European immigrants who have just arrived in New York City and are passing through the Castle Garden immigrant station.  In the background, there are ships and a sign labeled "Castle Garden". A woman wearing a scarf and carrying a trunk watches in horror as men throw stones and punches.  A man carrying a parcel and a large bag has blood coming out from his eye.
-                    In the second section, a group of Chinese immigrants, wearing conical hats and long braids have just arrived in San Francisco, and are riding in a wagon. Americans throw stones at them and try to pull them from the wagon.  One man pulls the braid of an immigrant.
-                </p>
+                <p>Columbia holds a banner and a sword and is wearing Roman armor.  She has a belt with the label "woman suffrage."  In her right hand, she raises the sword of justice and holds a banner with the inscription:  "33 Penna. counties carried.  315,000 men in state vote for suffrage."  Below her are the sword of "crooked politics" and a broken rifle of "class rule."</p>
+                <p>In November of 1915, the referendum for a suffrage amendment to the Pennsylvania constitution was defeated.  Despite carrying 33 Pennsylvania counties and received over 300,000 votes in favor of suffrage, the referendum failed.  Similar amendments also failed in New Jersey, New York, and Massachusetts.  When US Congress approved the constitution amendment for women's suffrage on June 4, 1919, Pennsylvania became the eighth State to ratify it.  The president signed the 19th amendment granting women the right to vote in August 1920.</p>
+
             </div>
         </front>
 
         <body>
-            <div type="image_transcription" facs="#Title_left" n="1">
-                <head><supplied resp="editorial">Title 1</supplied></head>
-                <p>RECEPTION OF EUROPEAN EMIGRANTS TWENTY YEARS AGO.</p>
+            <div type="image_transcription" facs="#Title" n="1">
+                <head><supplied resp="editorial">Title</supplied></head>
+                <p>FIRST-LINE TRENCHES TAKEN-NOW FOR THE OTHERS</p>
             </div>
             
-            <div type="image_transcription" facs="#Artist" n="2">
-                <head><supplied resp="editorial"><orgName key="ENT.000003164">George Frederick Keller</orgName></supplied></head>
-                <p><hi rendition="#circled">KELLER</hi></p>
+            <div type="image_transcription" facs="#Text" n="2">
+                <head><supplied resp="editorial">Text</supplied></head>
+                <p><hi rendition="#bold">CHILD LABOR</hi> GRAFTER</p>
+                <p>CLASS RULE</p>
+                <p>CROOKED POLITICS</p>
             </div>
             
-            <div type="image_transcription" facs="#Garden" n="3">
-                <head><supplied resp="editorial">Castle Garden</supplied></head>
-                <p>CASTLE GARDEN <note n="1" type="editorial">Castle Garden was the United States' first official immigrant processing station and is located in what is now know as Battery Park in New York City.  Southwest Battery, as it was first called, was constructed between 1808 and 1811 and was used as a fort to defend against the British during the War of 1812.  In 1823, it was renamed Castle Garden and became an opera house and theater  From 1855 to 1890, Castle Garden served as an immigrant processing center and over 8 million immigrants passed through its doors.  Today it is known as Castle Clinton National Monument.</note></p>
+            <div type="image_transcription" facs="#Banner" n="3">
+                <head><supplied resp="editorial">Banner</supplied></head>
+                <p>33 Penna. Counties Carried.</p>
+                <p>315,000 Men in State Vote for Suffrage.</p>
             </div>
             
-            <div type="image_transcription" facs="#Wasp" n="4">
-                <head><supplied resp="editorial"><orgName key="ENT.000000382">The Wasp</orgName></supplied></head>
-                <p>The Wasp</p>
+            <div type="image_transcription" facs="#Belt" n="4">
+                <head><supplied resp="editorial">Belt</supplied></head>
+                <p>WOMAN SUFFRAGE</p>
             </div>
             
-            <div type="image_transcription" facs="#Title_right" n="5">
-                <head><supplied resp="editorial">Title 2</supplied></head>
-                <p>RECEPTION OF ASIATIC EMIGRANTS IN THE PRESENT TIME</p>
+            <div type="image_transcription" facs="#Note" n="5">
+                <head><supplied resp="editorial">Notes</supplied></head>
+                <p><add><hi rendition="#typescript">BarrFerre zv31</hi></add></p>
+                <p><add><hi rendition="#typescript">SecyPenns</hi></add></p>
             </div>
             
-            <div type="image_annotation" facs="#Chinese" n="6">
-                <head><supplied resp="editorial">European Immigrants</supplied></head>
-                <p>The cartoon depicts a man pulling an immigrant's braid.  Under the Manchu Dynasty, Chinese men were required by law to wear a queue or long braid.   Men who cut off the queue would be imprisioned or killed. Because many immigrants planned to return to China, they did not cut off their queue.  Many whites, however, considered the hairstyle uncivilized and unhygienic. </p>
+            <div type="image_transcription" facs="#Heading" n="6">
+                <head><supplied resp="editorial">Heading</supplied></head>
+                <p><hi rendition="#bold">TH AMERICAN</hi></p>
+                <p>DAY, NOVEMBER 5, 1915</p>
+                <p>COPYRIGHT, 1915, BY THE NORTH AMERICAN COMPANY</p>
+                <p>18 PAGES</p>
             </div>
+            
+            <div type="image_annotation" facs="#Columbia" n="7">
+                <head><supplied resp="editorial"><rs resp="cartoons_symbols.xml#columbia">Columbia</rs></supplied></head>
+                <p>In her right hand, Columbia raises the sword of justice.  She wears Roman armor and carries a banner.</p>
+                
+            </div>
+           
+           
         </body>
- 
+
         <back/>
     </text>
 </TEI>

@@ -1,0 +1,357 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+
+    <teiHeader xml:lang="English">
+
+        <fileDesc>
+
+            <titleStmt>
+                <title type="main"
+                    >TEI transcription of Phryne Before the Chicago Tribunal</title>
+                <respStmt>
+                    <resp key="art">Artist</resp>
+                    <persName key="ENT.000003351"
+                        >Bernhard Gillam</persName>
+                </respStmt>
+           
+                <respStmt>
+                    <resp key="trc">Transcribed by</resp>
+                    
+                    <persName key="ENT.000003544">Diane Biunno</persName>
+                </respStmt>
+                <respStmt>
+                    <resp key="mrk">Encoded by</resp>
+                    <persName key="ENT.000003544">Diane Biunno</persName>
+                </respStmt>
+
+            </titleStmt>
+
+            <editionStmt>
+                <p>First edition, <date when="2015">2015</date></p>
+            </editionStmt>
+
+            <publicationStmt>
+                <publisher><orgName key="ENT.000002473">Historical Society of
+                    Pennsylvania</orgName></publisher>
+                <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
+                <idno type="filename"
+                    >11585</idno>
+                <availability status="restricted">
+                    <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of
+                        copyright only to original contributions made by the Historic Images, New
+                        Technologies (HINT) Project participants and other staff. HSP makes no claim
+                        of copyright to the original text. Permission is granted to download,
+                        transmit or otherwise reproduce, distribute or display the text
+                        contributions to this work claimed by HSP for non-profit educational
+                        purposes, provided that this header is included in its entirety. For
+                        inquiries about commercial uses, please contact the Historical Society of
+                        Pennsylvania. HSP retains the rights of all images unless otherwise noted.
+                        Possession of an HSP digital image does not constitute permission to use or
+                        publish it. Requests for digital imaging, other reproduction services, and
+                        the intended use of reproductions must be made in writing to the Rights and
+                        Reproductions Coordinator at rnr@hsp.org.</p>
+                </availability>
+                <date when="2015"/>
+            </publicationStmt>
+
+            <seriesStmt>
+                <title level="s" type="project" key="CARTOONS"/>
+            </seriesStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository key="ENT.000002473"/>
+                        <collection key="V65">Historical Society of Pennsylvania large graphics collection</collection>
+                      
+                        <idno type="citation">Bc 612 P 567</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <bibl>
+                                <date from="1884-06-04"
+                                    >June 4, 1884</date>
+                                <extent>1 loose page</extent>
+      
+                                <listRelation>
+                                    
+                                    <relation name="depicted" active="ENT.000003332"/>
+                                    <relation name="depicted" active="ENT.000003377 "/>
+                                    <relation name="depicted" active="ENT.000003340"/>
+                                    <relation name="depicted" active="ENT.000003346"/>
+                                    <relation name="depicted" active="ENT.000003379"/>
+                                    <relation name="depicted" active="ENT.000002738"/>
+                                    <relation name="depicted" active="ENT.000003334"/>
+                                    <relation name="depicted" active="ENT.000003367"/>
+                                    <relation name="depicted" active="ENT.000003378"/>
+                                    <relation name="depicted" active="ENT.000003362"/>
+                                    <relation name="depicted" active="ENT.000003380"/>
+                                    <relation name="depicted" active="ENT.000003336"/>
+                                    <relation name="depicted" active="ENT.000003337"/>
+                                    <relation name="depicted" active="ENT.000001948"/>
+                                    <relation name="depicted" active="ENT.000003345"/>
+   
+                                    <relation name="mentioned" active="ENT.000003350"/>
+                                    <relation name="mentioned" active="ENT.000003374"/>
+                                    
+                                </listRelation>
+                            </bibl>
+                        </msItem>
+                    </msContents>
+
+                    <history>
+                        <acquisition/>
+                    </history>
+                </msDesc>
+                <biblStruct>
+                    <analytic>
+                        <respStmt>
+                            <resp key="art">Artist</resp>
+                            <persName key="ENT.000003351">Bernhard Gillam</persName>
+                            
+                        </respStmt>
+                        
+                        <title type="main" level="a">Phryne Before the Chicago Tribunal</title>
+                    </analytic>
+                    <monogr>
+                        <title type="marc245a" level="j"><orgName key="ENT.000000384"
+                                >Puck</orgName></title>
+                        <imprint>
+                            <publisher><orgName key="ENT.000003163">Keppler &amp; Schwarzmann</orgName></publisher>
+                                    
+                            <pubPlace>New York</pubPlace>
+                            <date from="1884-06-04"
+                                >June 4, 1884</date>
+                            <biblScope unit="volume">15</biblScope>
+                            <biblScope unit="issue">378</biblScope>
+                            <biblScope unit="page">216-217</biblScope>
+                            
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <projectDesc>
+                <p>The Historic Images, New Technologies (HINT) project aims to enhance description
+                    and discovery of the Historical Society of Pennsylvania's graphics materials and
+                    promote the linking and sharing of content among institutions and scholars. The
+                    project will result in an update to HSP's digital image viewer and an online
+                    digital history exhibit that will demonstrate the new viewer's capabilities and
+                    provide interpretive and contextual materials to encourage users to interact
+                    with historical images in new ways. This project was funded by a grant from the
+                    National Historical Publications and Records Commission's (NHPRC) Innovation in
+                    Archives and Documentary Editing program.</p>
+            </projectDesc>
+            <editorialDecl n="4">
+                
+                <p>This electronic file was created using manual keying following the
+                    recommendations for Level 4 of "Best Practices for TEI in Libraries" guidelines
+                    v3.0.</p>
+                <p>This xml file uses unique entity identifiers, media file identifiers, and
+                    collection identifiers in HSP's Digital Library, available at
+                    http://digitallibrary.hsp.org.</p>
+
+            </editorialDecl>
+            <tagsDecl>
+                <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
+                <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
+                <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
+                <rendition scheme="css" xml:id="crossed-through">text-decoration:
+                    line-through</rendition>
+                <rendition scheme="other" xml:id="printed"/>
+                <rendition scheme="other" xml:id="typescript"/>
+                <rendition scheme="other" xml:id="handwritten"/>
+                <rendition scheme="other" xml:id="handwritten-underlined"/>
+                <rendition scheme="other" xml:id="handwritten-circled"/>
+                <rendition scheme="other" xml:id="handwritten-crossed-through"/>
+                <rendition scheme="other" xml:id="double-underline"/>
+                <rendition scheme="other" xml:id="stamp"/>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+        </encodingDesc>
+
+        <profileDesc>
+            <textClass>
+                <catRef target="cartoons_taxonomies.xml#featured"/>
+                <catRef target="cartoons_taxonomies.xml#gilded"/>
+                <catRef target="cartoons_taxonomies.xml#elections"/>
+                <catRef target="cartoon_genres.xml#Lithographs"/>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change who="DianeBiunno" when="2015-02-09">Proofreading and made minor corrections</change>
+            <change who="DianeBiunno" when="2015-02-04">Encoded to featured level</change>
+            <change who="DianeBiunno" when="2015-02-03">Encoded to basic level</change>
+            <change who="RachelMoloshok" when="2015-01-07">Template file created</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <facsimile>
+        
+        <surface ulx="" uly="" lrx="" lry="">
+           
+            <graphic
+                url="FIL.000085236"/>
+            
+            <zone n="1" xml:id="Title" points=""/>
+            <zone n="2" xml:id="Caption" points=""/>
+            <zone n="3" xml:id="Artist" points=""/>
+            <zone n="4" xml:id="Reid" points=""/>
+            <zone n="5" xml:id="Blaine" points=""/>
+            <zone n="6" xml:id="Bib" points=""/>
+            <zone n="7" xml:id="Puck" points=""/>
+            <zone n="8" xml:id="Vase" points=""/>
+            <zone n="9" xml:id="Schurz" points=""/>
+            <zone n="10" xml:id="Logan" points=""/>
+            <zone n="11" xml:id="Edmunds" points=""/>
+            <zone n="12" xml:id="Harrison" points=""/>
+            <zone n="13" xml:id="Sherman" points=""/>
+            <zone n="14" xml:id="Robertson" points=""/>
+            <zone n="15" xml:id="Cameron" points=""/>
+            <zone n="16" xml:id="Curtis" points=""/>
+            <zone n="17" xml:id="Evarts" points=""/>
+            <zone n="18" xml:id="Roosevelt" points=""/>
+            <zone n="19" xml:id="Bristow" points=""/>
+            <zone n="20" xml:id="Miller" points=""/>
+        </surface>
+    </facsimile>
+
+    <text>
+        <front>
+            <div type="editorial_desc">
+                <p>The Political cartoon parodies Jean Léon Gérôme's famous painting <hi rendition="#italics">Phryne before the Areopagus</hi>.  In Gérôme's painting, an ancient greek courtesan named Phryne is put on trial for a capital crime.  Hypereides, her lawyer, believes she will be convicted, and disrobes her in front of the tribunal.  The court is overwhelmed by her beauty and acquits her of the charges.</p>
+                <p>Gillam's political cartoon pokes fun at James Blaine, an 1884 Republican presidential candidate, by illustrating him as Gerome's Phryne.  Blaine wears shorts and a bib and is covered in tattoos illustrating his corrupt political dealings.  Transcribed on the lower right corner of the image is "with apologies to J.L. Gerome".  Whitelaw Reid, editor of the <hi rendition="#italics">New York Tribune</hi>, takes the role of Hypereides and unveils Blaine to the stunned ancient Greek tribunal made up of 19th century prominent Republicans including George W. Curtis, William M. Evarts, Carl Schurz, Theodore Roosevelt, Benjamin Helm Bristow, Warner Miller, William Henry Robertson, John Alexander Logan, John Sherman, James Donald Cameron, Benjamin Harrison, and George Edmunds.  According to the Library of Congress, the cartoon also depicts Simon Cameron, but the Historical Society of Pennsylvania's editorial staff is unable to identify Cameron in the cartoon.</p>
+                <p>Gillam, Keppler, and Opper illustrated a number of cartoons featuring the tattooed man.  <hi rendition="#italics">Phryne before the Chicago Tribunal</hi> became one of the most well known and controversial political cartoons of the 1884 election.  After Blaine won the Republican nomination, <hi rendition="#italics">Judge</hi> published a cartoon showing Blaine holding a copy of the tattooed man cartoon and with the caption "He who laughs last, laughs best."</p>
+            </div>
+        </front>
+
+        <body>
+            
+            <div type="image_transcription" facs="#Title" n="1">
+                <head><supplied resp="editorial">Title and Date</supplied></head>
+                <p><persName key="ENT.000003374">PHRYNE</persName> BEFORE THE CHICAGO TRIBUNAL</p>
+                <p>ARDENT ADVOCATE.-"Now, Gentlemen, don't make any mistake in your decision!  Here's Purity and Magnetism for you-can't be beat!"</p>
+                <p><add>1884</add></p>
+   
+            </div>
+            
+            <div type="image_transcription" facs="#Caption" n="2">
+                <head><supplied resp="editorial"><persName key="ENT.000003350">Jean-Léon Gérôme</persName></supplied></head>
+                <p>WITH APOLOGIES TO J.L. GEROME</p>
+            </div>
+            
+            <div type="image_transcription" facs="#Artist" n="3">
+                <head><supplied resp="editorial"><persName key="ENT.000003351">Bernhard Gillam</persName></supplied></head>
+                <p>GILLAM</p>
+            </div>
+            
+            <div type="image_transcription" facs="#Reid" n="4">
+                <head><supplied resp="editorial"><persName key="ENT.000003377">Whitelaw Reid</persName></supplied></head>
+                <p><add><del>Whitelaw Reid</del></add><note n="1" type="editorial">Reid reprises the role of Phryne's lawyer Hypereides and removes Blaine's robes.</note></p>   
+            </div>
+            
+            <div type="image_transcription" facs="#Blaine" n="5">
+                <head><supplied resp="editorial"><persName key="ENT.000003332">James G. Blaine</persName></supplied></head>
+                <p><add>Blaine</add><note n="2" type="editorial">Blaine stands in an almost identical pose as Phryne in Gérôme's painting.</note></p>
+                <p>STATESMANSHIP</p>
+                <p>GUANO</p>
+                <p>BLUSTER</p>
+                <p>LITTLE ROCK R.R. BONDS</p>
+                <p>MONOPOLY</p>
+                <p>BONDS</p>
+                <p>N.PACIFIC</p>
+                <p>MULLIGAN LETTERS</p>
+                <p>ANTI-CHINESE</p>
+                <p>DEMAGOGISM</p>
+                <p>CORRUPT</p>
+                <p>LOBBY</p>
+            </div>
+            
+            <div type="image_transcription" facs="#Bib" n="6">
+                <head><supplied resp="editorial">Bib</supplied></head>
+                <p>MAGNETIC PAD <note n="3" type="editorial">Gillam sarcastically alludes to Blaine's magnetic personality by giving him a bib with the words "Magnetic Pad."</note></p>
+            </div>
+            
+            <div type="image_transcription" facs="#Puck" n="7">
+                <head><supplied resp="editorial"><persName key="ENT.000000384">Puck</persName></supplied></head>
+                <p>PUCK.</p>
+            </div>
+            
+            <div type="image_transcription" facs="#Vase" n="8">
+                <head><supplied resp="editorial">Vase</supplied></head>
+                <p>PRESENTED TO J.G BLAINE BY THE KING OF THE LOBBY</p>
+            </div>
+            
+            <div type="image_transcription" facs="#Schurz" n="9">
+                <head><supplied resp="editorial"><persName key="ENT.000003379">Carl Schurz</persName></supplied></head>
+                <p><add>Schurtz</add><note n="4" type="editorial">Carl Schurz was an ambassador, senator, and US Secretary of the Interior.  In the cartoon, he appears to be speaking with the man seated to his left.</note></p>    
+            </div>
+            
+            <div type="image_transcription" facs="#Logan" n="10">
+                <head><supplied resp="editorial"><persName key="ENT.000003362">John Alexander Logan</persName></supplied></head>
+                <p><add>Logan</add><note n="5" type="editorial">John Alexander Logan was a former General in the Union Army during the Civil War.  In the cartoon, he raises his right arm, points at Blaine, and laughs.</note></p>
+            </div>
+            
+            <div type="image_annotation" facs="#Edmunds" n="11">
+                <head><supplied resp="editorial"><persName key="ENT.000003345">George Edmunds</persName></supplied></head>
+                <p>George Edmunds (1828-1919) was a lawyer and Republican senator from Vermont.  In the cartoon he has a pensive expression and places his hand on his chin.</p>
+            </div>
+            
+            <div type="image_annotation" facs="#Harrison" n="12">
+                <head><supplied resp="editorial"><persName key="ENT.000001948">Benjamin Harrison</persName></supplied></head>
+                <p>Benjamin Harrison was a senator and the 23rd president of the United States.  In the cartoon, he expresses his surprise by throwing his arms into the air.</p>
+            </div>
+            
+            <div type="image_annotation" facs="#Sherman" n="13">
+                <head><supplied resp="editorial"><persName key="ENT.000003380">John Sherman</persName></supplied></head>
+                <p>John Sherman was a senator, United States Secretary of the Treasury, and United States Secretary of State.</p>
+            </div>
+            
+            <div type="image_annotation" facs="#Robertson" n="14">
+                <head><supplied resp="editorial"><persName key="ENT.000003378">William Henry Robertson</persName></supplied></head>
+                <p>Willam Henry Robertson was a lawyer and politician.  In the cartoon, he looks at Blaine with disgust.</p>
+            </div>
+            
+            <div type="image_annotation" facs="#Cameron" n="15">
+                <head><supplied resp="editorial"><persName key="ENT.000003336">James Donald Cameron</persName></supplied></head>
+                <p>James Donald Cameron was a senator, US Secretary of War, and a Chairman of the Republican National Committee.</p>
+            </div>
+            
+            <div type="image_annotation" facs="#Curtis" n="16">
+                <head><supplied resp="editorial"><persName key="ENT.000003340">George William Curtis</persName></supplied></head>
+                <p>George William Curtis was a journalist and editor for <hi rendition="#italics">Harper's Weekly</hi>.  In the cartoon, gestures with his right arm and turns his head away from the spectacle.</p>
+            </div>
+            
+            <div type="image_transcription" facs="#Evarts" n="17">
+                <head><supplied resp="editorial"><persName key="ENT.000003346">William Maxwell Evarts</persName></supplied></head>
+                <p><del><add>Tilden</add></del><add>Evarts</add><note n="6" rendition="editorial">William Maxwell Evarts was a lawyer, politican, and US Secretary of State.  In the cartoon, he rests his hands on his lap and looks down.  He appears to be having a conversation with the man seated next to him.</note></p>
+            </div>
+         
+            <div type="image_annotation" facs="#Roosevelt" n="18">
+                <head><supplied resp="editorial"><persName key="ENT.000002738">Theodore Roosevelt</persName></supplied></head>
+                <p>Theodore Roosevelt was a governor of New York, US Vice President, and US President.  In the cartoon, he places his hands on his chin</p>
+            </div>
+            
+            <div type="image_annotation" facs="#Bristow" n="19">
+                <head><supplied resp="editorial"><persName key="ENT.000003334">Benjamin Helm Bristow</persName></supplied></head>
+                <p>Benjamin Helm Bristow was a lawyer, the first Solicitor General of the United States, and the 30th US Secretary of the Treasury.  In the cartoon, he opens his eyes widely and has a surprised expression.</p>
+            </div>
+            
+            <div type="image_annotation" facs="#Miller" n="20">
+                <head><supplied resp="editorial"><persName key="ENT.000003367">Warner Miller</persName></supplied></head>
+                <p>Warner Miller was a New York senator.  In the cartoon, he raises his right arm and appears to laugh.</p>
+            </div>
+            
+        </body>
+
+        <back/>
+    </text>
+</TEI>

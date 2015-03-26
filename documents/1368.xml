@@ -1,20 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
+
 <?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
-
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-
-
     <teiHeader xml:lang="English">
-
         <fileDesc>
-
             <titleStmt>
-                <title type="main">TEI transcription of Reception of European Emigrants Twenty Years
-                    Ago/Reception of Asiatic Emigrants in the Present Time></title>
+                <title type="main"
+                    >TEI transcription of The Pope's Dream, a Roman Catholic America</title>
                 <respStmt>
                     <resp key="art">Artist</resp>
-                    <persName key="ENT.000003164">George Frederick Keller</persName>
+                    <persName key="ENT.000000379"
+                        >Joseph Ferdinand Keppler</persName>
                 </respStmt>
+               
                 <respStmt>
                     <resp key="trc">Transcribed by</resp>
                     <persName key="ENT.000003544">Diane Biunno</persName>
@@ -23,7 +21,7 @@
                     <resp key="mrk">Encoded by</resp>
                     <persName key="ENT.000003544">Diane Biunno</persName>
                 </respStmt>
-
+                
             </titleStmt>
 
             <editionStmt>
@@ -35,7 +33,7 @@
                     Pennsylvania</orgName></publisher>
                 <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
                 <idno type="filename"
-                    >12372</idno>
+                    >1368</idno>
                 <availability status="restricted">
                     <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of
                         copyright only to original contributions made by the Historic Images, New
@@ -63,52 +61,45 @@
                     <msIdentifier>
                         <repository key="ENT.000002473"/>
                         <collection key="3213">Balch Institute broadsides</collection>
-                        <idno type="citation"/>
-
+                        
+                        <idno type="citation"
+                            >XNB1 75-337</idno>
                     </msIdentifier>
                     <msContents>
                         <msItem>
                             <bibl>
-                                <date from="1878-06-15">June 15, 1878</date>
-                                <extent>1 loose page </extent>
-                                <extent>
-                                    <dimensions type="image" unit="cm">
-                                        <height quantity="37.5"/>
-                                        <width quantity="52.5"/>
-                                    </dimensions>
-                                </extent>
-
+                                <date from="1889-07-24"
+                                    >July 24, 1889</date>
+                                <extent>1 loose sheet</extent>
+                                <listRelation>
+                                    <relation name="depicted" active="ENT.000003644"/>
+                                </listRelation>   
+                                 
                             </bibl>
                         </msItem>
                     </msContents>
 
-                    <history>
-                        <acquisition/>
-                    </history>
                 </msDesc>
                 <biblStruct>
                     <analytic>
                         <respStmt>
                             <resp key="art">Artist</resp>
-                            <persName key="ENT.000003164"/>
+                            <persName key="ENT.000000379">Joseph Ferdinand Keppler</persName>
                         </respStmt>
-
-                        <title type="main" level="a">Reception of European Emigrants Twenty Years
-                            Ago/Reception of Asiatic Emigrants in the Present Time</title>
+                        <title type="main" level="a">The Pope's Dream, a Roman Catholic America</title>
                     </analytic>
                     <monogr>
-                        <title type="marc245a" level="j"><orgName key="ENT.000000382"
-                            >Wasp</orgName></title>
+                        <title type="marc245a" level="j"><orgName key="ENT.000000384">
+                            Puck</orgName></title>
                         <imprint>
-
-                            <publisher><orgName key="ENT.000003546">E.C. MacFarlane &amp;
-                                    Co</orgName></publisher>
-                            <pubPlace>San Francisco</pubPlace>
-                            <date from="1878-06-15">June 15, 1878</date>
-                            <biblScope unit="volume">2</biblScope>
-                            <biblScope unit="issue">98</biblScope>
-                            <biblScope unit="page">728-729</biblScope>
-
+                            <publisher><orgName key="ENT.000003163"
+                                >Keppler &amp; Schwarzmann</orgName></publisher>
+                            <pubPlace>New York</pubPlace>
+                            <date from="1889-07-24"
+                                >July 24, 1889</date>
+                            <biblScope unit="volume">25</biblScope>
+                            <biblScope unit="issue">646</biblScope>
+                            <biblScope unit="page">368-369</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -160,17 +151,18 @@
 
         <profileDesc>
             <textClass>
-                <catRef target="cartoons_taxonomies.xml#featured"/>
+                <catRef target="cartoons_taxonomies.xml#lesson_plan"/>
                 <catRef target="cartoons_taxonomies.xml#gilded"/>
-                <catRef target="cartoons_taxonomies.xml#immigration"/>
                 <catRef target="cartoons_taxonomies.xml#stereotypes"/>
+                <catRef target="cartoons_taxonomies.xml#international"/>
                 <catRef target="cartoon_genres.xml#Lithographs"/>
+                
             </textClass>
         </profileDesc>
 
         <revisionDesc>
-            <change who="DianeBiunno" when="2015-02-05">Encoded to featured level</change>
-            <change who="DianeBiunno" when="2015-01-28">Encoded to basic level</change>
+            <change who="DianeBiunno" when="2015-03-16">Encoded to lesson plan level</change>
+            <change who="DianeBiunno" when="2015-03-16">Encoded to basic level</change>
             <change who="RachelMoloshok" when="2015-01-07">Template file created</change>
         </revisionDesc>
     </teiHeader>
@@ -178,14 +170,25 @@
     <facsimile>
         
         <surface ulx="" uly="" lrx="" lry="">
-            
-            <graphic url="FIL.000090250"/>
-            
-            <zone n="1" xml:id="Title_left" points=""/>
+           
+            <graphic
+                url="FIL.000085239"/>
+          
+            <zone n="1" xml:id="Title" points=""/>
             <zone n="2" xml:id="Artist" points=""/>
-            <zone n="3" xml:id="Garden" points=""/>
-            <zone n="4" xml:id="Wasp" points=""/>
-            <zone n="5" xml:id="Title_right"></zone>
+            <zone n="3" xml:id="Puck" points=""/>
+            <zone n="4" xml:id="Banner_1" points=""/>
+            <zone n="5" xml:id="Banner_2" points=""/>
+            <zone n="6" xml:id="Banner_3" points=""/>
+            <zone n="7" xml:id="Throne" points=""/>
+            <zone n="8" xml:id="Ministers_1" points=""/>
+            <zone n="9" xml:id="Ministers_2" points=""/>
+            <zone n="10" xml:id="Ministers_3" points=""/>
+            <zone n="11" xml:id="Pope" points=""/>
+            
+          
+            
+            
         </surface>
     </facsimile>
 
@@ -193,45 +196,86 @@
         
         <front>
             <div type="editorial_desc">
-                <p>The broadside is divided into two sections. In the first section, a mob of Americans
-                    attack a group of European immigrants who have just arrived in New York City and are passing through the Castle Garden immigrant station.  In the background, there are ships and a sign labeled "Castle Garden". A woman wearing a scarf and carrying a trunk watches in horror as men throw stones and punches.  A man carrying a parcel and a large bag has blood coming out from his eye.
-                    In the second section, a group of Chinese immigrants, wearing conical hats and long braids have just arrived in San Francisco, and are riding in a wagon. Americans throw stones at them and try to pull them from the wagon.  One man pulls the braid of an immigrant.
-                </p>
+                <p>In the cartoon Pope Leo XIII is sleeping next to his papal tiara and pastoral staff and is dreaming.  In the dream, the Pope is sitting in a throne labeled "Presidential Chair" and is surrounded by a group of people who bow to him.  Above the Pope there is a sign which reads "The Church First-The Country Afterwards."  An assembly of people, depicted to look like Irishmen, has gathered around the Pope in order to receive their titles and positions in government.</p>
             </div>
         </front>
 
         <body>
-            <div type="image_transcription" facs="#Title_left" n="1">
-                <head><supplied resp="editorial">Title 1</supplied></head>
-                <p>RECEPTION OF EUROPEAN EMIGRANTS TWENTY YEARS AGO.</p>
+            
+            <div type="image_transcription" facs="#Title" n="1">
+                <head><supplied resp="editorial">Title</supplied></head>
+                <p>THE POPE'S DREAM.-A ROMAN CATHOLIC AMERICA.</p>
             </div>
             
             <div type="image_transcription" facs="#Artist" n="2">
-                <head><supplied resp="editorial"><orgName key="ENT.000003164">George Frederick Keller</orgName></supplied></head>
-                <p><hi rendition="#circled">KELLER</hi></p>
+                <head><supplied resp="editorial"><persName key="ENT.000000379">Joseph Ferdinand Keppler</persName></supplied></head>
+                <p>JK.</p>
             </div>
             
-            <div type="image_transcription" facs="#Garden" n="3">
-                <head><supplied resp="editorial">Castle Garden</supplied></head>
-                <p>CASTLE GARDEN <note n="1" type="editorial">Castle Garden was the United States' first official immigrant processing station and is located in what is now know as Battery Park in New York City.  Southwest Battery, as it was first called, was constructed between 1808 and 1811 and was used as a fort to defend against the British during the War of 1812.  In 1823, it was renamed Castle Garden and became an opera house and theater  From 1855 to 1890, Castle Garden served as an immigrant processing center and over 8 million immigrants passed through its doors.  Today it is known as Castle Clinton National Monument.</note></p>
+            <div type="image_transcription" facs="#Puck" n="3">
+                <head><supplied resp="editorial"><orgName key="ENT.000000384">Puck</orgName></supplied></head>
+                <p>PUCK.</p>
             </div>
             
-            <div type="image_transcription" facs="#Wasp" n="4">
-                <head><supplied resp="editorial"><orgName key="ENT.000000382">The Wasp</orgName></supplied></head>
-                <p>The Wasp</p>
+            
+            <div type="image_transcription" facs="#Banner_1" n="4">
+                <head><supplied resp="editorial">Banner 1</supplied></head>
+                <p>THE CHURCH FIRST- THE COUNTRY AFTERWARDS.</p>
             </div>
             
-            <div type="image_transcription" facs="#Title_right" n="5">
-                <head><supplied resp="editorial">Title 2</supplied></head>
-                <p>RECEPTION OF ASIATIC EMIGRANTS IN THE PRESENT TIME</p>
+            <div type="image_transcription" facs="#Banner_2" n="5">
+                <head><supplied resp="editorial">Banner 2</supplied></head>
+                <p>HIGH PRIESTS of the PROPOGANDA.</p>
             </div>
             
-            <div type="image_annotation" facs="#Chinese" n="6">
-                <head><supplied resp="editorial">European Immigrants</supplied></head>
-                <p>The cartoon depicts a man pulling an immigrant's braid.  Under the Manchu Dynasty, Chinese men were required by law to wear a queue or long braid.   Men who cut off the queue would be imprisioned or killed. Because many immigrants planned to return to China, they did not cut off their queue.  Many whites, however, considered the hairstyle uncivilized and unhygienic. </p>
+            <div type="image_transcription" facs="#Banner_3" n="6">
+                <head><supplied resp="editorial">Banner 3</supplied></head>
+                <p>FRIENDLY SONS of OFFICE AND SPOILS</p>
             </div>
+            
+            <div type="image_transcription" facs="#Throne" n="7">
+                <head><supplied resp="editorial">Throne</supplied></head>
+                <p>PRESIDENTIAL CHAIR</p>
+            </div>
+            
+            <div type="image_transcription" facs="#Ministers_1" n="8">
+                <head><supplied resp="editorial">Ministers</supplied></head>
+                <p>MINISTER <unclear reason="faded">CONFESSOR</unclear></p>
+                <p>PROFESSOR of College</p>
+            </div>
+            
+            <div type="image_transcription" facs="#Ministers_2" n="9">
+                <head><supplied resp="editorial">Ministers</supplied></head>
+                <p>SPEAKER of HOUSE</p>
+                <p>SEC. TREASURY</p>
+                <p>P.M.G</p>
+                <p>SEC. of STATE</p>
+                <p>VICE PRESIDENT</p>
+                
+                
+            </div>
+            
+            <div type="image_transcription" facs="#Ministers_3" n="10">
+                <head><supplied resp="editorial">Ministers</supplied></head>
+                <p>PROFESSOR of</p>
+                <p>COLLEGE PROFESSOR</p>
+                <p>MINISTER of ART</p>
+                <p>MINISTER TO</p>
+                <p>CIVIL SERVICE</p>
+                <p>CIVIL SE<unclear reason="missing">RVICE</unclear></p>
+                <p>COMMISSIONER of CIVIL SERVICE REFORM</p>
+                <p>MINISTER TO ENGLAND.</p>
+                <p>MINISTER OF Public EDUCATION.</p>
+                <p></p>
+            </div>
+            
+            <div type="image_annotation" facs="#Pope" n="11">
+                <head><supplied resp="editorial"><persName key="ENT.000003644">Pope Leo XIII</persName></supplied></head>
+                <p>Gioacchino Vincenzo Pecci became Pope in 1878 and took the name Leo XIII.  He reigned until 1903.  In the political cartoon he sleeps next to his pastoral staff and Papal Tiara.</p>
+            </div>
+   
         </body>
- 
+
         <back/>
     </text>
 </TEI>

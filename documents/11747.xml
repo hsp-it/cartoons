@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
 
+<?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 
 
@@ -9,19 +9,22 @@
         <fileDesc>
 
             <titleStmt>
-                <title type="main">TEI transcription of Reception of European Emigrants Twenty Years
-                    Ago/Reception of Asiatic Emigrants in the Present Time></title>
+                <title type="main">TEI transcription of Mesmerism in Wall Street</title>
                 <respStmt>
                     <resp key="art">Artist</resp>
-                    <persName key="ENT.000003164">George Frederick Keller</persName>
+                    <persName key="ENT.000003631">Stephens, H. L. (Henry Louis), 1824-1882</persName>
+                </respStmt>
+                <respStmt>
+                    <resp key="egr">Engraver</resp>
+                    <orgName key="ENT.000003632">Wevill &amp; Hammar</orgName>
                 </respStmt>
                 <respStmt>
                     <resp key="trc">Transcribed by</resp>
-                    <persName key="ENT.000003544">Diane Biunno</persName>
+                    <persName key="ENT.000003368">Moloshok, Rachel</persName>
                 </respStmt>
                 <respStmt>
                     <resp key="mrk">Encoded by</resp>
-                    <persName key="ENT.000003544">Diane Biunno</persName>
+                    <persName key="ENT.000003368">Moloshok, Rachel</persName>
                 </respStmt>
 
             </titleStmt>
@@ -34,8 +37,7 @@
                 <publisher><orgName key="ENT.000002473">Historical Society of
                     Pennsylvania</orgName></publisher>
                 <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
-                <idno type="filename"
-                    >12372</idno>
+                <idno type="filename">11747</idno>
                 <availability status="restricted">
                     <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of
                         copyright only to original contributions made by the Historic Images, New
@@ -62,53 +64,55 @@
                 <msDesc>
                     <msIdentifier>
                         <repository key="ENT.000002473"/>
-                        <collection key="3213">Balch Institute broadsides</collection>
-                        <idno type="citation"/>
-
+                        <collection key="3133">Historical Society of Pennsylvania cartoons and caricatures collection</collection>                        
+                        <idno type="citation"
+                            ><idno type="box">2</idno><idno type="folder">4</idno></idno>
                     </msIdentifier>
                     <msContents>
                         <msItem>
                             <bibl>
-                                <date from="1878-06-15">June 15, 1878</date>
-                                <extent>1 loose page </extent>
+                                <date from="1870-04-02">April 2, 1870</date>
+                                <extent>1 clipping</extent>
                                 <extent>
                                     <dimensions type="image" unit="cm">
-                                        <height quantity="37.5"/>
-                                        <width quantity="52.5"/>
+                                        <height quantity="15"/>
+                                        <width quantity="18.5"/>
                                     </dimensions>
                                 </extent>
-
+                                <listRelation>
+                                    <relation name="depicted" active="ENT.000002960"/>
+                                    <relation name="depicted" active="ENT.000003633"/>
+                                    <relation name="depicted" active="ENT.000003634"/>
+                                </listRelation>
                             </bibl>
                         </msItem>
                     </msContents>
 
                     <history>
-                        <acquisition/>
+                        <acquisition>This is an artificial collection created over time by HSP staff mostly through donations and purchases of individual prints. It also incorporates previously uncataloged materials collected by the Balch Institute for Ethnic Studies. Some of the 20th century cartoons and drawings were removed from the J. Hampton Moore papers (Collection 1541).</acquisition>
                     </history>
                 </msDesc>
                 <biblStruct>
                     <analytic>
                         <respStmt>
                             <resp key="art">Artist</resp>
-                            <persName key="ENT.000003164"/>
+                            <persName key="ENT.000003631">Stephens, H. L. (Henry Louis), 1824-1882</persName>
                         </respStmt>
-
-                        <title type="main" level="a">Reception of European Emigrants Twenty Years
-                            Ago/Reception of Asiatic Emigrants in the Present Time</title>
+                        <respStmt>
+                            <resp key="egr">Engraver</resp>
+                            <orgName key="ENT.000003632">Wevill &amp; Hammar</orgName>
+                        </respStmt>
+                        <title type="main" level="a">Mesmerism in Wall Street</title>
                     </analytic>
                     <monogr>
-                        <title type="marc245a" level="j"><orgName key="ENT.000000382"
-                            >Wasp</orgName></title>
+                        <title type="marc245a" level="j"><orgName key="ENT.000003635">Punchinello</orgName></title>
                         <imprint>
-
-                            <publisher><orgName key="ENT.000003546">E.C. MacFarlane &amp;
-                                    Co</orgName></publisher>
-                            <pubPlace>San Francisco</pubPlace>
-                            <date from="1878-06-15">June 15, 1878</date>
-                            <biblScope unit="volume">2</biblScope>
-                            <biblScope unit="issue">98</biblScope>
-                            <biblScope unit="page">728-729</biblScope>
-
+                            <publisher><orgName key="ENT.000003635">Punchinello</orgName></publisher>
+                            <pubPlace>New York</pubPlace>
+                            <date from="1870-04-02">April 2, 1870</date>
+                            <biblScope unit="volume">1</biblScope>
+                            <biblScope unit="issue">1</biblScope>
+                            <biblScope unit="page">8</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -129,7 +133,6 @@
                     Archives and Documentary Editing program.</p>
             </projectDesc>
             <editorialDecl n="4">
-                
                 <p>This electronic file was created using manual keying following the
                     recommendations for Level 4 of "Best Practices for TEI in Libraries" guidelines
                     v3.0.</p>
@@ -160,78 +163,60 @@
 
         <profileDesc>
             <textClass>
-                <catRef target="cartoons_taxonomies.xml#featured"/>
-                <catRef target="cartoons_taxonomies.xml#gilded"/>
-                <catRef target="cartoons_taxonomies.xml#immigration"/>
-                <catRef target="cartoons_taxonomies.xml#stereotypes"/>
-                <catRef target="cartoon_genres.xml#Lithographs"/>
+                <catRef target=""/>
+                <!-- Taxonomies: Reconstruction, featured, gender, econ -->
+                <!-- Genres: wood engravings, clippings -->
             </textClass>
         </profileDesc>
 
         <revisionDesc>
-            <change who="DianeBiunno" when="2015-02-05">Encoded to featured level</change>
-            <change who="DianeBiunno" when="2015-01-28">Encoded to basic level</change>
-            <change who="RachelMoloshok" when="2015-01-07">Template file created</change>
+            <change who="RachelMoloshok" when="2015-03-09">Encoded to basic level</change>
         </revisionDesc>
     </teiHeader>
 
     <facsimile>
-        
         <surface ulx="" uly="" lrx="" lry="">
-            
-            <graphic url="FIL.000090250"/>
-            
-            <zone n="1" xml:id="Title_left" points=""/>
-            <zone n="2" xml:id="Artist" points=""/>
-            <zone n="3" xml:id="Garden" points=""/>
-            <zone n="4" xml:id="Wasp" points=""/>
-            <zone n="5" xml:id="Title_right"></zone>
+            <graphic url="FIL.000089373"/>
+            <zone n="1" xml:id="caption"/>
+            <zone n="2" xml:id="head"/>
         </surface>
     </facsimile>
 
     <text>
-        
         <front>
             <div type="editorial_desc">
-                <p>The broadside is divided into two sections. In the first section, a mob of Americans
-                    attack a group of European immigrants who have just arrived in New York City and are passing through the Castle Garden immigrant station.  In the background, there are ships and a sign labeled "Castle Garden". A woman wearing a scarf and carrying a trunk watches in horror as men throw stones and punches.  A man carrying a parcel and a large bag has blood coming out from his eye.
-                    In the second section, a group of Chinese immigrants, wearing conical hats and long braids have just arrived in San Francisco, and are riding in a wagon. Americans throw stones at them and try to pull them from the wagon.  One man pulls the braid of an immigrant.
-                </p>
+                <p>At center, Cornelius Vanderbilt sits in a cushioned chair in a library. A woman, identified in the caption as "First Lady Broker" (either Victoria Woodhull or Tennessee Claflin) waves her hands in front of Vanderbilt's face, apparently hypnotizing him. At Vanderbilt's side a second woman, identified in the caption as "Second Lady Broker" (either Woodhull or Claflin), kneels and writes on a piece of paper. The caption implies that Claflin and Woodhull have "mesmerized" Vanderbilt in order to sell them shares of their stocks.</p>
             </div>
         </front>
 
         <body>
-            <div type="image_transcription" facs="#Title_left" n="1">
-                <head><supplied resp="editorial">Title 1</supplied></head>
-                <p>RECEPTION OF EUROPEAN EMIGRANTS TWENTY YEARS AGO.</p>
+            <div type="image_transcription" facs="#caption" n="1">
+                <head><supplied resp="editorial">Title and caption</supplied></head>
+                <p>MESMERISM IN WALL STREET.</p>
+                <p><hi rendition="#italics">First Lady Broker (entrancing subject.)</hi> "THERE, I'VE GOT HIM TO THE POINT NOW. TAKE HIM AT HIS WORD, QUICK."</p>
+                <p><hi rendition="#italics">Commodore V—nd—rb—lt, (murmurs.)</hi> "SELL ME ONE THOUSAND SHARES CENTRAL."</p>
+                <p><hi rendition="#italics">Second Lady Broker.</hi> "BOOKED!"</p>
             </div>
-            
-            <div type="image_transcription" facs="#Artist" n="2">
-                <head><supplied resp="editorial"><orgName key="ENT.000003164">George Frederick Keller</orgName></supplied></head>
-                <p><hi rendition="#circled">KELLER</hi></p>
+            <div type="image_transcription" facs="#head" n="2">
+                <head><supplied resp="editorial">Running heads</supplied></head>
+                <p>8</p>
+                <p>PUNCHINELLO.</p>
+                <p>APRIL 2, 1870.</p>
             </div>
-            
-            <div type="image_transcription" facs="#Garden" n="3">
-                <head><supplied resp="editorial">Castle Garden</supplied></head>
-                <p>CASTLE GARDEN <note n="1" type="editorial">Castle Garden was the United States' first official immigrant processing station and is located in what is now know as Battery Park in New York City.  Southwest Battery, as it was first called, was constructed between 1808 and 1811 and was used as a fort to defend against the British during the War of 1812.  In 1823, it was renamed Castle Garden and became an opera house and theater  From 1855 to 1890, Castle Garden served as an immigrant processing center and over 8 million immigrants passed through its doors.  Today it is known as Castle Clinton National Monument.</note></p>
+            <div type="image_transcription" facs="#paper" n="3">
+                <head><supplied resp="editorial">Broker's notes</supplied></head>
+                <p><unclear reason="handwriting">HARLEM</unclear> 100</p>
             </div>
-            
-            <div type="image_transcription" facs="#Wasp" n="4">
-                <head><supplied resp="editorial"><orgName key="ENT.000000382">The Wasp</orgName></supplied></head>
-                <p>The Wasp</p>
+            <div type="image_transcription" facs="#initials" n="4">
+                <head><supplied resp="editorial">Artist's initials</supplied></head>
+                <p>HLS</p>
             </div>
-            
-            <div type="image_transcription" facs="#Title_right" n="5">
-                <head><supplied resp="editorial">Title 2</supplied></head>
-                <p>RECEPTION OF ASIATIC EMIGRANTS IN THE PRESENT TIME</p>
-            </div>
-            
-            <div type="image_annotation" facs="#Chinese" n="6">
-                <head><supplied resp="editorial">European Immigrants</supplied></head>
-                <p>The cartoon depicts a man pulling an immigrant's braid.  Under the Manchu Dynasty, Chinese men were required by law to wear a queue or long braid.   Men who cut off the queue would be imprisioned or killed. Because many immigrants planned to return to China, they did not cut off their queue.  Many whites, however, considered the hairstyle uncivilized and unhygienic. </p>
+            <div type="image_transcription" facs="#engravers">
+                <head><supplied resp="editorial">Engravers</supplied></head>
+                <p>WEVILL &amp; HAMMAR</p>
             </div>
         </body>
- 
+
         <back/>
     </text>
 </TEI>

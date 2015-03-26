@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="English">
+    <fileDesc>
+      <titleStmt>
+        <title type="main">TEI transcription of The Hardest Job They Ever Tackled</title>
+        <author/>
+        <respStmt>
+          <resp key="trc">Transcribed by</resp>
+          <persName key="ENT.000003544">Biunno, Diane</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="mrk">Encoded by</resp>
+          <persName key="ENT.000003544">Biunno, Diane</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="pbl">publisher</resp>
+          <persName key="ENT.000003387">Unknown</persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt><p>First edition, <date when="2015">2015</date></p></editionStmt>
+      <publicationStmt>
+        <publisher><orgName key="ENT.000002473">Historical Society of
+                    Pennsylvania</orgName></publisher>
+        <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
+        <idno type="filename">11569</idno>
+        <availability status="restricted"><p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of copyright only to original contributions made by the Historic Images, New Technologies (HINT) Project participants and other staff. HSP makes no claim of copyright to the original text. Permission is granted to download, transmit or otherwise reproduce, distribute or display the text       contributions to this work claimed by HSP for non-profit educational purposes, provided that this header is included in its entirety. For inquiries about commercial uses, please contact the Historical Society of Pennsylvania. HSP retains the rights of all images unless otherwise noted.  Possession of an HSP digital image does not constitute permission to use or publish it. Requests for digital imaging, other reproduction services, and the intended use of reproductions must be made in writing to the Rights and                    Reproductions Coordinator at rnr@hsp.org.</p></availability>
+        <date when="2015">2015</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="project" key="CARTOONS">Historic Images, New Technologies (HINT) Project</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository key="ENT.000002473">Historical Society of Pennsylvania</repository>
+            <collection key="3133">Historical Society of Pennsylvania cartoons and caricatures collection</collection>
+            <idno type="citation">
+              <idno type="box">2</idno>
+              <idno type="folder">9</idno>
+            </idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <bibl>
+                <date from="1908-08-16">August 16, 1908</date>
+                <extent>1 loose page</extent>
+                <extent>
+                  <dimensions type="image" unit="cm"/>
+                </extent>
+                <listRelation>
+                  <relation name="depicted" active="ENT.000003384"/>
+                  
+                </listRelation>
+              </bibl>
+            </msItem>
+          </msContents>
+          <history>
+            <acquisition>This is an artificial collection created over time by HSP staff mostly through donations and purchases of individual prints. It also incorporates previously uncataloged materials collected by the Balch Institute for Ethnic Studies. Some of the 20th century cartoons and drawings were removed from the J. Hampton Moore papers (Collection 1541).</acquisition>
+          </history>
+        </msDesc>
+        <biblStruct>
+          <analytic>
+            <respStmt>
+              <resp key="pbl">publisher</resp>
+              <persName key="ENT.000003387">Unknown</persName>
+            </respStmt>
+            <title type="main" level="a">The Hardest Job They Ever Tackled</title>
+            <date from="1908-08-16">August 16, 1908</date>
+          </analytic>
+          <monogr>
+            <title type="marc245a" level="j"><orgName key="ENT.000000437">Philadelphia Record</orgName></title>
+            <imprint>
+              <pubPlace>Philadelphia</pubPlace>
+              <date from="1908-08-16">August 16, 1908</date>
+              <biblScope unit="issue">14,314</biblScope>
+              <biblScope unit="page">1</biblScope>
+              <publisher>
+                <persName key="ENT.000003387">Unknown</persName>
+              </publisher>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <bibl/>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc><p>The Historic Images, New Technologies (HINT) project aims to enhance description
+                    and discovery of the Historical Society of Pennsylvania's graphics materials and
+                    promote the linking and sharing of content among institutions and scholars. The
+                    project will result in an update to HSP's digital image viewer and an online
+                    digital history exhibit that will demonstrate the new viewer's capabilities and
+                    provide interpretive and contextual materials to encourage users to interact
+                    with historical images in new ways. This project was funded by a grant from the
+                    National Historical Publications and Records Commission's (NHPRC) Innovation in
+                    Archives and Documentary Editing program.</p></projectDesc>
+      <editorialDecl n="4"><p>This electronic file was created using manual keying following the
+                    recommendations for Level 4 of "Best Practices for TEI in Libraries" guidelines
+                    v3.0.</p>
+                <p>This xml file uses unique entity identifiers, media file identifiers, and
+                    collection identifiers in HSP's Digital Library, available at
+                    http://digitallibrary.hsp.org.</p></editorialDecl>
+      <tagsDecl>
+        <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
+        <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
+        <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
+        <rendition scheme="css" xml:id="crossed-through">text-decoration: line-through</rendition>
+        <rendition scheme="other" xml:id="printed"/>
+        <rendition scheme="other" xml:id="typescript"/>
+        <rendition scheme="other" xml:id="handwritten"/>
+        <rendition scheme="other" xml:id="handwritten-underlined"/>
+        <rendition scheme="other" xml:id="handwritten-circled"/>
+        <rendition scheme="other" xml:id="handwritten-crossed-through"/>
+        <rendition scheme="other" xml:id="double-underline"/>
+        <rendition scheme="other" xml:id="stamp"/>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <catRef target="cartoons_genres.xml#clippings"/>
+        <catRef target="cartoons_genres.xml#political_cartoons"/>
+        <catRef target="cartoons_taxonomies.xml#elections"/>
+        <catRef target="cartoons_taxonomies.xml#lesson_plan"/>
+        <catRef target="cartoons_taxonomies.xml#twentieth"/>
+        <catRef target="cartoons_taxonomies.xml#econ"/>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change who="DianeBiunno" when="2015-03-19">Exported from CA</change>
+      <change who="DianeBiunno" when="2015-03-19">Encoded to lesson plan level</change>
+      <change who="DianeBiunno" when="2015-03-19">Encoded to basic level</change>
+      <change who="RachelMoloshok" when="2015-01-07">Template file created</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="100" lry="100">
+      <graphic url="FIL.000085222"/>
+      <zone n="1" xml:id="Title" points="25.61,90.53 74.39,90.18 74.59,93.86 25.81,93.51"/>
+      <zone n="2" xml:id="Artist" points="78.99,90.23 87.19,90.34 87.31,91.69 79.11,91.64"/>
+      <zone n="3" xml:id="Weights" points="47.33,80.05 61.05,77.76 66.18,79.92 68.59,86.64 55.02,89.47 50.95,90 46.72,88.26 44.46,84.09"/>
+      <zone n="4" xml:id="Oil" points="61.48,61.93 61.34,60.11 63.96,60.54 65.86,60.19 66.25,61.88 64.11,62.19"/>
+      <zone n="5" xml:id="Wool" points="71.58,62.93 76.97,66.38 76.1,67.32 70.43,63.91"/>
+      <zone n="6" xml:id="Steel" points="80.9,65.53 81.78,66.14 84.21,66.97 85.51,67.93 84.21,69.14 82.82,67.93 81.32,67.27 79.77,65.87"/>
+      <zone n="7" xml:id="Taft" points="48.29,42.96 50.07,42.52 52.25,43.14 52.25,44.11 54.42,46.67 58.58,48.96 58.58,49.93 57.78,50.81 59.96,52.49 61.64,56.9 59.96,58.13 60.95,62.9 56.7,62.9 54.82,67.04 54.92,69.95 54.62,71.98 55.21,73.13 55.41,74.89 52.25,74.37 50.57,75.69 47.7,74.1 46.61,71.37 47.8,69.16 46.31,66.25 46.02,63.69 43.15,63.16 42.3,59.16 39.57,57.72 39.39,54.25 41.66,48.43 43.64,45.61 46.81,45.08"/>
+      <zone n="8" xml:id="Chair" points="31.04,26.88 31.76,26.24 33,25.9 33.62,26.62 34.43,27.22 35.77,26.62 37.01,26.83 37.73,28.16 39.21,27.77 40.21,27.86 40.83,28.84 40.35,33.22 42.98,33.39 44.51,33.91 44.13,37.23 44.13,38.59 43.6,39.83 43.36,42.64 32.22,41.31"/>
+      <zone n="9" xml:id="Heading" points="18.72,7.54 79.9,7.37 80.1,10.35 18.72,10.53"/>
+    </surface>
+  </facsimile>
+  <text>
+    <front>
+      <div type="editorial_desc">
+          <p>In the image, the oil, woolen, and steel trusts try to hoist a large William Taft onto the presidential chair.  "Industrial depression" and "record of the republican party" are depicted as two heavy weights shackled to Taft's feet.</p>                
+          <p>William Taft became the 27th president of the United States and served from 1909-1913.  Due to his predecessor Theodore Roosevelt's political influence and support, he easily defeated his opponent William J. Bryan in the 1908 election.  In fact, newspapers often joked that Taft stood for "Take Advice From Theodore."  However, during Taft's administration, he and Roosevelt began to have bitter political disagreements.  Roosevelt accused Taft of being too conservative and therefore decided to run against him in the election of 1912.</p>
+      </div>
+    </front>
+    <body>
+      <div type="image_transcription" n="1" facs="#Title"><head><supplied resp="editorial">Title</supplied></head>
+                <p>THE HARDEST JOB THEY EVER TACKLED</p></div>
+      <div type="image_transcription" n="2" facs="#Artist"><head><supplied resp="editorial"><persName key="ENT.000000436">John L. De Mar</persName></supplied></head>
+                <p>-By De Mar.</p></div>
+      <div type="image_transcription" n="3" facs="#Weights"><head><supplied resp="editorial">Weights</supplied></head>
+                <p>INDUSTRIAL DEPRESSION</p>
+                <p>RECORD OF THE REPUBLICAN PARTY</p></div>
+      <div type="image_transcription" n="4" facs="#Oil"><head><supplied resp="editorial">Trust</supplied></head>
+                <p>OIL TRUST</p></div>
+      <div type="image_transcription" n="5" facs="#Wool"><head><supplied resp="editorial">Trust</supplied></head>
+                <p>WOOLEN TRUST</p></div>
+      <div type="image_transcription" n="6" facs="#Steel"><head><supplied resp="editorial">Trust</supplied></head>
+                <p>STEEL TRUST</p></div>
+      <div type="image_transcription" n="7" facs="#Taft"><head><supplied resp="editorial"><persName key="ENT.000003384">William Taft</persName></supplied></head>
+                <p>TAFT</p></div>
+      <div type="image_transcription" n="8" facs="#Chair"><head><supplied resp="editorial">Chair</supplied></head>
+                <p>THE PRESIDENCY</p></div>
+      <div type="image_transcription" n="9" facs="#Heading"><head><supplied resp="editorial">Heading</supplied></head>
+                <p>PHILADELPHIA,  SUNDAY  MORNING,</p></div>
+    </body>
+  </text>
+</TEI>
