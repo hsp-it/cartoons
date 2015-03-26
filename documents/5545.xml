@@ -13,7 +13,7 @@
                 </respStmt>
                 <respStmt>
                     <resp key="trc">Transcribed by</resp>
-                    <persName key="ENT.000003545"></persName>
+                    <persName key="ENT.000003545">Borden, Sara</persName>
                 </respStmt>
                 <respStmt>
                     <resp key="mrk">Encoded by</resp>
@@ -152,19 +152,19 @@
         <surface ulx="" uly="" lrx="" lry="">
             <graphic
                 url="FIL.000017393"/>
-            <zone n="1" xml:id="humbug"/>
-            <zone n="2" xml:id="South_Carolina"/>
-            <zone n="3" xml:id="Florida"/>
-            <zone n="4" xml:id="Alabama"/>
-            <zone n="5" xml:id="Mississippi"/>
-            <zone n="6" xml:id="Louisiana"/>
-            <zone n="7" xml:id="Georgia"/>
-            <zone n="8" xml:id="waves"/>
-            <zone n="9" xml:id="title"/>
-            <zone n="10" xml:id="publisher"/>
-            <zone n="11" xml:id="address"/>
-            <zone n="12" xml:id="year"/>
-            <zone n="13" xml:id="butterfly"/>
+            <zone n="1" xml:id="humbug" points=""/>
+            <zone n="2" xml:id="South_Carolina" points=""/>
+            <zone n="3" xml:id="Florida" points=""/>
+            <zone n="4" xml:id="Alabama" points=""/>
+            <zone n="5" xml:id="Mississippi" points=""/>
+            <zone n="6" xml:id="Louisiana" points=""/>
+            <zone n="7" xml:id="Georgia" points=""/>
+            <zone n="8" xml:id="waves" points=""/>
+            <zone n="9" xml:id="title" points=""/>
+            <zone n="10" xml:id="publisher" points=""/>
+            <zone n="11" xml:id="address" points=""/>
+            <zone n="12" xml:id="year" points=""/>
+            <zone n="13" xml:id="butterfly" points=""/>
         </surface>
     </facsimile>
     <text>
