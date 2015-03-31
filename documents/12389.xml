@@ -156,6 +156,7 @@
         <catRef target="cartoons_genres.xml#periodical_illustrations"/>
         <catRef target="cartoons_genres.xml#prints"/>
         <catRef target="cartoons_genres.xml#woodcuts"/>
+        <catRef target="cartoons_genres.xml#political_cartoons"/>
         <catRef target="cartoons_taxonomies.xml#early"/>
         <catRef target="cartoons_taxonomies.xml#featured"/>
         <catRef target="cartoons_taxonomies.xml#lesson_plan"/>
