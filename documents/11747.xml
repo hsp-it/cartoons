@@ -1,293 +1,284 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 
 <?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-
-
-    <teiHeader xml:lang="English">
-
-        <fileDesc>
-
-            <titleStmt>
-                <title type="main">TEI transcription of Mesmerism in Wall Street</title>
-                <respStmt>
-                    <resp key="art">Artist</resp>
-                    <persName key="ENT.000003631">Stephens, H. L. (Henry Louis),
-                        1824-1882</persName>
-                </respStmt>
-                <respStmt>
-                    <resp key="egr">Engraver</resp>
-                    <orgName key="ENT.000003632">Wevill &amp; Hammar</orgName>
-                </respStmt>
-                <respStmt>
-                    <resp key="trc">Transcribed by</resp>
-                    <persName key="ENT.000003368">Moloshok, Rachel</persName>
-                </respStmt>
-                <respStmt>
-                    <resp key="mrk">Encoded by</resp>
-                    <persName key="ENT.000003368">Moloshok, Rachel</persName>
-                </respStmt>
-
-            </titleStmt>
-
-            <editionStmt>
-                <p>First edition, <date when="2015">2015</date></p>
-            </editionStmt>
-
-            <publicationStmt>
-                <publisher><orgName key="ENT.000002473">Historical Society of
-                    Pennsylvania</orgName></publisher>
-                <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
-                <idno type="filename">11747</idno>
-                <availability status="restricted">
-                    <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of
-                        copyright only to original contributions made by the Historic Images, New
-                        Technologies (HINT) Project participants and other staff. HSP makes no claim
-                        of copyright to the original text. Permission is granted to download,
-                        transmit or otherwise reproduce, distribute or display the text
-                        contributions to this work claimed by HSP for non-profit educational
-                        purposes, provided that this header is included in its entirety. For
-                        inquiries about commercial uses, please contact the Historical Society of
-                        Pennsylvania. HSP retains the rights of all images unless otherwise noted.
-                        Possession of an HSP digital image does not constitute permission to use or
-                        publish it. Requests for digital imaging, other reproduction services, and
-                        the intended use of reproductions must be made in writing to the Rights and
-                        Reproductions Coordinator at rnr@hsp.org.</p>
-                </availability>
-                <date when="2015"/>
-            </publicationStmt>
-
-            <seriesStmt>
-                <title level="s" type="project" key="CARTOONS"/>
-            </seriesStmt>
-
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <repository key="ENT.000002473"/>
-                        <collection key="3133">Historical Society of Pennsylvania cartoons and
-                            caricatures collection</collection>
-                        <idno type="citation"><idno type="box">2</idno><idno type="folder"
-                            >4</idno></idno>
-                    </msIdentifier>
-                    <msContents>
-                        <msItem>
-                            <bibl>
-                                <date from="1870-04-02">April 2, 1870</date>
-                                <extent>1 clipping</extent>
-                                <extent>
-                                    <dimensions type="image" unit="cm">
-                                        <height quantity="15"/>
-                                        <width quantity="18.5"/>
-                                    </dimensions>
-                                </extent>
-                                <listRelation>
-                                    <relation name="depicted" active="ENT.000002960"/>
-                                    <!-- Woodhull -->
-                                    <relation name="depicted" active="ENT.000003633"/>
-                                    <!-- Claflin -->
-                                    <relation name="depicted" active="ENT.000003634"/>
-                                    <!-- Vanderbilt -->
-                                </listRelation>
-                            </bibl>
-                        </msItem>
-                    </msContents>
-
-                    <history>
-                        <acquisition>This is an artificial collection created over time by HSP staff
-                            mostly through donations and purchases of individual prints. It also
-                            incorporates previously uncataloged materials collected by the Balch
-                            Institute for Ethnic Studies. Some of the 20th century cartoons and
-                            drawings were removed from the J. Hampton Moore papers (Collection
-                            1541).</acquisition>
-                    </history>
-                </msDesc>
-                <biblStruct>
-                    <analytic>
-                        <respStmt>
-                            <resp key="art">Artist</resp>
-                            <persName key="ENT.000003631">Stephens, H. L. (Henry Louis),
-                                1824-1882</persName>
-                        </respStmt>
-                        <respStmt>
-                            <resp key="egr">Engraver</resp>
-                            <orgName key="ENT.000003632">Wevill &amp; Hammar</orgName>
-                        </respStmt>
-                        <title type="main" level="a">Mesmerism in Wall Street</title>
-                    </analytic>
-                    <monogr>
-                        <title type="marc245a" level="j"><orgName key="ENT.000003635"
-                                >Punchinello</orgName></title>
-                        <imprint>
-                            <publisher><orgName key="ENT.000003635"
-                                >Punchinello</orgName></publisher>
-                            <pubPlace>New York</pubPlace>
-                            <date from="1870-04-02">April 2, 1870</date>
-                            <biblScope unit="volume">1</biblScope>
-                            <biblScope unit="issue">1</biblScope>
-                            <biblScope unit="page">8</biblScope>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
-
-            </sourceDesc>
-        </fileDesc>
-
-        <encodingDesc>
-            <projectDesc>
-                <p>The Historic Images, New Technologies (HINT) project aims to enhance description
-                    and discovery of the Historical Society of Pennsylvania's graphics materials and
-                    promote the linking and sharing of content among institutions and scholars. The
-                    project will result in an update to HSP's digital image viewer and an online
-                    digital history exhibit that will demonstrate the new viewer's capabilities and
-                    provide interpretive and contextual materials to encourage users to interact
-                    with historical images in new ways. This project was funded by a grant from the
-                    National Historical Publications and Records Commission's (NHPRC) Innovation in
-                    Archives and Documentary Editing program.</p>
-            </projectDesc>
-            <editorialDecl n="4">
-                <p>This electronic file was created using manual keying following the
-                    recommendations for Level 4 of "Best Practices for TEI in Libraries" guidelines
-                    v3.0.</p>
-                <p>This xml file uses unique entity identifiers, media file identifiers, and
-                    collection identifiers in HSP's Digital Library, available at
-                    http://digitallibrary.hsp.org.</p>
-
-            </editorialDecl>
-            <tagsDecl>
-                <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
-                <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
-                <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
-                <rendition scheme="css" xml:id="crossed-through">text-decoration:
-                    line-through</rendition>
-                <rendition scheme="other" xml:id="printed"/>
-                <rendition scheme="other" xml:id="typescript"/>
-                <rendition scheme="other" xml:id="handwritten"/>
-                <rendition scheme="other" xml:id="handwritten-underlined"/>
-                <rendition scheme="other" xml:id="handwritten-circled"/>
-                <rendition scheme="other" xml:id="handwritten-crossed-through"/>
-                <rendition scheme="other" xml:id="double-underline"/>
-                <rendition scheme="other" xml:id="stamp"/>
-                <namespace name="http://www.tei-c.org/ns/1.0">
-                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
-                </namespace>
-            </tagsDecl>
-        </encodingDesc>
-
-        <profileDesc>
-            <textClass>
-                <catRef target="cartoons_taxonomies.xml#reconstruction"/>
-                <catRef target="cartoons_taxonomies#featured"/>
-                <catRef target="cartoons_taxonomies#gender"/>
-                <catRef target="cartoons_taxonomies#econ"/>
-                <catRef target="cartoons_genres.xml#clippings"/>
-                <catRef target="cartoons_genres.xml#wood_engravings"/>
-                <catRef target="cartoons_genres.xml#political_cartoons"/>
-            </textClass>
-        </profileDesc>
-
-        <revisionDesc>
-            <change who="RachelMoloshok" when="2015-03-31">Encoded to featured level</change>
-            <change who="RachelMoloshok" when="2015-03-09">Encoded to basic level</change>
-        </revisionDesc>
-    </teiHeader>
-
-    <facsimile>
-        <surface ulx="" uly="" lrx="" lry="">
-            <graphic url="FIL.000089373"/>
-            <zone n="1" xml:id="caption"/>
-            <zone n="2" xml:id="head"/>
-            <zone n="3" xml:id="paper"/>
-            <zone n="4" xml:id="initials"/>
-            <zone n="5" xml:id="engravers"/>
-            <zone n="6" xml:id="sister1"/>
-            <zone n="7" xml:id="sister2"/>
-            <zone n="8" xml:id="vanderbilt"/>
-        </surface>
-    </facsimile>
-
-    <text>
-        <front>
-            <div type="editorial_desc">
-                <p>At center, Cornelius Vanderbilt sits in a cushioned chair in a library. A woman,
-                    identified in the caption as "First Lady Broker" (either Victoria Woodhull or
-                    Tennessee Claflin) waves her hands in front of Vanderbilt's face, apparently
-                    hypnotizing him. At Vanderbilt's side a second woman, identified in the caption
-                    as "Second Lady Broker" (either Woodhull or Claflin), kneels and writes on a
-                    piece of paper. The caption implies that Claflin and Woodhull have "mesmerized"
-                    Vanderbilt in order to sell them shares of their stocks.</p>
-            </div>
-        </front>
-
-        <body>
-            <div type="image_transcription" facs="#caption" n="1">
-                <head><supplied resp="editorial">Title and caption</supplied></head>
-                <p>MESMERISM IN WALL STREET.</p>
-                <p><hi rendition="#italics">First Lady Broker (entrancing subject.)</hi> "THERE,
-                    I'VE GOT HIM TO THE POINT NOW. TAKE HIM AT HIS WORD, QUICK."</p>
-                <p><hi rendition="#italics"><persName key="ENT.000003634">Commodore
-                            V—nd—rb—lt</persName>, (murmurs.)</hi> "SELL ME ONE THOUSAND SHARES
-                    CENTRAL."</p>
-                <p><hi rendition="#italics">Second Lady Broker.</hi> "BOOKED!"</p>
-            </div>
-            <div type="image_transcription" facs="#head" n="2">
-                <head><supplied resp="editorial">Running heads</supplied></head>
-                <p>8</p>
-                <p><orgName key="ENT.000003635">PUNCHINELLO</orgName>.</p>
-                <p>APRIL 2, 1870.</p>
-            </div>
-            <div type="image_transcription" facs="#paper" n="3">
-                <head><supplied resp="editorial">Broker's notes</supplied></head>
-                <p><unclear reason="handwriting">HARLEM</unclear> 100</p>
-            </div>
-            <div type="image_transcription" facs="#initials" n="4">
-                <head><supplied resp="editorial">Artist's initials</supplied></head>
-                <p><persName key="ENT.000003631">HLS</persName></p>
-            </div>
-            <div type="image_transcription" facs="#engravers" n="5">
-                <head><supplied resp="editorial">Engravers</supplied></head>
-                <p><orgName key="ENT.000003632">WEVILL &amp; HAMMAR</orgName></p>
-            </div>
-            <div type="image_annotation" facs="#sister1" n="6">
-                <head>First lady broker (<persName key="ENT.000002960">Woodhull</persName> or
-                        <persName key="ENT.000003633">Claflin</persName>)</head>
-                <p>The two women in this cartoon are clearly intended to be Victoria Woodhull and
-                    Tennessee Claflin, sisters who became the first female stock brokers. However,
-                    the artist does not provide any visual details to differentiate the two women
-                    and indicate which is Woodhull and which is Claflin. Both Claflin and Woodhull,
-                    in addition to being stock brokers and equal rights crusaders, worked as
-                    spiritualist mediums, clairvoyants (fortune tellers), and magnetic or faith
-                    healers; both were advisors to <persName key="ENT.000003634">Cornelius
-                        Vanderbilt</persName>, who became their financial backer in establishing
-                    their brokerage firm. It may be that the woman actively "mesmerizing" Vanderbilt
-                    is supposed to be Claflin, as she was rumored to have had a romantic
-                    relationship with him.</p>
-            </div>
-            <div type="image_annotation" facs="#sister2" n="7">
-                <head>Second lady broker (<persName key="ENT.000002960">Woodhull</persName> or
-                        <persName key="ENT.000003633">Claflin</persName>)</head>
-                <p>The two women in this cartoon are clearly intended to be Victoria Woodhull and
-                    Tennessee Claflin, sisters who became the first female stock brokers. However,
-                    the artist does not provide any visual details to differentiate the two women in
-                    this cartoon, so it is difficult to say whether the woman sitting by <persName
-                        key="ENT.000003634">Vanderbilt</persName>'s side is supposed to be Claflin
-                    or Woodhull. The cartoon implies that the two women are controlling Vanderbilt
-                    to achieve financial gain.</p>
-            </div>
-            <div type="image_annotation" facs="#vanderbilt" n="8">
-                <head><persName key="ENT.000003634">Cornelius Vanderbilt</persName></head>
-                <p>Cornelius ("Commodore") Vanderbilt made his fortune in the railroad business and
-                    in 1872, when this cartoon was published, was the richest man in America. His
-                    strong interest in spiritualism put him in touch with sisters <persName
-                        key="ENT.000002960">Victoria Woodhull</persName> and <persName
-                        key="ENT.000003633">Tennessee Claflin</persName>, who became his advisors.
-                    He provided silent financial backing for at least two historic firsts: the
-                    establishment of Woodhull and Claflin's brokerage firm, which made them the
-                    first women stock brokers, and Woodhull's presidential campaign, in which she
-                    became the first woman to run for president.</p>
-            </div>
-        </body>
-
-        <back/>
-    </text>
+  <teiHeader xml:lang="English">
+    <fileDesc>
+      <titleStmt>
+        <title type="main">TEI transcription of Mesmerism in Wall Street</title>
+        <author/>
+        <respStmt>
+          <resp key="art">artist</resp>
+          <persName key="ENT.000003631">Stephens, H. L. (Henry Louis), 1824-1882</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="trc">Transcribed by</resp>
+          <persName key="ENT.000003368">Moloshok, Rachel</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="mrk">Encoded by</resp>
+          <persName key="ENT.000003368">Moloshok, Rachel</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="pfr">Proofread by</resp>
+          <persName key="ENT.000003368">Moloshok, Rachel</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="egr">engraver</resp>
+          <orgName key="ENT.000003632">Wevill &amp; Hammar</orgName>
+        </respStmt>
+        <respStmt>
+          <resp key="pbl">publisher</resp>
+          <orgName key="ENT.000003635">Punchinello</orgName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <p>First edition, <date when="2015">2015</date></p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher><orgName key="ENT.000002473">Historical Society of
+          Pennsylvania</orgName></publisher>
+        <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
+        <idno type="filename">11747</idno>
+        <availability status="restricted">
+          <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of copyright only
+            to original contributions made by the Historic Images, New Technologies (HINT) Project
+            participants and other staff. HSP makes no claim of copyright to the original text.
+            Permission is granted to download, transmit or otherwise reproduce, distribute or
+            display the text contributions to this work claimed by HSP for non-profit educational
+            purposes, provided that this header is included in its entirety. For inquiries about
+            commercial uses, please contact the Historical Society of Pennsylvania. HSP retains the
+            rights of all images unless otherwise noted. Possession of an HSP digital image does not
+            constitute permission to use or publish it. Requests for digital imaging, other
+            reproduction services, and the intended use of reproductions must be made in writing to
+            the Rights and Reproductions Coordinator at rnr@hsp.org.</p>
+        </availability>
+        <date when="2015">2015</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="project" key="CARTOONS">Historic Images, New Technologies (HINT)
+          Project</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository key="ENT.000002473">Historical Society of Pennsylvania</repository>
+            <collection key="3133">Historical Society of Pennsylvania cartoons and caricatures
+              collection</collection>
+            <idno type="citation">
+              <idno type="box">2</idno>
+              <idno type="folder">4</idno>
+            </idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <bibl>
+                <date from="1870-04-02">April 2, 1870</date>
+                <extent>1 clipping</extent>
+                <extent>
+                  <dimensions type="image" unit="cm"/>
+                  <height quantity="15"/>
+                  <width quantity="18.5"/>
+                </extent>
+                <listRelation>
+                  <relation name="depicted" active="ENT.000002960"/>
+                  <relation name="depicted" active="ENT.000003633"/>
+                  <relation name="depicted" active="ENT.000003634"/>
+                  <relation/>
+                </listRelation>
+              </bibl>
+            </msItem>
+          </msContents>
+          <history>
+            <acquisition>This is an artificial collection created over time by HSP staff mostly
+              through donations and purchases of individual prints. It also incorporates previously
+              uncataloged materials collected by the Balch Institute for Ethnic Studies. Some of the
+              20th century cartoons and drawings were removed from the J. Hampton Moore papers
+              (Collection 1541).</acquisition>
+          </history>
+        </msDesc>
+        <biblStruct>
+          <analytic>
+            <respStmt>
+              <resp key="art">artist</resp>
+              <persName key="ENT.000003631">Stephens, H. L. (Henry Louis), 1824-1882</persName>
+            </respStmt>
+            <respStmt>
+              <resp key="egr">engraver</resp>
+              <orgName key="ENT.000003632">Wevill &amp; Hammar</orgName>
+            </respStmt>
+            <respStmt>
+              <resp key="pbl">publisher</resp>
+              <orgName key="ENT.000003635">Punchinello</orgName>
+            </respStmt>
+            <title type="main" level="a">Mesmerism in Wall Street</title>
+            <date from="1870-04-02">April 2, 1870</date>
+          </analytic>
+          <monogr>
+            <title type="marc245a" level="j"><orgName key="ENT.000003635"
+              >Punchinello</orgName></title>
+            <imprint>
+              <pubPlace>New York</pubPlace>
+              <date from="1870-04-02">April 2, 1870</date>
+              <biblScope unit="volume">1</biblScope>
+              <biblScope unit="issue">1</biblScope>
+              <biblScope unit="page">8</biblScope>
+              <publisher>
+                <orgName key="ENT.000003635">Punchinello</orgName>
+              </publisher>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <bibl/>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The Historic Images, New Technologies (HINT) project aims to enhance description and
+          discovery of the Historical Society of Pennsylvania's graphics materials and promote the
+          linking and sharing of content among institutions and scholars. The project will result in
+          an update to HSP's digital image viewer and an online digital history exhibit that will
+          demonstrate the new viewer's capabilities and provide interpretive and contextual
+          materials to encourage users to interact with historical images in new ways. This project
+          was funded by a grant from the National Historical Publications and Records Commission's
+          (NHPRC) Innovation in Archives and Documentary Editing program.</p>
+      </projectDesc>
+      <editorialDecl n="4">
+        <p>This electronic file was created using manual keying following the recommendations for
+          Level 4 of "Best Practices for TEI in Libraries" guidelines v3.0.</p>
+        <p>This xml file uses unique entity identifiers, media file identifiers, and collection
+          identifiers in HSP's Digital Library, available at http://digitallibrary.hsp.org.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
+        <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
+        <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
+        <rendition scheme="css" xml:id="crossed-through">text-decoration: line-through</rendition>
+        <rendition scheme="other" xml:id="printed"/>
+        <rendition scheme="other" xml:id="typescript"/>
+        <rendition scheme="other" xml:id="handwritten"/>
+        <rendition scheme="other" xml:id="handwritten-underlined"/>
+        <rendition scheme="other" xml:id="handwritten-circled"/>
+        <rendition scheme="other" xml:id="handwritten-crossed-through"/>
+        <rendition scheme="other" xml:id="double-underline"/>
+        <rendition scheme="other" xml:id="stamp"/>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <catRef target="cartoons_genres.xml#clippings"/>
+        <catRef target="cartoons_genres.xml#wood_engravings"/>
+        <catRef target="cartoons_genres.xml#political_cartoons"/>
+        <catRef target="cartoons_taxonomies.xml#reconstruction"/>
+        <catRef target="cartoons_taxonomies.xml#featured"/>
+        <catRef target="cartoons_taxonomies.xml#econ"/>
+        <catRef target="cartoons_taxonomies.xml#gender"/>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change who="RachelMoloshok" when="2015-03-31">Exported from Collective Access. Basic
+        proofreading</change>
+      <change who="RachelMoloshok" when="2015-03-31">Encoded to featured level</change>
+      <change who="RachelMoloshok" when="2015-03-09">Encoded to basic level</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="100" lry="100">
+      <graphic url="FIL.000089373"/>
+      <zone n="1" xml:id="caption"
+        points="9.3,87.16 32.24,83.64 66.36,83.64 92.66,87.05 92.81,95.16 9.13,95.34"/>
+      <zone n="2" xml:id="head" points="4.58,3.71 95.64,4.14 95.54,9.04 4.58,8.71"/>
+      <zone n="3" xml:id="paper" points="35.14,52.56 45.13,55.47 40.93,58.9 30.14,56.11"/>
+      <zone n="4" xml:id="initials" points="11.33,78.36 16.33,78.36 16.33,83.36 11.33,83.36"/>
+      <zone n="5" xml:id="engravers" points="72.88,77.94 88.33,79.29 87.64,82.05 72.79,80.36"/>
+      <zone n="6" xml:id="sister1"
+        points="59.56,17.24 63.61,16.7 66.72,21.73 65.23,27.05 68.61,32.37 71.58,30.38 79.55,34.7 85.49,48.84 85.9,67.3 91.03,69.3 92.65,76.61 86.44,80.27 68.88,78.44 61.99,75.28 59.02,72.96 62.4,55.49 62.4,46.18 62.53,38.69 58.34,35.87 50.1,32.21 46.19,31.71 47,27.05 52.27,25.22 56.99,25.72 57.4,20.4"/>
+      <zone n="7" xml:id="sister2"
+        points="30.06,33.51 35.06,33.51 37.84,41.11 36.41,43.73 37.72,46.95 37.53,50.39 45.36,54.53 47.66,60.58 47.17,65.48 50.42,73.27 47.88,77.3 42.89,79.98 30.46,81.99 20.11,81.1 10.22,77.63 7.45,72.8 13.85,61.77 16.21,53.83 20.75,47.13 26.74,46.35 28.55,47.46 29.28,43.78 28.01,38.86"/>
+      <zone n="8" xml:id="vanderbilt"
+        points="39.42,24.35 42.06,22.56 44.96,23.19 46.49,27.49 46.75,31.06 45.73,33.47 49.81,37.14 50.24,39.97 58.5,45.31 60.2,50.03 59.43,53.6 60.97,55.07 63.27,60.62 62.07,69.22 56.62,59.57 53.05,57.58 52.88,59.36 58.92,75.3 56.03,75.3 53.05,70.69 48.71,59.57 43.88,54.35 35.68,44.79 35.04,36.3 36.02,33.05 39.51,31.79 38.06,28.85"
+      />
+    </surface>
+  </facsimile>
+  <text>
+    <front>
+      <div type="editorial_desc">
+        <p>At center, Cornelius Vanderbilt sits in a cushioned chair in a library. A woman,
+          identified in the caption as "First Lady Broker" (either Victoria Woodhull or Tennessee
+          Claflin) waves her hands in front of Vanderbilt's face, apparently hypnotizing him. At
+          Vanderbilt's side a second woman, identified in the caption as "Second Lady Broker"
+          (either Woodhull or Claflin), kneels and writes on a piece of paper. The caption implies
+          that Claflin and Woodhull have "mesmerized" Vanderbilt in order to sell them shares of
+          their stocks.</p>
+      </div>
+    </front>
+    <body>
+      <div type="image_transcription" n="1" facs="#caption">
+        <head><supplied resp="editorial">Title and caption</supplied></head>
+        <p>MESMERISM IN WALL STREET.</p>
+        <p><hi rendition="#italics">First Lady Broker (entrancing subject.)</hi> "THERE, I'VE GOT
+          HIM TO THE POINT NOW. TAKE HIM AT HIS WORD, QUICK."</p>
+        <p><hi rendition="#italics"><persName key="ENT.000003634">Commodore V—nd—rb—lt</persName>,
+            (murmurs.)</hi> "SELL ME ONE THOUSAND SHARES CENTRAL."</p>
+        <p><hi rendition="#italics">Second Lady Broker.</hi> "BOOKED!"</p>
+      </div>
+      <div type="image_transcription" n="2" facs="#head">
+        <head><supplied resp="editorial">Running heads</supplied></head>
+        <p>8</p>
+        <p><orgName key="ENT.000003635">PUNCHINELLO</orgName>.</p>
+        <p>APRIL 2, 1870.</p>
+      </div>
+      <div type="image_transcription" n="3" facs="#paper">
+        <head><supplied resp="editorial">Broker's notes</supplied></head>
+        <p><unclear reason="handwriting">HARLEM</unclear> 100</p>
+      </div>
+      <div type="image_transcription" n="4" facs="#initials">
+        <head><supplied resp="editorial">Artist's initials</supplied></head>
+        <p><persName key="ENT.000003631">HLS</persName></p>
+      </div>
+      <div type="image_transcription" n="5" facs="#engravers">
+        <head><supplied resp="editorial">Engravers</supplied></head>
+        <p><orgName key="ENT.000003632">WEVILL &amp; HAMMAR</orgName></p>
+      </div>
+      <div type="image_annotation" n="6" facs="#sister1">
+        <head>First lady broker (<persName key="ENT.000002960">Woodhull</persName> or <persName
+            key="ENT.000003633">Claflin</persName>)</head>
+        <p>The two women in this cartoon are clearly intended to be Victoria Woodhull and Tennessee
+          Claflin, sisters who became the first female stock brokers. However, the artist does not
+          provide any visual details to differentiate the two women and indicate which is Woodhull
+          and which is Claflin. Both Claflin and Woodhull, in addition to being stock brokers and
+          equal rights crusaders, worked as spiritualist mediums, clairvoyants (fortune tellers),
+          and magnetic or faith healers; both were advisors to <persName key="ENT.000003634"
+            >Cornelius Vanderbilt</persName>, who became their financial backer in establishing
+          their brokerage firm. It may be that the woman actively "mesmerizing" Vanderbilt is
+          supposed to be Claflin, as she was rumored to have had a romantic relationship with
+          him.</p>
+      </div>
+      <div type="image_annotation" n="7" facs="#sister2">
+        <head>Second lady broker (<persName key="ENT.000002960">Woodhull</persName> or <persName
+            key="ENT.000003633">Claflin</persName>)</head>
+        <p>The two women in this cartoon are clearly intended to be Victoria Woodhull and Tennessee
+          Claflin, sisters who became the first female stock brokers. However, the artist does not
+          provide any visual details to differentiate the two women in this cartoon, so it is
+          difficult to say whether the woman sitting by <persName key="ENT.000003634"
+            >Vanderbilt</persName>'s side is supposed to be Claflin or Woodhull. The cartoon implies
+          that the two women are controlling Vanderbilt to achieve financial gain.</p>
+      </div>
+      <div type="image_annotation" n="8" facs="#vanderbilt">
+        <head><persName key="ENT.000003634">Cornelius Vanderbilt</persName></head>
+        <p>Cornelius ("Commodore") Vanderbilt made his fortune in the railroad business and in 1872,
+          when this cartoon was published, was the richest man in America. His strong interest in
+          spiritualism put him in touch with sisters <persName key="ENT.000002960">Victoria
+            Woodhull</persName> and <persName key="ENT.000003633">Tennessee Claflin</persName>, who
+          became his advisors. He provided silent financial backing for at least two historic
+          firsts: the establishment of Woodhull and Claflin's brokerage firm, which made them the
+          first women stock brokers, and Woodhull's presidential campaign, in which she became the
+          first woman to run for president.</p>
+      </div>
+    </body>
+  </text>
 </TEI>
