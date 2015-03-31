@@ -1,251 +1,233 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
+
 
 <?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-
-
-    <teiHeader xml:lang="English">
-
-        <fileDesc>
-
-            <titleStmt>
-                <title type="main">TEI transcription of A Boxing Match, or Another Bloody Nose for
-                    John Bull</title>
-                <respStmt>
-                    <resp key="art">Artist</resp>
-                    <persName key="ENT.000000848">Charles, William</persName>
-                </respStmt>
-                <respStmt>
-                    <resp key="trc">Transcribed by</resp>
-                    <persName key="ENT.000003368">Moloshok, Rachel</persName>
-                </respStmt>
-                <respStmt>
-                    <resp key="mrk">Encoded by</resp>
-                    <persName key="ENT.000003368">Moloshok, Rachel</persName>
-                </respStmt>
-
-            </titleStmt>
-
-            <editionStmt>
-                <p>First edition, <date when="2015">2015</date></p>
-            </editionStmt>
-
-            <publicationStmt>
-                <publisher><orgName key="ENT.000002473">Historical Society of
-                    Pennsylvania</orgName></publisher>
-                <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
-                <idno type="filename">8532</idno>
-                <availability status="restricted">
-                    <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of
-                        copyright only to original contributions made by the Historic Images, New
-                        Technologies (HINT) Project participants and other staff. HSP makes no claim
-                        of copyright to the original text. Permission is granted to download,
-                        transmit or otherwise reproduce, distribute or display the text
-                        contributions to this work claimed by HSP for non-profit educational
-                        purposes, provided that this header is included in its entirety. For
-                        inquiries about commercial uses, please contact the Historical Society of
-                        Pennsylvania. HSP retains the rights of all images unless otherwise noted.
-                        Possession of an HSP digital image does not constitute permission to use or
-                        publish it. Requests for digital imaging, other reproduction services, and
-                        the intended use of reproductions must be made in writing to the Rights and
-                        Reproductions Coordinator at rnr@hsp.org.</p>
-                </availability>
-                <date when="2015"/>
-            </publicationStmt>
-
-            <seriesStmt>
-                <title level="s" type="project" key="CARTOONS"/>
-            </seriesStmt>
-
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <repository key="ENT.000002473"/>
-                        <collection key="V64"/>
-                        <idno type="citation">Bb 612 B691</idno>
-                    </msIdentifier>
-                    <msContents>
-                        <msItem>
-                            <respStmt>
-                                <resp key="art">Artist</resp>
-                                <persName key="ENT.000000848">Charles, William</persName>
-                            </respStmt>
-                            <respStmt>
-                                <resp key="egr">Engraver</resp>
-                                <persName key="ENT.000000848">Charles, William</persName>
-                            </respStmt>
-                            <title type="main" level="u">A Boxing Match, or Another Bloody Nose for
-                                John Bull</title>
-                            <bibl>
-                                <date from="1813-01-01" to="1813-12-31">circa 1813</date>
-                                <extent>1 loose sheet</extent>
-                                <relatedItem type="is_referenced_by" target="11812"/>
-                                <listRelation>
-                                    <relation name="depicted"
-                                        active="cartoons_symbols.xml#brother_jonathan"/>
-                                    <relation name="depicted"
-                                        active="cartoons_symbols.xml#john_bull"/>
-                                    <relation name="depicted" active="ENT.000003392"/>
-                                    <relation name="depicted" active="ENT.000002471"/>
-                                </listRelation>
-                            </bibl>
-                        </msItem>
-                    </msContents>
-
-                    <history>
-                        <acquisition/>
-                    </history>
-                </msDesc>
-
-            </sourceDesc>
-        </fileDesc>
-
-        <encodingDesc>
-            <projectDesc>
-                <p>The Historic Images, New Technologies (HINT) project aims to enhance description
-                    and discovery of the Historical Society of Pennsylvania's graphics materials and
-                    promote the linking and sharing of content among institutions and scholars. The
-                    project will result in an update to HSP's digital image viewer and an online
-                    digital history exhibit that will demonstrate the new viewer's capabilities and
-                    provide interpretive and contextual materials to encourage users to interact
-                    with historical images in new ways. This project was funded by a grant from the
-                    National Historical Publications and Records Commission's (NHPRC) Innovation in
-                    Archives and Documentary Editing program.</p>
-            </projectDesc>
-            <editorialDecl n="4">
-                <p>This electronic file was created using manual keying following the
-                    recommendations for Level 4 of "Best Practices for TEI in Libraries" guidelines
-                    v3.0.</p>
-                <p>This xml file uses unique entity identifiers, media file identifiers, and
-                    collection identifiers in HSP's Digital Library, available at
-                    http://digitallibrary.hsp.org.</p>
-
-            </editorialDecl>
-            <tagsDecl>
-                <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
-                <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
-                <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
-                <rendition scheme="css" xml:id="crossed-through">text-decoration:
-                    line-through</rendition>
-                <rendition scheme="other" xml:id="printed"/>
-                <rendition scheme="other" xml:id="typescript"/>
-                <rendition scheme="other" xml:id="handwritten"/>
-                <rendition scheme="other" xml:id="handwritten-underlined"/>
-                <rendition scheme="other" xml:id="handwritten-circled"/>
-                <rendition scheme="other" xml:id="handwritten-crossed-through"/>
-                <rendition scheme="other" xml:id="double-underline"/>
-                <rendition scheme="other" xml:id="stamp"/>
-                <namespace name="http://www.tei-c.org/ns/1.0">
-                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
-                </namespace>
-            </tagsDecl>
-        </encodingDesc>
-
-        <profileDesc>
-            <textClass>
-                <catRef target="cartoons_taxonomies.xml#early"/>
-                <catRef target="cartoons_taxonomies.xml#war"/>
-                <catRef target="cartoons_taxonomies.xml#international"/>
-                <catRef target="cartoons_taxonomies.xml#culture"/>
-                <catRef target="cartoons_genres.xml#etchings"/>
-                <catRef target="cartoons_genres.xml#watercolors"/>
-            </textClass>
-        </profileDesc>
-
-        <revisionDesc>
-            <change who="RachelMoloshok" when="2015-03-31">Added genres. Prepared for Collective
-                Access import</change>
-            <change who="RachelMoloshok" when="2015-02-09">Encoded to featured level</change>
-        </revisionDesc>
-    </teiHeader>
-
-    <facsimile>
-        <surface ulx="" uly="" lrx="" lry="">
-            <graphic url="FIL.000054708"/>
-            <zone n="1" xml:id="title"/>
-            <zone n="2" xml:id="john_bull"/>
-            <zone n="3" xml:id="brother_jonathan"/>
-            <zone n="4" xml:id="byline"/>
-            <zone n="5" xml:id="date"/>
-            <zone n="6" xml:id="call_no"/>
-            <zone n="7" xml:id="battle"/>
-        </surface>
-    </facsimile>
-
-    <text>
-        <front>
-            <div type="editorial_desc">
-                <p>This hand-colored cartoon, etched by William Charles, celebrates America's naval
-                    victories against Britain during the War of 1812 through the use of the symbolic
-                    figures "John Bull," a personification of Great Britain, and "Brother Jonathan,"
-                    a personification of the United States (and precursor to "Uncle Sam"). To the
-                    left is John Bull, drawn to look like British King George III; to the right is
-                    Brother Jonathan, drawn to look like United States President James Madison. Both
-                    men are in a fighter's stance and are holding their fists up. Behind them, two
-                    ships at sea are engaged in battle. Brother Jonathan is clearly winning the
-                    match, as John Bull has a black eye, his crown is askew, and blood is pouring
-                    from his nose. The cartoon's title, "A Boxing Match," is a reference to the
-                    defeat of the British ship <hi rendition="#italics">Boxer</hi> in September 1813
-                    by the American ship <hi rendition="#italics">Enterprise</hi>. Brother Jonathan,
-                    taunting John Bull, references the American ship when he boasts "I'll let you
-                    know we are an <hi rendition="#underline">Enterprize</hi>ing Nation and ready to
-                    meet you with equal force any day."</p>
-            </div>
-        </front>
-
-        <body>
-            <div type="image_transcription" facs="#title" n="1">
-                <head><supplied resp="editorial">Title</supplied></head>
-                <p>A BOXING MATCH, or Another Bloody Nose for <rs
-                        ref="cartoons_symbols.xml#john_bull">JOHN BULL</rs>.</p>
-            </div>
-            <div type="image_transcription" facs="#john_bull" n="2">
-                <head><supplied resp="editorial"><rs ref="cartoons_symbols.xml#john_bull">John
-                            Bull</rs>/<persName key="ENT.000003392">George
-                    III</persName></supplied></head>
-                <p>Stop, Stop Stop <rs ref="cartoons_symbols.xml#brother_jonathan">Brother
-                        Jonathan</rs>, or I shall fall with the loss of blood— I thought to have
-                    been too heavy for you__ But I must acknowledge your superior skill__ Two blows
-                    to my one! __ And so well directed too! Mercy mercy on me, how does this
-                    happen!!!</p>
-            </div>
-            <div type="image_transcription" facs="#brother_jonathan" n="3">
-                <head><supplied resp="editorial"><rs ref="cartoons_symbols.xml#brother_jonathan"
-                            >Brother Jonathan</rs>/<persName key="ENT.000002471">James
-                            Madison</persName></supplied></head>
-                <p>Ha __ Ah Johnny! you thought yourself a <hi rendition="#underline">Boxer</hi> did
-                    you! __ I'll let you know that we are an <sic><hi rendition="#underline"
-                            >Enterprize</hi>ing</sic> Nation, and ready to meet you with equal force
-                    any day.</p>
-            </div>
-
-            <div type="image_transcription" facs="#byline" n="4">
-                <head><supplied resp="editorial">Byline</supplied></head>
-                <p><persName key="ENT.000000848">W. Charles</persName> del et Sculp</p>
-            </div>
-
-            <div type="image_transcription" facs="#date" n="5">
-                <head><supplied resp="editorial">Note</supplied></head>
-                <p><add>(<date when="1812">1812</date>)</add></p>
-            </div>
-
-            <div type="image_transcription" facs="#call_no" n="6">
-                <head><supplied resp="editorial">Call number</supplied></head>
-                <p><add>Bb 612 B 691</add></p>
-            </div>
-
-            <div type="image_annotation" facs="#battle" n="7">
-                <head>Naval battle</head>
-                <p>In the background, two ships are shown in the midst of a battle at sea. This
-                    detail may be a specific reference to the battle between the American frigate
-                        <hi rendition="#italics">Enterprise</hi> and the British warship <hi
-                        rendition="#italics">Boxer</hi>, which took place in <date when="1813-09"
-                        >September 1813</date>, or it may simply be a general reference to the
-                    ongoing naval war between the United States and Britain.</p>
-            </div>
-        </body>
-
-        <back/>
-    </text>
+  <teiHeader xml:lang="English">
+    <fileDesc>
+      <titleStmt>
+        <title type="main">TEI transcription of A Boxing Match, or Another Bloody Nose for John
+          Bull</title>
+        <author/>
+        <respStmt>
+          <resp key="art">artist</resp>
+          <persName key="ENT.000000848">Charles, William, 1776-1820</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="trc">Transcribed by</resp>
+          <persName key="ENT.000003368">Moloshok, Rachel</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="mrk">Encoded by</resp>
+          <persName key="ENT.000003368">Moloshok, Rachel</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="pfr">Proofread by</resp>
+          <persName key="ENT.000003368">Moloshok, Rachel</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="egr">engraver</resp>
+          <persName key="ENT.000000848">Charles, William, 1776-1820</persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <p>First edition, <date when="2015">2015</date></p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher><orgName key="ENT.000002473">Historical Society of
+          Pennsylvania</orgName></publisher>
+        <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
+        <idno type="filename">8532</idno>
+        <availability status="restricted">
+          <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of copyright only
+            to original contributions made by the Historic Images, New Technologies (HINT) Project
+            participants and other staff. HSP makes no claim of copyright to the original text.
+            Permission is granted to download, transmit or otherwise reproduce, distribute or
+            display the text contributions to this work claimed by HSP for non-profit educational
+            purposes, provided that this header is included in its entirety. For inquiries about
+            commercial uses, please contact the Historical Society of Pennsylvania. HSP retains the
+            rights of all images unless otherwise noted. Possession of an HSP digital image does not
+            constitute permission to use or publish it. Requests for digital imaging, other
+            reproduction services, and the intended use of reproductions must be made in writing to
+            the Rights and Reproductions Coordinator at rnr@hsp.org.</p>
+        </availability>
+        <date when="2015">2015</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="project" key="CARTOONS">Historic Images, New Technologies (HINT)
+          Project</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository key="ENT.000002473">Historical Society of Pennsylvania</repository>
+            <collection key="V64">Historical Society of Pennsylvania medium graphics
+              collection</collection>
+            <idno type="citation">Bb 612 B691</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <author/>
+              <respStmt>
+                <resp key="art">artist</resp>
+                <persName key="ENT.000000848">Charles, William, 1776-1820</persName>
+              </respStmt>
+              <respStmt>
+                <resp key="egr">engraver</resp>
+                <persName key="ENT.000000848">Charles, William, 1776-1820</persName>
+              </respStmt>
+              <title type="main" level="u">A Boxing Match, or Another Bloody Nose for John
+                Bull</title>
+              <bibl>
+                <date from="1813-01-01" to="1813-12-31">circa 1813</date>
+                <extent>1 loose sheet</extent>
+                <extent>
+                  <dimensions type="image" unit="cm"/>
+                  <height quantity="29"/>
+                  <width quantity="44"/>
+                </extent>
+                <relatedItem type="is_referenced_by" target="11812"/>
+                <listRelation>
+                  <relation name="depicted" active="ENT.000003392"/>
+                  <relation name="depicted" active="ENT.000002471"/>
+                  <relation name="depicted" active="cartoons_symbols.xml#brother_jonathan"/>
+                  <relation name="depicted" active="cartoons_symbols.xml#john_bull"/>
+                </listRelation>
+              </bibl>
+            </msItem>
+          </msContents>
+        </msDesc>
+        <bibl/>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The Historic Images, New Technologies (HINT) project aims to enhance description and
+          discovery of the Historical Society of Pennsylvania's graphics materials and promote the
+          linking and sharing of content among institutions and scholars. The project will result in
+          an update to HSP's digital image viewer and an online digital history exhibit that will
+          demonstrate the new viewer's capabilities and provide interpretive and contextual
+          materials to encourage users to interact with historical images in new ways. This project
+          was funded by a grant from the National Historical Publications and Records Commission's
+          (NHPRC) Innovation in Archives and Documentary Editing program.</p>
+      </projectDesc>
+      <editorialDecl n="4">
+        <p>This electronic file was created using manual keying following the recommendations for
+          Level 4 of "Best Practices for TEI in Libraries" guidelines v3.0.</p>
+        <p>This xml file uses unique entity identifiers, media file identifiers, and collection
+          identifiers in HSP's Digital Library, available at http://digitallibrary.hsp.org.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
+        <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
+        <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
+        <rendition scheme="css" xml:id="crossed-through">text-decoration: line-through</rendition>
+        <rendition scheme="other" xml:id="printed"/>
+        <rendition scheme="other" xml:id="typescript"/>
+        <rendition scheme="other" xml:id="handwritten"/>
+        <rendition scheme="other" xml:id="handwritten-underlined"/>
+        <rendition scheme="other" xml:id="handwritten-circled"/>
+        <rendition scheme="other" xml:id="handwritten-crossed-through"/>
+        <rendition scheme="other" xml:id="double-underline"/>
+        <rendition scheme="other" xml:id="stamp"/>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <catRef target="cartoons_genres.xml#etchings"/>
+        <catRef target="cartoons_genres.xml#watercolors"/>
+        <catRef target="cartoons_taxonomies.xml#early"/>
+        <catRef target="cartoons_taxonomies.xml#war"/>
+        <catRef target="cartoons_taxonomies.xml#international"/>
+        <catRef target="cartoons_taxonomies.xml#culture"/>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change who="RachelMoloshok" when="2015-03-31">Exported from Collective Access. Basic proofreading</change>
+      <change who="RachelMoloshok" when="2015-03-31">Added genres. Prepared for Collective Access
+        import</change>
+      <change who="RachelMoloshok" when="2015-02-09">Encoded to featured level</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="100" lry="100">
+      <graphic url="FIL.000054708"/>
+      <zone n="1" xml:id="title" points="22.01,73.14 81,73.98 81,78.73 22.01,78.14"/>
+      <zone n="2" xml:id="john_bull"
+        points="20.1,16.34 42.55,16.67 45.04,22.54 45.12,28.74 46.05,32.72 50.41,32.61 51.74,36.81 48.54,42.01 50.8,67.24 36.09,68.9 30.33,65.8 30.49,70.34 26.76,72.33 23.56,67.35 27.53,57.06 23.49,50.09 33.06,32.28 31.27,30.62 20.06,30.73"/>
+      <zone n="3" xml:id="brother_jonathan"
+        points="57.45,16.5 81.28,16.53 81.19,24.71 71.25,24.85 67.35,28.15 67.72,34.09 68.1,38.58 65.03,48.09 69.77,57.2 70.6,60.11 69.03,61.69 73.11,69.35 67.91,74.5 68.84,68.43 58.34,57.2 58.99,68.82 52.4,69.62 54.72,66.05 51.56,54.3 57.42,49.15 57.79,42.67 53.05,37 53.79,33.3 51.1,29.86 53.61,26.83 59.55,32.9 60.94,31.71 60.2,27.75 61.22,24.32 57.42,24.32"/>
+      <zone n="4" xml:id="byline" points="71.19,72.13 79.83,72.25 79.83,73.66 70.97,73.66"/>
+      <zone n="5" xml:id="date" points="8.42,8.2 13.42,8.2 13.42,13.2 8.42,13.2"/>
+      <zone n="6" xml:id="call_no" points="88.98,89.61 93.98,89.61 93.98,94.61 88.98,94.61"/>
+      <zone n="7" xml:id="battle" points="68.36,42.01 77.46,42.39 76.08,49.26 68.48,48.28"/>
+    </surface>
+  </facsimile>
+  <text>
+    <front>
+      <div type="editorial_desc">
+        <p>This hand-colored cartoon, etched by William Charles, celebrates America's naval
+          victories against Britain during the War of 1812 through the use of the symbolic figures
+          "John Bull," a personification of Great Britain, and "Brother Jonathan," a personification
+          of the United States (and precursor to "Uncle Sam"). To the left is John Bull, drawn to
+          look like British King George III; to the right is Brother Jonathan, drawn to look like
+          United States President James Madison. Both men are in a fighter's stance and are holding
+          their fists up. Behind them, two ships at sea are engaged in battle. Brother Jonathan is
+          clearly winning the match, as John Bull has a black eye, his crown is askew, and blood is
+          pouring from his nose. The cartoon's title, "A Boxing Match," is a reference to the defeat
+          of the British ship <hi rendition="#italics">Boxer</hi> in September 1813 by the American
+          ship <hi rendition="#italics">Enterprise</hi>. Brother Jonathan, taunting John Bull,
+          references the American ship when he boasts "I'll let you know we are an <hi
+            rendition="#underline">Enterprize</hi>ing Nation and ready to meet you with equal force
+          any day."</p>
+      </div>
+    </front>
+    <body>
+      <div type="image_transcription" n="1" facs="#title">
+        <head><supplied resp="editorial">Title</supplied></head>
+        <p>A BOXING MATCH, or Another Bloody Nose for <rs ref="cartoons_symbols.xml#john_bull">JOHN
+            BULL</rs>.</p>
+      </div>
+      <div type="image_transcription" n="2" facs="#john_bull">
+        <head><supplied resp="editorial"><rs ref="cartoons_symbols.xml#john_bull">John
+              Bull</rs>/<persName key="ENT.000003392">George III</persName></supplied></head>
+        <p>Stop, Stop Stop <rs ref="cartoons_symbols.xml#brother_jonathan">Brother Jonathan</rs>, or
+          I shall fall with the loss of blood— I thought to have been too heavy for you__ But I must
+          acknowledge your superior skill__ Two blows to my one! __ And so well directed too! Mercy
+          mercy on me, how does this happen!!!</p>
+      </div>
+      <div type="image_transcription" n="3" facs="#brother_jonathan">
+        <head><supplied resp="editorial"><rs ref="cartoons_symbols.xml#brother_jonathan">Brother
+              Jonathan</rs>/<persName key="ENT.000002471">James Madison</persName></supplied></head>
+        <p>Ha __ Ah Johnny! you thought yourself a <hi rendition="#underline">Boxer</hi> did you! __
+          I'll let you know that we are an <sic><hi rendition="#underline">Enterprize</hi>ing</sic>
+          Nation, and ready to meet you with equal force any day.</p>
+      </div>
+      <div type="image_transcription" n="4" facs="#byline">
+        <head><supplied resp="editorial">Byline</supplied></head>
+        <p><persName key="ENT.000000848">W. Charles</persName> del et Sculp</p>
+      </div>
+      <div type="image_transcription" n="5" facs="#date">
+        <head><supplied resp="editorial">Note</supplied></head>
+        <p><add>(<date when="1812">1812</date>)</add></p>
+      </div>
+      <div type="image_transcription" n="6" facs="#call_no">
+        <head><supplied resp="editorial">Call number</supplied></head>
+        <p><add>Bb 612 B 691</add></p>
+      </div>
+      <div type="image_annotation" n="7" facs="#battle">
+        <head>Naval battle</head>
+        <p>In the background, two ships are shown in the midst of a battle at sea. This detail may
+          be a specific reference to the battle between the American frigate <hi
+            rendition="#italics">Enterprise</hi> and the British warship <hi rendition="#italics"
+            >Boxer</hi>, which took place in <date when="1813-09">September 1813</date>, or it may
+          simply be a general reference to the ongoing naval war between the United States and
+          Britain.</p>
+      </div>
+    </body>
+  </text>
 </TEI>
