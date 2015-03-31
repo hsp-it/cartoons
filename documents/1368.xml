@@ -12,6 +12,11 @@
                     <persName key="ENT.000000379"
                         >Joseph Ferdinand Keppler</persName>
                 </respStmt>
+                
+                <respStmt>
+                    <resp key="ltg">lithographer</resp>
+                    <orgName key="ENT.000003611">J. Ottman Lithographic Company</orgName>
+                </respStmt>
                
                 <respStmt>
                     <resp key="trc">Transcribed by</resp>
@@ -86,6 +91,10 @@
                             <resp key="art">Artist</resp>
                             <persName key="ENT.000000379">Joseph Ferdinand Keppler</persName>
                         </respStmt>
+                        <respStmt>
+                            <resp key="ltg">lithographer</resp>
+                            <orgName key="ENT.000003611">J. Ottman Lithographic Company</orgName>
+                        </respStmt>
                         <title type="main" level="a">The Pope's Dream, a Roman Catholic America</title>
                     </analytic>
                     <monogr>
@@ -155,7 +164,9 @@
                 <catRef target="cartoons_taxonomies.xml#gilded"/>
                 <catRef target="cartoons_taxonomies.xml#stereotypes"/>
                 <catRef target="cartoons_taxonomies.xml#international"/>
-                <catRef target="cartoon_genres.xml#Lithographs"/>
+                <catRef target="cartoons_genres.xml#clippings"/>
+                <catRef target="cartoons_genres.xml#chromolithographs"/>
+                <catRef target="cartoons_genres.xml#political_cartoons"/>
                 
             </textClass>
         </profileDesc>

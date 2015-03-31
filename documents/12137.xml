@@ -13,6 +13,10 @@
           <persName key="ENT.000003630">Wales, James Albert, 1852-1886</persName>
         </respStmt>
         <respStmt>
+          <resp key="ltg">Lithographer</resp>
+          <persName key="ENT.000000380">Mayer, Merkel &amp; Ottmann </persName>
+        </respStmt>
+        <respStmt>
           <resp key="trc">Transcribed by</resp>
           <persName key="ENT.000003544">Biunno, Diane</persName>
         </respStmt>
@@ -69,6 +73,10 @@
             <respStmt>
               <resp key="art">artist</resp>
               <persName key="ENT.000003630">Wales, James Albert, 1852-1886</persName>
+            </respStmt>
+            <respStmt>
+              <resp key="ltg">Lithographer</resp>
+              <persName key="ENT.000000380">Mayer, Merkel &amp; Ottmann </persName>
             </respStmt>
             <respStmt>
               <resp key="pbl">publisher</resp>
@@ -129,15 +137,16 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <catRef target="cartoons_genres.xml#lithographs"/>
+        <catRef target="cartoons_genres.xml#clippings"/>
         <catRef target="cartoons_genres.xml#political_cartoons"/>
+        <catRef target="cartoons_genres.xml#chromolithographs"/>
         <catRef target="cartoons_taxonomies.xml#lesson_plan"/>
         <catRef target="cartoons_taxonomies.xml#gilded"/>
         <catRef target="cartoons_taxonomies.xml#econ"/>
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change who="DianeBiunno" when="2015-03-25">Exported from DAMS</change>
+      <change who="DianeBiunno" when="2015-03-31">Exported from CA</change>
       <change who="DianeBiunno" when="2015-03-10">Encoded to lesson plan level</change>
       <change who="DianeBiunno" when="2015-03-09">Encoded to basic level</change>
       <change who="RachelMoloshok" when="2015-01-07">Template file created</change>
@@ -148,7 +157,6 @@
       <graphic url="FIL.000090260"/>
       <zone n="1" xml:id="Title" points="16.53,91.59 81.18,92.28 81.56,96.4 16.53,96.05"/>
       <zone n="2" xml:id="Artist" points="52.52,87.72 58.29,88.15 58.07,92.66 52.48,92.49"/>
-      <zone n="3" xml:id="Puck" points="45.71,2.46 53.68,2.46 53.68,6.75 45.71,6.41"/>
       <zone n="4" xml:id="Note" points="3.24,29.17 5.08,29.32 5.08,37.71 3.28,37.61"/>
       <zone n="5" xml:id="Elite" points="35.88,50.37 48.8,57.18 48.92,60.2 35.49,54.53"/>
       <zone n="6" xml:id="Milligan" points="60.95,50.33 68.29,46.16 68.72,51.75 61.04,54.69"/>
@@ -169,8 +177,6 @@
       <div type="image_transcription" n="2" facs="#Artist"><head><supplied resp="editorial"><persName key="ENT.000003630">James Albert
                             Wales</persName></supplied></head>
                 <p>JA Wales</p></div>
-      <div type="image_transcription" n="3" facs="#Puck"><head><supplied resp="editorial"><orgName key="ENT.000000384">Puck</orgName></supplied></head>
-                <p>PUCK.</p></div>
       <div type="image_transcription" n="4" facs="#Note"><head><supplied resp="editorial">Note</supplied></head>
                 <p><add>8-10-81</add></p></div>
       <div type="image_transcription" n="5" facs="#Elite"><head><supplied resp="editorial">Sign</supplied></head>

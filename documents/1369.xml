@@ -12,6 +12,10 @@
           <persName key="ENT.000000379">Keppler, Joseph Ferdinand, 1838-1894</persName>
         </respStmt>
         <respStmt>
+          <resp key="ltg">Lithographer</resp>
+          <persName key="ENT.000000380">Mayer, Merkel &amp; Ottmann </persName>
+        </respStmt>
+        <respStmt>
           <resp key="trc">Transcribed by</resp>
           <persName key="ENT.000003544">Biunno, Diane</persName>
         </respStmt>
@@ -82,6 +86,10 @@
               <persName key="ENT.000000379">Keppler, Joseph Ferdinand, 1838-1894</persName>
             </respStmt>
             <respStmt>
+              <resp key="ltg">Lithographer</resp>
+              <persName key="ENT.000000380">Mayer, Merkel &amp; Ottmann </persName>
+            </respStmt>
+            <respStmt>
               <resp key="pbl">publisher</resp>
               <orgName key="ENT.000003163">Keppler &amp; Schwarzmann</orgName>
             </respStmt>
@@ -142,7 +150,9 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <catRef target="cartoons_genres.xml#lithographs"/>
+        <catRef target="cartoons_genres.xml#political_cartoons"/>
+        <catRef target="cartoons_genres.xml#clippings"/>
+        <catRef target="cartoons_genres.xml#chromolithographs"/>
         <catRef target="cartoons_taxonomies.xml#lesson_plan"/>
         <catRef target="cartoons_taxonomies.xml#gilded"/>
         <catRef target="cartoons_taxonomies.xml#stereotypes"/>
@@ -151,6 +161,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
+      <change who="DianeBiunno" when="2015-03-31">Basic Proofreading</change>
       <change who="DianeBiunno" when="2015-03-25">Exported from DAMS</change>
       <change who="DianeBiunno" when="2015-03-11">Encoded to lesson plan level</change>
       <change who="DianeBiunno" when="2015-03-10">Encoded to basic level</change>

@@ -13,6 +13,10 @@
           <persName key="ENT.000003616">Opper, Frederick Burr, 1857-1937</persName>
         </respStmt>
         <respStmt>
+          <resp key="ltg">Lithographer</resp>
+          <persName key="ENT.000000380">Mayer, Merkel &amp; Ottmann </persName>
+        </respStmt>
+        <respStmt>
           <resp key="trc">Transcribed by</resp>
           <persName key="ENT.000003544">Biunno, Diane</persName>
         </respStmt>
@@ -25,32 +29,17 @@
           <orgName key="ENT.000003163">Keppler &amp; Schwarzmann</orgName>
         </respStmt>
       </titleStmt>
-      <editionStmt>
-        <p>First edition, <date when="2015">2015</date></p>
-      </editionStmt>
+      <editionStmt><p>First edition, <date when="2015">2015</date></p></editionStmt>
       <publicationStmt>
         <publisher><orgName key="ENT.000002473">Historical Society of
-          Pennsylvania</orgName></publisher>
+                    Pennsylvania</orgName></publisher>
         <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
         <idno type="filename">12150</idno>
-        <availability status="restricted">
-          <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of copyright only
-            to original contributions made by the Historic Images, New Technologies (HINT) Project
-            participants and other staff. HSP makes no claim of copyright to the original text.
-            Permission is granted to download, transmit or otherwise reproduce, distribute or
-            display the text contributions to this work claimed by HSP for non-profit educational
-            purposes, provided that this header is included in its entirety. For inquiries about
-            commercial uses, please contact the Historical Society of Pennsylvania. HSP retains the
-            rights of all images unless otherwise noted. Possession of an HSP digital image does not
-            constitute permission to use or publish it. Requests for digital imaging, other
-            reproduction services, and the intended use of reproductions must be made in writing to
-            the Rights and Reproductions Coordinator at rnr@hsp.org.</p>
-        </availability>
+        <availability status="restricted"><p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of                        copyright only to original contributions made by the Historic Images, New                        Technologies (HINT) Project participants and other staff. HSP makes no claim                        of copyright to the original text. Permission is granted to download,                        transmit or otherwise reproduce, distribute or display the text                        contributions to this work claimed by HSP for non-profit educational                        purposes, provided that this header is included in its entirety. For                        inquiries about commercial uses, please contact the Historical Society of                        Pennsylvania. HSP retains the rights of all images unless otherwise noted.                        Possession of an HSP digital image does not constitute permission to use or                        publish it. Requests for digital imaging, other reproduction services, and                        the intended use of reproductions must be made in writing to the Rights and                        Reproductions Coordinator at rnr@hsp.org.</p></availability>
         <date when="2015">2015</date>
       </publicationStmt>
       <seriesStmt>
-        <title level="s" type="project" key="CARTOONS">Historic Images, New Technologies (HINT)
-          Project</title>
+        <title level="s" type="project" key="CARTOONS">Historic Images, New Technologies (HINT) Project</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -84,6 +73,10 @@
               <persName key="ENT.000003616">Opper, Frederick Burr, 1857-1937</persName>
             </respStmt>
             <respStmt>
+              <resp key="ltg">Lithographer</resp>
+              <persName key="ENT.000000380">Mayer, Merkel &amp; Ottmann </persName>
+            </respStmt>
+            <respStmt>
               <resp key="pbl">publisher</resp>
               <orgName key="ENT.000003163">Keppler &amp; Schwarzmann</orgName>
             </respStmt>
@@ -91,7 +84,8 @@
             <date from="1882-05-24">May 24, 1882</date>
           </analytic>
           <monogr>
-            <title type="marc245a" level="j"><orgName key="ENT.000000384"> Puck</orgName></title>
+            <title type="marc245a" level="j"><orgName key="ENT.000000384">
+                                Puck</orgName></title>
             <imprint>
               <pubPlace>New York</pubPlace>
               <date from="1882-05-24">May 24, 1882</date>
@@ -108,22 +102,21 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <projectDesc>
-        <p>The Historic Images, New Technologies (HINT) project aims to enhance description and
-          discovery of the Historical Society of Pennsylvania's graphics materials and promote the
-          linking and sharing of content among institutions and scholars. The project will result in
-          an update to HSP's digital image viewer and an online digital history exhibit that will
-          demonstrate the new viewer's capabilities and provide interpretive and contextual
-          materials to encourage users to interact with historical images in new ways. This project
-          was funded by a grant from the National Historical Publications and Records Commission's
-          (NHPRC) Innovation in Archives and Documentary Editing program.</p>
-      </projectDesc>
-      <editorialDecl n="4">
-        <p>This electronic file was created using manual keying following the recommendations for
-          Level 4 of "Best Practices for TEI in Libraries" guidelines v3.0.</p>
-        <p>This xml file uses unique entity identifiers, media file identifiers, and collection
-          identifiers in HSP's Digital Library, available at http://digitallibrary.hsp.org.</p>
-      </editorialDecl>
+      <projectDesc><p>The Historic Images, New Technologies (HINT) project aims to enhance description
+                    and discovery of the Historical Society of Pennsylvania's graphics materials and
+                    promote the linking and sharing of content among institutions and scholars. The
+                    project will result in an update to HSP's digital image viewer and an online
+                    digital history exhibit that will demonstrate the new viewer's capabilities and
+                    provide interpretive and contextual materials to encourage users to interact
+                    with historical images in new ways. This project was funded by a grant from the
+                    National Historical Publications and Records Commission's (NHPRC) Innovation in
+                    Archives and Documentary Editing program.</p></projectDesc>
+      <editorialDecl n="4"><p>This electronic file was created using manual keying following the
+                    recommendations for Level 4 of "Best Practices for TEI in Libraries" guidelines
+                    v3.0.</p>
+                <p>This xml file uses unique entity identifiers, media file identifiers, and
+                    collection identifiers in HSP's Digital Library, available at
+                    http://digitallibrary.hsp.org.</p></editorialDecl>
       <tagsDecl>
         <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
         <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
@@ -144,8 +137,9 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <catRef target="cartoons_genres.xml#lithographs"/>
+        <catRef target="cartoons_genres.xml#chromolithographs"/>
         <catRef target="cartoons_genres.xml#political_cartoons"/>
+        <catRef target="cartoons_genres.xml#clippings"/>
         <catRef target="cartoons_taxonomies.xml#lesson_plan"/>
         <catRef target="cartoons_taxonomies.xml#gilded"/>
         <catRef target="cartoons_taxonomies.xml#stereotypes"/>
@@ -153,6 +147,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
+      <change who="DianeBiunno" when="2015-03-31">Basic Proofreading</change>
       <change who="DianeBiunno" when="2015-03-25">Exported from CA</change>
       <change who="DianeBiunno" when="2015-03-10">Encoded to lesson plan level</change>
       <change who="DianeBiunno" when="2015-03-10">Encoded to basic level</change>
@@ -164,77 +159,32 @@
       <graphic url="FIL.000090261"/>
       <zone n="1" xml:id="Title" points="17.36,89.61 80.12,89.04 80.34,93.7 17.46,93.41"/>
       <zone n="2" xml:id="Artist" points="85.98,84.65 91.77,84.52 91.69,88.93 85.99,88.93"/>
-      <zone n="3" xml:id="City"
-        points="8.8,52.56 15.96,52.12 16.13,56.88 13.53,57.47 13.7,60.88 12.78,61.04 12.53,57.69 9.09,58.55"/>
+      <zone n="3" xml:id="City" points="8.8,52.56 15.96,52.12 16.13,56.88 13.53,57.47 13.7,60.88 12.78,61.04 12.53,57.69 9.09,58.55"/>
       <zone n="4" xml:id="Wash" points="7.16,12.23 28.24,12.58 28.65,32.67 7.02,32.5"/>
-      <zone n="5" xml:id="Fund"
-        points="60.7,22.13 64.93,20.77 69.71,21.86 69.93,26.98 66.02,28.96 60.9,26.98"/>
-      <zone n="6" xml:id="Ship"
-        points="52.96,31.98 54.73,34.15 55.2,36.04 58.73,41.24 57.48,43.09 56.3,43.24 56.23,45.69 49.95,45.01 49.72,44.18 48.91,43.68 48.5,42.09 49.71,40.02 49.53,37.88 48.74,36.59 49.5,35.84 48.01,34.75 48.14,33.31 49.41,33.08 49.71,32.85 50.98,32.68 51.02,32.25"/>
-      <zone n="7" xml:id="Puck" points="44.67,9.25 51.62,9.34 51.76,12.22 44.67,12.13"/>
+      <zone n="5" xml:id="Fund" points="60.7,22.13 64.93,20.77 69.71,21.86 69.93,26.98 66.02,28.96 60.9,26.98"/>
+      <zone n="6" xml:id="Ship" points="52.96,31.98 54.73,34.15 55.2,36.04 58.73,41.24 57.48,43.09 56.3,43.24 56.23,45.69 49.95,45.01 49.72,44.18 48.91,43.68 48.5,42.09 49.71,40.02 49.53,37.88 48.74,36.59 49.5,35.84 48.01,34.75 48.14,33.31 49.41,33.08 49.71,32.85 50.98,32.68 51.02,32.25"/>
     </surface>
   </facsimile>
   <text>
     <front>
-      <div type="editorial_desc">
-        <p>The political cartoon is divided into two parts. The left side of the image is labeled
-          "United States-Working for it" and depicts several Irishman working at a construction
-          site. A woman in the upper left corner of the image is using a wash basin to do her
-          laundry. Meanwhile, on the right side of the image labeled "Ireland-Waiting for it," a
-          poor family sits on a hillside overlooking the sea. There is a bottle of alcohol on the
-          ground, a dilapidated shack in the background, and pigs. A mother holds a baby on her lap
-          while her other children lie down lazily on the grass. The father looks out into the
-          distance at the "Relief ship." On the upper right corner of the image, two men use their
-          spyglasses to view the ship and next to them is a box labeled "agitation and disturbance
-          fund."</p>
-        <p>The political cartoon criticizes Irish Americans for sending money back to Ireland to aid
-          victims of famine and to support the Irish National Land League. The Land League sought to
-          help Irish tenant farmers who were being evicted from their lands by Anglo-Protestant Land
-          owners. The editors of <hi rendition="#italics">Puck</hi>, however, looked critically upon
-          the relief fund and the Land League, and claimed that the money was funding extremist
-          activities. In fact, the editorial which accompanies the political cartoon expresses anger
-          at naturalized Irish-Americans who "pretend to be American" and send their money to the
-          "turbulent island."</p>
-      </div>
+      <div type="editorial_desc"><p>The political cartoon is divided into two parts.  The left side of the image is labeled "United States-Working for it" and depicts several Irishman working at a construction site.  A woman in the upper left corner of the image is using a wash basin to do her laundry.  Meanwhile, on the right side of the image labeled "Ireland-Waiting for it," a poor family sits on a hillside overlooking the sea. There is a bottle of alcohol on the ground, a dilapidated shack in the background, and pigs.  A mother holds a baby on her lap while her other children lie down lazily on the grass.  The father looks out into the distance at the "Relief ship."  On the upper right corner of the image, two men use their spyglasses to view the ship and next to them is a box labeled "agitation and disturbance fund."</p>                <p>The political cartoon criticizes Irish Americans for sending money back to Ireland to aid victims of famine and to support the Irish National Land League.  The Land League sought to help Irish tenant farmers who were being evicted from their lands by Anglo-Protestant Land owners.  The editors of <hi rendition="#italics">Puck</hi>, however, looked critically upon the relief fund and the Land League, and claimed that the money was funding extremist activities.  In fact, the editorial which accompanies the political cartoon expresses anger at naturalized Irish-Americans who "pretend to be American" and send their money to the "turbulent island."</p></div>
     </front>
     <body>
-      <div type="image_transcription" n="1" facs="#Title">
-        <head><supplied resp="editorial">Title and Caption</supplied></head>
-        <p>AMERICAN GOLD.</p>
-        <p>UNITED STATES-WORKING FOR IT.</p>
-        <p>IRELAND-WAITING FOR IT.</p>
-      </div>
-      <div type="image_transcription" n="2" facs="#Artist">
-        <head><supplied resp="editorial"><persName key="ENT.000003616">Frederick Burr
-              Opper</persName></supplied></head>
-        <p>F. Opper</p>
-      </div>
-      <div type="image_transcription" n="3" facs="#City">
-        <head><supplied resp="editorial">Sign 1</supplied></head>
-        <p>CITY IMPROVEMENTS</p>
-      </div>
-      <div type="image_transcription" n="4" facs="#Wash">
-        <head><supplied resp="editorial">Sign 2</supplied></head>
-        <p>WASHING DONE</p>
-      </div>
-      <div type="image_transcription" n="5" facs="#Fund">
-        <head><supplied resp="editorial">Sign 3</supplied></head>
-        <p>AGITATION AND DISTURBANCE FUND <note type="editorial" n="1">The editors of <hi
-              rendition="#italics">Puck</hi> criticized Irish-Americans for contributing to the
-            relief fund. The editors believed that the money wasn't helping the poor; rather it was
-            funding Irish nationalist causes.</note></p>
-      </div>
-      <div type="image_transcription" n="6" facs="#Ship">
-        <head><supplied resp="editorial">Relief Aid</supplied></head>
-        <p>RELIEF SHIP</p>
-        <p>$27.000.000 <note type="editorial" n="2">The ship is loaded with sacks that have large
-            dollar signs printed across them.</note></p>
-      </div>
-      <div type="image_transcription" n="7" facs="#Puck">
-        <head><supplied resp="editorial"><orgName key="ENT.000000384"
-          >Puck</orgName></supplied></head>
-        <p>PUCK.</p>
-      </div>
+      <div type="image_transcription" n="1" facs="#Title"><head><supplied resp="editorial">Title and Caption</supplied></head>
+                <p>AMERICAN GOLD.</p>
+                <p>UNITED STATES-WORKING FOR IT.</p>
+                <p>IRELAND-WAITING FOR IT.</p></div>
+      <div type="image_transcription" n="2" facs="#Artist"><head><supplied resp="editorial"><persName key="ENT.000003616">Frederick Burr Opper</persName></supplied></head>
+                <p>F. Opper</p></div>
+      <div type="image_transcription" n="3" facs="#City"><head><supplied resp="editorial">Sign 1</supplied></head>
+                <p>CITY IMPROVEMENTS</p></div>
+      <div type="image_transcription" n="4" facs="#Wash"><head><supplied resp="editorial">Sign 2</supplied></head>
+                <p>WASHING DONE</p></div>
+      <div type="image_transcription" n="5" facs="#Fund"><head><supplied resp="editorial">Sign 3</supplied></head>
+                <p>AGITATION AND DISTURBANCE FUND <note type="editorial" n="1">The editors of <hi rendition="#italics">Puck</hi> criticized Irish-Americans for contributing to the relief fund.  The editors believed that the money wasn't helping the poor; rather it was funding Irish nationalist causes.</note></p></div>
+      <div type="image_transcription" n="6" facs="#Ship"><head><supplied resp="editorial">Relief Aid</supplied></head>
+                <p>RELIEF SHIP</p>
+                <p>$27.000.000 <note type="editorial" n="2">The ship is loaded with sacks that have large dollar signs printed across them.</note></p></div>
     </body>
   </text>
 </TEI>

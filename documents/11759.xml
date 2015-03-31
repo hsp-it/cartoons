@@ -1,299 +1,274 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
+
 
 <?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
-
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-
-
-    <teiHeader xml:lang="English">
-
-        <fileDesc>
-
-            <titleStmt>
-                <title type="main"
-                    >TEI transcription of Castle Garden Emigrant-Catchers</title>
-                <respStmt>
-                    <resp key="art">Artist</resp>
-                    <persName key="ENT.000003616"
-                        >Frederick Burr Opper</persName>
-                </respStmt>
-                
-                <respStmt>
-                    <resp key="ltg">Lithographer</resp>
-                    <persName key="ENT.000000380">Mayer, Merkel &amp; Ottmann </persName>
-                </respStmt>
-                
-                <respStmt>
-                    <resp key="trc">Transcribed by</resp>
-                    <persName key="ENT.000003544">Diane Biunno</persName>
-                </respStmt>
-                <respStmt>
-                    <resp key="mrk">Encoded by</resp>
-                    <persName key="ENT.000003544">Diane Biunno</persName>
-                </respStmt>
-
-            </titleStmt>
-
-            <editionStmt>
-                <p>First edition, <date when="2015">2015</date></p>
-            </editionStmt>
-
-            <publicationStmt>
-                <publisher><orgName key="ENT.000002473">Historical Society of
-                    Pennsylvania</orgName></publisher>
-                <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
-                <idno type="filename"
-                    >11759</idno>
-                <availability status="restricted">
-                    <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of
-                        copyright only to original contributions made by the Historic Images, New
-                        Technologies (HINT) Project participants and other staff. HSP makes no claim
-                        of copyright to the original text. Permission is granted to download,
-                        transmit or otherwise reproduce, distribute or display the text
-                        contributions to this work claimed by HSP for non-profit educational
-                        purposes, provided that this header is included in its entirety. For
-                        inquiries about commercial uses, please contact the Historical Society of
-                        Pennsylvania. HSP retains the rights of all images unless otherwise noted.
-                        Possession of an HSP digital image does not constitute permission to use or
-                        publish it. Requests for digital imaging, other reproduction services, and
-                        the intended use of reproductions must be made in writing to the Rights and
-                        Reproductions Coordinator at rnr@hsp.org.</p>
-                </availability>
-                <date when="2015"/>
-            </publicationStmt>
-
-            <seriesStmt>
-                <title level="s" type="project" key="CARTOONS"/>
-            </seriesStmt>
-
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <repository key="ENT.000002473"/>
-                        <collection key="PG278">Balch Broadsides: Satirical Cartoons</collection>
-                        
-                        <idno type="citation">
-                            <idno type="box">5</idno>
-                            <idno type="folder">1</idno>
-                        </idno>
-                               
-                    </msIdentifier>
-                    <msContents>
-                        <msItem>
-                            <bibl>
-                                <date from="1882-06-14">June 14, 1882</date>
-                                <extent>1 loose sheet</extent>
-                                <extent>
-                                    <dimensions type="image" unit="cm">
-                                        <height quantity="25.5"/>
-                                        <width quantity="33"/>
-                                    </dimensions>
-                                </extent>    
-                            </bibl>
-                        </msItem>
-                    </msContents>
-
-                   
-                </msDesc>
-                <biblStruct>
-                    <analytic>
-                        <respStmt>
-                            <resp key="art">Artist</resp>
-                            <persName key="ENT.000003616">Frederick Burr Opper</persName>   
-                        </respStmt>
-                        
-                        <respStmt>
-                            <resp key="ltg">Lithographer</resp>
-                            <orgName key="ENT.000000380">Mayer, Merkel &amp; Ottmann </orgName>
-                        </respStmt>
-                       
-                        <title type="main" level="a">Castle Garden Emigrant-Catchers</title>
-                    </analytic>
-                    <monogr>
-                        <title type="marc245a" level="j"><orgName key="ENT.000000384">
-                        Puck</orgName></title>
-                        
-                        <imprint>
-                            <publisher><orgName key="ENT.000003163"
-                                >Keppler &amp; Schwarzmann</orgName></publisher>
-                            <pubPlace>New York</pubPlace>
-                            <date from="1882-06-07"
-                                >June 7, 1882</date>
-                            <biblScope unit="volume">11</biblScope>
-                            <biblScope unit="issue">275</biblScope>
-                            
-                        </imprint>
-                        
-                    </monogr>
-                </biblStruct>
-
-            </sourceDesc>
-        </fileDesc>
-
-        <encodingDesc>
-            <projectDesc>
-                <p>The Historic Images, New Technologies (HINT) project aims to enhance description
-                    and discovery of the Historical Society of Pennsylvania's graphics materials and
-                    promote the linking and sharing of content among institutions and scholars. The
-                    project will result in an update to HSP's digital image viewer and an online
-                    digital history exhibit that will demonstrate the new viewer's capabilities and
-                    provide interpretive and contextual materials to encourage users to interact
-                    with historical images in new ways. This project was funded by a grant from the
-                    National Historical Publications and Records Commission's (NHPRC) Innovation in
-                    Archives and Documentary Editing program.</p>
-            </projectDesc>
-            <editorialDecl n="4">
-              
-                <p>This electronic file was created using manual keying following the
-                    recommendations for Level 4 of "Best Practices for TEI in Libraries" guidelines
-                    v3.0.</p>
-                <p>This xml file uses unique entity identifiers, media file identifiers, and
-                    collection identifiers in HSP's Digital Library, available at
-                    http://digitallibrary.hsp.org.</p>
-
-            </editorialDecl>
-            <tagsDecl>
-                <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
-                <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
-                <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
-                <rendition scheme="css" xml:id="crossed-through">text-decoration:
-                    line-through</rendition>
-                <rendition scheme="other" xml:id="printed"/>
-                <rendition scheme="other" xml:id="typescript"/>
-                <rendition scheme="other" xml:id="handwritten"/>
-                <rendition scheme="other" xml:id="handwritten-underlined"/>
-                <rendition scheme="other" xml:id="handwritten-circled"/>
-                <rendition scheme="other" xml:id="handwritten-crossed-through"/>
-                <rendition scheme="other" xml:id="double-underline"/>
-                <rendition scheme="other" xml:id="stamp"/>
-                <namespace name="http://www.tei-c.org/ns/1.0">
-                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
-                </namespace>
-            </tagsDecl>
-        </encodingDesc>
-
-        <profileDesc>
-            <textClass>
-                <catRef target="cartoons_taxonomies.xml#lesson_plan"/>
-                <catRef target="cartoons_taxonomies.xml#gilded"/>
-                <catRef target="cartoons_taxonomies.xml#stereotypes"/>
-                <catRef target="cartoons_taxonomies.xml#immigration"/>
-                <catRef target="cartoon_genres.xml#Lithographs"/>
-            </textClass>
-        </profileDesc>
-
-        <revisionDesc>
-            <change who="DianeBiunno" when="2015-03-11">Encoded to lesson plan level</change>
-            <change who="DianeBiunno" when="2015-03-11">Encoded to basic level</change>
-            <change who="RachelMoloshok" when="2015-01-07">Template file created</change>
-        </revisionDesc>
-    </teiHeader>
-
-    <facsimile>
-       
-        <surface ulx="" uly="" lrx="" lry="">
-       
-            <graphic
-                url="FIL.000089379"/>
-            
-            <zone n="1" xml:id="Title" points=""/>
-            <zone n="2" xml:id="Caption_1" points=""/>
-            <zone n="3" xml:id="Caption_2" points=""/>
-            <zone n="4" xml:id="Artist" points=""/>
-            <zone n="5" xml:id="Puck" points=""/>
-            <zone n="6" xml:id="Pit_1" points=""/>
-            <zone n="7" xml:id="Pit_2" points=""/>
-            <zone n="8" xml:id="Pit_3" points=""/>
-            <zone n="9" xml:id="Pit_4" points=""/>
-            <zone n="10" xml:id="Pit_5" points=""/>
-            <zone n="11" xml:id="Pit_6" points=""/>
-            <zone n="12" xml:id="House" points=""/>
-            
-            
-            <zone n="??" xml:id="??" points=""/>
-            
-        </surface>
-    </facsimile>
-
-    <text>
-        
-        <front>
-            <div type="editorial_desc">
-                <p>In the image, a group of immigrants has just arrived in the US and is standing in front of a building with the sign "Castle Garden."  In front of them are six pits labeled "friend from the old country, confidence man, temptress, baggage swindler, money changer, and boarding house runner."  The "boarding house runner" grabs one of the immigrants and tries to pull him into the pit.  There are two policemen.  The first is asleep on a bench and the second ignores what is going on.</p>
-                
-            </div>
-        </front>
-
-        <body>
-            
-            <div type="image_transcription" facs="#Title" n="1">
-                <head><supplied resp="editorial">Title</supplied></head>
-                <p>CASTLE GARDEN EMIGRANT-CATCHERS</p>
-            </div>
-            
-            <div type="image_transcription" facs="#Caption_1" n="2">
-                <head><supplied resp="editorial">Address of <orgName key="ENT.000000384">Puck</orgName></supplied></head>
-                <p>OFFICE OF <hi rendition="#bold">"PUCK"</hi> 23 WARREN ST. NEW YORK.</p>
-            </div>
-            
-            
-            <div type="image_transcription" facs="#Caption_2" n="3">
-                <head><supplied resp="editorial">Address of <orgName key="ENT.000000380">Mayer, Merkel, &amp; Ottmann</orgName></supplied></head>
-                <p>MAYER MERKEL &amp; OTTMANN. LITH. 23-25 WARREN ST. N.Y.</p>
-                
-            </div>
-            
-            <div type="image_transcription" facs="#Artist" n="4">
-                <head><supplied resp="editorial"><persName key="ENT.000003616">Frederick Burr Opper</persName></supplied></head>
-                <p></p>
-            </div>
-            
-            <div type="image_transcription" facs="#Puck" n="5">
-                <head><supplied resp="editorial"><orgName key="ENT.000000384">Puck</orgName></supplied></head>
-                <p>PUCK.</p>
-            </div>
-            
-            <div type="image_transcription" facs="#Pit_1" n="6">
-                <head><supplied resp="editorial">Pit 1</supplied></head>
-                <p>"FRIEND FROM THE OLD COUNTRY."</p>
-            </div>
-            
-            <div type="image_transcription" facs="#Pit_2" n="7">
-                <head><supplied resp="editorial">Pit 2</supplied></head>
-                <p>CONFIDENCE MAN</p>
-            </div>
-            
-            <div type="image_transcription" facs="#Pit_3" n="8">
-                <head><supplied resp="editorial">Pit 3</supplied></head>
-                <p>TEMPTRESS</p>
-            </div>
-            
-            <div type="image_transcription" facs="#Pit_4" n="9">
-                <head><supplied resp="editorial">Pit 4</supplied></head>
-                <p>BAGGAGE SWINDLER</p>
-            </div>
-            
-            <div type="image_transcription" facs="#Pit_5" n="10">
-                <head><supplied resp="editorial">Pit 5</supplied></head>
-                <p>MONEY CHANGER</p>
-            </div>
-            
-            <div type="image_transcription" facs="#Pit_6" n="11">
-                <head><supplied resp="editorial">Pit 6</supplied></head>
-                <p>BOARDING HOUSE RUNNER</p>
-            </div>
-            
-            <div type="image_transcription" facs="#House" n="12">
-                <head><supplied resp="editorial">Castle Garden</supplied></head>
-                <p>CASTLE GARDEN <note n="1" type="editorial">Castle Garden was the United States' first official immigrant processing station and is located in what is now know as Battery Park in New York City.  Southwest Battery, as it was first called, was constructed between 1808 and 1811 and was used as a fort to defend against the British during the War of 1812.  In 1823, it was renamed Castle Garden and became an opera house and theater  From 1855 to 1890, Castle Garden served as an immigrant processing center and over 8 million immigrants passed through its doors.  Today it is known as Castle Clinton National Monument.</note></p>
-                <p>ENTRANCE FOR MEN</p>
-                <p>EINGANG FÜR MÄNNER</p>
-                <p>ENTRANCE FOR WOMEN</p>
-                <p>EINGANG FÜR FRAUEN</p>
-            </div>
-        
-        </body>
-
-        <back/>
-    </text>
+  <teiHeader xml:lang="English">
+    <fileDesc>
+      <titleStmt>
+        <title type="main">TEI transcription of Castle Garden Emigrant-Catchers</title>
+        <author/>
+        <respStmt>
+          <resp key="art">artist</resp>
+          <persName key="ENT.000003616">Opper, Frederick Burr, 1857-1937</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="ltg">Lithographer</resp>
+          <persName key="ENT.000000380">Mayer, Merkel &amp; Ottmann </persName>
+        </respStmt>
+        <respStmt>
+          <resp key="trc">Transcribed by</resp>
+          <persName key="ENT.000003544">Biunno, Diane</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="mrk">Encoded by</resp>
+          <persName key="ENT.000003544">Biunno, Diane</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="pbl">publisher</resp>
+          <orgName key="ENT.000003163">Keppler &amp; Schwarzmann</orgName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <p>First edition, <date when="2015">2015</date></p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher><orgName key="ENT.000002473">Historical Society of
+          Pennsylvania</orgName></publisher>
+        <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
+        <idno type="filename">11759</idno>
+        <availability status="restricted">
+          <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of copyright only
+            to original contributions made by the Historic Images, New Technologies (HINT) Project
+            participants and other staff. HSP makes no claim of copyright to the original text.
+            Permission is granted to download, transmit or otherwise reproduce, distribute or
+            display the text contributions to this work claimed by HSP for non-profit educational
+            purposes, provided that this header is included in its entirety. For inquiries about
+            commercial uses, please contact the Historical Society of Pennsylvania. HSP retains the
+            rights of all images unless otherwise noted. Possession of an HSP digital image does not
+            constitute permission to use or publish it. Requests for digital imaging, other
+            reproduction services, and the intended use of reproductions must be made in writing to
+            the Rights and Reproductions Coordinator at rnr@hsp.org.</p>
+        </availability>
+        <date when="2015">2015</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="project" key="CARTOONS">Historic Images, New Technologies (HINT)
+          Project</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository key="ENT.000002473">Historical Society of Pennsylvania</repository>
+            <collection key="PG278">Balch Broadsides: Satirical Cartoons</collection>
+            <idno type="citation">
+              <idno type="box">5</idno>
+              <idno type="folder">1</idno>
+            </idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <bibl>
+                <date from="1882-06-14">June 14, 1882</date>
+                <extent>1 loose sheet</extent>
+                <extent>
+                  <dimensions type="image" unit="cm"/>
+                  <height quantity="25.5"/>
+                  <width quantity="33"/>
+                </extent>
+           
+              </bibl>
+            </msItem>
+          </msContents>
+        </msDesc>
+        <biblStruct>
+          <analytic>
+            <respStmt>
+              <resp key="art">artist</resp>
+              <persName key="ENT.000003616">Opper, Frederick Burr, 1857-1937</persName>
+            </respStmt>
+            <respStmt>
+              <resp key="ltg">Lithographer</resp>
+              <persName key="ENT.000000380">Mayer, Merkel &amp; Ottmann </persName>
+            </respStmt>
+            <respStmt>
+              <resp key="pbl">publisher</resp>
+              <orgName key="ENT.000003163">Keppler &amp; Schwarzmann</orgName>
+            </respStmt>
+            <title type="main" level="a">Castle Garden Emigrant-Catchers</title>
+            <date from="1882-06-14">June 14, 1882</date>
+          </analytic>
+          <monogr>
+            <title type="marc245a" level="j"><orgName key="ENT.000000384"> Puck</orgName></title>
+            <imprint>
+              <pubPlace>New York</pubPlace>
+              <date from="1882-06-14">June 14, 1882</date>
+              <biblScope unit="volume">11</biblScope>
+              <biblScope unit="issue">275</biblScope>
+              <publisher>
+                <orgName key="ENT.000003163">Keppler &amp; Schwarzmann</orgName>
+              </publisher>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <bibl/>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The Historic Images, New Technologies (HINT) project aims to enhance description and
+          discovery of the Historical Society of Pennsylvania's graphics materials and promote the
+          linking and sharing of content among institutions and scholars. The project will result in
+          an update to HSP's digital image viewer and an online digital history exhibit that will
+          demonstrate the new viewer's capabilities and provide interpretive and contextual
+          materials to encourage users to interact with historical images in new ways. This project
+          was funded by a grant from the National Historical Publications and Records Commission's
+          (NHPRC) Innovation in Archives and Documentary Editing program.</p>
+      </projectDesc>
+      <editorialDecl n="4">
+        <p>This electronic file was created using manual keying following the recommendations for
+          Level 4 of "Best Practices for TEI in Libraries" guidelines v3.0.</p>
+        <p>This xml file uses unique entity identifiers, media file identifiers, and collection
+          identifiers in HSP's Digital Library, available at http://digitallibrary.hsp.org.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
+        <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
+        <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
+        <rendition scheme="css" xml:id="crossed-through">text-decoration: line-through</rendition>
+        <rendition scheme="other" xml:id="printed"/>
+        <rendition scheme="other" xml:id="typescript"/>
+        <rendition scheme="other" xml:id="handwritten"/>
+        <rendition scheme="other" xml:id="handwritten-underlined"/>
+        <rendition scheme="other" xml:id="handwritten-circled"/>
+        <rendition scheme="other" xml:id="handwritten-crossed-through"/>
+        <rendition scheme="other" xml:id="double-underline"/>
+        <rendition scheme="other" xml:id="stamp"/>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <catRef target="cartoons_genres.xml#chromolithographs"/>
+        <catRef target="cartoons_genres.xml#political_cartoons"/>
+        <catRef target="cartoons_taxonomies.xml#lesson_plan"/>
+        <catRef target="cartoons_taxonomies.xml#gilded"/>
+        <catRef target="cartoons_taxonomies.xml#stereotypes"/>
+        <catRef target="cartoons_taxonomies.xml#immigration"/>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change who="DianeBiunno" when="2015-03-31">Basic Proofreading</change>
+      <change who="DianeBiunno" when="2015-03-31">Exported from CA</change>
+      <change who="DianeBiunno" when="2015-03-11">Encoded to lesson plan level</change>
+      <change who="DianeBiunno" when="2015-03-11">Encoded to basic level</change>
+      <change who="RachelMoloshok" when="2015-01-07">Template file created</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="100" lry="100">
+      <graphic url="FIL.000089379"/>
+      <zone n="1" xml:id="Title"
+        points="32.26,89.67 50.85,89.48 64.87,89.76 65.09,92.05 32.62,92.34"/>
+      <zone n="2" xml:id="Caption_1" points="6.17,88.88 18.69,88.95 18.69,90.05 6.2,90.16"/>
+      <zone n="3" xml:id="Caption_2" points="75.89,88.99 91.12,88.76 91.21,90.05 75.98,90.11"/>
+      <zone n="4" xml:id="Artist"
+        points="65.29,84.8 70.3,84.07 71.44,86.17 70.56,88.65 64.76,88.55 64.76,86.45"/>
+      <zone n="5" xml:id="Puck" points="45,7.68 52.68,7.49 52.68,10.64 44.93,10.93"/>
+      <zone n="6" xml:id="Pit_1"
+        points="65.55,62.55 78.68,64.63 89.39,67.28 88.28,72.33 83.38,79.23 79.85,82.91 72.8,84.92 59.17,83.23 59.24,78.18 66.11,74.34"/>
+      <zone n="7" xml:id="Pit_2"
+        points="35.71,74.38 38.93,69.09 45.49,68.85 52.42,69.09 54.4,65.24 63.2,68.21 63.57,73.42 56.08,74.95 58.24,83.92 34.34,86.25 33.72,80.08"/>
+      <zone n="8" xml:id="Pit_3"
+        points="23.45,54.38 29.7,54.59 32.35,52.36 40,53.58 41.87,61.86 49.83,61.26 52.18,63.68 52.49,67.93 43.11,68.48 40.87,68.6 36.41,70.15 23.61,68.33 21.58,61.06"/>
+      <zone n="9" xml:id="Pit_4"
+        points="9.21,48.31 16.52,48.23 16.87,46.39 21.62,48.65 30.44,48.31 31.66,50.16 31.31,53.17 28.69,54.08 8.78,54.61"/>
+      <zone n="10" xml:id="Pit_5"
+        points="8.28,40.82 24.22,40.57 24.73,48.88 17.72,46.32 15.77,48.42 8.36,46.85"/>
+      <zone n="11" xml:id="Pit_6"
+        points="28.56,29.81 37.04,24.84 40.42,25.38 41.01,30.14 39.51,30.84 44.02,34.9 43.51,48.09 35.54,49.39 26.64,47.71 25.06,45.28 27.27,40.9 29.78,33.98"/>
+      <zone n="12" xml:id="House" points="65.2,16.35 90.9,16.24 91.05,25.55 65.48,25.26"/>
+    </surface>
+  </facsimile>
+  <text>
+    <front>
+      <div type="editorial_desc">
+        <p>In the image, a group of immigrants has just arrived in the US and is standing in front
+          of a building with the sign "Castle Garden." In front of them are six pits labeled "friend
+          from the old country, confidence man, temptress, baggage swindler, money changer, and
+          boarding house runner." The "boarding house runner" grabs one of the immigrants and tries
+          to pull him into the pit. There are two policemen. The first is asleep on a bench and the
+          second ignores what is going on.</p>
+      </div>
+    </front>
+    <body>
+      <div type="image_transcription" n="1" facs="#Title">
+        <head><supplied resp="editorial">Title</supplied></head>
+        <p>CASTLE GARDEN EMIGRANT-CATCHERS</p>
+      </div>
+      <div type="image_transcription" n="2" facs="#Caption_1">
+        <head><supplied resp="editorial">Address of <orgName key="ENT.000000384"
+            >Puck</orgName></supplied></head>
+        <p>OFFICE OF <hi rendition="#bold">"PUCK"</hi> 23 WARREN ST. NEW YORK.</p>
+      </div>
+      <div type="image_transcription" n="3" facs="#Caption_2">
+        <head><supplied resp="editorial">Address of <orgName key="ENT.000000380">Mayer, Merkel,
+              &amp; Ottmann</orgName></supplied></head>
+        <p>MAYER MERKEL &amp; OTTMANN. LITH. 23-25 WARREN ST. N.Y.</p>
+      </div>
+      <div type="image_transcription" n="4" facs="#Artist">
+        <head><supplied resp="editorial"><persName key="ENT.000003616">Frederick Burr
+              Opper</persName></supplied></head>
+        <p/>
+      </div>
+      <div type="image_transcription" n="5" facs="#Puck">
+        <head><supplied resp="editorial"><orgName key="ENT.000000384"
+          >Puck</orgName></supplied></head>
+        <p>PUCK.</p>
+      </div>
+      <div type="image_transcription" n="6" facs="#Pit_1">
+        <head><supplied resp="editorial">Pit 1</supplied></head>
+        <p>"FRIEND FROM THE OLD COUNTRY."</p>
+      </div>
+      <div type="image_transcription" n="7" facs="#Pit_2">
+        <head><supplied resp="editorial">Pit 2</supplied></head>
+        <p>CONFIDENCE MAN</p>
+      </div>
+      <div type="image_transcription" n="8" facs="#Pit_3">
+        <head><supplied resp="editorial">Pit 3</supplied></head>
+        <p>TEMPTRESS</p>
+      </div>
+      <div type="image_transcription" n="9" facs="#Pit_4">
+        <head><supplied resp="editorial">Pit 4</supplied></head>
+        <p>BAGGAGE SWINDLER</p>
+        <p>BAGGA</p>
+        <p>No</p>
+      </div>
+      <div type="image_transcription" n="10" facs="#Pit_5">
+        <head><supplied resp="editorial">Pit 5</supplied></head>
+        <p>MONEY CHANGER</p>
+      </div>
+      <div type="image_transcription" n="11" facs="#Pit_6">
+        <head><supplied resp="editorial">Pit 6</supplied></head>
+        <p>BOARDING HOUSE RUNNER</p>
+      </div>
+      <div type="image_transcription" n="12" facs="#House">
+        <head><supplied resp="editorial">Castle Garden</supplied></head>
+        <p>CASTLE GARDEN <note n="1" type="editorial">Castle Garden was the United States' first
+            official immigrant processing station and is located in what is now know as Battery Park
+            in New York City. Southwest Battery, as it was first called, was constructed between
+            1808 and 1811 and was used as a fort to defend against the British during the War of
+            1812. In 1823, it was renamed Castle Garden and became an opera house and theater From
+            1855 to 1890, Castle Garden served as an immigrant processing center and over 8 million
+            immigrants passed through its doors. Today it is known as Castle Clinton National
+            Monument.</note></p>
+        <p>ENTRANCE FOR MEN</p>
+        <p>EINGANG FÜR MÄNNER</p>
+        <p>ENTRANCE FOR WOMEN</p>
+        <p>EINGANG FÜR FRAUEN</p>
+      </div>
+    </body>
+  </text>
 </TEI>
