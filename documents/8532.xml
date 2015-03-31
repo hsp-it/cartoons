@@ -140,6 +140,7 @@
       <textClass>
         <catRef target="cartoons_genres.xml#etchings"/>
         <catRef target="cartoons_genres.xml#watercolors"/>
+        <catRef target="cartoons_genres.xml#political_cartoons"/>
         <catRef target="cartoons_taxonomies.xml#early"/>
         <catRef target="cartoons_taxonomies.xml#war"/>
         <catRef target="cartoons_taxonomies.xml#international"/>
