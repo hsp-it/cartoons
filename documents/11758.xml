@@ -9,19 +9,18 @@
         <fileDesc>
 
             <titleStmt>
-                <title type="main"
-                    >TEI transcription of The Kind of "Assisted Emigrant" We Can't Afford to Admit</title>
+                <title type="main">TEI transcription of The Kind of "Assisted Emigrant" We Can't
+                    Afford to Admit</title>
                 <respStmt>
                     <resp key="art">Artist</resp>
-                    <persName key="ENT.000003642"
-                        >Friedrich Graetz</persName>
+                    <persName key="ENT.000003642">Friedrich Graetz</persName>
                 </respStmt>
-                
+
                 <respStmt>
                     <resp key="ltg">Lithographer</resp>
                     <persName key="ENT.000000380">Mayer, Merkel &amp; Ottmann </persName>
                 </respStmt>
-                
+
                 <respStmt>
                     <resp key="trc">Transcribed by</resp>
                     <persName key="ENT.000003544">Diane Biunno</persName>
@@ -69,12 +68,12 @@
                     <msIdentifier>
                         <repository key="ENT.000002473"/>
                         <collection key="PG278">Balch Broadsides: Satirical Cartoons</collection>
-                        
+
                         <idno type="citation">
                             <idno type="box">5</idno>
                             <idno type="folder">1</idno>
                         </idno>
-                        
+
                     </msIdentifier>
                     <msContents>
                         <msItem>
@@ -87,15 +86,14 @@
                                         <width quantity="33.5"/>
                                     </dimensions>
                                 </extent>
-                                
                                 <listRelation>
                                     <relation name="depicted" active="cartoons_symbols.xml#death"/>
                                 </listRelation>
                             </bibl>
                         </msItem>
                     </msContents>
-                  
-                    
+
+
                 </msDesc>
                 <biblStruct>
                     <analytic>
@@ -103,31 +101,31 @@
                             <resp key="art">Artist</resp>
                             <persName key="ENT.000003642">Friedrich Graetz</persName>
                         </respStmt>
-                        
                         <respStmt>
                             <resp key="ltg">Lithographer</resp>
-                            <orgName key="ENT.000000380">Mayer, Merkel &amp; Ottmann </orgName>
+                            <persName key="ENT.000000380">Mayer, Merkel &amp; Ottmann </persName>
                         </respStmt>
-                        
-                        <title type="main" level="a">The Kind of "Assisted Emigrant" We Can't Afford to Admit</title>
+                       
+
+                        <title type="main" level="a">The Kind of "Assisted Emigrant" We Can't Afford
+                            to Admit</title>
                     </analytic>
                     <monogr>
                         <title type="marc245a" level="j"><orgName key="ENT.000000384">
-                            Puck</orgName></title>
-                        
+                                Puck</orgName></title>
+
                         <imprint>
-                            <publisher><orgName key="ENT.000003163"
-                                >Keppler &amp; Schwarzmann</orgName></publisher>
+                            <publisher><orgName key="ENT.000003163">Keppler &amp;
+                                    Schwarzmann</orgName></publisher>
                             <pubPlace>New York</pubPlace>
-                            <date from="1883-07-18"
-                                >July 18,1883</date>
+                            <date from="1883-07-18">July 18,1883</date>
                             <biblScope unit="volume">13</biblScope>
                             <biblScope unit="issue">332</biblScope>
                             <biblScope unit="page">326</biblScope>
-                        
-                         
+
+
                         </imprint>
-                        
+
                     </monogr>
                 </biblStruct>
 
@@ -147,7 +145,7 @@
                     Archives and Documentary Editing program.</p>
             </projectDesc>
             <editorialDecl n="4">
-                
+
                 <p>This electronic file was created using manual keying following the
                     recommendations for Level 4 of "Best Practices for TEI in Libraries" guidelines
                     v3.0.</p>
@@ -182,12 +180,14 @@
                 <catRef target="cartoons_taxonomies.xml#gilded"/>
                 <catRef target="cartoons_taxonomies.xml#science"/>
                 <catRef target="cartoons_taxonomies.xml#immigration"/>
-                <catRef target="cartoon_genres.xml#Lithographs"/>
+                <catRef target="cartoons_genres.xml#political_cartoons"/>
+                <catRef target="cartoons_genres.xml#clippings"/>
+                <catRef target="cartoons_genres.xml#chromolithographs"/>
             </textClass>
         </profileDesc>
 
         <revisionDesc>
-            
+            <change who="DianeBiunno" when="2015-03-31">Exported from CA</change>
             <change who="DianeBiunno" when="2015-03-11">Encoded to lesson plan level</change>
             <change who="DianeBiunno" when="2015-03-11">Encoded to basic level</change>
             <change who="RachelMoloshok" when="2015-01-07">Template file created</change>
@@ -195,12 +195,11 @@
     </teiHeader>
 
     <facsimile>
-       
+
         <surface ulx="" uly="" lrx="" lry="">
-           
-            <graphic
-                url="FIL.000089380"/>
-            
+
+            <graphic url="FIL.000089380"/>
+
             <zone n="1" xml:id="Title" points=""/>
             <zone n="2" xml:id="Artist" points=""/>
             <zone n="3" xml:id="Boat" points=""/>
@@ -209,44 +208,61 @@
             <zone n="6" xml:id="Castle" points=""/>
             <zone n="7" xml:id="Cholera" points=""/>
             <zone n="8" xml:id="Death" points=""/>
-            
+
             <zone n="??" xml:id="??" points=""/>
         </surface>
     </facsimile>
 
     <text>
-       
+
         <front>
             <div type="editorial_desc">
-                <p>In the political cartoon, a ship from Great Britain, carrying cholera and immigrants headed to Castle Garden, is about to reach the New York shore.  Men in a boat labeled "board of health" meet the ship and try to disinfect it with carbolic acid.  Bottles of disinfectant labeled "disinfectant battery" are lined up along the shore.  The last great epidemic of cholera in 19th century Great Britain is presumed to have spread from Egpyt, and thus, the figure of Death in the political cartoon rides a ship flying a British Flag and wears a fez, Arab style clothing, and a belt labeled "cholera." </p>
-                <p>Cholera is a disease which effects the intestines, and it is spread through drinking water which has been contaminated with the vibrio cholerea bacteria.  An infected patient experiences violent cramps, vomiting, and diarrhea and becomes so dehydrated that the blood thickens.  If left untreated, a patient will die within a few days.  19th century physicians treated patients with opium or by bleeding them.  Carbolic acid was widely used as a disinfectant.</p>
-                
+                <p>In the political cartoon, a ship from Great Britain, carrying cholera and
+                    immigrants headed to Castle Garden, is about to reach the New York shore. Men in
+                    a boat labeled "board of health" meet the ship and try to disinfect it with
+                    carbolic acid. Bottles of disinfectant labeled "disinfectant battery" are lined
+                    up along the shore. The last great epidemic of cholera in 19th century Great
+                    Britain is presumed to have spread from Egpyt, and thus, the figure of Death in
+                    the political cartoon rides a ship flying a British Flag and wears a fez, Arab
+                    style clothing, and a belt labeled "cholera." </p>
+                <p>Cholera is a disease which effects the intestines, and it is spread through
+                    drinking water which has been contaminated with the vibrio cholerea bacteria. An
+                    infected patient experiences violent cramps, vomiting, and diarrhea and becomes
+                    so dehydrated that the blood thickens. If left untreated, a patient will die
+                    within a few days. 19th century physicians treated patients with opium or by
+                    bleeding them. Carbolic acid was widely used as a disinfectant.</p>
+
             </div>
         </front>
 
         <body>
-            
+
             <div type="image_transcription" facs="#Title" n="1">
                 <head><supplied resp="editorial">Title</supplied></head>
                 <p>THE KIND OF "ASSISTED EMIGRANT" WE CAN NOT AFFORD TO ADMIT.</p>
             </div>
-            
+
             <div type="image_transcription" facs="#Artist" n="2">
-                <head><supplied resp="editorial"><persName key="ENT.000003642">Friedrich Graetz</persName></supplied></head>
+                <head><supplied resp="editorial"><persName key="ENT.000003642">Friedrich
+                            Graetz</persName></supplied></head>
                 <p>F. Graetz</p>
             </div>
-            
+
             <div type="image_transcription" facs="#Boat" n="3">
                 <head><supplied resp="editorial">Boat</supplied></head>
                 <p>CARBOLIC ACID</p>
-                <p>BOARD OF HEALTH<note n="1" type="editorial">The National Board of Health was established in 1879 by the US Congress in order to stop the spread of infectious diseases such as yellow fever.  The Board of Health was short-lived, poorly funded, and was dissolved in 1883.</note></p>
+                <p>BOARD OF HEALTH<note n="1" type="editorial">The National Board of Health was
+                        established in 1879 by the US Congress in order to stop the spread of
+                        infectious diseases such as yellow fever. The Board of Health was
+                        short-lived, poorly funded, and was dissolved in 1883.</note></p>
             </div>
-            
+
             <div type="image_transcription" facs="#Puck" n="4">
-                <head><supplied resp="editorial"><orgName key="ENT.000000384">Puck</orgName></supplied></head>
+                <head><supplied resp="editorial"><orgName key="ENT.000000384"
+                        >Puck</orgName></supplied></head>
                 <p>PUCK.</p>
             </div>
-            
+
             <div type="image_transcription" facs="#Bottles" n="5">
                 <head><supplied resp="editorial">Disinfectants</supplied></head>
                 <p>DISINFECTANT BATTERY</p>
@@ -255,25 +271,36 @@
                 <p>Chloride of lime</p>
                 <p>Thymol</p>
                 <p>Chloride of lime</p>
-                
+
             </div>
-            
+
             <div type="image_transcription" facs="#Castle" n="6">
                 <head><supplied resp="editorial">Banner</supplied></head>
-                <p>CASTLE GARDEN<note n="2" type="editorial">Castle Garden was the United States' first official immigrant processing station and is located in what is now know as Battery Park in New York City.  Southwest Battery, as it was first called, was constructed between 1808 and 1811 and was used as a fort to defend against the British during the War of 1812.  In 1823, it was renamed Castle Garden and became an opera house and theater  From 1855 to 1890, Castle Garden served as an immigrant processing center and over 8 million immigrants passed through its doors.  Today it is known as Castle Clinton National Monument.</note></p>
+                <p>CASTLE GARDEN<note n="2" type="editorial">Castle Garden was the United States'
+                        first official immigrant processing station and is located in what is now
+                        know as Battery Park in New York City. Southwest Battery, as it was first
+                        called, was constructed between 1808 and 1811 and was used as a fort to
+                        defend against the British during the War of 1812. In 1823, it was renamed
+                        Castle Garden and became an opera house and theater From 1855 to 1890,
+                        Castle Garden served as an immigrant processing center and over 8 million
+                        immigrants passed through its doors. Today it is known as Castle Clinton
+                        National Monument.</note></p>
             </div>
-            
+
             <div type="image_transcription" facs="#Cholera" n="7">
                 <head><supplied resp="editorial">Death's Belt</supplied></head>
                 <p>CHOLERA</p>
             </div>
-            
+
             <div type="image_annotation" facs="#Death" n="8">
-                <head><supplied resp="editorial"><rs ref="cartoons_symbols.xml#death">Death</rs></supplied></head>
-                <p>Death carries a scythe, a traditional symbol of death.  He wears a fez, Arab style clothing, and a belt labeled "cholera" because it was presumed that the disease originated in Egypt.</p>
+                <head><supplied resp="editorial"><rs ref="cartoons_symbols.xml#death"
+                        >Death</rs></supplied></head>
+                <p>Death carries a scythe, a traditional symbol of death. He wears a fez, Arab style
+                    clothing, and a belt labeled "cholera" because it was presumed that the disease
+                    originated in Egypt.</p>
             </div>
-           
-            
+
+
         </body>
 
         <back/>
