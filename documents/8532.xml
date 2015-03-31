@@ -148,11 +148,14 @@
                 <catRef target="cartoons_taxonomies.xml#war"/>
                 <catRef target="cartoons_taxonomies.xml#international"/>
                 <catRef target="cartoons_taxonomies.xml#culture"/>
-                <!-- add genres: etchings; add genres: watercolors -->
+                <catRef target="cartoons_genres.xml#etchings"/>
+                <catRef target="cartoons_genres.xml#watercolors"/>
             </textClass>
         </profileDesc>
 
         <revisionDesc>
+            <change who="RachelMoloshok" when="2015-03-31">Added genres. Prepared for Collective
+                Access import</change>
             <change who="RachelMoloshok" when="2015-02-09">Encoded to featured level</change>
         </revisionDesc>
     </teiHeader>
