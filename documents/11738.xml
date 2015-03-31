@@ -162,11 +162,13 @@
                 <catRef target="cartoons_taxonomies.xml#featured"/>
                 <catRef target="cartoons_taxonomies.xml#native"/>
                 <catRef target="cartoons_taxonomies.xml#press"/>
-                <!-- add genre: lithographs -->
+                <catRef target="cartoons_genres.xml#lithographs"/>
+                <catRef target="cartoons_genres.xml#political_cartoons"/>
             </textClass>
         </profileDesc>
 
         <revisionDesc>
+            <change who="RachelMoloshok" when="2015-03-31">Encoded to featured level</change>
             <change who="RachelMoloshok" when="2015-02-10">Encoded to basic level</change>
         </revisionDesc>
     </teiHeader>
@@ -205,7 +207,25 @@
     <text>
         <front>
             <div type="editorial_desc">
-                <p><!-- Mention how this is the first political cartoon to be lithographed. Discuss significance of lithographs? Map, alligator, tortoise, indians. --></p>
+                <p>This political cartoon is historically significant for being the first American
+                    political cartoon produced using the lithographic printing process. In the
+                    1800s, lithography would become a widespread mode of producing and disseminating
+                    prints, including political cartoons. This cartoon depicts the United States of
+                    America and its territories as a map, with mountains in the distance. On top of
+                    the map are two giant animals: an alligator (symbolizing Jacksonian Democracy),
+                    facing to the west, and a tortoise (symbolizing John Quincy Adams's Whig party),
+                    facing to the east. The alligator and tortoise are tied together at the tail.
+                    Andrew Jackson, dressed as a military general, and his supporters (one of whom
+                    holds an American flag) ride on the alligator, and two men riding the
+                    alligator's tail try to cut or untie the knotted rope connecting it to the
+                    tortoise. The tortoise wears a collar labeled "Quincy" and is ridden by John
+                    Quincy Adams (wearing a crown) and several of his supporters, one of whom,
+                    according to their speech bubbles, is Henry Clay. A person dressed as a circus
+                    performer walks the "tightrope" connecting the tortoise and alligator. In the
+                    mountains, a group of people, identified in the caption as "a Company of
+                    Winebago Indians," comment on American culture. A handwritten note on this
+                    cartoon records its date as 1828, but the Library of Congress dates it circa
+                    1829; we have copied this date cataloging for this project.</p>
             </div>
         </front>
 
@@ -214,12 +234,16 @@
                 <head><supplied resp="editorial">Title</supplied></head>
                 <p>A NEW MAP OF THE UNITED STATES WITH THE ADDITIONAL TERRITORIES <hi
                         rendition="#italics">on an Improved</hi> PLAN</p>
-                <p>Exhibiting a View of the Rocky Mountains Surveyed by a Company of
-                        <sic>Winebago</sic> Indians in 1828.</p>
+                <p><hi rendition="#italics">Exhibiting a View of the Rocky Mountains Surveyed by a
+                        Company of <sic>Winebago</sic> Indians in <date when="1828"
+                        >1828</date>.</hi></p>
             </div>
             <div type="image_annotation" facs="#alligator" n="2">
                 <head>Alligator </head>
-                <p><!-- description of alligator --></p>
+                <p>A giant alligator, facing toward the western Unites States, gobbles up several
+                    men in military garb. <persName key="ENT.000002223">Andrew Jackson</persName>,
+                    riding on the alligator's back, holds reins that control it. Several of
+                    Jackson's supporters stand on the alligator's back or sit on its tail.</p>
             </div>
             <div type="image_transcription" facs="#tortoise" n="3">
                 <head><supplied resp="editorial">Tortoise</supplied></head>
@@ -358,7 +382,7 @@
             </div>
             <div type="image_transcription" n="24" facs="#note1">
                 <head><supplied resp="editorial">Note 1</supplied></head>
-                <p><add>1828</add></p>
+                <p><add><date when="1828">1828</date></add></p>
             </div>
             <div type="image_transcription" n="25" facs="#note2">
                 <head><supplied resp="editorial">Note 2</supplied></head>
