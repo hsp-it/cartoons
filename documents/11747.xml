@@ -12,7 +12,8 @@
                 <title type="main">TEI transcription of Mesmerism in Wall Street</title>
                 <respStmt>
                     <resp key="art">Artist</resp>
-                    <persName key="ENT.000003631">Stephens, H. L. (Henry Louis), 1824-1882</persName>
+                    <persName key="ENT.000003631">Stephens, H. L. (Henry Louis),
+                        1824-1882</persName>
                 </respStmt>
                 <respStmt>
                     <resp key="egr">Engraver</resp>
@@ -64,9 +65,10 @@
                 <msDesc>
                     <msIdentifier>
                         <repository key="ENT.000002473"/>
-                        <collection key="3133">Historical Society of Pennsylvania cartoons and caricatures collection</collection>                        
-                        <idno type="citation"
-                            ><idno type="box">2</idno><idno type="folder">4</idno></idno>
+                        <collection key="3133">Historical Society of Pennsylvania cartoons and
+                            caricatures collection</collection>
+                        <idno type="citation"><idno type="box">2</idno><idno type="folder"
+                            >4</idno></idno>
                     </msIdentifier>
                     <msContents>
                         <msItem>
@@ -81,22 +83,31 @@
                                 </extent>
                                 <listRelation>
                                     <relation name="depicted" active="ENT.000002960"/>
+                                    <!-- Woodhull -->
                                     <relation name="depicted" active="ENT.000003633"/>
+                                    <!-- Claflin -->
                                     <relation name="depicted" active="ENT.000003634"/>
+                                    <!-- Vanderbilt -->
                                 </listRelation>
                             </bibl>
                         </msItem>
                     </msContents>
 
                     <history>
-                        <acquisition>This is an artificial collection created over time by HSP staff mostly through donations and purchases of individual prints. It also incorporates previously uncataloged materials collected by the Balch Institute for Ethnic Studies. Some of the 20th century cartoons and drawings were removed from the J. Hampton Moore papers (Collection 1541).</acquisition>
+                        <acquisition>This is an artificial collection created over time by HSP staff
+                            mostly through donations and purchases of individual prints. It also
+                            incorporates previously uncataloged materials collected by the Balch
+                            Institute for Ethnic Studies. Some of the 20th century cartoons and
+                            drawings were removed from the J. Hampton Moore papers (Collection
+                            1541).</acquisition>
                     </history>
                 </msDesc>
                 <biblStruct>
                     <analytic>
                         <respStmt>
                             <resp key="art">Artist</resp>
-                            <persName key="ENT.000003631">Stephens, H. L. (Henry Louis), 1824-1882</persName>
+                            <persName key="ENT.000003631">Stephens, H. L. (Henry Louis),
+                                1824-1882</persName>
                         </respStmt>
                         <respStmt>
                             <resp key="egr">Engraver</resp>
@@ -105,9 +116,11 @@
                         <title type="main" level="a">Mesmerism in Wall Street</title>
                     </analytic>
                     <monogr>
-                        <title type="marc245a" level="j"><orgName key="ENT.000003635">Punchinello</orgName></title>
+                        <title type="marc245a" level="j"><orgName key="ENT.000003635"
+                                >Punchinello</orgName></title>
                         <imprint>
-                            <publisher><orgName key="ENT.000003635">Punchinello</orgName></publisher>
+                            <publisher><orgName key="ENT.000003635"
+                                >Punchinello</orgName></publisher>
                             <pubPlace>New York</pubPlace>
                             <date from="1870-04-02">April 2, 1870</date>
                             <biblScope unit="volume">1</biblScope>
@@ -163,13 +176,18 @@
 
         <profileDesc>
             <textClass>
-                <catRef target=""/>
-                <!-- Taxonomies: Reconstruction, featured, gender, econ -->
-                <!-- Genres: wood engravings, clippings -->
+                <catRef target="cartoons_taxonomies.xml#reconstruction"/>
+                <catRef target="cartoons_taxonomies#featured"/>
+                <catRef target="cartoons_taxonomies#gender"/>
+                <catRef target="cartoons_taxonomies#econ"/>
+                <catRef target="cartoons_genres.xml#clippings"/>
+                <catRef target="cartoons_genres.xml#wood_engravings"/>
+                <catRef target="cartoons_genres.xml#political_cartoons"/>
             </textClass>
         </profileDesc>
 
         <revisionDesc>
+            <change who="RachelMoloshok" when="2015-03-31">Encoded to featured level</change>
             <change who="RachelMoloshok" when="2015-03-09">Encoded to basic level</change>
         </revisionDesc>
     </teiHeader>
@@ -179,13 +197,25 @@
             <graphic url="FIL.000089373"/>
             <zone n="1" xml:id="caption"/>
             <zone n="2" xml:id="head"/>
+            <zone n="3" xml:id="paper"/>
+            <zone n="4" xml:id="initials"/>
+            <zone n="5" xml:id="engravers"/>
+            <zone n="6" xml:id="sister1"/>
+            <zone n="7" xml:id="sister2"/>
+            <zone n="8" xml:id="vanderbilt"/>
         </surface>
     </facsimile>
 
     <text>
         <front>
             <div type="editorial_desc">
-                <p>At center, Cornelius Vanderbilt sits in a cushioned chair in a library. A woman, identified in the caption as "First Lady Broker" (either Victoria Woodhull or Tennessee Claflin) waves her hands in front of Vanderbilt's face, apparently hypnotizing him. At Vanderbilt's side a second woman, identified in the caption as "Second Lady Broker" (either Woodhull or Claflin), kneels and writes on a piece of paper. The caption implies that Claflin and Woodhull have "mesmerized" Vanderbilt in order to sell them shares of their stocks.</p>
+                <p>At center, Cornelius Vanderbilt sits in a cushioned chair in a library. A woman,
+                    identified in the caption as "First Lady Broker" (either Victoria Woodhull or
+                    Tennessee Claflin) waves her hands in front of Vanderbilt's face, apparently
+                    hypnotizing him. At Vanderbilt's side a second woman, identified in the caption
+                    as "Second Lady Broker" (either Woodhull or Claflin), kneels and writes on a
+                    piece of paper. The caption implies that Claflin and Woodhull have "mesmerized"
+                    Vanderbilt in order to sell them shares of their stocks.</p>
             </div>
         </front>
 
@@ -193,14 +223,17 @@
             <div type="image_transcription" facs="#caption" n="1">
                 <head><supplied resp="editorial">Title and caption</supplied></head>
                 <p>MESMERISM IN WALL STREET.</p>
-                <p><hi rendition="#italics">First Lady Broker (entrancing subject.)</hi> "THERE, I'VE GOT HIM TO THE POINT NOW. TAKE HIM AT HIS WORD, QUICK."</p>
-                <p><hi rendition="#italics">Commodore V—nd—rb—lt, (murmurs.)</hi> "SELL ME ONE THOUSAND SHARES CENTRAL."</p>
+                <p><hi rendition="#italics">First Lady Broker (entrancing subject.)</hi> "THERE,
+                    I'VE GOT HIM TO THE POINT NOW. TAKE HIM AT HIS WORD, QUICK."</p>
+                <p><hi rendition="#italics"><persName key="ENT.000003634">Commodore
+                            V—nd—rb—lt</persName>, (murmurs.)</hi> "SELL ME ONE THOUSAND SHARES
+                    CENTRAL."</p>
                 <p><hi rendition="#italics">Second Lady Broker.</hi> "BOOKED!"</p>
             </div>
             <div type="image_transcription" facs="#head" n="2">
                 <head><supplied resp="editorial">Running heads</supplied></head>
                 <p>8</p>
-                <p>PUNCHINELLO.</p>
+                <p><orgName key="ENT.000003635">PUNCHINELLO</orgName>.</p>
                 <p>APRIL 2, 1870.</p>
             </div>
             <div type="image_transcription" facs="#paper" n="3">
@@ -209,11 +242,49 @@
             </div>
             <div type="image_transcription" facs="#initials" n="4">
                 <head><supplied resp="editorial">Artist's initials</supplied></head>
-                <p>HLS</p>
+                <p><persName key="ENT.000003631">HLS</persName></p>
             </div>
-            <div type="image_transcription" facs="#engravers">
+            <div type="image_transcription" facs="#engravers" n="5">
                 <head><supplied resp="editorial">Engravers</supplied></head>
-                <p>WEVILL &amp; HAMMAR</p>
+                <p><orgName key="ENT.000003632">WEVILL &amp; HAMMAR</orgName></p>
+            </div>
+            <div type="image_annotation" facs="#sister1" n="6">
+                <head>First lady broker (<persName key="ENT.000002960">Woodhull</persName> or
+                        <persName key="ENT.000003633">Claflin</persName>)</head>
+                <p>The two women in this cartoon are clearly intended to be Victoria Woodhull and
+                    Tennessee Claflin, sisters who became the first female stock brokers. However,
+                    the artist does not provide any visual details to differentiate the two women
+                    and indicate which is Woodhull and which is Claflin. Both Claflin and Woodhull,
+                    in addition to being stock brokers and equal rights crusaders, worked as
+                    spiritualist mediums, clairvoyants (fortune tellers), and magnetic or faith
+                    healers; both were advisors to <persName key="ENT.000003634">Cornelius
+                        Vanderbilt</persName>, who became their financial backer in establishing
+                    their brokerage firm. It may be that the woman actively "mesmerizing" Vanderbilt
+                    is supposed to be Claflin, as she was rumored to have had a romantic
+                    relationship with him.</p>
+            </div>
+            <div type="image_annotation" facs="#sister2" n="7">
+                <head>Second lady broker (<persName key="ENT.000002960">Woodhull</persName> or
+                        <persName key="ENT.000003633">Claflin</persName>)</head>
+                <p>The two women in this cartoon are clearly intended to be Victoria Woodhull and
+                    Tennessee Claflin, sisters who became the first female stock brokers. However,
+                    the artist does not provide any visual details to differentiate the two women in
+                    this cartoon, so it is difficult to say whether the woman sitting by <persName
+                        key="ENT.000003634">Vanderbilt</persName>'s side is supposed to be Claflin
+                    or Woodhull. The cartoon implies that the two women are controlling Vanderbilt
+                    to achieve financial gain.</p>
+            </div>
+            <div type="image_annotation" facs="#vanderbilt" n="8">
+                <head><persName key="ENT.000003634">Cornelius Vanderbilt</persName></head>
+                <p>Cornelius ("Commodore") Vanderbilt made his fortune in the railroad business and
+                    in 1872, when this cartoon was published, was the richest man in America. His
+                    strong interest in spiritualism put him in touch with sisters <persName
+                        key="ENT.000002960">Victoria Woodhull</persName> and <persName
+                        key="ENT.000003633">Tennessee Claflin</persName>, who became his advisors.
+                    He provided silent financial backing for at least two historic firsts: the
+                    establishment of Woodhull and Claflin's brokerage firm, which made them the
+                    first women stock brokers, and Woodhull's presidential campaign, in which she
+                    became the first woman to run for president.</p>
             </div>
         </body>
 
