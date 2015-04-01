@@ -1,292 +1,267 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
+
 
 <?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader xml:lang="English">
-        <fileDesc>
-            <titleStmt>
-                <title type="main"
-                    >TEI transcription of The Pope's Dream, a Roman Catholic America</title>
-                <respStmt>
-                    <resp key="art">Artist</resp>
-                    <persName key="ENT.000000379"
-                        >Joseph Ferdinand Keppler</persName>
-                </respStmt>
-                
-                <respStmt>
-                    <resp key="ltg">lithographer</resp>
-                    <orgName key="ENT.000003611">J. Ottman Lithographic Company</orgName>
-                </respStmt>
-               
-                <respStmt>
-                    <resp key="trc">Transcribed by</resp>
-                    <persName key="ENT.000003544">Diane Biunno</persName>
-                </respStmt>
-                <respStmt>
-                    <resp key="mrk">Encoded by</resp>
-                    <persName key="ENT.000003544">Diane Biunno</persName>
-                </respStmt>
-                
-            </titleStmt>
-
-            <editionStmt>
-                <p>First edition, <date when="2015">2015</date></p>
-            </editionStmt>
-
-            <publicationStmt>
-                <publisher><orgName key="ENT.000002473">Historical Society of
-                    Pennsylvania</orgName></publisher>
-                <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
-                <idno type="filename"
-                    >1368</idno>
-                <availability status="restricted">
-                    <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of
-                        copyright only to original contributions made by the Historic Images, New
-                        Technologies (HINT) Project participants and other staff. HSP makes no claim
-                        of copyright to the original text. Permission is granted to download,
-                        transmit or otherwise reproduce, distribute or display the text
-                        contributions to this work claimed by HSP for non-profit educational
-                        purposes, provided that this header is included in its entirety. For
-                        inquiries about commercial uses, please contact the Historical Society of
-                        Pennsylvania. HSP retains the rights of all images unless otherwise noted.
-                        Possession of an HSP digital image does not constitute permission to use or
-                        publish it. Requests for digital imaging, other reproduction services, and
-                        the intended use of reproductions must be made in writing to the Rights and
-                        Reproductions Coordinator at rnr@hsp.org.</p>
-                </availability>
-                <date when="2015"/>
-            </publicationStmt>
-
-            <seriesStmt>
-                <title level="s" type="project" key="CARTOONS"/>
-            </seriesStmt>
-
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <repository key="ENT.000002473"/>
-                        <collection key="3213">Balch Institute broadsides</collection>
-                        
-                        <idno type="citation"
-                            >XNB1 75-337</idno>
-                    </msIdentifier>
-                    <msContents>
-                        <msItem>
-                            <bibl>
-                                <date from="1889-07-24"
-                                    >July 24, 1889</date>
-                                <extent>1 loose sheet</extent>
-                                <listRelation>
-                                    <relation name="depicted" active="ENT.000003644"/>
-                                </listRelation>   
-                                 
-                            </bibl>
-                        </msItem>
-                    </msContents>
-
-                </msDesc>
-                <biblStruct>
-                    <analytic>
-                        <respStmt>
-                            <resp key="art">Artist</resp>
-                            <persName key="ENT.000000379">Joseph Ferdinand Keppler</persName>
-                        </respStmt>
-                        <respStmt>
-                            <resp key="ltg">lithographer</resp>
-                            <orgName key="ENT.000003611">J. Ottman Lithographic Company</orgName>
-                        </respStmt>
-                        <title type="main" level="a">The Pope's Dream, a Roman Catholic America</title>
-                    </analytic>
-                    <monogr>
-                        <title type="marc245a" level="j"><orgName key="ENT.000000384">
-                            Puck</orgName></title>
-                        <imprint>
-                            <publisher><orgName key="ENT.000003163"
-                                >Keppler &amp; Schwarzmann</orgName></publisher>
-                            <pubPlace>New York</pubPlace>
-                            <date from="1889-07-24"
-                                >July 24, 1889</date>
-                            <biblScope unit="volume">25</biblScope>
-                            <biblScope unit="issue">646</biblScope>
-                            <biblScope unit="page">368-369</biblScope>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
-
-            </sourceDesc>
-        </fileDesc>
-
-        <encodingDesc>
-            <projectDesc>
-                <p>The Historic Images, New Technologies (HINT) project aims to enhance description
-                    and discovery of the Historical Society of Pennsylvania's graphics materials and
-                    promote the linking and sharing of content among institutions and scholars. The
-                    project will result in an update to HSP's digital image viewer and an online
-                    digital history exhibit that will demonstrate the new viewer's capabilities and
-                    provide interpretive and contextual materials to encourage users to interact
-                    with historical images in new ways. This project was funded by a grant from the
-                    National Historical Publications and Records Commission's (NHPRC) Innovation in
-                    Archives and Documentary Editing program.</p>
-            </projectDesc>
-            <editorialDecl n="4">
-                
-                <p>This electronic file was created using manual keying following the
-                    recommendations for Level 4 of "Best Practices for TEI in Libraries" guidelines
-                    v3.0.</p>
-                <p>This xml file uses unique entity identifiers, media file identifiers, and
-                    collection identifiers in HSP's Digital Library, available at
-                    http://digitallibrary.hsp.org.</p>
-
-            </editorialDecl>
-            <tagsDecl>
-                <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
-                <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
-                <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
-                <rendition scheme="css" xml:id="crossed-through">text-decoration:
-                    line-through</rendition>
-                <rendition scheme="other" xml:id="printed"/>
-                <rendition scheme="other" xml:id="typescript"/>
-                <rendition scheme="other" xml:id="handwritten"/>
-                <rendition scheme="other" xml:id="handwritten-underlined"/>
-                <rendition scheme="other" xml:id="handwritten-circled"/>
-                <rendition scheme="other" xml:id="handwritten-crossed-through"/>
-                <rendition scheme="other" xml:id="double-underline"/>
-                <rendition scheme="other" xml:id="stamp"/>
-                <namespace name="http://www.tei-c.org/ns/1.0">
-                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
-                </namespace>
-            </tagsDecl>
-        </encodingDesc>
-
-        <profileDesc>
-            <textClass>
-                <catRef target="cartoons_taxonomies.xml#lesson_plan"/>
-                <catRef target="cartoons_taxonomies.xml#gilded"/>
-                <catRef target="cartoons_taxonomies.xml#stereotypes"/>
-                <catRef target="cartoons_taxonomies.xml#international"/>
-                <catRef target="cartoons_genres.xml#clippings"/>
-                <catRef target="cartoons_genres.xml#chromolithographs"/>
-                <catRef target="cartoons_genres.xml#political_cartoons"/>
-                
-            </textClass>
-        </profileDesc>
-
-        <revisionDesc>
-            <change who="DianeBiunno" when="2015-03-16">Encoded to lesson plan level</change>
-            <change who="DianeBiunno" when="2015-03-16">Encoded to basic level</change>
-            <change who="RachelMoloshok" when="2015-01-07">Template file created</change>
-        </revisionDesc>
-    </teiHeader>
-
-    <facsimile>
+  <teiHeader xml:lang="English">
+    <fileDesc>
+      <titleStmt>
+        <title type="main">TEI transcription of The Pope's Dream, a Roman Catholic America</title>
         
-        <surface ulx="" uly="" lrx="" lry="">
-           
-            <graphic
-                url="FIL.000085239"/>
-          
-            <zone n="1" xml:id="Title" points=""/>
-            <zone n="2" xml:id="Artist" points=""/>
-            <zone n="3" xml:id="Puck" points=""/>
-            <zone n="4" xml:id="Banner_1" points=""/>
-            <zone n="5" xml:id="Banner_2" points=""/>
-            <zone n="6" xml:id="Banner_3" points=""/>
-            <zone n="7" xml:id="Throne" points=""/>
-            <zone n="8" xml:id="Ministers_1" points=""/>
-            <zone n="9" xml:id="Ministers_2" points=""/>
-            <zone n="10" xml:id="Ministers_3" points=""/>
-            <zone n="11" xml:id="Pope" points=""/>
-            
-          
-            
-            
-        </surface>
-    </facsimile>
-
-    <text>
-        
-        <front>
-            <div type="editorial_desc">
-                <p>In the cartoon Pope Leo XIII is sleeping next to his papal tiara and pastoral staff and is dreaming.  In the dream, the Pope is sitting in a throne labeled "Presidential Chair" and is surrounded by a group of people who bow to him.  Above the Pope there is a sign which reads "The Church First-The Country Afterwards."  An assembly of people, depicted to look like Irishmen, has gathered around the Pope in order to receive their titles and positions in government.</p>
-            </div>
-        </front>
-
-        <body>
-            
-            <div type="image_transcription" facs="#Title" n="1">
-                <head><supplied resp="editorial">Title</supplied></head>
-                <p>THE POPE'S DREAM.-A ROMAN CATHOLIC AMERICA.</p>
-            </div>
-            
-            <div type="image_transcription" facs="#Artist" n="2">
-                <head><supplied resp="editorial"><persName key="ENT.000000379">Joseph Ferdinand Keppler</persName></supplied></head>
-                <p>JK.</p>
-            </div>
-            
-            <div type="image_transcription" facs="#Puck" n="3">
-                <head><supplied resp="editorial"><orgName key="ENT.000000384">Puck</orgName></supplied></head>
-                <p>PUCK.</p>
-            </div>
-            
-            
-            <div type="image_transcription" facs="#Banner_1" n="4">
-                <head><supplied resp="editorial">Banner 1</supplied></head>
-                <p>THE CHURCH FIRST- THE COUNTRY AFTERWARDS.</p>
-            </div>
-            
-            <div type="image_transcription" facs="#Banner_2" n="5">
-                <head><supplied resp="editorial">Banner 2</supplied></head>
-                <p>HIGH PRIESTS of the PROPOGANDA.</p>
-            </div>
-            
-            <div type="image_transcription" facs="#Banner_3" n="6">
-                <head><supplied resp="editorial">Banner 3</supplied></head>
-                <p>FRIENDLY SONS of OFFICE AND SPOILS</p>
-            </div>
-            
-            <div type="image_transcription" facs="#Throne" n="7">
-                <head><supplied resp="editorial">Throne</supplied></head>
-                <p>PRESIDENTIAL CHAIR</p>
-            </div>
-            
-            <div type="image_transcription" facs="#Ministers_1" n="8">
-                <head><supplied resp="editorial">Ministers</supplied></head>
-                <p>MINISTER <unclear reason="faded">CONFESSOR</unclear></p>
-                <p>PROFESSOR of College</p>
-            </div>
-            
-            <div type="image_transcription" facs="#Ministers_2" n="9">
-                <head><supplied resp="editorial">Ministers</supplied></head>
-                <p>SPEAKER of HOUSE</p>
-                <p>SEC. TREASURY</p>
-                <p>P.M.G</p>
-                <p>SEC. of STATE</p>
-                <p>VICE PRESIDENT</p>
-                
-                
-            </div>
-            
-            <div type="image_transcription" facs="#Ministers_3" n="10">
-                <head><supplied resp="editorial">Ministers</supplied></head>
-                <p>PROFESSOR of</p>
-                <p>COLLEGE PROFESSOR</p>
-                <p>MINISTER of ART</p>
-                <p>MINISTER TO</p>
-                <p>CIVIL SERVICE</p>
-                <p>CIVIL SE<unclear reason="missing">RVICE</unclear></p>
-                <p>COMMISSIONER of CIVIL SERVICE REFORM</p>
-                <p>MINISTER TO ENGLAND.</p>
-                <p>MINISTER OF Public EDUCATION.</p>
-                <p></p>
-            </div>
-            
-            <div type="image_annotation" facs="#Pope" n="11">
-                <head><supplied resp="editorial"><persName key="ENT.000003644">Pope Leo XIII</persName></supplied></head>
-                <p>Gioacchino Vincenzo Pecci became Pope in 1878 and took the name Leo XIII.  He reigned until 1903.  In the political cartoon he sleeps next to his pastoral staff and Papal Tiara.</p>
-            </div>
-   
-        </body>
-
-        <back/>
-    </text>
+        <respStmt>
+          <resp key="art">artist</resp>
+          <persName key="ENT.000000379">Keppler, Joseph Ferdinand, 1838-1894</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="trc">Transcribed by</resp>
+          <persName key="ENT.000003544">Biunno, Diane</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="mrk">Encoded by</resp>
+          <persName key="ENT.000003544">Biunno, Diane</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="ltg">lithographer</resp>
+          <orgName key="ENT.000003611">J. Ottman Lithographic Company</orgName>
+        </respStmt>
+        <respStmt>
+          <resp key="pbl">publisher</resp>
+          <orgName key="ENT.000003163">Keppler &amp; Schwarzmann</orgName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <p>First edition, <date when="2015">2015</date></p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher><orgName key="ENT.000002473">Historical Society of
+          Pennsylvania</orgName></publisher>
+        <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
+        <idno type="filename">1368</idno>
+        <availability status="restricted">
+          <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of copyright only
+            to original contributions made by the Historic Images, New Technologies (HINT) Project
+            participants and other staff. HSP makes no claim of copyright to the original text.
+            Permission is granted to download, transmit or otherwise reproduce, distribute or
+            display the text contributions to this work claimed by HSP for non-profit educational
+            purposes, provided that this header is included in its entirety. For inquiries about
+            commercial uses, please contact the Historical Society of Pennsylvania. HSP retains the
+            rights of all images unless otherwise noted. Possession of an HSP digital image does not
+            constitute permission to use or publish it. Requests for digital imaging, other
+            reproduction services, and the intended use of reproductions must be made in writing to
+            the Rights and Reproductions Coordinator at rnr@hsp.org.</p>
+        </availability>
+        <date when="2015">2015</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="project" key="CARTOONS">Historic Images, New Technologies (HINT)
+          Project</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository key="ENT.000002473">Historical Society of Pennsylvania</repository>
+            <collection key="3213">Balch Institute Broadsides</collection>
+            <idno type="citation">XNB1 75-337<idno type="box">XNB1 75-337</idno></idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <bibl>
+                <date from="1889-07-24">July 24, 1889</date>
+                <extent>1 loose sheet</extent>
+                <listRelation>
+                  <relation name="depicted" active="ENT.000003644"/>
+                </listRelation>
+              </bibl>
+            </msItem>
+          </msContents>
+        </msDesc>
+        <biblStruct>
+          <analytic>
+            <respStmt>
+              <resp key="art">artist</resp>
+              <persName key="ENT.000000379">Keppler, Joseph Ferdinand, 1838-1894</persName>
+            </respStmt>
+            <respStmt>
+              <resp key="ltg">lithographer</resp>
+              <orgName key="ENT.000003611">J. Ottman Lithographic Company</orgName>
+            </respStmt>
+            <respStmt>
+              <resp key="pbl">publisher</resp>
+              <orgName key="ENT.000003163">Keppler &amp; Schwarzmann</orgName>
+            </respStmt>
+            <title type="main" level="a">The Pope's Dream, a Roman Catholic America</title>
+            <date from="1889-07-24">July 24, 1889</date>
+          </analytic>
+          <monogr>
+            <title type="marc245a" level="j"><orgName key="ENT.000000384">Puck</orgName></title>
+            <imprint>
+              <pubPlace>New York</pubPlace>
+              <date from="1889-07-24">July 24, 1889</date>
+              <biblScope unit="volume">25</biblScope>
+              <biblScope unit="issue">646</biblScope>
+              <biblScope unit="page">368-369</biblScope>
+              <publisher>
+                <orgName key="ENT.000003163">Keppler &amp; Schwarzmann</orgName>
+              </publisher>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <bibl/>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The Historic Images, New Technologies (HINT) project aims to enhance description and
+          discovery of the Historical Society of Pennsylvania's graphics materials and promote the
+          linking and sharing of content among institutions and scholars. The project will result in
+          an update to HSP's digital image viewer and an online digital history exhibit that will
+          demonstrate the new viewer's capabilities and provide interpretive and contextual
+          materials to encourage users to interact with historical images in new ways. This project
+          was funded by a grant from the National Historical Publications and Records Commission's
+          (NHPRC) Innovation in Archives and Documentary Editing program.</p>
+      </projectDesc>
+      <editorialDecl n="4">
+        <p>This electronic file was created using manual keying following the recommendations for
+          Level 4 of "Best Practices for TEI in Libraries" guidelines v3.0.</p>
+        <p>This xml file uses unique entity identifiers, media file identifiers, and collection
+          identifiers in HSP's Digital Library, available at http://digitallibrary.hsp.org.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
+        <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
+        <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
+        <rendition scheme="css" xml:id="crossed-through">text-decoration: line-through</rendition>
+        <rendition scheme="other" xml:id="printed"/>
+        <rendition scheme="other" xml:id="typescript"/>
+        <rendition scheme="other" xml:id="handwritten"/>
+        <rendition scheme="other" xml:id="handwritten-underlined"/>
+        <rendition scheme="other" xml:id="handwritten-circled"/>
+        <rendition scheme="other" xml:id="handwritten-crossed-through"/>
+        <rendition scheme="other" xml:id="double-underline"/>
+        <rendition scheme="other" xml:id="stamp"/>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <catRef target="cartoons_genres.xml#clippings"/>
+        <catRef target="cartoons_genres.xml#chromolithographs"/>
+        <catRef target="cartoons_genres.xml#political_cartoons"/>
+        <catRef target="cartoons_taxonomies.xml#lesson_plan"/>
+        <catRef target="cartoons_taxonomies.xml#gilded"/>
+        <catRef target="cartoons_taxonomies.xml#stereotypes"/>
+        <catRef target="cartoons_taxonomies.xml#international"/>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change who="DianeBiunno" when="2015-04-1">Exported from CA and basic proofreading</change>
+      <change who="DianeBiunno" when="2015-03-16">Encoded to lesson plan level</change>
+      <change who="DianeBiunno" when="2015-03-16">Encoded to basic level</change>
+      <change who="RachelMoloshok" when="2015-01-07">Template file created</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="100" lry="100">
+      <graphic url="FIL.000085239"/>
+      <zone n="1" xml:id="Title" points="32.17,95.97 69.75,95.91 69.75,97.83 32.1,98"/>
+      <zone n="2" xml:id="Artist" points="16.12,90.55 19.5,90.66 19.7,93.94 16.12,93.77"/>
+      <zone n="3" xml:id="Puck" points="47.02,2.64 55.65,2.57 55.57,4.86 46.78,4.93"/>
+      <zone n="4" xml:id="Banner_1"
+        points="31.64,5.78 33.57,5.38 34.6,6.85 36.6,6.62 38.94,5.38 59.31,5.1 62.96,7.41 66.88,5.55 68.95,6.57 67.92,8.26 68.4,10.91 66.61,12.15 64.75,11.25 59.31,14.13 43.21,14.07 36.67,11.76 31.71,11.76"/>
+      <zone n="5" xml:id="Banner_2"
+        points="22.62,14.33 24.21,13.18 24.24,11.02 25.79,9.75 28.07,11.14 30.06,13.85 33.07,14.88 32.35,16.46 32.4,18.69 33.36,20.01 33.41,21.71 30.79,24.1 29.45,25.81 27.32,24.89 25.73,25.9 23.96,24 22.66,25.59 18.31,22.09 20.42,17.59 19.75,14.94"/>
+      <zone n="6" xml:id="Banner_3"
+        points="64.51,14.73 68.43,14.98 70.77,13.74 70.73,10.34 72.34,10.49 72.16,13.55 74.86,15.12 76.51,14.66 78.21,15.44 75.99,16.51 77.29,24.64 75.43,23.6 73.9,23.46 73.56,24.6 71.86,25.17 71.95,26.85 70.34,27.09 69.51,25.06 67.99,23.39 65.69,22.75 66.21,17.36"/>
+      <zone n="7" xml:id="Throne"
+        points="44.3,16.58 46.42,16.59 46.46,18.63 47.79,16.46 49.84,15.3 51.4,15.6 53.01,16.95 53.98,18.2 55.18,16.69 56.55,18.73 55.94,21.56 55.91,26.77 56.87,28.3 56.26,30.87 61.73,36.11 63,37.93 43.13,38.07 43.95,31.33 45.82,28.8 43.13,27.09 44.82,25.95"/>
+      <zone n="8" xml:id="Ministers_1"
+        points="17.03,27.46 21.85,25.83 34.3,23.57 41.46,24.13 44.28,25.32 45.11,29.04 40.64,37.79 38.3,35.48 29.07,32.49 26.39,35.14 24.39,40.67 17.1,37.79"/>
+      <zone n="9" xml:id="Ministers_2"
+        points="56.37,25.11 84.73,26.92 83.97,38.66 65.8,38.54 57.54,35.27"/>
+      <zone n="10" xml:id="Ministers_3"
+        points="22.09,30.99 51.64,37.77 65.48,40.75 76.54,41.36 84.72,40.97 84.49,74.53 55.42,78.18 36.42,68.16 38.24,55.43 26.02,48.53 20.23,44.6"/>
+      <zone n="11" xml:id="Pope"
+        points="14.21,45.15 21.26,46.41 24.78,51.69 29.64,52.29 29.26,55.55 30.86,57.55 25.52,62.11 32,57.98 35.66,63.36 34.14,70.11 41.09,75.74 44.09,72.46 51.81,76.56 54.95,78.44 67.82,72.58 73.96,81.6 78.54,81.72 78.97,79.14 80.54,77.38 84.4,78.79 86.26,83.13 86.4,95.67 15.54,95.67"
+      />
+    </surface>
+  </facsimile>
+  <text>
+    <front>
+      <div type="editorial_desc">
+        <p>In the cartoon Pope Leo XIII is sleeping next to his papal tiara and pastoral staff and
+          is dreaming. In the dream, the Pope is sitting in a throne labeled "Presidential Chair"
+          and is surrounded by a group of people who bow to him. Above the Pope there is a sign
+          which reads "The Church First-The Country Afterwards." An assembly of people, depicted to
+          look like Irishmen, has gathered around the Pope in order to receive their titles and
+          positions in government.</p>
+      </div>
+    </front>
+    <body>
+      <div type="image_transcription" n="1" facs="#Title">
+        <head><supplied resp="editorial">Title</supplied></head>
+        <p>THE POPE'S DREAM.-A ROMAN CATHOLIC AMERICA.</p>
+      </div>
+      <div type="image_transcription" n="2" facs="#Artist">
+        <head><supplied resp="editorial"><persName key="ENT.000000379">Joseph Ferdinand
+              Keppler</persName></supplied></head>
+        <p>JK.</p>
+      </div>
+      <div type="image_transcription" n="3" facs="#Puck">
+        <head><supplied resp="editorial"><orgName key="ENT.000000384"
+          >Puck</orgName></supplied></head>
+        <p>PUCK.</p>
+      </div>
+      <div type="image_transcription" n="4" facs="#Banner_1">
+        <head><supplied resp="editorial">Banner 1</supplied></head>
+        <p>THE CHURCH FIRST- THE COUNTRY AFTERWARDS.</p>
+      </div>
+      <div type="image_transcription" n="5" facs="#Banner_2">
+        <head><supplied resp="editorial">Banner 2</supplied></head>
+        <p>HIGH PRIESTS of the PROPOGANDA.</p>
+      </div>
+      <div type="image_transcription" n="6" facs="#Banner_3">
+        <head><supplied resp="editorial">Banner 3</supplied></head>
+        <p>FRIENDLY SONS of OFFICE AND SPOILS</p>
+      </div>
+      <div type="image_transcription" n="7" facs="#Throne">
+        <head><supplied resp="editorial">Throne</supplied></head>
+        <p>PRESIDENTIAL CHAIR</p>
+      </div>
+      <div type="image_transcription" n="8" facs="#Ministers_1">
+        <head><supplied resp="editorial">Ministers</supplied></head>
+        <p>MINISTER <unclear reason="faded">CONFESSOR</unclear></p>
+        <p>PROFESSOR of College</p>
+      </div>
+      <div type="image_transcription" n="9" facs="#Ministers_2">
+        <head><supplied resp="editorial">Ministers</supplied></head>
+        <p>SPEAKER of HOUSE</p>
+        <p>SEC. TREASURY</p>
+        <p>P.M.G</p>
+        <p>SEC. of STATE</p>
+        <p>VICE PRESIDENT</p>
+      </div>
+      <div type="image_transcription" n="10" facs="#Ministers_3">
+        <head><supplied resp="editorial">Ministers</supplied></head>
+        <p>PROFESSOR of</p>
+        <p>COLLEGE PROFESSOR</p>
+        <p>MINISTER of ART</p>
+        <p>MINISTER TO</p>
+        <p>CIVIL SERVICE</p>
+        <p>CIVIL SE<unclear reason="missing">RVICE</unclear></p>
+        <p>COMMISSIONER of CIVIL SERVICE REFORM</p>
+        <p>MINISTER TO ENGLAND.</p>
+        <p>MINISTER OF Public EDUCATION.</p>
+        <p/>
+      </div>
+      <div type="image_annotation" n="11" facs="#Pope">
+        <head><supplied resp="editorial"><persName key="ENT.000003644">Pope Leo
+            XIII</persName></supplied></head>
+        <p>Gioacchino Vincenzo Pecci became Pope in 1878 and took the name Leo XIII. He reigned
+          until 1903. In the political cartoon he sleeps next to his pastoral staff and Papal
+          Tiara.</p>
+      </div>
+    </body>
+  </text>
 </TEI>
