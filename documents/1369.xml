@@ -72,8 +72,8 @@
                 </extent>
                 <listRelation>
                   <relation name="mentioned" active="ENT.000003641"/>
-                  <relation active="cartoons_symbols.xml#uncle_sam"/>
-                  <relation active="cartoons_symbols.xml#columbia"/>
+                  <relation name="depicted" active="cartoons_symbols.xml#uncle_sam"/>
+                  <relation name="depicted" active="cartoons_symbols.xml#columbia"/>
                 </listRelation>
               </bibl>
             </msItem>
