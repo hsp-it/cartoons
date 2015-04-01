@@ -1,397 +1,397 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 
 <?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-
-
-    <teiHeader xml:lang="English">
-
-        <fileDesc>
-
-            <titleStmt>
-                <title type="main">TEI transcription of A New Map of the United States with the
-                    Additional Territories on an Improved Plan</title>
-                <respStmt>
-                    <resp key="art">Artist</resp>
-                    <persName key="ENT.000002863">Imbert, Anthony</persName>
-                </respStmt>
-                <respStmt>
-                    <resp key="ltg">Lithographer</resp>
-                    <orgName key="ENT.000002863">Imbert, Anthony</orgName>
-                </respStmt>
-                <respStmt>
-                    <resp key="trc">Transcribed by</resp>
-                    <persName key="ENT.000003368">Moloshok, Rachel</persName>
-                </respStmt>
-                <respStmt>
-                    <resp key="mrk">Encoded by</resp>
-                    <persName key="ENT.000003368">Moloshok, Rachel</persName>
-                </respStmt>
-
-            </titleStmt>
-
-            <editionStmt>
-                <p>First edition, <date when="2015">2015</date></p>
-            </editionStmt>
-
-            <publicationStmt>
-                <publisher><orgName key="ENT.000002473">Historical Society of
-                    Pennsylvania</orgName></publisher>
-                <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
-                <idno type="filename">11738</idno>
-                <availability status="restricted">
-                    <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of
-                        copyright only to original contributions made by the Historic Images, New
-                        Technologies (HINT) Project participants and other staff. HSP makes no claim
-                        of copyright to the original text. Permission is granted to download,
-                        transmit or otherwise reproduce, distribute or display the text
-                        contributions to this work claimed by HSP for non-profit educational
-                        purposes, provided that this header is included in its entirety. For
-                        inquiries about commercial uses, please contact the Historical Society of
-                        Pennsylvania. HSP retains the rights of all images unless otherwise noted.
-                        Possession of an HSP digital image does not constitute permission to use or
-                        publish it. Requests for digital imaging, other reproduction services, and
-                        the intended use of reproductions must be made in writing to the Rights and
-                        Reproductions Coordinator at rnr@hsp.org.</p>
-                </availability>
-                <date when="2015"/>
-            </publicationStmt>
-
-            <seriesStmt>
-                <title level="s" type="project" key="CARTOONS"/>
-            </seriesStmt>
-
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <repository key="ENT.000002473"/>
-                        <collection key="V64"/>
-                        <idno type="citation">Bb 612 L615</idno>
-                    </msIdentifier>
-                    <msContents>
-                        <msItem>
-                            <bibl>
-                                <date from="1828-01-01" to="1829-12-31">circa 1829</date>
-                                <extent>1 loose sheet</extent>
-                                <listRelation>
-                                    <relation name="depicted"
-                                        active="cartoons_symbols.xml#alligator"/>
-                                    <relation name="depicted" active="cartoons_symbols.xml#tortoise"/>
-                                    <relation name="depicted" active="ENT.000002223"/>
-                                    <relation name="depicted" active="ENT.000002503"/>
-                                    <relation name="mentioned" active="ENT.000002230"/>
-                                    <relation name="mentioned" active="ENT.000003596"/>
-                                    <relation name="mentioned" active="ENT.000003597"/>
-                                </listRelation>
-                            </bibl>
-                        </msItem>
-                    </msContents>
-
-                    <history>
-                        <acquisition/>
-                    </history>
-                </msDesc>
-                <biblStruct>
-                    <monogr>
-                        <respStmt>
-                            <resp key="art">Artist</resp>
-                            <persName key="ENT.000002863">Imbert, Anthony</persName>
-                        </respStmt>
-                        <respStmt>
-                            <resp key="ltg">Lithographer</resp>
-                            <orgName key="ENT.000002863">Imbert, Anthony</orgName>
-                        </respStmt>
-                        <title type="main" level="m">A New Map of the United States with the
-                            Additional Territories on an Improved Plan</title>
-                        <imprint>
-                            <publisher><orgName key="ENT.000003582">Lithography of
-                                Imbert</orgName></publisher>
-                            <pubPlace>New York</pubPlace>
-                            <date from="1828-01-01" to="1829-12-31">circa 1829</date>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
-
-            </sourceDesc>
-        </fileDesc>
-
-        <encodingDesc>
-            <projectDesc>
-                <p>The Historic Images, New Technologies (HINT) project aims to enhance description
-                    and discovery of the Historical Society of Pennsylvania's graphics materials and
-                    promote the linking and sharing of content among institutions and scholars. The
-                    project will result in an update to HSP's digital image viewer and an online
-                    digital history exhibit that will demonstrate the new viewer's capabilities and
-                    provide interpretive and contextual materials to encourage users to interact
-                    with historical images in new ways. This project was funded by a grant from the
-                    National Historical Publications and Records Commission's (NHPRC) Innovation in
-                    Archives and Documentary Editing program.</p>
-            </projectDesc>
-            <editorialDecl n="4">
-                <p>This electronic file was created using manual keying following the
-                    recommendations for Level 4 of "Best Practices for TEI in Libraries" guidelines
-                    v3.0.</p>
-                <p>This xml file uses unique entity identifiers, media file identifiers, and
-                    collection identifiers in HSP's Digital Library, available at
-                    http://digitallibrary.hsp.org.</p>
-
-            </editorialDecl>
-            <tagsDecl>
-                <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
-                <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
-                <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
-                <rendition scheme="css" xml:id="crossed-through">text-decoration:
-                    line-through</rendition>
-                <rendition scheme="other" xml:id="printed"/>
-                <rendition scheme="other" xml:id="typescript"/>
-                <rendition scheme="other" xml:id="handwritten"/>
-                <rendition scheme="other" xml:id="handwritten-underlined"/>
-                <rendition scheme="other" xml:id="handwritten-circled"/>
-                <rendition scheme="other" xml:id="handwritten-crossed-through"/>
-                <rendition scheme="other" xml:id="double-underline"/>
-                <rendition scheme="other" xml:id="stamp"/>
-                <namespace name="http://www.tei-c.org/ns/1.0">
-                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
-                </namespace>
-            </tagsDecl>
-        </encodingDesc>
-
-        <profileDesc>
-            <textClass>
-                <catRef target="cartoons_taxonomies.xml#early"/>
-                <catRef target="cartoons_taxonomies.xml#featured"/>
-                <catRef target="cartoons_taxonomies.xml#native"/>
-                <catRef target="cartoons_taxonomies.xml#press"/>
-                <catRef target="cartoons_genres.xml#lithographs"/>
-                <catRef target="cartoons_genres.xml#political_cartoons"/>
-            </textClass>
-        </profileDesc>
-
-        <revisionDesc>
-            <change who="RachelMoloshok" when="2015-03-31">Encoded to featured level</change>
-            <change who="RachelMoloshok" when="2015-02-10">Encoded to basic level</change>
-        </revisionDesc>
-    </teiHeader>
-
-    <facsimile>
-        <surface ulx="" uly="" lrx="" lry="">
-            <graphic url="FIL.000089303"/>
-            <zone n="1" xml:id="title"/>
-            <zone n="2" xml:id="alligator"/>
-            <zone n="3" xml:id="tortoise"/>
-            <zone n="4" xml:id="jackson"/>
-            <zone n="5" xml:id="flagman"/>
-            <zone n="6" xml:id="medalman"/>
-            <zone n="7" xml:id="tailman1"/>
-            <zone n="8" xml:id="tailman2"/>
-            <zone n="9" xml:id="courier"/>
-            <zone n="10" xml:id="turtle-tailman"/>
-            <zone n="11" xml:id="handbill-man"/>
-            <zone n="12" xml:id="coffin-man"/>
-            <zone n="13" xml:id="paperman1"/>
-            <zone n="14" xml:id="adams"/>
-            <zone n="15" xml:id="collarman"/>
-            <zone n="16" xml:id="nativewoman1"/>
-            <zone n="17" xml:id="nativewoman2"/>
-            <zone n="18" xml:id="nativeman1"/>
-            <zone n="19" xml:id="nativeman2"/>
-            <zone n="20" xml:id="nativeman3"/>
-            <zone n="21" xml:id="nativeman4"/>
-            <zone n="22" xml:id="map"/>
-            <zone n="23" xml:id="imprint"/>
-            <zone n="24" xml:id="note1"/>
-            <zone n="25" xml:id="note2"/>
-        </surface>
-    </facsimile>
-
-    <text>
-        <front>
-            <div type="editorial_desc">
-                <p>This political cartoon is historically significant for being the first American
-                    political cartoon produced using the lithographic printing process. In the
-                    1800s, lithography would become a widespread mode of producing and disseminating
-                    prints, including political cartoons. This cartoon depicts the United States of
-                    America and its territories as a map, with mountains in the distance. On top of
-                    the map are two giant animals: an alligator (symbolizing Jacksonian Democracy),
-                    facing to the west, and a tortoise (symbolizing John Quincy Adams's Whig party),
-                    facing to the east. The alligator and tortoise are tied together at the tail.
-                    Andrew Jackson, dressed as a military general, and his supporters (one of whom
-                    holds an American flag) ride on the alligator, and two men riding the
-                    alligator's tail try to cut or untie the knotted rope connecting it to the
-                    tortoise. The tortoise wears a collar labeled "Quincy" and is ridden by John
-                    Quincy Adams (wearing a crown) and several of his supporters, one of whom,
-                    according to their speech bubbles, is Henry Clay. A person dressed as a circus
-                    performer walks the "tightrope" connecting the tortoise and alligator. In the
-                    mountains, a group of people, identified in the caption as "a Company of
-                    Winebago Indians," comment on American culture. A handwritten note on this
-                    cartoon records its date as 1828, but the Library of Congress dates it circa
-                    1829; we have copied this date cataloging for this project.</p>
-            </div>
-        </front>
-
-        <body>
-            <div type="image_transcription" facs="#title" n="1">
-                <head><supplied resp="editorial">Title</supplied></head>
-                <p>A NEW MAP OF THE UNITED STATES WITH THE ADDITIONAL TERRITORIES <hi
-                        rendition="#italics">on an Improved</hi> PLAN</p>
-                <p><hi rendition="#italics">Exhibiting a View of the Rocky Mountains Surveyed by a
-                        Company of <sic>Winebago</sic> Indians in <date when="1828"
-                        >1828</date>.</hi></p>
-            </div>
-            <div type="image_annotation" facs="#alligator" n="2">
-                <head>Alligator </head>
-                <p>A giant alligator, facing toward the western Unites States, gobbles up several
-                    men in military garb. <persName key="ENT.000002223">Andrew Jackson</persName>,
-                    riding on the alligator's back, holds reins that control it. Several of
-                    Jackson's supporters stand on the alligator's back or sit on its tail.</p>
-            </div>
-            <div type="image_transcription" facs="#tortoise" n="3">
-                <head><supplied resp="editorial">Tortoise</supplied></head>
-                <p><persName key="ENT.000002503">Quincy</persName> Administration</p>
-            </div>
-            <div type="image_transcription" n="4" facs="#jackson">
-                <head><supplied resp="editorial"><persName key="ENT.000002223">Andrew
-                            Jackson</persName></supplied></head>
-                <p>Our Country, right or wrong, Our Country!</p>
-            </div>
-            <div type="image_transcription" n="5" facs="#flagman">
-                <head><supplied resp="editorial">Man holding American flag</supplied></head>
-                <p>Give us our Porter</p>
-            </div>
-            <div type="image_transcription" n="6" facs="#medalman">
-                <head><supplied resp="editorial">Man with medal</supplied></head>
-                <p><sic>Do'n't</sic> cut he may yet get rid of the <persName key="ENT.000002503"
-                        >quincy</persName> &amp; float up the Potomac as far as Washington</p>
-            </div>
-
-            <div type="image_transcription" n="7" facs="#tailman1">
-                <head><supplied resp="editorial">Man sitting on tail</supplied></head>
-                <p>It is a collation knot, but we must <sic>unreeve</sic> it.</p>
-            </div>
-            <div type="image_transcription" n="8" facs="#tailman2">
-                <head><supplied resp="editorial">Man with hatchet</supplied></head>
-                <p>The knot was made by an old Sailor.</p>
-            </div>
-            <div type="image_transcription" n="9" facs="#courier">
-                <head><supplied resp="editorial">Courier/tightrope walker</supplied></head>
-                <p><sic>Courrier</sic></p>
-            </div>
-            <div type="image_transcription" n="10" facs="#turtle-tailman">
-                <head><supplied resp="editorial">Man holding tortoise tail</supplied></head>
-                <p>Whip up we have got <persName key="ENT.000002230">Clay</persName> at our
-                    bottom.</p>
-            </div>
-            <div type="image_transcription" n="11" facs="#handbill-man">
-                <head><supplied resp="editorial">Man sitting on shell</supplied></head>
-                <p>Coffin handbills</p>
-            </div>
-            <div type="image_transcription" n="12" facs="#coffin-man">
-                <head><supplied resp="editorial">Man leaning on coffin</supplied></head>
-                <p>How he eats the militia men!</p>
-            </div>
-            <div type="image_transcription" n="13" facs="#paperman1">
-                <head><supplied resp="editorial">Man reading newspaper</supplied></head>
-                <p><orgName key="ENT.000003597">National <sic>advoc</sic></orgName></p>
-            </div>
-            <div type="image_transcription" n="14" facs="#adams">
-                <head><supplied resp="editorial"><persName key="ENT.000002503">John Quincy
-                            Adams</persName> (reading newspaper)</supplied></head>
-                <p><orgName key="ENT.000003596">AMERICAN</orgName></p>
-            </div>
-            <div type="image_transcription" n="15" facs="#collarman">
-                <head><supplied resp="editorial">Man standing on tortoise's neck (holding
-                        newspaper)</supplied></head>
-                <p>Eb<unclear reason="missing"/>y Top<unclear reason="missing"/></p>
-            </div>
-            <div type="image_transcription" n="16" facs="#nativewoman1">
-                <head><supplied resp="editorial">Winnebago woman 1</supplied></head>
-                <p>What means all this You <sic>did'n't</sic> use to dance so before?</p>
-            </div>
-            <div type="image_transcription" n="17" facs="#nativewoman2">
-                <head><supplied resp="editorial">Winnebago dancer</supplied></head>
-                <p>I can teach our <choice>
-                        <sic>Sqwas</sic>
-                        <corr>Squaws</corr>
-                    </choice> now how to show their legs without impropriety</p>
-            </div>
-            <div type="image_transcription" n="18" facs="#nativeman1">
-                <head><supplied resp="editorial">Winnebago man 1</supplied></head>
-                <p>Who is our father now?</p>
-            </div>
-            <div type="image_transcription" n="19" facs="#nativeman2">
-                <head><supplied resp="editorial">Winnebago man 2</supplied></head>
-                <p>Did you learn any of their language?</p>
-            </div>
-            <div type="image_transcription" n="20" facs="#nativeman3">
-                <head><supplied resp="editorial">Winnebago man 3</supplied></head>
-                <p>only a few words "<persName key="ENT.000002503">A-dam</persName> No-a! <persName
-                        key="ENT.000002223">Jack-son</persName> Ou-rah— Show, Show!!</p>
-            </div>
-            <div type="image_transcription" n="21" facs="#nativeman4">
-                <head><supplied resp="editorial">Winnebago man 4</supplied></head>
-                <p>Tom Cod</p>
-            </div>
-            <div type="image_transcription" n="22" facs="#map">
-                <head><supplied resp="editorial">Map text</supplied></head>
-                <p>ATLANTIC SOUVENIR FOR 1829</p>
-                <p>Maine</p>
-                <p>New Hampshire</p>
-                <p>Vermont</p>
-                <p><choice>
-                        <sic>Massachussets</sic>
-                        <corr>Massachusetts</corr>
-                    </choice></p>
-                <p>Cape Cod</p>
-                <p>Connecticut</p>
-                <p>New York</p>
-                <p>Long Island</p>
-                <p>New Jersey</p>
-                <p>Delaware</p>
-                <p><choice>
-                        <sic>Pennsyvannia</sic>
-                        <corr>Pennsylvania</corr>
-                    </choice></p>
-                <p>Virginia</p>
-                <p>Maryland</p>
-                <p>North Carolina</p>
-                <p>South Carolina</p>
-                <p>Georgia</p>
-                <p>Florida</p>
-                <p>New You<unclear reason="missing"/></p>
-                <p>Ohio</p>
-                <p>Kentucky</p>
-                <p>Tennessee</p>
-                <p>Alabama</p>
-                <p>Louisiana</p>
-                <p><choice>
-                        <sic>Mississipi</sic>
-                        <corr>Mississippi</corr>
-                    </choice></p>
-                <p>Indiana</p>
-                <p>Illinois</p>
-                <p>Missouri</p>
-                <p><choice>
-                        <sic>Arkansaw</sic>
-                        <corr>Arkansas</corr>
-                    </choice></p>
-            </div>
-            <div type="image_transcription" n="23" facs="#imprint">
-                <head><supplied resp="editorial">Imprint</supplied></head>
-                <p><orgName key="ENT.000003582">Lithography of Imbert</orgName> 233 Broadway
-                    N.Y.</p>
-            </div>
-            <div type="image_transcription" n="24" facs="#note1">
-                <head><supplied resp="editorial">Note 1</supplied></head>
-                <p><add><date when="1828">1828</date></add></p>
-            </div>
-            <div type="image_transcription" n="25" facs="#note2">
-                <head><supplied resp="editorial">Note 2</supplied></head>
-                <p><add><del>46</del></add></p>
-                <p><add>10</add></p>
-            </div>
-
-        </body>
-
-        <back/>
-    </text>
+  <teiHeader xml:lang="English">
+    <fileDesc>
+      <titleStmt>
+        <title type="main">TEI transcription of A New Map of the United States with the Additional
+          Territories on an Improved Plan</title>
+        <author/>
+        <respStmt>
+          <resp key="art">artist</resp>
+          <persName key="ENT.000002863">Imbert, Anthony, 1794 or 1795-1834</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="trc">Transcribed by</resp>
+          <persName key="ENT.000003368">Moloshok, Rachel</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="mrk">Encoded by</resp>
+          <persName key="ENT.000003368">Moloshok, Rachel</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="pfr">Proofread by</resp>
+          <persName key="ENT.000003368">Moloshok, Rachel</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="ltg">lithographer</resp>
+          <persName key="ENT.000002863">Imbert, Anthony, 1794 or 1795-1834</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="pbl">publisher</resp>
+          <orgName key="ENT.000003582">Lithography of Imbert</orgName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <p>First edition, <date when="2015">2015</date></p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher><orgName key="ENT.000002473">Historical Society of
+          Pennsylvania</orgName></publisher>
+        <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
+        <idno type="filename">11738</idno>
+        <availability status="restricted">
+          <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of copyright only
+            to original contributions made by the Historic Images, New Technologies (HINT) Project
+            participants and other staff. HSP makes no claim of copyright to the original text.
+            Permission is granted to download, transmit or otherwise reproduce, distribute or
+            display the text contributions to this work claimed by HSP for non-profit educational
+            purposes, provided that this header is included in its entirety. For inquiries about
+            commercial uses, please contact the Historical Society of Pennsylvania. HSP retains the
+            rights of all images unless otherwise noted. Possession of an HSP digital image does not
+            constitute permission to use or publish it. Requests for digital imaging, other
+            reproduction services, and the intended use of reproductions must be made in writing to
+            the Rights and Reproductions Coordinator at rnr@hsp.org.</p>
+        </availability>
+        <date when="2015">2015</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="project" key="CARTOONS">Historic Images, New Technologies (HINT)
+          Project</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository key="ENT.000002473">Historical Society of Pennsylvania</repository>
+            <collection key="V64">Historical Society of Pennsylvania medium graphics
+              collection</collection>
+            <idno type="citation">Bb 612 L615</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <bibl>
+                <date from="1828-01-01" to="1829-12-31">circa 1829</date>
+                <extent>1 loose sheet</extent>
+                <extent>
+                  <dimensions type="image" unit="cm"/>
+                  <height quantity="30"/>
+                  <width quantity="37.5"/>
+                </extent>
+                <listRelation>
+                  <relation name="depicted" active="ENT.000002223"/>
+                  <relation name="depicted" active="ENT.000002503"/>
+                  <relation name="mentioned" active="ENT.000002230"/>
+                  <relation name="mentioned" active="ENT.000003596"/>
+                  <relation name="mentioned" active="ENT.000003597"/>
+                  <relation name="depicted" active="cartoons_symbols.xml#alligator"/>
+                  <relation name="depicted" active="cartoons_symbols.xml#tortoise"/>
+                </listRelation>
+              </bibl>
+            </msItem>
+          </msContents>
+        </msDesc>
+        <biblStruct>
+          <monogr>
+            <respStmt>
+              <resp key="art">artist</resp>
+              <persName key="ENT.000002863">Imbert, Anthony, 1794 or 1795-1834</persName>
+            </respStmt>
+            <respStmt>
+              <resp key="ltg">lithographer</resp>
+              <persName key="ENT.000002863">Imbert, Anthony, 1794 or 1795-1834</persName>
+            </respStmt>
+            <respStmt>
+              <resp key="pbl">publisher</resp>
+              <orgName key="ENT.000003582">Lithography of Imbert</orgName>
+            </respStmt>
+            <title type="main" level="m">A New Map of the United States with the Additional
+              Territories on an Improved Plan</title>
+            <imprint>
+              <pubPlace>New York</pubPlace>
+              <date from="1829-01-01" to="1829-12-31">circa 1829</date>
+              <publisher>
+                <orgName key="ENT.000003582">Lithography of Imbert</orgName>
+              </publisher>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <bibl/>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The Historic Images, New Technologies (HINT) project aims to enhance description and
+          discovery of the Historical Society of Pennsylvania's graphics materials and promote the
+          linking and sharing of content among institutions and scholars. The project will result in
+          an update to HSP's digital image viewer and an online digital history exhibit that will
+          demonstrate the new viewer's capabilities and provide interpretive and contextual
+          materials to encourage users to interact with historical images in new ways. This project
+          was funded by a grant from the National Historical Publications and Records Commission's
+          (NHPRC) Innovation in Archives and Documentary Editing program.</p>
+      </projectDesc>
+      <editorialDecl n="4">
+        <p>This electronic file was created using manual keying following the recommendations for
+          Level 4 of "Best Practices for TEI in Libraries" guidelines v3.0.</p>
+        <p>This xml file uses unique entity identifiers, media file identifiers, and collection
+          identifiers in HSP's Digital Library, available at http://digitallibrary.hsp.org.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
+        <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
+        <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
+        <rendition scheme="css" xml:id="crossed-through">text-decoration: line-through</rendition>
+        <rendition scheme="other" xml:id="printed"/>
+        <rendition scheme="other" xml:id="typescript"/>
+        <rendition scheme="other" xml:id="handwritten"/>
+        <rendition scheme="other" xml:id="handwritten-underlined"/>
+        <rendition scheme="other" xml:id="handwritten-circled"/>
+        <rendition scheme="other" xml:id="handwritten-crossed-through"/>
+        <rendition scheme="other" xml:id="double-underline"/>
+        <rendition scheme="other" xml:id="stamp"/>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <catRef target="cartoons_genres.xml#lithographs"/>
+        <catRef target="cartoons_genres.xml#political_cartoons"/>
+        <catRef target="cartoons_taxonomies.xml#early"/>
+        <catRef target="cartoons_taxonomies.xml#featured"/>
+        <catRef target="cartoons_taxonomies.xml#native"/>
+        <catRef target="cartoons_taxonomies.xml#press"/>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change who="RachelMoloshok" when="2015-04-01">Exported from Collective Access. Basic
+        proofreading</change>
+      <change who="RachelMoloshok" when="2015-03-31">Encoded to featured level</change>
+      <change who="RachelMoloshok" when="2015-02-10">Encoded to basic level</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="100" lry="100">
+      <graphic url="FIL.000089303"/>
+      <zone n="1" xml:id="title" points="10.06,4.37 88.47,5.68 88.54,10.07 9.91,9.42"/>
+      <zone n="2" xml:id="alligator"
+        points="8.78,50.02 23.79,49.4 50.73,52.24 50.81,55.67 37.1,55.38 35.82,57.73 25.39,59.01 24.19,55.77 8.78,55.02"/>
+      <zone n="3" xml:id="tortoise"
+        points="52.67,50.47 65.61,45.6 71.7,46.28 82.53,50.6 81.22,55.83 77.75,55.89 77.09,57.99 70.95,61.07 67.62,57.87 53.72,58.05"/>
+      <zone n="4" xml:id="jackson"
+        points="31.25,46.25 30.14,48.77 30.84,53.52 28.24,54.53 27.08,47.51 20.43,30.87 24.81,29.83"/>
+      <zone n="5" xml:id="flagman" points="28.87,40.41 35.13,42.35 34.96,52.4 32.14,51.29"/>
+      <zone n="6" xml:id="medalman" points="37.94,33.53 42.83,34.7 39.37,53.65 34.37,53.65"/>
+      <zone n="7" xml:id="tailman1" points="46.31,37.69 48.97,38.76 41.15,54.18 38.32,52.01"/>
+      <zone n="8" xml:id="tailman2"
+        points="40.71,50.33 43.13,50.02 50.84,36.33 52.58,37.48 43.78,55.2 39.97,56.15 39.64,52.98"/>
+      <zone n="9" xml:id="courier" points="46.26,41.92 52.91,41.48 53.42,53.17 46.41,53.22"/>
+      <zone n="10" xml:id="turtle-tailman"
+        points="52.91,50.23 54.5,31.37 56.74,32.05 57.91,55.23 52.91,55.23"/>
+      <zone n="11" xml:id="handbill-man"
+        points="56.2,45.17 56.47,38.37 58.32,39.05 60.8,45.14 61.2,50.17 56.88,51.32"/>
+      <zone n="12" xml:id="coffin-man"
+        points="56.16,31.51 58.24,31.7 64.52,43.5 62.09,49.56 59.44,47.99"/>
+      <zone n="13" xml:id="paperman1" points="63.88,41.27 68.55,44.82 68.53,50.29 64.2,48.43"/>
+      <zone n="14" xml:id="adams" points="66.58,43.84 68.69,41.53 71.58,43.84 70.22,50.06 67.57,48"/>
+      <zone n="15" xml:id="collarman" points="74.31,41.61 76.42,41.61 77.81,51.07 73.66,51.47"/>
+      <zone n="16" xml:id="nativewoman1" points="64.54,14.63 68.58,15.93 69.97,29.52 64.97,29.52"/>
+      <zone n="17" xml:id="nativewoman2"
+        points="60.85,15.06 64.14,13.86 66.44,26.37 61.82,29.97 59.82,22.57"/>
+      <zone n="18" xml:id="nativeman1"
+        points="46.27,14.68 48.07,14.45 48.35,23.58 49.28,24.68 49.03,27.8 47.38,29.13 46.48,20.69"/>
+      <zone n="19" xml:id="nativeman2"
+        points="44.43,24.51 44.12,21.12 44.18,18.19 45.47,17.97 47.93,29.34 45.54,30.7"/>
+      <zone n="20" xml:id="nativeman3"
+        points="43.63,17 44.15,21.22 44.37,24.48 43.09,26.86 43.33,29.37 41.96,28.64 41.96,25.95 41.85,24.78 41.92,23.17 41.13,19.75 41.08,18.1 42.13,17.03"/>
+      <zone n="21" xml:id="nativeman4"
+        points="40.18,19.67 40.92,20.02 41.85,23.93 42.53,29.3 40.45,28.42 40,24.42"/>
+      <zone n="22" xml:id="map" points="8.7,10.03 90.04,11.44 89.75,90.13 8.12,89.96"/>
+      <zone n="23" xml:id="imprint" points="8.71,91.12 24.91,91.09 24.91,93.16 8.69,93.26"/>
+      <zone n="24" xml:id="note1" points="3.13,3.79 7.41,3.79 7.49,6.13 3.06,5.94"/>
+      <zone n="25" xml:id="note2" points="93.63,4.31 98.63,4.31 98.63,9.31 93.63,9.31"/>
+    </surface>
+  </facsimile>
+  <text>
+    <front>
+      <div type="editorial_desc">
+        <p>This political cartoon is historically significant for being the first American political
+          cartoon produced using the lithographic printing process. In the 1800s, lithography would
+          become a widespread mode of producing and disseminating prints, including political
+          cartoons. This cartoon depicts the United States of America and its territories as a map,
+          with mountains in the distance. On top of the map are two giant animals: an alligator
+          (symbolizing Jacksonian Democracy), facing to the west, and a tortoise (symbolizing John
+          Quincy Adams's Whig party), facing to the east. The alligator and tortoise are tied
+          together at the tail. Andrew Jackson, dressed as a military general, and his supporters
+          (one of whom holds an American flag) ride on the alligator, and two men riding the
+          alligator's tail try to cut or untie the knotted rope connecting it to the tortoise. The
+          tortoise wears a collar labeled "Quincy" and is ridden by John Quincy Adams (wearing a
+          crown) and several of his supporters, one of whom, according to their speech bubbles, is
+          Henry Clay. A person dressed as a circus performer walks the "tightrope" connecting the
+          tortoise and alligator. In the mountains, a group of people, identified in the caption as
+          "a Company of Winebago Indians," comment on American culture. A handwritten note on this
+          cartoon records its date as 1828, but the Library of Congress dates it circa 1829; we have
+          copied this date cataloging for this project.</p>
+      </div>
+    </front>
+    <body>
+      <div type="image_transcription" n="1" facs="#title">
+        <head><supplied resp="editorial">Title</supplied></head>
+        <p>A NEW MAP OF THE UNITED STATES WITH THE ADDITIONAL TERRITORIES <hi rendition="#italics"
+            >on an Improved</hi> PLAN</p>
+        <p><hi rendition="#italics">Exhibiting a View of the Rocky Mountains Surveyed by a Company
+            of <sic>Winebago</sic> Indians in <date when="1828">1828</date>.</hi></p>
+      </div>
+      <div type="image_annotation" n="2" facs="#alligator">
+        <head>Alligator </head>
+        <p>A giant alligator, facing toward the western Unites States, gobbles up several men in
+          military garb. <persName key="ENT.000002223">Andrew Jackson</persName>, riding on the
+          alligator's back, holds reins that control it. Several of Jackson's supporters stand on
+          the alligator's back or sit on its tail.</p>
+      </div>
+      <div type="image_transcription" n="3" facs="#tortoise">
+        <head><supplied resp="editorial">Tortoise</supplied></head>
+        <p><persName key="ENT.000002503">Quincy</persName> Administration</p>
+      </div>
+      <div type="image_transcription" n="4" facs="#jackson">
+        <head><supplied resp="editorial"><persName key="ENT.000002223">Andrew
+            Jackson</persName></supplied></head>
+        <p>Our Country, right or wrong, Our Country!</p>
+      </div>
+      <div type="image_transcription" n="5" facs="#flagman">
+        <head><supplied resp="editorial">Man holding American flag</supplied></head>
+        <p>Give us our Porter</p>
+      </div>
+      <div type="image_transcription" n="6" facs="#medalman">
+        <head><supplied resp="editorial">Man with medal</supplied></head>
+        <p><sic>Do'n't</sic> cut he may yet get rid of the <persName key="ENT.000002503"
+            >quincy</persName> &amp; float up the Potomac as far as Washington</p>
+      </div>
+      <div type="image_transcription" n="7" facs="#tailman1">
+        <head><supplied resp="editorial">Man sitting on tail</supplied></head>
+        <p>It is a collation knot, but we must <sic>unreeve</sic> it.</p>
+      </div>
+      <div type="image_transcription" n="8" facs="#tailman2">
+        <head><supplied resp="editorial">Man with hatchet</supplied></head>
+        <p>The knot was made by an old Sailor.</p>
+      </div>
+      <div type="image_transcription" n="9" facs="#courier">
+        <head><supplied resp="editorial">Courier/tightrope walker</supplied></head>
+        <p><sic>Courrier</sic></p>
+      </div>
+      <div type="image_transcription" n="10" facs="#turtle-tailman">
+        <head><supplied resp="editorial">Man holding tortoise tail</supplied></head>
+        <p>Whip up we have got <persName key="ENT.000002230">Clay</persName> at our bottom.</p>
+      </div>
+      <div type="image_transcription" n="11" facs="#handbill-man">
+        <head><supplied resp="editorial">Man sitting on shell</supplied></head>
+        <p>Coffin handbills</p>
+      </div>
+      <div type="image_transcription" n="12" facs="#coffin-man">
+        <head><supplied resp="editorial">Man leaning on coffin</supplied></head>
+        <p>How he eats the militia men!</p>
+      </div>
+      <div type="image_transcription" n="13" facs="#paperman1">
+        <head><supplied resp="editorial">Man reading newspaper</supplied></head>
+        <p><orgName key="ENT.000003597">National <sic>advoc</sic></orgName></p>
+      </div>
+      <div type="image_transcription" n="14" facs="#adams">
+        <head><supplied resp="editorial"><persName key="ENT.000002503">John Quincy Adams</persName>
+            (reading newspaper)</supplied></head>
+        <p><orgName key="ENT.000003596">AMERICAN</orgName></p>
+      </div>
+      <div type="image_transcription" n="15" facs="#collarman">
+        <head><supplied resp="editorial">Man standing on tortoise's neck (holding
+            newspaper)</supplied></head>
+        <p>Eb<unclear reason="missing"/>y Top<unclear reason="missing"/></p>
+      </div>
+      <div type="image_transcription" n="16" facs="#nativewoman1">
+        <head><supplied resp="editorial">Winnebago woman 1</supplied></head>
+        <p>What means all this You <sic>did'n't</sic> use to dance so before?</p>
+      </div>
+      <div type="image_transcription" n="17" facs="#nativewoman2">
+        <head><supplied resp="editorial">Winnebago dancer</supplied></head>
+        <p>I can teach our <choice>
+            <sic>Sqwas</sic>
+            <corr>Squaws</corr>
+          </choice> now how to show their legs without impropriety</p>
+      </div>
+      <div type="image_transcription" n="18" facs="#nativeman1">
+        <head><supplied resp="editorial">Winnebago man 1</supplied></head>
+        <p>Who is our father now?</p>
+      </div>
+      <div type="image_transcription" n="19" facs="#nativeman2">
+        <head><supplied resp="editorial">Winnebago man 2</supplied></head>
+        <p>Did you learn any of their language?</p>
+      </div>
+      <div type="image_transcription" n="20" facs="#nativeman3">
+        <head><supplied resp="editorial">Winnebago man 3</supplied></head>
+        <p>only a few words "<persName key="ENT.000002503">A-dam</persName> No-a! <persName
+            key="ENT.000002223">Jack-son</persName> Ou-rah— Show, Show!!</p>
+      </div>
+      <div type="image_transcription" n="21" facs="#nativeman4">
+        <head><supplied resp="editorial">Winnebago man 4</supplied></head>
+        <p>Tom Cod</p>
+      </div>
+      <div type="image_transcription" n="22" facs="#map">
+        <head><supplied resp="editorial">Map text</supplied></head>
+        <p>ATLANTIC SOUVENIR FOR 1829</p>
+        <p>Maine</p>
+        <p>New Hampshire</p>
+        <p>Vermont</p>
+        <p><choice>
+            <sic>Massachussets</sic>
+            <corr>Massachusetts</corr>
+          </choice></p>
+        <p>Cape Cod</p>
+        <p>Connecticut</p>
+        <p>New York</p>
+        <p>Long Island</p>
+        <p>New Jersey</p>
+        <p>Delaware</p>
+        <p><choice>
+            <sic>Pennsyvannia</sic>
+            <corr>Pennsylvania</corr>
+          </choice></p>
+        <p>Virginia</p>
+        <p>Maryland</p>
+        <p>North Carolina</p>
+        <p>South Carolina</p>
+        <p>Georgia</p>
+        <p>Florida</p>
+        <p>New You<unclear reason="missing"/></p>
+        <p>Ohio</p>
+        <p>Kentucky</p>
+        <p>Tennessee</p>
+        <p>Alabama</p>
+        <p>Louisiana</p>
+        <p><choice>
+            <sic>Mississipi</sic>
+            <corr>Mississippi</corr>
+          </choice></p>
+        <p>Indiana</p>
+        <p>Illinois</p>
+        <p>Missouri</p>
+        <p><choice>
+            <sic>Arkansaw</sic>
+            <corr>Arkansas</corr>
+          </choice></p>
+      </div>
+      <div type="image_transcription" n="23" facs="#imprint">
+        <head><supplied resp="editorial">Imprint</supplied></head>
+        <p><orgName key="ENT.000003582">Lithography of Imbert</orgName> 233 Broadway N.Y.</p>
+      </div>
+      <div type="image_transcription" n="24" facs="#note1">
+        <head><supplied resp="editorial">Note 1</supplied></head>
+        <p><add><date when="1828">1828</date></add></p>
+      </div>
+      <div type="image_transcription" n="25" facs="#note2">
+        <head><supplied resp="editorial">Note 2</supplied></head>
+        <p><add><del>46</del></add></p>
+        <p><add>10</add></p>
+      </div>
+    </body>
+  </text>
 </TEI>
