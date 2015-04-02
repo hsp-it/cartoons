@@ -1,21 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 
-
 <?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-
-
     <teiHeader xml:lang="English">
-
         <fileDesc>
-
             <titleStmt>
-                <title type="main">TEI transcription of Please Omit Flowers</title>
+                <title type="main">TEI transcription of "For He Himself Has Said It"</title>
                 <respStmt>
                     <resp key="art">Artist</resp>
                     <persName key="ENT.000000436">John De Mar</persName>
                 </respStmt>
-                
+
                 <respStmt>
                     <resp key="trc">Transcribed by</resp>
                     <persName key="ENT.000003544">Biunno, Diane</persName>
@@ -24,9 +20,7 @@
                     <resp key="mrk">Encoded by</resp>
                     <persName key="ENT.000003544">Biunno, Diane</persName>
                 </respStmt>
-
             </titleStmt>
-
             <editionStmt>
                 <p>First edition, <date when="2015">2015</date></p>
             </editionStmt>
@@ -35,8 +29,7 @@
                 <publisher><orgName key="ENT.000002473">Historical Society of
                     Pennsylvania</orgName></publisher>
                 <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
-                <idno type="filename"
-                    >1784</idno>
+                <idno type="filename">12271</idno>
                 <availability status="restricted">
                     <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of
                         copyright only to original contributions made by the Historic Images, New
@@ -63,25 +56,28 @@
                 <msDesc>
                     <msIdentifier>
                         <repository key="ENT.000002473"/>
-                        <collection key="3133">Historical Society of Pennsylvania cartoons and caricatures collection</collection>
-                      
+                        <collection key="3133"/>
                         <idno type="citation">
                             <idno type="box">2</idno>
-                            <idno type="folder">10</idno>
+                            <idno type="folder">11</idno>
                         </idno>
                     </msIdentifier>
                     <msContents>
                         <msItem>
                             <bibl>
-                                <date from="1912-11-06"
-                                    >November 6, 1912</date>
-                                <extent>1 loose sheet</extent>
-                                
+                                <date from="1914-07-27">July 27, 1914</date>
+                                <extent>1 loose page</extent>
+                                <extent>
+                                    <dimensions type="image" unit="cm">
+                                        <height quantity="21"/>
+                                        <width quantity="17.5"/>
+                                    </dimensions>
+                                </extent>
                                 <listRelation>
-                                    <relation name="depicted" active="ENT.000003084"/>
-                                    <relation name="depicted" active="cartoons_symbols.xml#bull_moose"/>
-                                    <relation name="depicted" active="cartoons_symbols.xml#elephant"/>
-     
+                                    <relation name="depicted" active="ENT.000002738"/>
+                                    <relation name="depicted" active="ENT.000003664"/>
+                                    <relation name="depicted" active="ENT.000002704"/>
+                                    <relation name="depicted" active="ENT.000003665"/>
                                 </listRelation>
                             </bibl>
                         </msItem>
@@ -101,20 +97,17 @@
                         <respStmt>
                             <resp key="art">Artist</resp>
                             <persName key="ENT.000000436">John De Mar</persName>
-                            
                         </respStmt>
-                        
-                        <title type="main" level="a">Please Omit Flowers</title>
+
+                        <title type="main" level="a">"For He Himself Has Said It"</title>
                     </analytic>
                     <monogr>
-                        <title type="marc245a" level="j"><orgName key="ENT.000000437"
-                                >Philadelphia Record</orgName></title>
+                        <title type="marc245a" level="j"><orgName key="ENT.000000437">Philadelphia
+                                Record</orgName></title>
                         <imprint>
-                            <publisher><orgName key="ENT.000003387"
-                                    >Unknown</orgName></publisher>
+                            <publisher><orgName key="ENT.000003387">Unknown</orgName></publisher>
                             <pubPlace>Philadelphia</pubPlace>
-                            <date from="1912-11-06"
-                                >November 6, 1912</date>
+                            <date from="1914-07-27">July 27, 1914</date>
                             <biblScope/>
                         </imprint>
                     </monogr>
@@ -136,7 +129,7 @@
                     Archives and Documentary Editing program.</p>
             </projectDesc>
             <editorialDecl n="4">
-                
+
                 <p>This electronic file was created using manual keying following the
                     recommendations for Level 4 of "Best Practices for TEI in Libraries" guidelines
                     v3.0.</p>
@@ -169,11 +162,12 @@
             <textClass>
                 <catRef target="cartoons_genres.xml#political_cartoons"/>
                 <catRef target="cartoons_genres.xml#clippings"/>
-                <catRef target="cartoons_taxonomies.xml#elections"/>
-                <catRef target="cartoons_taxonomies.xml#econ"/>
                 <catRef target="cartoons_taxonomies.xml#lesson_plan"/>
                 <catRef target="cartoons_taxonomies.xml#twentieth"/>
-               
+                <catRef target="cartoons_taxonomies.xml#laws"/>
+                <catRef target="cartoons_taxonomies.xml#children"/>
+                <catRef target="cartoons_taxonomies.xml#press"/>
+                
             </textClass>
         </profileDesc>
 
@@ -184,75 +178,51 @@
     </teiHeader>
 
     <facsimile>
-        
         <surface ulx="" uly="" lrx="" lry="">
-            
             <graphic
-                url="FIL.000085241"/>
-           
+                url="FIL.000090267"/>
             <zone n="1" xml:id="Title" points=""/>
-            <zone n="2" xml:id="Artist" points=""/>
-            <zone n="3" xml:id="Elephant" points=""/>
-            <zone n="4" xml:id="Bullmoose" points=""/>
-            <zone n="5" xml:id="Wilson" points=""/>
-            <zone n="6" xml:id="Wagon" points=""/>
-            <zone n="7" xml:id="Train" points=""/>
-            <zone n="8" xml:id="Record" points=""/>
+            <zone n="2" xml:id="Group" points=""/>
+            <zone n="3" xml:id="LittleTR" points=""/>
+            <zone n="4" xml:id="BigTR" points=""/>
         </surface>
     </facsimile>
 
     <text>
-      
+   
         <front>
             <div type="editorial_desc">
-                <p>In the image, Woodrow Wilson rides a "Washington special" train to the White House.  Behind the train lies an elephant, symbol of the Republican party.  A bull moose, symbol of the Progressive party, hangs from the wires.  A broken wagon with the sign "Wilson's election will be a calamity" is next to the train tracks.  A man labeled "the trusts" looks out from the wagon.</p>
-                <p>Woodrow Wilson became the 28th president of the United States after winning the 1912 election.  He defeated Progressive candidate Theodore Roosevelt and Republican candidate Howard Taft. During the 1912 presidential campaign he called for stricter anti-trust laws and disagreed with Roosevelt's policies which distinguished between "good" and "bad" trusts.  According to Wilson, all trusts were harmful to the economy and must be dismantled.  He served two presidential terms.</p>
-               
+                <p>On a wall, A young Teddy Roosevelt draws an image of himself as an adult.  He also has drawn a group of men who he has labeled Charlie Murphy, Penrose, and Bill Barnes.  Some of the letters in their names are written backwards so that it looks like a child's handwriting.</p>
+                <p>On July 22, 1914 Roosevelt accused Bill Barnes, owner of the <hi rendition="#italics">Albany Times-Union</hi>, of corruption and of working with two known political bosses, Boies Penrose and Charlie Murphy.  His comments were published in newspapers across the country.  The following day Barnes filed a suit against Roosevelt.  At the conclusion of the trial, Roosevelt was found innocent and Barnes' political career was over.</p>
             </div>
         </front>
 
         <body>
+            
             <div type="image_transcription" facs="#Title" n="1">
-                <head><supplied resp="editorial">Title</supplied></head>
-                <p>PLEASE OMIT FLOWERS.</p>
+                <head><supplied resp="editorial">Title and Artist</supplied></head>
+                <p>"FOR HE HIMSELF HAS SAID IT."</p>
+                <p>"I regard the action of Mr. Barnes as the most striking proof that could be given that the bosses recognize in ME personally the ONE enemy that the type of machine government for which they stand has to fear."-Roosevelt.</p>
+                <p><add rendition="#handwritten">Record 7-27-1914</add></p>
+                <p>-By <persName key="ENT.000000436">De Mar</persName>.</p>
             </div>
             
-            <div type="image_transcription" facs="#Artist" n="2">
-                <head><supplied resp="editorial">Artist and Notes</supplied></head>
-                <p>By <persName key="ENT.000000436">De Mar</persName></p>
-                <p><add rendition="#handwritten">Phila Record 11-6-1912.</add></p>
+            <div type="image_transcription" facs="#Group" n="2">
+                <head><supplied resp="editorial">Political Bosses</supplied></head>
+                <p><persName key="ENT.000003664">CHARLIE MURPHY</persName> &amp; <persName key="ENT.000002704">PENROSE</persName></p>
+                <p><persName key="ENT.000003665">BILL BARNES</persName></p>
             </div>
             
-            <div type="image_annotation" facs="#Elephant" n="3">
-                <head><supplied resp="editorial"><rs resp="cartoons_symbols.xml#elephant">Elephant</rs></supplied></head>
-                <p>The Elephant is a symbol for the Republican Party.  <persName key="ENT.000003384">William Taft</persName> ran as the Republican presidential nominee in the election of 1912 and lost to <persName key="ENT.000003084">Woodrow Wilson</persName>.</p>
+            <div type="image_transcription" facs="#LittleTR" n="3">
+                <head><supplied resp="editorial"><persName key="ENT.000002738">Theodore Roosevelt</persName></supplied></head>
+                <p>TEDDY</p>
             </div>
             
-            <div type="image_annotation" facs="#Bullmoose" n="4">
-                <head><supplied resp="editorial"><rs resp="cartoons_symbols.xml#bull_moose">Bull Moose</rs></supplied></head>
-                <p>The bull moose is a symbol for the Progressive Party.  <persName key="ENT.000002738">Theodore Roosevelt</persName> established the Party in 1912 because of political disputes with the Republican Party and President Taft.  Roosevelt ran as the Progressive Party nominee during the election of 1912 and lost to <persName key="ENT.000003084">Woodrow Wilson</persName>.</p>
+            <div type="image_transcription" facs="#BigTR" n="4">
+                <head><supplied resp="editorial"><persName key="ENT.000002738">Theodore Roosevelt</persName></supplied></head>
+                <p>ME</p>
             </div>
             
-            <div type="image_transcription" facs="#Wilson" n="5">
-                <head><supplied resp="editorial"><persName key="ENT.000003084">Woodrow Wilson</persName></supplied></head>
-                <p>WILSON</p>
-            </div>
-            
-            <div type="image_transcription" facs="#Wagon" n="6">
-                <head><supplied resp="editorial">Wagon</supplied></head>
-                <p><hi rendition="#bold">WILSON'S</hi> ELECTION WILL BE A <hi rendition="#bold">CALAMITY</hi></p>
-                <p>THE TRUSTS</p>
-            </div>
-            
-            <div type="image_transcription" facs="#Train" n="7">
-                <head><supplied resp="editorial">Train</supplied></head>
-                <p>WASHINGTON SPECIAL</p>
-            </div>
-            
-            <div type="image_transcription" facs="#Record" n="8">
-                <head><supplied resp="editorial"><orgName key="ENT.000000437">Philadelphia Record</orgName></supplied></head>
-                <p>THE PHILADELPHIA RECORD.  WEDNESDAY,  NOVEMBER 6, 1912.</p>
-            </div>
             
         </body>
 

@@ -1,6 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-
-
 <?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 
@@ -10,12 +8,13 @@
         <fileDesc>
 
             <titleStmt>
-                <title type="main">TEI transcription of Please Omit Flowers</title>
+                <title type="main">TEI transcription of The War Gardener's Ultimate
+                    Objective</title>
                 <respStmt>
                     <resp key="art">Artist</resp>
-                    <persName key="ENT.000000436">John De Mar</persName>
+                    <persName key="ENT.000002466"
+                        >Charles Henry Sykes</persName>
                 </respStmt>
-                
                 <respStmt>
                     <resp key="trc">Transcribed by</resp>
                     <persName key="ENT.000003544">Biunno, Diane</persName>
@@ -36,7 +35,7 @@
                     Pennsylvania</orgName></publisher>
                 <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
                 <idno type="filename"
-                    >1784</idno>
+                    >12262</idno>
                 <availability status="restricted">
                     <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of
                         copyright only to original contributions made by the Historic Images, New
@@ -64,24 +63,29 @@
                     <msIdentifier>
                         <repository key="ENT.000002473"/>
                         <collection key="3133">Historical Society of Pennsylvania cartoons and caricatures collection</collection>
-                      
+                       
                         <idno type="citation">
                             <idno type="box">2</idno>
-                            <idno type="folder">10</idno>
+                            <idno type="folder">12</idno>
                         </idno>
                     </msIdentifier>
                     <msContents>
                         <msItem>
                             <bibl>
-                                <date from="1912-11-06"
-                                    >November 6, 1912</date>
-                                <extent>1 loose sheet</extent>
-                                
+                                <date from="1918-03-23"
+                                    >March 23, 1918</date>
+                                <extent>1 loose page</extent>
+                                <extent>
+                                    <dimensions type="image" unit="cm">
+                                        <height quantity="25.5"/>
+                                        <width quantity="19"/>
+                                    </dimensions>
+                                </extent>
+                            
                                 <listRelation>
-                                    <relation name="depicted" active="ENT.000003084"/>
-                                    <relation name="depicted" active="cartoons_symbols.xml#bull_moose"/>
-                                    <relation name="depicted" active="cartoons_symbols.xml#elephant"/>
-     
+                                   
+                                    <relation name="mentioned" active="ENT.000003666"/>
+                                 
                                 </listRelation>
                             </bibl>
                         </msItem>
@@ -100,22 +104,23 @@
                     <analytic>
                         <respStmt>
                             <resp key="art">Artist</resp>
-                            <persName key="ENT.000000436">John De Mar</persName>
+                            <persName key="ENT.000002466">Charles Henry Sykes</persName>
                             
                         </respStmt>
                         
-                        <title type="main" level="a">Please Omit Flowers</title>
+                        <title type="main" level="a">The War Gardener's Ultimate Objective</title>
                     </analytic>
                     <monogr>
-                        <title type="marc245a" level="j"><orgName key="ENT.000000437"
-                                >Philadelphia Record</orgName></title>
+                        <title type="marc245a" level="j"><orgName key="ENT.000003667"
+                                >Evening Public Ledger</orgName></title>
                         <imprint>
-                            <publisher><orgName key="ENT.000003387"
-                                    >Unknown</orgName></publisher>
+                            <publisher><orgName key="ENT.000003668"
+                                >Public Ledger Co.</orgName></publisher>
                             <pubPlace>Philadelphia</pubPlace>
-                            <date from="1912-11-06"
-                                >November 6, 1912</date>
-                            <biblScope/>
+                            <date from="1918-03-23"
+                                >March 23, 1918</date>
+                            <biblScope unit="volume">4</biblScope>
+                            <biblScope unit="issue">163</biblScope>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -136,7 +141,6 @@
                     Archives and Documentary Editing program.</p>
             </projectDesc>
             <editorialDecl n="4">
-                
                 <p>This electronic file was created using manual keying following the
                     recommendations for Level 4 of "Best Practices for TEI in Libraries" guidelines
                     v3.0.</p>
@@ -169,16 +173,15 @@
             <textClass>
                 <catRef target="cartoons_genres.xml#political_cartoons"/>
                 <catRef target="cartoons_genres.xml#clippings"/>
-                <catRef target="cartoons_taxonomies.xml#elections"/>
-                <catRef target="cartoons_taxonomies.xml#econ"/>
                 <catRef target="cartoons_taxonomies.xml#lesson_plan"/>
                 <catRef target="cartoons_taxonomies.xml#twentieth"/>
-               
+                <catRef target="cartoons_taxonomies.xml#war"/>
+                <catRef target="cartoons_taxonomies.xml#international"/>  
             </textClass>
         </profileDesc>
 
         <revisionDesc>
-            <change who="DianeBiunno" when="2015-04-01">Encoded to lesson plan level</change>
+          <change who="DianeBiunno" when="2015-04-02">Encoded to lesson plan level</change>
             <change who="RachelMoloshok" when="2015-01-07">Template file created</change>
         </revisionDesc>
     </teiHeader>
@@ -186,74 +189,49 @@
     <facsimile>
         
         <surface ulx="" uly="" lrx="" lry="">
-            
+          
             <graphic
-                url="FIL.000085241"/>
-           
+                url="FIL.000090268"/>
+            
             <zone n="1" xml:id="Title" points=""/>
             <zone n="2" xml:id="Artist" points=""/>
-            <zone n="3" xml:id="Elephant" points=""/>
-            <zone n="4" xml:id="Bullmoose" points=""/>
-            <zone n="5" xml:id="Wilson" points=""/>
-            <zone n="6" xml:id="Wagon" points=""/>
-            <zone n="7" xml:id="Train" points=""/>
-            <zone n="8" xml:id="Record" points=""/>
+            <zone n="3" xml:id="Tomb" points=""/>
+            <zone n="4" xml:id="Gardener" points=""/>
+            
         </surface>
     </facsimile>
 
     <text>
-      
+        
         <front>
             <div type="editorial_desc">
-                <p>In the image, Woodrow Wilson rides a "Washington special" train to the White House.  Behind the train lies an elephant, symbol of the Republican party.  A bull moose, symbol of the Progressive party, hangs from the wires.  A broken wagon with the sign "Wilson's election will be a calamity" is next to the train tracks.  A man labeled "the trusts" looks out from the wagon.</p>
-                <p>Woodrow Wilson became the 28th president of the United States after winning the 1912 election.  He defeated Progressive candidate Theodore Roosevelt and Republican candidate Howard Taft. During the 1912 presidential campaign he called for stricter anti-trust laws and disagreed with Roosevelt's policies which distinguished between "good" and "bad" trusts.  According to Wilson, all trusts were harmful to the economy and must be dismantled.  He served two presidential terms.</p>
-               
+                
+                <p>In the cartoon, a man is digging with a shovel.  There is an image of the tombstone of Wilhelm II in the background.  The title of the cartoon implies that the goal of the War Garden is to defeat Wilhelm II, the German Emperor and King of Prussia.</p>
+                <p>In 1917 the US National War Garden Commission was formed.  It encouraged Americans to grow their own vegetables and to can them in order to relieve the strain on the public food supply during World War I.  War Gardens were later known renamed Victory Gardens.</p>
             </div>
         </front>
 
         <body>
             <div type="image_transcription" facs="#Title" n="1">
-                <head><supplied resp="editorial">Title</supplied></head>
-                <p>PLEASE OMIT FLOWERS.</p>
+                <head><supplied resp="editorial">Title and Caption</supplied></head>
+                <p><supplied resp="editorial">SA</supplied>TURDAY, MARCH 23, 1918</p>
+                <p>THE WAR GARDENER'S ULTIMATE OBJECTIVE</p>
             </div>
             
             <div type="image_transcription" facs="#Artist" n="2">
-                <head><supplied resp="editorial">Artist and Notes</supplied></head>
-                <p>By <persName key="ENT.000000436">De Mar</persName></p>
-                <p><add rendition="#handwritten">Phila Record 11-6-1912.</add></p>
+                <head><supplied resp="editorial">Artist</supplied></head>
+                <p><persName key="ENT.000002466">Charles Henry Sykes</persName></p>
             </div>
             
-            <div type="image_annotation" facs="#Elephant" n="3">
-                <head><supplied resp="editorial"><rs resp="cartoons_symbols.xml#elephant">Elephant</rs></supplied></head>
-                <p>The Elephant is a symbol for the Republican Party.  <persName key="ENT.000003384">William Taft</persName> ran as the Republican presidential nominee in the election of 1912 and lost to <persName key="ENT.000003084">Woodrow Wilson</persName>.</p>
+            <div type="image_transcription" facs="#Tomb" n="3">
+                <head><supplied resp="editorial"><persName key="ENT.000003666">William II, German Emperor</persName></supplied></head>
+                <p>WILHELM II</p>
             </div>
             
-            <div type="image_annotation" facs="#Bullmoose" n="4">
-                <head><supplied resp="editorial"><rs resp="cartoons_symbols.xml#bull_moose">Bull Moose</rs></supplied></head>
-                <p>The bull moose is a symbol for the Progressive Party.  <persName key="ENT.000002738">Theodore Roosevelt</persName> established the Party in 1912 because of political disputes with the Republican Party and President Taft.  Roosevelt ran as the Progressive Party nominee during the election of 1912 and lost to <persName key="ENT.000003084">Woodrow Wilson</persName>.</p>
+            <div type="image_annotation" facs="#Gardener" n="4">
+                <head><supplied resp="editorial">Gardener</supplied></head>
+                <p>During World War I, Americans planted fruits and vegetables in their private gardens or in public spaces in order to help with the war effort.  The US National War Garden Commission encouraged Americans to can their vegetables in order to relieve the strain on the public food supply.</p>
             </div>
-            
-            <div type="image_transcription" facs="#Wilson" n="5">
-                <head><supplied resp="editorial"><persName key="ENT.000003084">Woodrow Wilson</persName></supplied></head>
-                <p>WILSON</p>
-            </div>
-            
-            <div type="image_transcription" facs="#Wagon" n="6">
-                <head><supplied resp="editorial">Wagon</supplied></head>
-                <p><hi rendition="#bold">WILSON'S</hi> ELECTION WILL BE A <hi rendition="#bold">CALAMITY</hi></p>
-                <p>THE TRUSTS</p>
-            </div>
-            
-            <div type="image_transcription" facs="#Train" n="7">
-                <head><supplied resp="editorial">Train</supplied></head>
-                <p>WASHINGTON SPECIAL</p>
-            </div>
-            
-            <div type="image_transcription" facs="#Record" n="8">
-                <head><supplied resp="editorial"><orgName key="ENT.000000437">Philadelphia Record</orgName></supplied></head>
-                <p>THE PHILADELPHIA RECORD.  WEDNESDAY,  NOVEMBER 6, 1912.</p>
-            </div>
-            
         </body>
 
         <back/>
