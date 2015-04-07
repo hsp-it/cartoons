@@ -72,7 +72,21 @@
                   <relation name="depicts" active="ENT.000003536"/>
                   <relation name="depicts" active="ENT.000003326"/>
                   <relation name="mentioned" active="ENT.000003537"/>
+                  <relation name="mentioned" active="ENT.000003619"/>
+                  <relation name="mentioned" active="ENT.000003317"/>
+                  <relation name="mentioned" active="ENT.000003604"/>
+                  <relation name="mentioned" active="ENT.000003628"/>
+                  <relation name="mentioned" active="ENT.000003578"/>
+                  <relation name="mentioned" active="ENT.000003618"/>
+                  <relation name="mentioned" active="ENT.000003575"/>
+                  <relation name="mentioned" active="ENT.000003574"/>
+                  <relation name="mentioned" active="ENT.000003577"/>
+                  <relation name="mentioned" active="ENT.000003581"/>
+                  <relation name="mentioned" active="ENT.000003596"/>
+                  <relation name="mentioned" active="ENT.000003570"/>
+                  <relation name="mentioned" active="ENT.000003671"/>
                   <relation name="depicts" active="cartoons_symbols.xml#jack_downing"/>
+                  <relation name="depicts" active="cartoons_symbols.xml#devil"/>
                 </listRelation>
               </bibl>
             </msItem>
@@ -138,7 +152,8 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <catRef target="cartoons_genres.xml#lithograph"/>
+        <catRef target="cartoons_genres.xml#political_cartoons"/>
+        <catRef target="cartoons_genres.xml#lithographs"/>
         <catRef target="cartoons_taxonomies.xml#early"/>
         <catRef target="cartoons_taxonomies.xml#featured"/>
         <catRef target="cartoons_taxonomies.xml#econ"/>
@@ -146,6 +161,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
+      <change who="RachelMoloshok" when="2015-04-07">Made corrections for re-import into DAMS</change>
       <change who="RachelMoloshok" when="2015-01-28">Exported from HSP DAMS</change>
       <change who="RachelMoloshok" when="2015-01-20">Updated to add surface and zone coordinates
         generated from test site, hspmerge.whirl-i-gig.com</change>
@@ -183,26 +199,22 @@
   <text>
     <front>
       <div type="editorial_desc">
-        <p><persName ref="ENT.000002223">President Andrew Jackson</persName> holds a document
-          labeled "Order for the removal of the public money deposited in the United States Bank."
-          An upside-down top hat sits on the ground to Jackson's right. Lightning bolts shoot out
-          from the document, causing the pillars of the <orgName ref="ENT.000003326">Second Bank of
-            the United States</orgName> to topple. Jackson's political foes, including pro-Whig
-          newspaper editors, flee the wreckage, among them <persName ref="ENT.000000552">Nicholas
-            Biddle</persName> (pictured as a devil), <persName ref="ENT.000003535">Mordecai Manuel
-            Noah</persName>, <persName ref="ENT.000003390">James Watson Webb</persName>, <persName
-            ref="ENT.000001368">Daniel Webster</persName>, <persName ref="ENT.000002230">Henry
-            Clay</persName>, and <persName ref="ENT.000003536">Silas Wright Jr.</persName> Receipts
-          and newspapers are scattered over the ground. The fictional character <rs
-            ref="cartoons_symbols.xml#jack_downing">Major Jack Downing</rs>, stands to Jackson's
-          left, waving his hat over his head and patting Jackson's shoulder approvingly.</p>
+        <p>President Andrew Jackson holds a document labeled "Order for the removal of the public
+          money deposited in the United States Bank." An upside-down top hat sits on the ground to
+          Jackson's right. Lightning bolts shoot out from the document, causing the pillars of the
+          Second Bank of the United States to topple. Jackson's political foes, including pro-Whig
+          newspaper editors, flee the wreckage, among them Nicholas Biddle (pictured as a devil),
+          Mordecai Manuel Noah, James Watson Webb, Daniel Webster, Henry Clay, and Silas Wright Jr.
+          Receipts and newspapers are scattered over the ground. The fictional character Major Jack
+          Downing, stands to Jackson's left, waving his hat over his head and patting Jackson's
+          shoulder approvingly.</p>
       </div>
     </front>
     <body>
       <div type="image_transcription" n="1" facs="#title">
         <head><supplied resp="editorial">Title/imprint</supplied></head>
-        <p>THE DOWNFALL OF <orgName ref="ENT.000003326">MOTHER BANK</orgName>. Entered according to
-          act of Congress in the year <date when="1833">1833</date> by <persName ref="ENT.000000132"
+        <p>THE DOWNFALL OF <orgName key="ENT.000003326">MOTHER BANK</orgName>. Entered according to
+          act of Congress in the year <date when="1833">1833</date> by <persName key="ENT.000000132"
             >E. W. Clay</persName>, in the Clerks Office of the Southern District of New York.</p>
       </div>
       <div type="image_transcription" n="2" facs="#byline">
@@ -217,34 +229,35 @@
       <div type="image_transcription" n="4" facs="#downing">
         <head><supplied resp="editorial"><rs ref="cartoons_symbols.xml#jack_downing">Major Jack
               Downing</rs></supplied></head>
-        <p>Hurrah! <rs ref="ENT.000002223"><choice>
+        <p>Hurrah! <rs key="ENT.000002223"><choice>
               <sic>Gineral</sic>
               <corr>General</corr>
             </choice></rs>! if this don't beat <sic>skunkin</sic>, I'm a nigger! Only see that
-          varmint <persName ref="ENT.000000552">Nick</persName> how spry he is— He runs along like a
+          varmint <persName key="ENT.000000552">Nick</persName> how spry he is— He runs along like a
             <orig>Weathersfield</orig> Hog with an <sic>inion</sic> in his mouth!</p>
       </div>
       <div type="image_transcription" n="5" facs="#jackson">
-        <head><supplied resp="editorial"><persName ref="ENT.000002223">Andrew
+        <head><supplied resp="editorial"><persName key="ENT.000002223">Andrew
             Jackson</persName></supplied></head>
         <p><rs ref="cartoons_symbols.xml#jack_downing">Major Jack Downing</rs>, I must act in this
           case with energy and decision— You see the downfall of this party engine and corrupt
           monopoly.</p>
       </div>
       <div type="image_transcription" n="6" facs="#order">
-        <head><supplied resp="editorial"><persName ref="ENT.000002223">Jackson</persName>'s
+        <head><supplied resp="editorial"><persName key="ENT.000002223">Jackson</persName>'s
             order</supplied></head>
-        <p>ORDER for the Removal of the Public money deposited in the <orgName ref="ENT.000003326"
+        <p>ORDER for the Removal of the Public money deposited in the <orgName key="ENT.000003326"
             >UNITED STATES BANK</orgName></p>
       </div>
       <div type="image_transcription" n="7" facs="#biddle">
-        <head><supplied resp="editorial"><persName ref="ENT.000000552">Nicholas
-            Biddle</persName>/Old Nick (devil)</supplied></head>
+        <head><supplied resp="editorial"><persName key="ENT.000000552">Nicholas
+              Biddle</persName>/<rs ref="cartoons_symbols.xml#devil">Old Nick
+            (devil)</rs></supplied></head>
         <p>It is time for me to resign my presidency</p>
       </div>
       <div type="image_transcription" n="8" facs="#noah_webb">
-        <head><supplied resp="editorial"><persName ref="ENT.000003535">Mordecai Manuel
-              Noah</persName> and <persName ref="ENT.000003390">James Watson
+        <head><supplied resp="editorial"><persName key="ENT.000003535">Mordecai Manuel
+              Noah</persName> and <persName key="ENT.000003390">James Watson
             Webb</persName></supplied></head>
         <p>No more fees to be obtained here! I move we adjourn <hi rendition="#underline">sine
             die!</hi></p>
@@ -254,35 +267,35 @@
         <p>Fees</p>
       </div>
       <div type="image_transcription" n="10" facs="#clay">
-        <head><supplied resp="editorial"><persName ref="ENT.000002230">Henry
+        <head><supplied resp="editorial"><persName key="ENT.000002230">Henry
             Clay</persName></supplied></head>
-        <p>Help me up! <persName ref="ENT.000001368">Webster</persName>! or I shall lose my
+        <p>Help me up! <persName key="ENT.000001368">Webster</persName>! or I shall lose my
           Stakes.</p>
       </div>
       <div type="image_transcription" n="11" facs="#editors">
         <head><supplied resp="editorial">Whig editors and scattered papers</supplied></head>
         <p><hi rendition="#underline">Burrow</hi> under the mammoth sheet <persName
-            ref="ENT.000003536">Silas</persName></p>
+            key="ENT.000003536">Silas</persName></p>
         <p>Salary $6000.</p>
         <p>Printing Expenses $80000</p>
-        <p>Courier and Enquirer $52000</p>
-        <p>National Gazette</p>
-        <p>United States Gazette</p>
-        <p>Pennsylvanian</p>
-        <p>National Intelligencer $10000</p>
-        <p>N.Y. American</p>
-        <p>Journal of Commerce.</p>
-        <p>Commercial Advertiser</p>
-        <p>Columbian Sentinel.</p>
-        <p>Evening Star.</p>
-        <p>Albany Gazette.</p>
-        <p>Kentucky.</p>
-        <p>Boston <sic>Courrier</sic></p>
+        <p><orgName key="ENT.000003317">Courier and Enquire</orgName>r $52000</p>
+        <p><orgName key="ENT.000003317">National Gazette</orgName></p>
+        <p><orgName key="ENT.000003604">United States Gazette</orgName></p>
+        <p><orgName key="ENT.000003671">Pennsylvanian</orgName></p>
+        <p><orgName key="ENT.000003628">National Intelligencer</orgName> $10000</p>
+        <p><orgName key="ENT.000003596">N.Y. American</orgName></p>
+        <p><orgName key="ENT.000003581">Journal of Commerce</orgName>.</p>
+        <p><orgName key="ENT.000003570">Commercial Advertiser</orgName></p>
+        <p><orgName key="ENT.000003577">Columbian Sentinel</orgName>.</p>
+        <p><orgName key="ENT.000003578">Evening Star</orgName>.</p>
+        <p><orgName key="ENT.000003574">Albany Gazette</orgName>.</p>
+        <p><orgName key="ENT.000003618">Kentucky</orgName>.</p>
+        <p><orgName key="ENT.000003575">Boston <sic>Courrier</sic></orgName></p>
       </div>
       <div type="image_transcription" n="12" facs="#shakespeare">
         <head><supplied resp="editorial">Floating text</supplied></head>
-        <p>"There is a tide in the affairs of men" as <persName ref="ENT.000003537"
-            >Shakespeare</persName> says So my dear <persName ref="ENT.000002230">Clay</persName>
+        <p>"There is a tide in the affairs of men" as <persName key="ENT.000003537"
+            >Shakespeare</persName> says So my dear <persName key="ENT.000002230">Clay</persName>
           look out for yourself</p>
       </div>
     </body>
