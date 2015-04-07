@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 
   <teiHeader>
@@ -23,7 +25,7 @@
           Pennsylvania</orgName></publisher>
         <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
         <availability status="restricted">
-          <p>Copyright 2015, The Historical Society of Pennsylvania. HSP makes a claim of copyright
+          <p>Copyright 2014, The Historical Society of Pennsylvania. HSP makes a claim of copyright
             only to original contributions made by the Historic Images, New Technologies (HINT)
             Project participants and other staff. Permission is granted to download, transmit or
             otherwise reproduce, distribute or display the text contributions to this work claimed
@@ -34,7 +36,7 @@
             digital imaging, other reproduction services, and the intended use of reproductions must
             be made in writing to the Rights and Reproductions Coordinator at rnr@hsp.org.</p>
         </availability>
-        <date when="2015"/>
+        <date when="2014"/>
       </publicationStmt>
 
       <seriesStmt>
@@ -168,6 +170,19 @@
             <label>Lion</label>
             <note type="symbol">Often used as a symbol of Great Britain. Nast also used lion to
               represent President Ulysses S. Grant</note>
+          </item>
+          <item xml:id="rail">
+            <label>Fence rail</label>
+            <note type="symbol">Many political cartoons of the 1860s show Abraham Lincoln holding a
+              fence rail, or refer to Lincoln as the "rail candidate." In his youth, before going
+              into politics, Lincoln split rails and performed other difficult manual labor on the
+              American frontier. When he campaigned for president in 1860, he and his supporters
+              used the fence rail as a prop to remind voters of his humble origins and strong work
+              ethic. At a Republican state convention in Illinois in 1860, Lincoln's supporters made
+              a splash by dramatically marching into the hall carrying pieces of fence rail
+              decorated with a pro-Lincoln banner, cementing Lincoln's near-mythical identity as
+              "the rail splitter." Political cartoons of the era often invoked the image of the
+              fence rail to symbolize Lincoln's candidacy.</note>
           </item>
           <item xml:id="statue_of_liberty">
             <label>Statue of Liberty</label>
