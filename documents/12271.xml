@@ -1,231 +1,229 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
+
 
 <?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader xml:lang="English">
-        <fileDesc>
-            <titleStmt>
-                <title type="main">TEI transcription of "For He Himself Has Said It"</title>
-                <respStmt>
-                    <resp key="art">Artist</resp>
-                    <persName key="ENT.000000436">John De Mar</persName>
-                </respStmt>
-
-                <respStmt>
-                    <resp key="trc">Transcribed by</resp>
-                    <persName key="ENT.000003544">Biunno, Diane</persName>
-                </respStmt>
-                <respStmt>
-                    <resp key="mrk">Encoded by</resp>
-                    <persName key="ENT.000003544">Biunno, Diane</persName>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <p>First edition, <date when="2015">2015</date></p>
-            </editionStmt>
-
-            <publicationStmt>
-                <publisher><orgName key="ENT.000002473">Historical Society of
-                    Pennsylvania</orgName></publisher>
-                <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
-                <idno type="filename">12271</idno>
-                <availability status="restricted">
-                    <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of
-                        copyright only to original contributions made by the Historic Images, New
-                        Technologies (HINT) Project participants and other staff. HSP makes no claim
-                        of copyright to the original text. Permission is granted to download,
-                        transmit or otherwise reproduce, distribute or display the text
-                        contributions to this work claimed by HSP for non-profit educational
-                        purposes, provided that this header is included in its entirety. For
-                        inquiries about commercial uses, please contact the Historical Society of
-                        Pennsylvania. HSP retains the rights of all images unless otherwise noted.
-                        Possession of an HSP digital image does not constitute permission to use or
-                        publish it. Requests for digital imaging, other reproduction services, and
-                        the intended use of reproductions must be made in writing to the Rights and
-                        Reproductions Coordinator at rnr@hsp.org.</p>
-                </availability>
-                <date when="2015"/>
-            </publicationStmt>
-
-            <seriesStmt>
-                <title level="s" type="project" key="CARTOONS"/>
-            </seriesStmt>
-
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <repository key="ENT.000002473"/>
-                        <collection key="3133"/>
-                        <idno type="citation">
-                            <idno type="box">2</idno>
-                            <idno type="folder">11</idno>
-                        </idno>
-                    </msIdentifier>
-                    <msContents>
-                        <msItem>
-                            <bibl>
-                                <date from="1914-07-27">July 27, 1914</date>
-                                <extent>1 loose page</extent>
-                                <extent>
-                                    <dimensions type="image" unit="cm">
-                                        <height quantity="21"/>
-                                        <width quantity="17.5"/>
-                                    </dimensions>
-                                </extent>
-                                <listRelation>
-                                    <relation name="depicted" active="ENT.000002738"/>
-                                    <relation name="depicted" active="ENT.000003664"/>
-                                    <relation name="depicted" active="ENT.000002704"/>
-                                    <relation name="depicted" active="ENT.000003665"/>
-                                </listRelation>
-                            </bibl>
-                        </msItem>
-                    </msContents>
-
-                    <history>
-                        <acquisition>This is an artificial collection created over time by HSP staff
-                            mostly through donations and purchases of individual prints. It also
-                            incorporates previously uncataloged materials collected by the Balch
-                            Institute for Ethnic Studies. Some of the 20th century cartoons and
-                            drawings were removed from the J. Hampton Moore papers (Collection
-                            1541). </acquisition>
-                    </history>
-                </msDesc>
-                <biblStruct>
-                    <analytic>
-                        <respStmt>
-                            <resp key="art">Artist</resp>
-                            <persName key="ENT.000000436">John De Mar</persName>
-                        </respStmt>
-
-                        <title type="main" level="a">"For He Himself Has Said It"</title>
-                    </analytic>
-                    <monogr>
-                        <title type="marc245a" level="j"><orgName key="ENT.000000437">Philadelphia
-                                Record</orgName></title>
-                        <imprint>
-                            <publisher><orgName key="ENT.000003387">Unknown</orgName></publisher>
-                            <pubPlace>Philadelphia</pubPlace>
-                            <date from="1914-07-27">July 27, 1914</date>
-                            <biblScope/>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
-
-            </sourceDesc>
-        </fileDesc>
-
-        <encodingDesc>
-            <projectDesc>
-                <p>The Historic Images, New Technologies (HINT) project aims to enhance description
-                    and discovery of the Historical Society of Pennsylvania's graphics materials and
-                    promote the linking and sharing of content among institutions and scholars. The
-                    project will result in an update to HSP's digital image viewer and an online
-                    digital history exhibit that will demonstrate the new viewer's capabilities and
-                    provide interpretive and contextual materials to encourage users to interact
-                    with historical images in new ways. This project was funded by a grant from the
-                    National Historical Publications and Records Commission's (NHPRC) Innovation in
-                    Archives and Documentary Editing program.</p>
-            </projectDesc>
-            <editorialDecl n="4">
-
-                <p>This electronic file was created using manual keying following the
-                    recommendations for Level 4 of "Best Practices for TEI in Libraries" guidelines
-                    v3.0.</p>
-                <p>This xml file uses unique entity identifiers, media file identifiers, and
-                    collection identifiers in HSP's Digital Library, available at
-                    http://digitallibrary.hsp.org.</p>
-
-            </editorialDecl>
-            <tagsDecl>
-                <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
-                <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
-                <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
-                <rendition scheme="css" xml:id="crossed-through">text-decoration:
-                    line-through</rendition>
-                <rendition scheme="other" xml:id="printed"/>
-                <rendition scheme="other" xml:id="typescript"/>
-                <rendition scheme="other" xml:id="handwritten"/>
-                <rendition scheme="other" xml:id="handwritten-underlined"/>
-                <rendition scheme="other" xml:id="handwritten-circled"/>
-                <rendition scheme="other" xml:id="handwritten-crossed-through"/>
-                <rendition scheme="other" xml:id="double-underline"/>
-                <rendition scheme="other" xml:id="stamp"/>
-                <namespace name="http://www.tei-c.org/ns/1.0">
-                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
-                </namespace>
-            </tagsDecl>
-        </encodingDesc>
-
-        <profileDesc>
-            <textClass>
-                <catRef target="cartoons_genres.xml#political_cartoons"/>
-                <catRef target="cartoons_genres.xml#clippings"/>
-                <catRef target="cartoons_taxonomies.xml#lesson_plan"/>
-                <catRef target="cartoons_taxonomies.xml#twentieth"/>
-                <catRef target="cartoons_taxonomies.xml#laws"/>
-                <catRef target="cartoons_taxonomies.xml#children"/>
-                <catRef target="cartoons_taxonomies.xml#press"/>
-                
-            </textClass>
-        </profileDesc>
-
-        <revisionDesc>
-            <change who="DianeBiunno" when="2015-04-01">Encoded to lesson plan level</change>
-            <change who="RachelMoloshok" when="2015-01-07">Template file created</change>
-        </revisionDesc>
-    </teiHeader>
-
-    <facsimile>
-        <surface ulx="" uly="" lrx="" lry="">
-            <graphic
-                url="FIL.000090267"/>
-            <zone n="1" xml:id="Title" points=""/>
-            <zone n="2" xml:id="Group" points=""/>
-            <zone n="3" xml:id="LittleTR" points=""/>
-            <zone n="4" xml:id="BigTR" points=""/>
-        </surface>
-    </facsimile>
-
-    <text>
-   
-        <front>
-            <div type="editorial_desc">
-                <p>On a wall, A young Teddy Roosevelt draws an image of himself as an adult.  He also has drawn a group of men who he has labeled Charlie Murphy, Penrose, and Bill Barnes.  Some of the letters in their names are written backwards so that it looks like a child's handwriting.</p>
-                <p>On July 22, 1914 Roosevelt accused Bill Barnes, owner of the <hi rendition="#italics">Albany Times-Union</hi>, of corruption and of working with two known political bosses, Boies Penrose and Charlie Murphy.  His comments were published in newspapers across the country.  The following day Barnes filed a suit against Roosevelt.  At the conclusion of the trial, Roosevelt was found innocent and Barnes' political career was over.</p>
-            </div>
-        </front>
-
-        <body>
-            
-            <div type="image_transcription" facs="#Title" n="1">
-                <head><supplied resp="editorial">Title and Artist</supplied></head>
-                <p>"FOR HE HIMSELF HAS SAID IT."</p>
-                <p>"I regard the action of Mr. Barnes as the most striking proof that could be given that the bosses recognize in ME personally the ONE enemy that the type of machine government for which they stand has to fear."-Roosevelt.</p>
-                <p><add rendition="#handwritten">Record 7-27-1914</add></p>
-                <p>-By <persName key="ENT.000000436">De Mar</persName>.</p>
-            </div>
-            
-            <div type="image_transcription" facs="#Group" n="2">
-                <head><supplied resp="editorial">Political Bosses</supplied></head>
-                <p><persName key="ENT.000003664">CHARLIE MURPHY</persName> &amp; <persName key="ENT.000002704">PENROSE</persName></p>
-                <p><persName key="ENT.000003665">BILL BARNES</persName></p>
-            </div>
-            
-            <div type="image_transcription" facs="#LittleTR" n="3">
-                <head><supplied resp="editorial"><persName key="ENT.000002738">Theodore Roosevelt</persName></supplied></head>
-                <p>TEDDY</p>
-            </div>
-            
-            <div type="image_transcription" facs="#BigTR" n="4">
-                <head><supplied resp="editorial"><persName key="ENT.000002738">Theodore Roosevelt</persName></supplied></head>
-                <p>ME</p>
-            </div>
-            
-            
-        </body>
-
-        <back/>
-    </text>
+  <teiHeader xml:lang="English">
+    <fileDesc>
+      <titleStmt>
+        <title type="main">TEI transcription of "For He Himself Has Said It"</title>
+        <author/>
+        <respStmt>
+          <resp key="art">artist</resp>
+          <persName key="ENT.000000436">De Mar, John L.</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="trc">Transcribed by</resp>
+          <persName key="ENT.000003544">Biunno, Diane</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="mrk">Encoded by</resp>
+          <persName key="ENT.000003544">Biunno, Diane</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="pbl">publisher</resp>
+          <persName key="ENT.000003387">Unknown</persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <p>First edition, <date when="2015">2015</date></p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher><orgName key="ENT.000002473">Historical Society of
+          Pennsylvania</orgName></publisher>
+        <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
+        <idno type="filename">12271</idno>
+        <availability status="restricted">
+          <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of copyright only
+            to original contributions made by the Historic Images, New Technologies (HINT) Project
+            participants and other staff. HSP makes no claim of copyright to the original text.
+            Permission is granted to download, transmit or otherwise reproduce, distribute or
+            display the text contributions to this work claimed by HSP for non-profit educational
+            purposes, provided that this header is included in its entirety. For inquiries about
+            commercial uses, please contact the Historical Society of Pennsylvania. HSP retains the
+            rights of all images unless otherwise noted. Possession of an HSP digital image does not
+            constitute permission to use or publish it. Requests for digital imaging, other
+            reproduction services, and the intended use of reproductions must be made in writing to
+            the Rights and Reproductions Coordinator at rnr@hsp.org.</p>
+        </availability>
+        <date when="2015">2015</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="project" key="CARTOONS">Historic Images, New Technologies (HINT)
+          Project</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository key="ENT.000002473">Historical Society of Pennsylvania</repository>
+            <collection key="3133">Historical Society of Pennsylvania cartoons and caricatures
+              collection</collection>
+            <idno type="citation">
+              <idno type="box">2</idno>
+              <idno type="folder">11</idno>
+            </idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <bibl>
+                <date from="1914-07-27">July 27, 1914</date>
+                <extent>1 loose page</extent>
+                <extent>
+                  <dimensions type="image" unit="cm"/>
+                  <height quantity="21"/>
+                  <width quantity="17.5"/>
+                </extent>
+                <listRelation>
+                  <relation name="depicted" active="ENT.000002738"/>
+                  <relation name="depicted" active="ENT.000003664"/>
+                  <relation name="depicted" active="ENT.000002704"/>
+                  <relation name="depicted" active="ENT.000003665"/>
+                </listRelation>
+              </bibl>
+            </msItem>
+          </msContents>
+          <history>
+            <acquisition>This is an artificial collection created over time by HSP staff mostly
+              through donations and purchases of individual prints. It also incorporates previously
+              uncataloged materials collected by the Balch Institute for Ethnic Studies. Some of the
+              20th century cartoons and drawings were removed from the J. Hampton Moore papers
+              (Collection 1541).</acquisition>
+          </history>
+        </msDesc>
+        <biblStruct>
+          <analytic>
+            <respStmt>
+              <resp key="art">artist</resp>
+              <persName key="ENT.000000436">De Mar, John L.</persName>
+            </respStmt>
+            <respStmt>
+              <resp key="pbl">publisher</resp>
+              <persName key="ENT.000003387">Unknown</persName>
+            </respStmt>
+            <title type="main" level="a">"For He Himself Has Said It"</title>
+            <date from="1914-07-27">July 27, 1914</date>
+          </analytic>
+          <monogr>
+            <title type="marc245a" level="j"><orgName key="ENT.000000437">Philadelphia
+                Record</orgName></title>
+            <imprint>
+              <pubPlace>Philadelphia</pubPlace>
+              <date from="1914-07-27">July 27, 1914</date>
+              <publisher>
+                <persName key="ENT.000003387">Unknown</persName>
+              </publisher>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <bibl/>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The Historic Images, New Technologies (HINT) project aims to enhance description and
+          discovery of the Historical Society of Pennsylvania's graphics materials and promote the
+          linking and sharing of content among institutions and scholars. The project will result in
+          an update to HSP's digital image viewer and an online digital history exhibit that will
+          demonstrate the new viewer's capabilities and provide interpretive and contextual
+          materials to encourage users to interact with historical images in new ways. This project
+          was funded by a grant from the National Historical Publications and Records Commission's
+          (NHPRC) Innovation in Archives and Documentary Editing program.</p>
+      </projectDesc>
+      <editorialDecl n="4">
+        <p>This electronic file was created using manual keying following the recommendations for
+          Level 4 of "Best Practices for TEI in Libraries" guidelines v3.0.</p>
+        <p>This xml file uses unique entity identifiers, media file identifiers, and collection
+          identifiers in HSP's Digital Library, available at http://digitallibrary.hsp.org.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
+        <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
+        <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
+        <rendition scheme="css" xml:id="crossed-through">text-decoration: line-through</rendition>
+        <rendition scheme="other" xml:id="printed"/>
+        <rendition scheme="other" xml:id="typescript"/>
+        <rendition scheme="other" xml:id="handwritten"/>
+        <rendition scheme="other" xml:id="handwritten-underlined"/>
+        <rendition scheme="other" xml:id="handwritten-circled"/>
+        <rendition scheme="other" xml:id="handwritten-crossed-through"/>
+        <rendition scheme="other" xml:id="double-underline"/>
+        <rendition scheme="other" xml:id="stamp"/>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <catRef target="cartoons_genres.xml#political_cartoons"/>
+        <catRef target="cartoons_genres.xml#clippings"/>
+        <catRef target="cartoons_taxonomies.xml#lesson_plan"/>
+        <catRef target="cartoons_taxonomies.xml#twentieth"/>
+        <catRef target="cartoons_taxonomies.xml#laws"/>
+        <catRef target="cartoons_taxonomies.xml#children"/>
+        <catRef target="cartoons_taxonomies.xml#press"/>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change who="DianeBiunno" when="2015-04-01">Exported from CA and basic proofreading</change>
+      <change who="DianeBiunno" when="2015-04-01">Encoded to lesson plan level</change>
+      <change who="RachelMoloshok" when="2015-01-07">Template file created</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="100" lry="100">
+      <graphic url="FIL.000090267"/>
+      <zone n="1" xml:id="Title" points="4.15,86.83 92.47,86.83 92.58,95.38 4.15,95.67"/>
+      <zone n="2" xml:id="Group"
+        points="55.85,43.82 72.54,44.53 78.87,42.1 91.78,43.32 91.2,46.39 87.91,53.32 90.3,60.82 82.9,70.18 76.73,71.68 74.27,72.76 65.88,73.33 62.02,73.11 58.56,71.97 60.54,66.32 59.72,61.89 62.02,57.54 61.44,48.1 55.52,48.53"/>
+      <zone n="3" xml:id="LittleTR"
+        points="17.61,36.48 22.01,35.86 25.01,37.68 29.06,36.88 34.54,37.51 37.12,42.54 36.7,45.44 40.15,38.46 42.13,37.19 44.73,36.28 46.09,37.28 44.42,44.17 44,48.89 38.79,50.06 42.34,54.14 40.67,57.86 36.29,56.41 33.59,70.07 35.45,72.33 35.89,74.4 32.25,75.37 29.95,75.89 28.01,75.76 26.3,73.69 23.55,74.66 21.77,73.69 22.59,62.51 24,56.05 18.35,47.78 19.14,40.63"/>
+      <zone n="4" xml:id="BigTR"
+        points="39.77,22.01 44.74,19.97 49.18,21.44 49.83,27.01 56.36,33.59 64.2,35.64 68.9,38.59 55.32,50.96 55.05,62.43 48.78,64.81 39.77,64.59 39.9,45.06 31.41,34.61 29.98,29.96 40.95,26.89 38.07,23.94"
+      />
+    </surface>
+  </facsimile>
+  <text>
+    <front>
+      <div type="editorial_desc">
+        <p>On a wall, A young Teddy Roosevelt draws an image of himself as an adult. He also has
+          drawn a group of men who he has labeled Charlie Murphy, Penrose, and Bill Barnes. Some of
+          the letters in their names are written backwards so that it looks like a child's
+          handwriting.</p>
+        <p>On July 22, 1914 Roosevelt accused Bill Barnes, owner of the <hi rendition="#italics"
+            >Albany Times-Union</hi>, of corruption and of working with two known political bosses,
+          Boies Penrose and Charlie Murphy. His comments were published in newspapers across the
+          country. The following day Barnes filed a suit against Roosevelt. At the conclusion of the
+          trial, Roosevelt was found innocent and Barnes' political career was over.</p>
+      </div>
+    </front>
+    <body>
+      <div type="image_transcription" n="1" facs="#Title">
+        <head><supplied resp="editorial">Title and Artist</supplied></head>
+        <p>"FOR HE HIMSELF HAS SAID IT."</p>
+        <p>"I regard the action of Mr. Barnes as the most striking proof that could be given that
+          the bosses recognize in ME personally the ONE enemy that the type of machine government
+          for which they stand has to fear."-Roosevelt.</p>
+        <p><add rendition="#handwritten">Record 7-27-1914</add></p>
+        <p>-By <persName key="ENT.000000436">De Mar</persName>.</p>
+      </div>
+      <div type="image_transcription" n="2" facs="#Group">
+        <head><supplied resp="editorial">Political Bosses</supplied></head>
+        <p><persName key="ENT.000003664">CHARLIE MURPHY</persName> &amp; <persName
+            key="ENT.000002704">PENROSE</persName></p>
+        <p><persName key="ENT.000003665">BILL BARNES</persName></p>
+      </div>
+      <div type="image_transcription" n="3" facs="#LittleTR">
+        <head><supplied resp="editorial"><persName key="ENT.000002738">Theodore
+            Roosevelt</persName></supplied></head>
+        <p>TEDDY</p>
+      </div>
+      <div type="image_transcription" n="4" facs="#BigTR">
+        <head><supplied resp="editorial"><persName key="ENT.000002738">Theodore
+            Roosevelt</persName></supplied></head>
+        <p>ME</p>
+      </div>
+    </body>
+  </text>
 </TEI>
