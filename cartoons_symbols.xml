@@ -23,7 +23,7 @@
           Pennsylvania</orgName></publisher>
         <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
         <availability status="restricted">
-          <p>Copyright 2014, The Historical Society of Pennsylvania. HSP makes a claim of copyright
+          <p>Copyright 2015, The Historical Society of Pennsylvania. HSP makes a claim of copyright
             only to original contributions made by the Historic Images, New Technologies (HINT)
             Project participants and other staff. Permission is granted to download, transmit or
             otherwise reproduce, distribute or display the text contributions to this work claimed
@@ -34,7 +34,7 @@
             digital imaging, other reproduction services, and the intended use of reproductions must
             be made in writing to the Rights and Reproductions Coordinator at rnr@hsp.org.</p>
         </availability>
-        <date when="2014"/>
+        <date when="2015"/>
       </publicationStmt>
 
       <seriesStmt>
@@ -60,7 +60,7 @@
       </projectDesc>
     </encodingDesc>
     <revisionDesc>
-      <change who="HSP" when="2015-03-25">Exported from Collective Access.</change>
+      <change who="HSP" when="2015-04-07">Exported from Collective Access.</change>
     </revisionDesc>
   </teiHeader>
 
@@ -86,10 +86,6 @@
                 given to him by the Marquis de Lafayette, in a bathtub at the White
               House.</p></note>
           </item>
-          <item xml:id="beelzebub">
-            <label>Beelzebub</label>
-            <note type="symbol"><!-- depicted in 2562 --></note>
-          </item>
           <item xml:id="britannia">
             <label>Britannia</label>
             <note type="symbol">Symbolic representation of Great Britain, often depicted as a woman
@@ -99,6 +95,11 @@
             <label>Brother Jonathan</label>
             <note type="symbol">Early personification of the United States as a man; precursor to
               Uncle Sam.</note>
+          </item>
+          <item xml:id="bull_moose">
+            <label>Bull moose</label>
+            <note type="symbol">The bull moose is a symbol for the Progressive Party which was
+              founded by President Theodore Roosevelt in 1912. </note>
           </item>
           <item xml:id="columbia">
             <label>Columbia</label>
@@ -111,6 +112,13 @@
             <note type="symbol">Death is often personified as a skeleton holding a scythe. Death
               often wears a black cloak and hood.</note>
           </item>
+          <item xml:id="devil">
+            <label>Devil</label>
+            <note type="symbol">An evil spirit in the Christian, Jewish, and Islamic traditions,
+              often depicted as a demon with horns, hooves, and a tail, sometimes also depicted with
+              wings and/or a pitchfork. Nicknames or alternative titles for the devil include "Old
+              Nick," Satan, and Beelzebub. <!-- depicted in 2562, 11508 --></note>
+          </item>
           <item xml:id="dogs">
             <label>Dogs</label>
             <note type="symbol">Dogs are often depicted in political cartoons as representatives of
@@ -122,6 +130,11 @@
               by many, but "jackass" also used in iconography of Andrew Jackson's 1828 presidential
               campaign. Nast also used donkey to symbolize Democratic-supporting newspaper the New
               York Herald during the 1870s.</note>
+          </item>
+          <item xml:id="elephant">
+            <label>Elephant</label>
+            <note type="symbol">The elephant is a symbol of the Republican Party. The origin of the
+              Republican Elephant is attributed to Thomas Nast.</note>
           </item>
           <item xml:id="fame">
             <label>Fame</label>
