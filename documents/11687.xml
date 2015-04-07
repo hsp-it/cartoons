@@ -1,311 +1,383 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
+
+
 <?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-
-
-    <teiHeader xml:lang="English">
-
-        <fileDesc>
-
-            <titleStmt>
-                <title type="main">TEI transcription of If--The Inaugural Dinner at the White House</title>
-                <respStmt>
-                    <resp key="art">Artist</resp>
-                    <persName key="ENT.000003548">J.S. Pughe</persName>
-                </respStmt>
-                <respStmt>
-                    <resp key="ltg">Lithographer</resp>
-                    <persName key="ENT.000003611">J. Ottman Lithographic Company</persName>
-                </respStmt>
-                
-                <respStmt>
-                    <resp key="trc">Transcribed by</resp>
-                    
-                    <persName key="ENT.000003544">Diane Biunno</persName>
-                </respStmt>
-                <respStmt>
-                    <resp key="mrk">Encoded by</resp>
-                    <persName key="ENT.000003544">Diane Biunno</persName>
-                </respStmt>
-
-            </titleStmt>
-
-            <editionStmt>
-                <p>First edition, <date when="2015">2015</date></p>
-            </editionStmt>
-
-            <publicationStmt>
-                <publisher><orgName key="ENT.000002473">Historical Society of
-                    Pennsylvania</orgName></publisher>
-                <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
-                <idno type="filename">11687</idno>
-                <availability status="restricted">
-                    <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of
-                        copyright only to original contributions made by the Historic Images, New
-                        Technologies (HINT) Project participants and other staff. HSP makes no claim
-                        of copyright to the original text. Permission is granted to download,
-                        transmit or otherwise reproduce, distribute or display the text
-                        contributions to this work claimed by HSP for non-profit educational
-                        purposes, provided that this header is included in its entirety. For
-                        inquiries about commercial uses, please contact the Historical Society of
-                        Pennsylvania. HSP retains the rights of all images unless otherwise noted.
-                        Possession of an HSP digital image does not constitute permission to use or
-                        publish it. Requests for digital imaging, other reproduction services, and
-                        the intended use of reproductions must be made in writing to the Rights and
-                        Reproductions Coordinator at rnr@hsp.org.</p>
-                </availability>
-                <date when="2015"/>
-            </publicationStmt>
-
-            <seriesStmt>
-                <title level="s" type="project" key="CARTOONS"/>
-            </seriesStmt>
-
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <repository key="ENT.000002473"/>
-                        <collection key="3133">Historical Society of Pennsylvania cartoons and
-                            caricatures collection</collection>
-                        <idno type="citation">
-                            <idno type="box">12</idno>
-                            <idno type="folder">16</idno>         
-                         </idno>
-                    </msIdentifier>
-                    <msContents>
-                        <msItem>
-                            <bibl>
-                                <date from="1904-06-29">June 29, 1904</date>
-                                <extent>1 loose sheet</extent>
-                                <extent>
-                                    <dimensions type="image" unit="cm">
-                                        <height quantity="33"/>
-                                        <width quantity="50"/>
-                                    </dimensions>
-                                </extent>
-                               
-                                <listRelation>
-                                    <relation name="depicted" active="ENT.000002738"/>
-                                    <relation name="depicted" active="ENT.000003605"/>
-                                   
-                            </listRelation>
-                            </bibl>
-                        </msItem>
-                    </msContents>
-
-                    <history>
-                        <acquisition>This is an artificial collection created over time by HSP staff
-                            mostly through donations and purchases of individual prints. It also
-                            incorporates previously uncataloged materials collected by the Balch
-                            Institute for Ethnic Studies. Some of the 20th century cartoons and
-                            drawings were removed from the J. Hampton Moore papers (Collection
-                            1541). </acquisition>
-                    </history>
-                </msDesc>
-                <biblStruct>
-                    <analytic>
-                        <respStmt>
-                            <resp key="art">Artist</resp>
-                            <persName key="ENT.000003548">J.S. Pughe</persName>
-                        </respStmt>
-                        
-                        <respStmt>
-                        <resp key="ltg">Lithographer</resp>
-                            <persName key="ENT.000003611">J. Ottman Lithographic Company</persName>
-                        </respStmt>
-                        
-                        <title type="main" level="a">If--The Inaugural Dinner at the White House</title>
-                    </analytic>
-                    <monogr>
-                        <title type="marc245a" level="j"><orgName key="ENT.000000384"
-                                >Puck</orgName></title>
-                        <imprint>
-                            <publisher>
-                                <orgName key="ENT.000003163">Keppler &amp; Schwarzmann</orgName>
-                            </publisher>
-                            <pubPlace>New York</pubPlace>
-                            <date from="1904-06-29"
-                                >June 29, 1904</date>
-                            <biblScope unit="volume">55</biblScope>
-                            <biblScope unit="issue">1426</biblScope>
-                                
-                        </imprint>
-                    </monogr>
-                </biblStruct>
-
-            </sourceDesc>
-        </fileDesc>
-
-        <encodingDesc>
-            <projectDesc>
-                <p>The Historic Images, New Technologies (HINT) project aims to enhance description
-                    and discovery of the Historical Society of Pennsylvania's graphics materials and
-                    promote the linking and sharing of content among institutions and scholars. The
-                    project will result in an update to HSP's digital image viewer and an online
-                    digital history exhibit that will demonstrate the new viewer's capabilities and
-                    provide interpretive and contextual materials to encourage users to interact
-                    with historical images in new ways. This project was funded by a grant from the
-                    National Historical Publications and Records Commission's (NHPRC) Innovation in
-                    Archives and Documentary Editing program.</p>
-            </projectDesc>
-            <editorialDecl n="4">
-                <p>This electronic file was created using manual keying following the
-                    recommendations for Level 4 of "Best Practices for TEI in Libraries" guidelines
-                    v3.0.</p>
-                <p>This xml file uses unique entity identifiers, media file identifiers, and
-                    collection identifiers in HSP's Digital Library, available at
-                    http://digitallibrary.hsp.org.</p>
-
-            </editorialDecl>
-            <tagsDecl>
-                <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
-                <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
-                <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
-                <rendition scheme="css" xml:id="crossed-through">text-decoration:
-                    line-through</rendition>
-                <rendition scheme="other" xml:id="printed"/>
-                <rendition scheme="other" xml:id="typescript"/>
-                <rendition scheme="other" xml:id="handwritten"/>
-                <rendition scheme="other" xml:id="handwritten-underlined"/>
-                <rendition scheme="other" xml:id="handwritten-circled"/>
-                <rendition scheme="other" xml:id="handwritten-crossed-through"/>
-                <rendition scheme="other" xml:id="double-underline"/>
-                <rendition scheme="other" xml:id="stamp"/>
-                <namespace name="http://www.tei-c.org/ns/1.0">
-                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
-                </namespace>
-            </tagsDecl>
-        </encodingDesc>
-
-        <profileDesc>
-            <textClass>
-                <catRef target="cartoons_taxonomies.xml#featured"/>
-                <catRef target="cartoons_taxonomies.xml#twentieth"/>
-                <catRef target="cartoons_taxonomies.xml#elections"/>
-                <catRef target="cartoon_genres.xml#Lithographs"/>
-            </textClass>
-        </profileDesc>
-
-        <revisionDesc>
-            <change who="DianeBiunno" when="2015-02-18">text encoding to featured level</change>
-            <change who="DianeBiunno" when="2015-02-18">text encoding to basic level</change>
-            <change who="RachelMoloshok" when="2015-01-07">Template file created</change>
-        </revisionDesc>
-    </teiHeader>
-
-    <facsimile>
-        
-        <surface ulx="" uly="" lrx="" lry="">
-           
-            <graphic url="FIL.000085720"/>
-           
-            <zone n="1" xml:id="Title" points=""/>
-            <zone n="2" xml:id="Lithographer" points=""/>
-            <zone n="3" xml:id="Artist" points=""/>
-            <zone n="4" xml:id="Painting" points=""/>
-            <zone n="5" xml:id="Puck" points=""/>
-            <zone n="6" xml:id="Hearst" points=""/>
-            <zone n="7" xml:id="Tigers" points=""/>
-            <zone n="8" xml:id="Hooligan" points=""/>
-            <zone n="9" xml:id="Alphonse" points=""/>
-            <zone n="10" xml:id="Kids" points=""/>
-            <zone n="11" xml:id="Jack" points=""/>
-            <zone n="12" xml:id="Grandpa" points=""/>
-            <zone n="13" xml:id="Caveman" points=""/>
-            <zone n="14" xml:id="Gus" points=""/>
-            <zone n="15" xml:id="Dinosaur" points=""/>
-        </surface>
-    </facsimile>
-
-    <text>
-        
-        <front>
-            <div type="editorial_desc">
-                <p>William Randolph Hearst owned the <hi rendition="#italics">New York Journal</hi> and the <hi rendition="#italics">San Francisco Examiner</hi> and in 1904 campaigned to become the democratic nominee.  He lost the nomination to Alton B. Parker in July 1904.  In the cartoon, William Randolph Hearst, dressed in formal attire, gives a toast to a cast of comic cartoon characters who are seated at a large table.  Most of the comic characters appeared in Hearst's newspapers.</p>
-                <p>Next to Hearst there is a waiter carrying a tray with drinks and a dinosaur who is eating a portrait of Theodore Roosevelt.  The comic cartoon character, Foxy Grandpa, is seated to Hearst's left.  On the window sill, characters from the <hi rendition="#italics">Little Tigers</hi> comic strip play musical instruments.  Hanz from the comic strip <hi rendition="#italics">Katzenjammer Kids</hi>, balances a champagne bottle on his nose.  His brother Fritz sprays champagne into der Captain's face. Mamma, the woman seated across from Fritz, looks stern and points her finger in disapproval. Alphose and Gaston, in the lower right corner of the image, bow to each other.</p>
-                
-            </div>
-        </front>
-
-        <body>
-            <div type="image_transcription" n="1" facs="#Title">
-                <head><supplied resp="editorial">Title</supplied></head>
-                <p>IF-</p>
-                <p>THE INAUGURAL DINNER AT THE WHITE HOUSE.</p>
-            </div>
-            
-              <div type="image_transcription" n="2" facs="#Lithographer">
-                  <head><supplied resp="editorial"><persName key="ENT.000003611">J. Ottman Lithographic Company</persName></supplied></head>
-                  <p>J.OTTMANN LITH CO.PUCK BLDG</p>
-              </div>
-            
-            <div type="image_transcription" n="3" facs="#Artist">
-                <head><supplied resp="editorial">J.S. Pughe</supplied></head>
-                <p>J.S. PUGHE</p>
-            </div>
-            
-            <div type="image_transcription" n="4" facs="#Painting">
-                <head><supplied resp="editorial"><persName key="ENT.000002738">Theodore Roosevelt</persName></supplied></head>
-                <p>ROOSEVELT</p>
-            </div>
-            
-            <div type="image_transcription" n="5" facs="#Puck">
-                <head><supplied resp="editorial"><orgName key="ENT.000000384">Puck</orgName></supplied></head>
-                <p>PUCK</p>
-            </div>
-            
-            <div type="image_annotation" n="6" facs="#Hearst">
-                <head><supplied resp="editorial"><persName key="ENT.000003605">William Randolph Hearst</persName></supplied></head>
-                <p>William Randolph Hearst, owner of the <hi rendition="#italics">New York Journal</hi> and <hi rendition="#italics">San Francisco Examiner</hi>, gives a toast to a cast of popular comic strip characters published in his newspapers.  In the 1904 presidential election, he sought the democratic party nomination, but lost to Alton B. Parker.</p>
-            </div>
-            
-            <div type="image_annotation" n="7" facs="#Tigers">
-                <head><supplied resp="editorial"><hi rendition="#italics">Little Tigers</hi></supplied></head>
-                <p>Cartoon characters from Jimmy Swinnerton's <hi rendition="#italics">Little Tigers</hi> comic strip play musical instruments.  <hi rendition="#italics">Little Tigers</hi> was published in Hearst's <hi rendition="#italics">San Francisco Examiner</hi>.</p>
-            </div>
-            
-            <div type="image_annotation" n="8" facs="#Hooligan">
-                <head><supplied resp="editorial"><hi rendition="#italics">Happy Hooligan</hi></supplied></head>
-                <p>Happy Hooligan wears tattered clothing, holds a champagne bottle and raises his glass.  Happy Hooligan and the policeman standing next to him were drawn by the cartoonist <persName key="ENT.000003616">Frederick Burr Opper</persName>.  Both characters were featured in the strip <hi rendition="#italics">Happy Hooligan</hi> which debuted in 1900 in Hearst's newspapers.</p>
-            </div>
-            
-            <div type="image_annotation" n="9" facs="#Alphonse">
-                <head><supplied resp="editorial"><hi rendition="#italics">Alphonse and Gaston</hi></supplied></head>
-                <p><hi rendition="#italics">Alphonse and Gaston</hi> was a comic strip by the cartoonist <persName key="ENT.000003616">Frederick Burr Opper</persName>.  It debuted in the <hi rendition="#italics">New York Journal</hi> in 1901 and featured two Frenchmen who are so polite that they never managed to get anywhere or accomplish anything.  They each bow to each other and insist that the other go first:  "After you, Alphonse"; "No, you first, my dear Gaston."  In the political cartoon, Gaston, the tall and slender man and his short friend Alphonse bow to each other.  Most likely they each insist that the other take a seat.</p>
-            </div>
-            
-            <div type="image_annotation" n="10" facs="#Kids">
-                <head><supplied resp="editorial"><hi rendition="#italics">The Katzenjammer Kids</hi></supplied></head>
-                <p><hi rendition="#italics">The Katzenjammer Kids</hi> was a Sunday comic strip published in the <hi rendition="#italics">New York Journal</hi> and featured two naughty children named Hans and Fritz.  In the political cartoon, Hans balances a champagne bottle on his nose while his brother Fritz sprays champagne into der Captain's face.  Their mother "mamma" looks disapprovingly and points her finger at them.  The character seated next to mamma is most likely the Inspector from <hi rendition="#italics">The Katzenjammer Kids</hi>.  The man seated next to the Inspector is Uncle Heinie, also from <hi rendition="#italics">The Katzenjammer Kids</hi>.</p>
-            </div>
-            
-            <div type="image_annotation" n="11" facs="#Jack">
-                <head><supplied resp="editorial">Mr. Jack</supplied></head>
-                <p><hi rendition="#italics">Mr. Jack</hi> was an early 20th century comic strip by cartoonist James Swinnerton and featured a bachelor tiger.  The character of Mr. Jack first appeared in Swinnerton's <hi rendition="#italics">Little Tigers</hi>. In the political cartoon, Mr. Jack wears a top hat and bow tie and raises his glass.</p>
-            </div>
-            
-            <div type="image_annotation" n="12" facs="#Grandpa">
-                <head><supplied resp="editorial">Foxy Grandpa</supplied></head>
-                <p>Foxy Grandpa was an early 20th century comic strip and its cartoonist was Carl E. Schultze.  In the political cartoon, Foxy Grandpa is seated next to a caveman wielding a stone hammer.</p>
-            </div>
-            
-            <div type="image_annotation" n="13" facs="#Caveman">
-                <head><supplied resp="editorial">Our Antediluvian Ancestors</supplied></head>
-                <p>The caveman appears to break his dish with a stone tool.  The character appeared in <hi rendition="#italics">Our Antediluvian Ancestors</hi> by <persName key="ENT.000003616">Frederick Burr Opper</persName>.</p>
-            </div>
-            
-            <div type="image_annotation" n="14" facs="#Gus">
-                <head><supplied resp="editorial">Gloomy Gus</supplied></head>
-                <p>Gloomy Gus was a character in <persName key="ENT.000003616">Opper's</persName> <hi rendition="#italics">Happy Hooligan</hi>.  In the political cartoon, he is dressed in ragged clothing and appears to stuff his pockets with the silverware and a bottle of champagne.</p>
-            </div>
-            
-            <div type="image_annotation" n="15" facs="#Dinosaur">
-                <head><supplied resp="editorial">Dinosaur</supplied></head>
-                <p>The dinosaur character appeared in <hi rendition="#italics">Our Antediluvian Ancestors</hi> by <persName key="ENT.000003616">Frederick Burr Opper</persName>.  In the political cartoon, he is eating a portrait of <persName key="ENT.000002738">Theodore Roosevelt</persName>.</p>
-            </div>
-                
-        </body>
-
-        <back/>
-    </text>
+  <teiHeader xml:lang="English">
+    <fileDesc>
+      <titleStmt>
+        <title type="main">TEI transcription of If--The Inaugural Dinner at the White House</title>
+        <author/>
+        <respStmt>
+          <resp key="art">artist</resp>
+          <persName key="ENT.000003548">Pughe, J. S. (John S.), 1870-1909</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="trc">Transcribed by</resp>
+          <persName key="ENT.000003544">Biunno, Diane</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="mrk">Encoded by</resp>
+          <persName key="ENT.000003544">Biunno, Diane</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="ltg">lithographer</resp>
+          <orgName key="ENT.000003611">J. Ottman Lithographic Company</orgName>
+        </respStmt>
+        <respStmt>
+          <resp key="pbl">publisher</resp>
+          <orgName key="ENT.000003163">Keppler &amp; Schwarzmann</orgName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <p>First edition, <date when="2015">2015</date></p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName key="ENT.000002473">Historical Society of Pennsylvania</orgName>
+        </publisher>
+        <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
+        <idno type="filename">11687</idno>
+        <availability status="restricted">
+          <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of copyright only
+            to original contributions made by the Historic Images, New Technologies (HINT) Project
+            participants and other staff. HSP makes no claim of copyright to the original text.
+            Permission is granted to download, transmit or otherwise reproduce, distribute or
+            display the text contributions to this work claimed by HSP for non-profit educational
+            purposes, provided that this header is included in its entirety. For inquiries about
+            commercial uses, please contact the Historical Society of Pennsylvania. HSP retains the
+            rights of all images unless otherwise noted. Possession of an HSP digital image does not
+            constitute permission to use or publish it. Requests for digital imaging, other
+            reproduction services, and the intended use of reproductions must be made in writing to
+            the Rights and Reproductions Coordinator at rnr@hsp.org.</p>
+        </availability>
+        <date when="2015">2015</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="project" key="CARTOONS">Historic Images, New Technologies (HINT)
+          Project</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository key="ENT.000002473">Historical Society of Pennsylvania</repository>
+            <collection key="3133">Historical Society of Pennsylvania cartoons and caricatures
+              collection</collection>
+            <idno type="citation">
+              <idno type="box">12</idno>
+              <idno type="folder">16</idno>
+            </idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <bibl>
+                <date from="1904-06-29">June 29, 1904</date>
+                <extent>1 loose sheet</extent>
+                <extent>
+                  <dimensions type="image" unit="cm"/>
+                  <height quantity="33"/>
+                  <width quantity="50"/>
+                </extent>
+                <listRelation>
+                  <relation name="depicted" active="ENT.000002738"/>
+                  <relation name="depicted" active="ENT.000003605"/>
+                  <relation/>
+                </listRelation>
+              </bibl>
+            </msItem>
+          </msContents>
+          <history>
+            <acquisition>This is an artificial collection created over time by HSP staff mostly
+              through donations and purchases of individual prints. It also incorporates previously
+              uncataloged materials collected by the Balch Institute for Ethnic Studies. Some of the
+              20th century cartoons and drawings were removed from the J. Hampton Moore papers
+              (Collection 1541).</acquisition>
+          </history>
+        </msDesc>
+        <biblStruct>
+          <analytic>
+            <respStmt>
+              <resp key="art">artist</resp>
+              <persName key="ENT.000003548">Pughe, J. S. (John S.), 1870-1909</persName>
+            </respStmt>
+            <respStmt>
+              <resp key="ltg">lithographer</resp>
+              <orgName key="ENT.000003611">J. Ottman Lithographic Company</orgName>
+            </respStmt>
+            <respStmt>
+              <resp key="pbl">publisher</resp>
+              <orgName key="ENT.000003163">Keppler &amp; Schwarzmann</orgName>
+            </respStmt>
+            <title type="main" level="a">If--The Inaugural Dinner at the White House</title>
+            <date from="1904-06-29">June 29, 1904</date>
+          </analytic>
+          <monogr>
+            <title type="marc245a" level="j">
+              <orgName key="ENT.000000384">Puck</orgName>
+            </title>
+            <imprint>
+              <pubPlace>New York</pubPlace>
+              <date from="1904-06-29">June 29, 1904</date>
+              <biblScope unit="volume">55</biblScope>
+              <biblScope unit="issue">1426</biblScope>
+              <publisher>
+                <orgName key="ENT.000003163">Keppler &amp; Schwarzmann</orgName>
+              </publisher>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <bibl/>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The Historic Images, New Technologies (HINT) project aims to enhance description and
+          discovery of the Historical Society of Pennsylvania's graphics materials and promote the
+          linking and sharing of content among institutions and scholars. The project will result in
+          an update to HSP's digital image viewer and an online digital history exhibit that will
+          demonstrate the new viewer's capabilities and provide interpretive and contextual
+          materials to encourage users to interact with historical images in new ways. This project
+          was funded by a grant from the National Historical Publications and Records Commission's
+          (NHPRC) Innovation in Archives and Documentary Editing program.</p>
+      </projectDesc>
+      <editorialDecl n="4">
+        <p>This electronic file was created using manual keying following the recommendations for
+          Level 4 of "Best Practices for TEI in Libraries" guidelines v3.0.</p>
+        <p>This xml file uses unique entity identifiers, media file identifiers, and collection
+          identifiers in HSP's Digital Library, available at http://digitallibrary.hsp.org.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
+        <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
+        <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
+        <rendition scheme="css" xml:id="crossed-through">text-decoration: line-through</rendition>
+        <rendition scheme="other" xml:id="printed"/>
+        <rendition scheme="other" xml:id="typescript"/>
+        <rendition scheme="other" xml:id="handwritten"/>
+        <rendition scheme="other" xml:id="handwritten-underlined"/>
+        <rendition scheme="other" xml:id="handwritten-circled"/>
+        <rendition scheme="other" xml:id="handwritten-crossed-through"/>
+        <rendition scheme="other" xml:id="double-underline"/>
+        <rendition scheme="other" xml:id="stamp"/>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <catRef target="cartoons_genres.xml#political_cartoons"/>
+        <catRef target="cartoons_genres.xml#photomechanical_prints"/>
+        <catRef target="cartoons_taxonomies.xml#featured"/>
+        <catRef target="cartoons_taxonomies.xml#twentieth"/>
+        <catRef target="cartoons_taxonomies.xml#elections"/>
+        <catRef target="cartoons_taxonomies.xml#culture"/>
+        <catRef target="cartoons_taxonomies.xml#press"/>
+        <catRef target="cartoons_taxonomies.xml#children"/>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change who="DianeBiunno" when="2015-04-07">Exported from CA and basic proofreading</change>
+      <change who="DianeBiunno" when="2015-02-18">encoded to featured level</change>
+      <change who="DianeBiunno" when="2015-02-18">encoded to basic level</change>
+      <change who="RachelMoloshok" when="2015-01-07">Template file created</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="100" lry="100">
+      <graphic url="FIL.000085720"/>
+      <zone n="1" xml:id="Title" points="43.86,87.51 58.18,87.62 58.26,91.12 43.93,91.12"/>
+      <zone n="2" xml:id="Lithographer" points="87.29,87.3 93.42,87.39 93.45,88.67 87.33,88.61"/>
+      <zone n="3" xml:id="Artist" points="19.35,84.84 23.44,85.15 23.51,86.88 19.42,86.68"/>
+      <zone n="4" xml:id="Painting"
+        points="10.67,14.11 18.02,17.6 18.61,21.6 16.83,21.43 15.29,23.34 19.08,32.58 11.15,31.18"/>
+      <zone n="5" xml:id="Puck" points="48.38,7.81 51.81,7.75 51.85,9.77 48.55,9.9"/>
+      <zone n="6" xml:id="Hearst"
+        points="37.92,14.98 41.47,15.33 42.06,18.99 47.04,26.13 49.05,20.38 52.37,20.03 54.03,22.47 54.5,27 60.54,35.71 57.82,40.94 55.92,43.38 54.74,52.44 51.07,51.22 48.34,51.92 47.51,46.52 45.62,43.9 45.14,41.46 45.02,35.71 46.21,31.53 43.49,29.27 40.41,25.78 39.69,21.95 38.15,21.08"/>
+      <zone n="7" xml:id="Tigers"
+        points="72.51,21.08 75.23,16.9 78.78,21.25 80.32,17.25 83.88,15.16 86.01,17.42 88.02,13.94 93.35,12.72 92.88,20.56 94.78,27 97.5,32.58 94.42,35.54 95.25,41.29 89.8,40.42 88.62,37.46 88.85,34.32 86.72,32.58 84.35,33.62 83.29,38.15 79.85,40.59 75.59,41.99 71.56,28.05"/>
+      <zone n="8" xml:id="Hooligan"
+        points="83.52,59.06 79.02,56.62 76.65,52.61 75.23,49.13 76.53,44.25 80.56,40.42 87.31,31.88 92.17,40.77 93.95,47.04 92.76,52.96 95.84,59.93 94.78,67.25 96.91,76.13 94.3,86.76 90.04,83.62 86.48,86.06 86.37,75.61 84.59,65.33"/>
+      <zone n="9" xml:id="Alphonse"
+        points="63.61,61.4 65.39,58.09 65.98,54.26 69.77,53.91 73.33,55.3 73.09,59.66 75.58,59.66 78.06,61.23 82.68,67.85 85.05,70.29 83.87,80.74 83.87,87.19 57.93,87.01 57.93,77.95 56.27,70.29 56.86,64.71 60.89,64.71"/>
+      <zone n="10" xml:id="Kids"
+        points="19.75,43.3 23.06,38.95 26.5,38.6 28.27,40.51 30.05,37.55 32.54,35.81 35.5,37.03 37.16,43.3 40.12,37.03 44.27,38.25 42.84,42.26 45.57,45.91 46.87,51.84 42.01,52.19 40.83,54.1 38.7,55.15 37.86,60.1 36.92,63.51 38.28,74.16 32.66,85.81 6.72,86.16 7.19,57.76"/>
+      <zone n="11" xml:id="Jack"
+        points="7.63,37.87 11.82,36.07 12.22,38.85 13.3,39.67 13.65,41.4 15.54,43.81 16.11,40.42 15.19,37.49 18.51,37.34 18.3,40.72 17.64,43.88 18,46.44 15.54,50.34 11.76,52.67 9.21,59.06 6.09,63.79 4.56,52.15 8.9,47.64 8.6,44.26 8.09,42.45 8.6,39.82"/>
+      <zone n="12" xml:id="Grandpa"
+        points="60.26,35.47 64.14,37.87 65.16,39.68 65.31,42.01 64.91,43.66 67.72,54.1 58.93,55.08 55.05,53.5 55.96,44.04"/>
+      <zone n="13" xml:id="Caveman"
+        points="67.89,33.97 70.97,32.58 73.93,33.62 74.52,37.98 73.45,43.55 75.35,46.52 74.52,55.4 69.31,54.18 62.08,58.36 61.02,52.96 62.79,48.78 64.81,44.43 68.12,42.51 66.58,38.33"/>
+      <zone n="14" xml:id="Gus"
+        points="38.01,54.27 43.46,50.61 47.28,56.88 53.93,68.6 52.01,82.75 49.17,86.76 42.15,86.71 32.45,84.23 37.21,69.51"/>
+      <zone n="15" xml:id="Dinosaur"
+        points="13.52,20.38 20.03,21.08 23.7,19.86 28.06,21.24 30.81,26.66 25.95,37.63 22.4,39.37 19.43,42.24 19.07,38.23 20.86,33.45"
+      />
+    </surface>
+  </facsimile>
+  <text>
+    <front>
+      <div type="editorial_desc">
+        <p>William Randolph Hearst owned the <hi rendition="#italics">New York Journal</hi> and the
+            <hi rendition="#italics">San Francisco Examiner</hi> and in 1904 campaigned to become
+          the democratic nominee. He lost the nomination to Alton B. Parker in July 1904. In the
+          cartoon, William Randolph Hearst, dressed in formal attire, gives a toast to a cast of
+          comic cartoon characters who are seated at a large table. Most of the comic characters
+          appeared in Hearst's newspapers.</p>
+        <p>Next to Hearst there is a waiter carrying a tray with drinks and a dinosaur who is eating
+          a portrait of Theodore Roosevelt. The comic cartoon character, Foxy Grandpa, is seated to
+          Hearst's left. On the window sill, characters from the <hi rendition="#italics">Little
+            Tigers</hi> comic strip play musical instruments. Hanz from the comic strip <hi
+            rendition="#italics">Katzenjammer Kids</hi>, balances a champagne bottle on his nose.
+          His brother Fritz sprays champagne into der Captain's face. Mamma, the woman seated across
+          from Fritz, looks stern and points her finger in disapproval. Alphonse and Gaston, in the
+          lower right corner of the image, bow to each other.</p>
+      </div>
+    </front>
+    <body>
+      <div type="image_transcription" n="1" facs="#Title">
+        <head>
+          <supplied resp="editorial">Title</supplied>
+        </head>
+        <p>IF-</p>
+        <p>THE INAUGURAL DINNER AT THE WHITE HOUSE.</p>
+      </div>
+      <div type="image_transcription" n="2" facs="#Lithographer">
+        <head>
+          <supplied resp="editorial">
+            <persName key="ENT.000003611">J. Ottman Lithographic Company</persName>
+          </supplied>
+        </head>
+        <p>J.OTTMANN LITH CO.PUCK BLDG</p>
+      </div>
+      <div type="image_transcription" n="3" facs="#Artist">
+        <head>
+          <supplied resp="editorial">J.S. Pughe</supplied>
+        </head>
+        <p>J.S. PUGHE</p>
+      </div>
+      <div type="image_transcription" n="4" facs="#Painting">
+        <head>
+          <supplied resp="editorial">
+            <persName key="ENT.000002738">Theodore Roosevelt</persName>
+          </supplied>
+        </head>
+        <p>ROOSEVELT</p>
+      </div>
+      <div type="image_transcription" n="5" facs="#Puck">
+        <head>
+          <supplied resp="editorial">
+            <orgName key="ENT.000000384">Puck</orgName>
+          </supplied>
+        </head>
+        <p>PUCK</p>
+      </div>
+      <div type="image_annotation" n="6" facs="#Hearst">
+        <head>
+          <supplied resp="editorial">
+            <persName key="ENT.000003605">William Randolph Hearst</persName>
+          </supplied>
+        </head>
+        <p>William Randolph Hearst, owner of the <hi rendition="#italics">New York Journal</hi> and
+            <hi rendition="#italics">San Francisco Examiner</hi>, gives a toast to a cast of popular
+          comic strip characters published in his newspapers. In the 1904 presidential election, he
+          sought the democratic party nomination, but lost to Alton B. Parker.</p>
+      </div>
+      <div type="image_annotation" n="7" facs="#Tigers">
+        <head>
+          <supplied resp="editorial">
+            <hi rendition="#italics">Little Tigers</hi>
+          </supplied>
+        </head>
+        <p>Cartoon characters from Jimmy Swinnerton's <hi rendition="#italics">Little Tigers</hi>
+          comic strip play musical instruments. <hi rendition="#italics">Little Tigers</hi> was
+          published in Hearst's <hi rendition="#italics">San Francisco Examiner</hi>.</p>
+      </div>
+      <div type="image_annotation" n="8" facs="#Hooligan">
+        <head>
+          <supplied resp="editorial">
+            <hi rendition="#italics">Happy Hooligan</hi>
+          </supplied>
+        </head>
+        <p>Happy Hooligan wears tattered clothing, holds a champagne bottle and raises his glass.
+          Happy Hooligan and the policeman standing next to him were drawn by the cartoonist
+            <persName key="ENT.000003616">Frederick Burr Opper</persName>. Both characters were
+          featured in the strip <hi rendition="#italics">Happy Hooligan</hi> which debuted in 1900
+          in Hearst's newspapers.</p>
+      </div>
+      <div type="image_annotation" n="9" facs="#Alphonse">
+        <head>
+          <supplied resp="editorial">
+            <hi rendition="#italics">Alphonse and Gaston</hi>
+          </supplied>
+        </head>
+        <p><hi rendition="#italics">Alphonse and Gaston</hi> was a comic strip by the cartoonist
+            <persName key="ENT.000003616">Frederick Burr Opper</persName>. It debuted in the <hi
+            rendition="#italics">New York Journal</hi> in 1901 and featured two overly polite
+          Frenchmen. They each bow to each other and insist that the other go first: "After you,
+          Alphonse"; "No, you first, my dear Gaston." In the political cartoon, Gaston, the tall and
+          slender man and his short friend Alphonse bow to each other. Most likely they each insist
+          that the other take a seat.</p>
+      </div>
+      <div type="image_annotation" n="10" facs="#Kids">
+        <head>
+          <supplied resp="editorial">
+            <hi rendition="#italics">The Katzenjammer Kids</hi>
+          </supplied>
+        </head>
+        <p><hi rendition="#italics">The Katzenjammer Kids</hi> was a Sunday comic strip published in
+          the <hi rendition="#italics">New York Journal</hi> and featured two naughty children named
+          Hans and Fritz. In the political cartoon, Hans balances a champagne bottle on his nose
+          while his brother Fritz sprays champagne into der Captain's face. Their mother "mamma"
+          looks disapprovingly and points her finger at them. The character seated next to mamma is
+          most likely the Inspector from <hi rendition="#italics">The Katzenjammer Kids</hi>. The
+          man seated next to the Inspector is Uncle Heinie, also from <hi rendition="#italics">The
+            Katzenjammer Kids</hi>.</p>
+      </div>
+      <div type="image_annotation" n="11" facs="#Jack">
+        <head>
+          <supplied resp="editorial">Mr. Jack</supplied>
+        </head>
+        <p><hi rendition="#italics">Mr. Jack</hi> was an early 20th century comic strip by
+          cartoonist James Swinnerton and featured a bachelor tiger. The character of Mr. Jack first
+          appeared in Swinnerton's <hi rendition="#italics">Little Tigers</hi>. In the political
+          cartoon, Mr. Jack wears a top hat and bow tie and raises his glass.</p>
+      </div>
+      <div type="image_annotation" n="12" facs="#Grandpa">
+        <head>
+          <supplied resp="editorial">Foxy Grandpa</supplied>
+        </head>
+        <p><hi rendition="#italics">Foxy Grandpa</hi> was an early 20th century comic strip and its
+          cartoonist was Carl E. Schultze. In the political cartoon, Foxy Grandpa is seated next to
+          a caveman wielding a stone hammer.</p>
+      </div>
+      <div type="image_annotation" n="13" facs="#Caveman">
+        <head>
+          <supplied resp="editorial">
+            <hi rendition="#italics">Our Antediluvian Ancestors</hi>
+          </supplied>
+        </head>
+        <p>The caveman appears to break his dish with a stone tool. The character appeared in <hi
+            rendition="#italics">Our Antediluvian Ancestors</hi> by <persName key="ENT.000003616"
+            >Frederick Burr Opper</persName>.</p>
+      </div>
+      <div type="image_annotation" n="14" facs="#Gus">
+        <head>
+          <supplied resp="editorial">Gloomy Gus</supplied>
+        </head>
+        <p>Gloomy Gus was a character in <persName key="ENT.000003616">Opper's</persName>
+          <hi rendition="#italics">Happy Hooligan</hi>. In the political cartoon, he is dressed in
+          ragged clothing and stuffs his pockets with silverware and a champagne bottle.</p>
+      </div>
+      <div type="image_annotation" n="15" facs="#Dinosaur">
+        <head>
+          <supplied resp="editorial">Dinosaur</supplied>
+        </head>
+        <p>The dinosaur character appeared in <hi rendition="#italics">Our Antediluvian
+            Ancestors</hi> by <persName key="ENT.000003616">Frederick Burr Opper</persName>. In the
+          political cartoon, he is eating a portrait of <persName key="ENT.000002738">Theodore
+            Roosevelt</persName>.</p>
+      </div>
+    </body>
+  </text>
 </TEI>
