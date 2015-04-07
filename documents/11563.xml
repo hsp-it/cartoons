@@ -72,9 +72,14 @@
                                 <extent>1 loose sheet</extent>
                                 <listRelation>
                                     <relation name="depicted" active="ENT.000000447"/>
+                                    <!-- Lincoln -->
                                     <relation name="depicted" active="ENT.000003331"/>
+                                    <!-- Bell -->
                                     <relation name="depicted" active="ENT.000003344"/>
+                                    <!-- Douglas -->
                                     <relation name="depicted" active="ENT.000003333"/>
+                                    <!-- Breckinridge -->
+                                    <relation name="depicted" active="cartoons_symbols.xml#rail"/>
                                 </listRelation>
                             </bibl>
                         </msItem>
@@ -152,7 +157,7 @@
 
         <profileDesc>
             <textClass>
-                <catRef target="cartoons_genres.xml#lithograph"/>
+                <catRef target="cartoons_genres.xml#lithographs"/>
                 <catRef target="cartoons_taxonomies.xml#early"/>
                 <catRef target="cartoons_taxonomies.xml#slavery"/>
                 <catRef target="cartoons_taxonomies.xml#elections"/>
@@ -161,13 +166,13 @@
         </profileDesc>
 
         <revisionDesc>
+            <change who="RachelMoloshok" when="2015-04-07">Encoded to featured level</change>
             <change who="RachelMoloshok" when="2015-01-28">File encoded to basic level</change>
         </revisionDesc>
     </teiHeader>
 
     <facsimile>
         <surface ulx="" uly="" lrx="" lry="">
-            <!-- Leave values for <surface> attributes blank; coordinates will be provided by Collective Access upon export. Use <surface> to contain <graphic> and <zone>. Use multiple <surface> elements as needed for multiple pages/images -->
             <graphic url="FIL.000085216"/>
             <zone n="1" xml:id="title"/>
             <zone n="2" xml:id="bell"/>
@@ -180,52 +185,58 @@
     </facsimile>
 
     <text>
-        <!-- ??See separate ODD file with full encoding guidelines. -->
         <front>
             <div type="editorial_desc">
                 <p>Baseball serves as a metaphor for the presidential election of <date when="1860"
-                        >1860</date>.
-                    <!-- something about the history of baseball and sports metaphors in political cartoons should go in this description -->
-                    Successful candidate <persName key="ENT.000000447">Abraham Lincoln</persName>
-                    has scored a run, while unsuccessful presidential candidates <persName
-                        key="ENT.000003331">John Bell</persName>, <persName key="ENT.000003344"
-                        >Stephen A. Douglas</persName>, and <persName key="ENT.000003333">John C.
-                        Breckenridge</persName> have struck out. Each of the players wears a belt
-                    emblazoned with the name of his team; instead of the names of actual baseball
-                    clubs from the 1860s, however, these are team names that reflect their political
-                    goals and personalities. Each also holds a bat labeled with a phrase that hints
-                    at their policy goals and tactics. <!-- What is the deal with the skunk? --></p>
+                        >1860</date>, in this cartoon, which provides a prime example of sports
+                    metaphors in politics. Successful candidate Abraham Lincoln, standing at home
+                    base, has scored a run, while unsuccessful presidential candidates John Bell,
+                    Stephen A. Douglas, and John C. Breckinridge have struck out, and Breckinridge
+                    has been sprayed by a skunk. Each of the players wears a belt emblazoned with
+                    the name of his team; instead of the names of actual baseball clubs from the
+                    1860s, however, these are team names that reflect their political goals and
+                    personalities. Each also holds a bat labeled with a phrase that hints at their
+                    policies and tactics (instead of a baseball bat, Lincoln holds a fence rail).
+                    This pro-Lincoln cartoon implies that Lincoln's bat, labeled "Equal Rights and
+                    Free Territory," and his "team" of supporters, the "Wide Awakes," ensure his
+                    victory in the game, as well as in the election.</p>
             </div>
         </front>
 
         <body>
             <div type="image_transcription" facs="#title" n="1">
                 <head>THE NATIONAL GAME. THREE "OUTS" AND ONE "RUN".</head>
-                <p>ABRAHAM WINNING THE BALL.</p>
-                <p>Published by Currier &amp; Ives, 152 Nassau St. N. Y.</p>
-                <p>Entered according to act of Congress in the year 1860, by Currier &amp; Ives, in the Clerk's Office of the District Court for the Southern Dist. of N.Y.</p>
+                <p><persName key="ENT.000000447">ABRAHAM</persName> WINNING THE BALL.</p>
+                <p>Published by <orgName key="ENT.000000844">Currier &amp; Ives</orgName>, 152 Nassau St. N. Y.</p>
+                <p>Entered according to act of Congress in the year 1860, by Currier &amp; Ives, in
+                    the Clerk's Office of the District Court for the Southern Dist. of N.Y.</p>
             </div>
             <div type="image_transcription" facs="#bell" n="2">
-                <head><supplied resp="editorial">John Bell</supplied></head>
-                <p>It appears to me very singular that we three should strike "foul" and be "put out" while old Abe made such a "good lick". _</p>
+                <head><supplied resp="editorial"><persName key="ENT.000003331">John Bell</persName></supplied></head>
+                <p>It appears to me very singular that we three should strike "foul" and be "put
+                    out" while <persName key="ENT.000000447">old Abe</persName> made such a "good lick". _</p>
                 <p>UNION CLUB.</p>
                 <p>FUSION.</p>
             </div>
             <div type="image_transcription" facs="#douglas" n="3">
-                <head><supplied resp="editorial">Stephen Douglas</supplied></head>
-                <p>That's because he had that confounded rail, to strike with, I thought our fusion would be a "short stop" to his career.</p>
+                <head><supplied resp="editorial"><persName key="ENT.000003344">Stephen Douglas</persName></supplied></head>
+                <p>That's because he had that confounded rail, to strike with, I thought our fusion
+                    would be a "short stop" to his career.</p>
                 <p>LITTLE GIANTS.</p>
                 <p>NON INTERVENTION.</p>
             </div>
             <div type="image_transcription" n="4" facs="#breckinridge">
-                <head><supplied resp="editorial">John Breckinridge</supplied></head>
-                <p>I guess I'd better leave for Kentucky, for I smell something strong around here, and begin to think, that we are completely "skunk'd."</p>
+                <head><supplied resp="editorial"><persName key="ENT.000003333">John Breckinridge</persName></supplied></head>
+                <p>I guess I'd better leave for Kentucky, for I smell something strong around here,
+                    and begin to think, that we are completely "skunk'd."</p>
                 <p>DISUNION CLUB.</p>
                 <p>SLAVERY EXTENSION.</p>
             </div>
             <div type="image_transcription" n="5" facs="#lincoln">
-                <head><supplied resp="editorial">Abraham Lincoln</supplied></head>
-                <p>Gentlemen, if any of you should ever take a hand in another match at this game, remember that you must have "a good bat" and strike a "fair ball" to make a "clean score" &amp; a "home run"</p>
+                <head><supplied resp="editorial"><persName key="ENT.000000447">Abraham Lincoln</persName></supplied></head>
+                <p>Gentlemen, if any of you should ever take a hand in another match at this game,
+                    remember that you must have "a good bat" and strike a "fair ball" to make a
+                    "clean score" &amp; a "home run"</p>
                 <p>WIDE AWAKE</p>
                 <p>EQUAL RIGHTS AND FREE TERRITORY</p>
             </div>
@@ -234,9 +245,11 @@
             </div>
             <div type="image_annotation" n="7" facs="#skunk">
                 <head>Skunk</head>
-                <p><!-- explanation of what "skunk" means in baseball goes here --></p>
+                <p>In 1860s baseball, "skunked" meant that one team was so far ahead in score that
+                    there was no way for the other team to win. The "skunk rule," more commonly
+                    called the "mercy rule" today, allowed the game to end.</p>
             </div>
-            
+
         </body>
 
         <back/>
