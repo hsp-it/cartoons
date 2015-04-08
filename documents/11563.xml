@@ -221,7 +221,7 @@
             </div>
             <div type="image_transcription" facs="#douglas" n="3">
                 <head><supplied resp="editorial"><persName key="ENT.000003344">Stephen Douglas</persName></supplied></head>
-                <p>That's because he had that confounded rail, to strike with, I thought our fusion
+                <p>That's because he had that confounded <rs ref="cartoons_symbols.xml#rail">rail</rs>, to strike with, I thought our fusion
                     would be a "short stop" to his career.</p>
                 <p>LITTLE GIANTS.</p>
                 <p>NON INTERVENTION.</p>
