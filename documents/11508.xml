@@ -63,14 +63,14 @@
                 <date from="1833-01-01" to="1833-12-31">1833</date>
                 <extent>1 loose page</extent>
                 <listRelation>
-                  <relation name="depicts" active="ENT.000002223"/>
-                  <relation name="depicts" active="ENT.000000552"/>
-                  <relation name="depicts" active="ENT.000003535"/>
-                  <relation name="depicts" active="ENT.000003390"/>
-                  <relation name="depicts" active="ENT.000001368"/>
-                  <relation name="depicts" active="ENT.000002230"/>
-                  <relation name="depicts" active="ENT.000003536"/>
-                  <relation name="depicts" active="ENT.000003326"/>
+                  <relation name="depicted" active="ENT.000002223"/>
+                  <relation name="depicted" active="ENT.000000552"/>
+                  <relation name="depicted" active="ENT.000003535"/>
+                  <relation name="depicted" active="ENT.000003390"/>
+                  <relation name="depicted" active="ENT.000001368"/>
+                  <relation name="depicted" active="ENT.000002230"/>
+                  <relation name="depicted" active="ENT.000003536"/>
+                  <relation name="depicted" active="ENT.000003326"/>
                   <relation name="mentioned" active="ENT.000003537"/>
                   <relation name="mentioned" active="ENT.000003619"/>
                   <relation name="mentioned" active="ENT.000003317"/>
@@ -85,8 +85,8 @@
                   <relation name="mentioned" active="ENT.000003596"/>
                   <relation name="mentioned" active="ENT.000003570"/>
                   <relation name="mentioned" active="ENT.000003671"/>
-                  <relation name="depicts" active="cartoons_symbols.xml#jack_downing"/>
-                  <relation name="depicts" active="cartoons_symbols.xml#devil"/>
+                  <relation name="depicted" active="cartoons_symbols.xml#jack_downing"/>
+                  <relation name="depicted" active="cartoons_symbols.xml#devil"/>
                 </listRelation>
               </bibl>
             </msItem>
