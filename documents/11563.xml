@@ -1,258 +1,258 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 
 <?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-
-
-    <teiHeader xml:lang="English">
-
-        <fileDesc>
-
-            <titleStmt>
-                <title type="main">TEI transcription of The National Game. Three "Outs" and One
-                    "Run".</title>
-                <respStmt>
-                    <resp key="art">Artist</resp>
-                    <persName key="?ENT.000003364">Maurer, Louis</persName>
-                </respStmt>
-                <respStmt>
-                    <resp key="trc">Transcribed by</resp>
-                    <persName key="ENT.000003368">Moloshok, Rachel</persName>
-                </respStmt>
-                <respStmt>
-                    <resp key="mrk">Encoded by</resp>
-                    <persName key="ENT.000003368">Moloshok, Rachel</persName>
-                </respStmt>
-
-            </titleStmt>
-
-            <editionStmt>
-                <p>First edition, <date when="2015">2015</date></p>
-            </editionStmt>
-
-            <publicationStmt>
-                <publisher><orgName key="ENT.000002473">Historical Society of
-                    Pennsylvania</orgName></publisher>
-                <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
-                <idno type="filename">11563</idno>
-                <availability status="restricted">
-                    <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of
-                        copyright only to original contributions made by the Historic Images, New
-                        Technologies (HINT) Project participants and other staff. HSP makes no claim
-                        of copyright to the original text. Permission is granted to download,
-                        transmit or otherwise reproduce, distribute or display the text
-                        contributions to this work claimed by HSP for non-profit educational
-                        purposes, provided that this header is included in its entirety. For
-                        inquiries about commercial uses, please contact the Historical Society of
-                        Pennsylvania. HSP retains the rights of all images unless otherwise noted.
-                        Possession of an HSP digital image does not constitute permission to use or
-                        publish it. Requests for digital imaging, other reproduction services, and
-                        the intended use of reproductions must be made in writing to the Rights and
-                        Reproductions Coordinator at rnr@hsp.org.</p>
-                </availability>
-                <date when="2015"/>
-            </publicationStmt>
-
-            <seriesStmt>
-                <title level="s" type="project" key="CARTOONS"/>
-            </seriesStmt>
-
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <repository key="ENT.000002473"/>
-                        <collection key="3133"/>
-                        <idno type="citation"><idno type="box">4</idno><idno type="folder"
-                            >8</idno></idno>
-                    </msIdentifier>
-                    <msContents>
-                        <msItem>
-                            <bibl>
-                                <date from="1860-01-01" to="1860-12-31">1860</date>
-                                <extent>1 loose sheet</extent>
-                                <listRelation>
-                                    <relation name="depicted" active="ENT.000000447"/>
-                                    <!-- Lincoln -->
-                                    <relation name="depicted" active="ENT.000003331"/>
-                                    <!-- Bell -->
-                                    <relation name="depicted" active="ENT.000003344"/>
-                                    <!-- Douglas -->
-                                    <relation name="depicted" active="ENT.000003333"/>
-                                    <!-- Breckinridge -->
-                                    <relation name="depicted" active="cartoons_symbols.xml#rail"/>
-                                </listRelation>
-                            </bibl>
-                        </msItem>
-                    </msContents>
-
-                    <history>
-                        <acquisition>This is an artificial collection created over time by HSP staff
-                            mostly through donations and purchases of individual prints. It also
-                            incorporates previously uncataloged materials collected by the Balch
-                            Institute for Ethnic Studies. Some of the 20th century cartoons and
-                            drawings were removed from the J. Hampton Moore papers (Collection
-                            1541).</acquisition>
-                    </history>
-                </msDesc>
-                <biblStruct>
-                    <monogr>
-                        <respStmt>
-                            <resp key="art">Artist</resp>
-                            <persName key="?ENT.000003364">Maurer, Louis</persName>
-                        </respStmt>
-                        <title type="main" level="m">The National Game. Three "Outs" and One
-                            "Run".</title>
-                        <imprint>
-                            <publisher><orgName key="ENT.000000844">Currier &amp;
-                                Ives</orgName></publisher>
-                            <pubPlace>New York</pubPlace>
-                            <date from="1860">1860</date>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
-
-            </sourceDesc>
-        </fileDesc>
-
-        <encodingDesc>
-            <projectDesc>
-                <p>The Historic Images, New Technologies (HINT) project aims to enhance description
-                    and discovery of the Historical Society of Pennsylvania's graphics materials and
-                    promote the linking and sharing of content among institutions and scholars. The
-                    project will result in an update to HSP's digital image viewer and an online
-                    digital history exhibit that will demonstrate the new viewer's capabilities and
-                    provide interpretive and contextual materials to encourage users to interact
-                    with historical images in new ways. This project was funded by a grant from the
-                    National Historical Publications and Records Commission's (NHPRC) Innovation in
-                    Archives and Documentary Editing program.</p>
-            </projectDesc>
-            <editorialDecl n="4">
-                <p>This electronic file was created using manual keying following the
-                    recommendations for Level 4 of "Best Practices for TEI in Libraries" guidelines
-                    v3.0.</p>
-                <p>This xml file uses unique entity identifiers, media file identifiers, and
-                    collection identifiers in HSP's Digital Library, available at
-                    http://digitallibrary.hsp.org.</p>
-
-            </editorialDecl>
-            <tagsDecl>
-                <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
-                <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
-                <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
-                <rendition scheme="css" xml:id="crossed-through">text-decoration:
-                    line-through</rendition>
-                <rendition scheme="other" xml:id="printed"/>
-                <rendition scheme="other" xml:id="typescript"/>
-                <rendition scheme="other" xml:id="handwritten"/>
-                <rendition scheme="other" xml:id="handwritten-underlined"/>
-                <rendition scheme="other" xml:id="handwritten-circled"/>
-                <rendition scheme="other" xml:id="handwritten-crossed-through"/>
-                <rendition scheme="other" xml:id="double-underline"/>
-                <rendition scheme="other" xml:id="stamp"/>
-                <namespace name="http://www.tei-c.org/ns/1.0">
-                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
-                </namespace>
-            </tagsDecl>
-        </encodingDesc>
-
-        <profileDesc>
-            <textClass>
-                <catRef target="cartoons_genres.xml#lithographs"/>
-                <catRef target="cartoons_genres.xml#political_cartoons"/>
-                <catRef target="cartoons_taxonomies.xml#early"/>
-                <catRef target="cartoons_taxonomies.xml#slavery"/>
-                <catRef target="cartoons_taxonomies.xml#elections"/>
-                <catRef target="cartoons_taxonomies.xml#culture"/>
-            </textClass>
-        </profileDesc>
-
-        <revisionDesc>
-            <change who="RachelMoloshok" when="2015-04-07">Encoded to featured level</change>
-            <change who="RachelMoloshok" when="2015-01-28">File encoded to basic level</change>
-        </revisionDesc>
-    </teiHeader>
-
-    <facsimile>
-        <surface ulx="" uly="" lrx="" lry="">
-            <graphic url="FIL.000085216"/>
-            <zone n="1" xml:id="title"/>
-            <zone n="2" xml:id="bell"/>
-            <zone n="3" xml:id="douglas"/>
-            <zone n="4" xml:id="breckinridge"/>
-            <zone n="5" xml:id="lincoln"/>
-            <zone n="6" xml:id="home"/>
-            <zone n="7" xml:id="skunk"/>
-        </surface>
-    </facsimile>
-
-    <text>
-        <front>
-            <div type="editorial_desc">
-                <p>Baseball serves as a metaphor for the presidential election of <date when="1860"
-                        >1860</date>, in this cartoon, which provides a prime example of sports
-                    metaphors in politics. Successful candidate Abraham Lincoln, standing at home
-                    base, has scored a run, while unsuccessful presidential candidates John Bell,
-                    Stephen A. Douglas, and John C. Breckinridge have struck out, and Breckinridge
-                    has been sprayed by a skunk. Each of the players wears a belt emblazoned with
-                    the name of his team; instead of the names of actual baseball clubs from the
-                    1860s, however, these are team names that reflect their political goals and
-                    personalities. Each also holds a bat labeled with a phrase that hints at their
-                    policies and tactics (instead of a baseball bat, Lincoln holds a fence rail).
-                    This pro-Lincoln cartoon implies that Lincoln's bat, labeled "Equal Rights and
-                    Free Territory," and his "team" of supporters, the "Wide Awakes," ensure his
-                    victory in the game, as well as in the election.</p>
-            </div>
-        </front>
-
-        <body>
-            <div type="image_transcription" facs="#title" n="1">
-                <head>THE NATIONAL GAME. THREE "OUTS" AND ONE "RUN".</head>
-                <p><persName key="ENT.000000447">ABRAHAM</persName> WINNING THE BALL.</p>
-                <p>Published by <orgName key="ENT.000000844">Currier &amp; Ives</orgName>, 152 Nassau St. N. Y.</p>
-                <p>Entered according to act of Congress in the year 1860, by Currier &amp; Ives, in
-                    the Clerk's Office of the District Court for the Southern Dist. of N.Y.</p>
-            </div>
-            <div type="image_transcription" facs="#bell" n="2">
-                <head><supplied resp="editorial"><persName key="ENT.000003331">John Bell</persName></supplied></head>
-                <p>It appears to me very singular that we three should strike "foul" and be "put
-                    out" while <persName key="ENT.000000447">old Abe</persName> made such a "good lick". _</p>
-                <p>UNION CLUB.</p>
-                <p>FUSION.</p>
-            </div>
-            <div type="image_transcription" facs="#douglas" n="3">
-                <head><supplied resp="editorial"><persName key="ENT.000003344">Stephen Douglas</persName></supplied></head>
-                <p>That's because he had that confounded <rs ref="cartoons_symbols.xml#rail">rail</rs>, to strike with, I thought our fusion
-                    would be a "short stop" to his career.</p>
-                <p>LITTLE GIANTS.</p>
-                <p>NON INTERVENTION.</p>
-            </div>
-            <div type="image_transcription" n="4" facs="#breckinridge">
-                <head><supplied resp="editorial"><persName key="ENT.000003333">John Breckinridge</persName></supplied></head>
-                <p>I guess I'd better leave for Kentucky, for I smell something strong around here,
-                    and begin to think, that we are completely "skunk'd."</p>
-                <p>DISUNION CLUB.</p>
-                <p>SLAVERY EXTENSION.</p>
-            </div>
-            <div type="image_transcription" n="5" facs="#lincoln">
-                <head><supplied resp="editorial"><persName key="ENT.000000447">Abraham Lincoln</persName></supplied></head>
-                <p>Gentlemen, if any of you should ever take a hand in another match at this game,
-                    remember that you must have "a good bat" and strike a "fair ball" to make a
-                    "clean score" &amp; a "home run"</p>
-                <p>WIDE AWAKE</p>
-                <p>EQUAL RIGHTS AND FREE TERRITORY</p>
-            </div>
-            <div type="image_transcription" n="6" facs="#home">
-                <head>HOME BASE.</head>
-            </div>
-            <div type="image_annotation" n="7" facs="#skunk">
-                <head>Skunk</head>
-                <p>In 1860s baseball, "skunked" meant that one team was so far ahead in score that
-                    there was no way for the other team to win. The "skunk rule," more commonly
-                    called the "mercy rule" today, allowed the game to end.</p>
-            </div>
-
-        </body>
-
-        <back/>
-    </text>
+  <teiHeader xml:lang="English">
+    <fileDesc>
+      <titleStmt>
+        <title type="main">TEI transcription of The National Game. Three "Outs" and One
+          "Run".</title>
+        <respStmt>
+          <resp key="art">Artist</resp>
+          <persName key="?ENT.000003364">Maurer, Louis</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="trc">Transcribed by</resp>
+          <persName key="ENT.000003368">Moloshok, Rachel</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="mrk">Encoded by</resp>
+          <persName key="ENT.000003368">Moloshok, Rachel</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="pfr">Proofread by</resp>
+          <persName key="ENT.000003368">Moloshok, Rachel</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="pbl">publisher</resp>
+          <orgName key="ENT.000000844">Currier &amp; Ives</orgName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <p>First edition, <date when="2015">2015</date></p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName key="ENT.000002473">Historical Society of Pennsylvania</orgName>
+        </publisher>
+        <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
+        <idno type="filename">11563</idno>
+        <availability status="restricted">
+          <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of copyright only
+            to original contributions made by the Historic Images, New Technologies (HINT) Project
+            participants and other staff. HSP makes no claim of copyright to the original text.
+            Permission is granted to download, transmit or otherwise reproduce, distribute or
+            display the text contributions to this work claimed by HSP for non-profit educational
+            purposes, provided that this header is included in its entirety. For inquiries about
+            commercial uses, please contact the Historical Society of Pennsylvania. HSP retains the
+            rights of all images unless otherwise noted. Possession of an HSP digital image does not
+            constitute permission to use or publish it. Requests for digital imaging, other
+            reproduction services, and the intended use of reproductions must be made in writing to
+            the Rights and Reproductions Coordinator at rnr@hsp.org.</p>
+        </availability>
+        <date when="2015">2015</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="project" key="CARTOONS">Historic Images, New Technologies (HINT)
+          Project</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository key="ENT.000002473">Historical Society of Pennsylvania</repository>
+            <collection key="3133">Historical Society of Pennsylvania cartoons and caricatures
+              collection</collection>
+            <idno type="citation">
+              <idno type="box">4</idno>
+              <idno type="folder">8</idno>
+            </idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <bibl>
+                <date from="1860-01-01" to="1860-12-31">1860</date>
+                <extent>1 loose sheet</extent>
+                <listRelation>
+                  <relation name="depicted" active="ENT.000000447"/>
+                  <relation name="depicted" active="ENT.000003331"/>
+                  <relation name="depicted" active="ENT.000003344"/>
+                  <relation name="depicted" active="ENT.000003333"/>
+                  <relation name="depicted" active="cartoons_symbols.xml#rail"/>
+                </listRelation>
+              </bibl>
+            </msItem>
+          </msContents>
+          <history>
+            <acquisition>This is an artificial collection created over time by HSP staff mostly
+              through donations and purchases of individual prints. It also incorporates previously
+              uncataloged materials collected by the Balch Institute for Ethnic Studies. Some of the
+              20th century cartoons and drawings were removed from the J. Hampton Moore papers
+              (Collection 1541).</acquisition>
+          </history>
+        </msDesc>
+        <biblStruct>
+          <monogr>
+            <respStmt>
+              <resp key="art">Artist</resp>
+              <persName key="?ENT.000003364">Maurer, Louis</persName>
+            </respStmt>
+            <title type="main" level="m">The National Game. Three "Outs" and One "Run".</title>
+            <imprint>
+              <pubPlace>New York</pubPlace>
+              <date from="1860-01-01" to="1860-12-31">1860</date>
+              <publisher>
+                <orgName key="ENT.000000844">Currier &amp; Ives</orgName>
+              </publisher>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <bibl/>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The Historic Images, New Technologies (HINT) project aims to enhance description and
+          discovery of the Historical Society of Pennsylvania's graphics materials and promote the
+          linking and sharing of content among institutions and scholars. The project will result in
+          an update to HSP's digital image viewer and an online digital history exhibit that will
+          demonstrate the new viewer's capabilities and provide interpretive and contextual
+          materials to encourage users to interact with historical images in new ways. This project
+          was funded by a grant from the National Historical Publications and Records Commission's
+          (NHPRC) Innovation in Archives and Documentary Editing program.</p>
+      </projectDesc>
+      <editorialDecl n="4">
+        <p>This electronic file was created using manual keying following the recommendations for
+          Level 4 of "Best Practices for TEI in Libraries" guidelines v3.0.</p>
+        <p>This xml file uses unique entity identifiers, media file identifiers, and collection
+          identifiers in HSP's Digital Library, available at http://digitallibrary.hsp.org.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
+        <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
+        <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
+        <rendition scheme="css" xml:id="crossed-through">text-decoration: line-through</rendition>
+        <rendition scheme="other" xml:id="printed"/>
+        <rendition scheme="other" xml:id="typescript"/>
+        <rendition scheme="other" xml:id="handwritten"/>
+        <rendition scheme="other" xml:id="handwritten-underlined"/>
+        <rendition scheme="other" xml:id="handwritten-circled"/>
+        <rendition scheme="other" xml:id="handwritten-crossed-through"/>
+        <rendition scheme="other" xml:id="double-underline"/>
+        <rendition scheme="other" xml:id="stamp"/>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <catRef target="cartoons_genres.xml#lithographs"/>
+        <catRef target="cartoons_genres.xml#political_cartoons"/>
+        <catRef target="cartoons_taxonomies.xml#early"/>
+        <catRef target="cartoons_taxonomies.xml#slavery"/>
+        <catRef target="cartoons_taxonomies.xml#elections"/>
+        <catRef target="cartoons_taxonomies.xml#culture"/>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change who="RachelMoloshok" when="2015-04-08">Exported from Collective Access. Basic proofreading</change>
+      <change who="RachelMoloshok" when="2015-04-07">Encoded to featured level</change>
+      <change who="RachelMoloshok" when="2015-01-28">File encoded to basic level</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="100" lry="100">
+      <graphic url="FIL.000085216"/>
+      <zone n="1" xml:id="title" points="20.17,81.43 83.83,80.49 83.06,92.15 19.61,92.49"/>
+      <zone n="2" xml:id="bell" points="13.98,15.69 31.84,15.87 28.62,75.01 14.85,77.92"/>
+      <zone n="3" xml:id="douglas" points="30.17,19.13 48.05,19.81 44.84,67.47 29.26,69.18"/>
+      <zone n="4" xml:id="breckinridge" points="48.54,17.13 67.87,17.93 65.94,66.27 43.55,67.12"/>
+      <zone n="5" xml:id="lincoln" points="63.5,8.5 83.7,8.67 89.23,79.98 68.77,79.12"/>
+      <zone n="6" xml:id="home" points="62.08,73.64 71.68,71.8 73.15,76.72 65.94,77.07"/>
+      <zone n="7" xml:id="skunk" points="45.87,64.89 47.54,55.64 55.77,71.92 44.96,70.72"/>
+    </surface>
+  </facsimile>
+  <text>
+    <front>
+      <div type="editorial_desc">
+        <p>Baseball serves as a metaphor for the presidential election of <date when="1860"
+            >1860</date>, in this cartoon, which provides a prime example of sports metaphors in
+          politics. Successful candidate Abraham Lincoln, standing at home base, has scored a run,
+          while unsuccessful presidential candidates John Bell, Stephen A. Douglas, and John C.
+          Breckinridge have struck out, and Breckinridge has been sprayed by a skunk. Each of the
+          players wears a belt emblazoned with the name of his team; instead of the names of actual
+          baseball clubs from the 1860s, however, these are team names that reflect their political
+          goals and personalities. Each also holds a bat labeled with a phrase that hints at their
+          policies and tactics (instead of a baseball bat, Lincoln holds a fence rail). This
+          pro-Lincoln cartoon implies that Lincoln's bat, labeled "Equal Rights and Free Territory,"
+          and his "team" of supporters, the "Wide Awakes," ensure his victory in the game, as well
+          as in the election.</p>
+      </div>
+    </front>
+    <body>
+      <div type="image_transcription" n="1" facs="#title">
+        <head>THE NATIONAL GAME. THREE "OUTS" AND ONE "RUN".</head>
+        <p><persName key="ENT.000000447">ABRAHAM</persName> WINNING THE BALL.</p>
+        <p>Published by <orgName key="ENT.000000844">Currier &amp; Ives</orgName>, 152 Nassau St. N.
+          Y.</p>
+        <p>Entered according to act of Congress in the year 1860, by Currier &amp; Ives, in the
+          Clerk's Office of the District Court for the Southern Dist. of N.Y.</p>
+      </div>
+      <div type="image_transcription" n="2" facs="#bell">
+        <head>
+          <supplied resp="editorial">
+            <persName key="ENT.000003331">John Bell</persName>
+          </supplied>
+        </head>
+        <p>It appears to me very singular that we three should strike "foul" and be "put out" while
+            <persName key="ENT.000000447">old Abe</persName> made such a "good lick". _</p>
+        <p>UNION CLUB.</p>
+        <p>FUSION.</p>
+      </div>
+      <div type="image_transcription" facs="#douglas" n="3">
+        <head>
+          <supplied resp="editorial">
+            <persName key="ENT.000003344">Stephen Douglas</persName>
+          </supplied>
+        </head>
+        <p>That's because he had that confounded <rs ref="cartoons_symbols.xml#rail">rail</rs>, to
+          strike with, I thought our fusion would be a "short stop" to his career.</p>
+        <p>LITTLE GIANTS.</p>
+        <p>NON INTERVENTION.</p>
+      </div>
+      <div type="image_transcription" n="4" facs="#breckinridge">
+        <head>
+          <supplied resp="editorial">
+            <persName key="ENT.000003333">John Breckinridge</persName>
+          </supplied>
+        </head>
+        <p>I guess I'd better leave for Kentucky, for I smell something strong around here, and
+          begin to think, that we are completely "skunk'd."</p>
+        <p>DISUNION CLUB.</p>
+        <p>SLAVERY EXTENSION.</p>
+      </div>
+      <div type="image_transcription" n="5" facs="#lincoln">
+        <head>
+          <supplied resp="editorial">
+            <persName key="ENT.000000447">Abraham Lincoln</persName>
+          </supplied>
+        </head>
+        <p>Gentlemen, if any of you should ever take a hand in another match at this game, remember
+          that you must have "a good bat" and strike a "fair ball" to make a "clean score" &amp; a
+          "home run"</p>
+        <p>WIDE AWAKE</p>
+        <p>EQUAL RIGHTS AND FREE TERRITORY</p>
+      </div>
+      <div type="image_transcription" n="6" facs="#home">
+        <head>HOME BASE.</head>
+      </div>
+      <div type="image_annotation" n="7" facs="#skunk">
+        <head>Skunk</head>
+        <p>In 1860s baseball, "skunked" meant that one team was so far ahead in score that there was
+          no way for the other team to win. The "skunk rule," more commonly called the "mercy rule"
+          today, allowed the game to end.</p>
+      </div>
+    </body>
+  </text>
 </TEI>
