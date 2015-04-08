@@ -81,7 +81,7 @@
                   <width quantity="33.5"/>
                 </extent>
                 <listRelation>
-                  <relation active="cartoons_symbols.xml#death"/>
+                  <relation name="depicted" active="cartoons_symbols.xml#death"/>
                 </listRelation>
               </bibl>
             </msItem>
