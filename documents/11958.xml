@@ -176,7 +176,9 @@
                 <catRef target="cartoons_taxonomies.xml#press"/>
                 <catRef target="cartoons_taxonomies.xml#laws"/>
                 <catRef target="cartoons_taxonomies.xml#Pennsylvania"/>
-                <catRef target="cartoon_genres.xml#Clippings"/>
+                <catRef target="cartoons_genres.xml#political_cartoons"/>
+                <catRef target="cartoons_genres.xml#clippings"/>
+                
             </textClass>
         </profileDesc>
 
@@ -228,7 +230,7 @@
             
             <div type="image_transcription" facs="#Cat" n="3">
                 <head><supplied resp="editorial"><persName key="ENT.000003606">Frederick Taylor Pusey</persName></supplied></head>
-                <p>PUSEY<note n="1" type="editorial">Frederick Taylor Pusey, a Pennsylvania state legislator who drafted the Anti-Cartoon Bill which forbid cartoonists to draw public figures in any non-human form such as animals, plants, or fish, is drawn here as a cat.  He wears a large neck bow and a collar with his name written on it.</note></p>
+                <p>PUSEY<note n="1" type="editorial">Frederick Taylor Pusey was a Pennsylvania state legislator who drafted the Anti-Cartoon Bill which forbid cartoonists to draw public figures in any non-human form such as animals, plants, or fish.  In the cartoon Pusey is depicted as a pussycat, which is perhaps a pun on his last name.  He wears a large neck bow and a collar with his name written on it.</note></p>
             </div>
             
             <div type="image_annotation" facs="#Bird" n="4">
