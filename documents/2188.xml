@@ -22,7 +22,7 @@
                 </respStmt>
                 <respStmt>
                     <resp key="mrk">Encoded by</resp>
-                    <persName key="ENT.000003545">Borden,Saraa</persName>
+                    <persName key="ENT.000003545">Borden,Sara</persName>
                 </respStmt>
             </titleStmt>
             <editionStmt>
@@ -139,12 +139,15 @@
         </encodingDesc>
         <profileDesc>
             <textClass>
-                <catRef target="cartoons_taxonomies.xml#featured"/>
                 <catRef target="cartoons_taxonomies.xml#civil_war"/> 
-                <!-- Need to add genres. cartoon is a clipping of a wood engraving -->
+                <catRef target="cartoons_taxonomies.xml#slavery"/> 
+                <catRef target="cartoons_genres.xml#clippings"/>
+                <catRef target="cartoons_genres.xml#wood_engravings"/>
+                <catRef target="cartoons_taxonomies.xml#featured"/>
             </textClass>
         </profileDesc>
         <revisionDesc>
+            <change who="SaraBorden" when="2015-03-31">Updated genres and taxonomies</change>
             <change who="Sara Borden" when="2015-03-10">Filled out header, added description, created zones</change>
             <change who="RachelMoloshok" when="2015-01-07">Template file created</change>
         </revisionDesc>

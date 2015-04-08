@@ -135,11 +135,15 @@
         </encodingDesc>
         <profileDesc>
             <textClass>
-                <catRef target="cartoons_taxonomies.xml#featured"/>
                 <catRef target="cartoons_taxonomies.xml#civil war"/>
+                <catRef target="cartoons_genres.xml#lithographs"/>
+                <catRef target="cartoons_taxonomies.xml#African_American"/>
+                <catRef target="cartoons_taxonomies.xml#slavery"/>
+                <catRef target="cartoons_taxonomies.xml#featured"/>
             </textClass>
         </profileDesc>
         <revisionDesc>
+            <change who="SaraBorden" when="2015-03-31">Updated genres and taxononies</change>
             <change who="SaraBorden" when="2015-02-24">Filled out header, added additional description information, upgraded encoding from basic level to featured</change>
             <change who="RachelMoloshok" when="2015-01-07">Template file created</change>
         </revisionDesc>
@@ -193,7 +197,7 @@
             <div type="image_transcription" facs="#emancipation" n="5">
                 <head><supplied resp="editorial">Emancipation</supplied></head>
                 <p>EMANCIPATION.</p>
-                <p>The word is depiced on a field of shining rays of light, as though from a sunrise.</p>
+                <p>The word is depicted on a field of shining rays of light, as though from a sunrise.</p>
             </div>
             <div type="image_annotation" facs="#freedom" n="6">
                 <head><supplied resp="editorial">Freedom</supplied></head>

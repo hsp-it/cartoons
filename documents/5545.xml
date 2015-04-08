@@ -136,13 +136,15 @@
 
         <profileDesc>
             <textClass>
-                <catRef target="cartoons_taxonomies.xml#featured"/>
                 <catRef target="cartoons_taxonomies.xml#civil_war"/> 
-                <!-- Need to add genres. cartoon is a lithograph -->
+                <catRef target="cartoons_taxonomies.xml#slavery"/> 
+                <catRef target="cartoons_genres.xml#lithographs"/>
+                <catRef target="cartoons_taxonomies.xml#featured"/>
             </textClass>
         </profileDesc>
 
         <revisionDesc>
+            <change who="SaraBorden" when="2015-03-31">Added genres and taxonomies.</change>
             <change who="SaraBorden" when="2015-02-09">Cleaned up header, added more description, created zones</change>
             <change who="TammyGaskell" when="2015-01-21">filled out header</change>
             <change who="RachelMoloshok" when="2015-01-07">Template file created</change>

@@ -1,6 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?>
 
-<?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?oxygen RNGSchema="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 
 
@@ -141,11 +140,12 @@
         <catRef target="cartoons_taxonomies.xml#war"/>
         <catRef target="cartoons_taxonomies.xml#slavery"/>
         <catRef target="cartoons_taxonomies.xml#elections"/>
-        <!-- add genre: lithographs -->
+        <catRef target="cartoons_genres.xml#lithographs"/>
       </textClass>
     </profileDesc>
 
     <revisionDesc>
+      <change who="SaraBorden" when="2015-03-31">Updated genres.</change>
       <change who="RachelMolosok" when="2015-02-09">Updated test file to match revised encoding
         guidelines, updated entity and media codes to match values in live DAMS site, combined and
         reordered zones from test file encoding</change>

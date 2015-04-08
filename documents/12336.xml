@@ -123,11 +123,14 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <catRef target="cartoons_taxonomies.xml#featured"/>
+        <catRef target="cartoons_genres.xml#lithograph"/>
         <catRef target="cartoons_taxonomies.xml#civil war"/>
+        <catRef target="cartoons_taxonomies.xml#slavery"/>
+        <catRef target="cartoons_taxonomies.xml#featured"/>
       </textClass>
     </profileDesc>
     <revisionDesc>
+      <change who="SaraBorden" when="2015-03-31">Updated genres and taxonomies.</change>
       <change who="SaraBorden" when="2015-02-09">Exported from DAMS</change>
       <change who="SaraBorden" when="2015-02-06">Cleaned up header, added more description, and created zones</change>
       <change who="SaraBorden" when="2015-01-21">Filled out header</change>

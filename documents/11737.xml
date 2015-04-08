@@ -75,6 +75,7 @@
                                     <relation name="depicted" active="ENT.000001953"/>
                                     <relation name="depicted" active="ENT.000003637"></relation>
                                     <relation name="depicted" active="ENT.000003638"></relation>
+                                    <!-- include "blind justice" as a symbol here, add to symbolography -->
                                 </listRelation>
                             </bibl>
                         </msItem>
@@ -147,12 +148,17 @@
         </encodingDesc>
         <profileDesc>
             <textClass>
-                <catRef target=""/>
-                <!-- use this section to apply genre and taxonomy tags, as outlined in encoding guidelines -->
+                <catRef target="cartoons_genres.xml#collages"/>
+                <catRef target="cartoons_genres.xml#political_cartoons"/>
+                <catRef target="cartoons_taxonomies.xml#nineties"/>
+                <catRef target="cartoons_taxonomies.xml#Pennsylvania"/>
+                <catRef target="cartoons_taxonomies.xml#press"/>
+                <catRef target="cartoons_taxonomies.xml#featured"/>
             </textClass>
         </profileDesc>
 
         <revisionDesc>
+            <change who="SaraBorden" when="2015-03-31">Added zones and additional description</change>
            <change who="Sara Borden" when="2015-03-10">Filled out header, added some description</change>
             <change who="RachelMoloshok" when="2015-01-07">Template file created</change>
         </revisionDesc>
@@ -160,27 +166,113 @@
     <facsimile>
         <surface ulx="" uly="" lrx="" lry="">
             <graphic url="FIL.000089305"/>
-            <!-- Use as many zone elements as needed. Provide each zone with a number and a unique (to this file) xml:id. @points values will be provided by Collective Access upon export.  -->
-            <zone n="??" xml:id="??" points=""/>
+            <zone n="1" xml:id="lizard" points=""/>
+            <zone n="2" xml:id="justice" points=""/>
+            <zone n="3" xml:id="keystone" points=""/>
+            <zone n="4" xml:id="thumb" points=""/>
+            <zone n="5" xml:id="signature" points=""/>
+            <zone n="6" xml:id="quotation" points=""/>
+            <zone n="7" xml:id="accusation" points=""/>
+            <zone n="8" xml:id="portrait" points=""/>
+            <zone n="9" xml:id="criticism" points=""/>
+            <zone n="10" xml:id="name" points=""/>
+            <zone n="11" xml:id="chest" points=""/>
+            <zone n="12" xml:id="eagle" points=""/>
+            <zone n="13" xml:id="horse" points=""/>
+            <zone n="14" xml:id="caricature" points=""/>
+            <zone n="15" xml:id="pony" points=""/>
+            <zone n="16" xml:id="state" points=""/>
         </surface>
     </facsimile>
 
     <text>
-        <!-- ??See separate ODD file with full encoding guidelines. -->
         <front>
             <div type="editorial_desc">
-                <p><!-- Use this section to enter a BRIEF description of the image. --></p>
+                <p>This cartoon depicts Matthew Quay, a powerful Pennsylvania political boss and United States Senator and all of the acusations against him. Extremely rich in imagery, this cartoon addresses the controversies surrounding Quay and his silence in the face of his critics. Known in some circles as "the Silent Leader," Quay made a habit of saying as few words as possible, particularly when addressing the press. Often, his silence was interpreted as acknowledgement of guilt. Matthew Quay was a political boss who can be compared to the most famous of all political bosses, William "Boss" Tweed. Nineteenth century political bosses often had inordinate amounts of power through money and business connections, were capable of controlling voting patters and elections, and were generally associated with organized crime and corruption.</p>
             </div>
         </front>
-
         <body>
-            <div type="image_transcription" facs="#??" n="??">
-                <!-- ??This is where the actual text of the transcription goes, using all the appropriate elements and attributes. See separate ODD file with encoding guidelines. To add "footnote"-style zone annotations to featured cartoons, use  <div type="image_annotation">   -->
-                <head><!-- enter a BRIEF (one- to two-word) label to aid placement of zone (ex, "Jackson" or "Scroll"). Use <supplied resp="editorial"> if you are supplyin a label that does not appear in the original. --></head>
-                <p><!-- transcribed text/annotation text goes here. Use as many <p> elements as needed per zone --></p>
+            <div type="image_annnotation" facs="#lizard" n="1">
+                <head><supplied resp="editorial">Reptile</supplied></head>
+                <p>Thomas Nast often skewered "Boss" Tweed in his political cartoons and has used that model to depict Matthew Quay in this rendering. The lizard may be a depiction of Tweed looking down over the efforts of his fellow political boss, Quay.</p>
+            </div>
+            <div type="image_annotation" facs="#justice" n="2">
+                <head><supplied resp="editorial">Lady Justice</supplied></head>
+                <p>Lady Justice is often depicted, as she is here, wearing a blindfold representing the idea that justice should be served objectively and impartially. She is also commonly depicted holding scales to show that she is weighing both sides of a particular matter. In this cartoon, she is also gagged and shackled, the allegation being that Matthew Quay used his power to inappropriately interfere with the process of justice and law.</p>
+            </div>
+            <div type="image_transcription" facs="#keystone" n="3">
+                <head><supplied resp="editorial">Keystone</supplied></head>
+                <p>JUSTICE</p>
+                <p>KEY-</p>
+                <p>STONE</p>
+                <p>QUAY</p>
+            </div>
+            <div type="image_annotation" facs="#thumb" n="4">
+                <head><supplied resp="editorial">Quay's Hand</supplied></head>
+                <p>Quay tried to used his political power to get George W. Delamater elected as governor of Pennsylvania. If elected, Delamater would have been beholden to Quay's influcence and control. In Nast's drawing, Delamater is literally under Quay's thumb.</p>
+            </div>
+            <div type="image_transcription" facs="#signature" n="5">
+                <head><supplied resp="editorial">Artist</supplied></head>
+                <p>Th. Nast.</p>
+            </div>
+            <div type="image_transcription" facs="#quotation" n="6">
+                <head><supplied resp="editorial">Quay Statement</supplied></head>
+                <p>"I HAVE BEEN MAKING GOVERNORS</p>
+                <p>ALL MY LIFE, BUT I HAVE NEVER</p>
+                <p>HAD ONE OF MY OWN. I AM</p>
+                <p>GOING TO NOMINATE</p>
+                <p>DELAMATER</p>
+                <p>AND KNOW HOW IT FEELS</p>
+                <p>TWO OWN A GOVERNOR JUST FOR</p>
+                <p>ONCE."</p>
+                <p><hi rendition="#underline">U.S. SEN.</hi> QUAY.</p>
+            </div>
+            <div type="image_transcription" facs="#accusation" n="7">
+                <head><supplied>Betrayal</supplied></head>
+                <p>"Judas</p>
+                <p>Iscariot"</p>
+            </div>
+            <div type="image_annotation" facs="#portrait" n="8">
+                <head><supplied resp="editorial">Photograph</supplied></head>
+                <p>Nast included a photograph of Quay at the center of the many accusations lobbied against him.</p>
+            </div>
+            <div type="image_transcription" facs="#criticism" n="9">
+                <head><supplied resp="editorial">Crime</supplied></head>
+                <p>"A</p>
+                <p>BRANDED</p>
+                <p>CRIMINAL."</p>
+            </div>
+            <div type="image_transcription" facs="#name" n="10">
+                <head><supplied resp="editorial">Title</supplied></head>
+                <p>BOSS QUAY.</p>
+            </div>
+            <div type="image_transcription" facs="#chest" n="11">
+                <head><supplied resp="editorial">Empty Chest</supplied></head>
+                <p>PENN. STATE</p>
+                <p>TREASURY.</p>
+            </div>
+            <div type="image_annotation" facs="#eagle" n="12">
+                <head><supplied resp="editorial">Eagle</supplied></head>
+                <p>The eagle's head, labeled with the word, "LIBERTY," along with the horses, are a parody of the Pennsyvania coat of arms.  The official coat of arms features two rearing horses on either side of central depictions of Pennsylvania's resources. Above the horses is an eagle and below is the state motto, "Virtue, Liberty, and Independence." In this cartoon, the eagle appears to be squashed under the Quay quote either unconscious or dead, the horses seem to be running away,  and a portrait of Delamater replaces the central depiction of Pennsylvania's offerings.</p>
+            </div>
+            <div type="image_transcription" facs="#horse" n="13">
+                <head><supplied resp="editorial">Left Horse</supplied></head>
+                <p>VIRTUE</p>
+            </div>
+            <div type="image_transcription" facs="#caricature" n="14">
+                <head><supplied resp="editorial">Delamater Portrait</supplied></head>
+                <p>QUAY'S MAN,</p>
+                <p>G.W.D.</p>
+            </div>
+            <div type="image_transcription" facs="#pony" n="15">
+                <head><supplied resp="editorial">Right Horse</supplied></head>
+                <p>INDEPENDENCE</p>
+            </div>
+            <div type="image_transcription" facs="#state" n="16">
+            <head><supplied resp="editorial">State</supplied></head>
+                <p>PENNSYLVANIA.</p>
             </div>
         </body>
-
         <back/>
     </text>
 </TEI>
