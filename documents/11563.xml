@@ -153,6 +153,8 @@
         <catRef target="cartoons_taxonomies.xml#slavery"/>
         <catRef target="cartoons_taxonomies.xml#elections"/>
         <catRef target="cartoons_taxonomies.xml#culture"/>
+        <catRef target="cartoons_taxonomies.xml#featured"/>
+        <catRef target="cartoons_taxonomies.xml#lesson_plan"/>
       </textClass>
     </profileDesc>
     <revisionDesc>
