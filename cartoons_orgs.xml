@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+
 <?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 
@@ -61,7 +62,7 @@
       </projectDesc>
     </encodingDesc>
     <revisionDesc>
-      <change who="HSP" when="2015-03-25">Exported from Collective Access.</change>
+      <change who="HSP" when="2015-04-14">Exported from Collective Access.</change>
     </revisionDesc>
   </teiHeader>
 
@@ -168,9 +169,9 @@
                 assets were destroyed in the fire, an estimated loss of $80,000. The Asylum opened a
                 new home in Harlem in 1867, and then relocated again to Riverdale, in the Bronx, in
                 1907. It continues to exist today as Harlem-Dowling Children’s Services. </p></note>
-            <bibl><bibl> “The Burning of the Colored Orphan Asylum, NYC | Jeffrey Kraus Antique
+            <bibl> “The Burning of the Colored Orphan Asylum, NYC | Jeffrey Kraus Antique
                 Photographics.” Accessed March 25, 2015.
-                http://antiquephotographics.com/the-colored-orphan-asylum-nyc/.</bibl>
+                http://antiquephotographics.com/the-colored-orphan-asylum-nyc/.
               <bibl>“MAAP | Place Detail: Colored Orphan Asylum.” Accessed March 25, 2015.
                 http://maap.columbia.edu/place/35.</bibl>
               <bibl> “The New York Draft Riots and the Burning of the Colored Orphan Asylum New-York
@@ -282,6 +283,12 @@
                 handle the paper’s business alone. He sold it to the Commercial Advertiser in late
                 1840. </p></note>
           </org>
+          <org xml:id="ENT.000003667">
+            <orgName key="ENT.000003667">Evening public ledger, 1914-1942 <orgName type="alt"
+                >Evening public ledger and the evening telegraph </orgName></orgName>
+            <note type="internal">Description in Chronicling Am:
+              http://chroniclingamerica.loc.gov/lccn/sn83045211/</note>
+          </org>
           <org xml:id="ENT.000003653">
             <orgName key="ENT.000003653">Evening telegraph </orgName>
             <note type="internal">Chronicling America:
@@ -289,7 +296,41 @@
           </org>
           <org xml:id="ENT.000003053">
             <orgName key="ENT.000003053">Frank Leslie's illustrated newspaper</orgName>
+            <note type="org">
+              <p>Frank Leslie began his weekly illustrated newspaper in 1855, first edited by John
+                Y. Foster. Printed on large quarto sized paper, each issue was 16 pages, and ran a
+                mix of stories relating to war, politics, exploration, literature, and art,
+                interspersed with detailed woodblock prints. As print and imaging technology
+                progressed throughout the late 19th and early 20th century, <hi rendition="#italics"
+                  >Leslie’s Illustrated</hi> began using daguerreotypes, and later, more advanced
+                forms of photography for their illustrations. The paper became known for its images
+                from the battlefields of the Civil War, and ran stories by prominent authors
+                including Louisa May Alcott, Irving Hancock, Helen R. Martin, and Ellis Parker
+                Butler. Its content was largely hawkish and patriotic, but was also followed for its
+                coverage for other national events like the Klondike gold rush in 1897.</p>
+              <p>Leslie died in 1880, and his wife, Miriam Florence Leslie took over the paper. In
+                1902 she severed ties to <hi rendition="#italics">Leslie’s Illustrated</hi>,
+                although it kept the Leslie name, as it was a long-established brand. <hi
+                  rendition="#italics">Leslie’s Illustrated</hi> cycled through a series of names,
+                all variations on the original—it became <hi rendition="#italics">Frank Leslie’s
+                  Illustrated Weekly</hi> in 1891, <hi rendition="#italics">Leslie’s Illustrated
+                  Weekly</hi> in 1894, <hi rendition="#italics">Leslie’s Weekly</hi> in 1901, back
+                to <hi rendition="#italics">Leslie’s Illustrated Weekly</hi> in 1907, <hi
+                  rendition="#italics">Leslie's</hi> in 1912, <hi rendition="#italics">Leslie’s
+                  Illustrated Weekly Newspaper</hi> in 1914, and finally back to <hi
+                  rendition="#italics">Leslie's</hi> in 1920, before it ceased publication in 1922.
+              </p></note>
+            <bibl><bibl>“About Frank Leslie’s Illustrated Newspaper. (New York, N.Y.) 1855-1891,
+                Chronicling America Library of Congress.” Accessed April 8, 2015.
+                http://chroniclingamerica.loc.gov/lccn/sn86090491/.</bibl>
+              <bibl>“Frank Leslie’s Weekly 1852-1922.” Accessed April 8, 2015.
+                http://www.accessible-archives.com/collections/frank-leslies-weekly/.</bibl></bibl>
             <note type="internal">publisher of 11683</note>
+          </org>
+          <org xml:id="ENT.000003657">
+            <orgName key="ENT.000003657">Gazette Times</orgName>
+            <note type="internal">Chronicling Am:
+              http://chroniclingamerica.loc.gov/lccn/sn84024549/</note>
           </org>
           <org xml:id="ENT.000003540">
             <orgName key="ENT.000003540">Harper &amp; Brothers</orgName>
@@ -405,6 +446,12 @@
           </org>
           <org xml:id="ENT.000003557">
             <orgName key="ENT.000003557">Life</orgName>
+          </org>
+          <org xml:id="ENT.000003677">
+            <orgName key="ENT.000003677">Lincoln Young Men's Wide Awake Club<orgName type="alt">Wide
+                Awakes</orgName></orgName>
+            <note type="internal">depicted in 12332;
+              http://id.loc.gov/authorities/names/n99049259.html</note>
           </org>
           <org xml:id="ENT.000003582">
             <orgName key="ENT.000003582">Lithography of Imbert</orgName>
@@ -548,7 +595,50 @@
           </org>
           <org xml:id="ENT.000003541">
             <orgName key="ENT.000003541">New York Herald</orgName>
-            <note type="internal">depicted in 11578.xml</note>
+            <note type="org"><p> The <hi rendition="#italics">New York Herald</hi> was first
+                published on May 6th 1835, by James Gordon Bennett Sr., a former schoolteacher and
+                Scottish immigrant. After years as a journalist in New York City, he rose to become
+                the assistant editor of the <hi rendition="#italics">New York Courier</hi> and <hi
+                  rendition="#italics">Enquirer</hi> in 1823, and then quickly founded his own
+                paper. The <hi rendition="#italics">New York Herald</hi> became known for its
+                salacious subject matter, which some critics found to be lowbrow; Bennett himself
+                asserted that the paper’s mission was “not to instruct but to startle.” The paper
+                was sold at a lower price than its competitors, and was edited to be consumed by the
+                general public. It became the highest circulated and most profitable paper in the
+                country. </p>
+              <p>Bennett’s <hi rendition="#italics">Herald</hi>, was pioneering in several areas,
+                running the first newspaper interview ever, which was in conjunction with the <hi
+                  rendition="#italics">Herald</hi>’s high-profile coverage of the murder of Helen
+                Jewett. He also conducted the first ever exclusive interview with a US
+                President—Martin Van Buren. Additionally, Bennett was the first to use the industry
+                standard of taking cash from advertisers in advance, rather than waiting for their
+                adverts to run. </p>
+              <p>Bennett’s politics were essentially conservative—he was a Democrat and
+                anti-abolitionist, anti-Catholic, and anti-immigrant. The paper remained supportive
+                of the Democratic Party throughout the Civil War, but backed the Union cause.</p>
+              <p>In 1866, Bennett’s son, James Gordon Bennett Jr., assumed control of the paper.
+                Bennett Jr. used the <hi rendition="#italics">Herald</hi> to finance several
+                high-profile trans-continental explorations, including Henry Morton Stanley’s
+                expeditions to Africa in 1871, and George W. DeLong’s expedition to the arctic. He
+                also infamously ran the New York Zoo hoax in 1874, in which almost an entire day’s
+                paper was devoted to a wholly fabricated story about wild animals escaping from the
+                Central Park Zoo and goring several people. Fine print at the end of the issue
+                stated that the story was a fiction, and Bennett tried to assuage critics by arguing
+                that the issue was meant to highlight inadequate safety precautions at the zoo. </p>
+              <p>The <hi rendition="#italics">New York Herald</hi> acquired its smaller rival, the
+                  <hi rendition="#italics">New York Tribune</hi>, after Bennett Jr.’s death in 1924,
+                and published as the <hi rendition="#italics">New York Herald-Tribune</hi>. It
+                ceased publication in 1966.</p></note>
+            <bibl><bibl>“Abraham Lincoln and New York - James Gordon Bennett (1795-1872).” Accessed
+                April 8, 2015.
+                http://www.mrlincolnandnewyork.org/inside.asp?ID=32&amp;subjectID=3.</bibl>
+              <bibl>“Bennett’s New York Herald and the Rise of the Popular Press - 1989, Page Iii by
+                James L. Crouthamel. | Online Research Library: Questia.” Accessed April 8, 2015.
+                https://www.questia.com/read/22960927/bennett-s-new-york-herald-and-the-rise-of-the-popular.</bibl>
+              <bibl> “HarpWeek Abraham Lincoln Cartoons.” Accessed April 8, 2015.
+                http://www.abrahamlincolncartoons.info/SubPages/Biography.php?UniqueID=7.</bibl></bibl>
+            <note type="internal">depicted in 11578.xml&#13;
+              http://id.loc.gov/authorities/names/n2002162950.html</note>
           </org>
           <org xml:id="ENT.000003328">
             <orgName key="ENT.000003328">New York Times</orgName>
@@ -597,6 +687,10 @@
                 The <hi rendition="#italics">Pennsylvania Gazette</hi> ceased publication in 1800,
                 ten years after Franklin’s death.</p></note>
           </org>
+          <org xml:id="ENT.000003671">
+            <orgName key="ENT.000003671">Pennsylvanian</orgName>
+            <note type="internal">newspaper that existed in 1833; mentioned in 11508</note>
+          </org>
           <org xml:id="ENT.000000435">
             <orgName key="ENT.000000435">Philadelphia Public Ledger</orgName>
           </org>
@@ -605,8 +699,43 @@
           </org>
           <org xml:id="ENT.000003655">
             <orgName key="ENT.000003655">Phunny Phellow</orgName>
+            <note type="org"><p>Founded in 1859 by popular New York publishers Street &amp; Smith,
+                  <hi rendition="#italics">Phunny Phellow</hi> was an inexpensive and popular comic
+                magazine, known for printing a high volume of cartoons. It distinguished itself from
+                rivals by running half of its pages with woodcut cartoons, while similar papers
+                relied on prose jokes. <hi rendition="#italics">Phunny Phellow</hi> was known for
+                running on low-quality paper, its poor engravings, and plagiarized jokes, but it was
+                the first to regularly run cartoons by Thomas Nast, who was simultaneously but
+                intermittently submitting cartoons to high-brow publications like <hi
+                  rendition="#italics">Harper’s Weekly</hi>. Nast was contracted to illustrate <hi
+                  rendition="#italics">Phunny Phellow</hi>’s front page, back page, and center
+                spread each month, although he did not sign his illustrations for the publication,
+                explaining that he didn’t want to be associated with its poor engraving quality.
+                Still, Nast was allowed ample room at <hi rendition="#italics">Phunny Phellow</hi>
+                to develop his skills as a cartoonist. Nast terminated his contract at the comic
+                magazine when he was offered on at <hi rendition="#italics">Harper’s Weekly</hi> in
+                1873. <hi rendition="#italics">Phunny Phellow</hi> ceased publication in
+              1879.</p></note>
+            <bibl><bibl>“A History of American Magazines, 1850-1865 - Frank Luther Mott - Google
+                Books.” Accessed April 8, 2015.
+                https://books.google.com/books?id=lm7rSZ2BoK8C&amp;pg=PA184&amp;lpg=PA184&amp;dq="phunny+phellow"+street+and+smith&amp;source=bl&amp;ots=5obNPtzf9Q&amp;sig=0nabWc7CZ0_21sWb3vM39e8_KWc&amp;hl=en&amp;sa=X&amp;ei=QHkZVaq6BYyZgwT3k4Ao&amp;ved=0CDEQ6AEwAw#v=onepage&amp;q="phunny
+                phellow" street and smith&amp;f=false.</bibl>
+              <bibl>“Cartoonist Thomas Nast vs. Candidate Horace Greeley Content Page.” Accessed
+                April 8, 2015.
+                http://nastandgreeley.harpweek.com/subpages/cartoon-1872-MediumA.asp?UniqueID=1&amp;Year=background.</bibl>
+              <bibl>“Illustrated Civil War Newspapers &amp; Magazines.” Accessed April 8, 2015.
+                http://www.lincolnandthecivilwar.com/SubLevelPages/PhunnyPhellow.asp.</bibl></bibl>
             <note type="internal">illustrated humor magazine, 1859-1876; publisher of 12347. Thomas
               Nast was a cartoonist (anonymous and unsigned)</note>
+          </org>
+          <org xml:id="ENT.000003658">
+            <orgName key="ENT.000003658">Pittsburgh Commercial Gazette Inc.</orgName>
+            <note type="internal">http://chroniclingamerica.loc.gov/lccn/sn84024549/&#13; &#13;
+              publisher of Gazette Times</note>
+          </org>
+          <org xml:id="ENT.000003668">
+            <orgName key="ENT.000003668">Public Ledger Co.</orgName>
+            <note type="internal">publisher of evening public ledger. cartoon Dams ID 12262</note>
           </org>
           <org xml:id="ENT.000000384">
             <orgName key="ENT.000000384">Puck</orgName>
@@ -647,10 +776,74 @@
           </org>
           <org xml:id="ENT.000003635">
             <orgName key="ENT.000003635">Punchinello</orgName>
+            <note type="org"><p><hi rendition="#italics">Punchinello</hi> was a short-lived national
+                American satirical magazine, founded in New York City April, 1870 by the former
+                editors of <hi rendition="#italics">Vanity Fair</hi>—Henry Louis Stephens and
+                William Allen Stephens. In early 1870, they received financial backing from Jay
+                Gould, Jim Fisk, William M. “Boss” Tweed, and Peter B. Sweeny, all men involved in
+                Tammany Hall politics and corruption in New York City. <hi rendition="#italics"
+                  >Punchinello's</hi> financial backers remained anonymous, but because of their
+                involvement, the comedy magazine couldn’t print material explicitly mocking or
+                derisive of the most prominent and powerful New Yorkers, rendering the magazine
+                somewhat politically impotent. </p>
+              <p>Much like the British <hi rendition="#italics">Punch</hi>, for which it was
+                explicitly modeled and named, <hi rendition="#italics">Punchinello</hi> was a
+                sixteen-page quarto magazine featuring one full page cartoon. Probably because of
+                its inability to be totally politically relevant, <hi rendition="#italics"
+                  >Punchinello</hi> folded after 9 months of printing due to poor sales, in December
+                of 1870.</p>
+            </note>
+            <bibl><bibl>“A History of American Magazines, 1865-1885 - Frank L. Mott - Google Books.”
+                Accessed April 9, 2015.
+                http://books.google.com/books?id=zt1V-ISXFsoC&amp;pg=PA440#v=onepage&amp;q&amp;f=false.</bibl></bibl>
             <note type="internal">illustrated comic magazine; publisher of 11747</note>
+          </org>
+          <org xml:id="ENT.000003672">
+            <orgName key="ENT.000003672">Punchinello Publishing Company</orgName>
+            <note type="org"><p>Punchinello Publishing Company was founded in April 1870 alongside
+                the only magazine it published, <hi rendition="#italics">Punchinello</hi>. The
+                publisher was located at 83 Nassau Street, New York City, and likely folded with the
+                magazine about 9 months after its inception, in December 1870. </p></note>
+            <bibl><bibl>“Plymouth Pulpit: A Weekly Publication of Sermons Preached by Henry Ward
+                Beecher - Henry Ward Beecher - Google Books.” Accessed April 9, 2015.
+                https://books.google.com/books?id=wLnRAAAAMAAJ&amp;pg=PA153&amp;lpg=PA153&amp;dq="punchinello+publishing+co"&amp;source=bl&amp;ots=sFVOTilpmk&amp;sig=gAeS77_owaOtBFyizrI5oHaK1rA&amp;hl=en&amp;sa=X&amp;ei=MkokVdPaPIK4ggTBhIHQCA&amp;ved=0CEMQ6AEwBg#v=onepage&amp;q="punchinello
+                publishing co"&amp;f=false.</bibl>
+              <bibl>“The Project Gutenberg eBook of Punchinello Vol. 2, No. 27.” Accessed April 9,
+                2015. http://www.gutenberg.org/files/10035/10035-h/10035-h.htm.</bibl></bibl>
           </org>
           <org xml:id="ENT.000003621">
             <orgName key="ENT.000003621">Richmond Whig</orgName>
+            <note type="org"><p>Founded in Richmond, Virginia in 1842, the <hi rendition="#italics"
+                  >Richmond Whig</hi> was the primary organ of the Whig Party in Virginia. It was
+                one of four daily papers in the city and remained loyal to the Whigs during
+                secession, although the party was largely defunct. The paper was therefore more
+                critical of Jefferson Davis and his administration from the get-go of the
+                Confederacy, perceiving Davis’ mistrust of Whigs in the Confederate army and
+                elsewhere.</p>
+              <p>The<hi rendition="#italics">Richmond Whig</hi> continued to print in several
+                different iterations through the end of the Civil War and Reconstruction; it ceased
+                publication in 1888. </p></note>
+            <bibl><bibl> “About Richmond Daily Whig. (Richmond, Va.) 1842-1861 « Chronicling America
+                « Library of Congress.” Accessed April 9, 2015.
+                http://chroniclingamerica.loc.gov/lccn/sn84024656/. </bibl>
+              <bibl> “About Daily Richmond Whig. (Richmond, Va.) 1861-1862 « Chronicling America
+                « Library of Congress.” Accessed April 9, 2015.
+                http://chroniclingamerica.loc.gov/lccn/sn86071866/.</bibl>
+              <bibl>“About Richmond Whig. (Richmond, Va.) 1862-1865 « Chronicling America « Library
+                of Congress.” Accessed April 9, 2015.
+                http://chroniclingamerica.loc.gov/lccn/sn84024669/. </bibl>
+              <bibl> “About Daily Richmond Whig. (Richmond, Va.) 1865-1869 « Chronicling America
+                « Library of Congress.” Accessed April 9, 2015.
+                http://chroniclingamerica.loc.gov/lccn/sn84024660/.</bibl>
+              <bibl>“About Richmond Daily Whig. (Richmond, Va.) 1869-1885 « Chronicling America
+                « Library of Congress.” Accessed April 9, 2015.
+                http://chroniclingamerica.loc.gov/lccn/sn84024668/.</bibl>
+              <bibl>“About Richmond Whig. (Richmond, Va.) 1886-1888 « Chronicling America « Library
+                of Congress.” Accessed April 9, 2015.
+                http://chroniclingamerica.loc.gov/lccn/sn86071867/. </bibl>
+              <bibl>“Newspapers in Virginia During the Civil War, Confederate.” Accessed April 9,
+                2015.
+                http://www.encyclopediavirginia.org/Newspapers_in_Virginia_During_the_Civil_War_Confederate.</bibl></bibl>
             <note type="internal">Newspaper published in Richmond, VA, mentioned in 11820; see
               chroniclingamerica.loc.gov for details</note>
           </org>
@@ -708,6 +901,14 @@
           </org>
           <org xml:id="ENT.000003632">
             <orgName key="ENT.000003632">Wevill &amp; Hammar</orgName>
+            <note type="org"><p>George Wevill and George Hammar (alt. Hammer) were a wood engraving
+                partnership in New York City at 208 Broadway. The business flourished in the
+                1870s.</p>
+            </note>
+            <bibl>
+              <bibl>“Punchinello - Google Books.” Accessed April 9, 2015.
+                https://books.google.com/books?id=56tDAQAAMAAJ&amp;pg=PA130&amp;lpg=PA130&amp;dq=wevill+&amp;+Hammar+wood+engravers&amp;source=bl&amp;ots=yCkDQYK2BS&amp;sig=FOybkKoOZe3NTBX3TbloDCk04i4&amp;hl=en&amp;sa=X&amp;ei=2DEkVaLWGsursAWDpoDwDQ&amp;ved=0CCUQ6AEwAQ#v=onepage&amp;q=wevill
+                &amp; Hammar wood engravers&amp;f=false.</bibl></bibl>
             <note type="internal">engravers of 11747; wood engraving firm of George D. Hammar and
               George Wevill)</note>
           </org>
