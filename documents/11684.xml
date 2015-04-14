@@ -1,34 +1,36 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
+
 <?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
-
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-
-
     <teiHeader xml:lang="English">
-
         <fileDesc>
-
             <titleStmt>
                 <title type="main">TEI transcription of The Deadly Upas Tree of Wall Street</title>
+
                 <respStmt>
-                    <resp key="art">Artist</resp>
-                    <persName key="ENT.000000379">Joseph Ferdinand Keppler</persName>
+                    <resp key="art">artist</resp>
+                    <persName key="ENT.000000379">Keppler, Joseph Ferdinand, 1838-1894</persName>
+                </respStmt>
+                <respStmt>
+                    <resp key="ltg">lithographer</resp>
+                    <orgName key="ENT.000000380">Mayer, Merkel &amp; Ottmann</orgName>
                 </respStmt>
                 <respStmt>
                     <resp key="trc">Transcribed by</resp>
-                    <persName key="ENT.000003544">Diane Biunno</persName>
+                    <persName key="ENT.000003544">Biunno, Diane</persName>
                 </respStmt>
                 <respStmt>
                     <resp key="mrk">Encoded by</resp>
-                    <persName key="ENT.000003544">Diane Biunno</persName>
+                    <persName key="ENT.000003544">Biunno, Diane</persName>
                 </respStmt>
-
+                <respStmt>
+                    <resp key="pbl">publisher</resp>
+                    <orgName key="ENT.000003163">Keppler &amp; Schwarzmann</orgName>
+                </respStmt>
             </titleStmt>
-
             <editionStmt>
                 <p>First edition, <date when="2015">2015</date></p>
             </editionStmt>
-
             <publicationStmt>
                 <publisher><orgName key="ENT.000002473">Historical Society of
                     Pennsylvania</orgName></publisher>
@@ -49,17 +51,17 @@
                         the intended use of reproductions must be made in writing to the Rights and
                         Reproductions Coordinator at rnr@hsp.org.</p>
                 </availability>
-                <date when="2015"/>
+                <date when="2015">2015</date>
             </publicationStmt>
-
             <seriesStmt>
-                <title level="s" type="project" key="CARTOONS"/>
+                <title level="s" type="project" key="CARTOONS">Historic Images, New Technologies
+                    (HINT) Project</title>
             </seriesStmt>
-
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <repository key="ENT.000002473"/>
+                        <repository key="ENT.000002473">Historical Society of
+                            Pennsylvania</repository>
                         <collection key="3133">Historical Society of Pennsylvania cartoons and
                             caricatures collection</collection>
                         <idno type="citation">
@@ -86,14 +88,10 @@
                                     <relation name="depicted" active="ENT.000003559"/>
                                     <relation name="depicted" active="ENT.000003572"/>
                                     <relation name="depicted" active="ENT.000003558"/>
-                
-                                    
-                                    
                                 </listRelation>
                             </bibl>
                         </msItem>
                     </msContents>
-
                     <history>
                         <acquisition>This is an artificial collection created over time by HSP staff
                             mostly through donations and purchases of individual prints. It also
@@ -106,30 +104,40 @@
                 <biblStruct>
                     <analytic>
                         <respStmt>
-                            <resp key="art">Artist</resp>
-                            <persName key="ENT.000000379">Joseph Keppler</persName>
+                            <resp key="art">artist</resp>
+                            <persName key="ENT.000000379">Keppler, Joseph Ferdinand,
+                                1838-1894</persName>
                         </respStmt>
-                        <!-- add additional <respStmt> elements as needed for lithographers, printers, colorists, etc., but NOT publishers, transcribers, encoders, or proofreaders -->
+                        <respStmt>
+                            <resp key="ltg">lithographer</resp>
+                            <orgName key="ENT.000000380">Mayer, Merkel &amp; Ottmann</orgName>
+                        </respStmt>
+
+                        <respStmt>
+                            <resp key="pbl">publisher</resp>
+                            <orgName key="ENT.000003163">Keppler &amp; Schwarzmann</orgName>
+                        </respStmt>
                         <title type="main" level="a">The Deadly Upas Tree of Wall Street</title>
+                        <date from="1882-08-30">August 30, 1882</date>
                     </analytic>
                     <monogr>
-                        <title type="marc245a" level="j">
-                            <orgName key="ENT.000000384">Puck</orgName></title>
-
+                        <title type="marc245a" level="j"><orgName key="ENT.000000384"
+                            >Puck</orgName></title>
                         <imprint>
-                            <publisher><orgName key="ENT.000003163"> Keppler &amp;
-                                    Schwarzmann</orgName></publisher>
                             <pubPlace>New York</pubPlace>
                             <date from="1882-08-30">August 30, 1882</date>
                             <biblScope unit="volume">11</biblScope>
                             <biblScope unit="issue">286</biblScope>
                             <biblScope unit="page">412-413</biblScope>
+                            <publisher>
+                                <orgName key="ENT.000003163">Keppler &amp; Schwarzmann</orgName>
+                            </publisher>
                         </imprint>
                     </monogr>
                 </biblStruct>
+
             </sourceDesc>
         </fileDesc>
-
         <encodingDesc>
             <projectDesc>
                 <p>The Historic Images, New Technologies (HINT) project aims to enhance description
@@ -143,14 +151,12 @@
                     Archives and Documentary Editing program.</p>
             </projectDesc>
             <editorialDecl n="4">
-                <p><!-- ??This is where we'd describe any notable editorial decisions made about THIS document during encoding; use multiple p elements to list each. FYI, the @n of "4" shows that we're matching Library Best Practices of level 4.--></p>
                 <p>This electronic file was created using manual keying following the
                     recommendations for Level 4 of "Best Practices for TEI in Libraries" guidelines
                     v3.0.</p>
                 <p>This xml file uses unique entity identifiers, media file identifiers, and
                     collection identifiers in HSP's Digital Library, available at
                     http://digitallibrary.hsp.org.</p>
-
             </editorialDecl>
             <tagsDecl>
                 <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
@@ -171,67 +177,91 @@
                 </namespace>
             </tagsDecl>
         </encodingDesc>
-
         <profileDesc>
             <textClass>
+                <catRef target="cartoons_genres.xml#clippings"/>
+                <catRef target="cartoons_genres.xml#chromolithographs"/>
+                <catRef target="cartoons_genres.xml#political_cartoons"/>
                 <catRef target="cartoons_taxonomies.xml#featured"/>
                 <catRef target="cartoons_taxonomies.xml#gilded"/>
                 <catRef target="cartoons_taxonomies.xml#econ"/>
-                <catRef target="cartoon_genres.xml#Lithographs"/>
-
             </textClass>
         </profileDesc>
-
         <revisionDesc>
-            <!-- ??This is where we'll note what has changed AND keep track of whether a document has been proofread. Add <change> elements for each revision, listing MOST RECENT FIRST. Use @when to list date. Use @who for first-lastname entries for the person responsible (choices available in Oxygen; human readers will be able to figure out who we mean).  -->
+            <change who="DianeBiunno" when="2015-04-14">Exported from DAMS</change>
             <change who="DianeBiunno" when="2015-02-09">Encoded to featured level</change>
             <change who="DianeBiunno" when="2015-01-29">Encoded to basic level</change>
             <change who="RachelMoloshok" when="2015-01-07">Template file created</change>
         </revisionDesc>
     </teiHeader>
-
     <facsimile>
-        <!-- ??The following text shows how to structure this section, but the URL information needs to be replaced with real text in order for this to validate. -->
-        <surface ulx="" uly="" lrx="" lry="">
-            <!-- Leave values for <surface> attributes blank; coordinates will be provided by Collective Access upon export. Use <surface> to contain <graphic> and <zone>. Use multiple <surface> elements as needed for multiple pages/images -->
+        <surface ulx="0" uly="0" lrx="100" lry="100">
             <graphic url="FIL.000085723"/>
-
-            <zone n="1" xml:id="Title" points=""/>
-            <zone n="2" xml:id="Artist" points=""/>
-            <zone n="3" xml:id="Cornell" points=""/>
-            <zone n="4" xml:id="Stockholder" points=""/>
-            <zone n="5" xml:id="Friday" points=""/>
-            <zone n="6" xml:id="Stockholder_2" points=""/>
-            <zone n="7" xml:id="West" points=""/>
-            <zone n="8" xml:id="Reid" points=""/>
-            <zone n="9" xml:id="Fisk" points=""/>
-            <zone n="10" xml:id="Congress" points=""/>
-            <zone n="11" xml:id="Washington" points=""/>
-            <zone n="12" xml:id="Editors" points=""/>
-            <zone n="13" xml:id="Judges" points=""/>
-            <zone n="14" xml:id="Puck" points=""/>
-            <zone n="15" xml:id="Lawyers" points=""/>
-            <zone n="16" xml:id="Albany" points=""/>
-            <zone n="17" xml:id="Legislatures" points=""/>
-            <zone n="18" xml:id="Coins" points=""/>
-            <zone n="19" xml:id="Gould" points=""/>
-               
+            <zone n="1" xml:id="Title" points="30.13,91.47 71.07,91.62 71.02,95.75 30.18,95.98"/>
+            <zone n="2" xml:id="Artist" points="84.67,87.72 93.36,87.72 93.76,89.81 84.5,89.73"/>
+            <zone n="3" xml:id="Cornell"
+                points="76.32,76.34 79.19,75.14 81.09,75.97 82.56,73.93 86.44,74.12 87.9,71.9 90.51,72.73 88.86,75.23 88.16,78.47 91.15,83.38 92.99,86.8 77.79,89.77 77.98,82.54 76.58,80.69"/>
+            <zone n="4" xml:id="Stockholder"
+                points="56.69,59.4 59.74,67.86 61.12,62.84 62.38,64.01 62.27,68.53 66.98,64.51 68.37,68.45 64.74,69.2 63.36,73.64 63.53,76.48 67.44,77.57 69,79.08 68.13,80.84 59.16,77.4 54.91,74.64"/>
+            <zone n="5" xml:id="Friday"
+                points="42.42,78.36 44.89,78.52 48.46,77.75 49.98,74.31 51.81,75 53.34,77.14 53.55,81.04 57.38,84.47 60.32,85.85 59.48,87.38 54.07,91.58 44.41,91.12 38.17,86.92 37.43,84.25 38.43,81.42 41,83.4 40.79,80.12"/>
+            <zone n="6" xml:id="Stockholder_2"
+                points="57.66,80.23 60.07,79.19 63.02,81.53 67.17,80.23 68.91,79.97 70.21,81.21 71.68,80.36 73.92,81.21 74.05,84.13 73.74,86.86 75.53,88.55 75.75,90.44 55.42,90.57"/>
+            <zone n="7" xml:id="West"
+                points="19.4,63.23 23.89,63.13 24.88,66.24 26.16,64.79 30.94,67.66 32.14,69.96 31.57,74.42 27.52,74.21 19.69,67.06"/>
+            <zone n="8" xml:id="Reid"
+                points="32.34,72.34 36.9,71.2 37.75,76.48 29.21,80.21 30.21,81.87 26.52,83.35 30.92,84.98 33.98,89.12 32.91,90.26 23.38,89.85 13.06,85.91 13.13,82.6 17.47,81.46 21.74,81.15"/>
+            <zone n="9" xml:id="Fisk" points="8.06,87.16 13.06,87.16 13.06,92.16 8.06,92.16"/>
+            <zone n="10" xml:id="Congress"
+                points="6.82,41.97 11.37,40.77 12.46,42.17 12.86,44.11 12.17,46.06 11.29,50.11 9.44,51.12 7.95,49.95"/>
+            <zone n="11" xml:id="Washington"
+                points="18.22,41.87 21.6,42.86 24.05,44.66 18.54,44.52 19.94,51.15 23,50.82 22.94,48.36 26.06,48.26 26.42,53.9 9.72,53.85 9.72,51.06 12.85,47.98"/>
+            <zone n="12" xml:id="Editors"
+                points="15.06,22.39 15.17,20.43 18.15,18.67 20.26,20.3 20.6,22.06 20.43,24.44 19.61,26.82 17.93,29.64 16.64,29.02 16.04,26.57"/>
+            <zone n="13" xml:id="Judges"
+                points="35.46,11.1 40.73,11.3 40.73,16.69 38.5,19.49 37.56,16.89 35.69,13.96"/>
+            <zone n="14" xml:id="Puck" points="45.62,6.96 52.56,6.96 52.31,10.68 45.86,10.86"/>
+            <zone n="15" xml:id="Lawyers"
+                points="89.6,21.28 89.32,18.6 91.33,18.1 93,20.03 93.23,22.54 90.87,25.47 90.12,29.23 88.74,30.66 86.9,28.48 86.56,25.05 88.17,21.45"/>
+            <zone n="16" xml:id="Albany"
+                points="87.11,39.72 88.27,39.65 92.16,42.01 92.82,45.18 87.87,43.23 88.22,47.06 89.83,46.15 91.62,46.35 91.69,52.8 83.69,53.17 83.67,47.52 86.21,47.91"/>
+            <zone n="17" xml:id="Legislatures"
+                points="74.12,52.94 77.26,51.84 79.7,52.39 79.26,60.65 76.81,64.56 75.05,59.85"/>
+            <zone n="18" xml:id="Coins" points="4.11,10.05 93.92,11.64 96.11,53.26 4.6,51.67"/>
+            <zone n="19" xml:id="Gould"
+                points="42.58,23.08 47.08,20.24 53.29,22.9 53.41,32.82 49.03,53.01 46.11,53.37 41.97,43.09 41.6,33.71"/>
+            <zone n="20" xml:id="Roscoe"
+                points="13.91,65.19 16.05,63.74 18.68,65.61 21.67,74.52 18.04,81.46 6.37,83.53 5.16,79.28 5.94,75.55 7.72,76.69 14.2,75.86 15.83,72.76 12.84,71.82"
+            />
         </surface>
     </facsimile>
-
     <text>
-        
         <front>
             <div type="editorial_desc">
-               
-                <p>The branches of a large tree form an image of railroad financier Jay Gould. Gould owned the Western Union Telegraph Company, the <hi rendition="#italics">New York World</hi> newspaper, and several railroads including the Union Pacific Railroad.  On September 24, 1869 his financial schemes led to crash of the American gold market, otherwise known as "Black Friday."</p>
-                <p>Below the tree lie the bodies of politicians and former business partners whose careers and bank accounts were destroyed due to their dealings with Gould.  President Ulysses S. Grant's political reputation was damaged due to his association with Gould and the "Black Friday" scandal.  He rests at the base of the tree trunk, and, in his left hand, holds a label with the inscription "Black Friday."  Next to Grant, there is a body of an unknown stockholder labeled "Stockholder E.R.R" and of an unknown woman labeled "Stockholder."  Alonzo Cornell holds the label "Blind pool Cornell" in his right hand.</p>
-                <p>The skull and bones of Jim Fisk are next to the body of Whitelaw Reid.  Fisk was murdered in 1872 by his ex-lover's boyfriend Edward Stokes.  Stokes tried to blackmail Fisk out of a huge sum of and money, and when he wouldn't give into his demands, Stokes stabbed him.  Next to Fisk, lies Theodoric Westbrook.  He wears a hat with his name written across it and is slumped over a row of a buildings.  Roscoe Conkling lies next to the same row of buildings.  From the branches of the old tree hang coins and dollar signs, as well as, bribes for lawyers, legislatures, congress, editors, and judges.</p>
+                <p>The branches of a large tree form an image of railroad financier Jay Gould. Gould
+                    owned the Western Union Telegraph Company, the <hi rendition="#italics">New York
+                        World</hi> newspaper, and several railroads including the Union Pacific
+                    Railroad. On September 24, 1869 his financial schemes led to crash of the
+                    American gold market, otherwise known as "Black Friday."</p>
+                <p>Below the tree lie the bodies of politicians and former business partners whose
+                    careers and bank accounts were destroyed due to their dealings with Gould.
+                    President Ulysses S. Grant's political reputation was damaged due to his
+                    association with Gould and the "Black Friday" scandal. He rests at the base
+                    of the tree trunk, and, in his left hand, holds a label with the inscription
+                    "Black Friday." Next to Grant, there is a body of an unknown stockholder labeled
+                    "Stockholder E.R.R" and of an unknown woman labeled "Stockholder." Alonzo
+                    Cornell holds the label "Blind pool Cornell" in his right hand.</p>
+                <p>The skull and bones of Jim Fisk are next to the body of Whitelaw Reid. Fisk was
+                    murdered in 1872 by Edward Stokes, his ex-lover's boyfriend. Stokes tried to
+                    blackmail Fisk out of a huge sum of and money, and when he wouldn't give into his
+                    demands, Stokes stabbed him. Next to Fisk, lies Theodoric Westbrook. He wears a
+                    hat with his name written across it. Roscoe Conkling lies next to a row of
+                    buildings. From the branches of the old tree hang coins and dollar signs, as
+                    well as, bribes for lawyers, legislatures, congress, editors, and judges.</p>
             </div>
         </front>
-
         <body>
-            <div type="image_transcription" facs="#Title" n="1">
+            <div type="image_transcription" n="1" facs="#Title">
                 <head>
                     <supplied resp="editorial">Title and caption</supplied></head>
                 <p>THE DEADLY UPAS TREE OF WALL STREET.</p>
@@ -239,104 +269,112 @@
                     approach it without certain death."-<hi rendition="#italics">Zell's
                         Encyclopædia</hi></p>
             </div>
-
-            <div type="image_transcription" facs="#Artist" n="2">
+            <div type="image_transcription" n="2" facs="#Artist">
                 <head>
-                    <supplied resp="editorial"><persName key="ENT.000000379">Joseph Ferdinand Keppler</persName> </supplied></head>
+                    <supplied resp="editorial"><persName key="ENT.000000379">Joseph Ferdinand
+                            Keppler</persName>
+                    </supplied></head>
                 <p>J. KEPPLER</p>
             </div>
-
-            <div type="image_transcription" facs="#Cornell" n="3">
-                <head><supplied resp="editorial"><persName key="ENT.000003572">Alonzo Cornell</persName></supplied></head>
+            <div type="image_transcription" n="3" facs="#Cornell">
+                <head><supplied resp="editorial"><persName key="ENT.000003572">Alonzo
+                            Cornell</persName></supplied></head>
                 <p>BLIND POOL CORNELL.</p>
             </div>
-
-            <div type="image_transcription" facs="#Stockholder" n="4">
-                <head><supplied resp="editorial">Stockholder</supplied></head>
+            <div type="image_transcription" n="4" facs="#Stockholder">
+                <head><supplied resp="editorial">Stockholder E.R.R </supplied></head>
                 <p>STOCKHOLDER.</p>
             </div>
-
-            <div type="image_transcription" facs="#Friday" n="5">
-                <head><supplied resp="editorial"><persName key="ENT.000000941">Ulysses S. Grant</persName></supplied></head>
-                <p>BLACK FRIDAY.<note n="1" type="editorial">On September 24, 1869, or Black Friday, Jim Fisk and Jay Gould's financial schemes led to the collapse of the US gold market.  Grant's presidency was tarnished by the scandal because of his association with Gould and Fisk.</note></p>
+            <div type="image_transcription" n="5" facs="#Friday">
+                <head><supplied resp="editorial"><persName key="ENT.000000941">Ulysses S.
+                            Grant</persName></supplied></head>
+                <p>BLACK FRIDAY.<note n="1" type="editorial">On September 24, 1869, or Black Friday,
+                        Jim Fisk and Jay Gould's financial schemes led to the collapse of the US
+                        gold market. Grant's presidency was tarnished by the scandal because of his
+                        association with Gould and Fisk.</note></p>
             </div>
-
-            <div type="image_transcription" facs="#Stockholder_2" n="6">
+            <div type="image_transcription" n="6" facs="#Stockholder_2">
                 <head><supplied resp="editorial">Stockholder</supplied></head>
-                <p>STOCK HOLDER E.R.R <note n="2" type="editorial">Next to the label Stockholder lies the body of woman.</note></p>
+                <p>STOCK HOLDER <note n="2" type="editorial">Next to the label Stockholder lies the
+                        body of woman.</note></p>
             </div>
-
-            <div type="image_transcription" facs="#West" n="7">
-                <head><supplied resp="editorial"><persName key="ENT.000003571">Theodoric Westbrook</persName></supplied></head>
-                <p>WESTBRO<note n="3" type="editorial">Theodoric Westbrook is slumped over a row of buildings and wears a hat with his name inscribed on it.  Westbrook was a lawyer, congressman from New York, and NY State Supreme Court Justice.  He was suspected of supporting Gould in his effort to acquire the Manhattan Elevated Railroad.</note></p>
+            <div type="image_transcription" n="7" facs="#West">
+                <head><supplied resp="editorial"><persName key="ENT.000003571">Theodoric
+                            Westbrook</persName></supplied></head>
+                <p>WESTBRO <note n="3" type="editorial">Theodoric Westbrook is slumped over a row of
+                        buildings and wears a hat with his name inscribed on it. Westbrook was a
+                        lawyer, congressman from New York, and NY State Supreme Court Justice. He
+                        was suspected of supporting Gould in his effort to acquire the Manhattan
+                        Elevated Railroad.</note></p>
             </div>
-
-            <div type="image_transcription" facs="#Reid" n="8">
-                <head><supplied resp="editorial"><persName key="ENT.000003377">Whitelaw Reid</persName></supplied></head>
-                <p>WHITELAW REID.<note n="4" type="editorial">Whitelaw Reid is lying on the ground with his arms outstretched.  Reid was a politician, journalist and editor of the <hi rendition="#italics"><orgName key="ENT.000003329">New York Tribune</orgName></hi>.</note></p>
+            <div type="image_transcription" n="8" facs="#Reid">
+                <head><supplied resp="editorial"><persName key="ENT.000003377">Whitelaw
+                            Reid</persName></supplied></head>
+                <p>WHITELAW REID.<note n="4" type="editorial">Whitelaw Reid is lying on the ground
+                        with his arms outstretched. Reid was a politician, journalist and editor of
+                        the <hi rendition="#italics"><orgName key="ENT.000003329">New York
+                                Tribune</orgName></hi>.</note></p>
             </div>
-
-            <div type="image_transcription" facs="#Fisk" n="9">
-                <head><supplied resp="editorial"><persName key="ENT.000003558">Jim Fisk</persName></supplied></head>
-                <p>JIM FISK.<note n="5" type="editorial" >Below the large tree, there is a skull labeled "Jim Fisk".  Jim Fisk was Jay Gould's business partner.  He was murdered in 1872 by his ex-lover's boyfriend.</note></p>
+            <div type="image_transcription" n="9" facs="#Fisk">
+                <head><supplied resp="editorial"><persName key="ENT.000003558">Jim
+                        Fisk</persName></supplied></head>
+                <p>JIM FISK. <note n="5" type="editorial">Below the large tree, there is a skull
+                        labeled "Jim Fisk". Jim Fisk was Jay Gould's business partner. He was
+                        murdered in 1872 by his ex-lover's boyfriend.</note></p>
             </div>
-
-            <div type="image_transcription" facs="#Congress" n="10">
+            <div type="image_transcription" n="10" facs="#Congress">
                 <head><supplied resp="editorial">Bribes for Congress</supplied></head>
                 <p>BRIBES for CONGRESS.</p>
             </div>
-
-            <div type="image_transcription" facs="#Washington" n="11">
+            <div type="image_transcription" n="11" facs="#Washington">
                 <head><supplied resp="editorial">Washington</supplied></head>
                 <p>HOUSE</p>
                 <p>WASHINGTON</p>
                 <p>SENATE</p>
             </div>
-
-            <div type="image_transcription" facs="#Editors" n="12">
+            <div type="image_transcription" n="12" facs="#Editors">
                 <head><supplied resp="editorial">Editors</supplied></head>
                 <p>BRIBES FOR EDITORS</p>
             </div>
-            
-            <div type="image_transcription" facs="#Judges" n="13">
+            <div type="image_transcription" n="13" facs="#Judges">
                 <head><supplied resp="editorial">Judges</supplied></head>
                 <p>BRIBES for JUDGES.</p>
             </div>
-            
-            <div type="image_transcription" facs="#Puck" n="14">
-                <head><supplied resp="editorial"><orgName key="ENT.000000384">Puck</orgName></supplied></head>
+            <div type="image_transcription" n="14" facs="#Puck">
+                <head><supplied resp="editorial"><orgName key="ENT.000000384"
+                        >Puck</orgName></supplied></head>
                 <p>PUCK.</p>
             </div>
-            
-            <div type="image_transcription" facs="#Lawyers" n="15">
+            <div type="image_transcription" n="15" facs="#Lawyers">
                 <head><supplied resp="editorial">Lawyers</supplied></head>
                 <p>BRIBES for LAWYERS.</p>
             </div>
-            
-            <div type="image_transcription" facs="#Albany" n="16">
+            <div type="image_transcription" n="16" facs="#Albany">
                 <head><supplied resp="editorial">Albany</supplied></head>
                 <p>ALBANY.</p>
             </div>
-            
-            <div type="image_transcription" facs="#Legislatures" n="17">
+            <div type="image_transcription" n="17" facs="#Legislatures">
                 <head><supplied resp="editorial">Legislatures</supplied></head>
                 <p>BRIBES for LEGISLATURES.</p>
             </div>
-            
-            <div type="image_transcription" facs="#Coins" n="18">
+            <div type="image_transcription" n="18" facs="#Coins">
                 <head><supplied resp="editorial">Coins</supplied></head>
-                <p>$<note n="6" type="editorial">From the tree hang a large quanitity of dollar signs.</note></p>
+                <p>$ <note n="6" type="editorial">From the tree hang a large quantity of dollar
+                        signs.</note></p>
             </div>
-            
-            <div type="image_annotation" facs="#Gould" n="19">
-                <head><supplied resp="editorial"><persName key="ENT.000003559">Jay Gould</persName></supplied></head>
-               <p>The two large branches of the tree form an image of Jay Gould, a railroad financier and "robber baron."</p>
+            <div type="image_annotation" n="19" facs="#Gould">
+                <head><supplied resp="editorial"><persName key="ENT.000003559">Jay
+                        Gould</persName></supplied></head>
+                <p>The two large branches of the tree form an image of Jay Gould, a railroad
+                    financier and "robber baron."</p>
             </div>
-            
-
-
+            <div type="image_annotation" n="20" facs="#Roscoe">
+                <head><supplied resp="editorial"><persName key="ENT.000003552">Roscoe
+                            Conkling</persName></supplied></head>
+                <p>The body of New York Senator Roscoe Conkling is slumped against a row of
+                    buildings. </p>
+            </div>
         </body>
-
         <back/>
     </text>
 </TEI>
