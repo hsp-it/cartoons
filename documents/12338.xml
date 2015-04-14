@@ -163,6 +163,7 @@
         <catRef target="cartoons_taxonomies.xml#African_American"/>
         <catRef target="cartoons_taxonomies.xml#laws"/>
         <catRef target="cartoons_taxonomies.xml#culture"/>
+        <catRef target="cartoons_taxonomies.xml#international"/>
       </textClass>
     </profileDesc>
     <revisionDesc>
