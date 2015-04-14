@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-
 <?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="English">
@@ -11,6 +9,10 @@
         <respStmt>
           <resp key="art">artist</resp>
           <persName key="ENT.000003164">Keller, George Frederick, 1846-</persName>
+        </respStmt> 
+        <respStmt>
+          <resp key="ltg">lithographer</resp>
+          <orgName key="ENT.000000380">Mayer, Merkel &amp; Ottmann</orgName>
         </respStmt>
         <respStmt>
           <resp key="trc">Transcribed by</resp>
@@ -46,6 +48,7 @@
             reproduction services, and the intended use of reproductions must be made in writing to
             the Rights and Reproductions Coordinator at rnr@hsp.org.</p>
         </availability>
+        <date when="2015">2015</date>
       </publicationStmt>
       <seriesStmt>
         <title level="s" type="project" key="CARTOONS">Historic Images, New Technologies (HINT)
@@ -72,7 +75,7 @@
                   <width quantity="24.5"/>
                 </extent>
                 <listRelation>
-                  <relation name="depicted" active="cartoons_symbols.xml#Statue of Liberty"/>
+                  <relation name="depicted" active="cartoons_symbols.xml#statue_of_liberty"/>
                 </listRelation>
               </bibl>
             </msItem>
@@ -83,6 +86,10 @@
             <respStmt>
               <resp key="art">artist</resp>
               <persName key="ENT.000003164">Keller, George Frederick, 1846-</persName>
+            </respStmt>
+            <respStmt>
+              <resp key="ltg">lithographer</resp>
+              <orgName key="ENT.000000380">Mayer, Merkel &amp; Ottmann</orgName>
             </respStmt>
             <respStmt>
               <resp key="pbl">publisher</resp>
@@ -118,7 +125,6 @@
           (NHPRC) Innovation in Archives and Documentary Editing program.</p>
       </projectDesc>
       <editorialDecl n="4">
-        
         <p>This electronic file was created using manual keying following the recommendations for
           Level 4 of "Best Practices for TEI in Libraries" guidelines v3.0.</p>
         <p>This xml file uses unique entity identifiers, media file identifiers, and collection
@@ -144,15 +150,19 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <catRef target="cartoons_genres.xml#Lithographs"/>
-        <catRef target="cartoons_taxonomies.xml#featured"/>
+        <catRef target="cartoons_genres.xml#chromolithographs"/>
+        <catRef target="cartoons_genres.xml#political_cartoons"/>
+        <catRef target="cartoons_genres.xml#clippings"/>
         <catRef target="cartoons_taxonomies.xml#gilded"/>
+        <catRef target="cartoons_taxonomies.xml#featured"/>
         <catRef target="cartoons_taxonomies.xml#immigration"/>
         <catRef target="cartoons_taxonomies.xml#stereotypes"/>
+        <catRef target="cartoons_taxonomies.xml#labor"/>
+        <catRef target="cartoons_taxonomies.xml#culture"/>
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change who="DianeBiunno" when="2015-02-03">Exported from DAMS</change>
+       <change who="DianeBiunno" when="2015-04-14">Exported from DAMS and proofread</change>
       <change who="DianeBiunno" when="2015-02-02">Encoded to featured level</change>
       <change who="DianeBiunno" when="2015-01-28">Encoded to basic level</change>
       <change who="RachelMoloshok" when="2015-01-07">Template file created</change>
@@ -201,7 +211,7 @@
         <p>A STATUE FOR <hi rendition="#italics">OUR</hi> HARBOR</p>
       </div>
       <div type="image_transcription" n="2" facs="#Artist">
-        <head><supplied resp="editorial"><orgName key="ENT.000003164">George Frederick Keller</orgName></supplied></head>
+         <head><supplied resp="editorial"><persName key="ENT.000003164">George Frederick Keller</persName></supplied></head>
         <p>KELLER</p>
       </div>
       <div type="image_transcription" n="3" facs="#Statue">
