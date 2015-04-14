@@ -1,285 +1,270 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 
 <?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-
-
-    <teiHeader xml:lang="English">
-
-        <fileDesc>
-
-            <titleStmt>
-                <title type="main">TEI transcription of Storming the Castle</title>
-                <respStmt>
-                    <resp key="art">Artist</resp>
-                    <persName key="ENT.000003364">Maurer, Louis</persName>
-                </respStmt>
-                <respStmt>
-                    <resp key="trc">Transcribed by</resp>
-                    <persName key="ENT.000003368">Moloshok, Rachel</persName>
-                </respStmt>
-                <respStmt>
-                    <resp key="mrk">Encoded by</resp>
-                    <persName key="ENT.000003368">Moloshok, Rachel</persName>
-                </respStmt>
-
-            </titleStmt>
-
-            <editionStmt>
-                <p>First edition, <date when="2015">2015</date></p>
-            </editionStmt>
-
-            <publicationStmt>
-                <publisher><orgName key="ENT.000002473">Historical Society of
-                    Pennsylvania</orgName></publisher>
-                <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
-                <idno type="filename">12332</idno>
-                <availability status="restricted">
-                    <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of
-                        copyright only to original contributions made by the Historic Images, New
-                        Technologies (HINT) Project participants and other staff. HSP makes no claim
-                        of copyright to the original text. Permission is granted to download,
-                        transmit or otherwise reproduce, distribute or display the text
-                        contributions to this work claimed by HSP for non-profit educational
-                        purposes, provided that this header is included in its entirety. For
-                        inquiries about commercial uses, please contact the Historical Society of
-                        Pennsylvania. HSP retains the rights of all images unless otherwise noted.
-                        Possession of an HSP digital image does not constitute permission to use or
-                        publish it. Requests for digital imaging, other reproduction services, and
-                        the intended use of reproductions must be made in writing to the Rights and
-                        Reproductions Coordinator at rnr@hsp.org.</p>
-                </availability>
-                <date when="2015"/>
-            </publicationStmt>
-
-            <seriesStmt>
-                <title level="s" type="project" key="CARTOONS"/>
-            </seriesStmt>
-
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <repository key="ENT.000002473"/>
-                        <collection key="3133">Historical Society of Pennsylvania cartoons and
-                            caricatures collection</collection>
-                        <idno type="citation">
-                            <idno type="box">4</idno>
-                            <idno type="folder">16</idno>
-                        </idno>
-                    </msIdentifier>
-                    <msContents>
-                        <msItem>
-                            <bibl>
-                                <date from="1860-01-01" to="1860-12-31">1860</date>
-                                <extent>1 loose sheet</extent>
-                                <listRelation>
-                                    <relation name="depicted" active="ENT.000000447"/>
-                                    <!-- Lincoln -->
-                                    <relation name="depicted" active="ENT.000003331"/>
-                                    <!-- Bell -->
-                                    <relation name="depicted" active="ENT.000003344"/>
-                                    <!-- Douglas -->
-                                    <relation name="depicted" active="ENT.000001011"/>
-                                    <!-- Buchanan -->
-                                    <relation name="depicted" active="ENT.000003333"/>
-                                    <!-- Breckinridge -->
-                                    <relation name="depicted" active="ENT.000003677"/>
-                                    <!-- Wide Awakes -->
-                                    <relation name="depicted" active="cartoons_symbols.xml#rail"/>
-                                    <!-- rail -->
-                                </listRelation>
-                            </bibl>
-                        </msItem>
-                    </msContents>
-
-                    <history>
-                        <acquisition>This is an artificial collection created over time by HSP staff
-                            mostly through donations and purchases of individual prints. It also
-                            incorporates previously uncataloged materials collected by the Balch
-                            Institute for Ethnic Studies. Some of the 20th century cartoons and
-                            drawings were removed from the J. Hampton Moore papers (Collection
-                            1541).</acquisition>
-                    </history>
-                </msDesc>
-                <biblStruct>
-                    <monogr>
-                        <respStmt>
-                            <resp key="art">Artist</resp>
-                            <persName key="ENT.000003364">Maurer, Louis</persName>
-                        </respStmt>
-                        <title type="main" level="m">Storming the Castle</title>
-                        <imprint>
-                            <publisher><orgName key="ENT.000000844">Currier &amp;
-                                Ives</orgName></publisher>
-                            <pubPlace>New York</pubPlace>
-                            <date from="1860">1860</date>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
-
-            </sourceDesc>
-        </fileDesc>
-
-        <encodingDesc>
-            <projectDesc>
-                <p>The Historic Images, New Technologies (HINT) project aims to enhance description
-                    and discovery of the Historical Society of Pennsylvania's graphics materials and
-                    promote the linking and sharing of content among institutions and scholars. The
-                    project will result in an update to HSP's digital image viewer and an online
-                    digital history exhibit that will demonstrate the new viewer's capabilities and
-                    provide interpretive and contextual materials to encourage users to interact
-                    with historical images in new ways. This project was funded by a grant from the
-                    National Historical Publications and Records Commission's (NHPRC) Innovation in
-                    Archives and Documentary Editing program.</p>
-            </projectDesc>
-            <editorialDecl n="4">
-                <p>This electronic file was created using manual keying following the
-                    recommendations for Level 4 of "Best Practices for TEI in Libraries" guidelines
-                    v3.0.</p>
-                <p>This xml file uses unique entity identifiers, media file identifiers, and
-                    collection identifiers in HSP's Digital Library, available at
-                    http://digitallibrary.hsp.org.</p>
-
-            </editorialDecl>
-            <tagsDecl>
-                <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
-                <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
-                <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
-                <rendition scheme="css" xml:id="crossed-through">text-decoration:
-                    line-through</rendition>
-                <rendition scheme="other" xml:id="printed"/>
-                <rendition scheme="other" xml:id="typescript"/>
-                <rendition scheme="other" xml:id="handwritten"/>
-                <rendition scheme="other" xml:id="handwritten-underlined"/>
-                <rendition scheme="other" xml:id="handwritten-circled"/>
-                <rendition scheme="other" xml:id="handwritten-crossed-through"/>
-                <rendition scheme="other" xml:id="double-underline"/>
-                <rendition scheme="other" xml:id="stamp"/>
-                <namespace name="http://www.tei-c.org/ns/1.0">
-                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
-                </namespace>
-            </tagsDecl>
-        </encodingDesc>
-
-        <profileDesc>
-            <textClass>
-                <catRef target="cartoons_genres.xml#lithographs"/>
-                <catRef target="cartoons_genres.xml#political_cartoons"/>
-                <catRef target="cartoons_taxonomies.xml#lesson_plan"/>
-                <catRef target="cartoons_taxonomies.xml#early"/>
-                <catRef target="cartoons_taxonomies.xml#elections"/>
-                <catRef target="cartoons_taxonomies.xml#laws"/>
-                <catRef target="cartoons_taxonomies.xml#slavery"/>
-            </textClass>
-        </profileDesc>
-
-        <revisionDesc>
-            <change who="RachelMoloshok" when="2015-04-14">Basic encoding</change>
-        </revisionDesc>
-    </teiHeader>
-
-    <facsimile>
-        <surface ulx="" uly="" lrx="" lry="">
-            <graphic url="FIL.000090273"/>
-            <zone n="1" xml:id="title"/>
-            <zone n="2" xml:id="lincoln"/>
-            <zone n="3" xml:id="bell"/>
-            <zone n="4" xml:id="douglas"/>
-            <zone n="5" xml:id="keys"/>
-            <zone n="6" xml:id="buck"/>
-            <zone n="7" xml:id="breck"/>
-            <zone n="8" xml:id="whitehouse"/>
-            <zone n="9" xml:id="date"/>
-        </surface>
-    </facsimile>
-
-    <text>
-        <front>
-            <div type="editorial_desc">
-                <p>In this cartoon commentary on the election of 1860, presidential contenders John
-                    Bell, Stephen Douglas, and John C. Breckinridge attempt to break into the White
-                    House but are caught in the act by Abraham Lincoln, dressed as a member of the
-                    Wide Awakes. Upon seeing Lincoln, Constitutional Party candidate John Bell warns
-                    Democratic Party candidate Stephen Douglas to hurry. Douglas, however, is unable
-                    to unlock the White House door. Meanwhile, from inside the White House, outgoing
-                    president James Buchanan tries, unsuccessfully, to help his vice president, John
-                    C. Breckinridge, climb through a window. In despair, Breckinridge cries that he
-                    will have to dissolve the Union.</p>
-            </div>
-        </front>
-
-        <body>
-            <div type="image_transcription" n="1" facs="#title">
-                <head><supplied resp="editorial">Title</supplied></head>
-                <p>STORMING THE CASTLE</p>
-                <p><persName key="ENT.000000447">"OLD ABE"</persName> ON GUARD.</p>
-                <p><hi rendition="#italics">Published by <orgName key="ENT.000000844">Currier &amp;
-                            Ives</orgName>. 152 Nassau St. N. Y.</hi></p>
-                <p><hi rendition="#italics">Entered according to act of Congress in the year <date
-                            when="1860">1860</date>, by Currier &amp; Ives, in the Clerk's Office of
-                        the District Court for the Southern Dist. of N.Y.</hi></p>
-            </div>
-            <div type="image_transcription" n="2" facs="#lincoln">
-                <head><supplied resp="editorial"><persName key="ENT.000000447"
-                        >Lincoln</persName></supplied></head>
-                <p>Ah! ha! Gentlemen! you <sic>need'nt</sic> think to catch me napping; for I am a
-                    regular <orgName key="ENT.000003677">Wide awake</orgName>.<note type="editorial"
-                        n="1">Lincoln's spear (actually a sharpened <rs
-                            ref="cartoons_symbols.xml#rail">fence rail</rs>, a symbol of his
-                        campaign), cape, and lantern make him resemble a night watchman, but readers
-                        in the 1860s would also have recognized that he is dressed as a member of
-                        the "Wide Awakes," clubs of young men who marched in support of Lincoln
-                        during his election campaign. Wide Awakes typically wore short capes and
-                        flat-visored hats and carried lanterns.</note></p>
-            </div>
-            <div type="image_transcription" n="3" facs="#bell">
-                <head><supplied resp="editorial"><persName key="ENT.000003331"
-                        >Bell</persName></supplied></head>
-                <p>Hurry up <persName key="ENT.000003344">Douglas</persName>! and get the door open,
-                    so that I can get in, for the watch-man is coming.__</p>
-            </div>
-            <div type="image_transcription" n="4" facs="#douglas">
-                <head><supplied resp="editorial"><persName key="ENT.000003344"
-                        >Douglas</persName></supplied></head>
-                <p>Confound it! none of these Keys will unlock this door so I'd better be off, for
-                        <persName key="ENT.000000447">old Abe</persName> is after me with a sharp
-                    stick.</p>
-            </div>
-            <div type="image_transcription" n="5" facs="#keys">
-                <head><supplied resp="editorial">Keys</supplied></head>
-                <p>REGULAR <abbr>NOM</abbr></p>
-                <p>NON INTERVENTION</p>
-                <p>NEBRASKA BILL<note type="editorial" n="2"><persName key="ENT.000003344"
-                            >Douglas</persName> supported the Kansas-Nebraska Act of <date
-                            when="1854">1854</date>, which allowed settlers in the new US
-                        territories of Kansas and Nebraska to decide for themselves whether slavery
-                        would be allowed in these territories. On the campaign trail, he also took a
-                        stance of "non-intervention" regarding slavery in US territories.</note></p>
-            </div>
-            <div type="image_transcription" n="6" facs="#buck">
-                <head><supplied resp="editorial"><persName key="ENT.000001011"
-                        >Buchanan</persName></supplied></head>
-                <p>I'll do all I can to help you, <persName key="ENT.000003333">Breck</persName>,
-                    but my strength is failing and I'm afraid you'll pull me out, before I can pull
-                    you in.</p>
-            </div>
-            <div type="image_transcription" n="7" facs="#breck">
-                <head><supplied resp="editorial"><persName key="ENT.000003333"
-                            >Breckinridge</persName></supplied></head>
-                <p>Ah, <persName key="ENT.000001011">Mr. Buck</persName>! I'm too weak to get up__
-                    and we shall be compelled to "dissolve the Union".__</p>
-            </div>
-            <div type="image_transcription" n="8" facs="#whitehouse">
-                <head><supplied resp="editorial">Sign over doorway</supplied></head>
-                <p>WHITE-HOUSE</p>
-            </div>
-            <div type="image_transcription" n="9" facs="#date">
-                <head><supplied resp="editorial">Note</supplied></head>
-                <p><add><date when="1860">1860</date></add></p>
-            </div>
-        </body>
-
-        <back/>
-    </text>
+  <teiHeader xml:lang="English">
+    <fileDesc>
+      <titleStmt>
+        <title type="main">TEI transcription of Storming the Castle</title>
+        <author/>
+        <respStmt>
+          <resp key="art">artist</resp>
+          <persName key="ENT.000003364">Maurer, Louis, 1832-1932</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="trc">Transcribed by</resp>
+          <persName key="ENT.000003368">Moloshok, Rachel</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="mrk">Encoded by</resp>
+          <persName key="ENT.000003368">Moloshok, Rachel</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="pfr">Proofread by</resp>
+          <persName key="ENT.000003368">Moloshok, Rachel</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="pbl">publisher</resp>
+          <orgName key="ENT.000000844">Currier &amp; Ives</orgName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <p>First edition, <date when="2015">2015</date></p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher><orgName key="ENT.000002473">Historical Society of
+          Pennsylvania</orgName></publisher>
+        <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
+        <idno type="filename">12332</idno>
+        <availability status="restricted">
+          <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of copyright only
+            to original contributions made by the Historic Images, New Technologies (HINT) Project
+            participants and other staff. HSP makes no claim of copyright to the original text.
+            Permission is granted to download, transmit or otherwise reproduce, distribute or
+            display the text contributions to this work claimed by HSP for non-profit educational
+            purposes, provided that this header is included in its entirety. For inquiries about
+            commercial uses, please contact the Historical Society of Pennsylvania. HSP retains the
+            rights of all images unless otherwise noted. Possession of an HSP digital image does not
+            constitute permission to use or publish it. Requests for digital imaging, other
+            reproduction services, and the intended use of reproductions must be made in writing to
+            the Rights and Reproductions Coordinator at rnr@hsp.org.</p>
+        </availability>
+        <date when="2015">2015</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="project" key="CARTOONS">Historic Images, New Technologies (HINT)
+          Project</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository key="ENT.000002473">Historical Society of Pennsylvania</repository>
+            <collection key="3133">Historical Society of Pennsylvania cartoons and caricatures
+              collection</collection>
+            <idno type="citation">
+              <idno type="box">4</idno>
+              <idno type="folder">16</idno>
+            </idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <bibl>
+                <date from="1860-01-01" to="1860-12-31">1860</date>
+                <extent>1 loose sheet</extent>
+                <listRelation>
+                  <relation name="depicted" active="ENT.000000447"/>
+                  <relation name="depicted" active="ENT.000003331"/>
+                  <relation name="depicted" active="ENT.000003344"/>
+                  <relation name="depicted" active="ENT.000001011"/>
+                  <relation name="depicted" active="ENT.000003333"/>
+                  <relation name="depicted" active="ENT.000003677"/>
+                  <relation name="depicted" active="cartoons_symbols.xml#rail"/>
+                </listRelation>
+              </bibl>
+            </msItem>
+          </msContents>
+          <history>
+            <acquisition>This is an artificial collection created over time by HSP staff mostly
+              through donations and purchases of individual prints. It also incorporates previously
+              uncataloged materials collected by the Balch Institute for Ethnic Studies. Some of the
+              20th century cartoons and drawings were removed from the J. Hampton Moore papers
+              (Collection 1541).</acquisition>
+          </history>
+        </msDesc>
+        <biblStruct>
+          <monogr>
+            <respStmt>
+              <resp key="art">artist</resp>
+              <persName key="ENT.000003364">Maurer, Louis, 1832-1932</persName>
+            </respStmt>
+            <respStmt>
+              <resp key="pbl">publisher</resp>
+              <orgName key="ENT.000000844">Currier &amp; Ives</orgName>
+            </respStmt>
+            <title type="main" level="m">Storming the Castle</title>
+            <imprint>
+              <pubPlace>New York</pubPlace>
+              <date from="1860-01-01" to="1860-12-31">1860</date>
+              <publisher>
+                <orgName key="ENT.000000844">Currier &amp; Ives</orgName>
+              </publisher>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <bibl/>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The Historic Images, New Technologies (HINT) project aims to enhance description and
+          discovery of the Historical Society of Pennsylvania's graphics materials and promote the
+          linking and sharing of content among institutions and scholars. The project will result in
+          an update to HSP's digital image viewer and an online digital history exhibit that will
+          demonstrate the new viewer's capabilities and provide interpretive and contextual
+          materials to encourage users to interact with historical images in new ways. This project
+          was funded by a grant from the National Historical Publications and Records Commission's
+          (NHPRC) Innovation in Archives and Documentary Editing program.</p>
+      </projectDesc>
+      <editorialDecl n="4">
+        <p>This electronic file was created using manual keying following the recommendations for
+          Level 4 of "Best Practices for TEI in Libraries" guidelines v3.0.</p>
+        <p>This xml file uses unique entity identifiers, media file identifiers, and collection
+          identifiers in HSP's Digital Library, available at http://digitallibrary.hsp.org.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
+        <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
+        <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
+        <rendition scheme="css" xml:id="crossed-through">text-decoration: line-through</rendition>
+        <rendition scheme="other" xml:id="printed"/>
+        <rendition scheme="other" xml:id="typescript"/>
+        <rendition scheme="other" xml:id="handwritten"/>
+        <rendition scheme="other" xml:id="handwritten-underlined"/>
+        <rendition scheme="other" xml:id="handwritten-circled"/>
+        <rendition scheme="other" xml:id="handwritten-crossed-through"/>
+        <rendition scheme="other" xml:id="double-underline"/>
+        <rendition scheme="other" xml:id="stamp"/>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <catRef target="cartoons_genres.xml#lithographs"/>
+        <catRef target="cartoons_genres.xml#political_cartoons"/>
+        <catRef target="cartoons_taxonomies.xml#lesson_plan"/>
+        <catRef target="cartoons_taxonomies.xml#early"/>
+        <catRef target="cartoons_taxonomies.xml#elections"/>
+        <catRef target="cartoons_taxonomies.xml#laws"/>
+        <catRef target="cartoons_taxonomies.xml#slavery"/>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change who="RachelMoloshok" when="2015-04-14">Exported from Collective Access. Basic proofreading</change>
+      <change who="RachelMoloshok" when="2015-04-13">Featured encoding</change>
+      <change who="RachelMoloshok" when="2015-04-13">Basic encoding</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="100" lry="100">
+      <graphic url="FIL.000090273"/>
+      <zone n="1" xml:id="title" points="25.54,88.23 71.48,88.69 71.42,98.23 25.52,97.96"/>
+      <zone n="2" xml:id="lincoln"
+        points="19.01,14.21 35.58,15.02 35.81,49.4 36.27,59.62 44.43,57.83 46.39,59.62 36.15,65.78 31.43,79.56 33.85,85.73 24.53,85.24 26.95,72.27 21.77,71.13 8.71,88.27 3.31,81.46 9.12,74.05 3.88,72.38 12.34,50.7 21.54,48.75 26.49,44.05 26.83,34.97 32.47,29.29 19.24,26.86"/>
+      <zone n="3" xml:id="bell"
+        points="49.54,25.35 64.61,25.03 64.38,36.54 57.48,38.97 57.36,44.32 61.27,46.59 67.94,65.41 67.02,81.3 55.06,84.71 54.83,68.33 56.79,61.19 51.73,56.32 48.5,47.73"/>
+      <zone n="4" xml:id="douglas"
+        points="64.49,29.92 78.18,30.54 78.18,41.08 73.35,44 77.83,52.59 81.97,74 70.7,76.27 64.15,39.62"/>
+      <zone n="5" xml:id="keys" points="62.77,51.14 68.86,51.78 70.47,66.22 65.18,66.38"/>
+      <zone n="6" xml:id="buck"
+        points="79.77,2.64 95.91,2.96 95.76,13.65 91.56,16.29 86.38,25.07 86.3,39.47 80.45,40.21 77.45,22.32 77,13.33 80,13.12"/>
+      <zone n="7" xml:id="breck"
+        points="78.03,23.44 86.21,25.46 90.41,17.52 96.86,17.1 96.79,28.84 92.89,30.11 91.46,59 80.67,66.17 74.72,47.57 80.58,38.58"/>
+      <zone n="8" xml:id="whitehouse" points="54.08,9.38 76.04,14.09 76.16,19.44 55,15.22"/>
+      <zone n="9" xml:id="date" points="90.93,88.7 95.93,88.7 95.93,93.7 90.93,93.7"/>
+    </surface>
+  </facsimile>
+  <text>
+    <front>
+      <div type="editorial_desc">
+        <p>In this cartoon commentary on the election of 1860, presidential contenders John Bell,
+          Stephen Douglas, and John C. Breckinridge attempt to break into the White House but are
+          caught in the act by Abraham Lincoln, dressed as a member of the Wide Awakes. Upon seeing
+          Lincoln, Constitutional Party candidate John Bell warns Democratic Party candidate Stephen
+          Douglas to hurry. Douglas, however, is unable to unlock the White House door. Meanwhile,
+          from inside the White House, outgoing president James Buchanan tries, unsuccessfully, to
+          help his vice president, John C. Breckinridge, climb through a window. In despair,
+          Breckinridge cries that he will have to dissolve the Union.</p>
+      </div>
+    </front>
+    <body>
+      <div type="image_transcription" n="1" facs="#title">
+        <head><supplied resp="editorial">Title</supplied></head>
+        <p>STORMING THE CASTLE</p>
+        <p><persName key="ENT.000000447">"OLD ABE"</persName> ON GUARD.</p>
+        <p><hi rendition="#italics">Published by <orgName key="ENT.000000844">Currier &amp;
+              Ives</orgName>. 152 Nassau St. N. Y.</hi></p>
+        <p><hi rendition="#italics">Entered according to act of Congress in the year <date
+              when="1860">1860</date>, by Currier &amp; Ives, in the Clerk's Office of the District
+            Court for the Southern Dist. of N.Y.</hi></p>
+      </div>
+      <div type="image_transcription" n="2" facs="#lincoln">
+        <head><supplied resp="editorial"><persName key="ENT.000000447"
+          >Lincoln</persName></supplied></head>
+        <p>Ah! ha! Gentlemen! you <sic>need'nt</sic> think to catch me napping; for I am a regular
+            <orgName key="ENT.000003677">Wide awake</orgName>.<note type="editorial" n="1">Lincoln's
+            spear (actually a sharpened <rs ref="cartoons_symbols.xml#rail">fence rail</rs>, a
+            symbol of his campaign), cape, and lantern make him resemble a night watchman, but
+            readers in the 1860s would also have recognized that he is dressed as a member of the
+            "Wide Awakes," clubs of young men who marched in support of Lincoln during his election
+            campaign. Wide Awakes typically wore short capes and flat-visored hats and carried
+            lanterns.</note></p>
+      </div>
+      <div type="image_transcription" n="3" facs="#bell">
+        <head><supplied resp="editorial"><persName key="ENT.000003331"
+          >Bell</persName></supplied></head>
+        <p>Hurry up <persName key="ENT.000003344">Douglas</persName>! and get the door open, so that
+          I can get in, for the watch-man is coming.__</p>
+      </div>
+      <div type="image_transcription" n="4" facs="#douglas">
+        <head><supplied resp="editorial"><persName key="ENT.000003344"
+          >Douglas</persName></supplied></head>
+        <p>Confound it! none of these Keys will unlock this door so I'd better be off, for <persName
+            key="ENT.000000447">old Abe</persName> is after me with a sharp stick.</p>
+      </div>
+      <div type="image_transcription" n="5" facs="#keys">
+        <head><supplied resp="editorial">Keys</supplied></head>
+        <p>REGULAR <abbr>NOM</abbr></p>
+        <p>NON INTERVENTION</p>
+        <p>NEBRASKA BILL<note type="editorial" n="2"><persName key="ENT.000003344"
+              >Douglas</persName> supported the Kansas-Nebraska Act of <date when="1854"
+            >1854</date>, which allowed settlers in the new US territories of Kansas and Nebraska to
+            decide for themselves whether slavery would be allowed in these territories. On the
+            campaign trail, he also took a stance of "non-intervention" regarding slavery in US
+            territories.</note></p>
+      </div>
+      <div type="image_transcription" n="6" facs="#buck">
+        <head><supplied resp="editorial"><persName key="ENT.000001011"
+            >Buchanan</persName></supplied></head>
+        <p>I'll do all I can to help you, <persName key="ENT.000003333">Breck</persName>, but my
+          strength is failing and I'm afraid you'll pull me out, before I can pull you in.</p>
+      </div>
+      <div type="image_transcription" n="7" facs="#breck">
+        <head><supplied resp="editorial"><persName key="ENT.000003333"
+            >Breckinridge</persName></supplied></head>
+        <p>Ah, <persName key="ENT.000001011">Mr. Buck</persName>! I'm too weak to get up__ and we
+          shall be compelled to "dissolve the Union".__</p>
+      </div>
+      <div type="image_transcription" n="8" facs="#whitehouse">
+        <head><supplied resp="editorial">Sign over doorway</supplied></head>
+        <p>WHITE-HOUSE</p>
+      </div>
+      <div type="image_transcription" n="9" facs="#date">
+        <head><supplied resp="editorial">Note</supplied></head>
+        <p><add><date when="1860">1860</date></add></p>
+      </div>
+    </body>
+  </text>
 </TEI>
