@@ -78,6 +78,7 @@
                   <relation name="depicted" active="ENT.000003331"/>
                   <relation name="depicted" active="ENT.000003344"/>
                   <relation name="depicted" active="ENT.000003333"/>
+                  <relation name="mentioned" active="ENT.000003677"/>
                   <relation name="depicted" active="cartoons_symbols.xml#rail"/>
                 </listRelation>
               </bibl>
@@ -158,6 +159,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
+      <change who="RachelMoloshok" when="2015-04-14">Added Wide Awake entity key to listRelation and text</change>
       <change who="RachelMoloshok" when="2015-04-08">Exported from Collective Access. Basic proofreading</change>
       <change who="RachelMoloshok" when="2015-04-07">Encoded to featured level</change>
       <change who="RachelMoloshok" when="2015-01-28">File encoded to basic level</change>
@@ -243,7 +245,7 @@
         <p>Gentlemen, if any of you should ever take a hand in another match at this game, remember
           that you must have "a good bat" and strike a "fair ball" to make a "clean score" &amp; a
           "home run"</p>
-        <p>WIDE AWAKE</p>
+        <p><orgName key="ENT.000003677">WIDE AWAKE</orgName></p>
         <p>EQUAL RIGHTS AND FREE TERRITORY</p>
       </div>
       <div type="image_transcription" n="6" facs="#home">
