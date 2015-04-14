@@ -1,0 +1,220 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+
+    <teiHeader xml:lang="English">
+
+        <fileDesc>
+
+            <titleStmt>
+                <title type="main">TEI transcription of Out on Parole--Scene--A Southern Forest</title>
+                <respStmt>
+                    <resp key="art">Artist</resp><persName key="ENT.000003682">F.B.</persName>
+                </respStmt>
+                <respStmt>
+                    <resp key="trc">Transcribed by</resp>
+                    <persName key="ENT.000003368"/>
+                </respStmt>
+                <respStmt>
+                    <resp key="mrk">Encoded by</resp>
+                    <persName key="ENT.000003368"/>
+                </respStmt>
+
+            </titleStmt>
+
+            <editionStmt>
+                <p>First edition, <date when="2015">2015</date></p>
+            </editionStmt>
+
+            <publicationStmt>
+                <publisher><orgName key="ENT.000002473">Historical Society of
+                    Pennsylvania</orgName></publisher>
+                <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
+                <idno type="filename">12305</idno>
+                <availability status="restricted">
+                    <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of
+                        copyright only to original contributions made by the Historic Images, New
+                        Technologies (HINT) Project participants and other staff. HSP makes no claim
+                        of copyright to the original text. Permission is granted to download,
+                        transmit or otherwise reproduce, distribute or display the text
+                        contributions to this work claimed by HSP for non-profit educational
+                        purposes, provided that this header is included in its entirety. For
+                        inquiries about commercial uses, please contact the Historical Society of
+                        Pennsylvania. HSP retains the rights of all images unless otherwise noted.
+                        Possession of an HSP digital image does not constitute permission to use or
+                        publish it. Requests for digital imaging, other reproduction services, and
+                        the intended use of reproductions must be made in writing to the Rights and
+                        Reproductions Coordinator at rnr@hsp.org.</p>
+                </availability>
+                <date when="2015"/>
+            </publicationStmt>
+
+            <seriesStmt>
+                <title level="s" type="project" key="CARTOONS"/>
+            </seriesStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository key="ENT.000002473"/>
+                        <collection key="3133"/>
+                        <idno type="citation">
+                            <idno type="box">1</idno>
+                            <idno type="folder">35</idno>
+                        </idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <bibl>
+                                <date from="1868-11-01" to="1868-11-30">November 1868</date>
+                                <extent>1 clipping</extent>
+                                <listRelation>
+                                    <relation name="depicted" active="ENT.000003599"/><!-- KKK -->
+                                    <relation name="depicted" active="cartoons_symbols.xml#dove"/>
+                                    <relation name="depicted" active="cartoons_symbols.xml#liberty_tree"/>
+                                </listRelation>
+                            </bibl>
+                        </msItem>
+                    </msContents>
+
+                    <history>
+                        <acquisition>This is an artificial collection created over time by HSP staff mostly through donations and purchases of individual prints. It also incorporates previously uncataloged materials collected by the Balch Institute for Ethnic Studies. Some of the 20th century cartoons and drawings were removed from the J. Hampton Moore papers (Collection 1541)."</acquisition>
+                    </history>
+                </msDesc>
+                <biblStruct>
+                    <analytic>
+                        <respStmt>
+                            <resp key="art">Artist</resp>
+                            <persName key="ENT.000003682"/>
+                        </respStmt>
+                        <title type="main" level="a">Out on Parole--Scene--A Southern Forest</title>
+                    </analytic>
+                    <monogr>
+                        <title type="marc245a" level="j"><orgName key="ENT.000003683">Frank Leslie's Budget of Fun</orgName></title>
+                        <imprint>
+                            <publisher><orgName key="ENT.000003683">Frank Leslie's Budget of Fun</orgName></publisher>
+                            <pubPlace>New York</pubPlace>
+                            <date from="1868-11-01" to="1868-11-30">November 1868</date>
+                            <biblScope unit="issue">128</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <projectDesc>
+                <p>The Historic Images, New Technologies (HINT) project aims to enhance description
+                    and discovery of the Historical Society of Pennsylvania's graphics materials and
+                    promote the linking and sharing of content among institutions and scholars. The
+                    project will result in an update to HSP's digital image viewer and an online
+                    digital history exhibit that will demonstrate the new viewer's capabilities and
+                    provide interpretive and contextual materials to encourage users to interact
+                    with historical images in new ways. This project was funded by a grant from the
+                    National Historical Publications and Records Commission's (NHPRC) Innovation in
+                    Archives and Documentary Editing program.</p>
+            </projectDesc>
+            <editorialDecl n="4">
+                <p>This electronic file was created using manual keying following the
+                    recommendations for Level 4 of "Best Practices for TEI in Libraries" guidelines
+                    v3.0.</p>
+                <p>This xml file uses unique entity identifiers, media file identifiers, and
+                    collection identifiers in HSP's Digital Library, available at
+                    http://digitallibrary.hsp.org.</p>
+
+            </editorialDecl>
+            <tagsDecl>
+                <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
+                <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
+                <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
+                <rendition scheme="css" xml:id="crossed-through">text-decoration:
+                    line-through</rendition>
+                <rendition scheme="other" xml:id="printed"/>
+                <rendition scheme="other" xml:id="typescript"/>
+                <rendition scheme="other" xml:id="handwritten"/>
+                <rendition scheme="other" xml:id="handwritten-underlined"/>
+                <rendition scheme="other" xml:id="handwritten-circled"/>
+                <rendition scheme="other" xml:id="handwritten-crossed-through"/>
+                <rendition scheme="other" xml:id="double-underline"/>
+                <rendition scheme="other" xml:id="stamp"/>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+        </encodingDesc>
+
+        <profileDesc>
+            <textClass>
+                <catRef target="cartoons_genres.xml#clippings"/>
+                <catRef target="cartoons_genres.xml#political_cartoons"/>
+                <catRef target="cartoons_taxonomies.xml#reconstruction"/>
+                <catRef target="cartoons_taxonomies.xml#lesson_plan"/>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change who="RachelMoloshok" when="2015-04-14">Basic encoding</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <facsimile>
+        <!-- ??The following text shows how to structure this section, but the URL information needs to be replaced with real text in order for this to validate. -->
+        <surface ulx="" uly="" lrx="" lry="">
+            <!-- Leave values for <surface> attributes blank; coordinates will be provided by Collective Access upon export. Use <surface> to contain <graphic> and <zone>. Use multiple <surface> elements as needed for multiple pages/images -->
+            <graphic url="FIL.000090276"/>
+            <zone n="1" xml:id="caption"/>
+            <zone n="2" xml:id="header"/>
+            <zone n="3" xml:id="snake"/>
+            <zone n="4" xml:id="dove"/>
+            <zone n="5" xml:id="peace"/>
+            <zone n="6" xml:id="tree"/>
+            <zone n="7" xml:id="initials"/>
+        </surface>
+    </facsimile>
+
+    <text>
+        <front>
+            <div type="editorial_desc">
+                <p><!-- Use this section to enter a BRIEF description of the image. --></p>
+            </div>
+        </front>
+
+        <body>
+            <div type="image_transcription" n="1" facs="#caption">
+                <head><supplied resp="editorial">Caption</supplied></head>
+                <p><hi rendition="#bold">OUT ON PAROLE—SCENE—A SOUTHERN FOREST.</hi></p>
+                <p>THE GODDESS OF PEACE, COMMISSIONED BY THE GREAT WHITE-HEADED EAGLE, SENT A MESSENGER BEARING AN OLIVE BRANCH TO ALL THE DENIZENS OF THE FOREST, BUT SCARCELY HAD IT PERCHED UPON A LIMB OF THE TREE OF LIBERTY THAN A HUGE PAROLED RATTLESNAKE WHOSE LIFE THE EAGLE HAD SAVED, GLIDED UP AND—</p>
+            </div>
+            <div type="image_transcription" n="2" facs="#header">
+                <head><supplied resp="editorial">Header</supplied></head>
+                <p>NEW YORK, NOVEMBER, 1868.</p>
+            </div>
+            <div type="image_transcription" n="3" facs="#snake">
+                <head><supplied resp="editorial">Rattlesnake</supplied></head>
+                <p>KU KLUX</p>
+            </div>
+            <div type="image_annotation" n="4" facs="#dove">
+                <head>Dove</head>
+                <p><!-- description --></p>
+            </div>
+            <div type="image_transcription" n="5" facs="#peace">
+                <head><supplied resp="editorial">Goddess of Peace</supplied></head>
+                <p>PEACE</p>
+            </div>
+            <div type="image_annotation" n="6" facs="#tree">
+                <head>Tree</head>
+                <p><!-- description --></p>
+            </div>
+            <div type="image_transcription" n="7" facs="#initials">
+                <head><supplied resp="editorial">Artist's initials</supplied></head>
+                <p>FB</p>
+            </div>
+        </body>
+
+        <back/>
+    </text>
+</TEI>
