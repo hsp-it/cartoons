@@ -1,337 +1,363 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 
 <?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="English">
+    <fileDesc>
+      <titleStmt>
+        <title type="main">TEI transcription of The Man That Blocks Up the Highway</title>
+        <author/>
+        <respStmt>
+          <resp key="art">artist</resp>
+          <persName key="ENT.000001003">Magee, John L.</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="trc">Transcribed by</resp>
+          <persName key="ENT.000003368">Moloshok, Rachel</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="mrk">Encoded by</resp>
+          <persName key="ENT.000003368">Moloshok, Rachel</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="pfr">Proofread by</resp>
+          <persName key="ENT.000003368">Moloshok, Rachel</persName>
+        </respStmt>
 
-
-    <teiHeader xml:lang="English">
-
-        <fileDesc>
-
-            <titleStmt>
-                <title type="main">TEI transcription of The Man That Blocks Up the Highway</title>
-                <respStmt>
-                    <resp key="art">Artist</resp>
-                    <persName key="ENT.000001003">Magee, John L.</persName>
-                </respStmt>
-                <respStmt>
-                    <resp key="trc">Transcribed by</resp>
-                    <persName key="ENT.00003368">Moloshok, Rachel</persName>
-                </respStmt>
-                <respStmt>
-                    <resp key="mrk">Encoded by</resp>
-                    <persName key="ENT.00003368">Moloshok, Rachel</persName>
-                </respStmt>
-
-            </titleStmt>
-
-            <editionStmt>
-                <p>First edition, <date when="2015">2015</date></p>
-            </editionStmt>
-
-            <publicationStmt>
-                <publisher><orgName key="ENT.000002473">Historical Society of
-                    Pennsylvania</orgName></publisher>
-                <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
-                <idno type="filename">12338</idno>
-                <availability status="restricted">
-                    <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of
-                        copyright only to original contributions made by the Historic Images, New
-                        Technologies (HINT) Project participants and other staff. HSP makes no claim
-                        of copyright to the original text. Permission is granted to download,
-                        transmit or otherwise reproduce, distribute or display the text
-                        contributions to this work claimed by HSP for non-profit educational
-                        purposes, provided that this header is included in its entirety. For
-                        inquiries about commercial uses, please contact the Historical Society of
-                        Pennsylvania. HSP retains the rights of all images unless otherwise noted.
-                        Possession of an HSP digital image does not constitute permission to use or
-                        publish it. Requests for digital imaging, other reproduction services, and
-                        the intended use of reproductions must be made in writing to the Rights and
-                        Reproductions Coordinator at rnr@hsp.org.</p>
-                </availability>
-                <date when="2015"/>
-            </publicationStmt>
-
-            <seriesStmt>
-                <title level="s" type="project" key="CARTOONS"/>
-            </seriesStmt>
-
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <repository key="ENT.000002473"/>
-                        <collection key="3133">Historical Society of Pennsylvania cartoons and
-                            caricatures collection</collection>
-                        <idno type="citation">
-                            <idno type="box">3</idno>
-                            <idno type="folder">19</idno>
-                        </idno>
-                    </msIdentifier>
-                    <msContents>
-                        <msItem>
-                            <bibl>
-                                <date from="1866-01-01" to="1866-12-31">1866</date>
-                                <extent>1 broadside</extent>
-                                <listRelation>
-                                    <relation name="depicted" active="ENT.000003356"/>
-                                    <!-- Johnson -->
-                                    <relation name="depicted" active="ENT.000003678"/>
-                                    <!-- Napoleon III -->
-                                    <relation name="depicted" active="ENT.000003283"/>
-                                    <!-- Seward -->
-                                    <relation name="depicted"
-                                        active="cartoons_symbols.xml#john_bull"/>
-                                    <relation name="depicted" active="cartoons_symbols.xml#donkey"/>
-                                    <relation name="mentioned" active="ENT.000003680"/>
-                                    <!-- Antony -->
-                                    <relation name="mentioned" active="ENT.000003679"/>
-                                    <!-- Caesar -->
-                                </listRelation>
-                            </bibl>
-                        </msItem>
-                    </msContents>
-
-                    <history>
-                        <acquisition>This is an artificial collection created over time by HSP staff
-                            mostly through donations and purchases of individual prints. It also
-                            incorporates previously uncataloged materials collected by the Balch
-                            Institute for Ethnic Studies. Some of the 20th century cartoons and
-                            drawings were removed from the J. Hampton Moore papers (Collection
-                            1541)."</acquisition>
-                    </history>
-                </msDesc>
-                <biblStruct>
-                    <monogr>
-                        <respStmt>
-                            <resp key="art">Artist</resp>
-                            <persName key="ENT.000001003">Magee, John L.</persName>
-                        </respStmt>
-                        <title type="main" level="m">The Man That Blocks Up the Highway</title>
-                        <imprint>
-                            <publisher><persName key="ENT.000001003">Magee, John
-                                L.</persName></publisher>
-                            <pubPlace>Philadelphia</pubPlace>
-                            <date from="1866-01-01" to="1866-12-31">1866</date>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
-
-            </sourceDesc>
-        </fileDesc>
-
-        <encodingDesc>
-            <projectDesc>
-                <p>The Historic Images, New Technologies (HINT) project aims to enhance description
-                    and discovery of the Historical Society of Pennsylvania's graphics materials and
-                    promote the linking and sharing of content among institutions and scholars. The
-                    project will result in an update to HSP's digital image viewer and an online
-                    digital history exhibit that will demonstrate the new viewer's capabilities and
-                    provide interpretive and contextual materials to encourage users to interact
-                    with historical images in new ways. This project was funded by a grant from the
-                    National Historical Publications and Records Commission's (NHPRC) Innovation in
-                    Archives and Documentary Editing program.</p>
-            </projectDesc>
-            <editorialDecl n="4">
-                <p>This electronic file was created using manual keying following the
-                    recommendations for Level 4 of "Best Practices for TEI in Libraries" guidelines
-                    v3.0.</p>
-                <p>This xml file uses unique entity identifiers, media file identifiers, and
-                    collection identifiers in HSP's Digital Library, available at
-                    http://digitallibrary.hsp.org.</p>
-
-            </editorialDecl>
-            <tagsDecl>
-                <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
-                <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
-                <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
-                <rendition scheme="css" xml:id="crossed-through">text-decoration:
-                    line-through</rendition>
-                <rendition scheme="other" xml:id="printed"/>
-                <rendition scheme="other" xml:id="typescript"/>
-                <rendition scheme="other" xml:id="handwritten"/>
-                <rendition scheme="other" xml:id="handwritten-underlined"/>
-                <rendition scheme="other" xml:id="handwritten-circled"/>
-                <rendition scheme="other" xml:id="handwritten-crossed-through"/>
-                <rendition scheme="other" xml:id="double-underline"/>
-                <rendition scheme="other" xml:id="stamp"/>
-                <namespace name="http://www.tei-c.org/ns/1.0">
-                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
-                </namespace>
-            </tagsDecl>
-        </encodingDesc>
-
-        <profileDesc>
-            <textClass>
-                <catRef target="cartoons_genres.xml#lithographs"/>
-                <catRef target="cartoons_genres.xml#political_cartoons"/>
-                <catRef target="cartoons_taxonomies.xml#reconstruction"/>
-                <catRef target="cartoons_taxonomies.xml#lesson_plan"/>
-                <catRef target="cartoons_taxonomies.xml#war"/>
-                <catRef target="cartoons_taxonomies.xml#slavery"/>
-                <catRef target="cartoons_taxonomies.xml#African_American"/>
-                <catRef target="cartoons_taxonomies.xml#laws"/>
-                <catRef target="cartoons_taxonomies.xml#culture"/>
-            </textClass>
-        </profileDesc>
-
-        <revisionDesc>
-            <change who="RachelMoloshok" when="2015-04-14">Featured encoding (for lesson plan
-                cartoon)</change>
-            <change who="RachelMoloshok" when="2015-04-14">Basic encoding</change>
-        </revisionDesc>
-    </teiHeader>
-
-    <facsimile>
-        <surface ulx="" uly="" lrx="" lry="">
-            <graphic url="FIL.000090275"/>
-            <zone n="2" xml:id="man1"/>
-            <zone n="3" xml:id="man2"/>
-            <zone n="4" xml:id="moustache"/>
-            <zone n="5" xml:id="johnson"/>
-            <zone n="6" xml:id="tophat1"/>
-            <zone n="7" xml:id="tophat2"/>
-            <zone n="8" xml:id="napoleon"/>
-            <zone n="9" xml:id="boxes"/>
-            <zone n="10" xml:id="johnson_sign"/>
-            <zone n="11" xml:id="reconstruction"/>
-            <zone n="12" xml:id="civil_rights"/>
-            <zone n="13" xml:id="freedmens"/>
-            <zone n="14" xml:id="veto"/>
-            <zone n="15" xml:id="seward"/>
-            <zone n="16" xml:id="john_bull"/>
-        </surface>
-    </facsimile>
-
-    <text>
-        <front>
-            <div type="editorial_desc">
-                <p>Men driving carriages labeled "Freedmen's Bureau," "Civil Rights," and
-                    "Reconstruction" find their road blocked by a large log labeled "Veto." In front
-                    of the roadblock stands US president Andrew Johnson, who in 1865 vetoed the
-                    Civil Rights Act (it eventually passed in spite of his veto) and pardoned former
-                    Confederates who swore allegiance to the United States. In 1866, Johnson also
-                    vetoed an updated version of a bill to authorize the Freedmen's Bureau, which
-                    was established in 1865 to aid and protect the rights of freed slaves. Johnson,
-                    standing at the center of the image, is depicted with donkey ears. He describes
-                    the carriage drivers as "Radical Republicans" and shakes the hand of a man he
-                    has pardoned for counterfeiting. At left, former Confederate soldiers shake
-                    their fists at the men driving the carriages as they boast of killing Union
-                    officers during the Civil War, threaten to whip and collar the Northerners, and
-                    declare loyalty to Johnson. Vice president William Seward, standing behind the
-                    Johnson, pours whiskey for the Southerners. At right, Emperor Napoleon III of
-                    France puts his arm around John Bull, symbolizing Great Britain, and expresses
-                    admiration for Johnson. Boxes of pardons and political appointments for
-                    Southerners stand at Napoleon and John Bull's feet. Behind the roadblock, the
-                    carriage drivers discuss ancient Roman tribunes, elected representatives of the
-                    people's rights. This cartoon criticizes Johnson's leniency toward the South in
-                    the aftermath of the Civil War, which many Northerners viewed as a betrayal, and
-                    his opposition to Radical Republican goals of assisting former slaves and
-                    ensuring equal rights for Americans, regardless of race.</p>
-            </div>
-        </front>
-
-        <body>
-            <div type="image_transcription" n="1" facs="#title">
-                <head><supplied resp="editorial">Title</supplied></head>
-                <p><hi rendition="#bold">THE MAN THAT BLOCKS UP THE HIGHWAY.</hi></p>
-                <p><persName key="ENT.000001003">J. L. MAGEE</persName>, PUBLISHER, SOUTH-EAST
-                    CORNER THIRD AND DOCK STS., PHILAD'A</p>
-            </div>
-            <div type="image_transcription" n="2" facs="#man1">
-                <head><supplied resp="editorial">Confederate man 1</supplied></head>
-                <p>I murdered one Major-General, and have just been pardoned. I've got two more
-                    Generals and a dozen others spotted, and as soon as I get home they go under the
-                    sod "That's so!"</p>
-            </div>
-            <div type="image_transcription" n="3" facs="#man2">
-                <head><supplied resp="editorial">Confederate man 2</supplied></head>
-                <p>You d—d Yankee hounds, just wait 'til we take our seats,—we'll give you Civil
-                    Rights—with the skin of a Cow, and an iron collar round your necks. We used the
-                    Lion's skin once, we'll use the Fox's next, and you'll find a live Tiger
-                    concealed in the folds. We'll tear your cursed hearts out. <persName
-                        key="ENT.000003356">Andy</persName>'s working all right for us. We're loyal
-                    now. Ha! Ha! Ha!</p>
-            </div>
-            <div type="image_transcription" n="4" facs="#moustache">
-                <head><supplied resp="editorial">Man shaking <persName key="ENT.000003356"
-                            >Johnson</persName>'s hand</supplied></head>
-                <p>I'm eternally obliged to you, Andy, for the Pardon you granted me. I made Fifty
-                    Thousand Dollars on that last batch of counterfeits for which I was convicted.
-                    I'll make a Hundred Thousand on the next lot. You kin bet on my vote, ole
-                    Pal!</p>
-            </div>
-            <div type="image_transcription" n="5" facs="#johnson">
-                <head><supplied resp="editorial"><persName key="ENT.000003356">Andrew
-                            Johnson</persName> (with <rs ref="cartoons_symbols.xml#donkey"
-                            >donkey</rs> ears)</supplied></head>
-                <p>This way, Gentlemen, this way, I am happy to take you by the hand. <persName
-                        key="ENT.000003283">Billy</persName>, hand around the whisky,—as to you
-                    Radical Republicans, not one of you shall pass over this road until you have
-                    first prostrated yourselves in the dust, and on bended knee, and with bated
-                    breath, offered up this prayer—<hi rendition="#italics">Andy Johnson is Great,
-                        and the Veto is his Prophet!</hi>—that's my Policy</p>
-            </div>
-            <div type="image_transcription" n="6" facs="#tophat1">
-                <head><supplied resp="editorial">Carriage driver 1</supplied></head>
-                <p>Them old ROMAN TRIBUTES was Great Men! <sic>Was n't</sic> they?</p>
-            </div>
-            <div type="image_transcription" n="7" facs="#tophat2">
-                <head><supplied resp="editorial">Carriage driver 2</supplied></head>
-                <p>Yes, Great Scoundrels, the most of them. <persName key="ENT.000003680">Mark
-                        Antony</persName> was one of them, and while he was continually blowing
-                    before the People about his great love for the Constitution, he was conspiring
-                    with <persName key="ENT.000003679">Caesar</persName> for the overthrow of the
-                    Republic, and finally succeeded. <hi rendition="#italics">These Tribunes will
-                        bear watching.</hi></p>
-            </div>
-            <div type="image_transcription" n="8" facs="#napoleon">
-                <head><supplied resp="editorial"><persName key="ENT.000003678">Napoleon
-                            III</persName></supplied></head>
-                <p>Vive La <persName key="ENT.000003356">Andre John'Stone</persName>! Vive La
-                    Emperor!! I am ze French Emperor, I have no Senate, no House. You shall have no
-                    Senate, no House. You shall be ze Emperor Americane! Vive La Emperor!!</p>
-            </div>
-            <div type="image_transcription" n="9" facs="#boxes">
-                <head><supplied resp="editorial">Boxes</supplied></head>
-                <p><sic>Southeren</sic> Appointments</p>
-                <p><sic>Southeren</sic> Pardons</p>
-            </div>
-            <div type="image_transcription" n="10" facs="#johnson_sign">
-                <head><supplied resp="editorial">Building sign</supplied></head>
-                <p><persName key="ENT.000003356">ANDY JOHNSON</persName>, Tribune of the People</p>
-            </div>
-            <div type="image_transcription" n="11" facs="#reconstruction">
-                <head><supplied resp="editorial">Carriage 1</supplied></head>
-                <p><gap/>STRUCTION.</p>
-            </div>
-            <div type="image_transcription" n="12" facs="#civil_rights">
-                <head><supplied resp="editorial">Carriage 2</supplied></head>
-                <p>CIVIL RIGHTS.</p>
-            </div>
-            <div type="image_transcription" n="13" facs="#freedmens">
-                <head><supplied resp="editorial">Carriage 3</supplied></head>
-                <p>FREEDMEN'S BU<gap/></p>
-            </div>
-            <div type="image_transcription" n="14" facs="#title">
-                <head><supplied resp="editorial">Roadblock</supplied></head>
-                <p>VETO</p>
-            </div>
-            <div type="image_annotation" n="15" facs="#seward">
-                <head><persName key="ENT.000003283">William Seward</persName></head>
-                <p>William Seward, <persName key="ENT.000003356">Andrew Johnson</persName>'s vice
-                    president, pours whiskey into a mug to serve to the Southerners. A jug of liquor
-                    and a picnic basket containing another bottle lie at his feet.</p>
-            </div>
-            <div type="image_annotation" n="16" facs="john_bull">
-                <head><rs ref="cartoons_symbols.xml#john_bull">John Bull</rs></head>
-                <p>Emperor <persName key="ENT.000003678">Napoleon III</persName> of France and John
-                    Bull, symbolizing Great Britain, look admiringly at <persName
-                        key="ENT.000003356">Andrew Johnson</persName>. Britain and France, to
-                    varying extents, were supportive of the Confederacy during the Civil War.</p>
-            </div>
-        </body>
-
-        <back/>
-    </text>
+        <respStmt>
+          <resp key="pbl">publisher</resp>
+          <persName key="ENT.000001003">Magee, John L.</persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <p>First edition, <date when="2015">2015</date></p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName key="ENT.000002473">Historical Society of Pennsylvania</orgName>
+        </publisher>
+        <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
+        <idno type="filename">12338</idno>
+        <availability status="restricted">
+          <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of copyright only
+            to original contributions made by the Historic Images, New Technologies (HINT) Project
+            participants and other staff. HSP makes no claim of copyright to the original text.
+            Permission is granted to download, transmit or otherwise reproduce, distribute or
+            display the text contributions to this work claimed by HSP for non-profit educational
+            purposes, provided that this header is included in its entirety. For inquiries about
+            commercial uses, please contact the Historical Society of Pennsylvania. HSP retains the
+            rights of all images unless otherwise noted. Possession of an HSP digital image does not
+            constitute permission to use or publish it. Requests for digital imaging, other
+            reproduction services, and the intended use of reproductions must be made in writing to
+            the Rights and Reproductions Coordinator at rnr@hsp.org.</p>
+        </availability>
+        <date when="2015">2015</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="project" key="CARTOONS">Historic Images, New Technologies (HINT)
+          Project</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository key="ENT.000002473">Historical Society of Pennsylvania</repository>
+            <collection key="3133">Historical Society of Pennsylvania cartoons and caricatures
+              collection</collection>
+            <idno type="citation">
+              <idno type="box">3</idno>
+              <idno type="folder">19</idno>
+            </idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <bibl>
+                <date from="1866-01-01" to="1866-12-31">1866</date>
+                <extent>1 broadside</extent>
+                <listRelation>
+                  <relation name="depicted" active="ENT.000003356"/>
+                  <relation name="depicted" active="ENT.000003678"/>
+                  <relation name="depicted" active="ENT.000003283"/>
+                  <relation name="mentioned" active="ENT.000003680"/>
+                  <relation name="mentioned" active="ENT.000003679"/>
+                  <relation name="depicted" active="cartoons_symbols.xml#john_bull"/>
+                  <relation name="depicted" active="cartoons_symbols.xml#donkey"/>
+                </listRelation>
+              </bibl>
+            </msItem>
+          </msContents>
+          <history>
+            <acquisition>This is an artificial collection created over time by HSP staff mostly
+              through donations and purchases of individual prints. It also incorporates previously
+              uncataloged materials collected by the Balch Institute for Ethnic Studies. Some of the
+              20th century cartoons and drawings were removed from the J. Hampton Moore papers
+              (Collection 1541)."</acquisition>
+          </history>
+        </msDesc>
+        <biblStruct>
+          <monogr>
+            <respStmt>
+              <resp key="art">artist</resp>
+              <persName key="ENT.000001003">Magee, John L.</persName>
+            </respStmt>
+            <respStmt>
+              <resp key="pbl">publisher</resp>
+              <persName key="ENT.000001003">Magee, John L.</persName>
+            </respStmt>
+            <title type="main" level="m">The Man That Blocks Up the Highway</title>
+            <imprint>
+              <pubPlace>Philadelphia</pubPlace>
+              <date from="1866-01-01" to="1866-12-31">1866</date>
+              <publisher>
+                <persName key="ENT.000001003">Magee, John L.</persName>
+              </publisher>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <bibl/>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The Historic Images, New Technologies (HINT) project aims to enhance description and
+          discovery of the Historical Society of Pennsylvania's graphics materials and promote the
+          linking and sharing of content among institutions and scholars. The project will result in
+          an update to HSP's digital image viewer and an online digital history exhibit that will
+          demonstrate the new viewer's capabilities and provide interpretive and contextual
+          materials to encourage users to interact with historical images in new ways. This project
+          was funded by a grant from the National Historical Publications and Records Commission's
+          (NHPRC) Innovation in Archives and Documentary Editing program.</p>
+      </projectDesc>
+      <editorialDecl n="4">
+        <p>This electronic file was created using manual keying following the recommendations for
+          Level 4 of "Best Practices for TEI in Libraries" guidelines v3.0.</p>
+        <p>This xml file uses unique entity identifiers, media file identifiers, and collection
+          identifiers in HSP's Digital Library, available at http://digitallibrary.hsp.org.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
+        <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
+        <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
+        <rendition scheme="css" xml:id="crossed-through">text-decoration: line-through</rendition>
+        <rendition scheme="other" xml:id="printed"/>
+        <rendition scheme="other" xml:id="typescript"/>
+        <rendition scheme="other" xml:id="handwritten"/>
+        <rendition scheme="other" xml:id="handwritten-underlined"/>
+        <rendition scheme="other" xml:id="handwritten-circled"/>
+        <rendition scheme="other" xml:id="handwritten-crossed-through"/>
+        <rendition scheme="other" xml:id="double-underline"/>
+        <rendition scheme="other" xml:id="stamp"/>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <catRef target="cartoons_genres.xml#lithographs"/>
+        <catRef target="cartoons_genres.xml#political_cartoons"/>
+        <catRef target="cartoons_taxonomies.xml#reconstruction"/>
+        <catRef target="cartoons_taxonomies.xml#lesson_plan"/>
+        <catRef target="cartoons_taxonomies.xml#war"/>
+        <catRef target="cartoons_taxonomies.xml#slavery"/>
+        <catRef target="cartoons_taxonomies.xml#African_American"/>
+        <catRef target="cartoons_taxonomies.xml#laws"/>
+        <catRef target="cartoons_taxonomies.xml#culture"/>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change who="RachelMoloshok" when="2015-04-14">Exported from Collective Access. Basic
+        proofreading.</change>
+      <change who="RachelMoloshok" when="2015-04-14">Featured encoding (for lesson plan
+        cartoon)</change>
+      <change who="RachelMoloshok" when="2015-04-14">Basic encoding</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="100" lry="100">
+      <graphic url="FIL.000090275"/>
+      <zone n="1" xml:id="title" points="31.74,85.36 72.11,85.87 72.11,90.75 31.74,90.36"/>
+      <zone n="2" xml:id="man1"
+        points="15.02,21.3 26.96,21.74 26.62,29.17 24.8,30.9 24.97,72.63 24.11,80.06 20.21,76.35 15.19,51.83 17.1,43.53 20.21,36.84 23.59,36.72 23.5,31.02 15.11,29.41"/>
+      <zone n="3" xml:id="man2"
+        points="23.2,9.76 36.51,9.71 36.3,20.57 34.02,21.19 34.13,34.38 36.3,37.64 32.61,47.72 33.59,82.48 23.72,79.07 21.87,50.83 23.93,43.22 25.13,36.71 32.39,35 32.28,21.04 23.5,21.04"/>
+      <zone n="4" xml:id="moustache"
+        points="35.99,11.75 47.72,11.75 47.72,21.75 41.32,22.76 42.74,55.13 42.39,57.84 39.78,58.69 41.24,82.08 31.49,79.82 32.2,47.5 35.52,41.4 38.48,38.01 38.84,22.93 35.99,21.24"/>
+      <zone n="5" xml:id="johnson"
+        points="47.5,9.07 60.49,9.07 60.59,21.42 47.41,22.08 46.95,31.91 51.4,33.77 53.72,44.39 55.85,54.88 52.24,82.5 44.35,78.64 42.68,58.6 40.45,55.14 45.83,48.11"/>
+      <zone n="6" xml:id="tophat1"
+        points="41.04,28.03 44.29,25.92 54.66,26.14 54.51,31.05 45.13,31.05 43.68,33.78 41.04,33.03"/>
+      <zone n="7" xml:id="tophat2"
+        points="60.07,11.62 71.6,11.52 71.32,22.3 42.42,23.14 40.65,27.04 42.66,35.51 40.53,38.23 34.96,35.85 35.55,20.26 39.22,20.77 60.07,20.09"/>
+      <zone n="8" xml:id="napoleon"
+        points="73.52,15.24 87.14,14.73 87.26,25.06 71.74,24.56 71.98,32.69 76.71,35.91 82.28,42.18 75.18,75.73 66.88,77.09 66.06,45.57 70.56,39.81 70.91,21.85 73.99,21.51"/>
+      <zone n="9" xml:id="boxes"
+        points="79.11,70.02 79.05,66.96 82.6,66.31 87.32,67.6 86.98,78.31 80.12,82.82 74.72,81.13 74.89,70.58"/>
+      <zone n="10" xml:id="johnson_sign" points="74.41,29.68 86.61,30.02 86.38,34.43 74.19,34.27"/>
+      <zone n="11" xml:id="reconstruction" points="58.72,32.86 64.72,32.93 65.08,34.85 58.77,35.08"/>
+      <zone n="12" xml:id="civil_rights" points="43.6,33.02 50.65,31.9 50.91,34.33 43.73,35.45"/>
+      <zone n="13" xml:id="freedmens" points="19.24,32.99 27.2,31.93 28.18,34.22 18.93,36.07"/>
+      <zone n="14" xml:id="veto" points="58.45,45.93 65.68,44.57 65.8,48.81 58.35,50.11"/>
+      <zone n="15" xml:id="seward"
+        points="52.24,41.01 57.24,41.01 58,49.83 60.66,52.65 59.91,55.68 58.21,57.05 58.62,63 58.14,76.85 54.8,79.39 51.87,77.63 52.68,68.17 54.19,64.85 53.57,58.8 54.46,53.34 53.57,47.29 52.21,44.85"/>
+      <zone n="16" xml:id="john_bull"
+        points="75.48,35.83 81.64,36.64 82.47,63.46 79.74,79.89 67.43,78.03 66.48,56.17"/>
+    </surface>
+  </facsimile>
+  <text>
+    <front>
+      <div type="editorial_desc">
+        <p>Men driving carriages labeled "Freedmen's Bureau," "Civil Rights," and "Reconstruction"
+          find their road blocked by a large log labeled "Veto." In front of the roadblock stands US
+          president Andrew Johnson, who in 1865 vetoed the Civil Rights Act (it eventually passed in
+          spite of his veto) and pardoned former Confederates who swore allegiance to the United
+          States. In 1866, Johnson also vetoed an updated version of a bill to authorize the
+          Freedmen's Bureau, which was established in 1865 to aid and protect the rights of freed
+          slaves. Johnson, standing at the center of the image, is depicted with donkey ears. He
+          describes the carriage drivers as "Radical Republicans" and shakes the hand of a man he
+          has pardoned for counterfeiting. At left, former Confederate soldiers shake their fists at
+          the men driving the carriages as they boast of killing Union officers during the Civil
+          War, threaten to whip and collar the Northerners, and declare loyalty to Johnson. Vice
+          president William Seward, standing behind the Johnson, pours whiskey for the Southerners.
+          At right, Emperor Napoleon III of France puts his arm around John Bull, symbolizing Great
+          Britain, and expresses admiration for Johnson. Boxes of pardons and political appointments
+          for Southerners stand at Napoleon and John Bull's feet. Behind the roadblock, the carriage
+          drivers discuss ancient Roman tribunes, elected representatives of the people's rights.
+          This cartoon criticizes Johnson's leniency toward the South in the aftermath of the Civil
+          War, which many Northerners viewed as a betrayal, and his opposition to Radical Republican
+          goals of assisting former slaves and ensuring equal rights for Americans, regardless of
+          race.</p>
+      </div>
+    </front>
+    <body>
+      <div type="image_transcription" n="1" facs="#title">
+        <head>
+          <supplied resp="editorial">Title</supplied>
+        </head>
+        <p>
+          <hi rendition="#bold">THE MAN THAT BLOCKS UP THE HIGHWAY.</hi>
+        </p>
+        <p><persName key="ENT.000001003">J. L. MAGEE</persName>, PUBLISHER, SOUTH-EAST CORNER THIRD
+          AND DOCK STS., PHILAD'A</p>
+      </div>
+      <div type="image_transcription" n="2" facs="#man1">
+        <head>
+          <supplied resp="editorial">Confederate man 1</supplied>
+        </head>
+        <p>I murdered one Major-General, and have just been pardoned. I've got two more Generals and
+          a dozen others spotted, and as soon as I get home they go under the sod "That's so!"</p>
+      </div>
+      <div type="image_transcription" n="3" facs="#man2">
+        <head>
+          <supplied resp="editorial">Confederate man 2</supplied>
+        </head>
+        <p>You d—d Yankee hounds, just wait 'til we take our seats,—we'll give you Civil Rights—with
+          the skin of a Cow, and an iron collar round your necks. We used the Lion's skin once,
+          we'll use the Fox's next, and you'll find a live Tiger concealed in the folds. We'll tear
+          your cursed hearts out. <persName key="ENT.000003356">Andy</persName>'s working all right
+          for us. We're loyal now. Ha! Ha! Ha!</p>
+      </div>
+      <div type="image_transcription" n="4" facs="#moustache">
+        <head>
+          <supplied resp="editorial">Man shaking <persName key="ENT.000003356">Johnson</persName>'s
+            hand</supplied>
+        </head>
+        <p>I'm eternally obliged to you, Andy, for the Pardon you granted me. I made Fifty Thousand
+          Dollars on that last batch of counterfeits for which I was convicted. I'll make a Hundred
+          Thousand on the next lot. You kin bet on my vote, ole Pal!</p>
+      </div>
+      <div type="image_transcription" n="5" facs="#johnson">
+        <head>
+          <supplied resp="editorial"><persName key="ENT.000003356">Andrew Johnson</persName> (with
+              <rs ref="cartoons_symbols.xml#donkey">donkey</rs> ears)</supplied>
+        </head>
+        <p>This way, Gentlemen, this way, I am happy to take you by the hand. <persName
+            key="ENT.000003283">Billy</persName>, hand around the whisky,—as to you Radical
+          Republicans, not one of you shall pass over this road until you have first prostrated
+          yourselves in the dust, and on bended knee, and with bated breath, offered up this
+            prayer—<hi rendition="#italics">Andy Johnson is Great, and the Veto is his
+          Prophet!</hi>—that's my Policy</p>
+      </div>
+      <div type="image_transcription" n="6" facs="#tophat1">
+        <head>
+          <supplied resp="editorial">Carriage driver 1</supplied>
+        </head>
+        <p>Them old ROMAN TRIBUTES was Great Men! <sic>Was n't</sic> they?</p>
+      </div>
+      <div type="image_transcription" n="7" facs="#tophat2">
+        <head>
+          <supplied resp="editorial">Carriage driver 2</supplied>
+        </head>
+        <p>Yes, Great Scoundrels, the most of them. <persName key="ENT.000003680">Mark
+            Antony</persName> was one of them, and while he was continually blowing before the
+          People about his great love for the Constitution, he was conspiring with <persName
+            key="ENT.000003679">Caesar</persName> for the overthrow of the Republic, and finally
+          succeeded. <hi rendition="#italics">These Tribunes will bear watching.</hi></p>
+      </div>
+      <div type="image_transcription" n="8" facs="#napoleon">
+        <head>
+          <supplied resp="editorial">
+            <persName key="ENT.000003678">Napoleon III</persName>
+          </supplied>
+        </head>
+        <p>Vive La <persName key="ENT.000003356">Andre John'Stone</persName>! Vive La Emperor!! I am
+          ze French Emperor, I have no Senate, no House. You shall have no Senate, no House. You
+          shall be ze Emperor Americane! Vive La Emperor!!</p>
+      </div>
+      <div type="image_transcription" n="9" facs="#boxes">
+        <head>
+          <supplied resp="editorial">Boxes</supplied>
+        </head>
+        <p><sic>Southeren</sic> Appointments</p>
+        <p><sic>Southeren</sic> Pardons</p>
+      </div>
+      <div type="image_transcription" n="10" facs="#johnson_sign">
+        <head>
+          <supplied resp="editorial">Building sign</supplied>
+        </head>
+        <p><persName key="ENT.000003356">ANDY JOHNSON</persName>, Tribune of the People</p>
+      </div>
+      <div type="image_transcription" n="11" facs="#reconstruction">
+        <head>
+          <supplied resp="editorial">Carriage 1</supplied>
+        </head>
+        <p><gap/>STRUCTION.</p>
+      </div>
+      <div type="image_transcription" n="12" facs="#civil_rights">
+        <head>
+          <supplied resp="editorial">Carriage 2</supplied>
+        </head>
+        <p>CIVIL RIGHTS.</p>
+      </div>
+      <div type="image_transcription" n="13" facs="#freedmens">
+        <head>
+          <supplied resp="editorial">Carriage 3</supplied>
+        </head>
+        <p>FREEDMEN'S BU<gap/></p>
+      </div>
+      <div type="image_transcription" n="14" facs="#veto">
+        <head>
+          <supplied resp="editorial">Roadblock</supplied>
+        </head>
+        <p>VETO</p>
+      </div>
+      <div type="image_annotation" n="15" facs="#seward">
+        <head>
+          <persName key="ENT.000003283">William Seward</persName>
+        </head>
+        <p>William Seward, <persName key="ENT.000003356">Andrew Johnson</persName>'s vice president,
+          pours whiskey into a mug to serve to the Southerners. A jug of liquor and a picnic basket
+          containing another bottle lie at his feet.</p>
+      </div>
+      <div type="image_annotation" n="16" facs="john_bull">
+        <head>
+          <rs ref="cartoons_symbols.xml#john_bull">John Bull</rs>
+        </head>
+        <p>Emperor <persName key="ENT.000003678">Napoleon III</persName> of France and John Bull,
+          symbolizing Great Britain, look admiringly at <persName key="ENT.000003356">Andrew
+            Johnson</persName>. Britain and France, to varying extents, were supportive of the
+          Confederacy during the Civil War.</p>
+      </div>
+    </body>
+  </text>
 </TEI>
