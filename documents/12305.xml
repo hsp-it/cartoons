@@ -1,233 +1,250 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 
 <?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-
-
-    <teiHeader xml:lang="English">
-
-        <fileDesc>
-
-            <titleStmt>
-                <title type="main">TEI transcription of Out on Parole--Scene--A Southern Forest</title>
-                <respStmt>
-                    <resp key="art">Artist</resp><persName key="ENT.000003682">F.B.</persName>
-                </respStmt>
-                <respStmt>
-                    <resp key="trc">Transcribed by</resp>
-                    <persName key="ENT.000003368"/>
-                </respStmt>
-                <respStmt>
-                    <resp key="mrk">Encoded by</resp>
-                    <persName key="ENT.000003368"/>
-                </respStmt>
-
-            </titleStmt>
-
-            <editionStmt>
-                <p>First edition, <date when="2015">2015</date></p>
-            </editionStmt>
-
-            <publicationStmt>
-                <publisher><orgName key="ENT.000002473">Historical Society of
-                    Pennsylvania</orgName></publisher>
-                <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
-                <idno type="filename">12305</idno>
-                <availability status="restricted">
-                    <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of
-                        copyright only to original contributions made by the Historic Images, New
-                        Technologies (HINT) Project participants and other staff. HSP makes no claim
-                        of copyright to the original text. Permission is granted to download,
-                        transmit or otherwise reproduce, distribute or display the text
-                        contributions to this work claimed by HSP for non-profit educational
-                        purposes, provided that this header is included in its entirety. For
-                        inquiries about commercial uses, please contact the Historical Society of
-                        Pennsylvania. HSP retains the rights of all images unless otherwise noted.
-                        Possession of an HSP digital image does not constitute permission to use or
-                        publish it. Requests for digital imaging, other reproduction services, and
-                        the intended use of reproductions must be made in writing to the Rights and
-                        Reproductions Coordinator at rnr@hsp.org.</p>
-                </availability>
-                <date when="2015"/>
-            </publicationStmt>
-
-            <seriesStmt>
-                <title level="s" type="project" key="CARTOONS"/>
-            </seriesStmt>
-
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <repository key="ENT.000002473"/>
-                        <collection key="3133"/>
-                        <idno type="citation">
-                            <idno type="box">1</idno>
-                            <idno type="folder">35</idno>
-                        </idno>
-                    </msIdentifier>
-                    <msContents>
-                        <msItem>
-                            <bibl>
-                                <date from="1868-11-01" to="1868-11-30">November 1868</date>
-                                <extent>1 clipping</extent>
-                                <listRelation>
-                                    <relation name="depicted" active="ENT.000003599"/><!-- KKK -->
-                                    <relation name="depicted" active="cartoons_symbols.xml#dove"/>
-                                    <relation name="depicted" active="cartoons_symbols.xml#liberty_tree"/>
-                                </listRelation>
-                            </bibl>
-                        </msItem>
-                    </msContents>
-
-                    <history>
-                        <acquisition>This is an artificial collection created over time by HSP staff mostly through donations and purchases of individual prints. It also incorporates previously uncataloged materials collected by the Balch Institute for Ethnic Studies. Some of the 20th century cartoons and drawings were removed from the J. Hampton Moore papers (Collection 1541)."</acquisition>
-                    </history>
-                </msDesc>
-                <biblStruct>
-                    <analytic>
-                        <respStmt>
-                            <resp key="art">Artist</resp>
-                            <persName key="ENT.000003682">F.B.</persName>
-                        </respStmt>
-                        <title type="main" level="a">Out on Parole--Scene--A Southern Forest</title>
-                    </analytic>
-                    <monogr>
-                        <title type="marc245a" level="j"><orgName key="ENT.000003683">Frank Leslie's Budget of Fun</orgName></title>
-                        <imprint>
-                            <publisher><orgName key="ENT.000003683">Frank Leslie's Budget of Fun</orgName></publisher>
-                            <pubPlace>New York</pubPlace>
-                            <date from="1868-11-01" to="1868-11-30">November 1868</date>
-                            <biblScope unit="issue">128</biblScope>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
-
-            </sourceDesc>
-        </fileDesc>
-
-        <encodingDesc>
-            <projectDesc>
-                <p>The Historic Images, New Technologies (HINT) project aims to enhance description
-                    and discovery of the Historical Society of Pennsylvania's graphics materials and
-                    promote the linking and sharing of content among institutions and scholars. The
-                    project will result in an update to HSP's digital image viewer and an online
-                    digital history exhibit that will demonstrate the new viewer's capabilities and
-                    provide interpretive and contextual materials to encourage users to interact
-                    with historical images in new ways. This project was funded by a grant from the
-                    National Historical Publications and Records Commission's (NHPRC) Innovation in
-                    Archives and Documentary Editing program.</p>
-            </projectDesc>
-            <editorialDecl n="4">
-                <p>This electronic file was created using manual keying following the
-                    recommendations for Level 4 of "Best Practices for TEI in Libraries" guidelines
-                    v3.0.</p>
-                <p>This xml file uses unique entity identifiers, media file identifiers, and
-                    collection identifiers in HSP's Digital Library, available at
-                    http://digitallibrary.hsp.org.</p>
-
-            </editorialDecl>
-            <tagsDecl>
-                <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
-                <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
-                <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
-                <rendition scheme="css" xml:id="crossed-through">text-decoration:
-                    line-through</rendition>
-                <rendition scheme="other" xml:id="printed"/>
-                <rendition scheme="other" xml:id="typescript"/>
-                <rendition scheme="other" xml:id="handwritten"/>
-                <rendition scheme="other" xml:id="handwritten-underlined"/>
-                <rendition scheme="other" xml:id="handwritten-circled"/>
-                <rendition scheme="other" xml:id="handwritten-crossed-through"/>
-                <rendition scheme="other" xml:id="double-underline"/>
-                <rendition scheme="other" xml:id="stamp"/>
-                <namespace name="http://www.tei-c.org/ns/1.0">
-                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
-                </namespace>
-            </tagsDecl>
-        </encodingDesc>
-
-        <profileDesc>
-            <textClass>
-                <catRef target="cartoons_genres.xml#clippings"/>
-                <catRef target="cartoons_genres.xml#political_cartoons"/>
-                <catRef target="cartoons_taxonomies.xml#reconstruction"/>
-                <catRef target="cartoons_taxonomies.xml#lesson_plan"/>
-            </textClass>
-        </profileDesc>
-
-        <revisionDesc>
-            <change who="RachelMoloshok" when="2015-04-15">Featured encoding (for lesson plan cartoon)</change>
-            <change who="RachelMoloshok" when="2015-04-14">Basic encoding</change>
-        </revisionDesc>
-    </teiHeader>
-
-    <facsimile>
-        <surface ulx="" uly="" lrx="" lry="">
-            <graphic url="FIL.000090276"/>
-            <zone n="1" xml:id="caption"/>
-            <zone n="2" xml:id="header"/>
-            <zone n="3" xml:id="snake"/>
-            <zone n="4" xml:id="dove"/>
-            <zone n="5" xml:id="peace"/>
-            <zone n="6" xml:id="tree"/>
-            <zone n="7" xml:id="initials"/>
-        </surface>
-    </facsimile>
-
-    <text>
-        <front>
-            <div type="editorial_desc">
-                <p>At the center of this cartoon, set in the middle of a forest in the southern
-                    United States, a giant rattlesnake labeled "Ku Klux" opens its mouth wide to
-                    devour an unsuspecting white dove with an olive branch in its beak, perched on a
-                    branch of a tree identified in the caption as "the tree of liberty." In the
-                    right background, a woman with a cap labeled "Peace" emerges from the trees and
-                    witnesses the scene, clasping her hands together in apparent distress. The
-                    caption of the cartoon explains to readers that the woman is the goddess of
-                    peace who has sent the dove as a messenger to all creatures in the forest, at
-                    the behest of a "great white-headed eagle" (presumably, the United States) who
-                    had saved the rattlesnake's life in the past. The rattlesnake is on "parole"
-                    (temporary release based on the promise of good behavior) after past crimes but
-                    has not given up its old ways. This cartoon comments on the rise of the Ku Klux
-                    Klan in the South in the aftermath of the Civil War. The rise of the Klan and
-                    the violence its members perpetuated, the cartoon argues, threatened the peace
-                    established in the United States after the end of the war.</p>
-            </div>
-        </front>
-
-        <body>
-            <div type="image_transcription" n="1" facs="#caption">
-                <head><supplied resp="editorial">Caption</supplied></head>
-                <p><hi rendition="#bold">OUT ON PAROLE—SCENE—A SOUTHERN FOREST.</hi></p>
-                <p>THE GODDESS OF PEACE, COMMISSIONED BY THE GREAT WHITE-HEADED EAGLE, SENT <rs ref="cartoons_symbols.xml#dove">A MESSENGER BEARING AN OLIVE BRANCH</rs> TO ALL THE DENIZENS OF THE FOREST, BUT SCARCELY HAD IT PERCHED UPON A LIMB OF THE <rs ref="cartoons_symbols.xml#liberty_tree">TREE OF LIBERTY</rs> THAN A HUGE PAROLED RATTLESNAKE WHOSE LIFE THE EAGLE HAD SAVED, GLIDED UP AND—</p>
-            </div>
-            <div type="image_transcription" n="2" facs="#header">
-                <head><supplied resp="editorial">Header</supplied></head>
-                <p>NEW YORK, <date when="1868-11">NOVEMBER, 1868</date>.</p>
-            </div>
-            <div type="image_transcription" n="3" facs="#snake">
-                <head><supplied resp="editorial">Rattlesnake</supplied></head>
-                <p><orgName key="ENT.000003599">KU KLUX</orgName></p>
-            </div>
-            <div type="image_annotation" n="4" facs="#dove">
-                <head><rs ref="cartoons_symbols.xml#dove">Dove</rs></head>
-                <p>The dove and the olive branch are widely recognized symbols of peace. In this cartoon, the dove appears oblivious to the threat posed by the rattlesnake, who is about to attack it from behind.</p>
-            </div>
-            <div type="image_transcription" n="5" facs="#peace">
-                <head><supplied resp="editorial">Goddess of Peace</supplied></head>
-                <p>PEACE</p>
-            </div>
-            <div type="image_annotation" n="6" facs="#tree">
-                <head>Tree</head>
-                <p>The caption of this cartoon identifies this tree, which provides a resting place for the <rs ref="cartoons_symbols.xml#dove">dove</rs> of peace, as <rs ref="cartoons_symbols.xml#liberty_tree">"the tree of liberty."</rs></p>
-            </div>
-            <div type="image_transcription" n="7" facs="#initials">
-                <head><supplied resp="editorial">Artist's initials</supplied></head>
-                <p><persName key="ENT.000003682">FB</persName></p>
-            </div>
-        </body>
-
-        <back/>
-    </text>
+  <teiHeader xml:lang="English">
+    <fileDesc>
+      <titleStmt>
+        <title type="main">TEI transcription of Out on Parole--Scene--A Southern Forest</title>
+        <author/>
+        <respStmt>
+          <resp key="art">artist</resp>
+          <persName key="ENT.000003682">F.B.</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="trc">Transcribed by</resp>
+          <persName key="ENT.000003368">Moloshok, Rachel</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="mrk">Encoded by</resp>
+          <persName key="ENT.000003368">Moloshok, Rachel</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="pfr">Proofread by</resp>
+          <persName key="ENT.000003368">Moloshok, Rachel</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="pbl">publisher</resp>
+          <orgName key="ENT.000003683">Frank Leslie's Budget of Fun</orgName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <p>First edition, <date when="2015">2015</date></p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher><orgName key="ENT.000002473">Historical Society of
+          Pennsylvania</orgName></publisher>
+        <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
+        <idno type="filename">12305</idno>
+        <availability status="restricted">
+          <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of copyright only
+            to original contributions made by the Historic Images, New Technologies (HINT) Project
+            participants and other staff. HSP makes no claim of copyright to the original text.
+            Permission is granted to download, transmit or otherwise reproduce, distribute or
+            display the text contributions to this work claimed by HSP for non-profit educational
+            purposes, provided that this header is included in its entirety. For inquiries about
+            commercial uses, please contact the Historical Society of Pennsylvania. HSP retains the
+            rights of all images unless otherwise noted. Possession of an HSP digital image does not
+            constitute permission to use or publish it. Requests for digital imaging, other
+            reproduction services, and the intended use of reproductions must be made in writing to
+            the Rights and Reproductions Coordinator at rnr@hsp.org.</p>
+        </availability>
+        <date when="2015">2015</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="project" key="CARTOONS">Historic Images, New Technologies (HINT)
+          Project</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository key="ENT.000002473">Historical Society of Pennsylvania</repository>
+            <collection key="3133">Historical Society of Pennsylvania cartoons and caricatures
+              collection</collection>
+            <idno type="citation">
+              <idno type="box">1</idno>
+              <idno type="folder">35</idno>
+            </idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <bibl>
+                <date from="1868-11-01" to="1868-11-30">November 1868</date>
+                <extent>1 clipping</extent>
+                <extent>
+                  <dimensions type="image" unit="cm"/>
+                  <height quantity="28"/>
+                  <width quantity="24.5"/>
+                </extent>
+                <listRelation>
+                  <relation name="depicted" active="ENT.000003599"/>
+                  <relation name="depicted" active="cartoons_symbols.xml#dove"/>
+                  <relation name="depicted" active="cartoons_symbols.xml#liberty_tree"/>
+                </listRelation>
+              </bibl>
+            </msItem>
+          </msContents>
+          <history>
+            <acquisition>This is an artificial collection created over time by HSP staff mostly
+              through donations and purchases of individual prints. It also incorporates previously
+              uncataloged materials collected by the Balch Institute for Ethnic Studies. Some of the
+              20th century cartoons and drawings were removed from the J. Hampton Moore papers
+              (Collection 1541)."</acquisition>
+          </history>
+        </msDesc>
+        <biblStruct>
+          <analytic>
+            <respStmt>
+              <resp key="art">artist</resp>
+              <persName key="ENT.000003682">F.B.</persName>
+            </respStmt>
+            <respStmt>
+              <resp key="pbl">publisher</resp>
+              <orgName key="ENT.000003683">Frank Leslie's Budget of Fun</orgName>
+            </respStmt>
+            <title type="main" level="a">Out on Parole--Scene--A Southern Forest</title>
+            <date from="1868-11-01" to="1868-11-30">November 1868</date>
+          </analytic>
+          <monogr>
+            <title type="marc245a" level="j"><orgName key="ENT.000003683">Frank Leslie's Budget of
+                Fun</orgName></title>
+            <imprint>
+              <pubPlace>New York</pubPlace>
+              <date from="1868-11-01" to="1868-11-30">November 1868</date>
+              <biblScope unit="issue">128</biblScope>
+              <publisher>
+                <orgName key="ENT.000003683">Frank Leslie's Budget of Fun</orgName>
+              </publisher>
+            </imprint>
+          </monogr>
+        </biblStruct>
+        <bibl/>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The Historic Images, New Technologies (HINT) project aims to enhance description and
+          discovery of the Historical Society of Pennsylvania's graphics materials and promote the
+          linking and sharing of content among institutions and scholars. The project will result in
+          an update to HSP's digital image viewer and an online digital history exhibit that will
+          demonstrate the new viewer's capabilities and provide interpretive and contextual
+          materials to encourage users to interact with historical images in new ways. This project
+          was funded by a grant from the National Historical Publications and Records Commission's
+          (NHPRC) Innovation in Archives and Documentary Editing program.</p>
+      </projectDesc>
+      <editorialDecl n="4">
+        <p>This electronic file was created using manual keying following the recommendations for
+          Level 4 of "Best Practices for TEI in Libraries" guidelines v3.0.</p>
+        <p>This xml file uses unique entity identifiers, media file identifiers, and collection
+          identifiers in HSP's Digital Library, available at http://digitallibrary.hsp.org.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
+        <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
+        <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
+        <rendition scheme="css" xml:id="crossed-through">text-decoration: line-through</rendition>
+        <rendition scheme="other" xml:id="printed"/>
+        <rendition scheme="other" xml:id="typescript"/>
+        <rendition scheme="other" xml:id="handwritten"/>
+        <rendition scheme="other" xml:id="handwritten-underlined"/>
+        <rendition scheme="other" xml:id="handwritten-circled"/>
+        <rendition scheme="other" xml:id="handwritten-crossed-through"/>
+        <rendition scheme="other" xml:id="double-underline"/>
+        <rendition scheme="other" xml:id="stamp"/>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <catRef target="cartoons_genres.xml#clippings"/>
+        <catRef target="cartoons_genres.xml#political_cartoons"/>
+        <catRef target="cartoons_taxonomies.xml#reconstruction"/>
+        <catRef target="cartoons_taxonomies.xml#lesson_plan"/>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change who="RachelMoloshok" when="2015-04-15">Exported from Collective Access. Basic
+        proofreading</change>
+      <change who="RachelMoloshok" when="2015-04-15">Featured encoding (for lesson plan
+        cartoon)</change>
+      <change who="RachelMoloshok" when="2015-04-14">Basic encoding</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="100" lry="100">
+      <graphic url="FIL.000090276"/>
+      <zone n="1" xml:id="caption" points="1.84,91 95.27,91 95.44,97.17 2.18,97.31"/>
+      <zone n="2" xml:id="header" points="35.12,2.08 64.46,2.21 64.69,4.83 34.97,4.83"/>
+      <zone n="3" xml:id="snake"
+        points="44.97,30.57 50.44,29.05 58.53,30.19 53.94,37.78 58.09,43.09 52.85,43.65 46.94,41.19 47.16,44.22 57.88,47.83 65.09,54.27 64.22,60.15 58.75,63.19 47.16,66.03 62.69,66.6 74.72,67.93 83.25,70.77 86.96,75.13 85.65,80.25 81.93,83.1 67.28,83.67 51.1,85.94 43,77.79 52.85,81.77 64,78.17 70.12,76.84 33.6,76.27 27.48,74.37 21.57,70.58 20.04,66.41 20.92,63 28.45,58.78 37.54,56.17 50.44,55.41 52.41,52.76 46.94,50.29 41.04,46.12 40.38,40.81"/>
+      <zone n="4" xml:id="dove" points="56.62,30.18 65.48,30.48 65.83,36.24 59.42,40.08 54.29,40.29"/>
+      <zone n="5" xml:id="peace"
+        points="74.6,12.41 78.79,12.41 79.38,14.53 78.56,17.16 81.94,19.89 84.04,31.51 80.89,42.12 83.46,46.87 72.85,46.57 70.87,31.61 71.92,26.46 70.99,24.84 70.99,18.88 73.9,17.57 72.97,15.04"/>
+      <zone n="6" xml:id="tree"
+        points="2.49,5.06 55.3,5.62 56.75,17.68 38.64,21.2 41.35,29.86 78.93,37.93 71.99,44.83 42.71,37.05 62.99,60.9 22.06,58.19 15.8,39.69 17.66,27.81 3.95,27.51"/>
+      <zone n="7" xml:id="initials" points="90.56,87.17 96.29,88 88.21,91.45"/>
+    </surface>
+  </facsimile>
+  <text>
+    <front>
+      <div type="editorial_desc">
+        <p>At the center of this cartoon, set in the middle of a forest in the southern United
+          States, a giant rattlesnake labeled "Ku Klux" opens its mouth wide to devour an
+          unsuspecting white dove with an olive branch in its beak, perched on a branch of a tree
+          identified in the caption as "the tree of liberty." In the right background, a woman with
+          a cap labeled "Peace" emerges from the trees and witnesses the scene, clasping her hands
+          together in apparent distress. The caption of the cartoon explains to readers that the
+          woman is the goddess of peace who has sent the dove as a messenger to all creatures in the
+          forest, at the behest of a "great white-headed eagle" (presumably, the United States) who
+          had saved the rattlesnake's life in the past. The rattlesnake is on "parole" (temporary
+          release based on the promise of good behavior) after past crimes but has not given up its
+          old ways. This cartoon comments on the rise of the Ku Klux Klan in the South in the
+          aftermath of the Civil War. The rise of the Klan and the violence its members perpetuated,
+          the cartoon argues, threatened the peace established in the United States after the end of
+          the war.</p>
+      </div>
+    </front>
+    <body>
+      <div type="image_transcription" n="1" facs="#caption">
+        <head><supplied resp="editorial">Caption</supplied></head>
+        <p><hi rendition="#bold">OUT ON PAROLE—SCENE—A SOUTHERN FOREST.</hi></p>
+        <p>THE GODDESS OF PEACE, COMMISSIONED BY THE GREAT WHITE-HEADED EAGLE, SENT <rs
+            ref="cartoons_symbols.xml#dove">A MESSENGER BEARING AN OLIVE BRANCH</rs> TO ALL THE
+          DENIZENS OF THE FOREST, BUT SCARCELY HAD IT PERCHED UPON A LIMB OF THE <rs
+            ref="cartoons_symbols.xml#liberty_tree">TREE OF LIBERTY</rs> THAN A HUGE PAROLED
+          RATTLESNAKE WHOSE LIFE THE EAGLE HAD SAVED, GLIDED UP AND—</p>
+      </div>
+      <div type="image_transcription" n="2" facs="#header">
+        <head><supplied resp="editorial">Header</supplied></head>
+        <p>NEW YORK, <date when="1868-11">NOVEMBER, 1868</date>.</p>
+      </div>
+      <div type="image_transcription" n="3" facs="#snake">
+        <head><supplied resp="editorial">Rattlesnake</supplied></head>
+        <p><orgName key="ENT.000003599">KU KLUX</orgName></p>
+      </div>
+      <div type="image_annotation" n="4" facs="#dove">
+        <head><rs ref="cartoons_symbols.xml#dove">Dove</rs></head>
+        <p>The dove and the olive branch are widely recognized symbols of peace. In this cartoon,
+          the dove appears oblivious to the threat posed by the rattlesnake, who is about to attack
+          it from behind.</p>
+      </div>
+      <div type="image_transcription" n="5" facs="#peace">
+        <head><supplied resp="editorial">Goddess of Peace</supplied></head>
+        <p>PEACE</p>
+      </div>
+      <div type="image_annotation" n="6" facs="#tree">
+        <head>Tree</head>
+        <p>The caption of this cartoon identifies this tree, which provides a resting place for the
+            <rs ref="cartoons_symbols.xml#dove">dove</rs> of peace, as <rs
+            ref="cartoons_symbols.xml#liberty_tree">"the tree of liberty."</rs></p>
+      </div>
+      <div type="image_transcription" n="7" facs="#initials">
+        <head><supplied resp="editorial">Artist's initials</supplied></head>
+        <p><persName key="ENT.000003682">FB</persName></p>
+      </div>
+    </body>
+  </text>
 </TEI>
