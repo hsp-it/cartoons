@@ -11,23 +11,28 @@
                 <title type="main">TEI transcription of Let us have Peace, Now A President's
                     Elected</title>
                 <respStmt>
-                    <resp key="art">Artist</resp>
-                    <persName key="ENT.000000379">Joseph Keppler</persName>
+                    <resp key="art">artist</resp>
+                    <persName key="ENT.000000379">Keppler, Joseph Ferdinand, 1838-1894</persName>
                 </respStmt>
 
+                <respStmt>
+                    <resp key="trc">Transcribed by</resp>
+                    <persName key="ENT.000003544">Biunno, Diane</persName>
+                </respStmt>
+
+                <respStmt>
+                    <resp key="mrk">Encoded by</resp>
+                    <persName key="ENT.000003544">Biunno, Diane</persName>
+                </respStmt>
+                <respStmt>
+                    <resp key="pbl">publisher</resp>
+                    <orgName key="ENT.000003163">Keppler &amp; Schwarzmann</orgName>
+                </respStmt>
                 <respStmt>
                     <resp key="ltg">Lithographer</resp>
                     <orgName key="ENT.000000380">Mayer, Merkel &amp; Ottomann</orgName>
                 </respStmt>
 
-                <respStmt>
-                    <resp key="trc">Transcribed by</resp>
-                    <persName key="ENT.000003544">Diane Biunno</persName>
-                </respStmt>
-                <respStmt>
-                    <resp key="mrk">Encoded by</resp>
-                    <persName key="ENT.000003544">Diane Biunno</persName>
-                </respStmt>
 
             </titleStmt>
 
@@ -55,17 +60,19 @@
                         the intended use of reproductions must be made in writing to the Rights and
                         Reproductions Coordinator at rnr@hsp.org.</p>
                 </availability>
-                <date when="2015"/>
+                <date when="2015">2015</date>
             </publicationStmt>
 
             <seriesStmt>
-                <title level="s" type="project" key="CARTOONS"/>
+                <title level="s" type="project" key="CARTOONS">Historic Images, New Technologies
+                    (HINT) Project</title>
             </seriesStmt>
 
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <repository key="ENT.000002473"/>
+                        <repository key="ENT.000002473">Historical Society of
+                            Pennsylvania</repository>
                         <collection key="3133">Historical Society of Pennsylvania cartoons and
                             caricatures collection</collection>
                         <idno type="citation">
@@ -112,32 +119,36 @@
                 <biblStruct>
                     <analytic>
                         <respStmt>
-                            <resp key="art">Artist</resp>
-                            <persName key="ENT.000000379">Joseph Keppler</persName>
+                            <resp key="art">artist</resp>
+                            <persName key="ENT.000000379">Keppler, Joseph Ferdinand,
+                                1838-1894</persName>
 
                         </respStmt>
 
                         <respStmt>
                             <resp key="ltg">Lithographer</resp>
-                            <orgName key="ENT.000000380">Mayer, Merkel &amp; Ottmann </orgName>
+                            <orgName key="ENT.000000380">Mayer, Merkel &amp; Ottomann</orgName>
                         </respStmt>
 
-                        <title type="main" level="a">Let us have Peace, Now A President's Elected
-                        </title>
+                        <respStmt>
+                            <resp key="pbl">publisher</resp>
+                            <orgName key="ENT.000003163">Keppler &amp; Schwarzmann</orgName>
+                        </respStmt>
+                        <title type="main" level="a">Let us have Peace, Now A President's Elected </title>
+                        <date from="1880-11-03">November 3, 1880</date>
                     </analytic>
                     <monogr>
                         <title type="marc245a" level="j"><orgName key="ENT.000000384"
-                            >Puck</orgName>
-                        </title>
+                            >Puck</orgName></title>
                         <imprint>
-                            <publisher>
-                                <orgName key="ENT.000003163">Keppler &amp; Schwarzmann</orgName>
-                            </publisher>
                             <pubPlace>New York</pubPlace>
-                            <date when="1880-11-03">November 3, 1880 </date>
+                            <date from="1880-11-03">November 3, 1880 </date>
                             <biblScope unit="volume">8</biblScope>
                             <biblScope unit="issue">191</biblScope>
 
+                            <publisher>
+                                <orgName key="ENT.000003163">Keppler &amp; Schwarzmann</orgName>
+                            </publisher>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -158,7 +169,6 @@
                     Archives and Documentary Editing program.</p>
             </projectDesc>
             <editorialDecl n="4">
-                <p><!-- ??This is where we'd describe any notable editorial decisions made about THIS document during encoding; use multiple p elements to list each. FYI, the @n of "4" shows that we're matching Library Best Practices of level 4.--></p>
                 <p>This electronic file was created using manual keying following the
                     recommendations for Level 4 of "Best Practices for TEI in Libraries" guidelines
                     v3.0.</p>
@@ -189,49 +199,72 @@
 
         <profileDesc>
             <textClass>
+                <catRef target="cartoons_genres.xml#political_cartoons"/>
+                <catRef target="cartoons_genres.xml#chromolithographs"/>
+                <catRef target="cartoons_genres.xml#clippings"/>
                 <catRef target="cartoons_taxonomies.xml#featured"/>
                 <catRef target="cartoons_taxonomies.xml#gilded"/>
                 <catRef target="cartoons_taxonomies.xml#elections"/>
-                <catRef target="cartoon_genres.xml#Lithographs"/>
-
             </textClass>
         </profileDesc>
 
         <revisionDesc>
-            <change who="DianeBiunno" when="2015-02-10">text encoding to featured level</change>
-            <change who="DianeBiunno" when="2015-01-21">text encoding to basic level</change>
+            <change who="DianeBiunno" when="2015-04-15">Export from CA and basic
+                proofreading</change>
+            <change who="DianeBiunno" when="2015-02-10">Encoded to featured level</change>
+            <change who="DianeBiunno" when="2015-01-21">Encoded to basic level</change>
             <change who="RachelMoloshok" when="2015-01-07">Template file created</change>
         </revisionDesc>
     </teiHeader>
 
     <facsimile>
 
-        <surface ulx="" uly="" lrx="" lry="">
+        <surface ulx="0" uly="0" lrx="100" lry="100">
 
             <graphic url="FIL.000085253"/>
 
-            <zone n="1" xml:id="Title" points=""/>
-            <zone n="2" xml:id="Signature" points=""/>
-            <zone n="3" xml:id="Office" points=""/>
-            <zone n="4" xml:id="Lithographer" points=""/>
-            <zone n="5" xml:id="Democrat" points=""/>
-            <zone n="6" xml:id="Republican" points=""/>
-            <zone n="7" xml:id="Notes" points=""/>
-            <zone n="8" xml:id="Conkling" points=""/>
-            <zone n="9" xml:id="Garfield" points=""/>
-            <zone n="10" xml:id="Hancock" points=""/>
-            <zone n="11" xml:id="Kelly" points=""/>
-            <zone n="12" xml:id="Arthur" points=""/>
-            <zone n="13" xml:id="Grant" points=""/>
-            <zone n="14" xml:id="Butler" points=""/>
-            <zone n="15" xml:id="Dana" points=""/>
-            <zone n="16" xml:id="Tilden" points=""/>
-            <zone n="17" xml:id="Face_1" points=""/>
-            <zone n="18" xml:id="Face_2" points=""/>
-            <zone n="19" xml:id="Face_3" points=""/>
-            <zone n="20" xml:id="Face_4" points=""/>
-            <zone n="21" xml:id="Face_5" points=""/>
-            <zone n="22" xml:id="Face_6" points=""/>
+            <zone n="1" xml:id="Title"
+                points="27.8,87.76 64.48,87.39 64.51,89.32 53.76,89.73 53.73,91.15 27.8,90.92"/>
+            <zone n="2" xml:id="Signature" points="6.71,83.69 15.31,85.27 15.26,87 6.5,86.7"/>
+            <zone n="3" xml:id="Office" points="1.82,87.36 13.12,87.3 13.05,88.07 1.88,88.32"/>
+            <zone n="4" xml:id="Lithographer"
+                points="85.63,87.17 96.76,87.29 96.92,87.92 85.68,87.96"/>
+            <zone n="5" xml:id="Democrat"
+                points="31.17,33.82 30.11,30.6 31.09,26.94 33.68,26.27 36.87,28.82 36.56,32.93 38.54,37.37 45.45,37.7 47.58,35.82 47.43,38.03 48.87,39.7 49.48,41.92 45.3,40.14 41.73,41.7 37.93,41.14 35.5,48.69 35.5,52.58 33.37,61.34 32.69,68.12 31.25,77.55 34.51,80.1 34.5,82.37 28.51,80.21 28.28,72.89 26,74 24.33,79.88 22.89,81.77 20.08,80.88 22.21,74.55 22.81,69.89 23.26,60.91 22.59,45.8 24.87,44.47 24.41,40.92 25.7,38.37 27.83,35.37"/>
+            <zone n="6" xml:id="Republican"
+                points="69.25,35.16 66.98,33.11 67.09,27.74 68.71,25.38 72.82,25.53 73.9,30.27 80.81,33.11 81.99,40.21 79.62,41.79 83.18,46.36 84.48,52.83 81.35,55.36 82.97,61.04 80.7,64.35 82.43,72.24 80.93,77.88 77.25,79.13 76.08,82.9 74.12,83.35 71.07,80.77 72.92,76.82 73.79,71.77 72.6,66.4 70.33,49.05 69.25,43.05 67.09,40.84 63.42,42.58 60.07,41.79 58.99,44.31 56.83,44 56.29,42.26 56.72,39.26 62.45,38.16 66.12,37.84"/>
+            <zone n="7" xml:id="Notes"
+                points="58.83,90.32 75.2,89.87 75.16,87.93 87.75,88.21 88.76,95.16 58.83,95.45"/>
+            <zone n="8" xml:id="Conkling"
+                points="84.3,48.62 86.39,47.36 88.97,47.64 91.21,47.71 91.07,49.59 93.88,50.36 95.93,50.57 94.31,53.22 92.97,54.4 91.88,62.97 93.59,69.87 92.02,72.65 91.02,69.24 89.35,63.94 90.97,55.1 87.3,53.7 84.92,52.38"/>
+            <zone n="9" xml:id="Garfield"
+                points="52.23,17.93 56.29,18.88 57.03,15.09 60.92,17.66 61.75,15.36 67.38,18.07 69.23,15.36 75.24,17.53 78.1,21.17 77.09,30.08 72.65,24.41 68.03,26.17 67.01,29.81 63.5,36.29 55.56,38.32 48.44,37.91 50.47,33.32 49.09,28.6 48.44,22.93 48.35,20.5 49.46,19.28"/>
+            <zone n="10" xml:id="Hancock"
+                points="36.49,2.8 63.7,2.92 59.39,8.97 55.77,11.36 53.1,15.64 49.57,14.38 47.24,17.15 44.14,13.25 42.67,14.26 36.98,10.86"/>
+            <zone n="11" xml:id="Kelly"
+                points="31.68,15.71 34.47,16.55 34.47,18.17 35.49,18.37 37.36,19.73 39.13,19.86 41.66,21.93 41.04,24.85 39.31,23.49 38.6,25.63 36.78,27.12 30.48,23.75"/>
+            <zone n="12" xml:id="Arthur"
+                points="2.69,32.32 2.86,27.01 4.59,25.38 6.81,25.38 8.77,27.2 9.52,29.14 9.96,34.14 10.81,41.53 6.32,41.21 3.57,40.82 2.51,39.46"/>
+            <zone n="13" xml:id="Grant"
+                points="3.89,41.35 7.26,41.09 10.44,41.98 11.39,48.65 11.13,55.83 11.83,61.7 5.72,61.7 3.81,53.44 2.69,47.01"/>
+            <zone n="14" xml:id="Butler"
+                points="34.89,46.07 38.36,41.94 42.81,43.12 46.36,45.48 49.27,50.44 50.32,54.69 49.51,57.28 34.41,57.52"/>
+            <zone n="15" xml:id="Dana"
+                points="33.48,56.29 53.38,56.79 54.12,64.03 53.51,67.9 50.93,70.48 43.12,70.29 40.95,71.67 38.71,69.49 36.53,68.8 32.32,68.5"/>
+            <zone n="16" xml:id="Tilden"
+                points="47.78,45.72 49.4,43.78 49.98,40.39 51.4,38.75 51.69,43.84 52.77,45.24 54.13,43.42 55.42,44.39 58.12,45.66 60.19,48.09 59.82,51.54 49.24,51.42"/>
+            <zone n="17" xml:id="Face_1"
+                points="2.54,59.97 7.38,55.91 9.28,55.38 11.19,54.63 12.12,57.72 18.2,65.47 19.59,68.56 22.37,70.66 18.61,77.59 15.42,80.38 12.38,78.94"/>
+            <zone n="18" xml:id="Face_2"
+                points="27.13,24.48 28.97,24.56 31.05,24.73 30.94,29.88 30.05,33.13 28.3,34.8 25.5,35.61 25.05,33.13"/>
+            <zone n="19" xml:id="Face_3"
+                points="33.93,15.82 34.67,17.35 32.9,23.7 31.35,27.75 29.16,25.04 27.44,25.04 28.18,21.19 27.69,20.56 28.61,17.69 29.72,17.69 30.88,15.89"/>
+            <zone n="20" xml:id="Face_4"
+                points="77.42,25.78 78.44,22.91 80.23,22.97 81.4,23.42 81.71,25.53 81.63,29.35 81.83,34.7 77.15,32.25"/>
+            <zone n="21" xml:id="Face_5"
+                points="86.12,22.98 90.19,20.59 92.37,21.79 97.53,24.27 97.32,38.46 86.73,36.07 85.44,26.55 86.87,25.65"/>
+            <zone n="22" xml:id="Face_6"
+                points="11.35,45.15 11.05,37.61 13.87,40.03 16.35,45.15 16.35,50.15 15.07,60.23 13.25,59.32 11.17,57.01 11.35,50.15"/>
 
 
         </surface>
@@ -240,133 +273,165 @@
     <text>
         <front>
             <div type="editorial_desc">
-                <p>In order to meet the publication deadline, Joseph Keppler was forced to draw the cartoon before the results of the election were known.  Faced with this challenge, he made a puzzle and hid the faces of sixteen political figures within the cartoon.  Keppler made puzzles out of several other political cartoons including "A Presidential Ride through the Haunted Forest" and "The Deadly Upas Tree of Wall Street."</p>
-                <p>In the cartoon Lady Republican and Lady Democrat shake hands. The faces of the presidential
-                    candidates of the 1880 election, as well as other notable political figures,are
-                    hidden in the rocks, trees, and lake. The faces include: James A. Garfield, Carl Schurz,
-                    Marshall Jewell, James Blaine, Roscoe Conkling, Benjamin Butler, William Hayden
-                    English, Ulysses S. Grant, Chester Arthur, Thomas Bayard, John Kelly, Winfield
-                    Hancock, Samuel Tilden, Rutherford Hayes, John Logan,and Abram Hewitt.</p>
-                <p>There are handwritten notes next to some of the hidden faces.  The staff at the Historical Society of Pennsylvania was able to identify fifteen of the sixteen faces hidden in the cartoon.  Staff was unable to find the sixteenth image of Abram Hewitt.</p>
-                
+                <p>In order to meet the publication deadline, Joseph Keppler was forced to draw the
+                    cartoon before the results of the election were known. Faced with this
+                    challenge, he made a puzzle and hid the faces of sixteen political figures
+                    within the cartoon. Keppler made puzzles out of several other political cartoons
+                    including "A Presidential Ride through the Haunted Forest" and "The Deadly Upas
+                    Tree of Wall Street."</p>
+                <p>In the cartoon Lady Republican and Lady Democrat shake hands. The faces of the
+                    presidential candidates of the 1880 election, as well as other notable political
+                    figures,are hidden in the rocks, trees, and lake. The faces include: James A.
+                    Garfield, Carl Schurz, Marshall Jewell, James Blaine, Roscoe Conkling, Benjamin
+                    Butler, William Hayden English, Ulysses S. Grant, Chester Arthur, Thomas Bayard,
+                    John Kelly, Winfield Hancock, Samuel Tilden, Rutherford Hayes, John Logan,and
+                    Abram Hewitt.</p>
+                <p>There are handwritten notes next to some of the hidden faces. Staff at the
+                    Historical Society of Pennsylvania were able to identify fifteen of the sixteen
+                    faces hidden in the cartoon. Staff was unable to find the sixteenth image of
+                    Abram Hewitt.</p>
+
             </div>
         </front>
 
         <body>
-            <div type="image_transcription" facs="#Title" n="1">
+            <div type="image_transcription" n="1" facs="#Title">
                 <head><supplied resp="editorial">Title and caption</supplied></head>
                 <p>LET US HAVE PEACE,NOW A PRESIDENT'S ELECTED</p>
                 <p>Chorus of Invisibles.-But <hi rendition="#bold">Where</hi> are his Features to be
                     detected?</p>
             </div>
 
-            <div type="image_transcription" facs="#Signature" n="2">
-                <head><supplied resp="editorial"><persName key="ENT.000000379">Joseph Keppler</persName></supplied></head>
+            <div type="image_transcription" n="2" facs="#Signature">
+                <head><supplied resp="editorial"><persName key="ENT.000000379">Joseph
+                            Keppler</persName></supplied></head>
                 <p>KEPPLER</p>
             </div>
 
-            <div type="image_transcription" facs="#Office" n="3">
+            <div type="image_transcription" n="3" facs="#Office">
                 <head><supplied resp="editorial">Periodical Address</supplied></head>
                 <p>OFFICE OF PUCK 23 WARREN ST. NEW YORK</p>
             </div>
 
-            <div type="image_transcription" facs="#Lithographer" n="4">
-                <head><supplied resp="editorial"><orgName key="ENT.000000380">Mayer, Merckel &amp; Ottomann</orgName></supplied></head>
+            <div type="image_transcription" n="4" facs="#Lithographer">
+                <head><supplied resp="editorial"><orgName key="ENT.000000380">Mayer, Merckel &amp;
+                            Ottomann</orgName></supplied></head>
                 <p>MAYER MERCKEL &amp; OTTOMANN LITHOG.2325 WARREN ST. N.Y</p>
             </div>
 
-            <div type="image_transcription" facs="#Democrat" n="5">
+            <div type="image_transcription" n="5" facs="#Democrat">
                 <head><supplied resp="editorial">Lady Democrat</supplied></head>
                 <p>DEMOCRAT</p>
             </div>
 
-            <div type="image_transcription" facs="#Republican" n="6">
+            <div type="image_transcription" n="6" facs="#Republican">
                 <head><supplied resp="editorial">Lady Republican</supplied></head>
                 <p>REPUB</p>
             </div>
 
-            <div type="image_transcription" facs="#Notes" n="7">
+            <div type="image_transcription" n="7" facs="#Notes">
                 <head><supplied resp="editorial">Notes</supplied></head>
                 <p><add>November 3rd 1880</add></p>
-                <p><add><persName key="ENT.000000941">Grant</persName> &amp; <persName key="ENT.000003560">Arthur</persName></add></p>
-                <p><add><persName key="ENT.000003565">Hancock</persName> &amp; <persName key="ENT.000003553">English</persName></add></p>
+                <p><add><persName key="ENT.000000941">Grant</persName> &amp; <persName
+                            key="ENT.000003560">Arthur</persName></add></p>
+                <p><add><persName key="ENT.000003565">Hancock</persName> &amp; <persName
+                            key="ENT.000003553">English</persName></add></p>
             </div>
 
-            <div type="image_transcription" facs="#Conkling" n="8">
-                <head><supplied resp="editorial"><persName key="ENT.000003552">Roscoe Conkling</persName></supplied></head>
-                <p><add>Conkling</add><note n="1" type="editorial">The handwritten notes indicate that the image might be of Roscoe Conkling.  The image could also be <persName key="ENT.000003332">James G. Blaine</persName>.</note></p>
+            <div type="image_transcription" n="8" facs="#Conkling">
+                <head><supplied resp="editorial"><persName key="ENT.000003552">Roscoe
+                            Conkling</persName></supplied></head>
+                <p><add>Conkling</add><note n="1" type="editorial">The handwritten notes indicate
+                        that the image might be of Roscoe Conkling. The image could also be
+                            <persName key="ENT.000003332">James G. Blaine</persName>.</note></p>
             </div>
 
-            <div type="image_transcription" facs="#Garfield" n="9">
-                <head><supplied resp="editorial"><persName key="ENT.000003555">James A. Garfield</persName></supplied></head>
+            <div type="image_transcription" n="9" facs="#Garfield">
+                <head><supplied resp="editorial"><persName key="ENT.000003555">James A.
+                            Garfield</persName></supplied></head>
                 <p><add>Garfield</add></p>
             </div>
 
-            <div type="image_transcription" facs="#Hancock" n="10">
-                <head><supplied resp="editorial"><persName key="ENT.000003565">Winfield Hancock</persName></supplied></head>
+            <div type="image_transcription" n="10" facs="#Hancock">
+                <head><supplied resp="editorial"><persName key="ENT.000003565">Winfield
+                            Hancock</persName></supplied></head>
                 <p><add><hi rendition="#handwritten-circled">Hancock</hi></add></p>
             </div>
 
-            <div type="image_transcription" facs="#Kelly" n="11">
-                <head><supplied resp="editorial"><persName key="ENT.000003564">John Kelly</persName></supplied></head>
+            <div type="image_transcription" n="11" facs="#Kelly">
+                <head><supplied resp="editorial"><persName key="ENT.000003564">John
+                        Kelly</persName></supplied></head>
                 <p><add><hi rendition="#handwritten-circled">Kelly</hi></add></p>
             </div>
 
-            <div type="image_transcription" facs="#Arthur" n="12">
-                <head><supplied resp="editorial"><persName key="ENT.000003560">Chester A. Arthur</persName></supplied></head>
+            <div type="image_transcription" n="12" facs="#Arthur">
+                <head><supplied resp="editorial"><persName key="ENT.000003560">Chester A.
+                            Arthur</persName></supplied></head>
                 <p><add>Arthur</add></p>
             </div>
 
-            <div type="image_transcription" facs="#Grant" n="13">
-                <head><supplied resp="editorial"><persName key="ENT.000000941">Ulysses S. Grant</persName></supplied></head>
+            <div type="image_transcription" n="13" facs="#Grant">
+                <head><supplied resp="editorial"><persName key="ENT.000000941">Ulysses S.
+                            Grant</persName></supplied></head>
                 <p><add>Grant</add></p>
             </div>
 
-            <div type="image_transcription" facs="#Butler" n="14">
-                <head><supplied resp="editorial"><persName key="ENT.000003551">Benjamin Butler</persName></supplied></head>
+            <div type="image_transcription" n="14" facs="#Butler">
+                <head><supplied resp="editorial"><persName key="ENT.000003551">Benjamin
+                            Butler</persName></supplied></head>
                 <p><add>Butler</add></p>
             </div>
 
-            <div type="image_transcription" facs="#Dana" n="15">
-                <head><supplied resp="editorial"><persName key="ENT.000003594">Charles A. Dana</persName></supplied></head>
-                <p><add>Dana?</add><note n="2" type="editorial">The handwritten note indicates that the image might be of Charles A. Dana.  The image could also be Roscoe Conkling.</note></p>
+            <div type="image_transcription" n="15" facs="#Dana">
+                <head><supplied resp="editorial"><persName key="ENT.000003594">Charles A.
+                            Dana</persName></supplied></head>
+                <p><add>Dana?</add><note n="2" type="editorial">The handwritten note indicates that
+                        the image might be of Charles A. Dana. The image could also be Roscoe
+                        Conkling.</note></p>
             </div>
 
-            <div type="image_transcription" facs="#Tilden" n="16">
-                <head><supplied resp="editorial"><persName key="ENT.000003566">Samuel Tilden</persName></supplied></head>
+            <div type="image_transcription" n="16" facs="#Tilden">
+                <head><supplied resp="editorial"><persName key="ENT.000003566">Samuel
+                            Tilden</persName></supplied></head>
                 <p><add>Tilden</add></p>
             </div>
-            
-            <div type="image_annotation" facs="#Face_1" n="17">
+
+            <div type="image_annotation" n="17" facs="#Face_1">
                 <head><supplied resp="editorial">Face 1</supplied></head>
-                <p>The identity of the image is unknown.  It is most likely <persName key="ENT.000003553">William Hayden English</persName>.</p>
+                <p>The identity of the image is unknown. It is most likely <persName
+                        key="ENT.000003553">William Hayden English</persName>.</p>
             </div>
-            
-            <div type="image_annotation" facs="Face_2" n="18">
+
+            <div type="image_annotation" n="18" facs="Face_2">
                 <head><supplied resp="editorial">Face 2</supplied></head>
-                <p>The identity of the image is unknown.  It is most likely <persName key="ENT.000003362">John Logan</persName></p>
+                <p>The identity of the image is unknown. It is most likely <persName
+                        key="ENT.000003362">John Logan</persName></p>
             </div>
-            
-            <div type="image_annotation" facs="#Face_3" n="19">
+
+            <div type="image_annotation" n="19" facs="#Face_3">
                 <head><supplied resp="editorial">Face 3</supplied></head>
-                <p>The identity of the image is unknown.  It is most likely <persName key="ENT.000003561">Thomas Bayard.</persName></p>
+                <p>The identity of the image is unknown. It is most likely <persName
+                        key="ENT.000003561">Thomas Bayard.</persName></p>
             </div>
-            
-            <div type="image_annotation" facs="#Face_4" n="20">
+
+            <div type="image_annotation" n="20" facs="#Face_4">
                 <head><supplied resp="editorial">Face 4</supplied></head>
-                <p>The identity of the image is unknown.  It may be of <persName key="ENT.000003379">Carl Schurz</persName>.</p>
+                <p>The identity of the image is unknown. It may be of <persName key="ENT.000003379"
+                        >Carl Schurz</persName>.</p>
             </div>
-            
-            <div type="image_annotation" facs="#Face_5" n="21">
+
+            <div type="image_annotation" n="21" facs="#Face_5">
                 <head><supplied resp="editorial">Face 5</supplied></head>
-                <p>The identity of the image is unknown.  It may be of <persName key="ENT.000003563">Marshall Jewell</persName></p>
+                <p>The identity of the image is unknown. It may be of <persName key="ENT.000003563"
+                        >Marshall Jewell</persName></p>
             </div>
-            
-            <div type="image_annotation" facs="#Face_6" n="22">
+
+            <div type="image_annotation" n="22" facs="#Face_6">
                 <head><supplied resp="editorial">Face 6</supplied></head>
-                <p>The identity of the image is unknown.  It may be of <persName key="ENT.000003567">Rutherford Hayes</persName></p>
+                <p>The identity of the image is unknown. It may be of <persName key="ENT.000003567"
+                        >Rutherford Hayes</persName></p>
             </div>
-            
+
         </body>
 
         <back/>
