@@ -88,7 +88,7 @@
                     <analytic>
                         <respStmt>
                             <resp key="art">Artist</resp>
-                            <persName key="ENT.000003682"/>
+                            <persName key="ENT.000003682">F.B.</persName>
                         </respStmt>
                         <title type="main" level="a">Out on Parole--Scene--A Southern Forest</title>
                     </analytic>
@@ -157,14 +157,13 @@
         </profileDesc>
 
         <revisionDesc>
+            <change who="RachelMoloshok" when="2015-04-15">Featured encoding (for lesson plan cartoon)</change>
             <change who="RachelMoloshok" when="2015-04-14">Basic encoding</change>
         </revisionDesc>
     </teiHeader>
 
     <facsimile>
-        <!-- ??The following text shows how to structure this section, but the URL information needs to be replaced with real text in order for this to validate. -->
         <surface ulx="" uly="" lrx="" lry="">
-            <!-- Leave values for <surface> attributes blank; coordinates will be provided by Collective Access upon export. Use <surface> to contain <graphic> and <zone>. Use multiple <surface> elements as needed for multiple pages/images -->
             <graphic url="FIL.000090276"/>
             <zone n="1" xml:id="caption"/>
             <zone n="2" xml:id="header"/>
@@ -179,7 +178,21 @@
     <text>
         <front>
             <div type="editorial_desc">
-                <p><!-- Use this section to enter a BRIEF description of the image. --></p>
+                <p>At the center of this cartoon, set in the middle of a forest in the southern
+                    United States, a giant rattlesnake labeled "Ku Klux" opens its mouth wide to
+                    devour an unsuspecting white dove with an olive branch in its beak, perched on a
+                    branch of a tree identified in the caption as "the tree of liberty." In the
+                    right background, a woman with a cap labeled "Peace" emerges from the trees and
+                    witnesses the scene, clasping her hands together in apparent distress. The
+                    caption of the cartoon explains to readers that the woman is the goddess of
+                    peace who has sent the dove as a messenger to all creatures in the forest, at
+                    the behest of a "great white-headed eagle" (presumably, the United States) who
+                    had saved the rattlesnake's life in the past. The rattlesnake is on "parole"
+                    (temporary release based on the promise of good behavior) after past crimes but
+                    has not given up its old ways. This cartoon comments on the rise of the Ku Klux
+                    Klan in the South in the aftermath of the Civil War. The rise of the Klan and
+                    the violence its members perpetuated, the cartoon argues, threatened the peace
+                    established in the United States after the end of the war.</p>
             </div>
         </front>
 
@@ -187,19 +200,19 @@
             <div type="image_transcription" n="1" facs="#caption">
                 <head><supplied resp="editorial">Caption</supplied></head>
                 <p><hi rendition="#bold">OUT ON PAROLE—SCENE—A SOUTHERN FOREST.</hi></p>
-                <p>THE GODDESS OF PEACE, COMMISSIONED BY THE GREAT WHITE-HEADED EAGLE, SENT A MESSENGER BEARING AN OLIVE BRANCH TO ALL THE DENIZENS OF THE FOREST, BUT SCARCELY HAD IT PERCHED UPON A LIMB OF THE TREE OF LIBERTY THAN A HUGE PAROLED RATTLESNAKE WHOSE LIFE THE EAGLE HAD SAVED, GLIDED UP AND—</p>
+                <p>THE GODDESS OF PEACE, COMMISSIONED BY THE GREAT WHITE-HEADED EAGLE, SENT <rs ref="cartoons_symbols.xml#dove">A MESSENGER BEARING AN OLIVE BRANCH</rs> TO ALL THE DENIZENS OF THE FOREST, BUT SCARCELY HAD IT PERCHED UPON A LIMB OF THE <rs ref="cartoons_symbols.xml#liberty_tree">TREE OF LIBERTY</rs> THAN A HUGE PAROLED RATTLESNAKE WHOSE LIFE THE EAGLE HAD SAVED, GLIDED UP AND—</p>
             </div>
             <div type="image_transcription" n="2" facs="#header">
                 <head><supplied resp="editorial">Header</supplied></head>
-                <p>NEW YORK, NOVEMBER, 1868.</p>
+                <p>NEW YORK, <date when="1868-11">NOVEMBER, 1868</date>.</p>
             </div>
             <div type="image_transcription" n="3" facs="#snake">
                 <head><supplied resp="editorial">Rattlesnake</supplied></head>
-                <p>KU KLUX</p>
+                <p><orgName key="ENT.000003599">KU KLUX</orgName></p>
             </div>
             <div type="image_annotation" n="4" facs="#dove">
-                <head>Dove</head>
-                <p><!-- description --></p>
+                <head><rs ref="cartoons_symbols.xml#dove">Dove</rs></head>
+                <p>The dove and the olive branch are widely recognized symbols of peace. In this cartoon, the dove appears oblivious to the threat posed by the rattlesnake, who is about to attack it from behind.</p>
             </div>
             <div type="image_transcription" n="5" facs="#peace">
                 <head><supplied resp="editorial">Goddess of Peace</supplied></head>
@@ -207,11 +220,11 @@
             </div>
             <div type="image_annotation" n="6" facs="#tree">
                 <head>Tree</head>
-                <p><!-- description --></p>
+                <p>The caption of this cartoon identifies this tree, which provides a resting place for the <rs ref="cartoons_symbols.xml#dove">dove</rs> of peace, as <rs ref="cartoons_symbols.xml#liberty_tree">"the tree of liberty."</rs></p>
             </div>
             <div type="image_transcription" n="7" facs="#initials">
                 <head><supplied resp="editorial">Artist's initials</supplied></head>
-                <p>FB</p>
+                <p><persName key="ENT.000003682">FB</persName></p>
             </div>
         </body>
 
