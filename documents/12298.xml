@@ -1,232 +1,247 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 
 <?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="English">
+    <fileDesc>
+      <titleStmt>
+        <title type="main">TEI transcription of Andy. "Here, Bill, hand us up that poster! We may
+          hide some of these old ones. They're played out!"</title>
+        <author/>
+        <respStmt>
+          <resp key="art">artist</resp>
+          <persName key="ENT.000000553">Unknown Artist</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="trc">Transcribed by</resp>
+          <persName key="ENT.000003368">Moloshok, Rachel</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="mrk">Encoded by</resp>
+          <persName key="ENT.000003368">Moloshok, Rachel</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="pfr">Proofread by</resp>
+          <persName key="ENT.000003368">Moloshok, Rachel</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="pbl">publisher</resp>
+          <orgName key="ENT.000003540">Harper &amp; Brothers</orgName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <p>First edition, <date when="2015">2015</date></p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher><orgName key="ENT.000002473">Historical Society of
+          Pennsylvania</orgName></publisher>
+        <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
+        <idno type="filename">12298</idno>
+        <availability status="restricted">
+          <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of copyright only
+            to original contributions made by the Historic Images, New Technologies (HINT) Project
+            participants and other staff. HSP makes no claim of copyright to the original text.
+            Permission is granted to download, transmit or otherwise reproduce, distribute or
+            display the text contributions to this work claimed by HSP for non-profit educational
+            purposes, provided that this header is included in its entirety. For inquiries about
+            commercial uses, please contact the Historical Society of Pennsylvania. HSP retains the
+            rights of all images unless otherwise noted. Possession of an HSP digital image does not
+            constitute permission to use or publish it. Requests for digital imaging, other
+            reproduction services, and the intended use of reproductions must be made in writing to
+            the Rights and Reproductions Coordinator at rnr@hsp.org.</p>
+        </availability>
+        <date when="2015">2015</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="project" key="CARTOONS">Historic Images, New Technologies (HINT)
+          Project</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository key="ENT.000002473">Historical Society of Pennsylvania</repository>
+            <collection key="3133">Historical Society of Pennsylvania cartoons and caricatures
+              collection</collection>
+            <idno type="citation">
+              <idno type="box">1</idno>
+              <idno type="folder">32</idno>
+            </idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <bibl>
+                <date from="1866-11-03">November 3, 1866</date>
+                <extent>1 newspaper clipping</extent>
+                <extent>
+                  <dimensions type="image" unit="cm"/>
+                  <height quantity="12.5"/>
+                  <width quantity="12"/>
+                </extent>
+                <listRelation>
+                  <relation name="depicted" active="ENT.000003356"/>
+                  <relation name="depicted" active="ENT.000003283"/>
+                </listRelation>
+              </bibl>
+            </msItem>
+          </msContents>
+          <history>
+            <acquisition>This is an artificial collection created over time by HSP staff mostly
+              through donations and purchases of individual prints. It also incorporates previously
+              uncataloged materials collected by the Balch Institute for Ethnic Studies. Some of the
+              20th century cartoons and drawings were removed from the J. Hampton Moore papers
+              (Collection 1541).</acquisition>
+          </history>
+        </msDesc>
+        <biblStruct>
+          <analytic>
+            <respStmt>
+              <resp key="art">artist</resp>
+              <persName key="ENT.000000553">Unknown Artist</persName>
+            </respStmt>
+            <respStmt>
+              <resp key="pbl">publisher</resp>
+              <orgName key="ENT.000003540">Harper &amp; Brothers</orgName>
+            </respStmt>
+            <title type="main" level="a">Andy. "Here, Bill, hand us up that poster! We may hide some
+              of these old ones. They're played out!"</title>
+            <date from="1866-11-03">November 3, 1866</date>
+          </analytic>
+          <monogr>
+            <title type="marc245a" level="j"><orgName key="ENT.000003139">Harper's
+              Weekly</orgName></title>
+            <imprint>
+              <pubPlace>New York</pubPlace>
+              <date from="1866-11-03">November 3, 1866</date>
+              <biblScope unit="volume">10</biblScope>
+              <biblScope unit="issue">514</biblScope>
+              <biblScope unit="page">704</biblScope>
+              <publisher>
+                <orgName key="ENT.000003540">Harper &amp; Brothers</orgName>
+              </publisher>
+            </imprint>
+          </monogr>
+        </biblStruct>
 
-
-    <teiHeader xml:lang="English">
-
-        <fileDesc>
-
-            <titleStmt>
-                <title type="main">TEI transcription of Andy. "Here, Bill, hand us up that poster!
-                    We may hide some of these old ones. They're played out!"</title>
-                <respStmt>
-                    <resp key="art">Artist</resp>
-                    <persName key="ENT.000000553">Unknown artist</persName>
-                </respStmt>
-                <respStmt>
-                    <resp key="trc">Transcribed by</resp>
-                    <persName key="ENT.000003368">Moloshok, Rachel</persName>
-                </respStmt>
-                <respStmt>
-                    <resp key="mrk">Encoded by</resp>
-                    <persName key="ENT.000003368">Moloshok, Rachel</persName>
-                </respStmt>
-
-            </titleStmt>
-
-            <editionStmt>
-                <p>First edition, <date when="2015">2015</date></p>
-            </editionStmt>
-
-            <publicationStmt>
-                <publisher><orgName key="ENT.000002473">Historical Society of
-                    Pennsylvania</orgName></publisher>
-                <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
-                <idno type="filename">12298</idno>
-                <availability status="restricted">
-                    <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of
-                        copyright only to original contributions made by the Historic Images, New
-                        Technologies (HINT) Project participants and other staff. HSP makes no claim
-                        of copyright to the original text. Permission is granted to download,
-                        transmit or otherwise reproduce, distribute or display the text
-                        contributions to this work claimed by HSP for non-profit educational
-                        purposes, provided that this header is included in its entirety. For
-                        inquiries about commercial uses, please contact the Historical Society of
-                        Pennsylvania. HSP retains the rights of all images unless otherwise noted.
-                        Possession of an HSP digital image does not constitute permission to use or
-                        publish it. Requests for digital imaging, other reproduction services, and
-                        the intended use of reproductions must be made in writing to the Rights and
-                        Reproductions Coordinator at rnr@hsp.org.</p>
-                </availability>
-                <date when="2015"/>
-            </publicationStmt>
-
-            <seriesStmt>
-                <title level="s" type="project" key="CARTOONS"/>
-            </seriesStmt>
-
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <repository key="ENT.000002473"/>
-                        <collection key="3133"/>
-                        <idno type="citation">
-                            <idno type="box">1</idno>
-                            <idno type="folder">32</idno>
-                        </idno>
-                    </msIdentifier>
-                    <msContents>
-                        <msItem>
-                            <bibl>
-                                <date from="1866-11-03">November 3, 1866</date>
-                                <extent>1 newspaper clipping</extent>
-                                <listRelation>
-                                    <relation name="depicted" active="ENT.000003356"/>
-                                    <!-- Andrew Johnson -->
-                                    <relation name="depicted" active="ENT.000003283"/>
-                                    <!-- William Seward -->
-                                </listRelation>
-                            </bibl>
-                        </msItem>
-                    </msContents>
-
-                    <history>
-                        <acquisition>This is an artificial collection created over time by HSP staff
-                            mostly through donations and purchases of individual prints. It also
-                            incorporates previously uncataloged materials collected by the Balch
-                            Institute for Ethnic Studies. Some of the 20th century cartoons and
-                            drawings were removed from the J. Hampton Moore papers (Collection
-                            1541).</acquisition>
-                    </history>
-                </msDesc>
-                <biblStruct>
-                    <analytic>
-                        <respStmt>
-                            <resp key="art">Artist</resp>
-                            <persName key="ENT.000000553"/>
-                        </respStmt>
-                        <title type="main" level="a">Andy. "Here, Bill, hand us up that poster! We
-                            may hide some of these old ones. They're played out!"</title>
-                    </analytic>
-                    <monogr>
-                        <title type="marc245a" level="j"><orgName key="ENT.000003139">Harper's
-                                Weekly</orgName></title>
-                        <imprint>
-                            <publisher><orgName key="ENT.000003540">Harper &amp;
-                                Brothers</orgName></publisher>
-                            <pubPlace>New York</pubPlace>
-                            <date from="1866-11-03">November 3, 1866</date>
-                            <biblScope unit="volume">10</biblScope>
-                            <biblScope unit="issue">514</biblScope>
-                            <biblScope unit="page">704</biblScope>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
-
-            </sourceDesc>
-        </fileDesc>
-
-        <encodingDesc>
-            <projectDesc>
-                <p>The Historic Images, New Technologies (HINT) project aims to enhance description
-                    and discovery of the Historical Society of Pennsylvania's graphics materials and
-                    promote the linking and sharing of content among institutions and scholars. The
-                    project will result in an update to HSP's digital image viewer and an online
-                    digital history exhibit that will demonstrate the new viewer's capabilities and
-                    provide interpretive and contextual materials to encourage users to interact
-                    with historical images in new ways. This project was funded by a grant from the
-                    National Historical Publications and Records Commission's (NHPRC) Innovation in
-                    Archives and Documentary Editing program.</p>
-            </projectDesc>
-            <editorialDecl n="4">
-                <p>This electronic file was created using manual keying following the
-                    recommendations for Level 4 of "Best Practices for TEI in Libraries" guidelines
-                    v3.0.</p>
-                <p>This xml file uses unique entity identifiers, media file identifiers, and
-                    collection identifiers in HSP's Digital Library, available at
-                    http://digitallibrary.hsp.org.</p>
-
-            </editorialDecl>
-            <tagsDecl>
-                <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
-                <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
-                <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
-                <rendition scheme="css" xml:id="crossed-through">text-decoration:
-                    line-through</rendition>
-                <rendition scheme="other" xml:id="printed"/>
-                <rendition scheme="other" xml:id="typescript"/>
-                <rendition scheme="other" xml:id="handwritten"/>
-                <rendition scheme="other" xml:id="handwritten-underlined"/>
-                <rendition scheme="other" xml:id="handwritten-circled"/>
-                <rendition scheme="other" xml:id="handwritten-crossed-through"/>
-                <rendition scheme="other" xml:id="double-underline"/>
-                <rendition scheme="other" xml:id="stamp"/>
-                <namespace name="http://www.tei-c.org/ns/1.0">
-                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
-                </namespace>
-            </tagsDecl>
-        </encodingDesc>
-
-        <profileDesc>
-            <textClass>
-                <catRef target="cartoons_genres.xml#clippings"/>
-                <catRef target="cartoons_genres.xml#wood_engravings"/>
-                <catRef target="cartoons_genres.xml#political_cartoons"/>
-                <catRef target="cartoons_taxonomies.xml#lesson_plan"/>
-                <catRef target="cartoons_taxonomies.xml#reconstruction"/>
-                <catRef target="cartoons_taxonomies.xml#war"/>
-                <catRef target="cartoons_taxonomies.xml#African_American"/>
-            </textClass>
-        </profileDesc>
-
-        <revisionDesc>
-            <change who="RachelMoloshok" when="2015-04-21">Featured encoding (for lesson plan cartoon)</change>
-            <change who="RachelMoloshok" when="2015-04-20">Basic encoding</change>
-        </revisionDesc>
-    </teiHeader>
-
-    <facsimile>
-        <surface ulx="" uly="" lrx="" lry="">
-            <graphic url="FIL.000090278"/>
-            <zone n="1" xml:id="caption"/>
-            <zone n="2" xml:id="freedmens_poster"/>
-            <zone n="3" xml:id="suffrage_poster"/>
-            <zone n="4" xml:id="alabama_poster"/>
-            <zone n="5" xml:id="johnson"/>
-            <zone n="6" xml:id="seward"/>
-            <zone n="7" xml:id="date"/>
-        </surface>
-    </facsimile>
-
-    <text>
-        <front>
-            <div type="editorial_desc">
-                <p>In this cartoon clipping from <hi rendition="#italics">Harper's Weekly</hi>, US president Andrew Johnson and vice president William Seward are depicted as poster hangers. Johnson, climbing a ladder, asks Seward to pass him a poster labeled "Underwrite claims for Alabama damages"; Seward, standing below Johnson, hands the poster up to him. Johnson's ladder rests against a wall on which posters labeled "Freedman's Bureau Bill Veto" and "Suffrage Veto" have already been hung. Johnson intends to cover up these posters, which comment on his veto of two Reconstruction amendments passed by Congress. In 1865, Congress passed a Civil Rights Act affirming that all persons born in the United States, including those who had been enslaved, were US citizens and were entitled to equal rights (for men, these included voting rights) and protection under the law. Johnson vetoed this act, but his veto was overturned by a two-thirds majority in Congress in 1866. In 1866, Johnson also vetoed an updated version of a bill to authorize the Freedmen's Bureau. The reference to "Alabama damages" likely refers to Johnson and Seward's attempts to negotiate with Great Britain over billions of dollars worth of damage inflicted by warships built for the Confederate Navy in Britain during the Civil War, the most famous of which was the <hi rendition="#italics">Alabama</hi>.</p>
-            </div>
-        </front>
-
-        <body>
-            <div type="image_transcription" n="1" facs="#caption">
-                <head><supplied resp="editorial">Caption</supplied></head>
-                <p><persName key="ENT.000003356">ANDY</persName>. "Here, <persName key="ENT.000003283">BILL</persName>, hand us up that poster! We may hide some of these old ones. They're played out!"</p>
-            </div>
-            <div type="image_transcription" n="2" facs="#freedmens_poster">
-                <head><supplied resp="editorial">Old poster 1</supplied></head>
-                <p>FREEDMEN'S BUREAU BILL. VETO</p>
-            </div>
-            <div type="image_transcription" n="3" facs="#suffrage_poster">
-                <head><supplied resp="editorial">Old poster 2</supplied></head>
-                <p>SUFFRAGE VETO</p>
-            </div>
-            <div type="image_transcription" n="4" facs="#alabama_poster">
-                <head><supplied resp="editorial">New poster</supplied></head>
-                <p>UNDERWRITE CLAIMS FOR ALABAMA DAMAGES</p>
-            </div>
-            <div type="image_annotation" n="5" facs="#johnson">
-                <head><persName key="ENT.000003356">Andrew Johnson</persName></head>
-            </div>
-            <div type="image_annotation" n="6" facs="#seward">
-                <head><persName key="ENT.000003283">William Seward</persName></head>
-            </div>
-            <div type="image_transcription" n="7" facs="#date">
-                <head><supplied resp="editorial">Note</supplied></head>
-                <p><add><date when="1866-10">10/66</date></add></p>
-            </div>
-        </body>
-
-        <back/>
-    </text>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The Historic Images, New Technologies (HINT) project aims to enhance description and
+          discovery of the Historical Society of Pennsylvania's graphics materials and promote the
+          linking and sharing of content among institutions and scholars. The project will result in
+          an update to HSP's digital image viewer and an online digital history exhibit that will
+          demonstrate the new viewer's capabilities and provide interpretive and contextual
+          materials to encourage users to interact with historical images in new ways. This project
+          was funded by a grant from the National Historical Publications and Records Commission's
+          (NHPRC) Innovation in Archives and Documentary Editing program.</p>
+      </projectDesc>
+      <editorialDecl n="4">
+        <p>This electronic file was created using manual keying following the recommendations for
+          Level 4 of "Best Practices for TEI in Libraries" guidelines v3.0.</p>
+        <p>This xml file uses unique entity identifiers, media file identifiers, and collection
+          identifiers in HSP's Digital Library, available at http://digitallibrary.hsp.org.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
+        <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
+        <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
+        <rendition scheme="css" xml:id="crossed-through">text-decoration: line-through</rendition>
+        <rendition scheme="other" xml:id="printed"/>
+        <rendition scheme="other" xml:id="typescript"/>
+        <rendition scheme="other" xml:id="handwritten"/>
+        <rendition scheme="other" xml:id="handwritten-underlined"/>
+        <rendition scheme="other" xml:id="handwritten-circled"/>
+        <rendition scheme="other" xml:id="handwritten-crossed-through"/>
+        <rendition scheme="other" xml:id="double-underline"/>
+        <rendition scheme="other" xml:id="stamp"/>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <catRef target="cartoons_genres.xml#clippings"/>
+        <catRef target="cartoons_genres.xml#wood_engravings"/>
+        <catRef target="cartoons_genres.xml#political_cartoons"/>
+        <catRef target="cartoons_taxonomies.xml#lesson_plan"/>
+        <catRef target="cartoons_taxonomies.xml#reconstruction"/>
+        <catRef target="cartoons_taxonomies.xml#war"/>
+        <catRef target="cartoons_taxonomies.xml#African_American"/>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change who="RachelMoloshok" when="2015-04-21">Exported from Collective Access. Basic proofreading</change>
+      <change who="RachelMoloshok" when="2015-04-21">Featured encoding (for lesson plan
+        cartoon)</change>
+      <change who="RachelMoloshok" when="2015-04-20">Basic encoding</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="100" lry="100">
+      <graphic url="FIL.000090278"/>
+      <zone n="1" xml:id="caption" points="6.64,91.72 96.23,91.2 96.39,96.63 6.47,97.58"/>
+      <zone n="2" xml:id="freedmens_poster" points="59.71,8.81 82.07,6.41 81.43,38.35 58.91,38.03"/>
+      <zone n="3" xml:id="suffrage_poster" points="79.34,14.71 93.82,13.76 93.49,41.86 79.5,42.02"/>
+      <zone n="4" xml:id="alabama_poster" points="37.34,63.29 63.73,57.51 70.49,90.24 44.43,90.72"/>
+      <zone n="5" xml:id="johnson"
+        points="46.04,4.49 55.37,8.81 54.73,25.25 43.79,41.54 50.87,48.4 52.15,52.88 45.07,53.67 38.96,64.37 38.48,81.62 24.81,85.45 14.19,46.81 26.74,24.45 36.23,16.31"/>
+      <zone n="6" xml:id="seward"
+        points="69.98,32.45 82.39,33.4 84.32,42.5 81.59,46.81 87.06,55.27 94.62,61.5 94.46,79.22 87.7,81.62 88.99,90.08 68.24,91.04 63.73,72.52 48.94,60.38 52.31,55.59 63.9,59.42 65.83,50.48 69.36,49.04 65.34,41.22"/>
+      <zone n="7" xml:id="date" points="6.63,81.46 15.32,81.14 16.12,89.76 6.95,90.88"/>
+    </surface>
+  </facsimile>
+  <text>
+    <front>
+      <div type="editorial_desc">
+        <p>In this cartoon clipping from <hi rendition="#italics">Harper's Weekly</hi>, US president
+          Andrew Johnson and vice president William Seward are depicted as poster hangers. Johnson,
+          climbing a ladder, asks Seward to pass him a poster labeled "Underwrite claims for Alabama
+          damages"; Seward, standing below Johnson, hands the poster up to him. Johnson's ladder
+          rests against a wall on which posters labeled "Freedman's Bureau Bill Veto" and "Suffrage
+          Veto" have already been hung. Johnson intends to cover up these posters, which comment on
+          his veto of two Reconstruction amendments passed by Congress. In 1865, Congress passed a
+          Civil Rights Act affirming that all persons born in the United States, including those who
+          had been enslaved, were US citizens and were entitled to equal rights (for men, these
+          included voting rights) and protection under the law. Johnson vetoed this act, but his
+          veto was overturned by a two-thirds majority in Congress in 1866. In 1866, Johnson also
+          vetoed an updated version of a bill to authorize the Freedmen's Bureau. The reference to
+          "Alabama damages" likely refers to Johnson and Seward's attempts to negotiate with Great
+          Britain over billions of dollars worth of damage inflicted by warships built for the
+          Confederate Navy in Britain during the Civil War, the most famous of which was the <hi
+            rendition="#italics">Alabama</hi>.</p>
+      </div>
+    </front>
+    <body>
+      <div type="image_transcription" n="1" facs="#caption">
+        <head><supplied resp="editorial">Caption</supplied></head>
+        <p><persName key="ENT.000003356">ANDY</persName>. "Here, <persName key="ENT.000003283"
+            >BILL</persName>, hand us up that poster! We may hide some of these old ones. They're
+          played out!"</p>
+      </div>
+      <div type="image_transcription" n="2" facs="#freedmens_poster">
+        <head><supplied resp="editorial">Old poster 1</supplied></head>
+        <p>FREEDMEN'S BUREAU BILL. VETO</p>
+      </div>
+      <div type="image_transcription" n="3" facs="#suffrage_poster">
+        <head><supplied resp="editorial">Old poster 2</supplied></head>
+        <p>SUFFRAGE VETO</p>
+      </div>
+      <div type="image_transcription" n="4" facs="#alabama_poster">
+        <head><supplied resp="editorial">New poster</supplied></head>
+        <p>UNDERWRITE CLAIMS FOR ALABAMA DAMAGES</p>
+      </div>
+      <div type="image_annotation" n="5" facs="#johnson">
+        <head><persName key="ENT.000003356">Andrew Johnson</persName></head>
+      </div>
+      <div type="image_annotation" n="6" facs="#seward">
+        <head><persName key="ENT.000003283">William Seward</persName></head>
+      </div>
+      <div type="image_transcription" n="7" facs="#date">
+        <head><supplied resp="editorial">Note</supplied></head>
+        <p><add><date when="1866-10">10/66</date></add></p>
+      </div>
+    </body>
+  </text>
 </TEI>
