@@ -73,12 +73,6 @@
                             <bibl>
                                 <date from="1866-11-03">November 3, 1866</date>
                                 <extent>1 newspaper clipping</extent>
-                                <extent><!-- Best Practices v3.0. recommends use of two extent fields: one for the the item, the other for its physical dimensions. To enable Collective Access "roundtripping," encode physical dimensions within extent using the dimensions element -->
-                                    <dimensions type="image" unit="cm">
-                                        <height quantity=""/>
-                                        <width quantity=""/>
-                                    </dimensions>
-                                </extent>
                                 <listRelation>
                                     <relation name="depicted" active="ENT.000003356"/>
                                     <!-- Andrew Johnson -->
@@ -179,6 +173,7 @@
         </profileDesc>
 
         <revisionDesc>
+            <change who="RachelMoloshok" when="2015-04-21">Featured encoding (for lesson plan cartoon)</change>
             <change who="RachelMoloshok" when="2015-04-20">Basic encoding</change>
         </revisionDesc>
     </teiHeader>
@@ -199,7 +194,7 @@
     <text>
         <front>
             <div type="editorial_desc">
-                <p>In this cartoon clipping from Harper's Weekly, US president Andrew Johnson and vice president William Seward are depicted as poster hangers. Johnson, climbing a ladder, asks Seward to pass him a poster labeled "Underwrite claims for Alabama damages"; Seward, standing below Johnson, hands the poster up to him. Johnson's ladder rests against a wall on which posters labeled "Freedman's Bureau Bill Veto" and "Suffrage Veto" have already been hung. Johnson intends to cover up these posters, which comment on his veto of two Reconstruction amendments passed by Congress.<!-- commentary on veto of bill authorizing freedmen's bureau and "suffrage" (what bill is that?). Alabama damages = civil war issue --></p>
+                <p>In this cartoon clipping from <hi rendition="#italics">Harper's Weekly</hi>, US president Andrew Johnson and vice president William Seward are depicted as poster hangers. Johnson, climbing a ladder, asks Seward to pass him a poster labeled "Underwrite claims for Alabama damages"; Seward, standing below Johnson, hands the poster up to him. Johnson's ladder rests against a wall on which posters labeled "Freedman's Bureau Bill Veto" and "Suffrage Veto" have already been hung. Johnson intends to cover up these posters, which comment on his veto of two Reconstruction amendments passed by Congress. In 1865, Congress passed a Civil Rights Act affirming that all persons born in the United States, including those who had been enslaved, were US citizens and were entitled to equal rights (for men, these included voting rights) and protection under the law. Johnson vetoed this act, but his veto was overturned by a two-thirds majority in Congress in 1866. In 1866, Johnson also vetoed an updated version of a bill to authorize the Freedmen's Bureau. The reference to "Alabama damages" likely refers to Johnson and Seward's attempts to negotiate with Great Britain over billions of dollars worth of damage inflicted by warships built for the Confederate Navy in Britain during the Civil War, the most famous of which was the <hi rendition="#italics">Alabama</hi>.</p>
             </div>
         </front>
 
