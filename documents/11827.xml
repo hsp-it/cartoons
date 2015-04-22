@@ -1,0 +1,255 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+
+    <teiHeader xml:lang="English">
+
+        <fileDesc>
+
+            <titleStmt>
+                <title type="main">TEI transcription of The Last Ditch of the Chivalry, or a
+                    President in Petticoats</title>
+                <respStmt>
+                    <resp key="art">Artist</resp>
+                    <persName key="ENT.000000553"/>
+                </respStmt>
+                <respStmt>
+                    <resp key="trc">Transcribed by</resp>
+                    <persName key="ENT.000003368"/>
+                </respStmt>
+                <respStmt>
+                    <resp key="mrk">Encoded by</resp>
+                    <persName key="ENT.000003368"/>
+                </respStmt>
+
+            </titleStmt>
+
+            <editionStmt>
+                <p>First edition, <date when="2015">2015</date></p>
+            </editionStmt>
+
+            <publicationStmt>
+                <publisher><orgName key="ENT.000002473">Historical Society of
+                    Pennsylvania</orgName></publisher>
+                <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
+                <idno type="filename">11827</idno>
+                <availability status="restricted">
+                    <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of
+                        copyright only to original contributions made by the Historic Images, New
+                        Technologies (HINT) Project participants and other staff. HSP makes no claim
+                        of copyright to the original text. Permission is granted to download,
+                        transmit or otherwise reproduce, distribute or display the text
+                        contributions to this work claimed by HSP for non-profit educational
+                        purposes, provided that this header is included in its entirety. For
+                        inquiries about commercial uses, please contact the Historical Society of
+                        Pennsylvania. HSP retains the rights of all images unless otherwise noted.
+                        Possession of an HSP digital image does not constitute permission to use or
+                        publish it. Requests for digital imaging, other reproduction services, and
+                        the intended use of reproductions must be made in writing to the Rights and
+                        Reproductions Coordinator at rnr@hsp.org.</p>
+                </availability>
+                <date when="2015"/>
+            </publicationStmt>
+
+            <seriesStmt>
+                <title level="s" type="project" key="CARTOONS"/>
+            </seriesStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository key="ENT.000002473"/>
+                        <collection key="3133"/>
+                        <idno type="citation">
+                            <idno type="box">6</idno>
+                            <idno type="folder">10</idno>
+                        </idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <bibl>
+                                <date from="1865-01-01" to="1865-12-31">1865</date>
+                                <extent>1 loose sheet</extent>
+                                <listRelation>
+                                    <relation name="depicted" active="ENT.000001041"/>
+                                    <!-- Davis -->
+                                </listRelation>
+                            </bibl>
+                        </msItem>
+                    </msContents>
+
+                    <history>
+                        <acquisition>This is an artificial collection created over time by HSP staff
+                            mostly through donations and purchases of individual prints. It also
+                            incorporates previously uncataloged materials collected by the Balch
+                            Institute for Ethnic Studies. Some of the 20th century cartoons and
+                            drawings were removed from the J. Hampton Moore papers (Collection
+                            1541).</acquisition>
+                    </history>
+                </msDesc>
+                <biblStruct>
+                    <monogr>
+                        <respStmt>
+                            <resp key="art">Artist</resp>
+                            <persName key="ENT.000000553"/>
+                        </respStmt>
+                        <title type="main" level="m">The Last Ditch of the Chivalry, or a President
+                            in Petticoats</title>
+                        <imprint>
+                            <publisher><orgName key="ENT.000000844">Currier &amp;
+                                Ives</orgName></publisher>
+                            <pubPlace>New York</pubPlace>
+                            <date from="1865-01-01" to="1865-12-31">1865</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <projectDesc>
+                <p>The Historic Images, New Technologies (HINT) project aims to enhance description
+                    and discovery of the Historical Society of Pennsylvania's graphics materials and
+                    promote the linking and sharing of content among institutions and scholars. The
+                    project will result in an update to HSP's digital image viewer and an online
+                    digital history exhibit that will demonstrate the new viewer's capabilities and
+                    provide interpretive and contextual materials to encourage users to interact
+                    with historical images in new ways. This project was funded by a grant from the
+                    National Historical Publications and Records Commission's (NHPRC) Innovation in
+                    Archives and Documentary Editing program.</p>
+            </projectDesc>
+            <editorialDecl n="4">
+                <p>This electronic file was created using manual keying following the
+                    recommendations for Level 4 of "Best Practices for TEI in Libraries" guidelines
+                    v3.0.</p>
+                <p>This xml file uses unique entity identifiers, media file identifiers, and
+                    collection identifiers in HSP's Digital Library, available at
+                    http://digitallibrary.hsp.org.</p>
+
+            </editorialDecl>
+            <tagsDecl>
+                <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
+                <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
+                <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
+                <rendition scheme="css" xml:id="crossed-through">text-decoration:
+                    line-through</rendition>
+                <rendition scheme="other" xml:id="printed"/>
+                <rendition scheme="other" xml:id="typescript"/>
+                <rendition scheme="other" xml:id="handwritten"/>
+                <rendition scheme="other" xml:id="handwritten-underlined"/>
+                <rendition scheme="other" xml:id="handwritten-circled"/>
+                <rendition scheme="other" xml:id="handwritten-crossed-through"/>
+                <rendition scheme="other" xml:id="double-underline"/>
+                <rendition scheme="other" xml:id="stamp"/>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+        </encodingDesc>
+
+        <profileDesc>
+            <textClass>
+                <catRef target="cartoons_genres.xml#lithographs"/>
+                <catRef target="cartoons_genres.xml#political_cartoons"/>
+                <catRef target="cartoons_taxonomies.xml#civil_war"/>
+                <catRef target="cartoons_taxonomies.xml#lesson_plan"/>
+                <catRef target="cartoons_taxonomies.xml#gender"/>
+                <catRef target="cartoons_taxonomies.xml#war"/>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change who="RachelMoloshok" when="2015-04-22">Featured encoding (for lesson plan cartoon)</change>
+            <change who="RachelMoloshok" when="2015-04-22">Basic encoding</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <facsimile>
+        <surface ulx="" uly="" lrx="" lry="">
+            <graphic url="FIL.000089719"/>
+            <zone n="1" xml:id="title"/>
+            <zone n="2" xml:id="soldier1"/>
+            <zone n="3" xml:id="soldier2"/>
+            <zone n="4" xml:id="soldier3"/>
+            <zone n="5" xml:id="woman"/>
+            <zone n="6" xml:id="davis"/>
+            <zone n="7" xml:id="sack"/>
+        </surface>
+    </facsimile>
+
+    <text>
+        <front>
+            <div type="editorial_desc">
+                <p>At the right of the page, Confederate president Jefferson Davis, disguised in
+                    women's clothing, is shown running away from soldiers of the US Army. Davis is
+                    wearing a dress, and a woman's bonnet, attached to his neck by a ribbon, has
+                    just fallen off of his head; underneath the dress, he is wearing men's riding
+                    boots with spurs. He holds a sack of gold under his right arm and clutches a
+                    dagger in his right hand. In pursuit are four Union soldiers with swords and
+                    pistols drawn. They call out to Davis to surrender, telling him that they see
+                    through his disguise. Davis, still pretending to be a woman, cries out "Let me
+                    alone, you bloodthirsty villains: I thought your government more magnanimous
+                    than to hunt down women and children!" Behind Davis, a Confederate woman tries
+                    to defend the Confederate president against the Union soldiers, telling them
+                    "Look out, you vile Yankees, if you make him mad, he will hurt some of you!"
+                    This cartoon is a sensationalized depiction of the capture of Jefferson Davis on
+                    the morning of May 10, 1865, near Irwinville, Georgia. Following his capture,
+                    rumors circulated that Davis had been found attempting to escape while disguised
+                    as a woman. According to Davis, as the troops closed in he had hurriedly put on
+                    the first coat he could find (his wife's raincoat), and his wife thew her shawl
+                    over his head for further protection. Cartoonists seized on the opportunity to
+                    make fun of the former president of the Confederacy by portraying him
+                    masquerading in full female dress, complete with hoop skirts, petticoats, and
+                    bonnets.</p>
+            </div>
+        </front>
+
+        <body>
+            <div type="image_transcription" n="1" facs="#title">
+                <head><supplied resp="editorial">Title and imprint</supplied></head>
+                <p><hi rendition="#bold">THE LAST DITCH OF THE CHIVALRY, OR A PRESIDENT IN
+                        PETTICOATS.</hi></p>
+                <p>Published by <orgName key="ENT.000000844">Currier &amp; Ives</orgName>, 152
+                    Nassau St N.Y.</p>
+                <p>Entered according to act of Congress <date when="1865">AD 1865</date>. by Currier
+                    &amp; Ives, in the Clerk's Office of the District Court of the United States,
+                    for the Southern District of N.Y.</p>
+            </div>
+            <div type="image_transcription" n="2" facs="#soldier1">
+                <head><supplied resp="editorial">Soldier 1</supplied></head>
+                <p>Give in Old Chap, we have got a $100,000 on you!</p>
+            </div>
+            <div type="image_transcription" n="3" facs="#soldier2">
+                <head><supplied resp="editorial">Soldier 2 (waving hat and pistol)</supplied></head>
+                <p>It's no use trying that shift <persName key="ENT.000001041">Jeff</persName>, we
+                    see your boots!</p>
+            </div>
+            <div type="image_transcription" n="4" facs="#soldier3">
+                <head><supplied resp="editorial">Soldier 3 (pointing pistol at <persName
+                            key="ENT.000001041">Davis</persName>)</supplied></head>
+                <p>Surrender Old Fellow, or we will let daylight into you; you have reached your
+                    last ditch!</p>
+            </div>
+            <div type="image_transcription" n="5" facs="#woman">
+                <head><supplied resp="editorial">Woman</supplied></head>
+                <p>Look out you vile Yankees, if you make him mad he will hurt some of you!</p>
+            </div>
+            <div type="image_transcription" n="6" facs="#davis">
+                <head><supplied resp="editorial"><persName key="ENT.000001041">Jefferson
+                            Davis</persName> (disguised as woman)</supplied></head>
+                <p>Let me alone you blood thirsty villains: __ I thought your government more
+                    magnanimous than to hunt down women and children!</p>
+            </div>
+            <div type="image_transcription" n="7" facs="#sack">
+                <head><supplied resp="editorial">Sack</supplied></head>
+                <p>GOLD.</p>
+            </div>
+        </body>
+
+        <back/>
+    </text>
+</TEI>
