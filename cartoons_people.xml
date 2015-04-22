@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<<<<<<< HEAD
 
 
 <?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
+=======
+<?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
+
+>>>>>>> origin/master
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 
   <teiHeader>
@@ -1911,6 +1916,7 @@
             </persName>
             <sex>Male</sex>
           </person>
+<<<<<<< HEAD
           <person xml:id="ENT.000002466">
             <persName key="ENT.000002466">
               <forename type="first">Charles</forename>
@@ -1920,6 +1926,17 @@
             <birth when="1882">1882</birth>
             <death when="1942">1942</death>
             <sex>Male</sex>
+=======
+          <person xml:id="ENT.000003617">
+            <persName key="ENT.000003617">
+              <forename type="first">Jimmy</forename>
+              <surname type="last">Swinnerton</surname>
+            </persName>
+            <birth when="1875">1875</birth>
+            <death when="1974">1974</death>
+            <sex>Male</sex>
+            <note type="internal">LOC: http://id.loc.gov/authorities/names/n79026907</note>
+>>>>>>> origin/master
           </person>
           <person xml:id="ENT.000003384">
             <persName key="ENT.000003384">
