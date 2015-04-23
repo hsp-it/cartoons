@@ -8,18 +8,16 @@
         <fileDesc>
 
             <titleStmt>
-                <title type="main"
-                    >TEI transcription of Holding His End Up</title>
+                <title type="main">TEI transcription of Holding His End Up</title>
                 <respStmt>
                     <resp key="art">Artist</resp>
-                    <persName key="ENT.000003369"
-                        >Fred Morgan</persName>
+                    <persName key="ENT.000003369">Fred Morgan</persName>
                 </respStmt>
                 <respStmt>
                     <resp key="trc">Transcribed by</resp>
                     <persName key="ENT.000003544">Biunno, Diane</persName>
                 </respStmt>
-                
+
                 <respStmt>
                     <resp key="mrk">Encoded by</resp>
                     <persName key="ENT.000003544">Biunno, Diane</persName>
@@ -34,8 +32,7 @@
                 <publisher><orgName key="ENT.000002473">Historical Society of
                     Pennsylvania</orgName></publisher>
                 <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
-                <idno type="filename"
-                    >12189</idno>
+                <idno type="filename">12189</idno>
                 <availability status="restricted">
                     <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of
                         copyright only to original contributions made by the Historic Images, New
@@ -63,15 +60,13 @@
                     <msIdentifier>
                         <repository key="ENT.000002473"/>
                         <collection key="1541">J. Hampton Moore papers</collection>
-                        <idno type="citation"
-                            ><idno type="volume">72</idno>  
-                            </idno>
+                        <idno type="citation"><idno type="volume">72</idno>
+                        </idno>
                     </msIdentifier>
                     <msContents>
                         <msItem>
                             <bibl>
-                                <date from="1898-08-09"
-                                    >August 9, 1898</date>
+                                <date from="1898-08-09">August 9, 1898</date>
                                 <extent>1 scrapbook page</extent>
                                 <extent>
                                     <dimensions type="image" unit="cm">
@@ -80,8 +75,10 @@
                                     </dimensions>
                                 </extent>
                                 <listRelation>
-                                    <relation name="depicted" active="cartoons_symbols.xml#uncle_sam"/>
-                                    <relation name="depicted" active="cartoons_symbols.xml#john_bull"/>                    
+                                    <relation name="depicted"
+                                        active="cartoons_symbols.xml#uncle_sam"/>
+                                    <relation name="depicted"
+                                        active="cartoons_symbols.xml#john_bull"/>
                                 </listRelation>
                             </bibl>
                         </msItem>
@@ -95,14 +92,13 @@
                     <analytic>
                         <respStmt>
                             <resp key="art">Artist</resp>
-                            <persName key="ENT.000003369"
-                                >Fred Morgan</persName>
+                            <persName key="ENT.000003369">Fred Morgan</persName>
                         </respStmt>
                         <title type="main" level="a">Holding His End Up</title>
                     </analytic>
                     <monogr>
                         <title type="marc245a" level="j"><orgName key="ENT.000000572">Philadelphia
-                            Inquirer</orgName></title>
+                                Inquirer</orgName></title>
                         <imprint>
                             <publisher><persName key="ENT.000003684">James
                                 Elverson</persName></publisher>
@@ -131,7 +127,8 @@
                     Archives and Documentary Editing program.</p>
             </projectDesc>
             <editorialDecl n="4">
-                <p>The political cartoon entitled "How the Spaniard Became an Angel" which appears below "Holding His End Up" has not been encoded.  It is a separate cartoon of unknown publication.</p>
+                <p>The political cartoon entitled "How the Spaniard Became an Angel" which appears
+                    below "Holding His End Up" has not been encoded. It is a separate cartoon which has been affixed below "Holding His End Up" by the creator of the scrapbook.</p>
                 <p>This electronic file was created using manual keying following the
                     recommendations for Level 4 of "Best Practices for TEI in Libraries" guidelines
                     v3.0.</p>
@@ -162,26 +159,27 @@
 
         <profileDesc>
             <textClass>
-                    <catRef target="cartoons_genres.xml#political_cartoons"/>
-                    <catRef target="cartoons_genres.xml#clippings"/>
-                    <catRef target="cartoons_taxonomies.xml#nineties"/>
-                    <catRef target="cartoons_taxonomies.xml#featured"/>
-                    <catRef target="cartoons_taxonomies.xml#war"/>
-                    <catRef target="cartoons_taxonomies.xml#international"/>
-                </textClass>
+                <catRef target="cartoons_genres.xml#political_cartoons"/>
+                <catRef target="cartoons_genres.xml#clippings"/>
+                <catRef target="cartoons_taxonomies.xml#nineties"/>
+                <catRef target="cartoons_taxonomies.xml#featured"/>
+                <catRef target="cartoons_taxonomies.xml#war"/>
+                <catRef target="cartoons_taxonomies.xml#international"/>
+                <catRef target="cartoons_taxonomies.xml#stereotypes"/>
+
+            </textClass>
         </profileDesc>
 
         <revisionDesc>
-            <change who="DianeBiunno" when="2015-04-21">Encoded to featured level</change>
+            <change who="DianeBiunno" when="2015-04-23">Encoded to featured level</change>
             <change who="RachelMoloshok" when="2015-01-07">Template file created</change>
         </revisionDesc>
     </teiHeader>
 
     <facsimile>
         <surface ulx="" uly="" lrx="" lry="">
-            <graphic
-                url="FIL.000090279"/>
-            
+            <graphic url="FIL.000090279"/>
+
             <zone n="1" xml:id="Date" points=""/>
             <zone n="2" xml:id="Sam" points=""/>
             <zone n="3" xml:id="PR" points=""/>
@@ -199,7 +197,32 @@
     <text>
         <front>
             <div type="editorial_desc">
-                <p><!-- Use this section to enter a BRIEF description of the image. --></p>
+                <p>American expansionism as well as the ideals of the Monroe Doctrine, which
+                    rejected European rule and intervention in the Americas, led the United States
+                    to intervene against Spain in the Cuban War for Independence (1895-1898). In
+                    January 1898, the US sent the battleship USS <hi rendition="#italics">Maine</hi>
+                    to Havana and on February 15, 1898, the battleship
+                    sunk after a mysterious explosion. Although they lacked any credible evidence to
+                    supports their claims, newspapers held Spain responsible for the incident. In
+                    April 1898 the US declared war. The Spanish-American War lasted for only ten
+                    weeks and ended with the signing of the Treaty of Paris on December 10, 1898. As
+                    part of the agreement, Spain granted Cuba its independence and ceded Guam and
+                    Puerto Rico to the United States. The United States also purchased the
+                    Philippines from Spain for $20 million and annexed Hawaii on August 12, 1898.
+                    The end of the war marked a turning point in US foreign policy, as the
+                    Nation expanded its economic and political influence in the Western Hemisphere.</p>
+                <p>The political cartoon comments on American expansionism in the Western Hemisphere. In the image,
+                    Uncle Sam performs a circus act for European emperors, monarchs, and leaders. He
+                    balances children, who are holding flags representing Puerto Rico, Hawaii, Cuba,
+                    Philippines, and the Ladrones Islands, on his shoulders and head. John Bull, the
+                    symbol for Great Britain, remarks in the caption below the image: "It's really
+                    most extraordinary what training will do. Why, only the other day I thought that
+                    man unable to support himself." The children are drawn reflecting the ethnic and
+                    racial stereotypes of the era.</p>
+                <p>Please note that the image of the political cartoon is taken from a scrapbook.
+                    "How the Spaniard Became an Angel" which has been affixed
+                    below "Holding His End Up" by the scrapbook creator has not been encoded because
+                    it was not originally part of the <hi rendition="#italics">Philadelphia Inquirer</hi> cartoon                       "Holding His End Up."</p>
             </div>
         </front>
 
@@ -208,57 +231,63 @@
                 <head><supplied resp="editorial">Date</supplied></head>
                 <p><supplied resp="editorial">PHILADELP</supplied>HIA, TUESDAY, AUGUST 9, 1898</p>
             </div>
-            
-            <div type="image_transcription" facs="#Sam" n="2">
-                <head><supplied resp="editorial"><rs resp="cartoons_symbols.xml#uncle_sam">Uncle Sam</rs></supplied></head>
-                <p></p>
+
+            <div type="image_annotation" facs="#Sam" n="2">
+                <head><supplied resp="editorial"><rs resp="cartoons_symbols.xml#uncle_sam">Uncle
+                            Sam</rs></supplied></head>
+                <p>Uncle Sam stands on an "army and navy" pedestal and performs a circus act for the
+                    emperors and leaders of Europe.</p>
             </div>
-            
+
             <div type="image_transcription" facs="#PR" n="3">
                 <head><supplied resp="editorial">Puerto Rico</supplied></head>
                 <p>PORTO RICO</p>
             </div>
-            
+
             <div type="image_transcription" facs="#Hawaii" n="4">
                 <head><supplied resp="editorial">Hawaii</supplied></head>
-                <p>HAWAII</p>
+                <p>HAWAII <note rendition="editorial" n="1">In 1959 Hawaii became the 50th state.</note></p>
             </div>
-            
+
             <div type="image_transcription" facs="#Cuba" n="5">
                 <head><supplied resp="editorial">Cuba</supplied></head>
-                <p>CUBA</p>
+                <p>CUBA <note rendition="editorial" n="2">As part of the Platt Amendment, the US secured a permanent lease of Guantánamo Bay which still continues today.</note></p>
             </div>
-            
+
             <div type="image_transcription" facs="#Philippines" n="6">
-                <head><supplied resp="editorial"></supplied></head>
-                <p></p>
+                <head><supplied resp="editorial">Philippines <note rendition="editorial" n="3">The Philippines gained their independence from the United States in 1946 with the signing of the Treaty of Manila. </note></supplied></head>
+                <p>PHILIPPINES</p>
             </div>
-            
+
             <div type="image_transcription" facs="#Ladrone" n="7">
-                <head><supplied resp="editorial"></supplied></head>
-                <p></p>
+                <head><supplied resp="editorial">Ladrone</supplied></head>
+                <p>LADRONE</p>
             </div>
-            
+
             <div type="image_transcription" facs="#Pedestal" n="8">
-                <head><supplied resp="editorial"></supplied></head>
-                <p></p>
+                <head><supplied resp="editorial">Pedestal</supplied></head>
+                <p>ARMY AND NAVY</p>
             </div>
-            
+
             <div type="image_transcription" facs="#Artist" n="9">
-                <head><supplied resp="editorial"></supplied></head>
-                <p></p>
+                <head><supplied resp="editorial">Artist</supplied></head>
+                <p><persName key="ENT.000003369">Fred Morgan</persName></p>
             </div>
-            
+
             <div type="image_transcription" facs="#Title" n="10">
-                <head><supplied resp="editorial"></supplied></head>
-                <p></p>
+                <head><supplied resp="editorial">Title and Caption</supplied></head>
+                <p>HOLDING HIS END UP</p>
+                <p>John Bull-It's really most extraordinary what training will do. Why, only the
+                    other day I thought that man unable to support himself.</p>
             </div>
-            
-            <div type="image_transcription" facs="#Bull" n="11">
-                <head><supplied resp="editorial"></supplied></head>
-                <p></p>
+
+            <div type="image_annotation" facs="#Bull" n="11">
+                <head><supplied resp="editorial"><rs resp="cartoons_symbols.xml#john_bull">John
+                            Bull</rs></supplied></head>
+                <p>John Bull, the symbol for Great Britain, watches Uncle Sam perform his circus
+                    act.</p>
             </div>
-            
+
         </body>
 
         <back/>
