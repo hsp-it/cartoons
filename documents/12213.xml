@@ -11,6 +11,10 @@
                     <resp key="art">Artist</resp>
                     <persName key="ENT.000000553">"Unknown Artist"</persName>
                 </respStmt>
+                <respStmt>
+                    <resp key="pbl">publisher</resp>
+                    <orgName key="ENT.000003609">Joseph Pulitzer</orgName>
+                </respStmt>
               
                 <respStmt>
                     <resp key="trc">Transcribed by</resp>
@@ -102,6 +106,10 @@
                             <resp key="art">Artist</resp>
                             <persName key="ENT.000000553"/>
                         </respStmt>
+                        <respStmt>
+                            <resp key="pbl">publisher</resp>
+                            <orgName key="ENT.000003609">Joseph Pulitzer</orgName>
+                        </respStmt>
                         <title type="main" level="a">Effect of Roentgen's "Rays"</title>
                     </analytic>
                     <monogr>
@@ -182,15 +190,15 @@
 
     <facsimile>
        
-        <surface ulx="" uly="" lrx="" lry="">
+        <surface ulx="0" uly="0" lrx="100" lry="100">
             <graphic
                 url="FIL.000090253"/>
          
-            <zone n="1" xml:id="Caption" points=""/>
-            <zone n="2" xml:id="Hartman" points=""/>
-            <zone n="3" xml:id="Penrose" points=""/>
-            <zone n="4" xml:id="Martin" points=""/>
-            <zone n="5" xml:id="Title" points=""/>
+            <zone n="1" xml:id="Caption" points="29.44,81.72 66.69,81.41 67.02,85.66 29.44,85.77"/>
+            <zone n="2" xml:id="Hartman" points="19.07,71.3 21.17,69.39 32.35,64.28 40.21,59.28 40.94,60.45 38.59,64.18 49.2,62.05 49.52,58.22 51.47,59.6 51.63,65.77 43.61,70.34 37.62,73.96 39.4,80.34 31.78,81.09 31.14,75.87 25.63,77.04 21.01,77.04 19.39,74.17"/>
+            <zone n="3" xml:id="Penrose" points="41.03,23.28 43.77,20.91 47.27,22.28 47.74,29.98 48.88,34.58 49.07,40.92 53.23,41.66 54.08,44.4 48.88,47.63 50.02,79.06 42.07,79.31 39.61,58.07 39.51,51.6 37.24,51.98 36.67,42.53 38.85,34.09 40.84,30.73"/>
+            <zone n="4" xml:id="Martin" points="59.48,26.51 61.75,25.39 65.06,28.12 65.06,32.59 62.98,36.94 66.57,39.18 69.89,44.9 73.1,44.27 73.1,47.01 72.06,48.25 69.41,48.75 65.15,44.15 64.11,47.26 65.44,58.07 64.02,58.81 64.02,68.25 64.78,77.82 58.06,77.32 61.18,69.87 53.52,69.25 54.08,65.89 55.31,59.93 53.99,57.44 55.6,46.88 49.83,53.47 56.07,37.19 57.77,30.98"/>
+            <zone n="5" xml:id="Title" points="24.05,14.98 75.95,14.98 76.1,20.23 23.9,20.79"/>
         </surface>
     </facsimile>
 
