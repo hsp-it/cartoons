@@ -10,7 +10,7 @@
           "Run".</title>
         <respStmt>
           <resp key="art">Artist</resp>
-          <persName key="?ENT.000003364">Maurer, Louis</persName>
+          <persName key="ENT.000003364">Maurer, Louis</persName>
         </respStmt>
         <respStmt>
           <resp key="trc">Transcribed by</resp>
@@ -96,8 +96,12 @@
           <monogr>
             <respStmt>
               <resp key="art">Artist</resp>
-              <persName key="?ENT.000003364">Maurer, Louis</persName>
+              <persName key="ENT.000003364">Maurer, Louis</persName>
             </respStmt>
+          <respStmt>
+          <resp key="pbl">publisher</resp>
+          <orgName key="ENT.000000844">Currier &amp; Ives</orgName>
+        </respStmt>
             <title type="main" level="m">The National Game. Three "Outs" and One "Run".</title>
             <imprint>
               <pubPlace>New York</pubPlace>
