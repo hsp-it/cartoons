@@ -188,6 +188,7 @@
             </textClass>
         </profileDesc>
         <revisionDesc>
+            <change who="DianeBiunno" when="2015-04-27">Basic proofreading</change>
             <change who="DianeBiunno" when="2015-04-14">Exported from DAMS</change>
             <change who="DianeBiunno" when="2015-02-09">Encoded to featured level</change>
             <change who="DianeBiunno" when="2015-01-29">Encoded to basic level</change>
@@ -211,7 +212,7 @@
                 points="19.4,63.23 23.89,63.13 24.88,66.24 26.16,64.79 30.94,67.66 32.14,69.96 31.57,74.42 27.52,74.21 19.69,67.06"/>
             <zone n="8" xml:id="Reid"
                 points="32.34,72.34 36.9,71.2 37.75,76.48 29.21,80.21 30.21,81.87 26.52,83.35 30.92,84.98 33.98,89.12 32.91,90.26 23.38,89.85 13.06,85.91 13.13,82.6 17.47,81.46 21.74,81.15"/>
-            <zone n="9" xml:id="Fisk" points="8.06,87.16 13.06,87.16 13.06,92.16 8.06,92.16"/>
+            <zone n="9" xml:id="Fisk" points="6.63,82.78 9.19,82.58 11.75,82.37 13.34,86.54 15.67,87.34 19.01,88.89 18.87,90.03 4.99,89"/>
             <zone n="10" xml:id="Congress"
                 points="6.82,41.97 11.37,40.77 12.46,42.17 12.86,44.11 12.17,46.06 11.29,50.11 9.44,51.12 7.95,49.95"/>
             <zone n="11" xml:id="Washington"
