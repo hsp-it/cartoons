@@ -182,6 +182,7 @@
         </profileDesc>
 
         <revisionDesc>
+            <change who="DianeBiunno" when="2015-04-27">Export from DAMS and basic proofreading</change>
             <change who="DianeBiunno" when="2015-04-27">Encoded to featured level</change>
             <change who="DianeBiunno" when="2015-04-15">Encoded to basic level</change>
             <change who="RachelMoloshok" when="2015-01-07">Template file created</change>
