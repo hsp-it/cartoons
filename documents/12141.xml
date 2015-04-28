@@ -1,0 +1,252 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+    <teiHeader xml:lang="English">
+
+        <fileDesc>
+
+            <titleStmt>
+                <title type="main">TEI transcription of The Song of Hiawatha</title>
+                <respStmt>
+                    <resp key="art">Artist</resp>
+                    <persName key="ENT.000000553"
+                        >Unknown Artist</persName>
+                </respStmt>
+                <respStmt>
+                    <resp key="trc">Transcribed by</resp>
+                    <persName key="ENT.000003544">Biunno, Diane</persName>
+                </respStmt>
+                <respStmt>
+                    <resp key="pbl">Publisher</resp>
+                    <orgName key="ENT.000003387"
+                        >Unknown</orgName>
+                </respStmt>
+                
+                
+                <respStmt>
+                    <resp key="mrk">Encoded by</resp>
+                    <persName key="ENT.000003544">Biunno, Diane</persName>
+                </respStmt>
+
+            </titleStmt>
+
+            <editionStmt>
+                <p>First edition, <date when="2015">2015</date></p>
+            </editionStmt>
+
+            <publicationStmt>
+                <publisher><orgName key="ENT.000002473">Historical Society of
+                    Pennsylvania</orgName></publisher>
+                <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
+                <idno type="filename"
+                    >12141</idno>
+                <availability status="restricted">
+                    <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of
+                        copyright only to original contributions made by the Historic Images, New
+                        Technologies (HINT) Project participants and other staff. HSP makes no claim
+                        of copyright to the original text. Permission is granted to download,
+                        transmit or otherwise reproduce, distribute or display the text
+                        contributions to this work claimed by HSP for non-profit educational
+                        purposes, provided that this header is included in its entirety. For
+                        inquiries about commercial uses, please contact the Historical Society of
+                        Pennsylvania. HSP retains the rights of all images unless otherwise noted.
+                        Possession of an HSP digital image does not constitute permission to use or
+                        publish it. Requests for digital imaging, other reproduction services, and
+                        the intended use of reproductions must be made in writing to the Rights and
+                        Reproductions Coordinator at rnr@hsp.org.</p>
+                </availability>
+                <date when="2015"/>
+            </publicationStmt>
+
+            <seriesStmt>
+                <title level="s" type="project" key="CARTOONS"/>
+            </seriesStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository key="ENT.000002473"/>
+                        <collection key="PG278">Balch Broadsides: Satirical Cartoons</collection>
+                        <idno type="citation">
+                            <idno type="box">5</idno>
+                            <idno type="folder">2</idno>
+                        </idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <bibl>
+                                <date from="1879-03-08"
+                                    >March 8, 1878</date>
+                                <extent>1 loose page</extent>
+                                <listRelation>
+                                    <relation name="mentioned" active="cartoons_symbols.xml#uncle_sam"/>
+                                </listRelation>
+                            </bibl>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+                <biblStruct>
+                    <analytic>
+                        <respStmt>
+                            <resp key="art">Artist</resp>
+                            <persName key="ENT.000000553"/>
+                        </respStmt>
+                        <respStmt>
+                            <resp key="pbl">Publisher</resp>
+                            <orgName key="ENT.000003387"
+                                >Unknown</orgName>
+                        </respStmt>
+                        <title type="main" level="a">The Song of Hiawatha</title>
+                    </analytic>
+                    <monogr>
+                        <title type="marc245a" level="j"><orgName key="ENT.000000382">Illustrated Wasp</orgName></title>
+                        <imprint>
+                            <publisher><orgName key="ENT.000003387"
+                                    >Unknown</orgName></publisher>
+                            <pubPlace>San Francisco</pubPlace>
+                            <date from="1879-03-08"
+                                >March 8, 1878</date>
+                            <biblScope unit="volume">3</biblScope>
+                            <biblScope unit="issue">136</biblScope>
+                            <biblScope unit="page">500</biblScope>  
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <projectDesc>
+                <p>The Historic Images, New Technologies (HINT) project aims to enhance description
+                    and discovery of the Historical Society of Pennsylvania's graphics materials and
+                    promote the linking and sharing of content among institutions and scholars. The
+                    project will result in an update to HSP's digital image viewer and an online
+                    digital history exhibit that will demonstrate the new viewer's capabilities and
+                    provide interpretive and contextual materials to encourage users to interact
+                    with historical images in new ways. This project was funded by a grant from the
+                    National Historical Publications and Records Commission's (NHPRC) Innovation in
+                    Archives and Documentary Editing program.</p>
+            </projectDesc>
+            <editorialDecl n="4">
+                
+                <p>This electronic file was created using manual keying following the
+                    recommendations for Level 4 of "Best Practices for TEI in Libraries" guidelines
+                    v3.0.</p>
+                <p>This xml file uses unique entity identifiers, media file identifiers, and
+                    collection identifiers in HSP's Digital Library, available at
+                    http://digitallibrary.hsp.org.</p>
+
+            </editorialDecl>
+            <tagsDecl>
+                <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
+                <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
+                <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
+                <rendition scheme="css" xml:id="crossed-through">text-decoration:
+                    line-through</rendition>
+                <rendition scheme="other" xml:id="printed"/>
+                <rendition scheme="other" xml:id="typescript"/>
+                <rendition scheme="other" xml:id="handwritten"/>
+                <rendition scheme="other" xml:id="handwritten-underlined"/>
+                <rendition scheme="other" xml:id="handwritten-circled"/>
+                <rendition scheme="other" xml:id="handwritten-crossed-through"/>
+                <rendition scheme="other" xml:id="double-underline"/>
+                <rendition scheme="other" xml:id="stamp"/>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+        </encodingDesc>
+
+        <profileDesc>
+            <textClass>
+                <catRef target="cartoons_genres.xml#clipping"/>
+                <catRef target="cartoons_genres.xml#political_cartoons"/>
+                <catRef target="cartoons_taxonomies.xml#gilded"/>
+                <catRef target="cartoons_taxonomies.xml#stereotypes"/>
+                <catRef target="cartoons_taxonomies.xml#native"/>
+                <catRef target="cartoons_taxonomies.xml#war"/>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change who="DianeBiunno" when="2015-04-28">Encoded to basic level</change>
+            <change who="RachelMoloshok" when="2015-01-07">Template file created</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <facsimile>
+   
+        <surface ulx="0" uly="0" lrx="100" lry="100">
+           
+            <graphic
+                url="FIL.000090454"/>
+           
+            <zone n="1" xml:id="Title" points="15.65,9.66 37.44,9.51 37.61,23.13 15.1,23.44"/>
+            <zone n="2" xml:id="Vignette_1" points="7.03,23.46 25.51,23.78 25.73,57.1 7.25,57.42"/>
+            <zone n="3" xml:id="Vignette_2" points="25.88,24.21 44.52,23.78 44.96,57 26.33,57.21"/>
+            <zone n="4" xml:id="Vignette_3" points="6.73,59.45 25.43,59.3 25.75,91.89 6.73,91.6"/>
+            <zone n="5" xml:id="Vignette_4" points="25.89,59.37 44.73,59.75 45.13,93.3 25.5,92.36"/>
+        </surface>
+    </facsimile>
+
+    <text>
+
+        <front>
+            <div type="editorial_desc">
+                <p>The political cartoon is divided into four vignettes.  In the first, Native Americans and the US army are engaged in a battle. The soldiers fire guns and cannons at the Native Americans. In the second vignette, white settlers take the Native Americans' money and clothing.  A soldier hunts buffalo in the background. In the third, settlers who are searching for gold shoot and stab several Native Americans.  In the fourth vignette, a Native American is put on display on a stage.  White settlers, as well as their children and pets, gather around the stage.</p>
+            </div>
+        </front>
+
+        <body>
+            <div type="image_transcription" facs="#Title" n="1"> 
+                <head><supplied resp="editorial">Title and Caption</supplied></head>
+                <p>THE ILLUSTRATED WASP</p>
+                <p>THE SONG OF HIAWATHA.</p>
+                <p>Latest Version.</p>
+                <p>IN TWO PARTS-PART II.</p>
+            </div>
+            
+            <div type="image_transcription" facs="#Vignette_1" n="2">    
+                <head><supplied resp="editorial">Vignette 1</supplied></head>
+                <p>Uncle Samuel made the treaty-</p>
+                <p>Made the treaty-the Jug-handle-</p>
+                <p>Signed it for himself and Injun,</p>
+                <p>Gave the Idjun showers of bullets </p>
+                <p>And three pints of beads to take it.</p>
+            </div>
+            
+            <div type="image_transcription" facs="#Vignette_2" n="3">  
+                <head><supplied resp="editorial">Vignette 2</supplied></head>
+                <p>How those promises were broken!</p>
+                <p>How the Agents robbed the Injun,</p>
+                <p>Stole his clothing and his money,</p>
+                <p>Shot his game and sold his rations,</p>
+                <p>Starved to death his squaw and pappoose</p>
+            </div>
+            
+            <div type="image_transcription" facs="#Vignette_3" n="4">
+                <head><supplied resp="editorial">Vignette 3</supplied></head>
+                <p>Driven from his home, the Red Man</p>
+                <p>Met the miners in the gulches,</p>
+                <p>And the Miners preached a sermon,</p>
+                <p>With their bowie and revolver-</p>
+                <p>Preached complete extermination.</p>
+            </div>
+            
+            <div type="image_transcription" facs="#Vignette_4" n="5">
+                <head><supplied resp="editorial">Vignette 4</supplied></head>
+                <p>Thus the Red Men were diminished</p>
+                <p>'Till but one was left a living.</p>
+                <p>And they set him on a platform</p>
+                <p>As a curious sight, and people</p>
+                <p>Moseyed miles and miles to sea him.</p>
+            </div>
+            
+        </body>
+
+        <back/>
+    </text>
+</TEI>
