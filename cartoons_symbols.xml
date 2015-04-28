@@ -176,6 +176,16 @@
             <note type="symbol"
               ><!-- see http://en.wikipedia.org/wiki/Liberty_Tree, David Hackett Fischer's "Liberty and Freedom" etc. for description --></note>
           </item>
+          <item xml:id="liberty_cap">
+            <label>Liberty cap</label>
+            <note type="symbol">Liberty caps, also sometimes called Phrygian caps, appear frequently
+              in political cartoons. In ancient Rome, freed slaves wore pointed hats, with the peak
+              bent or turned at the side or front, to indicate their status; thus, the Phrygian cap
+              became a symbol of freedom. <rs ref="cartoons_symbols.xml#columbia">Columbia</rs>, the
+              female personification of America, is often depicted wearing this type of cap, and
+              many characters in American political cartoons are shown either wearing these caps or
+              carrying poles decorated with liberty caps.</note>
+          </item>
           <item xml:id="lion">
             <label>Lion</label>
             <note type="symbol">Often used as a symbol of Great Britain. Nast also used lion to
