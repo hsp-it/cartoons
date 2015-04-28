@@ -254,7 +254,7 @@
       <div type="image_annotation" n="5" facs="#Columbia">
         <head>
           <supplied resp="editorial">
-            <rs resp="cartoons_symbols.xml#columbia">Columbia</rs>
+            <rs ref="cartoons_symbols.xml#columbia">Columbia</rs>
           </supplied>
         </head>
         <p>Columbia presents Theodore Roosevelt to Uncle Sam for a scolding.</p>
@@ -265,7 +265,7 @@
             <persName key="ENT.000003084">William Taft</persName>
           </supplied>
         </head>
-        <p>William Taft holds Columbia's hand and appears to be crying.</p>
+        <p>William Taft holds <rs ref="cartoons_symbols.xml#columbia">Columbia's</rs> hand and appears to be crying.</p>
       </div>
     </body>
   </text>

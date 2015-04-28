@@ -260,7 +260,7 @@
             </div>
 
             <div type="image_annotation" n="2" facs="#Sam">
-                <head><supplied resp="editorial"><rs resp="cartoons_symbols.xml#uncle_sam">Uncle
+                <head><supplied resp="editorial"><rs ref="cartoons_symbols.xml#uncle_sam">Uncle
                             Sam</rs></supplied></head>
                 <p>Uncle Sam stands on an "army and navy" pedestal and performs a circus act for the
                     emperors and leaders of Europe.</p>
@@ -316,7 +316,7 @@
             </div>
 
             <div type="image_annotation" n="11" facs="#Bull">
-                <head><supplied resp="editorial"><rs resp="cartoons_symbols.xml#john_bull">John
+                <head><supplied resp="editorial"><rs ref="cartoons_symbols.xml#john_bull">John
                             Bull</rs></supplied></head>
                 <p>John Bull, the symbol for Great Britain, watches Uncle Sam perform his circus
                     act.</p>
