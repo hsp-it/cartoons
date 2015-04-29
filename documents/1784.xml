@@ -215,14 +215,14 @@
         <p><add rendition="#handwritten">Phila Record 11-6-1912.</add></p>
       </div>
       <div type="image_annotation" n="3" facs="#Elephant">
-        <head><supplied resp="editorial"><rs resp="cartoons_symbols.xml#elephant"
+        <head><supplied resp="editorial"><rs ref="cartoons_symbols.xml#elephant"
           >Elephant</rs></supplied></head>
         <p>The Elephant is a symbol for the Republican Party. <persName key="ENT.000003384">William
           Taft</persName> ran as the Republican presidential nominee in the election of 1912 and
           lost to <persName key="ENT.000003084">Woodrow Wilson</persName>.</p>
       </div>
       <div type="image_annotation" n="4" facs="#Bullmoose">
-        <head><supplied resp="editorial"><rs resp="cartoons_symbols.xml#bull_moose">Bull
+        <head><supplied resp="editorial"><rs ref="cartoons_symbols.xml#bull_moose">Bull
           Moose</rs></supplied></head>
         <p>The bull moose is a symbol for the Progressive Party. <persName key="ENT.000002738"
           >Theodore Roosevelt</persName> established the Party in 1912 because of political

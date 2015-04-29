@@ -296,12 +296,12 @@
         <p>LONDON</p>
       </div>
       <div type="image_annotation" n="15" facs="#Sam">
-        <head><supplied resp="editorial"><rs resp="cartoons_symbols.xml#uncle_sam">Uncle
+        <head><supplied resp="editorial"><rs ref="cartoons_symbols.xml#uncle_sam">Uncle
             Sam</rs></supplied></head>
         <p>Image shows Uncle Sam in his pajamas, carries a lantern, and covers his ears.</p>
       </div>
       <div type="image_annotation" n="16" facs="#Columbia">
-        <head><supplied resp="editorial"><rs resp="cartoons_symbols.xml#columbia"
+        <head><supplied resp="editorial"><rs ref="cartoons_symbols.xml#columbia"
             >Columbia</rs></supplied></head>
         <p>Columbia covers her ears.</p>
       </div>

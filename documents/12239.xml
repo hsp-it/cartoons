@@ -178,7 +178,7 @@
       <div type="image_transcription" n="2" facs="#Artist"><head><supplied resp="editorial">Signature and Notes</supplied></head>
                 <p>M. de Zayas</p>
                 <p><add rendition="#handwritten">Phila Evg. Telegraph 11-23-08</add></p></div>
-      <div type="image_annotation" n="3" facs="#Sam"><head><supplied resp="editorial"><rs resp="cartoons_symbols.xml#uncle_sam">Uncle
+      <div type="image_annotation" n="3" facs="#Sam"><head><supplied resp="editorial"><rs ref="cartoons_symbols.xml#uncle_sam">Uncle
                             Sam</rs></supplied></head>
                 <p>Image depicts a large "Standard Oil" snake coiled around Uncle Sam.</p></div>
       <div type="image_transcription" n="4" facs="#Oil"><head><supplied resp="editorial"><orgName key="ENT.000003626">Standard
