@@ -1,288 +1,273 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 
 <?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-
-
-    <teiHeader xml:lang="English">
-
-        <fileDesc>
-
-            <titleStmt>
-                <title type="main">TEI transcription of Slow &amp; Steady Wins the Race</title>
-                <respStmt>
-                    <resp key="art">Artist</resp>
-                    <persName key="ENT.000000553">Unknown artist</persName>
-                </respStmt>
-                <respStmt>
-                    <resp key="trc">Transcribed by</resp>
-                    <persName key="ENT.000003368">Moloshok, Rachel</persName>
-                </respStmt>
-                <respStmt>
-                    <resp key="mrk">Encoded by</resp>
-                    <persName key="ENT.000003368">Moloshok, Rachel</persName>
-                </respStmt>
-
-            </titleStmt>
-
-            <editionStmt>
-                <p>First edition, <date when="2015">2015</date></p>
-            </editionStmt>
-
-            <publicationStmt>
-                <publisher><orgName key="ENT.000002473">Historical Society of
-                    Pennsylvania</orgName></publisher>
-                <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
-                <idno type="filename">11756</idno>
-                <availability status="restricted">
-                    <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of
-                        copyright only to original contributions made by the Historic Images, New
-                        Technologies (HINT) Project participants and other staff. HSP makes no claim
-                        of copyright to the original text. Permission is granted to download,
-                        transmit or otherwise reproduce, distribute or display the text
-                        contributions to this work claimed by HSP for non-profit educational
-                        purposes, provided that this header is included in its entirety. For
-                        inquiries about commercial uses, please contact the Historical Society of
-                        Pennsylvania. HSP retains the rights of all images unless otherwise noted.
-                        Possession of an HSP digital image does not constitute permission to use or
-                        publish it. Requests for digital imaging, other reproduction services, and
-                        the intended use of reproductions must be made in writing to the Rights and
-                        Reproductions Coordinator at rnr@hsp.org.</p>
-                </availability>
-                <date when="2015"/>
-            </publicationStmt>
-
-            <seriesStmt>
-                <title level="s" type="project" key="CARTOONS"/>
-            </seriesStmt>
-
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <repository key="ENT.000002473"/>
-                        <collection key="3133"/>
-                        <idno type="citation">
-                            <idno type="box">5</idno>
-                            <idno type="folder">17</idno>
-                        </idno>
-                    </msIdentifier>
-                    <msContents>
-                        <msItem>
-                            <respStmt>
-                                <resp key="art">Artist</resp>
-                                <persName key="ENT.000000553">Unknown artist</persName>
-                            </respStmt>
-                            <title type="main" level="u">Slow &amp; Steady Wins the Race</title>
-                            <bibl>
-                                <date from="1864-01-01" to="1864-12-31">1864</date>
-                                <extent>1 loose sheet</extent>
-                                <extent>
-                                    <dimensions type="image" unit="cm">
-                                        <height quantity="29"/>
-                                        <width quantity="44"/>
-                                    </dimensions>
-                                </extent>
-                                <listRelation>
-                                    <relation name="depicted" active="cartoons_symbols.xml#donkey"/>
-                                    <relation name="depicted"
-                                        active="cartoons_symbols.xml#liberty_cap"/>
-                                    <relation name="depicted" active="ENT.000000447"/>
-                                    <!-- Lincoln -->
-                                    <relation name="depicted" active="ENT.000001783"/>
-                                    <!-- McClellan -->
-                                    <relation name="depicted" active="ENT.000003373"/>
-                                    <!-- Pendleton -->
-                                    <relation name="mentioned" active="ENT.000002824"/>
-                                    <!-- Lee -->
-                                </listRelation>
-                            </bibl>
-                        </msItem>
-                    </msContents>
-
-                    <history>
-                        <acquisition>This is an artificial collection created over time by HSP staff
-                            mostly through donations and purchases of individual prints. It also
-                            incorporates previously uncataloged materials collected by the Balch
-                            Institute for Ethnic Studies. Some of the 20th century cartoons and
-                            drawings were removed from the J. Hampton Moore papers (Collection
-                            1541).</acquisition>
-                    </history>
-                </msDesc>
-
-            </sourceDesc>
-        </fileDesc>
-
-        <encodingDesc>
-            <projectDesc>
-                <p>The Historic Images, New Technologies (HINT) project aims to enhance description
-                    and discovery of the Historical Society of Pennsylvania's graphics materials and
-                    promote the linking and sharing of content among institutions and scholars. The
-                    project will result in an update to HSP's digital image viewer and an online
-                    digital history exhibit that will demonstrate the new viewer's capabilities and
-                    provide interpretive and contextual materials to encourage users to interact
-                    with historical images in new ways. This project was funded by a grant from the
-                    National Historical Publications and Records Commission's (NHPRC) Innovation in
-                    Archives and Documentary Editing program.</p>
-            </projectDesc>
-            <editorialDecl n="4">
-                <p>This electronic file was created using manual keying following the
-                    recommendations for Level 4 of "Best Practices for TEI in Libraries" guidelines
-                    v3.0.</p>
-                <p>This xml file uses unique entity identifiers, media file identifiers, and
-                    collection identifiers in HSP's Digital Library, available at
-                    http://digitallibrary.hsp.org.</p>
-
-            </editorialDecl>
-            <tagsDecl>
-                <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
-                <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
-                <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
-                <rendition scheme="css" xml:id="crossed-through">text-decoration:
-                    line-through</rendition>
-                <rendition scheme="other" xml:id="printed"/>
-                <rendition scheme="other" xml:id="typescript"/>
-                <rendition scheme="other" xml:id="handwritten"/>
-                <rendition scheme="other" xml:id="handwritten-underlined"/>
-                <rendition scheme="other" xml:id="handwritten-circled"/>
-                <rendition scheme="other" xml:id="handwritten-crossed-through"/>
-                <rendition scheme="other" xml:id="double-underline"/>
-                <rendition scheme="other" xml:id="stamp"/>
-                <namespace name="http://www.tei-c.org/ns/1.0">
-                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
-                </namespace>
-            </tagsDecl>
-        </encodingDesc>
-
-        <profileDesc>
-            <textClass>
-                <catRef target="cartoons_genres.xml#lithographs"/>
-                <catRef target="cartoons_genres.xml#political_cartoons"/>
-                <catRef target="cartoons_taxonomies.xml#civil_war"/>
-                <catRef target="cartoons_taxonomies.xml#lesson_plan"/>
-                <catRef target="cartoons_taxonomies.xml#war"/>
-                <catRef target="cartoons_taxonomies.xml#elections"/>
-                <catRef target="cartoons_taxonomies.xml#stereotypes"/>
-                <catRef target="cartoons_taxonomies.xml#culture"/>
-                <catRef target="cartoons_taxonomies.xml#religion"/>
-            </textClass>
-        </profileDesc>
-
-        <revisionDesc>
-            <change who="RachelMoloshok" when="2015-04-28">Featured encoding (for lesson plan cartoon)</change>
-            <change who="RachelMoloshok" when="2015-04-28">Basic encoding</change>
-        </revisionDesc>
-    </teiHeader>
-
-    <facsimile>
-        <surface ulx="" uly="" lrx="" lry="">
-            <graphic url="FIL.000089939"/>
-            <zone n="1" xml:id="title"/>
-            <zone n="2" xml:id="lincoln_horse"/>
-            <zone n="3" xml:id="lincoln"/>
-            <zone n="4" xml:id="flag"/>
-            <zone n="5" xml:id="mac_horse"/>
-            <zone n="6" xml:id="donkey"/>
-            <zone n="7" xml:id="mac"/>
-            <zone n="8" xml:id="clown"/>
-            <zone n="9" xml:id="peddler"/>
-            <zone n="10" xml:id="note"/>
-        </surface>
-    </facsimile>
-
-    <text>
-        <front>
-            <div type="editorial_desc">
-                <p>Presidential candidates Abraham Lincoln and George McClellan are shown in the
-                    middle of a horse race. At the left of the cartoon, Lincoln is in the lead as he
-                    rides "The Union Roadster," a horse labeled "Slow and Steady." He holds an
-                    American flag, labeled "Union, The Government, Laws," topped by a liberty cap.
-                    In the middle, McClellan is shown trying to ride two horses at once (a common
-                    circus trick at the time); he has one foot on the back of "Mac's War-Horse,"
-                    labeled "Brag &amp; Bluster," and his other foot on the back of "The Peace
-                    Donkey," labeled "Fawn &amp; Cringe." This likely refers to McClellan's attempts
-                    to campaign both on his military reputation as a Union general and on a platform
-                    of reconciliation with the South. The donkey carries a sack labeled "Rebel War
-                    Debt," filled with notes, and kicks behind him. Behind the donkey is a
-                    McClellan's running mate, George H. Pendleton of Ohio, dressed as a circus clown
-                    or jester. Pendleton whips the donkey and holds a scroll that reads "Peace!
-                    Peace! Anything for Peace!" At far right, in the background, a man standing in a
-                    carriage, watching the race through a pair of binoculars, predicts Lincoln's
-                    victory in a thick accent. The Library of Congress and other historians identify
-                    this man as a stereotype of a Jewish peddler.</p>
-            </div>
-        </front>
-
-        <body>
-            <div type="image_transcription" n="1" facs="#title">
-                <head><supplied resp="editorial">Title</supplied></head>
-                <p>SLOW &amp; STEADY WINS THE RACE.</p>
-            </div>
-            <div type="image_transcription" n="2" facs="#lincoln_horse">
-                <head><supplied resp="editorial">The Union Roadster (<persName key="ENT.000000447"
-                            >Lincoln</persName>'s horse)</supplied></head>
-                <p>THE <sic>UION</sic> ROADSTER.</p>
-                <p>SLOW AND STEADY.</p>
-            </div>
-            <div type="image_transcription" n="3" facs="#lincoln">
-                <head><supplied resp="editorial"><persName key="ENT.000000447">Abraham
-                            Lincoln</persName></supplied></head>
-                <p>This reminds me of a story I once heard out West.</p>
-            </div>
-            <div type="image_transcription" n="4" facs="#flag">
-                <head><supplied resp="editorial"><rs ref="cartoons_symbols.xml#liberty_cap">Liberty
-                            cap</rs> and American flag</supplied></head>
-                <p>LIBERTY</p>
-                <p>UNION THE GOVERN<supplied resp="editorial">MENT</supplied>, LAWS</p>
-            </div>
-            <div type="image_transcription" n="5" facs="#mac_horse">
-                <head><persName key="ENT.000001783">MAC</persName>'S WAR-HORSE</head>
-                <p>BRAG &amp; BLUSTER</p>
-            </div>
-            <div type="image_transcription" n="6" facs="#donkey">
-                <head><supplied resp="editorial"><rs ref="cartoons_symbols.xml#donkey">Donkey</rs>
-                        (carrying sack)</supplied></head>
-                <p>The Peace Donkey.</p>
-                <p>FAWN &amp; CRINGE.</p>
-                <p>REBEL WAR DEBT</p>
-                <p><unclear reason="handwriting"/> FOR <persName key="ENT.000001783"
-                    >MAC</persName></p>
-                <p>SERVICE OF <unclear reason="handwriting"/></p>
-                <p><persName key="ENT.000002824">LEE</persName>'S SAL<unclear reason="handwriting"
-                    /></p>
-                <p>ARIES of <choice>
-                        <sic>CONFDERA</sic>
-                        <corr>CONFEDERATE</corr>
-                    </choice> OFFICIALS</p>
-            </div>
-            <div type="image_transcription" n="7" facs="#mac">
-                <head><supplied resp="editorial"><persName key="ENT.000001783">George
-                            McClellan</persName></supplied></head>
-                <p>I've seen many a Clown ride two horses that never saw West-Point</p>
-            </div>
-            <div type="image_transcription" n="8" facs="#clown">
-                <head><supplied resp="editorial"><persName key="ENT.000003373">George
-                            Pendleton</persName></supplied></head>
-                <p>The Ohio Clown.</p>
-                <p>Go on, you ugly beast!</p>
-                <p>PEACE! PEACE! Anything for PEACE</p>
-            </div>
-            <div type="image_transcription" n="9" facs="#peddler">
-                <head><supplied resp="editorial">Jewish peddler</supplied></head>
-                <p>By mine <choice>
-                        <orig>Faders</orig>
-                        <corr>Fathers</corr>
-                    </choice>, Abraham, Isaac, and <sic>Jacobs</sic>, I <choice>
-                        <orig>peleif</orig>
-                        <corr>believe</corr>
-                    </choice> de <persName key="ENT.000000447">Old Abe</persName> will win!</p>
-            </div>
-            <div type="image_transcription" n="10" facs="#note">
-                <head><supplied resp="editorial">Note</supplied></head>
-                <p><add><unclear reason="handwriting">HeG 10 1877 of be</unclear></add></p>
-            </div>
-        </body>
-
-        <back/>
-    </text>
+  <teiHeader xml:lang="English">
+    <fileDesc>
+      <titleStmt>
+        <title type="main">TEI transcription of Slow &amp; Steady Wins the Race</title>
+        <respStmt>
+          <resp key="art">artist</resp>
+          <persName key="ENT.000000553">Unknown Artist</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="trc">Transcribed by</resp>
+          <persName key="ENT.000003368">Moloshok, Rachel</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="mrk">Encoded by</resp>
+          <persName key="ENT.000003368">Moloshok, Rachel</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="pfr">Proofread by</resp>
+          <persName key="ENT.000003368">Moloshok, Rachel</persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <p>First edition, <date when="2015">2015</date></p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher><orgName key="ENT.000002473">Historical Society of
+          Pennsylvania</orgName></publisher>
+        <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
+        <idno type="filename">11756</idno>
+        <availability status="restricted">
+          <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of copyright only
+            to original contributions made by the Historic Images, New Technologies (HINT) Project
+            participants and other staff. HSP makes no claim of copyright to the original text.
+            Permission is granted to download, transmit or otherwise reproduce, distribute or
+            display the text contributions to this work claimed by HSP for non-profit educational
+            purposes, provided that this header is included in its entirety. For inquiries about
+            commercial uses, please contact the Historical Society of Pennsylvania. HSP retains the
+            rights of all images unless otherwise noted. Possession of an HSP digital image does not
+            constitute permission to use or publish it. Requests for digital imaging, other
+            reproduction services, and the intended use of reproductions must be made in writing to
+            the Rights and Reproductions Coordinator at rnr@hsp.org.</p>
+        </availability>
+        <date when="2015">2015</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="project" key="CARTOONS">Historic Images, New Technologies (HINT)
+          Project</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository key="ENT.000002473">Historical Society of Pennsylvania</repository>
+            <collection key="3133">Historical Society of Pennsylvania cartoons and caricatures
+              collection</collection>
+            <idno type="citation">
+              <idno type="box">5</idno>
+              <idno type="folder">17</idno>
+            </idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <respStmt>
+                <resp key="art">artist</resp>
+                <persName key="ENT.000000553">Unknown Artist</persName>
+              </respStmt>
+              <title type="main" level="u">Slow &amp; Steady Wins the Race</title>
+              <bibl>
+                <date from="1864-01-01" to="1864-12-31">1864</date>
+                <extent>1 loose sheet</extent>
+                <extent>
+                  <dimensions type="image" unit="cm">
+                    <height quantity="29"/>
+                    <width quantity="44"/>
+                  </dimensions>
+                </extent>
+                <listRelation>
+                  <relation name="depicted" active="ENT.000000447"/>
+                  <relation name="depicted" active="ENT.000001783"/>
+                  <relation name="depicted" active="ENT.000003373"/>
+                  <relation name="mentioned" active="ENT.000002824"/>
+                  <relation name="depicted" active="cartoons_symbols.xml#donkey"/>
+                  <relation name="depicted" active="cartoons_symbols.xml#liberty_cap"/>
+                </listRelation>
+              </bibl>
+            </msItem>
+          </msContents>
+          <history>
+            <acquisition>This is an artificial collection created over time by HSP staff mostly
+              through donations and purchases of individual prints. It also incorporates previously
+              uncataloged materials collected by the Balch Institute for Ethnic Studies. Some of the
+              20th century cartoons and drawings were removed from the J. Hampton Moore papers
+              (Collection 1541).</acquisition>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The Historic Images, New Technologies (HINT) project aims to enhance description and
+          discovery of the Historical Society of Pennsylvania's graphics materials and promote the
+          linking and sharing of content among institutions and scholars. The project will result in
+          an update to HSP's digital image viewer and an online digital history exhibit that will
+          demonstrate the new viewer's capabilities and provide interpretive and contextual
+          materials to encourage users to interact with historical images in new ways. This project
+          was funded by a grant from the National Historical Publications and Records Commission's
+          (NHPRC) Innovation in Archives and Documentary Editing program.</p>
+      </projectDesc>
+      <editorialDecl n="4">
+        <p>This electronic file was created using manual keying following the recommendations for
+          Level 4 of "Best Practices for TEI in Libraries" guidelines v3.0.</p>
+        <p>This xml file uses unique entity identifiers, media file identifiers, and collection
+          identifiers in HSP's Digital Library, available at http://digitallibrary.hsp.org.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
+        <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
+        <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
+        <rendition scheme="css" xml:id="crossed-through">text-decoration: line-through</rendition>
+        <rendition scheme="other" xml:id="printed"/>
+        <rendition scheme="other" xml:id="typescript"/>
+        <rendition scheme="other" xml:id="handwritten"/>
+        <rendition scheme="other" xml:id="handwritten-underlined"/>
+        <rendition scheme="other" xml:id="handwritten-circled"/>
+        <rendition scheme="other" xml:id="handwritten-crossed-through"/>
+        <rendition scheme="other" xml:id="double-underline"/>
+        <rendition scheme="other" xml:id="stamp"/>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <catRef target="cartoons_genres.xml#lithographs"/>
+        <catRef target="cartoons_genres.xml#political_cartoons"/>
+        <catRef target="cartoons_taxonomies.xml#civil_war"/>
+        <catRef target="cartoons_taxonomies.xml#lesson_plan"/>
+        <catRef target="cartoons_taxonomies.xml#war"/>
+        <catRef target="cartoons_taxonomies.xml#elections"/>
+        <catRef target="cartoons_taxonomies.xml#stereotypes"/>
+        <catRef target="cartoons_taxonomies.xml#culture"/>
+        <catRef target="cartoons_taxonomies.xml#religion"/>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change who="RachelMoloshok" when="2015-04-29">Exported from Collective Access. Basic proofreading</change>
+      <change who="RachelMoloshok" when="2015-04-28">Featured encoding (for lesson plan
+        cartoon)</change>
+      <change who="RachelMoloshok" when="2015-04-28">Basic encoding</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="100" lry="100">
+      <graphic url="FIL.000089939"/>
+      <zone n="1" xml:id="title" points="31.92,4.52 61.96,4.87 60.16,19.6 37.53,19.98 32.77,11.77"/>
+      <zone n="2" xml:id="lincoln_horse"
+        points="8.39,41.43 16.33,42.95 21.47,51.76 31.19,52.9 38.28,57.01 37.59,61.45 33.2,59.72 35.85,63.84 39.15,73.26 36.13,74.71 28.81,66.89 24.67,75.28 25.96,85.05 5.43,86.91 4.79,82.41 14.52,81.33 12.38,74.04 13.13,69.08 9.49,68.3 6.07,74.5 3.51,73.42 5.86,65.98 8.96,62.1 12.38,62.72 13.23,55.44 12.06,52.96 8.85,54.97 6.28,52.03 8.64,46.29"/>
+      <zone n="3" xml:id="lincoln"
+        points="17.96,35.43 21.12,33.69 23.6,34.78 22.92,39.03 24.65,38.92 26.76,45.9 30.89,29.22 33.98,23.76 28.64,25.07 23.68,22.35 22.62,17 35.11,13.29 35.48,23.44 32.1,28.56 27.74,47.86 32.02,54.63 26.61,55.5 24.28,71.53 20.07,73.49 21.64,68.91 19.92,60.95 21.49,54.52 20.29,51.46 20.37,49.61 19.09,44.59 15.4,45.36 13.37,36.63 15.33,35.21"/>
+      <zone n="4" xml:id="flag"
+        points="8.4,17.62 10.43,16.1 11.11,18.06 12.61,20.13 16.15,18.39 22.62,22.97 28.33,31.04 30.51,39.43 27.28,36.16 24.72,35.95 18.93,34.09 13.67,35.18 10.58,24.82 9.61,26.24 8.1,22.75"/>
+      <zone n="5" xml:id="mac_horse"
+        points="46.53,35.64 51.06,33.9 55.99,42.25 53.53,51.22 62.41,58.5 52.83,62.56 53.77,76.79 38.12,79.66 37.54,71.88 41.74,69.51 39.52,58.16 37.07,55.28 32.64,60.36 30.3,55.11 37.31,49.36 41.16,51.56 45.59,44.62 42.79,42.92 43.03,37.34"/>
+      <zone n="6" xml:id="donkey"
+        points="52.99,62.99 53.87,58.16 69.51,51.89 75.61,65 74.95,66.61 70.46,66.69 72.45,71.59 72.12,75.78 69.26,80.18 75.34,80.18 76.47,85.7 59.47,85.7 55.09,82.76 57.98,72.4 55.43,72.24 51.79,63.9"/>
+      <zone n="7" xml:id="mac"
+        points="61.67,11.42 73.47,14.97 72.3,22.08 76.03,26.82 74.17,33.09 69.15,35.46 72.65,40.2 71.95,44.43 68.1,45.62 69.03,52.22 67.86,57.64 63.54,49 60.16,57.3 57.47,57.3 55.95,39.52 62.72,29.36 63.66,25.98 67.98,26.65 70.2,23.27 60.74,20.56"/>
+      <zone n="8" xml:id="clown"
+        points="72.76,33.35 78.6,29.41 84.35,32.65 83.31,45.83 90.63,68.95 93.98,67.27 96.16,70.81 89.97,86.42 82.69,87.71 78.58,86.95 75.46,68.76 72.89,73.8 70.84,69.75 74.52,57.46 72.92,47.49 75.96,43.32"/>
+      <zone n="9" xml:id="peddler"
+        points="78.85,17.72 90.43,19.59 92.74,28.54 90.68,33.39 93.64,48.49 93.9,59.87 83.61,61.54 83.1,47.75 87.73,46.07 90.43,40.29 89.01,28.91 78.98,25.37"/>
+      <zone n="10" xml:id="note" points="16.63,88.67 30.87,89.13 29.91,92.85 16.63,93.67"/>
+      <zone n="11" xml:id="note2" points="78.72,87.19 81.61,85.91 82.4,89.11 79.7,90.74"/>
+    </surface>
+  </facsimile>
+  <text>
+    <front>
+      <div type="editorial_desc">
+        <p>Presidential candidates Abraham Lincoln and George McClellan are shown in the middle of a
+          horse race. At the left of the cartoon, Lincoln is in the lead as he rides "The Union
+          Roadster," a horse labeled "Slow and Steady." He holds an American flag, labeled "Union,
+          The Government, Laws," topped by a liberty cap. In the middle, McClellan is shown trying
+          to ride two horses at once (a common circus trick at the time); he has one foot on the
+          back of "Mac's War-Horse," labeled "Brag &amp; Bluster," and his other foot on the back of
+          "The Peace Donkey," labeled "Fawn &amp; Cringe." This likely refers to McClellan's
+          attempts to campaign both on his military reputation as a Union general and on a platform
+          of reconciliation with the South. The donkey carries a sack labeled "Rebel War Debt,"
+          filled with notes, and kicks behind him. Behind the donkey is a McClellan's running mate,
+          George H. Pendleton of Ohio, dressed as a circus clown or jester. Pendleton whips the
+          donkey and holds a scroll that reads "Peace! Peace! Anything for Peace!" At far right, in
+          the background, a man standing in a carriage, watching the race through a pair of
+          binoculars, predicts Lincoln's victory in a thick accent. The Library of Congress and
+          other historians identify this man as a stereotype of a Jewish peddler.</p>
+      </div>
+    </front>
+    <body>
+      <div type="image_transcription" n="1" facs="#title">
+        <head><supplied resp="editorial">Title</supplied></head>
+        <p>SLOW &amp; STEADY WINS THE RACE.</p>
+      </div>
+      <div type="image_transcription" n="2" facs="#lincoln_horse">
+        <head><supplied resp="editorial">The Union Roadster (<persName key="ENT.000000447"
+              >Lincoln</persName>'s horse)</supplied></head>
+        <p>THE <sic>UION</sic> ROADSTER.</p>
+        <p>SLOW AND STEADY.</p>
+      </div>
+      <div type="image_transcription" n="3" facs="#lincoln">
+        <head><supplied resp="editorial"><persName key="ENT.000000447">Abraham
+            Lincoln</persName></supplied></head>
+        <p>This reminds me of a story I once heard out West.</p>
+      </div>
+      <div type="image_transcription" n="4" facs="#flag">
+        <head><supplied resp="editorial"><rs ref="cartoons_symbols.xml#liberty_cap">Liberty cap</rs>
+            and American flag</supplied></head>
+        <p>LIBERTY</p>
+        <p>UNION THE GOVERN<supplied resp="editorial">MENT</supplied>, LAWS</p>
+      </div>
+      <div type="image_transcription" n="5" facs="#mac_horse">
+        <head><persName key="ENT.000001783">MAC</persName>'S WAR-HORSE</head>
+        <p>BRAG &amp; BLUSTER</p>
+      </div>
+      <div type="image_transcription" n="6" facs="#donkey">
+        <head><supplied resp="editorial"><rs ref="cartoons_symbols.xml#donkey">Donkey</rs> (carrying
+            sack)</supplied></head>
+        <p>The Peace Donkey.</p>
+        <p>FAWN &amp; CRINGE.</p>
+        <p>REBEL WAR DEBT</p>
+        <p><unclear reason="handwriting"/> FOR <persName key="ENT.000001783">MAC</persName></p>
+        <p>SERVICE OF <unclear reason="handwriting"/></p>
+        <p><persName key="ENT.000002824">LEE</persName>'S SAL<unclear reason="handwriting"/></p>
+        <p>ARIES of <choice>
+            <sic>CONFDERA</sic>
+            <corr>CONFEDERATE</corr>
+          </choice> OFFICIALS</p>
+      </div>
+      <div type="image_transcription" n="7" facs="#mac">
+        <head><supplied resp="editorial"><persName key="ENT.000001783">George
+            McClellan</persName></supplied></head>
+        <p>I've seen many a Clown ride two horses that never saw West-Point</p>
+      </div>
+      <div type="image_transcription" n="8" facs="#clown">
+        <head><supplied resp="editorial"><persName key="ENT.000003373">George
+            Pendleton</persName></supplied></head>
+        <p>The Ohio Clown.</p>
+        <p>Go on, you ugly beast!</p>
+        <p>PEACE! PEACE! Anything for PEACE</p>
+      </div>
+      <div type="image_transcription" n="9" facs="#peddler">
+        <head><supplied resp="editorial">Jewish peddler</supplied></head>
+        <p>By mine <choice>
+            <orig>Faders</orig>
+            <corr>Fathers</corr>
+          </choice>, Abraham, Isaac, and <sic>Jacobs</sic>, I <choice>
+            <orig>peleif</orig>
+            <corr>believe</corr>
+          </choice> de <persName key="ENT.000000447">Old Abe</persName> will win!</p>
+      </div>
+      <div type="image_transcription" n="10" facs="#note">
+        <head><supplied resp="editorial">Note 1</supplied></head>
+        <p><add><unclear reason="handwriting">HeG 10 1877 of be</unclear></add></p>
+      </div>
+      <div type="image_transcription" n="11" facs="#note2">
+        <head><supplied resp="editorial">Note 2</supplied></head>
+        <p><add><date when="1864-10">10/64</date></add></p>
+      </div>
+    </body>
+  </text>
 </TEI>
