@@ -99,7 +99,8 @@
                                 >Unknown</orgName>
                         </respStmt>
                         <title type="main" level="a">The Song of Hiawatha</title>
-                    </analytic>
+                    <date from="1879-03-08">March 8, 1878</date>
+          </analytic>
                     <monogr>
                         <title type="marc245a" level="j"><orgName key="ENT.000000382">Illustrated Wasp</orgName></title>
                         <imprint>
