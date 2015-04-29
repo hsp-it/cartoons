@@ -1,265 +1,255 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 
 <?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-
-
-    <teiHeader xml:lang="English">
-
-        <fileDesc>
-
-            <titleStmt>
-                <title type="main">TEI transcription of How Free Ballot is Protected</title>
-                <respStmt>
-                    <resp key="art">Artist</resp>
-                    <persName key="ENT.000003692">Baker, Joseph E., approximately
-                        1837-1914</persName>
-                </respStmt>
-                <respStmt>
-                    <resp key="trc">Transcribed by</resp>
-                    <persName key="ENT.000003368">Moloshok, Rachel</persName>
-                </respStmt>
-                <respStmt>
-                    <resp key="mrk">Encoded by</resp>
-                    <persName key="ENT.000003368">Moloshok, Rachel</persName>
-                </respStmt>
-
-            </titleStmt>
-
-            <editionStmt>
-                <p>First edition, <date when="2015">2015</date></p>
-            </editionStmt>
-
-            <publicationStmt>
-                <publisher><orgName key="ENT.000002473">Historical Society of
-                    Pennsylvania</orgName></publisher>
-                <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
-                <idno type="filename">11752</idno>
-                <availability status="restricted">
-                    <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of
-                        copyright only to original contributions made by the Historic Images, New
-                        Technologies (HINT) Project participants and other staff. HSP makes no claim
-                        of copyright to the original text. Permission is granted to download,
-                        transmit or otherwise reproduce, distribute or display the text
-                        contributions to this work claimed by HSP for non-profit educational
-                        purposes, provided that this header is included in its entirety. For
-                        inquiries about commercial uses, please contact the Historical Society of
-                        Pennsylvania. HSP retains the rights of all images unless otherwise noted.
-                        Possession of an HSP digital image does not constitute permission to use or
-                        publish it. Requests for digital imaging, other reproduction services, and
-                        the intended use of reproductions must be made in writing to the Rights and
-                        Reproductions Coordinator at rnr@hsp.org.</p>
-                </availability>
-                <date when="2015"/>
-            </publicationStmt>
-
-            <seriesStmt>
-                <title level="s" type="project" key="CARTOONS"/>
-            </seriesStmt>
-
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <repository key="ENT.000002473"/>
-                        <collection key="3133"/>
-                        <idno type="citation">
-                            <idno type="box">5</idno>
-                            <idno type="folder">8</idno>
-                        </idno>
-                    </msIdentifier>
-                    <msContents>
-                        <msItem>
-                            <bibl>
-                                <date from="1864-01-01" to="1864-12-31">1864</date>
-                                <extent>1 loose sheet</extent>
-                                <extent>
-                                    <dimensions type="image" unit="cm">
-                                        <height quantity="24"/>
-                                        <width quantity="32"/>
-                                    </dimensions>
-                                </extent>
-                                <listRelation>
-                                    <relation name="mentioned" active="ENT.000000447"/>
-                                    <!-- Lincoln -->
-                                    <relation name="mentioned" active="ENT.000001783"/>
-                                    <!-- McClellan -->
-                                </listRelation>
-                            </bibl>
-                        </msItem>
-                    </msContents>
-
-                    <history>
-                        <acquisition>This is an artificial collection created over time by HSP staff
-                            mostly through donations and purchases of individual prints. It also
-                            incorporates previously uncataloged materials collected by the Balch
-                            Institute for Ethnic Studies. Some of the 20th century cartoons and
-                            drawings were removed from the J. Hampton Moore papers (Collection
-                            1541).</acquisition>
-                    </history>
-                </msDesc>
-                <biblStruct>
-                    <monogr>
-                        <respStmt>
-                            <resp key="art">Artist</resp>
-                            <persName key="ENT.000003692">Baker, Joseph E., approximately
-                                1837-1914</persName>
-                        </respStmt>
-                        <title type="main" level="m">How Free Ballot is Protected</title>
-                        <imprint>
-                            <publisher><orgName key="ENT.000003387">Unknown</orgName></publisher>
-                            <pubPlace>Boston</pubPlace>
-                            <date from="1864-01-01" to="1864-12-31">1864</date>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
-
-            </sourceDesc>
-        </fileDesc>
-
-        <encodingDesc>
-            <projectDesc>
-                <p>The Historic Images, New Technologies (HINT) project aims to enhance description
-                    and discovery of the Historical Society of Pennsylvania's graphics materials and
-                    promote the linking and sharing of content among institutions and scholars. The
-                    project will result in an update to HSP's digital image viewer and an online
-                    digital history exhibit that will demonstrate the new viewer's capabilities and
-                    provide interpretive and contextual materials to encourage users to interact
-                    with historical images in new ways. This project was funded by a grant from the
-                    National Historical Publications and Records Commission's (NHPRC) Innovation in
-                    Archives and Documentary Editing program.</p>
-            </projectDesc>
-            <editorialDecl n="4">
-                <p>This electronic file was created using manual keying following the
-                    recommendations for Level 4 of "Best Practices for TEI in Libraries" guidelines
-                    v3.0.</p>
-                <p>This xml file uses unique entity identifiers, media file identifiers, and
-                    collection identifiers in HSP's Digital Library, available at
-                    http://digitallibrary.hsp.org.</p>
-
-            </editorialDecl>
-            <tagsDecl>
-                <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
-                <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
-                <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
-                <rendition scheme="css" xml:id="crossed-through">text-decoration:
-                    line-through</rendition>
-                <rendition scheme="other" xml:id="printed"/>
-                <rendition scheme="other" xml:id="typescript"/>
-                <rendition scheme="other" xml:id="handwritten"/>
-                <rendition scheme="other" xml:id="handwritten-underlined"/>
-                <rendition scheme="other" xml:id="handwritten-circled"/>
-                <rendition scheme="other" xml:id="handwritten-crossed-through"/>
-                <rendition scheme="other" xml:id="double-underline"/>
-                <rendition scheme="other" xml:id="stamp"/>
-                <namespace name="http://www.tei-c.org/ns/1.0">
-                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
-                </namespace>
-            </tagsDecl>
-        </encodingDesc>
-
-        <profileDesc>
-            <textClass>
-                <catRef target="cartoons_genres.xml#lithographs"/>
-                <catRef target="cartoons_genres.xml#political_cartoons"/>
-                <catRef target="cartoons_taxonomies.xml#civil_war"/>
-                <catRef target="cartoons_taxonomies.xml#lesson_plan"/>
-                <catRef target="cartoons_taxonomies.xml#African_American"/>
-                <catRef target="cartoons_taxonomies.xml#war"/>
-                <catRef target="cartoons_taxonomies.xml#elections"/>
-            </textClass>
-        </profileDesc>
-
-        <revisionDesc>
-            <change who="RachelMoloshok" when="2015-04-29">Featured encoding (for lesson plan cartoon)</change>
-            <change who="RachelMoloshok" when="2015-04-28">Basic encoding</change>
-        </revisionDesc>
-    </teiHeader>
-
-    <facsimile>
-        <surface ulx="" uly="" lrx="" lry="">
-            <graphic url="FIL.000089937"/>
-            <zone n="1" xml:id="title"/>
-            <zone n="2" xml:id="black_soldier"/>
-            <zone n="3" xml:id="white_soldier"/>
-            <zone n="4" xml:id="ballot"/>
-            <zone n="5" xml:id="glasses"/>
-            <zone n="6" xml:id="moustache"/>
-            <zone n="7" xml:id="sign"/>
-            <zone n="8" xml:id="signature"/>
-            <zone n="9" xml:id="note"/>
-        </surface>
-    </facsimile>
-
-    <text>
-        <front>
-            <div type="editorial_desc">
-                <p>This political cartoon shows black and white soldiers facing off at the ballot
-                    box during the presidential election of 1864, which pitted George McClellan
-                    against Abraham Lincoln. At right, a white army veteran in uniform holds a
-                    ballot with "McClellan" written on it. His right leg and left arm have been
-                    amputated, he supports himself using a crutch, and he wears an patch over his
-                    left eye. He is prevented from casting his vote by a black soldier, at left, who
-                    points a bayonet at him, accusing him of being a "Copperhead traitor" and
-                    telling him he can't cast a ballot for anyone other than Lincoln. The black
-                    soldier is presumably a member of a regiment of the recently formed United
-                    States Colored Troops and is depicted using many negative stereotypes: his
-                    facial features are exaggerated, he speaks with a strong accent, he wears ragged
-                    clothing, and he has a flask of whiskey hanging from his belt. Behind the two
-                    men is a desk with two ballot boxes: the one guarded by the black soldier
-                    presumably holds votes for McClellan and is filled with ballots; the other,
-                    presumably holding votes for Lincoln, appears empty. Behind the desk, two
-                    election officials talk to one another. The first official, a white man wearing
-                    glasses, expresses concern that there will be trouble if the white soldier is
-                    not allowed to vote. The second official, a white, heavy-set man with a
-                    moustache, tells him to "turn around" and "pretend you see nothing."</p>
-            </div>
-        </front>
-
-        <body>
-            <div type="image_transcription" n="1" facs="#title">
-                <head><supplied resp="editorial">Title</supplied></head>
-                <p>HOW FREE BALLOT IS PROTECTED!</p>
-            </div>
-            <div type="image_transcription" n="2" facs="#black_soldier">
-                <head><supplied resp="editorial">Black soldier</supplied></head>
-                <p>Hallo dar! you cant put in dat you copperhead traitor, nor any oder 'cept for
-                        <persName key="ENT.000000447">Massa Lincoln</persName>!!</p>
-                <p>WHISKEY</p>
-                <p>US</p>
-            </div>
-            <div type="image_transcription" n="3" facs="#white_soldier">
-                <head><supplied resp="editorial">White soldier</supplied></head>
-                <p>"I am an American citizen and did not think I had fought and bled for this, ALAS,
-                    MY COUNTRY!"</p>
-            </div>
-            <div type="image_transcription" n="4" facs="#ballot">
-                <head><supplied resp="editorial">Ballot</supplied></head>
-                <p><persName key="ENT.000001783">MCCLELLAN</persName></p>
-            </div>
-            <div type="image_transcription" n="5" facs="#glasses">
-                <head><supplied resp="editorial">Election official 1</supplied></head>
-                <p>"I'm afraid we shall have trouble if that soldier is not allowed to vote."</p>
-            </div>
-            <div type="image_transcription" n="6" facs="#moustache">
-                <head><supplied resp="editorial">Election official 2</supplied></head>
-                <p>Gammon, Hem just turn round, you must pretend you see nothing of the kind going
-                    on, and keep on counting your votes."</p>
-            </div>
-            <div type="image_transcription" n="7" facs="#sign">
-                <head><supplied resp="editorial">Sign</supplied></head>
-                <p>VOTE HERE</p>
-            </div>
-            <div type="image_transcription" n="8" facs="#signature">
-                <head><supplied resp="editorial">Artist's signature</supplied></head>
-                <p><persName key="ENT.000003692">JE Baker</persName> del</p>
-            </div>
-            <div type="image_transcription" n="9" facs="#note">
-                <head><supplied resp="editorial">Note</supplied></head>
-                <p><add>64</add></p>
-            </div>
-        </body>
-
-        <back/>
-    </text>
+  <teiHeader xml:lang="English">
+    <fileDesc>
+      <titleStmt>
+        <title type="main">TEI transcription of How Free Ballot is Protected</title>
+        <respStmt>
+          <resp key="art">artist</resp>
+          <persName key="ENT.000003692">Baker, Joseph E., approximately 1837-1914</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="trc">Transcribed by</resp>
+          <persName key="ENT.000003368">Moloshok, Rachel</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="mrk">Encoded by</resp>
+          <persName key="ENT.000003368">Moloshok, Rachel</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="pfr">Proofread by</resp>
+          <persName key="ENT.000003368">Moloshok, Rachel</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="pbl">publisher</resp>
+          <persName key="ENT.000003387">Unknown</persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <p>First edition, <date when="2015">2015</date></p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher><orgName key="ENT.000002473">Historical Society of
+          Pennsylvania</orgName></publisher>
+        <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
+        <idno type="filename">11752</idno>
+        <availability status="restricted">
+          <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of copyright only
+            to original contributions made by the Historic Images, New Technologies (HINT) Project
+            participants and other staff. HSP makes no claim of copyright to the original text.
+            Permission is granted to download, transmit or otherwise reproduce, distribute or
+            display the text contributions to this work claimed by HSP for non-profit educational
+            purposes, provided that this header is included in its entirety. For inquiries about
+            commercial uses, please contact the Historical Society of Pennsylvania. HSP retains the
+            rights of all images unless otherwise noted. Possession of an HSP digital image does not
+            constitute permission to use or publish it. Requests for digital imaging, other
+            reproduction services, and the intended use of reproductions must be made in writing to
+            the Rights and Reproductions Coordinator at rnr@hsp.org.</p>
+        </availability>
+        <date when="2015">2015</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="project" key="CARTOONS">Historic Images, New Technologies (HINT)
+          Project</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository key="ENT.000002473">Historical Society of Pennsylvania</repository>
+            <collection key="3133">Historical Society of Pennsylvania cartoons and caricatures
+              collection</collection>
+            <idno type="citation">
+              <idno type="box">5</idno>
+              <idno type="folder">8</idno>
+            </idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <bibl>
+                <date from="1864-01-01" to="1864-12-31">1864</date>
+                <extent>1 loose sheet</extent>
+                <extent>
+                  <dimensions type="image" unit="cm">
+                    <height quantity="24"/>
+                    <width quantity="32"/>
+                  </dimensions>
+                </extent>
+                <listRelation>
+                  <relation name="mentioned" active="ENT.000000447"/>
+                  <relation name="mentioned" active="ENT.000001783"/>
+                </listRelation>
+              </bibl>
+            </msItem>
+          </msContents>
+          <history>
+            <acquisition>This is an artificial collection created over time by HSP staff mostly
+              through donations and purchases of individual prints. It also incorporates previously
+              uncataloged materials collected by the Balch Institute for Ethnic Studies. Some of the
+              20th century cartoons and drawings were removed from the J. Hampton Moore papers
+              (Collection 1541).</acquisition>
+          </history>
+        </msDesc>
+        <biblStruct>
+          <monogr>
+            <respStmt>
+              <resp key="art">artist</resp>
+              <persName key="ENT.000003692">Baker, Joseph E., approximately 1837-1914</persName>
+            </respStmt>
+            <respStmt>
+              <resp key="pbl">publisher</resp>
+              <persName key="ENT.000003387">Unknown</persName>
+            </respStmt>
+            <title type="main" level="m">How Free Ballot is Protected</title>
+            <imprint>
+              <pubPlace>Boston</pubPlace>
+              <date from="1864-01-01" to="1864-12-31">1864</date>
+              <publisher>
+                <persName key="ENT.000003387">Unknown</persName>
+              </publisher>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The Historic Images, New Technologies (HINT) project aims to enhance description and
+          discovery of the Historical Society of Pennsylvania's graphics materials and promote the
+          linking and sharing of content among institutions and scholars. The project will result in
+          an update to HSP's digital image viewer and an online digital history exhibit that will
+          demonstrate the new viewer's capabilities and provide interpretive and contextual
+          materials to encourage users to interact with historical images in new ways. This project
+          was funded by a grant from the National Historical Publications and Records Commission's
+          (NHPRC) Innovation in Archives and Documentary Editing program.</p>
+      </projectDesc>
+      <editorialDecl n="4">
+        <p>This electronic file was created using manual keying following the recommendations for
+          Level 4 of "Best Practices for TEI in Libraries" guidelines v3.0.</p>
+        <p>This xml file uses unique entity identifiers, media file identifiers, and collection
+          identifiers in HSP's Digital Library, available at http://digitallibrary.hsp.org.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
+        <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
+        <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
+        <rendition scheme="css" xml:id="crossed-through">text-decoration: line-through</rendition>
+        <rendition scheme="other" xml:id="printed"/>
+        <rendition scheme="other" xml:id="typescript"/>
+        <rendition scheme="other" xml:id="handwritten"/>
+        <rendition scheme="other" xml:id="handwritten-underlined"/>
+        <rendition scheme="other" xml:id="handwritten-circled"/>
+        <rendition scheme="other" xml:id="handwritten-crossed-through"/>
+        <rendition scheme="other" xml:id="double-underline"/>
+        <rendition scheme="other" xml:id="stamp"/>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <catRef target="cartoons_genres.xml#lithographs"/>
+        <catRef target="cartoons_genres.xml#political_cartoons"/>
+        <catRef target="cartoons_taxonomies.xml#civil_war"/>
+        <catRef target="cartoons_taxonomies.xml#lesson_plan"/>
+        <catRef target="cartoons_taxonomies.xml#African_American"/>
+        <catRef target="cartoons_taxonomies.xml#war"/>
+        <catRef target="cartoons_taxonomies.xml#elections"/>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change who="RachelMoloshok" when="2015-04-29">Exported from Collective Access. Basic
+        proofreading.</change>
+      <change who="RachelMoloshok" when="2015-04-29">Featured encoding (for lesson plan
+        cartoon)</change>
+      <change who="RachelMoloshok" when="2015-04-28">Basic encoding</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="100" lry="100">
+      <graphic url="FIL.000089937"/>
+      <zone n="1" xml:id="title" points="24.32,91.68 74.92,91.85 74.12,96.64 22.6,96.64"/>
+      <zone n="2" xml:id="black_soldier"
+        points="16.01,16.82 18.5,20.3 20.88,17.8 20.01,12.37 23.58,13.49 24.55,19.33 28.23,21.27 28.88,28.37 27.8,32.96 31.47,39.91 33.74,39.35 49.53,31.15 32.88,47.84 33.85,51.32 30.72,55.21 35.8,60.22 34.82,73.29 41.85,75.1 39.91,80.8 27.15,83.3 21.42,88.45 15.04,87.34 11.04,81.64 14.5,77.32 16.34,66.89 11.47,68.84 9.31,63.14 13.52,55.21 12.44,46.45 14.82,34.9 5.52,36.02 3.25,34.21 3.36,20.58 6.39,18.63 11.36,18.63 14.39,19.05"/>
+      <zone n="3" xml:id="white_soldier"
+        points="69.86,8.06 91.05,7.64 92.56,13.07 86.08,18.35 75.16,17.94 78.94,23.92 78.29,27.67 82.29,28.92 83.26,37.13 80.24,46.03 82.51,52.43 83.26,89.98 71.48,89.7 70.29,68.14 65.1,64.25 65.32,57.02 68.67,44.78 59.48,42.69 58.4,37.96 66.83,36.29 67.59,28.51 70.94,29.2 70.07,24.19 70.83,17.52 66.29,16.96 66.4,12.23"/>
+      <zone n="4" xml:id="ballot" points="55.43,40.04 60.32,37.67 60.97,41.3 56.84,43.82"/>
+      <zone n="5" xml:id="glasses"
+        points="28.79,9.79 38.8,9.91 44.09,11.4 50.73,21.42 49.28,26.99 50.24,29.22 50.24,33.3 44.86,39.12 44.57,32.43 38.03,29.96 41.2,25.5 43.32,24.89 44.47,20.8 47.94,20.18 45.82,17.46 31.1,19.32 25.81,16.59 25.23,11.52"/>
+      <zone n="6" xml:id="moustache"
+        points="42.1,5.8 47.4,3.81 52.98,3.57 63.85,6.04 64.33,8.52 59.71,13.22 54.03,14.83 51.82,22.25 52.88,25.6 55.09,27.2 55.57,30.79 57.98,31.78 59.33,38.09 55.57,40.94 47.3,41.68 45.09,38.47 50.86,25.97 48.36,15.57 45.38,11.12 41.72,8.89"/>
+      <zone n="7" xml:id="sign" points="45.32,16.66 58.86,15.82 59.25,20.89 44.53,22.13"/>
+      <zone n="8" xml:id="signature" points="83.2,72.42 94.62,75.49 93.69,80.11 82.48,77.47"/>
+      <zone n="9" xml:id="note" points="74.61,92.22 79.21,91.97 79.21,95.72 75.1,96.07"/>
+    </surface>
+  </facsimile>
+  <text>
+    <front>
+      <div type="editorial_desc">
+        <p>This political cartoon shows black and white soldiers facing off at the ballot box during
+          the presidential election of 1864, which pitted George McClellan against Abraham Lincoln.
+          At right, a white army veteran in uniform holds a ballot with "McClellan" written on it.
+          His right leg and left arm have been amputated, he supports himself using a crutch, and he
+          wears an patch over his left eye. He is prevented from casting his vote by a black
+          soldier, at left, who points a bayonet at him, accusing him of being a "Copperhead
+          traitor" and telling him he can't cast a ballot for anyone other than Lincoln. The black
+          soldier is presumably a member of a regiment of the recently formed United States Colored
+          Troops and is depicted using many negative stereotypes: his facial features are
+          exaggerated, he speaks with a strong accent, he wears ragged clothing, and he has a flask
+          of whiskey hanging from his belt. Behind the two men is a desk with two ballot boxes: the
+          one guarded by the black soldier presumably holds votes for McClellan and is filled with
+          ballots; the other, presumably holding votes for Lincoln, appears empty. Behind the desk,
+          two election officials talk to one another. The first official, a white man wearing
+          glasses, expresses concern that there will be trouble if the white soldier is not allowed
+          to vote. The second official, a white, heavy-set man with a moustache, tells him to "turn
+          around" and "pretend you see nothing."</p>
+      </div>
+    </front>
+    <body>
+      <div type="image_transcription" n="1" facs="#title">
+        <head><supplied resp="editorial">Title</supplied></head>
+        <p>HOW FREE BALLOT IS PROTECTED!</p>
+      </div>
+      <div type="image_transcription" n="2" facs="#black_soldier">
+        <head><supplied resp="editorial">Black soldier</supplied></head>
+        <p>Hallo dar! you cant put in dat you copperhead traitor, nor any oder 'cept for <persName
+            key="ENT.000000447">Massa Lincoln</persName>!!</p>
+        <p>WHISKEY</p>
+        <p>US</p>
+      </div>
+      <div type="image_transcription" n="3" facs="#white_soldier">
+        <head><supplied resp="editorial">White soldier</supplied></head>
+        <p>"I am an American citizen and did not think I had fought and bled for this, ALAS, MY
+          COUNTRY!"</p>
+      </div>
+      <div type="image_transcription" n="4" facs="#ballot">
+        <head><supplied resp="editorial">Ballot</supplied></head>
+        <p><persName key="ENT.000001783">MCCLELLAN</persName></p>
+      </div>
+      <div type="image_transcription" n="5" facs="#glasses">
+        <head><supplied resp="editorial">Election official 1</supplied></head>
+        <p>"I'm afraid we shall have trouble if that soldier is not allowed to vote."</p>
+      </div>
+      <div type="image_transcription" n="6" facs="#moustache">
+        <head><supplied resp="editorial">Election official 2</supplied></head>
+        <p>Gammon, Hem just turn round, you must pretend you see nothing of the kind going on, and
+          keep on counting your votes."</p>
+      </div>
+      <div type="image_transcription" n="7" facs="#sign">
+        <head><supplied resp="editorial">Sign</supplied></head>
+        <p>VOTE HERE</p>
+      </div>
+      <div type="image_transcription" n="8" facs="#signature">
+        <head><supplied resp="editorial">Artist's signature</supplied></head>
+        <p><persName key="ENT.000003692">JE Baker</persName> del</p>
+      </div>
+      <div type="image_transcription" n="9" facs="#note">
+        <head><supplied resp="editorial">Note</supplied></head>
+        <p><add>64</add></p>
+      </div>
+    </body>
+  </text>
 </TEI>
