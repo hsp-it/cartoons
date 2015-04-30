@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 
+
 <?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 
@@ -270,7 +271,7 @@
                 <p>BILLS</p>
                 <p>JOBS</p>
                 <p>BARGAINS</p>
-                <p>PENSION ARREARS $103.962.300 00/p>
+                <p>PENSION ARREARS $103.962.300 00</p>
                 <p>EXPOSURE</p>
                 <p>CORRUPT BILLS</p>
                 <p>LOGROLLING</p>
@@ -289,7 +290,7 @@
             
             <div type="image_transcription" facs="#Reid" n="9">
                 <head><supplied resp="editorial">Whitelaw Reid</supplied></head>
-                <p>N.Y. TRIBUNE</note></p>
+                <p>N.Y. TRIBUNE</p>
             </div>
             
             <div type="image_transcription" facs="#Curtis" n="10">
