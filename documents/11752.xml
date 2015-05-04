@@ -158,6 +158,7 @@
         <catRef target="cartoons_taxonomies.xml#African_American"/>
         <catRef target="cartoons_taxonomies.xml#war"/>
         <catRef target="cartoons_taxonomies.xml#elections"/>
+        <catRef target="cartoons_taxonomies.xml#stereotypes"/>
       </textClass>
     </profileDesc>
     <revisionDesc>
