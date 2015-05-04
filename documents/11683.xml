@@ -178,9 +178,6 @@
   </teiHeader>
   <facsimile>
     <surface ulx="0" uly="0" lrx="100" lry="100">
-      <graphic url="FIL.000085724"/>
-    </surface>
-    <surface ulx="0" uly="0" lrx="100" lry="100">
       <graphic url="FIL.000090263"/>
       <zone n="1" xml:id="west" points="3.21,8.77 45.84,8.57 46.28,91.38 3.68,91.92"/>
       <zone n="2" xml:id="south" points="47.54,8.45 96.67,8.39 97.53,91.74 47.58,91.56"/>
