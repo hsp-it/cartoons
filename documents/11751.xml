@@ -1,0 +1,309 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+
+    <teiHeader xml:lang="English">
+
+        <fileDesc>
+
+            <titleStmt>
+                <title type="main">TEI transcription of Democracy: 1832, 1864</title>
+                <respStmt>
+                    <resp key="art">Artist</resp>
+                    <persName key="ENT.000000553"/>
+                </respStmt>
+                <respStmt>
+                    <resp key="trc">Transcribed by</resp>
+                    <persName key="ENT.000003368"/>
+                </respStmt>
+                <respStmt>
+                    <resp key="mrk">Encoded by</resp>
+                    <persName key="ENT.000003368"/>
+                </respStmt>
+
+            </titleStmt>
+
+            <editionStmt>
+                <p>First edition, <date when="2015">2015</date></p>
+            </editionStmt>
+
+            <publicationStmt>
+                <publisher><orgName key="ENT.000002473">Historical Society of
+                    Pennsylvania</orgName></publisher>
+                <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
+                <idno type="filename">11751</idno>
+                <availability status="restricted">
+                    <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of
+                        copyright only to original contributions made by the Historic Images, New
+                        Technologies (HINT) Project participants and other staff. HSP makes no claim
+                        of copyright to the original text. Permission is granted to download,
+                        transmit or otherwise reproduce, distribute or display the text
+                        contributions to this work claimed by HSP for non-profit educational
+                        purposes, provided that this header is included in its entirety. For
+                        inquiries about commercial uses, please contact the Historical Society of
+                        Pennsylvania. HSP retains the rights of all images unless otherwise noted.
+                        Possession of an HSP digital image does not constitute permission to use or
+                        publish it. Requests for digital imaging, other reproduction services, and
+                        the intended use of reproductions must be made in writing to the Rights and
+                        Reproductions Coordinator at rnr@hsp.org.</p>
+                </availability>
+                <date when="2015"/>
+            </publicationStmt>
+
+            <seriesStmt>
+                <title level="s" type="project" key="CARTOONS"/>
+            </seriesStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository key="ENT.000002473"/>
+                        <collection key="3133"/>
+                        <idno type="citation">
+                            <idno type="box">5</idno>
+                            <idno type="folder">6</idno>
+                        </idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <bibl>
+                                <date from="1864-01-01" to="1864-12-31">1864</date>
+                                <extent>1 loose sheet</extent>
+                                <extent>
+                                    <height quantity="34.5"/>
+                                    <width quantity="45.5"/>
+                                </extent>
+                                <listRelation>
+                                    <relation name="depicted" active="ENT.000002223"/>
+                                    <!-- Jackson -->
+                                    <relation name="depicted" active="ENT.000003693"/>
+                                    <!-- Calhoun -->
+                                    <relation name="depicted" active="ENT.000001041"/>
+                                    <!-- Davis -->
+                                    <relation name="depicted" active="ENT.000001783"/>
+                                    <!-- McClellan -->
+                                    <relation name="depicted" active="ENT.000003373"/>
+                                    <!-- Pendleton -->
+                                    <relation name="mentioned" active="ENT.000003694"/>
+                                    <!-- Sherman -->
+                                    <relation name="mentioned" active="ENT.000000941"/>
+                                    <!-- Grant -->
+                                    <relation name="mentioned" active="ENT.000003695"/>
+                                    <!-- Sheridan -->
+                                    <relation name="mentioned" active="ENT.000003696"/>
+                                    <!-- Farragut -->
+                                </listRelation>
+                            </bibl>
+                        </msItem>
+                    </msContents>
+
+                    <history>
+                        <acquisition>This is an artificial collection created over time by HSP staff
+                            mostly through donations and purchases of individual prints. It also
+                            incorporates previously uncataloged materials collected by the Balch
+                            Institute for Ethnic Studies. Some of the 20th century cartoons and
+                            drawings were removed from the J. Hampton Moore papers (Collection
+                            1541).</acquisition>
+                    </history>
+                </msDesc>
+                <biblStruct>
+                    <monogr>
+                        <respStmt>
+                            <resp key="art">Artist</resp>
+                            <persName key="ENT.000000553"/>
+                        </respStmt>
+                        <title type="main" level="m">Democracy: 1832, 1864</title>
+                        <imprint>
+                            <publisher><orgName key="ENT.000003698"/></publisher>
+                            <pubPlace>Boston</pubPlace>
+                            <date from="1864-01-01" to="1864-12-31">1864</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <projectDesc>
+                <p>The Historic Images, New Technologies (HINT) project aims to enhance description
+                    and discovery of the Historical Society of Pennsylvania's graphics materials and
+                    promote the linking and sharing of content among institutions and scholars. The
+                    project will result in an update to HSP's digital image viewer and an online
+                    digital history exhibit that will demonstrate the new viewer's capabilities and
+                    provide interpretive and contextual materials to encourage users to interact
+                    with historical images in new ways. This project was funded by a grant from the
+                    National Historical Publications and Records Commission's (NHPRC) Innovation in
+                    Archives and Documentary Editing program.</p>
+            </projectDesc>
+            <editorialDecl n="4">
+                <p>This electronic file was created using manual keying following the
+                    recommendations for Level 4 of "Best Practices for TEI in Libraries" guidelines
+                    v3.0.</p>
+                <p>This xml file uses unique entity identifiers, media file identifiers, and
+                    collection identifiers in HSP's Digital Library, available at
+                    http://digitallibrary.hsp.org.</p>
+
+            </editorialDecl>
+            <tagsDecl>
+                <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
+                <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
+                <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
+                <rendition scheme="css" xml:id="crossed-through">text-decoration:
+                    line-through</rendition>
+                <rendition scheme="other" xml:id="printed"/>
+                <rendition scheme="other" xml:id="typescript"/>
+                <rendition scheme="other" xml:id="handwritten"/>
+                <rendition scheme="other" xml:id="handwritten-underlined"/>
+                <rendition scheme="other" xml:id="handwritten-circled"/>
+                <rendition scheme="other" xml:id="handwritten-crossed-through"/>
+                <rendition scheme="other" xml:id="double-underline"/>
+                <rendition scheme="other" xml:id="stamp"/>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+        </encodingDesc>
+
+        <profileDesc>
+            <textClass>
+                <catRef target="cartoons_genres.xml#lithographs"/>
+                <catRef target="cartoons_genres.xml#political_cartoons"/>
+                <catRef target="cartoons_taxonomies.xml#civil_war"/>
+                <catRef target="cartoons_taxonomies.xml#lesson_plan"/>
+                <catRef target="cartoons_taxonomies.xml#war"/>
+                <catRef target="cartoons_taxonomies.xml#elections"/>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change who="RachelMoloshok" when="2015-05-04">Featured encoding (for lesson plan cartoon)</change>
+            <change who="RachelMoloshok" when="2015-04-29">Basic encoding</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <facsimile>
+        <surface ulx="" uly="" lrx="" lry="">
+            <graphic url="FIL.000089938"/>
+            <zone n="1" xml:id="title"/>
+            <zone n="2" xml:id="jackson"/>
+            <zone n="3" xml:id="calhoun"/>
+            <zone n="4" xml:id="soldier1"/>
+            <zone n="5" xml:id="davis"/>
+            <zone n="6" xml:id="soldier2"/>
+            <zone n="7" xml:id="mac"/>
+            <zone n="8" xml:id="pendleton"/>
+            <zone n="9" xml:id="platform"/>
+            <zone n="10" xml:id="copyright"/>
+        </surface>
+    </facsimile>
+
+    <text>
+        <front>
+            <div type="editorial_desc">
+                <p>This political cartoon is divided into two scenes depicting events in 1832 and in
+                    1864, when this cartoon was published. In the left-hand panel, labeled "1832,"
+                    US President Andrew Jackson, standing on a platform to the right of the panel in
+                    military uniform, is shown raging at John Calhoun, who bows before Jackson and
+                    begs for mercy. The right-hand panel, labeled "1864," shows US presidential
+                    candidate George B. McClellan and his running mate, George Pendleton, groveling
+                    before Confederate president Jefferson Davis. Davis, standing at the left of the
+                    frame, dressed in ragged clothing and holding a whip under his arm, looks down
+                    on McClellan and Pendleton as Jackson looks down on Calhoun in the opposite
+                    panel. He demands that McClellan and Pendleton call back Union military heroes
+                    Sherman, Grant, Sheridan, and Farragut. To the right of the panel, McClellan and
+                    Pendleton kneel on a platform labeled "Chicago Platform" and extend an olive
+                    branch, a symbol of peace, to Davis. Behind Davis, two Confederate soldiers, one
+                    eating a corn cob, remark on McClellan and Pendleton's stupidity.</p>
+                <p>During the Nullification Crisis of 1832, South Carolina, citing states' rights,
+                    threatened to secede from the United States if the federal government attempted
+                    to collect tariff duties. South Carolinian John Calhoun, who supported
+                    nullification, resigned his position as vice president of the United States to
+                    join South Carolina's senate. Jackson considered South Carolina's actions
+                    treasonous and sent ships and soldiers to enforce the tariff measures. In this
+                    cartoon, Jackson is shown as a strong leader, tough on treason, and dedicated to
+                    preserving the Union, much like Abraham Lincoln, who was running against
+                    McClellan during the presidential election of 1864. In contrast, McClellan, who
+                    ran on a platform of "peace at any price," is depicted as weak and cowardly
+                    character. Rather than standing up to traitors who threaten the Union, he kneels
+                    before the leader of the Confederacy and promises to give him whatever he
+                    wants.</p>
+            </div>
+        </front>
+
+        <body>
+            <div type="image_transcription" n="1" facs="#title">
+                <head><supplied resp="editorial">Titles</supplied></head>
+                <p><date when="1832">1832</date>. DEMOCRACY. <date when="1864">1864</date>.</p>
+                <p>Published by <orgName key="ENT.000003698">L. Prang &amp; Co.</orgName> 159. <choice>
+                        <abbr>Washton</abbr>
+                        <expan>Washington</expan>
+                    </choice>St. Boston</p>
+            </div>
+            <div type="image_transcription" n="2" facs="#jackson">
+                <head><persName key="ENT.000002223">Gen. Jackson</persName>.</head>
+                <p>By the Eternal! this Union must and shall be preserved: A Traitor's doom to him
+                    who acts against it.</p>
+            </div>
+            <div type="image_transcription" n="3" facs="#calhoun">
+                <head><persName key="ENT.000003693">Calhoun</persName>.</head>
+                <p>Pardon! Pardon!</p>
+            </div>
+            <div type="image_transcription" n="4" facs="#soldier1">
+                <head><supplied resp="editorial">Confederate soldier 1</supplied></head>
+                <p>Those Northern dogs how they whine!</p>
+            </div>
+            <div type="image_transcription" n="5" facs="#davis">
+                <head><persName key="ENT.000001041">Jeff</persName>:</head>
+                <p>Gentlemen, I am well pleased with what you ask for, you are men of sense, and to
+                    commence with I wish you to call back those fellows, <persName
+                        key="ENT.000003694">Sherman</persName>, <persName key="ENT.000000941"
+                        >Grant</persName> and <persName key="ENT.000003695">Sheridan</persName> also
+                    that old Seadog <persName key="ENT.000003696">Farragut</persName> after that we
+                    will see further.</p>
+            </div>
+            <div type="image_transcription" n="6" facs="#soldier2">
+                <head><supplied resp="editorial">Confederate soldier 2</supplied></head>
+                <p>Those fools now that we are in the last ditch they come and beg for peace.</p>
+            </div>
+            <div type="image_transcription" n="7" facs="#mac">
+                <head><persName key="ENT.000001783">Little Mac</persName>.</head>
+                <p>We should like to have Union and Peace, dear <persName key="ENT.000001041">Mr.
+                        Davis</persName> but if such is not your pleasure then please state your
+                    terms for a friendly separation.</p>
+            </div>
+            <div type="image_transcription" n="8" facs="#pendleton">
+                <head><persName key="ENT.000003373">Pendleton</persName>.</head>
+                <p>Amen!</p>
+            </div>
+            <div type="image_transcription" n="9" facs="#platform">
+                <head><supplied resp="editorial">Platform</supplied></head>
+                <p>CHICAGO PLATFORM</p>
+                <note n="1">"Chicago platform," here depicted as a physical platform, is a reference
+                    to the position adopted by the Democratic National Convention of 1864. The party
+                    at the time was split between "War Democrats," who supported the Union's
+                    military efforts against the Confederacy in the Civil War, and "Peace
+                    Democrats," who hoped to negotiate peace with the Confederacy. At the
+                    convention, <persName key="ENT.000001783">George McClellan</persName>, a Union
+                    general and a War Democrat, was chosen as the party's presidential nominee and
+                        <persName key="ENT.000003373">George Pendleton</persName>, who had opposed
+                    the war, as his running mate. The convention also voted to formally adopt a
+                    peace platform, a platform that McClellan himself did not agree with.</note>
+            </div>
+            <div type="image_transcription" n="10" facs="#copyright">
+                <head><supplied resp="editorial">Copyright</supplied></head>
+                <p>ENTERED ACCORDING TO ACT OF CONGRESS IN THE YEAR <date when="1864">1864</date> BY
+                        <orgName key="ENT.000003698">L. PRANG &amp; CO</orgName> IN THE CLERK'S
+                    OFFICE OF THE DISTRICT COURT OF <choice>
+                        <abbr>MASS.</abbr>
+                        <expan>Massachusetts</expan>
+                    </choice></p>
+            </div>
+        </body>
+
+        <back/>
+    </text>
+</TEI>
