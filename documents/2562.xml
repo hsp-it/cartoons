@@ -26,7 +26,6 @@
                 <respStmt>
                     <resp key="mrk">Encoded by</resp>
                     <persName key="ENT.000003368">Moloshok, Rachel</persName>
-                    <persName key="ENT.000003343">Dorman, Dana</persName>
                 </respStmt>
             </titleStmt>
 
@@ -94,16 +93,16 @@
                                     </dimensions>
                                 </extent>
                                 <listRelation>
-                                    <relation name="depicted"
-                                        active="ENT.000003372"/>
+                                    <relation name="depicted" active="ENT.000003372"/>
                                     <relation name="depicted" active="ENT.000003375"/>
                                     <relation name="depicted" active="ENT.000003382"/>
                                     <relation name="depicted" active="ENT.000003357"/>
-                                    <relation name="depicted" active="000000637"/>
+                                    <relation name="depicted" active="ENT.000000637"/>
                                     <relation name="depicted" active="ENT.000003327"/>
                                     <relation name="depicted" active="ENT.000003359"/>
-                                    <relation name="depicted" active="cartoons_symbols.xml#beelzebub"/>
-                                    <relation name="depicted" active="cartoons_symbols.xml#britannia"/>
+                                    <relation name="depicted" active="cartoons_symbols.xml#devil"/>
+                                    <relation name="depicted"
+                                        active="cartoons_symbols.xml#britannia"/>
                                     <relation name="depicted" active="cartoons_symbols.xml#fame"/>
                                     <relation name="depicted" active="cartoons_symbols.xml#columbia"/>
                                     <relation name="mentioned" active="ENT.000003363"/>
@@ -127,12 +126,11 @@
                     and discovery of the Historical Society of Pennsylvania's graphics materials and
                     promote the linking and sharing of content among institutions and scholars. The
                     project will result in an update to HSP's digital image viewer and an online
-                    digital history exhibit that will
-                    demonstrate the new viewer's capabilities and provide interpretive and
-                    contextual materials to encourage users to interact with historical images in
-                    new ways. This project was funded by a grant from the National Historical
-                    Publications and Records Commission's (NHPRC) Innovation in Archives and
-                    Documentary Editing program</p>
+                    digital history exhibit that will demonstrate the new viewer's capabilities and
+                    provide interpretive and contextual materials to encourage users to interact
+                    with historical images in new ways. This project was funded by a grant from the
+                    National Historical Publications and Records Commission's (NHPRC) Innovation in
+                    Archives and Documentary Editing program</p>
             </projectDesc>
             <editorialDecl n="4">
                 <p>This electronic file was created using manual keying following the
@@ -166,15 +164,20 @@
         <profileDesc>
             <textClass>
                 <catRef target="cartoons_genres.xml#engravings"/>
+                <catRef target="cartoons_genres.xml#political_cartoons"/>
                 <catRef target="cartoons_taxonomies.xml#early"/>
                 <catRef target="cartoons_taxonomies.xml#econ"/>
             </textClass>
         </profileDesc>
 
         <revisionDesc>
+            <change who="RachelMoloshok" when="2015-05-05">Cleaned up file for import into
+                Collective Access. Reverted to basic encoding level</change>
             <change who="RachelMoloshok" when="2015-01-20">Updated test file to match live DAMS
-                entity and media codes; combined divs and zones to reduce overall number from 64 to 24</change>
-            <change who="RachelMoloshok" when="2014-09-09">Changed codes for import/export testing</change>
+                entity and media codes; combined divs and zones to reduce overall number from 64 to
+                24</change>
+            <change who="RachelMoloshok" when="2014-09-09">Changed codes for import/export
+                testing</change>
             <change who="DanaDorman" when="2014-07-09">Changed people/org references to use entity
                 codes only, and switched attributes for those references to @key instead of
                 @ref.</change>
@@ -188,8 +191,7 @@
     </teiHeader>
 
     <facsimile>
-        <surface>
-            <!-- attributes for surface define the area that we will encode and allows us to define zones. Coordinates must be provided by CA. Use surface to contain <graphic> and <zone>. Use multiple <surface> elements as needed. -->
+        <surface lrx="" lry="" ulx="" uly="">
             <graphic url="FIL.000012933"/>
             <zone n="1" xml:id="North"/>
             <zone n="2" xml:id="Bute"/>
@@ -243,16 +245,14 @@
 
         <body>
             <div type="image_transcription" n="1" facs="#North">
-                <head><supplied resp="editorial"><persName key="ENT.000003372">Lord
-                        North</persName></supplied></head>
+                <head><supplied resp="editorial">Lord North</supplied></head>
                 <p>1</p>
                 <p>We must manage this business with a great deal of Art; Or I see we shall not
                     succeed</p>
             </div>
 
             <div type="image_transcription" n="2" facs="#Bute">
-                <head><supplied resp="editorial"><persName key="ENT.000003382">Lord
-                        Bute</persName></supplied></head>
+                <head><supplied resp="editorial">Lord Bute</supplied></head>
                 <p>2</p>
                 <p>God's curse, Mon, ye mon act wie meikle Spirit upon this occasion, or ane's lost
                     I assure ye</p>
@@ -260,24 +260,20 @@
 
 
             <div type="image_transcription" n="3" facs="#EIC_director">
-                <head><supplied resp="editorial"><orgName key="ENT.000000637">East India
-                            Company</orgName> Director</supplied></head>
+                <head><supplied resp="editorial">East India Company Director</supplied></head>
                 <p>3</p>
                 <p>I wish we may be able to establish our Monopoly in America</p>
             </div>
 
 
             <div type="image_transcription" n="4" facs="#Kearsley">
-                <head><supplied resp="editorial"><persName key="ENT.000003357">Dr. John Kearsley
-                            Jr.</persName></supplied></head>
+                <head><supplied resp="editorial">Dr. John Kearsley Jr.</supplied></head>
                 <p>4</p>
-                <p><persName key="ENT.000003386"><abbr>Govr.</abbr> T--n</persName> will cram the
-                    Tea, down the Throats of the New Yorkers.</p>
+                <p>Govr. T--n will cram the Tea, down the Throats of the New Yorkers.</p>
             </div>
 
             <div type="image_transcription" n="5" facs="#Beelzebub">
-                <head><supplied resp="editorial"><rs ref="cartoons_symbols.xml#Devil"
-                        >Beelzebub</rs></supplied></head>
+                <head><supplied resp="editorial">Beelzebub</supplied></head>
                 <p>5</p>
                 <p>Speak in favour of the Scheme Now's the time to push your fortune</p>
             </div>
@@ -291,48 +287,27 @@
 
             <div type="section" n="7" facs="#key">
                 <head><supplied resp="editorial">Key</supplied></head>
-                <p><ref target="#North">1</ref>
-                    <persName key="ENT.000003372">Lord N....th</persName></p>
-                <p><ref target="#Bute">2</ref>
-                    <persName key="ENT.000003382">Lord B...te</persName></p>
-                <p><ref target="#EIC_director">3</ref> An <orgName key="ENT.000000637">East
-                        India</orgName> Director</p>
-                <p><ref target="#Kearsley">4</ref> The infamous <persName key="ENT.000003357"
-                        >K.....y</persName></p>
-                <p><ref target="#Beelzebub">5</ref>
-                    <rs ref="cartoons_symbols.xml#Devil"><orig>Belzebub</orig>, the Prince of
-                        Devils</rs> whispering to <persName key="ENT.000003357"
-                    >K....y</persName></p>
-                <p><ref target="#newspaper_man">6</ref>
-                    <rs key="ENT.000003375">The writer of the Papers (signed Poplicola)</rs> in
-                    favour of the Tea</p>
-                <p><ref target="#EIC_chairman">7</ref> The Chairman of the <orgName
-                        key="ENT.000000637">India Company</orgName></p>
-                <p><ref target="#EIC_group">8</ref> A Group of <orgName key="ENT.000000637"
-                        >India</orgName> Directors</p>
-                <p><ref target="#Richmond">9</ref>
-                    <rs key="ENT.000003359">The Patriotic Duke of Richmond</rs></p>
-                <p><ref target="#Genius_of_Britain">10</ref> The Genius of Britain</p>
-                <p><ref target="#Britannia">11</ref>
-                    <rs ref="cartoons_symbols.xml#Britannia">Britannia</rs></p>
-                <p><ref target="#America_woman">12</ref> America represented by a Woman</p>
-                <p><ref target="#Sons_Liberty_group">13</ref> The <orgName key="ENT.000003327">Sons
-                        of Liberty</orgName> represented by the Natives of America, in their savage
+                <p>1 Lord N....th</p>
+                <p>2 Lord B...te</p>
+                <p>3 An East India Director</p>
+                <p>4 The infamous K.....y</p>
+                <p>5 <orig>Belzebub</orig>, the Prince of Devils whispering to K....y</p>
+                <p>6 The writer of the Papers (signed Poplicola) in favour of the Tea</p>
+                <p>7 The Chairman of the India Company</p>
+                <p>8 A Group of India Directors</p>
+                <p>9 The Patriotic Duke of Richmond</p>
+                <p>10 The Genius of Britain</p>
+                <p>11 Britannia</p>
+                <p>12 America represented by a Woman</p>
+                <p>13 The Sons of Liberty represented by the Natives of America, in their savage
                     garb</p>
-                <p><ref target="#Liberty">14</ref> The <rs ref="cartoons_symbols.xml#Liberty"
-                        >Goddess of Liberty</rs>, addressing herself to <rs
-                        ref="cartoons_symbols.xml#Fame">Fame</rs> and pointing to her <rs
-                        key="ENT.000003327">Sons</rs>.</p>
-                <p><ref target="#Fame">15</ref>
-                    <rs ref="cartoons_symbols.xml#Fame">Fame</rs>.</p>
-                <p><ref target="#Boston_Harbor">16</ref> A view of the Tea Ships in the Harbour of
-                    Boston.</p>
-                <p><ref target="#shipwreck">17</ref>
-                    <persName key="ENT.000003363">Capt Lorings</persName> Vessel with Tea,
-                        <orig>Shipwreck'd</orig> on Cape Cod.</p>
-                <p><ref target="#Americans_group">18</ref> A Group of Disappointed Americans, who
-                    were for landing the Tea; In hopes of <sic>shareing</sic> in the Plunder of
-                    their Country.</p>
+                <p>14 The Goddess of Liberty, addressing herself to Fame and pointing to her
+                    Sons.</p>
+                <p>15 Fame.</p>
+                <p>16 A view of the Tea Ships in the Harbour of Boston.</p>
+                <p>17 Capt Lorings Vessel with Tea, <orig>Shipwreck'd</orig> on Cape Cod.</p>
+                <p>18 A Group of Disappointed Americans, who were for landing the Tea; In hopes of
+                        <sic>shareing</sic> in the Plunder of their Country.</p>
             </div>
 
             <div type="image_transcription" n="8" facs="#title">
@@ -341,67 +316,55 @@
             </div>
 
             <div type="image_transcription" n="9" facs="#newspaper_man">
-                <head><supplied resp="editorial"><persName key="ENT.000003375"
-                        >Poplicola</persName></supplied></head>
+                <head><supplied resp="editorial">Poplicola</supplied></head>
                 <p>6</p>
-                <p>I have prostituted my reason and my Conscience to serve <rs key="ENT.000000637"
-                    >You</rs>, and therefore am entitled to some reward.<note type="editorial"
-                        n="1">An anonymous writer, using the pen name "Poplicola," wrote three
-                        letters to the editor of a New York newspaper in winter of 1773 defending
-                        the colonial government and the East India
-                        Company.<!-- revise note using article printouts in cartoon folder. Looks like Poplicola was pen name of co-authored piece. --></note></p>
+                <p>I have prostituted my reason and my Conscience to serve You, and therefore am
+                    entitled to some reward.</p>
             </div>
 
             <div type="image_transcription" n="10" facs="#EIC_chairman">
-                <head><supplied resp="editorial">Chairman of <orgName key="ENT.000000637">East India
-                            Company</orgName></supplied></head>
+                <head><supplied resp="editorial">Chairman of East India Company</supplied></head>
                 <p>7</p>
-                <p>If we had succeeded, <rs key="ENT.000003375">you</rs>
-                    <orig>shou'd</orig> have been provided for</p>
+                <p>If we had succeeded, you <orig>shou'd</orig> have been provided for</p>
             </div>
 
             <div type="image_transcription" n="11" facs="#EIC_man_1">
-                <head><supplied resp="editorial"><orgName key="ENT.000000637">East India
-                            Company</orgName> Director 1</supplied></head>
+                <head><supplied resp="editorial">East India Company Director 1</supplied></head>
                 <p>8</p>
                 <p>We have just now received the <orig>disagreable</orig> intelligence that the
                     Bostonians have <orig>destroy'd</orig> the Tea</p>
             </div>
 
             <div type="image_transcription" n="12" facs="#EIC_man_2">
-                <head><supplied resp="editorial"><orgName key="ENT.000000637">East India
-                            Company</orgName> Director 2</supplied></head>
+                <head><supplied resp="editorial">East India Company Director 2</supplied></head>
                 <p>8</p>
                 <p>And that the Philadelphians have <orig>compel'd</orig> the Ships for their Port,
                     to return with the Tea</p>
             </div>
 
             <div type="image_transcription" n="13" facs="#EIC_man_3">
-                <head><supplied resp="editorial"><orgName key="ENT.000000637">East India
-                            Company</orgName> Director 3</supplied></head>
+                <head><supplied resp="editorial">East India Company Director 3</supplied></head>
                 <p>8</p>
                 <p>And likewise that the People of New York are <orig>determin'd</orig> to Act in
                     the same spirited manner</p>
             </div>
 
             <div type="image_transcription" n="14" facs="#Richmond">
-                <head><supplied resp="editorial"><persName key="ENT.000003359">Charles Lennox, Third
-                            Duke of Richmond</persName></supplied></head>
+                <head><supplied resp="editorial">Charles Lennox, Third Duke of
+                    Richmond</supplied></head>
                 <p>8</p>
-                <p>Had my advice been <orig>follow'd</orig>, <rs key="ENT.000000637">you</rs>
-                    <orig>wou'd</orig> not have met with this loss, and disappointment</p>
+                <p>Had my advice been <orig>follow'd</orig>, you <orig>wou'd</orig> not have met
+                    with this loss, and disappointment</p>
             </div>
 
             <div type="image_transcription" n="15" facs="#Genius_of_Britain">
                 <head><supplied resp="editorial">Genius of Britain</supplied></head>
                 <p>10</p>
-                <p><rs ref="cartoons_symbols.xml#Britannia">Britannia</rs> why so much
-                    distress'd</p>
+                <p>Britannia why so much distress'd</p>
             </div>
 
             <div type="image_transcription" n="16" facs="#Britannia">
-                <head><supplied resp="editorial"><rs ref="cartoons_symbols.xml#Britannia"
-                            >Britannia</rs></supplied></head>
+                <head><supplied resp="editorial">Britannia</supplied></head>
                 <p>11</p>
                 <p>The conduct of those my degenerate Sons will break my Heart</p>
             </div>
@@ -415,8 +378,7 @@
             <div type="image_transcription" n="18" facs="#America_woman">
                 <head><supplied resp="editorial">America</supplied></head>
                 <p>12</p>
-                <p>Aid me my <rs key="ENT.000003327">Sons</rs>, and prevent my being
-                    <orig>Fetter'd</orig></p>
+                <p>Aid me my Sons, and prevent my being <orig>Fetter'd</orig></p>
             </div>
 
             <div type="image_transcription" n="19" facs="#Sons">
@@ -430,18 +392,15 @@
             </div>
 
             <div type="image_transcription" n="20" facs="#Liberty">
-                <head><supplied resp="editorial"><rs ref="cartoons_symbols.xml#Liberty">Goddess of
-                            Liberty</rs></supplied></head>
-                <p>Behold the Ardour of my <rs key="ENT.000003327">Sons</rs>, and let not their
-                    brave Actions be buried in Oblivion</p>
+                <head><supplied resp="editorial">Goddess of Liberty</supplied></head>
+                <p>Behold the Ardour of my Sons, and let not their brave Actions be buried in
+                    Oblivion</p>
             </div>
 
             <div type="image_transcription" n="21" facs="#Fame">
-                <head><supplied resp="editorial"><rs ref="cartoons_symbols.xml#Fame"
-                        >Fame</rs></supplied></head>
+                <head><supplied resp="editorial">Fame</supplied></head>
                 <p>15</p>
-                <p>I will Trumpet <rs key="ENT.000003327">their</rs> Noble Deeds, from Pole to
-                    Pole</p>
+                <p>I will Trumpet their Noble Deeds, from Pole to Pole</p>
             </div>
 
             <div type="image_transcription" n="22" facs="#ship_from_NY">
@@ -457,12 +416,6 @@
                 <head><supplied resp="editorial">Boston Harbor</supplied></head>
                 <p>16</p>
                 <p>17</p>
-                <!--This detail of the map depicts three ships (identified in the key as carrying
-                    tea) at rest in Boston Harbor.</desc>
-                <desc>This detail of the map depicts <persName key="ENT.000003363">Captain Joseph
-                        Loring</persName>'s ship <hi rendition="#italics">William</hi>, a
-                    Boston-bound ship carrying tea, shipwrecked off the coast of Cape
-                    Cod. editorial note about the wreck of the William and what happened to the tea should go here -->
             </div>
 
             <div type="image_transcription" n="24" facs="#Americans">
@@ -471,7 +424,7 @@
                 <p>The People have discover'd our design to divide them &amp; we shall never be able
                     to regain their confidence</p>
                 <p>I am ready to die with grief and vexation at our <sic>Disapointment</sic>; As it
-                will blast my hopes of preferment</p>
+                    will blast my hopes of preferment</p>
                 <p>The New Association Paper</p>
                 <p>Damn the Bostonians, they have been a great means of frustrating our design.</p>
                 <p>We must now make a virtue of necessity &amp; join against landing the Tea</p>
