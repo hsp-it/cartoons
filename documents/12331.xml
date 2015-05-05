@@ -74,7 +74,7 @@
               </respStmt>
               <title type="main" level="u">The "Rail Splitter" at Work Repairing the Union</title>
               <bibl>
-                <date from="1865-01-01">1865</date>
+                <date from="1865-01-01" to="1865-12-31">1865</date>
                 <extent>1 loose page</extent>
                 <listRelation>
                   <relation name="depicted" active="ENT.000000447"/>
