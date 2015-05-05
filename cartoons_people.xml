@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+
+
 <?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 
@@ -110,10 +112,12 @@
   <birth when="1829">1829</birth>
   <death when="1886">1886</death>
   <sex>Male</sex>
-  <note type="biography">Chester Alan Arthur was a United States Vice President and President.  He was born on October 5, 1829 in Fairfield, Vermont and was the son of an Irish immigrant.  He graduated from Union College in New York in 1848, taught secondary school in Vermont and New York, and later became a lawyer in New York City.  During the Civil War he served as Quartermaster General of the State of New York.  After the War, Arthur rose within the ranks of the Republican Party because of his allegiance to Roscoe Conkling, a New York Senator and head of the Stalwart political machine.  In 1871 President Ulysses S. Grant appointed Arthur to serve as Collector of the New York Customhouse.  In 1878 President Rutherford B. Hayes sought to reform the party and to end the practice of political patronage and so, he fired Arthur and accused the Customhouse of political corruption and patronage.   Two years later, the Republicans, seeking to gain support of the Stalwarts, nominated Arthur as James A. Garfield’s running mate.  After President Garfield was assassinated in 1881, Arthur became president, broke ties with Stalwarts, and began to enact civil service reform.  On January 18, 1883, Arthur signed the Pendleton Civil Service Reform Act which ensured federal employees they would be hired based on merit and not party loyalty.   As President, Arthur worked to modernize the United States Navy and invested in the construction of steam-powered engines.  He also supported lower tariffs and signed the Tariff Act of 1883.
-During Arthur’s Administration, the Chinese Exclusion Act of 1882 was enacted.  It denied citizenship to Chinese immigrants and banned them from entering the United States.  The law was finally repealed in 1943.  During his presidency, Arthur became ill with kidney disease and lost the Republican nomination for the 1884 election to James Blaine.  He died on November 18, 1886.
-</note>
-  <bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). Historical dictionary of the Gilded Age. Armonk, N.Y.: M.E. Sharpe.</bibl>
+  <note type="biography">Chester Alan Arthur was a United States Vice President and President.  He was born on October 5, 1829 in Fairfield, Vermont.   He taught secondary school and later became a lawyer in New York City.  In 1871 President Ulysses S. Grant appointed Arthur to serve as Collector of the New York Customhouse.  In 1878 President Rutherford B. Hayes sought to reform the party and to end the practice of political patronage and so, he fired Arthur and accused the Customhouse of political corruption and patronage.   Two years later, the Republicans, seeking to gain support of the Stalwarts, nominated Arthur as James A. Garfield’s running mate.  After President Garfield was assassinated in 1881, Arthur became president, broke ties with Stalwarts, and began to enact civil service reform.   As President, Arthur worked to modernize the United States Navy and invested in the construction of steam-powered engines.  He also supported lower tariffs and signed the Tariff Act of 1883.  During Arthur’s Administration, the Chinese Exclusion Act of 1882 was enacted.  It denied citizenship to Chinese immigrants and banned them from entering the United States.  The law was finally repealed in 1943.  During his presidency, Arthur became ill with kidney disease and lost the Republican nomination for the 1884 election to James Blaine.  He died on November 18, 1886.</note>
+  <bibl> <bibl>“21. Chester Alan Arthur-The Presidents. WGBH American Experience.  PBS.” Accessed May 5, 2015. <ref target="http://www.pbs.org/wgbh/americanexperience/features/biography/presidents-arthur/">Link</ref>
+                </bibl>
+                <bibl>“Presidents of the United States (POTUS).” Accessed May 5, 2015.  <ref target="http://www.ipl.org/div/potus/caarthur.html">Link</ref>
+                </bibl>
+<bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). <hi rendition="#italics"> Historical dictionary of the Gilded Age</hi>. Armonk, N.Y.: M.E. Sharpe.</bibl></bibl>
   <note type="internal">LOC:  http://id.loc.gov/authorities/names/n50002601.html
 </note>
 </person>
@@ -137,8 +141,13 @@ During Arthur’s Administration, the Chinese Exclusion Act of 1882 was enacted.
   <birth when="1828">1828</birth>
   <death when="1898">1898</death>
   <sex>Male</sex>
-  <note type="biography">Thomas Francis Bayard was born on October 29, 1828 in Wilmington, Delaware and was a diplomat and lawyer. Bayard did not attend college, but studied law and was admitted to the bar in 1851.  From 1863-1864 he served as the US attorney for Delaware.  In 1865 he represented Delaware in the US Senate, and then left his post in 1885 to become the Secretary of State during Grover Cleveland’s first administration.  During Cleveland’s second administration, Bayard was appointed Ambassador of Great Britain.  He died in Massachusetts on September 28, 1898.</note>
-  <bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). Historical dictionary of the Gilded Age. Armonk, N.Y.: M.E. Sharpe.</bibl>
+  <note type="biography"><p>Thomas Francis Bayard was born on October 29, 1828 in Wilmington, Delaware and was a diplomat and lawyer.  From 1863-1864 he served as the US attorney for Delaware.  In 1865 he represented Delaware in the US Senate, and then left his post in 1885 to become the Secretary of State during Grover Cleveland’s first administration.  During Cleveland’s second administration, Bayard was appointed Ambassador of Great Britain.  He died in Massachusetts on September 28, 1898. </p></note>
+  <bibl> <bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). <hi rendition="#italics"> Historical dictionary of the Gilded Age</hi>. Armonk, N.Y.: M.E. Sharpe.</bibl>
+                <bibl>“Thomas Francis Bayard, Office of the Historian.” Accessed May 5, 2015.<ref target="https://history.state.gov/departmenthistory/people/bayard-thomas-francis"
+                    >Link</ref>
+                </bibl>
+                <bibl>“Thomas Francis Bayard Biography, United States Statesman, Encyclopedia Britannica.” Accessed May 5, 2015. <ref target="http://www.britannica.com/EBchecked/topic/56741/Thomas-Francis-Bayard">Link</ref></bibl>
+</bibl>
 </person>
 <person xml:id="ENT.000003331">
   <persName key="ENT.000003331">
@@ -198,7 +207,7 @@ editor of NY Herald</note>
   <birth when="1830">1830</birth>
   <death when="1893">1893</death>
   <sex>Male</sex>
-  <note type="biography">James Gillespie Blaine was born on January 31, 1830 in West Brownsville, Pennsylvania.  He served as Secretary of State during the Benjamin Harrison and James A. Garfield Administrations and was the 31st Speaker of the US House of Representatives.  Blaine graduated from Washington College in 1847 and became a newspaper editor in Augusta, Maine.  In 1859 he was elected to serve in the Maine House of Representatives and later, in 1862, successfully ran for the US Congress.  In 1880 he lost the Republican Presidential nomination to James A. Garfield and, after the election, chosen to serve as Secretary of State.  Four years later Republicans nominated him as their candidate, but he narrowly lost the presidential election to Grover Cleveland.  In 1888, Benjamin Harrison appointed him Secretary of State.  As Secretary of State, Blaine expanded trade with Latin America and served as chairman of the first Pan-American Conference.  Blaine resigned as Secretary of State on June 4, 1892.  He died on January 27, 1893 in Washington, DC.</note>
+  <note type="biography">James Gillespie Blaine was born on January 31, 1830 in West Brownsville, Pennsylvania.  He served as Secretary of State during the Benjamin Harrison and James A. Garfield Administrations and was the 31st Speaker of the US House of Representatives.  Blaine graduated from Washington College in 1847 and worked as a newspaper editor.  In 1859 he was elected to serve in the Maine House of Representatives and later, in 1862, successfully ran for the US Congress.  In 1880 he lost the Republican Presidential nomination to James A. Garfield and, after the election, was chosen to serve as Secretary of State.  Four years later Republicans nominated him as their candidate, but he narrowly lost the presidential election to Grover Cleveland.  In 1888, Benjamin Harrison appointed him Secretary of State.  As Secretary of State, Blaine expanded trade with Latin America and served as chairman of the first Pan-American Conference.  Blaine resigned as Secretary of State on June 4, 1892.  He died on January 27, 1893 in Washington, DC.</note>
   <bibl><bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). <hi rendition="#italics">Historical dictionary of the Gilded Age</hi>. Armonk, N.Y.: M.E. Sharpe. </bibl></bibl>
   <note type="internal">http://id.loc.gov/authorities/names/n82011612 ; depicted in 11585-Bc612P567_1_TEI.xml</note>
 </person>
@@ -287,7 +296,7 @@ editor of NY Herald</note>
   <birth when="1818">1818</birth>
   <death when="1893">1893</death>
   <sex>Male</sex>
-  <note type="biography">Benjamin Franklin Butler was a lawyer, member US House of Representatives, and Governor of Massachusetts.  He was born in 1818 in Deerfield, New Hampshire and in 1838 graduated from Waterville College in Maine.  He was admitted to the bar in 1840 and practiced law in Lowell, Massachusetts.  He served in the Massachusetts House of Representatives in 1853 and later in 1859 in the State senate.  During the Civil War, he became a Major General in the Union Army.  Butler became a representative in the US House of Representatives in 1867, and in 1868 served as one of the managers in the Senatorial impeachment hearings against President Andrew Johnson.  He served as Massachusetts Governor from 1883-1884 and died in Washington DC in 1893.</note>
+  <note type="biography">Benjamin Franklin Butler was a lawyer, member US House of Representatives, and Governor of Massachusetts.  He was born in 1818 in Deerfield, New Hampshire and in 1838 graduated from Waterville College in Maine.  Butler served in the Massachusetts House of Representatives in 1853 and later in 1859 in the State senate.  He became a representative in the US House of Representatives in 1867, and in 1868 served as one of the managers in the Senatorial impeachment hearings against President Andrew Johnson.  He served as Massachusetts Governor from 1883-1884 and died in Washington DC in 1893.</note>
   <bibl>Butler, Benjamin Franklin.  Biographical Directory of the United States Congress.  Last Accessed February 3, 2015 http://bioguide.congress.gov/scripts/biodisplay.pl?index=b001174</bibl>
   <note type="internal">LOC:  http://id.loc.gov/authorities/names/n85363511</note>
 </person>
@@ -1390,6 +1399,8 @@ http://id.loc.gov/authorities/names/n2001153414</note>
   <persName key="ENT.000003375">
     <surname type="last">Poplicola</surname>
   </persName>
+  <note type="biography">In 1773, King's College president Myles Cooper and tutor John Vardill wrote three letters, signed "Poplicola," to the editor of <hi rendition="#italics">Rivington's New-York Gazetteer</hi> defending the British colonial government in North America and the East India Company. "Poplicola" is lampooned in the circa 1774 political cartoon <ref target="2562">Liberty Triumphant: or the Downfall of Oppression</ref>.</note>
+  <bibl>E. P. Richardson, "Four American Political Prints," <hi rendition="#italics">American Art Journal</hi> 6 (1974):38.</bibl>
   <note type="internal">Pen name associated with three editorials in Rivington's New York Gazetteer (November 18, December 2, and December 23, 1773) that took a pro-government, pro-East India Company stance during uproar over the Tea Act in America. Depicted in 2562-Bb612L615_1_TEI.xml (Liberty Triumphant). Looks like Poplicola was pen name of co-authored piece. Use article printouts in cartoon folder.
 
                     </note>
@@ -1463,6 +1474,17 @@ http://id.loc.gov/authorities/names/n2001153414</note>
   <death when="1912">1912</death>
   <sex>Male</sex>
   <note type="internal">depicted in 11585-Bc612P567_1_TEI.xml ; http://id.loc.gov/authorities/names/n50050931.html</note>
+</person>
+<person xml:id="ENT.000003359">
+  <persName key="ENT.000003359">
+    <forename type="first">Charles</forename>
+    <surname type="last">Lennox</surname>
+    <addName type="alt">Duke of Richmond</addName>
+  </persName>
+  <birth when="1735">1735</birth>
+  <death when="1806">1806</death>
+  <sex>Male</sex>
+  <note type="internal">depicted in 2562-Bb612L615_1_TEI.xml (Liberty Triumphant) ; http://id.loc.gov/authorities/names/n86104945.html</note>
 </person>
 <person xml:id="ENT.000003378">
   <persName key="ENT.000003378">
@@ -1606,6 +1628,14 @@ http://id.loc.gov/authorities/names/n85250958</note>
     <surname type="last">Smith</surname>
   </persName>
   <note type="internal">This is a person whose name was handwritten on a cartoon featured in the HINT project.  No further information is known about this entity.</note>
+</person>
+<person xml:id="ENT.000003711">
+  <persName key="ENT.000003711">
+    <forename type="first">Solly</forename>
+    <surname type="last">Walter</surname>
+  </persName>
+  <sex>Male</sex>
+  <note type="internal">Artist for Wasp.  Artist for Hint cartoon #11685</note>
 </person>
 <person xml:id="ENT.000003631">
   <persName key="ENT.000003631">
