@@ -8,9 +8,9 @@
                 <title type="main"
                     >TEI transcription of Coney Island and the Crowned Heads</title>
                 <respStmt>
-                    <resp key="art">Artist</resp>
-                    <persName key="ENT.000003642"
-                        >Frederick Graetz</persName>
+                    <resp key="art">artist</resp>
+                    <persName key="ENT.000003642">Graetz, F. (Friedrich), approximately 1840-approximately
+            1913</persName>
                 </respStmt>
                 <respStmt>
                     <resp key="trc">Transcribed by</resp>
@@ -24,7 +24,11 @@
                     <resp key="ltg">Lithographer</resp>
                     <orgName key="ENT.000000380">Mayer, Merkel &amp; Ottomann</orgName>
                 </respStmt>
-            </titleStmt>
+            <respStmt>
+          <resp key="pbl">publisher</resp>
+          <orgName key="ENT.000003163">Keppler &amp; Schwarzmann</orgName>
+        </respStmt>
+      </titleStmt>
 
             <editionStmt>
                 <p>First edition, <date when="2015">2015</date></p>
@@ -51,10 +55,11 @@
                         the intended use of reproductions must be made in writing to the Rights and
                         Reproductions Coordinator at rnr@hsp.org.</p>
                 </availability>
-                <date when="2015"/>
+                <date when="2015">2015</date>
             </publicationStmt>
             <seriesStmt>
-                <title level="s" type="project" key="CARTOONS"/>
+                <title level="s" type="project" key="CARTOONS">Historic Images, New Technologies (HINT)
+          Project</title>
             </seriesStmt>
             <sourceDesc>
                 <msDesc>
@@ -88,15 +93,21 @@
                 <biblStruct>
                     <analytic>
                         <respStmt>
-                            <resp key="art">Artist</resp>
-                            <persName key="ENT.000003642"/>     
+                            <resp key="art">artist</resp>
+                            <persName key="ENT.000003642">Graetz, F. (Friedrich), approximately 1840-approximately
+                1913</persName>     
                         </respStmt>
                         <respStmt>
-                            <resp key="ltg">Lithographer</resp>
-                            <orgName key="ENT.000000380">Mayer, Merkel &amp; Ottomann</orgName>
+                            <resp key="ltg">lithographer</resp>
+                            <orgName key="ENT.000000380">Mayer, Merkel &amp; Ottmann</orgName>
                         </respStmt>
-                        <title type="main" level="a">Coney Island and the Crowned Heads</title>
-                    </analytic>
+                        <respStmt>
+              <resp key="pbl">publisher</resp>
+              <orgName key="ENT.000003163">Keppler &amp; Schwarzmann</orgName>
+            </respStmt>
+            <title type="main" level="a">Coney Island and the Crowned Heads</title>
+                    <date from="1882-07-19">July 19, 1882</date>
+          </analytic>
                     <monogr>
                         <title type="marc245a" level="j"><orgName key="ENT.000000384"
                                 >Puck</orgName></title>
@@ -170,6 +181,7 @@
         </profileDesc>
 
         <revisionDesc>
+            <change who="DianeBiunno" when="2015-05-05">Exported from DAMS and basic proofreading</change>
             <change who="DianeBiunno" when="2015-05-04">Encoded to basic level</change>
             <change who="RachelMoloshok" when="2015-01-07">Template file created</change>
         </revisionDesc>
@@ -177,21 +189,29 @@
 
     <facsimile>
       
-        <surface ulx="" uly="" lrx="" lry="">
+        <surface ulx="0" uly="0" lrx="100" lry="100">
             <graphic
                 url="FIL.000090575"/>
-            <zone n="1" xml:id="Title" points=""/>
-            <zone n="2" xml:id="Puck" points=""/>
-            <zone n="3" xml:id="Sam" points=""/>
-            <zone n="4" xml:id="Flags" points=""/>
-            <zone n="5" xml:id="Slav" points=""/>
-            <zone n="6" xml:id="Nihilism" points=""/>
-            <zone n="7" xml:id="Socialism" points=""/>
-            <zone n="8" xml:id="Pauperism" points=""/>
-            <zone n="9" xml:id="Communism" points=""/>
-            <zone n="10" xml:id="Fenianism" points=""/>
-            <zone n="11" xml:id="Spain" points=""/>
-            <zone n="12" xml:id="Mormonism" points=""/>
+            <zone n="1" xml:id="Title" points="34.6,89.12 91.24,83.29 91.37,94 34.54,93.34"/>
+            <zone n="2" xml:id="Puck" points="46.66,6.79 52.69,7.11 53.12,10 46.56,10.32"/>
+            <zone n="3" xml:id="Sam"
+        points="6.96,30.5 8.68,25.52 13.1,24.23 15.68,21.18 18.43,20.91 18.91,24.87 17.4,27.77 15.76,31.79 17.03,32.78 19.51,38.18 17.77,40.57 20.18,50.26 24.59,60.75 22.12,63.24 20.31,60.55 17.77,54.35 18.24,68.04 18.17,76.02 19.04,85.01 21.52,88.91 16.17,89.1 10.15,86.01 9.15,82.21 10.42,77.22 10.62,67.03 10.42,57.65 12.03,51.96 9.76,46.4 9.65,36.92"/>
+            <zone n="4" xml:id="Flags" points="20.08,19.96 84.11,8.07 86.89,19.17 19.76,27.83"/>
+            <zone n="5" xml:id="Slav"
+        points="23.72,37.94 23.28,33.61 28.45,30.39 29.42,41.48 32.43,55.61 33.17,61.34 31.1,69.83 33.57,74.92 32.7,80.41 26.01,84.41 25.14,77.32 26.88,67.73 22.53,56.74 20.53,40.27"/>
+            <zone n="6" xml:id="Nihilism"
+        points="28.02,31.2 33.08,30.88 38.57,31.84 39.32,37.14 43.09,38.75 43.19,59.79 40.4,67.18 41.69,75.85 38.14,81.64 31.03,85.01"/>
+            <zone n="7" xml:id="Socialism"
+        points="41.58,27.18 46.64,26.22 49.87,30.39 51.37,37.94 57.08,51.28 53.85,52.72 54.28,60.43 57.51,66.7 58.15,79.71 37.71,86.29 40.93,34.25 43.73,31.52"/>
+            <zone n="8" xml:id="Pauperism"
+        points="55.68,57.22 50.73,34.57 58.37,25.9 60.63,31.68 66.76,75.69 56,85.17"/>
+            <zone n="9" xml:id="Communism"
+        points="58.3,36.23 65.63,30.48 68.5,40.63 72.7,40.1 79.28,77.66 62.6,82.96"/>
+            <zone n="10" xml:id="Fenianism"
+        points="69.84,54.91 76.29,40.71 80.43,38.7 81.08,34.27 83.79,30.48 92.56,59.06 88.36,59.33 87.73,71.88 85.49,84.03 69.39,79.76"/>
+            <zone n="11" xml:id="Spain"
+        points="84.76,29.44 88.42,24.46 94.01,41.65 91.54,56.75 84.11,43.25"/>
+            <zone n="12" xml:id="Mormonism" points="67.8,22.63 77.37,23.3 75.94,49.08 66.9,41.46"/>
         </surface>
     </facsimile>
 
@@ -199,7 +219,7 @@
        
         <front>
             <div type="editorial_desc">
-                <p>Uncle Sam stands in the ocean and welcomes monarchs and world leaders to Coney Island.  In the background a world leader with a fez and crutches wears a "mormonism" label.  Another wears the label "Spain."  There are bath houses labeled "Austria, Russia, Germany, Italy, France," and "England."</p>
+                <p>Uncle Sam stands in the ocean of the shores of Coney Island.  He raises his left arm, and motions towards the world leaders and monarchs to enter the water.  Franz Joseph I (Pan-Slavism), Alexander III (Nihilism), William I (Socialism), Umberto I (Pauperism), Marianne (Communism), and Queen Victoria (Fenianism) run into the sea.  Behind them, a head of state wearing a fez and running with crutches, is labeled "mormonism".  Another runs toward the ocean and wears the label "Spain."  In the background there are six bath houses flying the national flags of Austria, Russia, Germany, Italy, France, and England.</p>
             </div>
         </front>
 
