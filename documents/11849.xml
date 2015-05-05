@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+    <teiHeader xml:lang="English">
+
+        <fileDesc>
+
+            <titleStmt>
+                <title type="main">TEI transcription of The Three Months Volunteer at Home</title>
+                <respStmt>
+                    <resp key="art">Artist</resp>
+                    <persName key="ENT.000000553"/>
+                </respStmt>
+                <respStmt>
+                    <resp key="trc">Transcribed by</resp>
+                    <persName key="ENT.000003368"/>
+                </respStmt>
+                <respStmt>
+                    <resp key="mrk">Encoded by</resp>
+                    <persName key="ENT.000003368"/>
+                </respStmt>
+
+            </titleStmt>
+
+            <editionStmt>
+                <p>First edition, <date when="2015">2015</date></p>
+            </editionStmt>
+
+            <publicationStmt>
+                <publisher><orgName key="ENT.000002473">Historical Society of
+                    Pennsylvania</orgName></publisher>
+                <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
+                <idno type="filename">11849</idno>
+                <availability status="restricted">
+                    <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of
+                        copyright only to original contributions made by the Historic Images, New
+                        Technologies (HINT) Project participants and other staff. HSP makes no claim
+                        of copyright to the original text. Permission is granted to download,
+                        transmit or otherwise reproduce, distribute or display the text
+                        contributions to this work claimed by HSP for non-profit educational
+                        purposes, provided that this header is included in its entirety. For
+                        inquiries about commercial uses, please contact the Historical Society of
+                        Pennsylvania. HSP retains the rights of all images unless otherwise noted.
+                        Possession of an HSP digital image does not constitute permission to use or
+                        publish it. Requests for digital imaging, other reproduction services, and
+                        the intended use of reproductions must be made in writing to the Rights and
+                        Reproductions Coordinator at rnr@hsp.org.</p>
+                </availability>
+                <date when="2015"/>
+            </publicationStmt>
+
+            <seriesStmt>
+                <title level="s" type="project" key="CARTOONS"/>
+            </seriesStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository key="ENT.000002473"/>
+                        <collection key="3133"/>
+                        <idno type="citation">
+                            <idno type="box">1</idno>
+                            <idno type="folder">28</idno>
+                        </idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <bibl>
+                                <date from="1862-09-20">September 20, 1862</date>
+                                <extent>1 clipping</extent>
+                                <listRelation/>
+                            </bibl>
+                        </msItem>
+                    </msContents>
+
+                    <history>
+                        <acquisition>This is an artificial collection created over time by HSP staff
+                            mostly through donations and purchases of individual prints. It also
+                            incorporates previously uncataloged materials collected by the Balch
+                            Institute for Ethnic Studies. Some of the 20th century cartoons and
+                            drawings were removed from the J. Hampton Moore papers (Collection
+                            1541).</acquisition>
+                    </history>
+                </msDesc>
+                <biblStruct>
+                    <analytic>
+                        <respStmt>
+                            <resp key="art">Artist</resp>
+                            <persName key="ENT.000000553"/>
+                        </respStmt>
+                        <title type="main" level="a">The Three Months Volunteer at Home</title>
+                    </analytic>
+                    <monogr>
+                        <title type="marc245a" level="j"><orgName key="ENT.000003139">Harper's
+                                Weekly</orgName></title>
+                        <imprint>
+                            <publisher><orgName key="ENT.000003540">Harper &amp;
+                                Brothers</orgName></publisher>
+                            <pubPlace>New York</pubPlace>
+                            <date from="1862-09-20">September 20, 1862</date>
+                            <biblScope unit="volume">6</biblScope>
+                            <biblScope unit="issue">299</biblScope>
+                            <biblScope unit="page">608</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <projectDesc>
+                <p>The Historic Images, New Technologies (HINT) project aims to enhance description
+                    and discovery of the Historical Society of Pennsylvania's graphics materials and
+                    promote the linking and sharing of content among institutions and scholars. The
+                    project will result in an update to HSP's digital image viewer and an online
+                    digital history exhibit that will demonstrate the new viewer's capabilities and
+                    provide interpretive and contextual materials to encourage users to interact
+                    with historical images in new ways. This project was funded by a grant from the
+                    National Historical Publications and Records Commission's (NHPRC) Innovation in
+                    Archives and Documentary Editing program.</p>
+            </projectDesc>
+            <editorialDecl n="4">
+                <p>This electronic file was created using manual keying following the
+                    recommendations for Level 4 of "Best Practices for TEI in Libraries" guidelines
+                    v3.0.</p>
+                <p>This xml file uses unique entity identifiers, media file identifiers, and
+                    collection identifiers in HSP's Digital Library, available at
+                    http://digitallibrary.hsp.org.</p>
+
+            </editorialDecl>
+            <tagsDecl>
+                <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
+                <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
+                <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
+                <rendition scheme="css" xml:id="crossed-through">text-decoration:
+                    line-through</rendition>
+                <rendition scheme="other" xml:id="printed"/>
+                <rendition scheme="other" xml:id="typescript"/>
+                <rendition scheme="other" xml:id="handwritten"/>
+                <rendition scheme="other" xml:id="handwritten-underlined"/>
+                <rendition scheme="other" xml:id="handwritten-circled"/>
+                <rendition scheme="other" xml:id="handwritten-crossed-through"/>
+                <rendition scheme="other" xml:id="double-underline"/>
+                <rendition scheme="other" xml:id="stamp"/>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+        </encodingDesc>
+
+        <profileDesc>
+            <textClass>
+                <catRef target="cartoons_genres.xml#clippings"/>
+                <catRef target="cartoons_genres.xml#wood_engravings"/>
+                <catRef target="cartoons_genres.xml#political_cartoons"/>
+                <catRef target="cartoons_taxonomies.xml#civil_war"/>
+                <catRef target="cartoons_taxonomies.xml#lesson_plan"/>
+                <catRef target="cartoons_taxonomies.xml#war"/>
+                <catRef target="cartoons_taxonomies.xml#children"/>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change who="RachelMoloshok" when="2015-05-05">Encoded to featured level (for lesson
+                plan cartoon)</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <facsimile>
+        <surface ulx="" uly="" lrx="" lry="">
+            <graphic url="FIL.000089681"/>
+            <zone n="1" xml:id="title"/>
+            <zone n="2" xml:id="note"/>
+        </surface>
+    </facsimile>
+
+    <text>
+        <front>
+            <div type="editorial_desc">
+                <p>This cartoon, clipped from <hi rendition="#italics">Harper's Weekly</hi>, depicts
+                    a family scene. At right, a bearded man in military uniform sits down in an
+                    armchair and regards his children. His hat is on his knee and his knapsack and
+                    rifle are on the ground beside him. At left, a young boy, Bubby, holds a boot
+                    jack, wordlessly offering to help his father remove his boots; a young girl, the
+                    man's daughter, stands behind Bubby. Behind them, their mother stands at a
+                    table, pouring tea into cups. The father tells his son he won't take his boots
+                    off because he only has time to drink a cup of tea before returning to the
+                    military. The title "The Three Months Volunteer at Home" likely references the
+                    fact that militia volunteers could not legally be compelled to serve for more
+                    than three months out of the year.</p>
+            </div>
+        </front>
+
+        <body>
+            <div type="image_transcription" n="1" facs="#title">
+                <head><supplied resp="editorial">Title and caption</supplied></head>
+                <p><hi rendition="#bold">THE THREE MONTHS VOLUNTEER AT HOME.</hi></p>
+                <p>(BUBBY <hi rendition="#italics">presenting Boot-jack.</hi>)</p>
+                <p>"No, BUBBY, take that away. I won't pull off my Boots; but jest have a cup of tea
+                    and be off again!"</p>
+            </div>
+            <div type="image_transcription" n="2" facs="#note">
+                <head><supplied resp="editorial">Note</supplied></head>
+                <p><add><date when="1862-09-20">Sept 20, 1862</date></add></p>
+            </div>
+        </body>
+
+        <back/>
+    </text>
+</TEI>
