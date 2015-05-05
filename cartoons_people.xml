@@ -64,7 +64,7 @@
             </projectDesc>
         </encodingDesc>
         <revisionDesc>
-            <change who="HSP" when="2014-08-26">Exported from Collective Access.</change>
+            <change who="HSP" when="2015-05-05">Exported from Collective Access.</change>
         </revisionDesc>
     </teiHeader>
 
@@ -82,6 +82,15 @@
   <death when="1848">1848</death>
   <sex>Male</sex>
   <note type="internal">http://id.loc.gov/authorities/names/n79140988.html; depicted in 11738</note>
+</person>
+<person xml:id="ENT.000003707">
+  <persName key="ENT.000003707">
+    <surname type="last">Alexander III, Emperor of Russia</surname>
+  </persName>
+  <birth when="1845">1845</birth>
+  <death when="1894">1894</death>
+  <sex>Male</sex>
+  <note type="internal">depicted in Hint cartoon #12151</note>
 </person>
 <person xml:id="ENT.000003680">
   <persName key="ENT.000003680">
@@ -143,8 +152,8 @@ During Arthur’s Administration, the Chinese Exclusion Act of 1882 was enacted.
 </person>
 <person xml:id="ENT.000003636">
   <persName key="ENT.000003636">
-    <forename type="first">Bellew</forename>
-    <forename type="middle">Frank</forename>
+    <forename type="first">Frank</forename>
+    <surname type="last">Bellew</surname>
     <addName type="alt">Frank Henry Temple Bellew</addName>
   </persName>
   <birth when="1828-04-18">1828-04-18</birth>
@@ -152,6 +161,17 @@ During Arthur’s Administration, the Chinese Exclusion Act of 1882 was enacted.
   <sex>Male</sex>
   <note type="biography">Political cartoonist</note>
   <note type="internal">http://id.loc.gov/authorities/names/n85352256.html - drew "Lincoln's Last Warning," DAMS #2188, page 2.</note>
+</person>
+<person xml:id="ENT.000003699">
+  <persName key="ENT.000003699">
+    <forename type="first">James Gordon</forename>
+    <surname type="last">Bennett</surname>
+  </persName>
+  <birth when="1841">1841</birth>
+  <death when="1918">1918</death>
+  <sex>Male</sex>
+  <note type="internal">Depicted in HINT cartoon #12155&#13;
+editor of NY Herald</note>
 </person>
 <person xml:id="ENT.000000552">
   <persName key="ENT.000000552">
@@ -476,6 +496,17 @@ During Arthur’s Administration, the Chinese Exclusion Act of 1882 was enacted.
   <bibl><bibl>“Charles A. Dana  Biography - American Journalist” Encyclopedia Britannica, accessed February 10, 2015, http://www.britannica.com/EBchecked/topic/150676/Charles-A-Dana.</bibl></bibl>
   <note type="internal">http://id.loc.gov/authorities/names/n85253013.html</note>
 </person>
+<person xml:id="ENT.000003703">
+  <persName key="ENT.000003703">
+    <forename type="first">David</forename>
+    <surname type="last">Davis</surname>
+  </persName>
+  <birth when="1815">1815</birth>
+  <death when="1886">1886</death>
+  <sex>Male</sex>
+  <note type="internal">LOC:  http://id.loc.gov/authorities/names/n86114096&#13;
+Depicted in Hint cartoon 11834</note>
+</person>
 <person xml:id="ENT.000001041">
   <persName key="ENT.000001041">
     <forename type="first">Jefferson</forename>
@@ -484,7 +515,7 @@ During Arthur’s Administration, the Chinese Exclusion Act of 1882 was enacted.
   <birth when="1808">1808</birth>
   <death when="1889">1889</death>
   <sex>Male</sex>
-  <note type="internal">http://id.loc.gov/authorities/names/n79145410.html. Depicted in 11511, 2189</note>
+  <note type="internal">http://id.loc.gov/authorities/names/n79145410.html. Depicted in 11511, 2189; often depicted wearing ragged clothing in political cartoons--HINT project biographer might want to research/explain why</note>
 </person>
 <person xml:id="ENT.000003341">
   <persName key="ENT.000003341">
@@ -672,6 +703,14 @@ See http://politicalgraveyard.com/death/offices.html; https://books.google.com/b
   <death when="1790">1790</death>
   <sex>Male</sex>
 </person>
+<person xml:id="ENT.000003706">
+  <persName key="ENT.000003706">
+    <surname type="last">Franz Joseph I</surname>
+  </persName>
+  <birth when="1830">1830</birth>
+  <death when="1916">1916</death>
+  <sex>Male</sex>
+</person>
 <person xml:id="ENT.000003645">
   <persName key="ENT.000003645">
     <forename type="first">Hy</forename>
@@ -728,6 +767,7 @@ See http://politicalgraveyard.com/death/offices.html; https://books.google.com/b
   <birth when="1858">1858</birth>
   <death when="1920">1920</death>
   <sex>Male</sex>
+  <note type="internal">Artist for Hint cartoon #12384</note>
 </person>
 <person xml:id="ENT.000003559">
   <persName key="ENT.000003559">
@@ -973,6 +1013,20 @@ mentioned in 11585-Bc612P567_1_TEI.xml; painted Phryne Before the Aeropagus</not
   <death when="1946">1946</death>
   <sex>Male</sex>
 </person>
+<person xml:id="ENT.000003704">
+  <persName key="ENT.000003704">
+    <forename type="first">John</forename>
+    <forename type="middle">Percival</forename>
+    <surname type="last">Jones</surname>
+  </persName>
+  <birth when="1829">1829</birth>
+  <death when="1912">1912</death>
+  <sex>Male</sex>
+  <note type="internal">Depicted in Hint cartoon 11834
+LOC:  
+    http://id.loc.gov/authorities/names/n86834912
+</note>
+</person>
 <person xml:id="ENT.000003357">
   <persName key="ENT.000003357">
     <forename type="first">John</forename>
@@ -982,6 +1036,18 @@ mentioned in 11585-Bc612P567_1_TEI.xml; painted Phryne Before the Aeropagus</not
   <death when="1772">1772</death>
   <sex>Male</sex>
   <note type="internal">depicted in 2562-Bb612L615_1_TEI.xml (Liberty Triumphant) ; http://www.findagrave.com/cgi-bin/fg.cgi?page=gr&amp;GRid=8160303 ; E. P. Richardson, "Four American Political Prints," American Art Journal 6, no. 2 (37-38) ; http://id.loc.gov/authorities/names/nr89012469.html</note>
+</person>
+<person xml:id="ENT.000003702">
+  <persName key="ENT.000003702">
+    <forename type="first">Joseph</forename>
+    <forename type="middle">Warren</forename>
+    <surname type="last">Keifer</surname>
+  </persName>
+  <birth when="1836">1836</birth>
+  <death when="1932">1932</death>
+  <sex>Male</sex>
+  <note type="internal">LOC:  http://id.loc.gov/authorities/names/nr94020631&#13;
+Depicted in Hint cartoon 11834</note>
 </person>
 <person xml:id="ENT.000003164">
   <persName key="ENT.000003164">
@@ -1012,6 +1078,16 @@ mentioned in 11585-Bc612P567_1_TEI.xml; painted Phryne Before the Aeropagus</not
   <death when="1921">1921</death>
   <sex>Male</sex>
   <note type="internal">depicted 11525-3133_b2f8_1_TEI.xml; 1782-3313_b2f8_1 ; http://id.loc.gov/authorities/names/n86053399.html</note>
+</person>
+<person xml:id="ENT.000002824">
+  <persName key="ENT.000002824">
+    <forename type="first">Robert E. (Robert Edward)</forename>
+    <surname type="last">Lee</surname>
+  </persName>
+  <birth when="1807">1807</birth>
+  <death when="1870">1870</death>
+  <sex>Male</sex>
+  <note type="internal">mentioned in 11756</note>
 </person>
 <person xml:id="ENT.000003644">
   <persName key="ENT.000003644">
@@ -1241,6 +1317,17 @@ LOC:  http://id.loc.gov/authorities/names/n79060685</note>
   <sex>Male</sex>
   <note type="internal">LOC:  http://id.loc.gov/authorities/names/n85247604</note>
 </person>
+<person xml:id="ENT.000002957">
+  <persName key="ENT.000002957">
+    <forename type="first">Charles</forename>
+    <forename type="middle">Stewart</forename>
+    <surname type="last">Parnell</surname>
+  </persName>
+  <birth when="1846">1846</birth>
+  <death when="1891">1891</death>
+  <sex>Male</sex>
+  <note type="internal">Mentioned in cartoon 12155</note>
+</person>
 <person xml:id="ENT.000002593">
   <persName key="ENT.000002593">
     <forename type="first">Israel</forename>
@@ -1249,6 +1336,16 @@ LOC:  http://id.loc.gov/authorities/names/n79060685</note>
   <birth when="1715">1715</birth>
   <death when="1779">1779</death>
   <sex>Male</sex>
+</person>
+<person xml:id="ENT.000003373">
+  <persName key="ENT.000003373">
+    <forename type="first">George</forename>
+    <surname type="last">Pendleton</surname>
+  </persName>
+  <birth when="1825">1825</birth>
+  <death when="1889">1889</death>
+  <sex>Male</sex>
+  <note type="internal">depicted in 11572 and 11756; http://id.loc.gov/authorities/names/n86812256.html</note>
 </person>
 <person xml:id="ENT.000000557">
   <persName key="ENT.000000557">
@@ -1377,6 +1474,27 @@ http://id.loc.gov/authorities/names/n2001153414</note>
   <death when="1898">1898</death>
   <sex>Male</sex>
   <note type="internal">depicted in 11585-Bc612P567_1_TEI.xml ; http://id.loc.gov/authorities/names/no2009045320.html</note>
+</person>
+<person xml:id="ENT.000003701">
+  <persName key="ENT.000003701">
+    <forename type="first">George</forename>
+    <forename type="middle">Maxwell</forename>
+    <surname type="last">Robeson</surname>
+  </persName>
+  <birth when="1829">1829</birth>
+  <death when="1897">1897</death>
+  <sex>Male</sex>
+  <note type="internal">Depicted in Hint cartoon 11834&#13;
+http://id.loc.gov/authorities/names/n85250958</note>
+</person>
+<person xml:id="ENT.000003705">
+  <persName key="ENT.000003705">
+    <forename type="first">Lucius</forename>
+    <surname type="last">Robinson</surname>
+  </persName>
+  <birth when="1810">1810</birth>
+  <death when="1891">1891</death>
+  <sex>Male</sex>
 </person>
 <person xml:id="ENT.000003651">
   <persName key="ENT.000003651">
@@ -1599,6 +1717,16 @@ http://id.loc.gov/authorities/names/n79022244.html</note>
   <sex>Male</sex>
   <note type="internal">Depicted as a lizard in "The Silence of Matt Quay," DAMS #11737</note>
 </person>
+<person xml:id="ENT.000003709">
+  <persName key="ENT.000003709">
+    <surname type="last">Umberto I, King of Italy</surname>
+  </persName>
+  <birth when="1844">1844</birth>
+  <death when="1900">1900</death>
+  <sex>Male</sex>
+  <note type="internal">http://id.loc.gov/authorities/names/n80125834&#13;
+depicted in Hint cartoon #12151</note>
+</person>
 <person xml:id="ENT.000003387">
   <persName key="ENT.000003387">
     <surname type="last">Unknown</surname>
@@ -1621,6 +1749,16 @@ http://id.loc.gov/authorities/names/n79022244.html</note>
   <sex>Male</sex>
   <note type="internal">http://id.loc.gov/authorities/names/n50045037.html; depicted in 11747. Note/annotation from 11747: Cornelius ("Commodore") Vanderbilt made his fortune in the railroad business and in 1872, when this cartoon was published, was the richest man in America. His strong interest in spiritualism put him in touch with sisters <persName key="ENT.000002960">Victoria Woodhull</persName> and <persName key="ENT.000003633">Tennessee Claflin</persName>, who became his advisors. He provided silent financial backing for at least two historic firsts: the establishment of Woodhull and Claflin's brokerage firm, which made them the first women stock brokers, and Woodhull's presidential campaign, in which she became the first woman to run for president.</note>
 </person>
+<person xml:id="ENT.000003710">
+  <persName key="ENT.000003710">
+    <surname type="last">Victoria, Queen of Great Britain</surname>
+  </persName>
+  <birth when="1819">1819</birth>
+  <death when="1901">1901</death>
+  <sex>Male</sex>
+  <note type="internal">depicted in Hint cartoon #12151&#13;
+http://id.loc.gov/authorities/names/n79017983</note>
+</person>
 <person xml:id="ENT.000003630">
   <persName key="ENT.000003630">
     <forename type="first">James</forename>
@@ -1641,6 +1779,18 @@ http://id.loc.gov/authorities/names/n79022244.html</note>
   <birth when="1865">1865</birth>
   <death when="1908">1908</death>
   <sex>Male</sex>
+</person>
+<person xml:id="ENT.000003700">
+  <persName key="ENT.000003700">
+    <forename type="first">Henry</forename>
+    <surname type="last">Watterson</surname>
+  </persName>
+  <birth when="1840">1840</birth>
+  <death when="1921">1921</death>
+  <sex>Male</sex>
+  <note type="internal">http://id.loc.gov/authorities/names/n50043700&#13;
+&#13;
+Depicted in Hint cartoon #11834</note>
 </person>
 <person xml:id="ENT.000003390">
   <persName key="ENT.000003390">
@@ -1681,6 +1831,17 @@ http://id.loc.gov/authorities/names/n79022244.html</note>
     <addName type="alt">Bill Barnes</addName>
   </persName>
   <sex>Male</sex>
+</person>
+<person xml:id="ENT.000003708">
+  <persName key="ENT.000003708">
+    <surname type="last">William I, German Emperor</surname>
+    <addName type="alt">Wilhelm I, German Emperor, 1797-1888</addName>
+  </persName>
+  <birth when="1797">1797</birth>
+  <death when="1888">1888</death>
+  <sex>Male</sex>
+  <note type="internal">http://id.loc.gov/authorities/names/n80149385&#13;
+depicted in hint cartoon #12151</note>
 </person>
 <person xml:id="ENT.000003666">
   <persName key="ENT.000003666">
