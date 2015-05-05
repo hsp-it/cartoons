@@ -78,14 +78,20 @@
                                     </dimensions>
                                 </extent>
                                 <listRelation>
-                                    <relation name="depicted" active="ENT.000000447"/><!-- Lincoln -->
+                                    <relation name="depicted" active="ENT.000000447"/>
+                                    <!-- Lincoln -->
                                 </listRelation>
                             </bibl>
                         </msItem>
                     </msContents>
 
                     <history>
-                        <acquisition>This is an artificial collection created over time by HSP staff mostly through donations and purchases of individual prints. It also incorporates previously uncataloged materials collected by the Balch Institute for Ethnic Studies. Some of the 20th century cartoons and drawings were removed from the J. Hampton Moore papers (Collection 1541).</acquisition>
+                        <acquisition>This is an artificial collection created over time by HSP staff
+                            mostly through donations and purchases of individual prints. It also
+                            incorporates previously uncataloged materials collected by the Balch
+                            Institute for Ethnic Studies. Some of the 20th century cartoons and
+                            drawings were removed from the J. Hampton Moore papers (Collection
+                            1541).</acquisition>
                     </history>
                 </msDesc>
                 <biblStruct>
@@ -97,9 +103,11 @@
                         <title type="main" level="a">"Rowdy" Notions of Emancipation</title>
                     </analytic>
                     <monogr>
-                        <title type="marc245a" level="j"><orgName key="ENT.000003323"/></title>
+                        <title type="marc245a" level="j"><orgName key="ENT.000003323">Punch, or the
+                                London Charivari</orgName></title>
                         <imprint>
-                            <publisher><orgName key="ENT.000003323"/></publisher>
+                            <publisher><orgName key="ENT.000003323">Punch, or the London
+                                    Charivari</orgName></publisher>
                             <pubPlace>London</pubPlace>
                             <date from="1863-08-08">August 8, 1863</date>
                             <biblScope/>
@@ -164,6 +172,8 @@
         </profileDesc>
 
         <revisionDesc>
+            <change who="RachelMoloshok" when="2015-05-05">Encoded to featured level (for lesson
+                plan cartoon)</change>
             <change who="RachelMoloshok" when="2015-05-04">Basic encoding</change>
         </revisionDesc>
     </teiHeader>
@@ -173,15 +183,31 @@
             <graphic url="FIL.000089691"/>
             <zone n="1" xml:id="title"/>
             <zone n="2" xml:id="artist"/>
-            <zone n="" xml:id="note"/>
-            <zone n="" xml:id="lincoln"/>
+            <zone n="3" xml:id="note"/>
+            <zone n="4" xml:id="lincoln"/>
         </surface>
     </facsimile>
 
     <text>
         <front>
             <div type="editorial_desc">
-                <p><!-- Use this section to enter a BRIEF description of the image. --></p>
+                <p>This cartoon depicts the violence perpetrated against African Americans during
+                    the New York City Draft Riots of July 13-16, 1863. It shows Abraham Lincoln, at
+                    far left, standing with his back turned to the riot taking place behind him.
+                    Lincoln, shown wearing striped pants and a jacket, is scowling and looking off
+                    into the distance; he has his arms crossed across his chest with one hand raised
+                    to his chin, as if stroking his beard. Behind him, at the center of the cartoon,
+                    an Irish-American man wearing striped pants and a shirt decorated with stars
+                    (evoking the flag of the United States), stands over the body of an African
+                    American man lying on the ground. The Irish-American man raises his right fist
+                    to strike at another African American man, who he restrains with his left hand.
+                    The African American man threatened by the rioter stretches his arm out in an
+                    appeal to the unresponsive Lincoln. At right, another white rioter, whose face
+                    we cannot see, grabs the African American man's shirt, pulling him toward the
+                    background of the cartoon, in which a gallows can be seen. Behind them can be
+                    seen numerous other rioters. Below the illustration is a caption in which
+                    eyewitness accounts from the scenes of the riots, reported in local newspapers,
+                    are partially reprinted.</p>
             </div>
         </front>
 
@@ -189,7 +215,13 @@
             <div type="image_transcription" n="1" facs="#title">
                 <head><supplied resp="editorial">Title and caption</supplied></head>
                 <p>"ROWDY" NOTIONS OF EMANCIPATION.</p>
-                <p>"THE mob on the corner, below my house, had hung up a negro to the lamp-post. In mockery, a cigar was placed in his mouth. * * * For hours these scared negroes poured up Twenty-seventh Street, passing my house. * * * One old negro, 70 years old, blind as a bat, and such a cripple that he could hardly move, was led along by his equally aged wife with a few rags they had saved, trembling with fright, and not knowing where to go."—MANHATTAN'S <hi rendition="#italics">Letter in the Standard, July 30th.</hi></p>
+                <p>"THE mob on the corner, below my house, had hung up a negro to the lamp-post. In
+                    mockery, a cigar was placed in his mouth. * * * For hours these scared negroes
+                    poured up Twenty-seventh Street, passing my house. * * * One old negro, 70 years
+                    old, blind as a bat, and such a cripple that he could hardly move, was led along
+                    by his equally aged wife with a few rags they had saved, trembling with fright,
+                    and not knowing where to go."—MANHATTAN'S <hi rendition="#italics">Letter in the
+                        Standard, <date when="1863-07-30">July 30th</date>.</hi></p>
             </div>
             <div type="image_transcription" n="2" facs="#artist">
                 <head><supplied resp="editorial">Artist's initials</supplied></head>
@@ -197,13 +229,12 @@
             </div>
             <div type="image_transcription" n="3" facs="#note">
                 <head><supplied resp="editorial">Note</supplied></head>
-                <p><add>1863</add></p>
+                <p><add><date when="1863">1863</date></add></p>
             </div>
             <div type="image_annotation" n="4" facs="#lincoln">
-                <head>Abraham Lincoln</head>
-                <p><!-- description --></p>
+                <head><persName key="ENT.000000447">Abraham Lincoln</persName></head>
             </div>
-            
+
         </body>
 
         <back/>
