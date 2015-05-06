@@ -6,7 +6,6 @@
     <fileDesc>
       <titleStmt>
         <title type="main">TEI transcription of [The Quakers and Franklin]</title>
-        <author/>
         <respStmt>
           <resp key="art">Artist</resp>
           <persName key="ENT.000000553">Unknown Artist</persName>
@@ -57,7 +56,6 @@
           </msIdentifier>
           <msContents>
             <msItem>
-              <author/>
               <respStmt>
                 <resp key="art">Artist</resp>
                 <persName key="ENT.000000553">Unknown Artist</persName>
@@ -67,9 +65,10 @@
                 <date from="1764-01-01" to="1764-12-31">1764</date>
                 <extent>1 loose sheet</extent>
                 <extent>
-                  <dimensions type="image" unit="cm"/>
+                  <dimensions type="image" unit="cm">
                   <height quantity="18"/>
                   <width quantity="31.5"/>
+                  </dimensions>
                 </extent>
                 <listRelation>
                   <relation name="depicts" active="ENT.000003532"/>
@@ -123,7 +122,8 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <catRef target="cartoons_genres.xml#Engravings"/>
+        <catRef target="cartoons_genres.xml#engravings"/>
+        <catRef target="cartoons_genres.xml#political_cartoons"/>
         <catRef target="cartoons_taxonomies.xml#early"/>
         <catRef target="cartoons_taxonomies.xml#elections"/>
         <catRef target="cartoons_taxonomies.xml#religion"/>
