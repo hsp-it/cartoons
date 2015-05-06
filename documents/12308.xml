@@ -11,7 +11,7 @@
                 <title type="main"
                     >TEI transcription of The Feather in Rosencrans' Cap</title>
                 <respStmt>
-                    <resp key="art">Artist</resp>
+                    <resp key="art">artist</resp>
                     <persName key="ENT.000003711"
                         >Walter, Solly</persName>
                 </respStmt>
@@ -25,7 +25,11 @@
                     <persName key="ENT.000003544">Biunno, Diane</persName>
                 </respStmt>
 
-            </titleStmt>
+            <respStmt>
+          <resp key="pbl">publisher</resp>
+          <orgName key="ENT.000003554">E. C. MacFarlane &amp; Co.</orgName>
+        </respStmt>
+      </titleStmt>
 
             <editionStmt>
                 <p>First edition, <date when="2015">2015</date></p>
@@ -52,11 +56,12 @@
                         the intended use of reproductions must be made in writing to the Rights and
                         Reproductions Coordinator at rnr@hsp.org.</p>
                 </availability>
-                <date when="2015"/>
+                <date when="2015">2015</date>
             </publicationStmt>
 
             <seriesStmt>
-                <title level="s" type="project" key="CARTOONS"/>
+                <title level="s" type="project" key="CARTOONS">Historic Images, New Technologies (HINT)
+          Project</title>
             </seriesStmt>
 
             <sourceDesc>
@@ -99,12 +104,17 @@
                 <biblStruct>
                     <analytic>
                         <respStmt>
-                            <resp key="art">Artist</resp>
-                            <persName key="ENT.000003711"/>
+                            <resp key="art">artist</resp>
+                            <persName key="ENT.000003711">Walter, Solly</persName>
                         </respStmt>
 
-                        <title type="main" level="a">The Feather in Rosencrans' Cap</title>
-                    </analytic>
+                        <respStmt>
+              <resp key="pbl">publisher</resp>
+              <orgName key="ENT.000003554">E. C. MacFarlane &amp; Co.</orgName>
+            </respStmt>
+            <title type="main" level="a">The Feather in Rosencrans' Cap</title>
+                    <date from="1884-01-26">January 26, 1884</date>
+          </analytic>
                     <monogr>
                         
                             <title type="marc245a" level="j"><orgName key="ENT.000000382">Wasp</orgName></title>
@@ -185,15 +195,17 @@
 
     <facsimile>
        
-        <surface ulx="" uly="" lrx="" lry="">
+        <surface ulx="0" uly="0" lrx="100" lry="100">
             
             <graphic
                 url="FIL.000090679"/>
             
-            <zone n="1" xml:id="Title" points=""/>
-            <zone n="2" xml:id="Rosecrans" points=""/>
-            <zone n="3" xml:id="Feather" points=""/>
-            <zone n="4" xml:id="Wasp" points=""/>
+            <zone n="1" xml:id="Title" points="8.89,81.53 70.67,83.74 71.04,88.78 30.09,88.29 9.25,86.56"/>
+            <zone n="2" xml:id="Rosecrans"
+        points="16.08,33.71 20.3,29.93 24.83,33.92 27.8,34.55 29.37,36.23 28.9,38.55 26.55,40.65 23.12,38.34 19.99,41.49 17.96,45.06 15.61,45.9"/>
+            <zone n="3" xml:id="Feather"
+        points="10.83,29.91 12.71,14.31 26.17,11.12 41.37,14.97 65.28,41.53 73.08,11.12 84.13,11.3 85.56,16.71 88.28,38.73 87.76,67.74 82.83,79.45 56.06,83.65 35.53,74.56 22.79,29.47 17.18,33.08"/>
+            <zone n="4" xml:id="Wasp" points="44.32,7.06 53.75,7.33 53.91,11.95 44.32,12.06"/>
         </surface>
     </facsimile>
 
