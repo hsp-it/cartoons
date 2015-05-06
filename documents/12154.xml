@@ -10,20 +10,23 @@
             <titleStmt>
                 <title type="main">TEI transcription of A Tail They Can't Twist></title>
                 <respStmt>
-                    <resp key="art">Artist</resp>
-                    <persName key="ENT.000003351"
-                        >Bernhard Gillam</persName>
+                    <resp key="art">artist</resp>
+                    <persName key="ENT.000003351">Gillam, Bernhard, 1856-1896</persName>
                 </respStmt>
                 <respStmt>
                     <resp key="trc">Transcribed by</resp>
                     <persName key="ENT.000003544">Biunno, Diane</persName>
                 </respStmt>
-                
+
                 <respStmt>
                     <resp key="mrk">Encoded by</resp>
                     <persName key="ENT.000003544">Biunno, Diane</persName>
                 </respStmt>
 
+                <respStmt>
+                    <resp key="pbl">publisher</resp>
+                    <orgName key="ENT.000003163">Keppler &amp; Schwarzmann</orgName>
+                </respStmt>
             </titleStmt>
 
             <editionStmt>
@@ -34,8 +37,7 @@
                 <publisher><orgName key="ENT.000002473">Historical Society of
                     Pennsylvania</orgName></publisher>
                 <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
-                <idno type="filename"
-                    >12154</idno>
+                <idno type="filename">12154</idno>
                 <availability status="restricted">
                     <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of
                         copyright only to original contributions made by the Historic Images, New
@@ -51,28 +53,29 @@
                         the intended use of reproductions must be made in writing to the Rights and
                         Reproductions Coordinator at rnr@hsp.org.</p>
                 </availability>
-                <date when="2015"/>
+                <date when="2015">2015</date>
             </publicationStmt>
 
             <seriesStmt>
-                <title level="s" type="project" key="CARTOONS"/>
+                <title level="s" type="project" key="CARTOONS">Historic Images, New Technologies
+                    (HINT) Project</title>
             </seriesStmt>
 
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <repository key="ENT.000002473"/>
-                        <collection key="PG278"/>
+                        <repository key="ENT.000002473">Historical Society of
+                            Pennsylvania</repository>
+                        <collection key="PG278">Balch Broadsides: Satirical Cartoons</collection>
                         <idno type="citation">
                             <idno type="box">5</idno>
                             <idno type="folder">2</idno>
-                            </idno>
+                        </idno>
                     </msIdentifier>
                     <msContents>
                         <msItem>
                             <bibl>
-                                <date from="1883-12-19"
-                                    >December 19, 1883</date>
+                                <date from="1883-12-19">December 19, 1883</date>
                                 <extent>1 loose page</extent>
                                 <extent>
                                     <dimensions type="image" unit="cm">
@@ -94,19 +97,14 @@
                 <biblStruct>
                     <analytic>
                         <respStmt>
-                            <resp key="art">Artist</resp>
-                            <persName key="ENT.000003351"/>
+                            <resp key="art">artist</resp>
+                            <persName key="ENT.000003351">Gillam, Bernhard, 1856-1896</persName>
+                        </respStmt>
+                        <respStmt>
+                        <resp key="pbl">publisher</resp>
+                        <orgName key="ENT.000003163">Keppler &amp; Schwarzmann</orgName>
+                        </respStmt>
                             
-                        </respStmt>
-                        <respStmt>
-                            <resp key="trc">Transcribed by</resp>
-                            <persName key="ENT.000003544">Biunno, Diane</persName>
-                        </respStmt>
-                        
-                        <respStmt>
-                            <resp key="mrk">Encoded by</resp>
-                            <persName key="ENT.000003544">Biunno, Diane</persName>
-                        </respStmt>
                         <title type="main" level="a">A Tail They Can't Twist</title>
                     </analytic>
                     <monogr>
@@ -176,36 +174,45 @@
                 <catRef target="cartoons_taxonomies.xml#laws"/>
                 <catRef target="cartoons_taxonomies.xml#gilded"/>
                 <catRef target="cartoons_taxonomies.xml#international"/>
-            
+
             </textClass>
         </profileDesc>
 
         <revisionDesc>
+            <change who="DianeBiunno" when="2015-05-06">exported from CA and basic proofreading</change>
             <change who="DianeBiunno" when="2015-05-06">Encoded to basic level</change>
             <change who="RachelMoloshok" when="2015-01-07">Template file created</change>
         </revisionDesc>
     </teiHeader>
 
     <facsimile>
-        
-        <surface ulx="" uly="" lrx="" lry="">
-            
-            <graphic
-                url="FIL.000090678"/>
-            
-            <zone n="1" xml:id="Title" points=""/>
-            <zone n="2" xml:id="Notes" points=""/>
-            <zone n="3" xml:id="ODonnell" points=""/>
-            <zone n="4" xml:id="Men" points=""/>
+
+        <surface ulx="0" uly="0" lrx="100" lry="100">
+
+            <graphic url="FIL.000090678"/>
+
+            <zone n="1" xml:id="Title"
+                points="28.81,92.62 73.25,92.31 84.16,87.36 93.38,87.81 93.38,92.02 78.29,92.47 73.25,97.31 28.81,97.88"/>
+            <zone n="2" xml:id="Notes" points="6.74,2.81 94,3.15 92.73,9.32 7.7,8.46"/>
+            <zone n="3" xml:id="ODonnell" points="30.43,85.97 78.91,61.26 91.34,70.4 62.53,92.06"/>
+            <zone n="4" xml:id="Men"
+                points="7.94,37.46 13.09,33.95 12.23,29.71 17.56,27.31 16.53,25.46 27.34,16.42 32.66,22.88 27.68,27.49 30.09,32.11 35.41,24.36 43.48,32.47 39.53,47.6 31.8,51.84 22.53,66.05 17.38,75.83 7.77,76.2"
+            />
         </surface>
     </facsimile>
 
     <text>
-       
+
         <front>
             <div type="editorial_desc">
-                <p>In the image there a body of a man holding pistol is underneath the paws of a large lion representing Great Britain.  The man holds the label "Assassin O'Donnell."  There are crows and a gallow in the background.  William Robinson, Abram Hewitt, and Samuel Cox try to twist the lion's tail but are unable.  Robinson holds a newspaper with the inscription:  "the demands of 20,000,000 Irish-Americans."</p>
-                <p>In 1883 O'Donnell, who was found guilty for the murder of James Carey, was executed in London.</p>
+                <p>In the image there a body of a man holding pistol is underneath the paws of a
+                    large lion representing Great Britain. The man holds the label "Assassin
+                    O'Donnell." There are crows and a gallow in the background. William Robinson,
+                    Abram Hewitt, and Samuel Cox try to twist the lion's tail but are unable.
+                    Robinson holds a newspaper with the inscription: "the demands of 20,000,000
+                    Irish-Americans."</p>
+                <p>In 1883 O'Donnell, who was found guilty for the murder of James Carey, was
+                    executed in London.</p>
             </div>
         </front>
 
@@ -216,21 +223,22 @@
                 <p>THE LITTLE MEN AND THEIR LITTLE GRIP ON THE BRITISH LION.</p>
                 <p>GILLAM</p>
             </div>
-            
+
             <div type="image_transcription" facs="#Notes" n="2">
                 <head><supplied resp="editorial">Publication Information and Notes</supplied></head>
                 <p>PUBLISHED BY KEPPLER &amp; SCHWARZMANN.</p>
                 <p>NEW YORK TRADE MARK REGISTERED 1878</p>
-                <p>"ENTERED AT THE POST OFFICE AT NEW YORK, AND ADMITTED FOR TRANSMISSION THROUGH THE MAILS AT SECOND CLASS RATES."</p>
+                <p>"ENTERED AT THE POST OFFICE AT NEW YORK, AND ADMITTED FOR TRANSMISSION THROUGH
+                    THE MAILS AT SECOND CLASS RATES."</p>
                 <p>OFFICE NO. 21-23 WARREN ST.</p>
                 <p><add rendition="#handwritten">12-19-83</add></p>
             </div>
-            
+
             <div type="image_transcription" facs="#ODonnell" n="3">
                 <head><supplied resp="editorial">Man with Handgun</supplied></head>
                 <p>ASSASSIN O'DONNELL</p>
             </div>
-            
+
             <div type="image_transcription" facs="#Men" n="4">
                 <head><supplied resp="editorial">Men holding Lion's Tail</supplied></head>
                 <p>THE DEMANDS OF 20.000.000 IRISH-AMERICANS</p>
