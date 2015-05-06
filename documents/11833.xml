@@ -103,7 +103,9 @@
             <imprint>
               <pubPlace>San Francisco</pubPlace>
               <date from="1881-11-11">November 11, 1881</date>
+              <biblScope unit="volume">7</biblScope>
               <biblScope unit="issue">276</biblScope>
+              <biblScope unit="page">320</biblScope>
               <publisher>
                 <orgName key="ENT.000003554">E. C. MacFarlane &amp; Co.</orgName>
               </publisher>
