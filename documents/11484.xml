@@ -11,9 +11,8 @@
                 <title type="main">TEI transcription of Grand Calithumpian Serenade Tendered to the
                     Prohibition Party by the Convention of German Societies</title>
                 <respStmt>
-                    <resp key="art">Artist</resp>
-                    <persName key="ENT.000000383"
-                        >CJ Taylor</persName>
+                    <resp key="art">artist</resp>
+                    <persName key="ENT.000000383">Taylor, Charles Jay, 1855-1929</persName>
                 </respStmt>
                 <respStmt>
                     <resp key="trc">Transcribed by</resp>
@@ -24,7 +23,11 @@
                     <resp key="mrk">Encoded by</resp>
                     <persName key="ENT.000003544">Biunno, Diane</persName>
                 </respStmt>
-            </titleStmt>
+            <respStmt>
+          <resp key="pbl">publisher</resp>
+          <orgName key="ENT.000003163">Keppler &amp; Schwarzmann</orgName>
+        </respStmt>
+      </titleStmt>
 
             <editionStmt>
                 <p>First edition, <date when="2015">2015</date></p>
@@ -52,18 +55,19 @@
                         the intended use of reproductions must be made in writing to the Rights and
                         Reproductions Coordinator at rnr@hsp.org.</p>
                 </availability>
-                <date when="2015"/>
+                <date when="2015">2015</date>
             </publicationStmt>
 
             <seriesStmt>
-                <title level="s" type="project" key="CARTOONS"/>
+                <title level="s" type="project" key="CARTOONS">Historic Images, New Technologies (HINT)
+          Project</title>
             </seriesStmt>
 
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <repository key="ENT.000002473"/>
-                        <collection key="PG278"/>
+                        <repository key="ENT.000002473">Historical Society of Pennsylvania</repository>
+                        <collection key="PG278">Balch Broadsides: Satirical Cartoons</collection>
                         
                         <idno type="citation">
                             <idno type="box">5</idno>
@@ -83,11 +87,16 @@
                 <biblStruct>
                     <analytic>
                         <respStmt>
-                            <resp key="art">Artist</resp>
-                            <persName key="ENT.000000383"/>
+                            <resp key="art">artist</resp>
+                            <persName key="ENT.000000383">Taylor, Charles Jay, 1855-1929</persName>
                         </respStmt>
-                        <title type="main" level="a">Grand Calithumpian Serenade Tendered to the Prohibition Party by the Convention of German Societies</title>
-                    </analytic>
+                        <respStmt>
+              <resp key="pbl">publisher</resp>
+              <orgName key="ENT.000003163">Keppler &amp; Schwarzmann</orgName>
+            </respStmt>
+            <title type="main" level="a">Grand Calithumpian Serenade Tendered to the Prohibition Party by the Convention of German Societies</title>
+                    <date from="1887-10-12">October 12, 1887</date>
+          </analytic>
                     <monogr>
                         <title type="marc245a" level="j"><orgName key="ENT.000000384"
                             >Puck</orgName></title>
@@ -166,6 +175,7 @@
         </profileDesc>
 
         <revisionDesc>
+            <change who="DianeBiunno" when="2015-05-11">Exported from CA and basic proofreading</change>
             <change who="DianeBiunno" when="2015-05-11">Encoded to basic level</change>
             <change who="RachelMoloshok" when="2015-01-07">Template file created</change>
         </revisionDesc>
@@ -173,14 +183,14 @@
 
     <facsimile>
 
-        <surface ulx="" uly="" lrx="" lry="">
+        <surface ulx="0" uly="0" lrx="100" lry="100">
 
             <graphic
                 url="FIL.000085198"/>
-            <zone n="1" xml:id="Puck" points=""/>
-            <zone n="2" xml:id="Window" points=""/>
-            <zone n="3" xml:id="Taylor" points=""/>
-            <zone n="4" xml:id="Title" points=""/>
+            <zone n="1" xml:id="Puck" points="10.34,4.83 89.03,4.83 88.2,33.63 10.76,33.47"/>
+            <zone n="2" xml:id="Window" points="63.85,34.01 82.6,33.8 80.41,50.08 63.64,50.56"/>
+            <zone n="3" xml:id="Taylor" points="13.76,78.52 18.76,78.52 22.72,82.61 13.76,83.52"/>
+            <zone n="4" xml:id="Title" points="7.07,88.01 89.96,88.61 89.87,93.26 7.58,93.72"/>
         </surface>
     </facsimile>
 
@@ -213,7 +223,7 @@
                 <head><supplied resp="editorial">Title and Caption</supplied></head>
                 <p>Grand Calithumpian Serenade Tendered to the Prohibition Party by the Convention of German Societies.</p>
                 <p>AIR: <hi rendition="#italics">"Upidee."</hi> (vivace, con moto, sforzando.){The shades of night are falling fast, We're marching on you thick and fast; November 'll make you change your note Prohibish! Prohibish! Prohibish! Prohibish! Free beer and music gets our vote-Prohibish-i-bish!</p>
-                <p></p>
+                
             </div>
         </body>
 
