@@ -1,0 +1,299 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+    <teiHeader xml:lang="English">
+
+        <fileDesc>
+
+            <titleStmt>
+                <title type="main">TEI transcription of Ten Little Anarchists</title>
+
+                <respStmt>
+                    <resp key="art">Artist</resp>
+                    <persName key="ENT.000003616">Frederick Opper</persName>
+                </respStmt>
+                
+                <respStmt>
+                    <resp key="trc">Transcribed by</resp>
+                    <persName key="ENT.000003544">Biunno, Diane</persName>
+                </respStmt>
+                
+                <respStmt>
+                    <resp key="mrk">Encoded by</resp>
+                    <persName key="ENT.000003544">Biunno, Diane</persName>
+                </respStmt>
+
+            </titleStmt>
+
+            <editionStmt>
+                <p>First edition, <date when="2015">2015</date></p>
+            </editionStmt>
+
+            <publicationStmt>
+                <publisher>
+                    <orgName key="ENT.000002473">Historical Society of Pennsylvania</orgName>
+                </publisher>
+                <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
+                <idno type="filename"
+                    >11682</idno>
+                <availability status="restricted">
+                    <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of
+                        copyright only to original contributions made by the Historic Images, New
+                        Technologies (HINT) Project participants and other staff. HSP makes no claim
+                        of copyright to the original text. Permission is granted to download,
+                        transmit or otherwise reproduce, distribute or display the text
+                        contributions to this work claimed by HSP for non-profit educational
+                        purposes, provided that this header is included in its entirety. For
+                        inquiries about commercial uses, please contact the Historical Society of
+                        Pennsylvania. HSP retains the rights of all images unless otherwise noted.
+                        Possession of an HSP digital image does not constitute permission to use or
+                        publish it. Requests for digital imaging, other reproduction services, and
+                        the intended use of reproductions must be made in writing to the Rights and
+                        Reproductions Coordinator at rnr@hsp.org.</p>
+                </availability>
+                <date when="2015"/>
+            </publicationStmt>
+
+            <seriesStmt>
+                <title level="s" type="project" key="CARTOONS"/>
+            </seriesStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository key="ENT.000002473">Historical Society of
+                            Pennsylvania</repository>
+                        <collection key="3133">Historical Society of Pennsylvania cartoons and
+                            caricatures collection</collection>
+                        <idno type="citation">
+                            <idno type="box">12</idno>
+                            <idno type="folder">13</idno>
+                        </idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <bibl>
+                                <date from="1887-12-21"
+                                    >December 21, 1887</date>
+                                <extent>1 loose page</extent>
+                                <extent>
+                                    <dimensions type="image" unit="cm">
+                                        <height quantity="26"/>
+                                        <width quantity="33.5"/>
+                                    </dimensions>
+                                </extent>                      
+                            </bibl>
+                        </msItem>
+                    </msContents>
+
+                    <history>
+                        <acquisition>This is an artificial collection created over time by HSP staff
+                            mostly through donations and purchases of individual prints. It also
+                            incorporates previously uncataloged materials collected by the Balch
+                            Institute for Ethnic Studies. Some of the 20th century cartoons and
+                            drawings were removed from the J. Hampton Moore papers (Collection
+                            1541). </acquisition>
+                    </history>
+                </msDesc>
+                <biblStruct>
+                    <analytic>
+                        <respStmt>
+                            <resp key="art">Artist</resp>
+                            <persName key="ENT.000003616"/>
+                        </respStmt>
+                        
+                        <title type="main" level="a">Ten Little Anarchists</title>
+                    </analytic>
+                    <monogr>
+                        <title type="marc245a" level="j"><orgName key="ENT.000000384"
+                            >Puck</orgName></title>
+                        <imprint>
+                            <pubPlace>New York</pubPlace>
+                            <date from="1887-12-21"
+                                >December 21, 1887</date>
+                            <biblScope unit="volume">22</biblScope>
+                            <biblScope unit="issue">563</biblScope>
+                            
+                            <publisher>
+                                <orgName key="ENT.000003163">Keppler &amp; Schwarzmann</orgName>
+                            </publisher>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <projectDesc>
+                <p>The Historic Images, New Technologies (HINT) project aims to enhance description
+                    and discovery of the Historical Society of Pennsylvania's graphics materials and
+                    promote the linking and sharing of content among institutions and scholars. The
+                    project will result in an update to HSP's digital image viewer and an online
+                    digital history exhibit that will demonstrate the new viewer's capabilities and
+                    provide interpretive and contextual materials to encourage users to interact
+                    with historical images in new ways. This project was funded by a grant from the
+                    National Historical Publications and Records Commission's (NHPRC) Innovation in
+                    Archives and Documentary Editing program.</p>
+            </projectDesc>
+            <editorialDecl n="4">
+                <p>This electronic file was created using manual keying following the
+                    recommendations for Level 4 of "Best Practices for TEI in Libraries" guidelines
+                    v3.0.</p>
+                <p>This xml file uses unique entity identifiers, media file identifiers, and
+                    collection identifiers in HSP's Digital Library, available at
+                    http://digitallibrary.hsp.org.</p>
+
+            </editorialDecl>
+            <tagsDecl>
+                <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
+                <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
+                <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
+                <rendition scheme="css" xml:id="crossed-through">text-decoration:
+                    line-through</rendition>
+                <rendition scheme="other" xml:id="printed"/>
+                <rendition scheme="other" xml:id="typescript"/>
+                <rendition scheme="other" xml:id="handwritten"/>
+                <rendition scheme="other" xml:id="handwritten-underlined"/>
+                <rendition scheme="other" xml:id="handwritten-circled"/>
+                <rendition scheme="other" xml:id="handwritten-crossed-through"/>
+                <rendition scheme="other" xml:id="double-underline"/>
+                <rendition scheme="other" xml:id="stamp"/>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+        </encodingDesc>
+
+        <profileDesc>
+            <textClass>
+                <catRef target="cartoons_genres.xml#political_cartoons"/>
+                <catRef target="cartoons_genres.xml#chromolithographs"/>
+                <catRef target="cartoons_genres.xml#clippings"/>
+                <catRef target="cartoons_taxonomies.xml#gilded"/>
+                <catRef target="cartoons_taxonomies.xml#laws"/>
+                <catRef target="cartoons_taxonomies.xml#international"/>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change who="DianeBiunno" when="2015-05-11">Encoded to basic level</change>
+            <change who="RachelMoloshok" when="2015-01-07">Template file created</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <facsimile>
+        <surface ulx="" uly="" lrx="" lry="">
+            <graphic
+                url="FIL.000085725"/>
+            
+            <zone n="1" xml:id="Title" points=""/>
+            <zone n="2" xml:id="Puck" points=""/>
+            <zone n="3" xml:id="Ten" points=""/>
+            <zone n="4" xml:id="Nine" points=""/>
+            <zone n="5" xml:id="Eight" points=""/>
+            <zone n="6" xml:id="Seven" points=""/>
+            <zone n="7" xml:id="Six" points=""/>
+            <zone n="8" xml:id="Five" points=""/>
+            <zone n="9" xml:id="Four" points=""/>
+            <zone n="10" xml:id="Three" points=""/>
+            <zone n="11" xml:id="Two" points=""/>
+            <zone n="12" xml:id="One" points=""/>
+            
+        </surface>
+    </facsimile>
+
+    <text>
+        <front>
+            <div type="editorial_desc">
+                <p>In the political cartoon, ten little anarchists are killed, captured, jailed, or taken away one by one until none remain.  There is a handwritten note in the lower right corner of the image.</p>
+            </div>
+        </front>
+
+        <body>
+            <div type="image_transcription" facs="#Title" n="1">
+                <head><supplied resp="editorial">Title and Notes</supplied></head>
+                <p>TEN LITTLE ANARCHISTS.</p> <p><add rendition="#handwritten">Dec. 21, 1887</add></p>
+            </div>
+            
+            <div type="image_transcription" facs="#Puck" n="2">
+                <head><supplied resp="editorial">Magazine Title</supplied></head>
+                <p>PUCK.</p>
+            </div>
+            
+            <div type="image_transcription" facs="#Ten" n="3">
+                <head><supplied resp="editorial">Ten Anarchists</supplied></head>
+                <p><hi rendition="#bold">TEN</hi> little Anarchists, marching in a line, One dropped out, and then there were nine.</p>
+                <p>DOWN MIT DER CAPITALISTIC PRESS</p>
+                <p>WIR WOLLEN BLUT</p>
+                <p>SONS OF ANARCHY MEET HERE</p>
+                <p>BEER</p>
+            </div>
+            
+            <div type="image_transcription" facs="#Nine" n="4">
+                <head><supplied resp="editorial">Nine Anarchists</supplied></head>
+                <p><hi rendition="#bold">NINE</hi> little Anarchists, boiling o'er with hate, One tried to make a bomb, and then there were eight.</p>
+                <p>EDITORIAL ROOMS OF THE CAPITALISTEN KILLER</p>
+               
+            </div>
+            
+            <div type="image_transcription" facs="#Eight" n="5">
+                <head><supplied resp="editorial">Eight Anarchists</supplied></head>
+                <p><hi rendition="#bold">EIGHT</hi> little Anarchists, in a seventh heaven, One of them was "fired out," and then there were seven.</p>
+                <p>HOT FREE LUNCH TODAY</p>
+                <p>LAGER BIER</p>
+            </div>
+            
+            <div type="image_transcription" facs="#Seven" n="6">
+                <head><supplied resp="editorial">Seven Anarchists</supplied></head>
+                <p><hi rendition="#bold">SEVEN</hi> little Anarchists, in an awful fix, One was convicted, and then there were six.</p>
+            </div>
+            
+            <div type="image_transcription" facs="#Six" n="7">
+                <head><supplied resp="editorial">Six Anarchists</supplied></head>
+                <p>SIX little Anarchists, meeting in a dive, One talked himself to death, and then there were five.</p>
+                <p>NIEDER MIT DEM CAPITAL</p>
+                <p>DOWN WITH THE BEASTS OF LAW AND ORDER</p>
+                <p>HOCH DIE ANARCHIE</p> 
+                <p>SPEECH</p>
+            </div>
+            
+            <div type="image_transcription" facs="#Five" n="8">
+                <head><supplied resp="editorial">Five Anarchists</supplied></head>
+                <p><hi rendition="#bold">FIVE</hi> little Anarchists, hollering for gore, A small boy walloped one, and then there were four.</p>
+            </div>
+            
+            <div type="image_transcription" facs="#Four" n="9">
+                <head><supplied resp="editorial">Four Anarchists</supplied></head>
+                <p><hi rendition="#bold">FOUR</hi> little Anarchists, dirty as could be, One tried to wash himself, and then there were three</p>
+            </div>
+            
+            <div type="image_transcription" facs="#Three" n="10">
+                <head><supplied resp="editorial">Three Anarchists</supplied></head>
+                <p><hi rendition="#bold">THREE</hi> little Anarchists, visiting the Zoo, One of them was captured, and then there were two.</p>
+                <p>VISITORS MUST NOT ANNOY THE MONKEYS</p>
+                <p>MONKEYS</p>
+                <p>KESPER</p>
+                
+            </div>
+            
+            <div type="image_transcription" facs="#Two" n="11">
+                <head><supplied resp="editorial">Two Anarchists</supplied></head>
+                <p><hi rendition="#bold">TWO</hi> little Anarchists, loafing in the sun, A policeman strolled along that way, and then there was one.</p>
+                <p>LAGER BIER</p> 
+                <p>BALL BENEFIT HERR MOST</p>
+            </div>
+            
+            <div type="image_transcription" facs="#One" n="12">
+                <head><supplied resp="editorial">One Anarchist and Signature</supplied></head>
+                <p><hi rendition="#bold">ONE</hi> little Anarchist, brandishing a gun, His wife came and took him home, and then there were none.</p>
+                <p>F. Opper</p>
+            </div>
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>
