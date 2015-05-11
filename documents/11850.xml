@@ -176,7 +176,7 @@
       <graphic url="FIL.000089678"/>
       <zone n="1" xml:id="title" points="15.92,82.98 95.09,82.13 95.09,95.05 16.03,96.01"/>
       <zone n="2" xml:id="portrait" points="52.67,5.33 71.14,5.44 70.98,30.14 52.66,30.3"/>
-      <zone n="3" xml:id="initial" points="107.3,43.22 112.88,43.29 112.78,50 107.3,49.68"/>
+      <zone n="3" xml:id="initial" points="87.4,75.01 92.98,75.08 92.88,81.79 87.4,81.47"/>
       <zone n="4" xml:id="note" points="4.57,11.96 9.57,11.96 10.7,34.82 4.6,34.66"/>
     </surface>
   </facsimile>
