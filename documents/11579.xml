@@ -1,0 +1,340 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+
+    <teiHeader xml:lang="English">
+
+        <fileDesc>
+
+            <titleStmt>
+                <title type="main">TEI transcription of A Peep into the Antifederal Club</title>
+                <respStmt>
+                    <resp key="art">Artist</resp>
+                    <persName key="ENT.000000553"/>
+                </respStmt>
+                <respStmt>
+                    <resp key="trc">Transcribed by</resp>
+                    <persName key="ENT.000003368"/>
+                </respStmt>
+                <respStmt>
+                    <resp key="mrk">Encoded by</resp>
+                    <persName key="ENT.000003368"/>
+                </respStmt>
+
+            </titleStmt>
+
+            <editionStmt>
+                <p>First edition, <date when="2015">2015</date></p>
+            </editionStmt>
+
+            <publicationStmt>
+                <publisher><orgName key="ENT.000002473">Historical Society of
+                    Pennsylvania</orgName></publisher>
+                <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
+                <idno type="filename">11579</idno>
+                <availability status="restricted">
+                    <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of
+                        copyright only to original contributions made by the Historic Images, New
+                        Technologies (HINT) Project participants and other staff. HSP makes no claim
+                        of copyright to the original text. Permission is granted to download,
+                        transmit or otherwise reproduce, distribute or display the text
+                        contributions to this work claimed by HSP for non-profit educational
+                        purposes, provided that this header is included in its entirety. For
+                        inquiries about commercial uses, please contact the Historical Society of
+                        Pennsylvania. HSP retains the rights of all images unless otherwise noted.
+                        Possession of an HSP digital image does not constitute permission to use or
+                        publish it. Requests for digital imaging, other reproduction services, and
+                        the intended use of reproductions must be made in writing to the Rights and
+                        Reproductions Coordinator at rnr@hsp.org.</p>
+                </availability>
+                <date when="2015"/>
+            </publicationStmt>
+
+            <seriesStmt>
+                <title level="s" type="project" key="CARTOONS"/>
+            </seriesStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository key="ENT.000002473"/>
+                        <collection key="V65"/>
+                        <idno type="citation">Bc 612 P345</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <respStmt>
+                                <resp key="art">Artist</resp>
+                                <persName key="ENT.000000553"/>
+                            </respStmt>
+                            <title type="main" level="u">A Peep into the Antifederal Club</title>
+                            <bibl>
+                                <date from="1793-08-16">August 16, 1793</date>
+                                <extent>1 loose sheet</extent>
+                                <listRelation>
+                                    <relation name="depicted" active="ENT.000000045"/>
+                                    <!-- Jefferson -->
+                                    <relation name="depicted" active="ENT.000003731"/>
+                                    <!-- George Clinton -->
+                                    <relation name="depicted" active="ENT.000003732"/>
+                                    <!-- DeWitt Clinton -->
+                                    <relation name="depicted" active="ENT.000003733"/>
+                                    <!-- Commodore Nicholson -->
+                                    <relation name="depicted" active="ENT.000003734"/>
+                                    <!-- Citizen Genet -->
+                                    <relation name="depicted" active="ENT.000003735"/>
+                                    <!-- Hutchinson -->
+                                    <relation name="depicted" active="ENT.000002461"/>
+                                    <!-- Livingston -->
+                                    <relation name="depicted" active="cartoons_symbols.xml#devil"/>
+                                </listRelation>
+                            </bibl>
+                        </msItem>
+                    </msContents>
+
+                    <history>
+                        <acquisition/>
+                    </history>
+                </msDesc>
+
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <projectDesc>
+                <p>The Historic Images, New Technologies (HINT) project aims to enhance description
+                    and discovery of the Historical Society of Pennsylvania's graphics materials and
+                    promote the linking and sharing of content among institutions and scholars. The
+                    project will result in an update to HSP's digital image viewer and an online
+                    digital history exhibit that will demonstrate the new viewer's capabilities and
+                    provide interpretive and contextual materials to encourage users to interact
+                    with historical images in new ways. This project was funded by a grant from the
+                    National Historical Publications and Records Commission's (NHPRC) Innovation in
+                    Archives and Documentary Editing program.</p>
+            </projectDesc>
+            <editorialDecl n="4">
+                <p>This electronic file was created using manual keying following the
+                    recommendations for Level 4 of "Best Practices for TEI in Libraries" guidelines
+                    v3.0.</p>
+                <p>This xml file uses unique entity identifiers, media file identifiers, and
+                    collection identifiers in HSP's Digital Library, available at
+                    http://digitallibrary.hsp.org.</p>
+
+            </editorialDecl>
+            <tagsDecl>
+                <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
+                <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
+                <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
+                <rendition scheme="css" xml:id="crossed-through">text-decoration:
+                    line-through</rendition>
+                <rendition scheme="other" xml:id="printed"/>
+                <rendition scheme="other" xml:id="typescript"/>
+                <rendition scheme="other" xml:id="handwritten"/>
+                <rendition scheme="other" xml:id="handwritten-underlined"/>
+                <rendition scheme="other" xml:id="handwritten-circled"/>
+                <rendition scheme="other" xml:id="handwritten-crossed-through"/>
+                <rendition scheme="other" xml:id="double-underline"/>
+                <rendition scheme="other" xml:id="stamp"/>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+        </encodingDesc>
+
+        <profileDesc>
+            <textClass>
+                <catRef target="cartoons_genres.xml#etchings"/>
+                <catRef target="cartoons_genres.xml#engravings"/>
+                <catRef target="cartoons_genres.xml#political_cartoons"/>
+                <catRef target="cartoons_taxonomies.xml#early"/>
+                <catRef target="cartoons_taxonomies.xml#culture"/>
+                <catRef target="cartoons_taxonomies.xml#laws"/>
+                <catRef target="cartoons_taxonomies.xml#international"/>
+                <catRef target="cartoons_taxonomies.xml#stereotypes"/>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change who="RachelMoloshok" when="2015-05-12">Basic encoding</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <facsimile>
+        <surface ulx="" uly="" lrx="" lry="">
+            <graphic url="FIL.000085233"/>
+            <zone n="1" xml:id="title"/>
+            <zone n="2" xml:id="date"/>
+            <zone n="3" xml:id="price"/>
+            <zone n="4" xml:id="banner"/>
+            <zone n="5" xml:id="rittenhouse"/>
+            <zone n="6" xml:id="arms"/>
+            <zone n="7" xml:id="jefferson"/>
+            <zone n="8" xml:id="nicholson"/>
+            <zone n="9" xml:id="genet"/>
+            <zone n="10" xml:id="yesmen"/>
+            <zone n="11" xml:id="mungofriend"/>
+            <zone n="12" xml:id="mungo"/>
+            <zone n="13" xml:id="shirtman"/>
+            <zone n="14" xml:id="hutchinson"/>
+            <zone n="15" xml:id="devil"/>
+            <zone n="16" xml:id="box"/>
+            <zone n="17" xml:id="clinton"/>
+        </surface>
+    </facsimile>
+
+    <text>
+        <front>
+            <div type="editorial_desc">
+                <p>In this chaotic scene, prominent Anti-Federalists are mocked and caricatured as
+                    naive fools, as children playing with toys, as drunkards, as traitors, and as
+                    radicals. At the center of the scene a man several historians assume is Thomas
+                    Jefferson quotes Shakespeare; to his left is a drunken man with his shirt open
+                    and a gun in his waistband, cursing the government, and a fat man drinking wine
+                    who toasts "damnation to the federal government." The latter may be Dr. James
+                    Hutchinson, a prominent Pennsylvania Democrat. To Jefferson's right is a man
+                    wearing a naval hat and dark glasses, quoting "ca ira," a French revolutionary
+                    song, and, to his right, a well-dressed man who presents a "plan of an entire
+                    subversion of the government." They may be Commodore James Nicholson, a
+                    Revolutionary War naval hero, and Edmond-Charles Genet (Citizen Genet), French
+                    ambassador to the United States during the French Revolution. To his right, a
+                    white man asks a black man, whom he calls "Citizen Mungo," what he thinks.
+                    Citizen Mungo replies "our turn next." Below Jefferson, a man some assume to be
+                    either George or DeWitt Clinton, sits on the ground singing a song and holding a
+                    tiny man (or perhaps a doll) sitting in the palm of his hand. This tiny man may
+                    be Robert R. Livingston. At the left of the scene, Philadelphia astronomer and
+                    Anti-Federalist looks through a telescope and wishes "for such a government as
+                    they have in Saturn," while the devil sits on the ground next to a box labeled
+                    "sacred records," expressing satisfaction. At the top left corner of the scene,
+                    a banner proclaims the "Creed of the Democratic Club."</p>
+            </div>
+        </front>
+
+        <body>
+            <div type="image_transcription" n="1" facs="#title">
+                <head><supplied resp="editorial">Title</supplied></head>
+                <p>A Peep into the Antifederal Club</p>
+            </div>
+            <div type="image_transcription" n="2" facs="#date">
+                <head><supplied resp="editorial">Date</supplied></head>
+                <p>New York Aug 16 1793</p>
+            </div>
+            <div type="image_transcription" n="3" facs="#price">
+                <head><supplied resp="editorial">Price</supplied></head>
+                <p>Price one half dollar</p>
+            </div>
+            <div type="image_transcription" n="4" facs="#banner">
+                <head><supplied resp="editorial">Banner</supplied></head>
+                <p>Creed of the Democratic Club</p>
+                <p>1</p>
+                <p>The People are All and we are the People</p>
+                <p>2</p>
+                <p>All Power in one body and that Body Ourselves</p>
+                <p>3</p>
+                <p>Governments but another name for <sic>Arisstocracy</sic></p>
+                <p>4</p>
+                <p>Liberty is the Power of doing any thing we like</p>
+                <p>5</p>
+                <p>Laws are unwholesome restraints on Natural rights</p>
+                <p><unclear reason="crossed_out"><del>JW</del></unclear></p>
+                <p>6</p>
+                <p>All means Justifiable to a good End</p>
+                <p>7</p>
+                <p>This Society Up and all else Down</p>
+
+            </div>
+            <div type="image_transcription" n="5" facs="#rittenhouse">
+                <head><supplied resp="editorial">Man with telescope (David
+                    Rittenhouse)</supplied></head>
+                <p>Oh! for such a Government as <sic>the</sic> have in Saturn</p>
+            </div>
+            <div type="image_transcription" n="6" facs="#arms">
+                <head><supplied resp="editorial">Man raising arms</supplied></head>
+                <p>Oh! for the wreck of matter and the Crush of worlds</p>
+            </div>
+            <div type="image_transcription" n="7" facs="#jefferson">
+                <head><supplied resp="editorial">Thomas Jefferson?</supplied></head>
+                <p>To be or not to be, a Broker is the question whether tis nobler in the mind to
+                    knock down dry goods with this hammer: or with this head contrive some means of
+                    knocking down a Government and on its ruins raise myself to Eminence and
+                    Fortune, Glorious thought thus to Emerge from dirt to Gold</p>
+            </div>
+            <div type="image_transcription" n="8" facs="#nicholson">
+                <head><supplied resp="editorial">Commodore Nicholson? (holding
+                    book)</supplied></head>
+                <p>Ca ira</p>
+                <p>Strictures of the Executive</p>
+            </div>
+            <div type="image_transcription" n="9" facs="#genet">
+                <head><supplied resp="editorial">Citizen Genet? (holding plan)</supplied></head>
+                <p>Will you subscribe to this and Faithfully observe all the articles in our
+                    Creed</p>
+                <p>Plan of an Entire subversion of the <abbr>Governmt</abbr></p>
+            </div>
+            <div type="image_transcription" n="10" facs="#yesmen">
+                <head><supplied resp="editorial">Men answering Genet</supplied></head>
+                <p>Yes Damn me he'll subscribe to any thing. He has nothing to <sic>loose</sic></p>
+                <p>Yes</p>
+            </div>
+            <div type="image_transcription" n="11" facs="#mungofriend">
+                <head><supplied resp="editorial">Man addressing Citizen Mungo</supplied></head>
+                <p>Well Citizen Mungo what think you of all this</p>
+            </div>
+            <div type="image_transcription" n="12" facs="#mungo">
+                <head><supplied resp="editorial">Citizen Mungo</supplied></head>
+                <p>Tink! Fine ting Broder Cockra our turn nex</p>
+            </div>
+            <div type="image_transcription" n="13" facs="#shirtman">
+                <head><supplied resp="editorial">Man with open shirt</supplied></head>
+                <p>Damn Governments. I shall never be worth a dollar as long as theres any
+                    Government at all</p>
+            </div>
+            <div type="image_transcription" n="14" facs="#hutchinson">
+                <head><supplied resp="editorial">Fat man (James Hutchinson?)</supplied></head>
+                <p>Come here goes. Dam—ion to the Federal Government</p>
+            </div>
+            <div type="image_transcription" n="15" facs="#devil">
+                <head><supplied resp="editorial">Devil</supplied></head>
+                <p>I never knew an Institution Equal to this since the Creation. What a Pleasure it
+                    is to see ones work thrive so well—</p>
+            </div>
+            <div type="image_transcription" n="16" facs="#box">
+                <head><supplied resp="editorial">Box</supplied></head>
+                <p>Sacred records</p>
+            </div>
+            <div type="image_transcription" n="17" facs="#clinton">
+                <head><supplied resp="editorial">George or DeWitt Clinton (singing) and
+                        scroll</supplied></head>
+                <lg>
+                    <l>O my Jenny my Jenny</l>
+                    <l>and O my Jenny my deary</l>
+                    <l>such a sweet <unclear reason="handwriting">Bassy</unclear> as this</l>
+                    <l>is neither far nor neary</l>
+                    <l>If we can tickle the Lads</l>
+                    <l>and make em engage- -in the war ey</l>
+                    <l>Then it would see our frontires</l>
+                    <l>Burnt to a rag in a hurry</l>
+                    <l>There would be picking so nice</l>
+                    <l>that every dirty rascal</l>
+                    <l>might feather is nest in a brise</l>
+                    <l>(I don't mean you and P__e</l>
+                </lg>
+                <lg>
+                    <l>Then little <unclear reason="handwriting">bassy</unclear> might grow</l>
+                    <l>and flap flap flap his wingy</l>
+                    <l>and then the hard dollars would flow</l>
+                    <l>and make in his pocket a gingy</l>
+                    <l>Get a gone Proclamation</l>
+                    <l>heres a Child that dont fear ye</l>
+                    <l>Pittle a little my Jewel</l>
+                    <l>and *** my deary</l>
+                </lg>
+                <p>Politics a better trade than Law</p>
+            </div>
+        </body>
+
+        <back/>
+    </text>
+</TEI>
