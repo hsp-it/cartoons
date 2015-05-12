@@ -11,9 +11,8 @@
                 <title type="main"
                     >TEI transcription of A Terrific Feat</title>
                 <respStmt>
-                    <resp key="art">Artist</resp>
-                    <persName key="ENT.000003711"
-                        >Solly Walter</persName>
+                    <resp key="art">artist</resp>
+                    <persName key="ENT.000003711">Walter, Solly</persName>
                 </respStmt>
                
                 <respStmt>
@@ -26,20 +25,22 @@
                     <persName key="ENT.000003544">Biunno, Diane</persName>
                 </respStmt>
                 <respStmt>
-                    <resp key="ltg">Lithographer</resp>
+                    <resp key="ltg">lithographer</resp>
                     <orgName key="ENT.000003325">Schmidt Litho. Co.</orgName>
                 </respStmt>
 
-            </titleStmt>
+            <respStmt>
+          <resp key="pbl">publisher</resp>
+          <orgName key="ENT.000003554">E. C. MacFarlane &amp; Co.</orgName>
+        </respStmt>
+      </titleStmt>
 
             <editionStmt>
                 <p>First edition, <date when="2015">2015</date></p>
             </editionStmt>
 
             <publicationStmt>
-                <publisher>
-                    <orgName key="ENT.000002473">Historical Society of Pennsylvania</orgName>
-                </publisher>
+        <publisher><orgName key="ENT.000002473">Historical Society of Pennsylvania</orgName></publisher>
                 <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
                 <idno type="filename"
                     >11524</idno>
@@ -58,18 +59,18 @@
                         the intended use of reproductions must be made in writing to the Rights and
                         Reproductions Coordinator at rnr@hsp.org.</p>
                 </availability>
-                <date when="2015"/>
+                <date when="2015">2015</date>
             </publicationStmt>
 
             <seriesStmt>
-                <title level="s" type="project" key="CARTOONS"/>
+                <title level="s" type="project" key="CARTOONS">Historic Images, New Technologies (HINT) Project</title>
             </seriesStmt>
 
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <repository key="ENT.000002473"/>
-                        <collection key="PG278"/>
+                        <repository key="ENT.000002473">Historical Society of Pennsylvania</repository>
+                        <collection key="PG278">Balch Broadsides: Satirical Cartoons</collection>
                         <idno type="citation">
                             <idno type="box">5</idno>
                             <idno type="folder">2</idno>
@@ -96,35 +97,35 @@
                 <biblStruct>
                     <analytic>
                         <respStmt>
-                            <resp key="art">Artist</resp>
-                            <persName key="ENT.000003711"
-                                >Solly Walter</persName>
+                            <resp key="art">artist</resp>
+                            <persName key="ENT.000003711">Walter, Solly</persName>
                         </respStmt>
                         
                         <respStmt>
-                            <resp key="ltg">Lithographer</resp>
+                            <resp key="ltg">lithographer</resp>
                             <orgName key="ENT.000003325">Schmidt Litho. Co.</orgName>
                         </respStmt>
                        
-                        <title type="main" level="a">A Terrific Feat</title>
-                    </analytic>
+                        <respStmt>
+              <resp key="pbl">publisher</resp>
+              <orgName key="ENT.000003554">E. C. MacFarlane &amp; Co.</orgName>
+            </respStmt>
+            <title type="main" level="a">A Terrific Feat</title>
+                    <date from="1888-09-15">September 15, 1888</date>
+          </analytic>
                     <monogr>
-                        <title type="marc245a" level="j">
-                            <orgName key="ENT.000000382"
-                                >Wasp</orgName>
-                        </title>
-                        <imprint>
-                            <publisher>
-                                <orgName key="ENT.000003554"
-                                    >E.C. MacFarlane &amp; Co.</orgName>
-                            </publisher>
+                        <title type="marc245a" level="j"><orgName key="ENT.000000382">Wasp</orgName></title>
+            <imprint>
                             <pubPlace>San Francisco</pubPlace>
                             <date from="1888-09-15"
                                 >September 15, 1888</date>
                             <biblScope unit="volume">21</biblScope>
                             <biblScope unit="issue">633</biblScope>
                             <biblScope unit="page">8-9</biblScope>   
-                        </imprint>
+                        <publisher>
+                <orgName key="ENT.000003554">E. C. MacFarlane &amp; Co.</orgName>
+              </publisher>
+            </imprint>
                     </monogr>
                 </biblStruct>
 
@@ -186,6 +187,7 @@
         </profileDesc>
 
         <revisionDesc>
+            <change who="DianeBiunno" when="2015-05-12">Exported from CA and basic proofreading</change>
             <change who="DianeBiunno" when="2015-05-12">Encoded to basic level</change>
             <change who="RachelMoloshok" when="2015-01-07">Template file created</change>
         </revisionDesc>
@@ -193,20 +195,20 @@
 
     <facsimile>
       
-        <surface ulx="" uly="" lrx="" lry="">
+        <surface ulx="0" uly="0" lrx="100" lry="100">
            
             <graphic
                 url="FIL.000085211"/>
             
-            <zone n="1" xml:id="Wasp" points=""/>
-            <zone n="2" xml:id="Donkey" points=""/>
-            <zone n="3" xml:id="Thurman" points=""/>
-            <zone n="4" xml:id="Hoop1" points=""/>
-            <zone n="5" xml:id="Grover" points=""/>
-            <zone n="6" xml:id="Bull" points=""/>
-            <zone n="7" xml:id="Hoop2" points=""/>
-            <zone n="8" xml:id="Signature" points=""/>
-            <zone n="9" xml:id="Title" points=""/>
+            <zone n="1" xml:id="Wasp" points="45.94,3.88 53.07,3.89 53.07,9.17 45.94,8.88"/>
+            <zone n="2" xml:id="Donkey" points="74.28,33.28 76,31.52 79.43,36.45 79.8,32.4 82.62,32.57 83.48,37.33 87.03,40.32 88.87,47.54 88.75,55.63 86.79,64.26 83.36,54.4 76.86,41.9"/>
+            <zone n="3" xml:id="Thurman" points="58.09,30.81 66.92,37.68 71.09,33.1 74.28,35.92 76.98,38.38 76.61,42.43 82.74,52.64 82.87,57.57 92.8,71.12 88.75,75.87 90.22,85.38 78.57,83.27 64.1,84.15 70.6,65.31 63.73,66.9 62.51,57.74 66.19,46.83"/>
+            <zone n="4" xml:id="Hoop1" points="47.55,67.95 48.65,35.39 53.07,29.05 57.36,29.23 62.14,35.74 65.45,49.12 64.1,68.83 60.91,80.98 55.03,83.09 50.12,78.34"/>
+            <zone n="5" xml:id="Grover" points="35.53,27.12 40.31,24.83 48.77,27.47 44.85,35.22 48.9,35.39 57.36,42.08 51.35,53.52 65.7,74.11 44.85,62.85 36.14,79.22 31.73,84.15 27.31,81.68 32.1,74.82 36.14,62.14 33.81,51.06 28.54,56.34 24.49,50.88 33.69,38.03"/>
+            <zone n="6" xml:id="Bull" points="15.3,33.1 19.34,29.93 22.41,31.87 23.39,36.98 28.66,39.26 27.19,54.93 26.7,64.43 30.5,74.64 24.98,74.11 19.83,63.9 17.5,70.77 14.8,74.64 10.51,75.7 13.95,61.44 8.43,53.87 10.51,48.94 13.21,39.44 15.42,37.5"/>
+            <zone n="7" xml:id="Hoop2" points="29.2,61.56 35.53,60.03 48.28,62.14 47.67,68.83 33.08,69.36 27.44,64.96"/>
+            <zone n="8" xml:id="Signature" points="7.66,84.12 12.66,84.12 12.66,89.12 7.66,89.12"/>
+            <zone n="9" xml:id="Title" points="44.95,88.99 92.55,88.37 92.68,93.47 44.95,93.99"/>
            
            
         </surface>
@@ -221,48 +223,48 @@
         </front>
 
         <body>
-            <div type="image_transcription" facs="#Wasp" n="1">
+            <div type="image_transcription" n="1" facs="#Wasp">
                 <head><supplied resp="editorial">Magazine Title</supplied></head>
                 <p>THE WASP</p>
             </div>
             
-            <div type="image_transcription" facs="#Donkey" n="2">
+            <div type="image_transcription" n="2" facs="#Donkey">
                 <head><supplied resp="editorial">Blindfolded Donkey</supplied></head>
                 <p>D.P</p>
             </div>
             
-            <div type="image_transcription" facs="#Thurman" n="3">
+            <div type="image_transcription" n="3" facs="#Thurman">
                 <head><supplied resp="editorial">Knight</supplied></head>
                 <p>THURMAN</p>
             </div>
             
-            <div type="image_transcription" facs="#Hoop1" n="4">
+            <div type="image_transcription" n="4" facs="#Hoop1">
                 <head><supplied resp="editorial">Hoop 1</supplied></head>
                 <p>LETTER OF ACCEPTANCE ANTI CHINESE BILL</p>
             </div>
             
-            <div type="image_transcription" facs="#Grover" n="5">
+            <div type="image_transcription" n="5" facs="#Grover">
                 <head><supplied resp="editorial">Grover Cleveland</supplied></head>
                 <p>CLEVELAND</p>
                 <p>FREE TRADE</p>
             </div>
             
-            <div type="image_transcription" facs="#Bull" n="6">
+            <div type="image_transcription" n="6" facs="#Bull">
                 <head><supplied resp="editorial">Ringmaster</supplied></head>
                 <p>JOHN BULL</p>
             </div>
             
-            <div type="image_transcription" facs="#Hoop2" n="7">
+            <div type="image_transcription" n="7" facs="#Hoop2">
                 <head><supplied resp="editorial">Hoop 2</supplied></head>
                 <p>RETALIATION</p>
             </div>
             
-            <div type="image_transcription" facs="#Signature" n="8">
+            <div type="image_transcription" n="8" facs="#Signature">
                 <head><supplied resp="editorial">Artist Signature</supplied></head>
                 <p>WALTER.</p>
             </div>
             
-            <div type="image_transcription" facs="#Title" n="9">
+            <div type="image_transcription" n="9" facs="#Title">
                 <head><supplied resp="editorial">Title and Lithographer</supplied></head>
                 <p>A TERRIC FEAT.</p>
                 <p>SCHMIDT LABEL &amp; LITH. CO. S.F.</p>
