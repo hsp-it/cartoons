@@ -1,0 +1,273 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+    <teiHeader xml:lang="English">
+
+        <fileDesc>
+
+            <titleStmt>
+                <title type="main"
+                    >TEI transcription of The Poverty Problem Solved</title>
+                <respStmt>
+                    <resp key="art">artist</resp>
+                    <persName key="ENT.000000379">Keppler, Joseph Ferdinand, 1838-1894</persName>
+                </respStmt>
+                
+                <respStmt>
+                    <resp key="trc">Transcribed by</resp>
+                    <persName key="ENT.000003544">Biunno, Diane</persName>
+                </respStmt>
+                
+                <respStmt>
+                    <resp key="mrk">Encoded by</resp>
+                    <persName key="ENT.000003544">Biunno, Diane</persName>
+                </respStmt>
+                
+                <respStmt>
+                    <resp key="ltg">lithographer</resp>
+                    <orgName key="ENT.000003611">J. Ottman Lithographic Company</orgName>
+                </respStmt>
+            </titleStmt>
+
+            <editionStmt>
+                <p>First edition, <date when="2015">2015</date></p>
+            </editionStmt>
+
+            <publicationStmt>
+                <publisher><orgName key="ENT.000002473">Historical Society of
+                    Pennsylvania</orgName></publisher>
+                <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
+                <idno type="filename"
+                    >12370</idno>
+                <availability status="restricted">
+                    <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of
+                        copyright only to original contributions made by the Historic Images, New
+                        Technologies (HINT) Project participants and other staff. HSP makes no claim
+                        of copyright to the original text. Permission is granted to download,
+                        transmit or otherwise reproduce, distribute or display the text
+                        contributions to this work claimed by HSP for non-profit educational
+                        purposes, provided that this header is included in its entirety. For
+                        inquiries about commercial uses, please contact the Historical Society of
+                        Pennsylvania. HSP retains the rights of all images unless otherwise noted.
+                        Possession of an HSP digital image does not constitute permission to use or
+                        publish it. Requests for digital imaging, other reproduction services, and
+                        the intended use of reproductions must be made in writing to the Rights and
+                        Reproductions Coordinator at rnr@hsp.org.</p>
+                </availability>
+                <date when="2015"/>
+            </publicationStmt>
+
+            <seriesStmt>
+                <title level="s" type="project" key="CARTOONS"/>
+            </seriesStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository key="ENT.000002473"/>
+                        <collection key="3213"/>
+                  
+                        <idno type="citation"
+                            >NB  1 75-370</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <bibl>
+                                <date from="1887-05-18"
+                                    >May 18, 1887</date>
+                                <extent>1 loose page</extent>
+                               
+                                
+                                <listRelation>
+                                    <relation name="depicted" active="ENT.000003722"/>
+                                    <relation name="depicted" active="ENT.000003723"/> 
+                                    <relation name="depicted" active="ENT.000003559"/>
+                                </listRelation>
+                            </bibl>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+                <biblStruct>
+                    <analytic>
+                        <respStmt>
+                            <resp key="art">artist</resp>
+                            <persName key="ENT.000000379">Keppler, Joseph Ferdinand, 1838-1894</persName>
+                        </respStmt>
+                        
+                        <respStmt>
+                            <resp key="ltg">lithographer</resp>
+                            <orgName key="ENT.000003611">J. Ottman Lithographic Company</orgName>
+                        </respStmt>
+                        <title type="main" level="a">The Poverty Problem Solved</title>
+                    </analytic>
+                    <monogr>
+                        <title type="marc245a" level="j"><orgName key="ENT.000000384"
+                            >Puck</orgName></title>
+                        <imprint>
+                            <pubPlace>New York</pubPlace>
+                            <date from="1887-05-18"
+                                >May 18, 1887</date>
+                            <biblScope unit="volume">21</biblScope>
+                            <biblScope unit="issue">532</biblScope>
+                            
+                            <publisher>
+                                <orgName key="ENT.000003163">Keppler &amp; Schwarzmann</orgName>
+                            </publisher>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <projectDesc>
+                <p>The Historic Images, New Technologies (HINT) project aims to enhance description
+                    and discovery of the Historical Society of Pennsylvania's graphics materials and
+                    promote the linking and sharing of content among institutions and scholars. The
+                    project will result in an update to HSP's digital image viewer and an online
+                    digital history exhibit that will demonstrate the new viewer's capabilities and
+                    provide interpretive and contextual materials to encourage users to interact
+                    with historical images in new ways. This project was funded by a grant from the
+                    National Historical Publications and Records Commission's (NHPRC) Innovation in
+                    Archives and Documentary Editing program.</p>
+            </projectDesc>
+            <editorialDecl n="4">
+          
+                <p>This electronic file was created using manual keying following the
+                    recommendations for Level 4 of "Best Practices for TEI in Libraries" guidelines
+                    v3.0.</p>
+                <p>This xml file uses unique entity identifiers, media file identifiers, and
+                    collection identifiers in HSP's Digital Library, available at
+                    http://digitallibrary.hsp.org.</p>
+
+            </editorialDecl>
+            <tagsDecl>
+                <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
+                <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
+                <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
+                <rendition scheme="css" xml:id="crossed-through">text-decoration:
+                    line-through</rendition>
+                <rendition scheme="other" xml:id="printed"/>
+                <rendition scheme="other" xml:id="typescript"/>
+                <rendition scheme="other" xml:id="handwritten"/>
+                <rendition scheme="other" xml:id="handwritten-underlined"/>
+                <rendition scheme="other" xml:id="handwritten-circled"/>
+                <rendition scheme="other" xml:id="handwritten-crossed-through"/>
+                <rendition scheme="other" xml:id="double-underline"/>
+                <rendition scheme="other" xml:id="stamp"/>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+        </encodingDesc>
+
+        <profileDesc>
+            <textClass>
+                <catRef target="cartoons_genres.xml#political_cartoons"/>
+                <catRef target="cartoons_genres.xml#chromolithographs"/>
+                <catRef target="cartoons_genres.xml#clippings"/>
+                <catRef target="cartoons_taxonomies.xml#gilded"/>
+                <catRef target="cartoons_taxonomies.xml#laws"/>
+                <catRef target="cartoons_taxonomies.xml#religion"/>
+                <catRef target="cartoons_taxonomies.xml#econ"/>
+                <catRef target="cartoons_taxonomies.xml#immigration"/>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change who="DianeBiunno" when="2015-05-12">Encoded to basic level</change>
+            <change who="RachelMoloshok" when="2015-01-07">Template file created</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <facsimile>
+       
+        <surface ulx="" uly="" lrx="" lry="">
+           
+            <graphic
+                url="FIL.000093177"/>
+           
+            <zone n="1" xml:id="Title" points=""/>
+            <zone n="2" xml:id="Box" points=""/>
+            <zone n="3" xml:id="Poster" points=""/>
+            <zone n="4" xml:id="Poster2" points=""/>
+            <zone n="5" xml:id="George" points=""/>
+            <zone n="6" xml:id="Organ" points=""/>
+            <zone n="7" xml:id="Poor" points=""/>
+            <zone n="8" xml:id="Puck" points=""/>
+        </surface>
+    </facsimile>
+
+    <text>
+        
+        <front>
+            <div type="editorial_desc">
+                <p>The image depicts Henry George and Reverend Edward McGlynn advertising for the "Anti-Poverty Society Show."  Henry George plays a "theories" trombone while McGlynn stands with his left arm pointing upwards.  A collection box on a small table stands between the two men.  Below the box are posters, flyers, and a book.  The building behind the two men is filled with Anti-Poverty Society Show posters, as well as images of the poor of Europe migrating to America.  There is also an image labeled "The Only Poor Men of the Future" which depicts Jay Gould as a pauper.</p>
+            </div>
+        </front>
+
+        <body>
+            <div type="image_transcription" facs="#Title" n="1">
+                <head><supplied resp="editorial">Title, Signature, and Notes</supplied></head>
+                <p><hi rendition="#bold">THE POVERTY PROBLEM SOLVED.</hi> George &amp; McGlynn's Great Millennial Show-They will Promise Anyting and Everything for One Dollar.</p>
+                <p><hi rendition="#underline">J.KEPPLER</hi></p>
+                <p><add rendition="#handwritten">May 18, 1887</add></p>
+            </div>
+            
+            <div type="image_transcription" facs="#Box" n="2">
+                <head><supplied resp="editorial">Money Box, Posters, and Book</supplied></head>
+                <p>ADMISSION 1.00 DOLLAR. $ 1</p>
+                <p>PEVERTY ABOLISHED! NO MORE EARTHQUAKES! The Survival of the Unfittest! HUMAN NATURE SUPPRESSED! The Universe Made Over on the George Plan!</p>
+                <p>FORTUNES GUARANTEED $ 1.00 Admission $1.00</p>
+                <p>FORTUNES GUARANTEED $ 1.00</p>
+                <p>$1.00</p>
+                <p>READ THE <hi rendition="#bold">"LEADER"</hi> or be considered a <hi rendition="#bold">Scab</hi>!</p>
+                <p>PROGRESS AND POVERTY</p>
+            </div>
+            
+            <div type="image_transcription" facs="#Poster" n="3">
+                <head><supplied resp="editorial">Poster 1</supplied></head>
+                <p>NLY</p>
+                <p>NTI</p>
+                <p>RTY</p>
+                <p>ETY</p>
+                <p>1.00</p>
+            </div>
+            
+            <div type="image_transcription" facs="#Poster2" n="4">
+                <head><supplied resp="editorial">Poster 2</supplied></head>
+                <p>THE <hi rendition="#underline">ANTI-POVERTY-SOCIETY</hi> SHOW H. GEORGE REV. McGLYNN <hi rendition="#underline">MANAGERS</hi></p>
+            </div>
+            
+            <div type="image_transcription" facs="#George" n="5">
+                <head><supplied resp="editorial">Henry George's Book and Trombone</supplied></head>
+                <p>PROGRESS</p> <p>THEORIES</p>
+            </div>
+            
+            <div type="image_transcription" facs="#Organ" n="6">
+                <head><supplied resp="editorial">Organ-Grinder</supplied></head>
+                <p>The Organ-Grinder of the Future</p>
+            </div>
+            
+            <div type="image_transcription" facs="#Poor" n="7">
+                <head><supplied resp="editorial">The Poor</supplied></head>
+                <p>Appearance of the Atlantic-The Poor of Europe Migrating to America.</p>
+                <p>SAGE</p>
+                <p>FIELD</p>
+                <p>GOULD</p>
+                <p>PAUPER'S REFUGE.</p>
+                <p>The Only Poor Men of the Future.</p>
+            </div>
+            
+            <div type="image_transcription" facs="#Puck" n="8">
+                <head><supplied resp="editorial">Magazine Title</supplied></head>
+                <p>PUCK.</p>
+            </div>
+        </body>
+
+        <back/>
+    </text>
+</TEI>
