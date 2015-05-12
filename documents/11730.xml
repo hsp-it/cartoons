@@ -1,0 +1,259 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+
+    <teiHeader xml:lang="English">
+
+        <fileDesc>
+
+            <titleStmt>
+                <title type="main">TEI transcription of Liberty, the Fair Maid of Kansas--in the
+                    Hands of the "Border Ruffians."</title>
+                <respStmt>
+                    <resp key="art">Artist</resp>
+                    <persName key="ENT.000001003">Magee, John L.</persName>
+                </respStmt>
+                <respStmt>
+                    <resp key="trc">Transcribed by</resp>
+                    <persName key="ENT.000003368"/>
+                </respStmt>
+                <respStmt>
+                    <resp key="mrk">Encoded by</resp>
+                    <persName key="ENT.000003368"/>
+                </respStmt>
+
+            </titleStmt>
+
+            <editionStmt>
+                <p>First edition, <date when="2015">2015</date></p>
+            </editionStmt>
+
+            <publicationStmt>
+                <publisher><orgName key="ENT.000002473">Historical Society of
+                    Pennsylvania</orgName></publisher>
+                <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
+                <idno type="filename">11730</idno>
+                <availability status="restricted">
+                    <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of
+                        copyright only to original contributions made by the Historic Images, New
+                        Technologies (HINT) Project participants and other staff. HSP makes no claim
+                        of copyright to the original text. Permission is granted to download,
+                        transmit or otherwise reproduce, distribute or display the text
+                        contributions to this work claimed by HSP for non-profit educational
+                        purposes, provided that this header is included in its entirety. For
+                        inquiries about commercial uses, please contact the Historical Society of
+                        Pennsylvania. HSP retains the rights of all images unless otherwise noted.
+                        Possession of an HSP digital image does not constitute permission to use or
+                        publish it. Requests for digital imaging, other reproduction services, and
+                        the intended use of reproductions must be made in writing to the Rights and
+                        Reproductions Coordinator at rnr@hsp.org.</p>
+                </availability>
+                <date when="2015"/>
+            </publicationStmt>
+
+            <seriesStmt>
+                <title level="s" type="project" key="CARTOONS"/>
+            </seriesStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository key="ENT.000002473"/>
+                        <collection key="V65"/>
+                        <idno type="citation">Bc 612 Lf 15</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <bibl>
+                                <date from="1856-01-01" to="1856-12-31">1856</date>
+                                <extent>1 loose sheet</extent>
+                                <listRelation>
+                                    <relation name="depicted" active="cartoons_symbols.xml#columbia"/>
+                                    <relation name="depicted" active="ENT.000003720"/>
+                                    <!-- Pierce -->
+                                    <relation name="depicted" active="ENT.000000910"/>
+                                    <!-- Cass -->
+                                    <relation name="depicted" active="ENT.000003344"/>
+                                    <!-- Douglas -->
+                                    <relation name="depicted" active="ENT.000001011"/>
+                                    <!-- Buchanan -->
+                                    <relation name="depicted" active="ENT.000003721"/>
+                                    <!-- Marcy -->
+                                </listRelation>
+                            </bibl>
+                        </msItem>
+                    </msContents>
+
+                    <history>
+                        <acquisition/>
+                    </history>
+                </msDesc>
+                <biblStruct>
+                    <monogr>
+                        <respStmt>
+                            <resp key="art">Artist</resp>
+                            <persName key="ENT.000001003">Magee, John L.</persName>
+                        </respStmt>
+                        <title type="main" level="m">Liberty, the Fair Maid of Kansas--in the Hands
+                            of the "Border Ruffians."</title>
+                        <imprint>
+                            <publisher><persName key="ENT.000001003">Magee, John
+                                L.</persName></publisher>
+                            <pubPlace>Philadelphia</pubPlace>
+                            <date from="1856-01-01" to="1856-12-31">1856</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <projectDesc>
+                <p>The Historic Images, New Technologies (HINT) project aims to enhance description
+                    and discovery of the Historical Society of Pennsylvania's graphics materials and
+                    promote the linking and sharing of content among institutions and scholars. The
+                    project will result in an update to HSP's digital image viewer and an online
+                    digital history exhibit that will demonstrate the new viewer's capabilities and
+                    provide interpretive and contextual materials to encourage users to interact
+                    with historical images in new ways. This project was funded by a grant from the
+                    National Historical Publications and Records Commission's (NHPRC) Innovation in
+                    Archives and Documentary Editing program.</p>
+            </projectDesc>
+            <editorialDecl n="4">
+                <p>This electronic file was created using manual keying following the
+                    recommendations for Level 4 of "Best Practices for TEI in Libraries" guidelines
+                    v3.0.</p>
+                <p>This xml file uses unique entity identifiers, media file identifiers, and
+                    collection identifiers in HSP's Digital Library, available at
+                    http://digitallibrary.hsp.org.</p>
+
+            </editorialDecl>
+            <tagsDecl>
+                <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
+                <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
+                <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
+                <rendition scheme="css" xml:id="crossed-through">text-decoration:
+                    line-through</rendition>
+                <rendition scheme="other" xml:id="printed"/>
+                <rendition scheme="other" xml:id="typescript"/>
+                <rendition scheme="other" xml:id="handwritten"/>
+                <rendition scheme="other" xml:id="handwritten-underlined"/>
+                <rendition scheme="other" xml:id="handwritten-circled"/>
+                <rendition scheme="other" xml:id="handwritten-crossed-through"/>
+                <rendition scheme="other" xml:id="double-underline"/>
+                <rendition scheme="other" xml:id="stamp"/>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+        </encodingDesc>
+
+        <profileDesc>
+            <textClass>
+                <catRef target="cartoons_genres.xml#lithographs"/>
+                <catRef target="cartoons_genres.xml#political_cartoons"/>
+                <catRef target="cartoons_taxonomies.xml#early"/>
+                <catRef target="cartoons_taxonomies.xml#slavery"/>
+                <catRef target="cartoons_taxonomies.xml#war"/>
+                <catRef target="cartoons_taxonomies.xml#elections"/>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+
+            <change who="RachelMoloshok" when="2015-05-11">Basic encoding</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <facsimile>
+        <surface ulx="" uly="" lrx="" lry="">
+            <graphic url="FIL.000089141"/>
+            <zone n="1" xml:id="title"/>
+            <zone n="2" xml:id="woman"/>
+            <zone n="3" xml:id="ruffian"/>
+            <zone n="4" xml:id="buchanan"/>
+            <zone n="5" xml:id="marcy"/>
+            <zone n="6" xml:id="pierce"/>
+            <zone n="7" xml:id="columbia"/>
+            <zone n="8" xml:id="cass"/>
+            <zone n="9" xml:id="douglas"/>
+        </surface>
+    </facsimile>
+
+    <text>
+        <front>
+            <div type="editorial_desc">
+                <p>In the foreground of this image, Franklin Pierce, Lewis Cass, James Buchanan,
+                    William Marcy, and Stephen Douglas, drawn as "border ruffians" of the Kansas
+                    territory, menace Columbia, the female personification of liberty. Following the
+                    1854 Kansas-Nebraska Act, which allowed the inhabitants of the new US
+                    territories to decide via popular sovereignty whether or not slavery would be
+                    permitted, violence broke out between pro- and antislavery settlers. Pierce,
+                    Cass, Buchanan, and Marcy supported this legislation and are here depicted as
+                    violent pro-slavery invaders. At the center of the image, Columbia, wearing a
+                    liberty cap and draped in an American flag, kneels on the ground and extends her
+                    arms to appeal for mercy. Pierce, leaning on a rifle with one foot on the flag,
+                    looks down at her and laughs. To her right, Cass also laughs and licks his lips.
+                    To his right, a bearded Stephen Douglas kneels over the body of a man he has
+                    just finished scalping and holds the scalp aloft. To Pierce's left, James
+                    Buchanan and William Marcy (wearing a "50 cents" patch on the seat of his pants)
+                    rob the body of another man, holding up a ring and a pocket watch. The five men
+                    are armed with rifles, swords, knives, and tomahawks, and have scalps hanging
+                    from their belts. In the background are further scenes of massacre, as men with
+                    guns chase down fleeing men and women. In the far left background, a woman
+                    stands in front of a burning house and begs one of her attackers, who she
+                    mistakes for her husband, to come with her.</p>
+            </div>
+        </front>
+
+        <body>
+            <div type="image_transcription" n="1" facs="#title">
+                <head><supplied resp="editorial">Title</supplied></head>
+                <p>LIBERTY, THE FAIR MAID OF KANSAS_ IN THE HANDS OF THE "BORDER RUFFIANS".</p>
+            </div>
+            <div type="image_transcription" n="2" facs="#woman">
+                <head><supplied resp="editorial">Woman</supplied></head>
+                <p>Come husband let us go to heaven where our poor Children are.</p>
+            </div>
+            <div type="image_transcription" n="3" facs="#ruffian">
+                <head><supplied resp="editorial">Border ruffian</supplied></head>
+                <p>Ho! ho! She thinks I'm her husband, we Scalped the Cus and she like a D_m fool
+                    went Crazy on it, and now she wants me to go to heaven with her, ha! ha! ha!</p>
+            </div>
+            <div type="image_transcription" n="4" facs="#buchanan">
+                <head>BUCHANAN</head>
+                <p>T'was your's once but its mine now, "Might Makes Right", dont it.</p>
+            </div>
+            <div type="image_transcription" n="5" facs="#marcy">
+                <head>MARCY</head>
+                <p>50 cts</p>
+            </div>
+            <div type="image_transcription" n="6" facs="#pierce">
+                <head><sic>PEIRCE</sic></head>
+                <p>You may bet her life on that, ole Puddin head. Come Sis_sy, you go along wid me,
+                    I'le take Good care of <hi rendition="#underline">you</hi> (hic), <hi
+                        rendition="#underline">over</hi>
+                    <hi rendition="#underline">the</hi>
+                    <hi rendition="#underline">left</hi>.</p>
+            </div>
+            <div type="image_transcription" n="7" facs="#columbia">
+                <head><supplied resp="editorial">Columbia</supplied></head>
+                <p>O SPARE ME GENTLEMEN; SPARE ME !!</p>
+            </div>
+            <div type="image_transcription" n="8" facs="#cass">
+                <head>CASS</head>
+                <p>Poor little Dear, We would'nt hurt her for the world, would we Frank? ha! ha! ha!
+                    he! he! he! ho! ho! ho!</p>
+            </div>
+            <div type="image_transcription" n="9" facs="#douglas">
+                <head>DOUGLAS</head>
+                <p>Hurrah for our side! Victory! Victory! "WE WILL SUBDUE THEM YET"</p>
+            </div>
+        </body>
+
+        <back/>
+    </text>
+</TEI>
