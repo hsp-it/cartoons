@@ -1,291 +1,282 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 
 <?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-
-
-    <teiHeader xml:lang="English">
-
-        <fileDesc>
-
-            <titleStmt>
-                <title type="main">TEI transcription of A Case of Infectious Fever</title>
-                <respStmt>
-                    <resp key="art">Artist</resp>
-                    <persName key="ENT.000000553">Unknown artist</persName>
-                </respStmt>
-                <respStmt>
-                    <resp key="clr">Colorist</resp>
-                    <persName key="ENT.000003387">Unknown</persName>
-                </respStmt>
-                <respStmt>
-                    <resp key="trc">Transcribed by</resp>
-                    <persName key="ENT.000003368"/>
-                </respStmt>
-                <respStmt>
-                    <resp key="mrk">Encoded by</resp>
-                    <persName key="ENT.000003368"/>
-                </respStmt>
-
-            </titleStmt>
-
-            <editionStmt>
-                <p>First edition, <date when="2015">2015</date></p>
-            </editionStmt>
-
-            <publicationStmt>
-                <publisher><orgName key="ENT.000002473">Historical Society of
-                    Pennsylvania</orgName></publisher>
-                <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
-                <idno type="filename">11824</idno>
-                <availability status="restricted">
-                    <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of
-                        copyright only to original contributions made by the Historic Images, New
-                        Technologies (HINT) Project participants and other staff. HSP makes no claim
-                        of copyright to the original text. Permission is granted to download,
-                        transmit or otherwise reproduce, distribute or display the text
-                        contributions to this work claimed by HSP for non-profit educational
-                        purposes, provided that this header is included in its entirety. For
-                        inquiries about commercial uses, please contact the Historical Society of
-                        Pennsylvania. HSP retains the rights of all images unless otherwise noted.
-                        Possession of an HSP digital image does not constitute permission to use or
-                        publish it. Requests for digital imaging, other reproduction services, and
-                        the intended use of reproductions must be made in writing to the Rights and
-                        Reproductions Coordinator at rnr@hsp.org.</p>
-                </availability>
-                <date when="2015"/>
-            </publicationStmt>
-
-            <seriesStmt>
-                <title level="s" type="project" key="CARTOONS"/>
-            </seriesStmt>
-
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <repository key="ENT.000002473"/>
-                        <collection key="V64"/>
-                        <idno type="citation">Bb 612 C266</idno>
-                    </msIdentifier>
-                    <msContents>
-                        <msItem>
-                            <respStmt>
-                                <resp key="art">Artist</resp>
-                                <persName key="ENT.000000553">Unknown artist</persName>
-                            </respStmt>
-                            <respStmt>
-                                <resp key="clr">Colorist</resp>
-                                <persName key="ENT.000003387">Unknown</persName>
-                            </respStmt>
-                            <title type="main" level="u">A Case of Infectious Fever</title>
-                            <bibl>
-                                <date from="1820-01-01" to="1820-12-31">1820</date>
-                                <extent>1 loose sheet</extent>
-                                <listRelation>
-                                    <relation name="depicted" active="ENT.000003724"/>
-                                    <relation name="depicted" active="ENT.000003725"/>
-                                    <relation name="depicted" active="ENT.000003726"/>
-                                    <relation name="depicted" active="ENT.000003727"/>
-                                    <relation name="depicted" active="ENT.000003729"/>
-                                    <relation name="depicted" active="ENT.000003730"/>
-                                    <relation name="mentioned" active="ENT.000003728"/>
-                                </listRelation>
-                            </bibl>
-                        </msItem>
-                    </msContents>
-
-                    <history>
-                        <acquisition/>
-                    </history>
-                </msDesc>
-
-            </sourceDesc>
-        </fileDesc>
-
-        <encodingDesc>
-            <projectDesc>
-                <p>The Historic Images, New Technologies (HINT) project aims to enhance description
-                    and discovery of the Historical Society of Pennsylvania's graphics materials and
-                    promote the linking and sharing of content among institutions and scholars. The
-                    project will result in an update to HSP's digital image viewer and an online
-                    digital history exhibit that will demonstrate the new viewer's capabilities and
-                    provide interpretive and contextual materials to encourage users to interact
-                    with historical images in new ways. This project was funded by a grant from the
-                    National Historical Publications and Records Commission's (NHPRC) Innovation in
-                    Archives and Documentary Editing program.</p>
-            </projectDesc>
-            <editorialDecl n="4">
-                <p>This electronic file was created using manual keying following the
-                    recommendations for Level 4 of "Best Practices for TEI in Libraries" guidelines
-                    v3.0.</p>
-                <p>This xml file uses unique entity identifiers, media file identifiers, and
-                    collection identifiers in HSP's Digital Library, available at
-                    http://digitallibrary.hsp.org.</p>
-
-            </editorialDecl>
-            <tagsDecl>
-                <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
-                <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
-                <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
-                <rendition scheme="css" xml:id="crossed-through">text-decoration:
-                    line-through</rendition>
-                <rendition scheme="other" xml:id="printed"/>
-                <rendition scheme="other" xml:id="typescript"/>
-                <rendition scheme="other" xml:id="handwritten"/>
-                <rendition scheme="other" xml:id="handwritten-underlined"/>
-                <rendition scheme="other" xml:id="handwritten-circled"/>
-                <rendition scheme="other" xml:id="handwritten-crossed-through"/>
-                <rendition scheme="other" xml:id="double-underline"/>
-                <rendition scheme="other" xml:id="stamp"/>
-                <namespace name="http://www.tei-c.org/ns/1.0">
-                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
-                </namespace>
-            </tagsDecl>
-        </encodingDesc>
-
-        <profileDesc>
-            <textClass>
-                <catRef target="cartoons_genres.xml#etchings"/>
-                <catRef target="cartoons_genres.xml#watercolors"/>
-                <catRef target="cartoons_genres.xml#political_cartoons"/>
-                <catRef target="cartoons_taxonomies.xml#early"/>
-                <catRef target="cartoons_taxonomies.xml#science"/>
-                <catRef target="cartoons_taxonomies.xml#stereotypes"/>
-                <catRef target="cartoons_taxonomies.xml#Pennsylvania"/>
-            </textClass>
-        </profileDesc>
-
-        <revisionDesc>
-            <change who="RachelMoloshok" when="2015-05-11">Basic encoding</change>
-        </revisionDesc>
-    </teiHeader>
-
-    <facsimile>
-        <surface ulx="" uly="" lrx="" lry="">
-            <graphic url="FIL.000089716"/>
-            <zone n="1" xml:id="title"/>
-            <zone n="2" xml:id="doctor1"/>
-            <zone n="3" xml:id="doctor2"/>
-            <zone n="4" xml:id="reporter"/>
-            <zone n="5" xml:id="doctor3"/>
-            <zone n="6" xml:id="servant"/>
-            <zone n="7" xml:id="doctor4"/>
-            <zone n="8" xml:id="patient"/>
-            <zone n="9" xml:id="doctor5"/>
-            <zone n="10" xml:id="doctor6"/>
-            <zone n="11" xml:id="doctor7"/>
-            <zone n="12" xml:id="doctor8"/>
-            <zone n="13" xml:id="doctor9"/>
-            <zone n="14" xml:id="doctor10"/>
-            <zone n="15" xml:id="note1"/>
-            <zone n="16" xml:id="note2"/>
-        </surface>
-    </facsimile>
-
-    <text>
-        <front>
-            <div type="editorial_desc">
-                <p>At the center of this 1820 cartoon, a man lying face-down on a bed vomits into a
-                    bucket, groaning "drunk drunk oh lord." He is surrounded by doctors and
-                    officials from the New York Board of Health who are convinced that he has yellow
-                    fever, and who ignore the African American servant woman, standing to the left
-                    of the bedside who explains that the patient is merely drunk. To the left, New
-                    York Evening Post editor William Coleman interviews a doctor. Four men stand
-                    behind the patient's bed holding handkerchiefs to their noses. At far right, a
-                    doctor poking his head through the door recommends quarantine. This cartoon
-                    pokes fun at a 1820 case wherein a drunk man identified in newspapers as
-                    "William C. Coleman," who claimed to hail from Philadelphia, was incorrectly
-                    diagnosed by New York doctors as having yellow fever. The cartoonist implies
-                    that Philadelphians would know better. Various historians have identified some
-                    of the men in this cartoon as Marine Hospital physician Joseph Bayley, French
-                    doctor Felix Pascalis, and New York physicians David Hosack and Samuel Latham
-                    Mitchill.</p>
-            </div>
-        </front>
-
-        <body>
-            <div type="image_transcription" n="1" facs="#title">
-                <head><supplied resp="editorial">Title and date</supplied></head>
-                <p>A case of infectious fever. (<hi rendition="#underline">from "81 South Street, 4
-                        doors from Callowhill Street," Philadelphia</hi>) before the New York Board
-                    of Health.</p>
-                <p><add>1820</add></p>
-            </div>
-            <div type="image_transcription" n="2" facs="#doctor1">
-                <head><supplied resp="editorial">Doctor</supplied></head>
-                <p>It all arises from Septic acid generated by arote. it must be neutralized by lime
-                    or some other of the Alkalies</p>
-            </div>
-            <div type="image_transcription" n="3" facs="#doctor2">
-                <head><supplied resp="editorial">French doctor (Felix Pascalis)</supplied></head>
-                <p>Ma foi mon cher docteur you ave raison! begar I tink de vite-vash is von grand
-                    remede contre de black vomit! ha? mais oui il faut apply him exterieurement dat
-                    is on de out side of de boday ha!</p>
-            </div>
-            <div type="image_transcription" n="4" facs="#reporter">
-                <head><supplied resp="editorial">Newspaper editor (William
-                    Coleman)</supplied></head>
-                <p>Dong you think a little Scullcap would be of service</p>
-                <p>Evening Post</p>
-            </div>
-            <div type="image_transcription" n="5" facs="#doctor3">
-                <head><supplied resp="editorial">Doctor</supplied></head>
-                <p>A little foolscap you mean</p>
-            </div>
-            <div type="image_transcription" n="6" facs="#servant">
-                <head><supplied resp="editorial">Servant woman</supplied></head>
-                <p>Indeed Massa its only de toast and toddy dat he is drink</p>
-            </div>
-            <div type="image_transcription" n="7" facs="#doctor4">
-                <head><supplied resp="editorial">Doctor</supplied></head>
-                <p>Dont tell me you outlandish hussey of toast and toddy I say its the black
-                    vomit</p>
-            </div>
-            <div type="image_transcription" n="8" facs="#patient">
-                <head><supplied resp="editorial">Vomiting patient (John C.
-                    Williams)</supplied></head>
-                <p>drunk drunk oh lord</p>
-            </div>
-            <div type="image_transcription" n="9" facs="#doctor5">
-                <head><supplied resp="editorial">Doctor at bedside</supplied></head>
-                <p>He complains of great giddiness and weakness, being unable to stand, sickness of
-                    stomach, difficulty of speech, the eyes very red, tongue thick &amp; furry, with
-                    disagreable breath, and eructations</p>
-
-            </div>
-            <div type="image_transcription" n="10" facs="#doctor6">
-                <head><supplied resp="editorial">Doctor</supplied></head>
-                <p>highly malignant and inflamitory see how red his nose is!!!</p>
-            </div>
-            <div type="image_transcription" n="11" facs="#doctor7">
-                <head><supplied resp="editorial">Doctor</supplied></head>
-                <p>a vastly pestiferous delerium</p>
-            </div>
-            <div type="image_transcription" n="12" facs="#doctor8">
-                <head><supplied resp="editorial">Doctor</supplied></head>
-                <p>a feverish pulse Doctor</p>
-            </div>
-            <div type="image_transcription" n="13" facs="#doctor9">
-                <head><supplied resp="editorial">Doctor</supplied></head>
-                <p>yes Doctor &amp; I think we'll put him under a course of Mercury for fear he
-                    might have the yellow fever</p>
-            </div>
-            <div type="image_transcription" n="14" facs="#doctor10">
-                <head><supplied resp="editorial">Doctor</supplied></head>
-                <p>Have him put on board a boat at <hi rendition="#double-underline">Noon</hi> and
-                    send him down to the Quarantine ground you understand</p>
-            </div>
-            <div type="image_transcription" n="15" facs="#note1">
-                <head><supplied resp="editorial">Note</supplied></head>
-                <p><add>1820</add></p>
-            </div>
-            <div type="image_transcription" n="16" facs="#note2">
-                <head><supplied resp="editorial">Note</supplied></head>
-                <p><add>25</add></p>
-            </div>
-        </body>
-
-        <back/>
-    </text>
+  <teiHeader xml:lang="English">
+    <fileDesc>
+      <titleStmt>
+        <title type="main">TEI transcription of A Case of Infectious Fever</title>
+        <respStmt>
+          <resp key="art">artist</resp>
+          <persName key="ENT.000000553">Unknown Artist</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="clr">colorist</resp>
+          <persName key="ENT.000003387">Unknown</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="trc">Transcribed by</resp>
+          <persName key="ENT.000003368">Moloshok, Rachel</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="mrk">Encoded by</resp>
+          <persName key="ENT.000003368">Moloshok, Rachel</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="pfr">Proofread by</resp>
+          <persName key="ENT.000003368">Moloshok, Rachel</persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <p>First edition, <date when="2015">2015</date></p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher><orgName key="ENT.000002473">Historical Society of
+          Pennsylvania</orgName></publisher>
+        <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
+        <idno type="filename">11824</idno>
+        <availability status="restricted">
+          <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of copyright only
+            to original contributions made by the Historic Images, New Technologies (HINT) Project
+            participants and other staff. HSP makes no claim of copyright to the original text.
+            Permission is granted to download, transmit or otherwise reproduce, distribute or
+            display the text contributions to this work claimed by HSP for non-profit educational
+            purposes, provided that this header is included in its entirety. For inquiries about
+            commercial uses, please contact the Historical Society of Pennsylvania. HSP retains the
+            rights of all images unless otherwise noted. Possession of an HSP digital image does not
+            constitute permission to use or publish it. Requests for digital imaging, other
+            reproduction services, and the intended use of reproductions must be made in writing to
+            the Rights and Reproductions Coordinator at rnr@hsp.org.</p>
+        </availability>
+        <date when="2015">2015</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="project" key="CARTOONS">Historic Images, New Technologies (HINT)
+          Project</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository key="ENT.000002473">Historical Society of Pennsylvania</repository>
+            <collection key="V64">Historical Society of Pennsylvania medium graphics
+              collection</collection>
+            <idno type="citation">Bb 612 C266</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <respStmt>
+                <resp key="art">artist</resp>
+                <persName key="ENT.000000553">Unknown Artist</persName>
+              </respStmt>
+              <respStmt>
+                <resp key="clr">colorist</resp>
+                <persName key="ENT.000003387">Unknown</persName>
+              </respStmt>
+              <title type="main" level="u">A Case of Infectious Fever</title>
+              <bibl>
+                <date from="1820-01-01" to="1820-12-31">1820</date>
+                <extent>1 loose sheet</extent>
+                <extent>
+                  <dimensions type="image" unit="cm">
+                    <height quantity="26.5"/>
+                    <width quantity="32.5"/>
+                  </dimensions>
+                </extent>
+                <listRelation>
+                  <relation name="depicted" active="ENT.000003724"/>
+                  <relation name="depicted" active="ENT.000003725"/>
+                  <relation name="depicted" active="ENT.000003726"/>
+                  <relation name="depicted" active="ENT.000003727"/>
+                  <relation name="depicted" active="ENT.000003729"/>
+                  <relation name="depicted" active="ENT.000003730"/>
+                  <relation name="mentioned" active="ENT.000003728"/>
+                </listRelation>
+              </bibl>
+            </msItem>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The Historic Images, New Technologies (HINT) project aims to enhance description and
+          discovery of the Historical Society of Pennsylvania's graphics materials and promote the
+          linking and sharing of content among institutions and scholars. The project will result in
+          an update to HSP's digital image viewer and an online digital history exhibit that will
+          demonstrate the new viewer's capabilities and provide interpretive and contextual
+          materials to encourage users to interact with historical images in new ways. This project
+          was funded by a grant from the National Historical Publications and Records Commission's
+          (NHPRC) Innovation in Archives and Documentary Editing program.</p>
+      </projectDesc>
+      <editorialDecl n="4">
+        <p>This electronic file was created using manual keying following the recommendations for
+          Level 4 of "Best Practices for TEI in Libraries" guidelines v3.0.</p>
+        <p>This xml file uses unique entity identifiers, media file identifiers, and collection
+          identifiers in HSP's Digital Library, available at http://digitallibrary.hsp.org.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
+        <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
+        <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
+        <rendition scheme="css" xml:id="crossed-through">text-decoration: line-through</rendition>
+        <rendition scheme="other" xml:id="printed"/>
+        <rendition scheme="other" xml:id="typescript"/>
+        <rendition scheme="other" xml:id="handwritten"/>
+        <rendition scheme="other" xml:id="handwritten-underlined"/>
+        <rendition scheme="other" xml:id="handwritten-circled"/>
+        <rendition scheme="other" xml:id="handwritten-crossed-through"/>
+        <rendition scheme="other" xml:id="double-underline"/>
+        <rendition scheme="other" xml:id="stamp"/>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <catRef target="cartoons_genres.xml#etchings"/>
+        <catRef target="cartoons_genres.xml#watercolors"/>
+        <catRef target="cartoons_genres.xml#political_cartoons"/>
+        <catRef target="cartoons_taxonomies.xml#early"/>
+        <catRef target="cartoons_taxonomies.xml#science"/>
+        <catRef target="cartoons_taxonomies.xml#stereotypes"/>
+        <catRef target="cartoons_taxonomies.xml#Pennsylvania"/>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change who="RachelMoloshok" when="2015-05-12">Exported from Collective Access. Basic
+        proofreading</change>
+      <change who="RachelMoloshok" when="2015-05-11">Basic encoding</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="100" lry="100">
+      <graphic url="FIL.000089716"/>
+      <zone n="1" xml:id="title" points="10.07,74.1 89.34,73.21 89.63,88.04 10.28,88.04"/>
+      <zone n="2" xml:id="doctor1"
+        points="12.26,17.71 22.24,17.46 13.88,36.17 16.32,42.93 21.89,50.83 22.67,70.79 11.44,71.41"/>
+      <zone n="3" xml:id="doctor2"
+        points="17.11,28.28 22.51,17.57 27.39,17.78 26.43,33.47 23.38,38.88 22.33,52.08 21.03,51.87 15.62,40.67"/>
+      <zone n="4" xml:id="reporter"
+        points="20.78,53.06 22,41.93 25.39,39.75 27.48,17.61 31.23,17.61 28.01,47.03 33.06,51.5 31.62,65.98 24.87,63.87"/>
+      <zone n="5" xml:id="doctor3"
+        points="31.73,18.59 35.01,18.76 34.6,46.24 32.86,52.17 29.55,50.4 28.42,44.27 29.29,30.44"/>
+      <zone n="6" xml:id="servant"
+        points="35.46,17.23 49.91,17.13 48,22.74 37.11,24.51 37.02,37.61 42.34,44.36 43.99,66.82 31.8,66.92"/>
+      <zone n="7" xml:id="doctor4"
+        points="37.41,24.86 53,23.82 53.96,27.04 52.74,31.2 42.9,31.82 48.3,45.55 45.86,50.95 50.48,66.03 42.29,66.44 38.29,45.96 36.81,29.54"/>
+      <zone n="8" xml:id="patient"
+        points="45.36,36.37 50.15,36.73 51.63,47.65 62.08,54.93 52.5,61.89 48.67,61.37"/>
+      <zone n="9" xml:id="doctor5"
+        points="50.58,34.02 60.51,16.77 67.83,16.77 56.33,35.89 56.33,47.43 50.93,44.52"/>
+      <zone n="10" xml:id="doctor6"
+        points="55.49,39.39 68.64,20.16 70.73,23.38 60.46,39.91 60.2,48.27 55.2,48.27"/>
+      <zone n="11" xml:id="doctor7"
+        points="59.73,41.9 64.95,31.19 67.39,33.16 66.17,39.71 63.9,40.69 63.9,45.69 60.51,48.97 59.73,45.43"/>
+      <zone n="12" xml:id="doctor8"
+        points="68.38,31.23 70.9,30.81 72.47,49.73 70.38,55.03 75.34,59.82 72.73,63.77 62.28,64.7 58.36,54.1 62.37,50.88 66.2,44.43"/>
+      <zone n="13" xml:id="doctor9"
+        points="71.65,16.6 78.23,16.49 80.49,44.35 79.01,61.09 72.05,61.81 69.78,47.88 75.44,39.57 71.87,36.65"/>
+      <zone n="14" xml:id="doctor10"
+        points="78.8,16.14 86.99,16.25 86.9,60.63 83.67,60.53 79.67,49.09"/>
+      <zone n="15" xml:id="note1" points="3.35,4.59 8.35,4.59 8.35,9.59 3.35,9.59"/>
+      <zone n="16" xml:id="note2" points="1.87,87.65 6.87,87.65 6.87,92.65 1.87,92.65"/>
+    </surface>
+  </facsimile>
+  <text>
+    <front>
+      <div type="editorial_desc">
+        <p>At the center of this 1820 cartoon, a man lying face-down on a bed vomits into a bucket,
+          groaning "drunk drunk oh lord." He is surrounded by doctors and officials from the New
+          York Board of Health who are convinced that he has yellow fever, and who ignore the
+          African American servant woman, standing to the left of the bedside, who explains that the
+          patient is merely drunk. To the left, New York Evening Post editor William Coleman
+          interviews a doctor. Four men stand behind the patient's bed holding handkerchiefs to
+          their noses. At far right, a doctor poking his head through the door recommends
+          quarantine. This cartoon pokes fun at a 1820 case wherein a drunk man identified in
+          newspapers as "William C. Coleman," who claimed to hail from Philadelphia, was incorrectly
+          diagnosed by New York doctors as having yellow fever. The cartoonist implies that
+          Philadelphians would know better. Various historians have identified some of the men in
+          this cartoon as Marine Hospital physician Joseph Bayley, French doctor Felix Pascalis, and
+          New York physicians David Hosack and Samuel Latham Mitchill.</p>
+      </div>
+    </front>
+    <body>
+      <div type="image_transcription" n="1" facs="#title">
+        <head><supplied resp="editorial">Title and date</supplied></head>
+        <p>A case of infectious fever. (<hi rendition="#underline">from "81 South Street, 4 doors
+            from Callowhill Street," Philadelphia</hi>) before the New York Board of Health.</p>
+        <p><add>1820</add></p>
+      </div>
+      <div type="image_transcription" n="2" facs="#doctor1">
+        <head><supplied resp="editorial">Doctor</supplied></head>
+        <p>It all arises from Septic acid generated by arote. it must be neutralized by lime or some
+          other of the Alkalies</p>
+      </div>
+      <div type="image_transcription" n="3" facs="#doctor2">
+        <head><supplied resp="editorial">French doctor (Felix Pascalis)</supplied></head>
+        <p>Ma foi mon cher docteur you ave raison! begar I tink de vite-vash is von grand remede
+          contre de black vomit! ha? mais oui il faut apply him exterieurement dat is on de out side
+          of de boday ha!</p>
+      </div>
+      <div type="image_transcription" n="4" facs="#reporter">
+        <head><supplied resp="editorial">Newspaper editor (William Coleman)</supplied></head>
+        <p>Dong you think a little Scullcap would be of service</p>
+        <p>Evening Post</p>
+      </div>
+      <div type="image_transcription" n="5" facs="#doctor3">
+        <head><supplied resp="editorial">Doctor</supplied></head>
+        <p>A little foolscap you mean</p>
+      </div>
+      <div type="image_transcription" n="6" facs="#servant">
+        <head><supplied resp="editorial">Servant woman</supplied></head>
+        <p>Indeed Massa its only de toast and toddy dat he is drink</p>
+      </div>
+      <div type="image_transcription" n="7" facs="#doctor4">
+        <head><supplied resp="editorial">Doctor</supplied></head>
+        <p>Dont tell me you outlandish hussey of toast and toddy I say its the black vomit</p>
+      </div>
+      <div type="image_transcription" n="8" facs="#patient">
+        <head><supplied resp="editorial">Vomiting patient (John C. Williams)</supplied></head>
+        <p>drunk drunk oh lord</p>
+      </div>
+      <div type="image_transcription" n="9" facs="#doctor5">
+        <head><supplied resp="editorial">Doctor</supplied></head>
+        <p>He complains of great giddiness and weakness, being unable to stand, sickness of stomach,
+          difficulty of speech, the eyes very red, tongue thick &amp; furry, with disagreable
+          breath, and eructations</p>
+      </div>
+      <div type="image_transcription" n="10" facs="#doctor6">
+        <head><supplied resp="editorial">Doctor</supplied></head>
+        <p>highly malignant and inflamitory see how red his nose is!!!</p>
+      </div>
+      <div type="image_transcription" n="11" facs="#doctor7">
+        <head><supplied resp="editorial">Doctor</supplied></head>
+        <p>a vastly pestiferous delerium</p>
+      </div>
+      <div type="image_transcription" n="12" facs="#doctor8">
+        <head><supplied resp="editorial">Doctor</supplied></head>
+        <p>a feverish pulse Doctor</p>
+      </div>
+      <div type="image_transcription" n="13" facs="#doctor9">
+        <head><supplied resp="editorial">Doctor</supplied></head>
+        <p>yes Doctor &amp; I think we'll put him under a course of Mercury for fear he might have
+          the yellow fever</p>
+      </div>
+      <div type="image_transcription" n="14" facs="#doctor10">
+        <head><supplied resp="editorial">Doctor</supplied></head>
+        <p>Have him put on board a boat at <hi rendition="#double-underline">Noon</hi> and send him
+          down to the Quarantine ground you understand</p>
+      </div>
+      <div type="image_transcription" n="15" facs="#note1">
+        <head><supplied resp="editorial">Note</supplied></head>
+        <p><add>1820</add></p>
+      </div>
+      <div type="image_transcription" n="16" facs="#note2">
+        <head><supplied resp="editorial">Note</supplied></head>
+        <p><add>25</add></p>
+      </div>
+    </body>
+  </text>
 </TEI>
