@@ -60,16 +60,14 @@
           <msIdentifier>
             <repository key="ENT.000002473">Historical Society of Pennsylvania</repository>
             <collection key="3213">Balch Institute Broadsides</collection>
-            <idno type="citation">XBN1 75-371<idno type="box">XBN1 75-371</idno></idno>
+            <idno type="citation">XBN1 75-371</idno>
           </msIdentifier>
           <msContents>
             <msItem>
               <bibl>
                 <date from="1882-06-07">June 7, 1882</date>
                 <extent>1 loose page</extent>
-                <extent>
-                  <dimensions type="image" unit="cm"/>
-                </extent>
+             
                 <listRelation>
                   <relation name="mentioned" active="ENT.000003641"/>
                   <relation name="depicted" active="cartoons_symbols.xml#uncle_sam"/>
@@ -97,7 +95,7 @@
             <date from="1882-06-07">June 7, 1882</date>
           </analytic>
           <monogr>
-            <title type="marc245a" level="j"><orgName key="ENT.000000384"> Puck</orgName></title>
+            <title type="marc245a" level="j"><orgName key="ENT.000000384">Puck</orgName></title>
             <imprint>
               <pubPlace>New York</pubPlace>
               <date from="1882-06-07">June 7, 1882</date>
@@ -221,7 +219,7 @@
     <body>
       <div type="image_transcription" n="1" facs="#Title">
         <head><supplied resp="editorial">Title and Caption</supplied></head>
-        <p>UNCLE SAM'S LODGING-HOUSE</p>
+        <p><rs ref="cartoons_symbols.xml#uncle_sam">UNCLE SAM'S</rs> LODGING-HOUSE</p>
         <p>Uncle Sam:-"Look here, you, everybody else is quiet and peaceable, and you're all the
           time a-kicking up a row!"</p>
         <p><add>June 7 1882</add></p>
@@ -237,14 +235,13 @@
         <p>MAYER MERKEL &amp; OTTMANN. LITH. 23-25 WARREN ST. N.Y.</p>
       </div>
       <div type="image_transcription" n="4" facs="#Artist">
-        <head><supplied resp="editorial"><persName key="ENT.000000379">Joseph Ferdinand
-              Keppler</persName></supplied></head>
-        <p>J. KEPPLER</p>
+        <head><supplied resp="editorial">Artist's signature</supplied></head>
+        <p><persName key="ENT.000000379">J. KEPPLER</persName></p>
       </div>
       <div type="image_transcription" n="5" facs="#Puck">
-        <head><supplied resp="editorial"><orgName key="ENT.000000384"
-          >Puck</orgName></supplied></head>
-        <p>PUCK.</p>
+        <head><supplied resp="editorial">Magazine title</supplied></head>
+        <p><orgName key="ENT.000000384"
+          >PUCK.</orgName></p>
       </div>
       <div type="image_transcription" n="6" facs="#Lowell">
         <head><supplied resp="editorial">Bricks 1-3</supplied></head>
@@ -298,7 +295,7 @@
       <div type="image_annotation" n="15" facs="#Sam">
         <head><supplied resp="editorial"><rs ref="cartoons_symbols.xml#uncle_sam">Uncle
             Sam</rs></supplied></head>
-        <p>Image shows Uncle Sam in his pajamas, carries a lantern, and covers his ears.</p>
+        <p>Uncle Sam in his pajamas, carries a lantern and covers his ears.</p>
       </div>
       <div type="image_annotation" n="16" facs="#Columbia">
         <head><supplied resp="editorial"><rs ref="cartoons_symbols.xml#columbia"

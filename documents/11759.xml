@@ -13,7 +13,7 @@
           <persName key="ENT.000003616">Opper, Frederick Burr, 1857-1937</persName>
         </respStmt>
         <respStmt>
-          <resp key="ltg">Lithographer</resp>
+          <resp key="ltg">lithographer</resp>
           <persName key="ENT.000000380">Mayer, Merkel &amp; Ottmann </persName>
         </respStmt>
         <respStmt>
@@ -72,9 +72,10 @@
                 <date from="1882-06-14">June 14, 1882</date>
                 <extent>1 loose sheet</extent>
                 <extent>
-                  <dimensions type="image" unit="cm"/>
+                  <dimensions type="image" unit="cm">
                   <height quantity="25.5"/>
                   <width quantity="33"/>
+                  </dimensions>
                 </extent>
            
               </bibl>
@@ -88,7 +89,7 @@
               <persName key="ENT.000003616">Opper, Frederick Burr, 1857-1937</persName>
             </respStmt>
             <respStmt>
-              <resp key="ltg">Lithographer</resp>
+              <resp key="ltg">lithographer</resp>
               <persName key="ENT.000000380">Mayer, Merkel &amp; Ottmann </persName>
             </respStmt>
             <respStmt>
@@ -153,6 +154,7 @@
       <textClass>
         <catRef target="cartoons_genres.xml#chromolithographs"/>
         <catRef target="cartoons_genres.xml#political_cartoons"/>
+        <catRef target="cartoons_genres.xml#clippings"/>
         <catRef target="cartoons_taxonomies.xml#lesson_plan"/>
         <catRef target="cartoons_taxonomies.xml#gilded"/>
         <catRef target="cartoons_taxonomies.xml#stereotypes"/>
@@ -195,10 +197,10 @@
   <text>
     <front>
       <div type="editorial_desc">
-        <p>In the image, a group of immigrants has just arrived in the US and is standing in front
-          of a building with the sign "Castle Garden." In front of them are six pits labeled "friend
-          from the old country, confidence man, temptress, baggage swindler, money changer, and
-          boarding house runner." The "boarding house runner" grabs one of the immigrants and tries
+        <p>In the image, a group of immigrants has just arrived in the United States and is standing in front
+          of a building labeled "Castle Garden." In front of them are six pits labeled "friend
+          from the old country," "confidence man," "temptress," "baggage swindler," "money changer," and
+          "boarding house runner." The "boarding house runner" grabs one of the immigrants and tries
           to pull him into the pit. There are two policemen. The first is asleep on a bench and the
           second ignores what is going on.</p>
       </div>
@@ -219,14 +221,13 @@
         <p>MAYER MERKEL &amp; OTTMANN. LITH. 23-25 WARREN ST. N.Y.</p>
       </div>
       <div type="image_transcription" n="4" facs="#Artist">
-        <head><supplied resp="editorial"><persName key="ENT.000003616">Frederick Burr
-              Opper</persName></supplied></head>
-        <p/>
+        <head><supplied resp="editorial">Artist's signature</supplied></head>
+        <p><persName key="ENT.000003616">F. Opper</persName></p>
       </div>
       <div type="image_transcription" n="5" facs="#Puck">
-        <head><supplied resp="editorial"><orgName key="ENT.000000384"
-          >Puck</orgName></supplied></head>
-        <p>PUCK.</p>
+        <head><supplied resp="editorial">Magazine Title</supplied></head>
+        <p><orgName key="ENT.000000384"
+          >PUCK.</orgName></p>
       </div>
       <div type="image_transcription" n="6" facs="#Pit_1">
         <head><supplied resp="editorial">Pit 1</supplied></head>
@@ -260,7 +261,7 @@
             official immigrant processing station and is located in what is now know as Battery Park
             in New York City. Southwest Battery, as it was first called, was constructed between
             1808 and 1811 and was used as a fort to defend against the British during the War of
-            1812. In 1823, it was renamed Castle Garden and became an opera house and theater From
+            1812. In 1823, it was renamed Castle Garden and became an opera house and theater. From
             1855 to 1890, Castle Garden served as an immigrant processing center and over 8 million
             immigrants passed through its doors. Today it is known as Castle Clinton National
             Monument.</note></p>

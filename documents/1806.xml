@@ -181,14 +181,14 @@
   <text>
     <front>
       <div type="editorial_desc">
-        <p>1880 Republican presidential candidate, James A. Garfield, uses his "Honesty, Ability and
-          Patriotism" scythe to cut a path to the White House. He crushes the heads of two snakes
+        <p>1880 Republican presidential candidate James A. Garfield, uses his scythe of "Honesty, Ability and
+          Patriotism" to cut a path to the White House. He crushes the heads of two snakes
           with his feet. The first snake is labeled "calumny" and the second "falsehood." With his
           scythe he cuts away at the weeds and other snakes labeled "malice, defamation, hatred,
           venom, and fraud." The snake labeled "venom" has the face of one of his political
           opponents.</p>
-        <p>Garfield won his party's nomination after the incumbent Rutherford B. Hayes decided not
-          to run for a third term. Garfield and his running mate Chester A. Arthur beat their
+        <p>Garfield won his party's nomination after the incumbent, Rutherford B. Hayes, decided not
+          to run for a third term. Garfield and his running mate, Chester A. Arthur, beat their
           democratic opponents Winfield S. Hancock and William Hayden English by fewer than 10,000
           popular votes. Garfield was later assassinated by Charles Guiteau only 200 days into his
           presidency.</p>
@@ -196,14 +196,14 @@
     </front>
     <body>
       <div type="image_transcription" n="1" facs="#Title">
-        <head><supplied resp="editorial">Title and Caption</supplied></head>
+        <head><supplied resp="editorial">Title and caption</supplied></head>
         <p><hi rendition="#bold">FARMER GARFIELD</hi></p>
         <p>Cutting a Swath to the White House.</p>
       </div>
       <div type="image_transcription" n="2" facs="#Caption">
-        <head><supplied resp="editorial"><orgName key="ENT.000000844">Currier &amp;
-            Ives</orgName></supplied></head>
-        <p>PUBISHED BY CURRIER &amp; IVES</p>
+        <head><supplied resp="editorial">Copyright</supplied></head>
+        <p>PUBLISHED BY <orgName key="ENT.000000844">Currier &amp;
+          Ives</orgName></p>
         <p>COPYRIGHT 1880, BY CURRIER &amp; IVES, N.Y.</p>
         <p>115 NASSAU ST. NEW YORK</p>
       </div>
@@ -230,7 +230,7 @@
       </div>
       <div type="image_transcription" n="8" facs="#Garfield">
         <head><supplied resp="editorial"><persName key="ENT.000003555">James A.
-            Garfield</persName></supplied></head>
+            Garfield and snakes 1 and 2</persName></supplied></head>
         <p>HONESTY, ABILITY AND PATRIOTISM</p>
         <p>CALUMNY</p>
         <p>FALSEHOOD</p>

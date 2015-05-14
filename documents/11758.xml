@@ -6,7 +6,7 @@
   <teiHeader xml:lang="English">
     <fileDesc>
       <titleStmt>
-        <title type="main">TEI transcription of The Kind of "Assisted Emigrant" We Can't Afford to
+        <title type="main">TEI transcription of The Kind of "Assisted Emigrant" We Can Not Afford to
           Admit</title>
         <author/>
         <respStmt>
@@ -76,9 +76,10 @@
                 <date from="1883-07-18">July 18, 1883</date>
                 <extent>1 loose sheet</extent>
                 <extent>
-                  <dimensions type="image" unit="cm"/>
+                  <dimensions type="image" unit="cm">
                   <height quantity="26"/>
                   <width quantity="33.5"/>
+                  </dimensions>
                 </extent>
                 <listRelation>
                   <relation name="depicted" active="cartoons_symbols.xml#death"/>
@@ -98,7 +99,7 @@
               <resp key="pbl">publisher</resp>
               <orgName key="ENT.000003163">Keppler &amp; Schwarzmann</orgName>
             </respStmt>
-            <title type="main" level="a">The Kind of "Assisted Emigrant" We Can't Afford to
+            <title type="main" level="a">The Kind of "Assisted Emigrant" We Can Not Afford to
               Admit</title>
             <date from="1883-07-18">July 18, 1883</date>
           </analytic>
@@ -197,13 +198,13 @@
           headed to Castle Garden, is about to reach the New York shore. Men in a boat labeled
           "board of health" meet the ship and try to disinfect it with carbolic acid. Bottles of
           disinfectant labeled "disinfectant battery" are lined up along the shore. The last great
-          epidemic of cholera in 19th century Great Britain is presumed to have spread from Egpyt,
-          and thus, the figure of Death in the political cartoon rides a ship flying a British Flag
-          and wears a fez, Arab style clothing, and a belt labeled "cholera." </p>
-        <p>Cholera is a disease which effects the intestines, and it is spread through drinking
+          epidemic of cholera in 19th-century Great Britain is presumed to have spread from Egypt,
+          and thus, the figure of Death in the political cartoon rides a ship flying a British flag
+          and wears a fez, Arabic style clothing, and a belt labeled "cholera." </p>
+        <p>Cholera is a disease that effects the intestines, and it is spread through drinking
           water which has been contaminated with the vibrio cholerea bacteria. An infected patient
           experiences violent cramps, vomiting, and diarrhea and becomes so dehydrated that the
-          blood thickens. If left untreated, a patient will die within a few days. 19th century
+          blood thickens. If left untreated, a patient will die within a few days. 19th-century
           physicians treated patients with opium or by bleeding them. Carbolic acid was widely used
           as a disinfectant.</p>
       </div>
@@ -218,10 +219,10 @@
       <div type="image_transcription" n="2" facs="#Artist">
         <head>
           <supplied resp="editorial">
-            <persName key="ENT.000003642">Friedrich Graetz</persName>
+            <persName key="ENT.000003642">Artist's signature</persName>
           </supplied>
         </head>
-        <p>F. Graetz</p>
+        <p><persName key="ENT.000003642">F. Graetz</persName></p>
       </div>
       <div type="image_transcription" n="3" facs="#Boat">
         <head>
@@ -236,10 +237,10 @@
       <div type="image_transcription" n="4" facs="#Puck">
         <head>
           <supplied resp="editorial">
-            <orgName key="ENT.000000384">Puck</orgName>
+            Magazine title
           </supplied>
         </head>
-        <p>PUCK.</p>
+        <p><orgName key="ENT.000000384">PUCK.</orgName></p>
       </div>
       <div type="image_transcription" n="5" facs="#Bottles">
         <head>
@@ -260,7 +261,7 @@
             official immigrant processing station and is located in what is now know as Battery Park
             in New York City. Southwest Battery, as it was first called, was constructed between
             1808 and 1811 and was used as a fort to defend against the British during the War of
-            1812. In 1823, it was renamed Castle Garden and became an opera house and theater From
+            1812. In 1823, it was renamed Castle Garden and became an opera house and theater. From
             1855 to 1890, Castle Garden served as an immigrant processing center and over 8 million
             immigrants passed through its doors. Today it is known as Castle Clinton National
             Monument.</note></p>
@@ -277,7 +278,7 @@
             <rs ref="cartoons_symbols.xml#death">Death</rs>
           </supplied>
         </head>
-        <p>Death carries a scythe, a traditional symbol of death. He wears a fez, Arab style
+        <p>Death carries a scythe, a traditional symbol of death. He wears a fez, Arabic style
           clothing, and a belt labeled "cholera" because it was presumed that the disease originated
           in Egypt.</p>
       </div>
