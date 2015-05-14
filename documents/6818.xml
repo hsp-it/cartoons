@@ -5,7 +5,7 @@
   <teiHeader xml:lang="English">
     <fileDesc>
       <titleStmt>
-        <title type="main">TEI transcription of "Inauguration Day Outlook - Prospects of a Cleaning Up"</title>
+        <title type="main">TEI transcription of "Inauguration Day Outlook—Prospects of a Cleaning Up"</title>
         <author/>
         <respStmt>
           <resp key="art">artist</resp>
@@ -51,9 +51,10 @@
                 <date from="1903-01-01" to="1903-01-31">circa January 1903</date>
                 <extent>1 loose sheet</extent>
                 <extent>
-                  <dimensions type="image" unit="cm"/>
+                  <dimensions type="image" unit="cm">
                   <height quantity="16.5"/>
                   <width quantity="16.5"/>
+                  </dimensions>
                 </extent>
                 <listRelation>
                   <relation name="depicted" active="ENT.000000557"/>
@@ -77,7 +78,7 @@
               <resp key="pbl">publisher</resp>
               <persName key="ENT.000003387">Unknown</persName>
             </respStmt>
-            <title type="main" level="a">"Inauguration Day Outlook - Prospects of a Cleaning Up"</title>
+            <title type="main" level="a">"Inauguration Day Outlook—Prospects of a Cleaning Up"</title>
             <date from="1903-01-01" to="1903-01-31">circa January 1903</date>
           </analytic>
           <monogr>
@@ -165,9 +166,11 @@
     </front>
     <body>
       <div type="image_transcription" n="1" facs="#Title"><head><supplied resp="editorial">Title</supplied></head>
-                <p><hi rendition="#italics">Inauguration Day Outlook-Prospects of a Cleaning Up.</hi></p></div>
-      <div type="image_transcription" n="2" facs="#Artist"><head><supplied resp="editorial"><persName key="ENT.000003645">Hy Gage</persName></supplied></head>
-                <p>Hy Gage</p></div>
+                <p><hi rendition="#italics">Inauguration Day Outlook—Prospects of a Cleaning Up.</hi></p></div>
+      <div type="image_transcription" n="2" facs="#Artist">
+        <head><supplied resp="editorial">Signature</supplied></head>
+        <p><persName key="ENT.000003645">Hy Gage</persName></p>
+      </div>
       <div type="image_transcription" n="3" facs="#Quay"><head><supplied resp="editorial">Label</supplied></head>
                 <p><persName key="ENT.000001953">QUAY</persName></p></div>
       <div type="image_transcription" n="4" facs="#Reward"><head><supplied resp="editorial">Dialogue</supplied></head>

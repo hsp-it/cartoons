@@ -6,7 +6,7 @@
   <teiHeader xml:lang="English">
     <fileDesc>
       <titleStmt>
-        <title type="main">TEI transcription of The Pope's Dream, a Roman Catholic America</title>
+        <title type="main">TEI transcription of The Pope's Dream—a Roman Catholic America</title>
         
         <respStmt>
           <resp key="art">artist</resp>
@@ -61,7 +61,7 @@
           <msIdentifier>
             <repository key="ENT.000002473">Historical Society of Pennsylvania</repository>
             <collection key="3213">Balch Institute Broadsides</collection>
-            <idno type="citation">XNB1 75-337<idno type="box">XNB1 75-337</idno></idno>
+            <idno type="citation">XNB1 75-337</idno>
           </msIdentifier>
           <msContents>
             <msItem>
@@ -89,7 +89,7 @@
               <resp key="pbl">publisher</resp>
               <orgName key="ENT.000003163">Keppler &amp; Schwarzmann</orgName>
             </respStmt>
-            <title type="main" level="a">The Pope's Dream, a Roman Catholic America</title>
+            <title type="main" level="a">The Pope's Dream—a Roman Catholic America</title>
             <date from="1889-07-24">July 24, 1889</date>
           </analytic>
           <monogr>
@@ -153,10 +153,11 @@
         <catRef target="cartoons_taxonomies.xml#gilded"/>
         <catRef target="cartoons_taxonomies.xml#stereotypes"/>
         <catRef target="cartoons_taxonomies.xml#international"/>
+        <catRef target="cartoons_taxonomies.xml#religion"/>
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change who="DianeBiunno" when="2015-04-1">Exported from CA and basic proofreading</change>
+      <change who="DianeBiunno" when="2015-04-01">Exported from CA and basic proofreading</change>
       <change who="DianeBiunno" when="2015-03-16">Encoded to lesson plan level</change>
       <change who="DianeBiunno" when="2015-03-16">Encoded to basic level</change>
       <change who="RachelMoloshok" when="2015-01-07">Template file created</change>
@@ -191,9 +192,9 @@
     <front>
       <div type="editorial_desc">
         <p>In the cartoon Pope Leo XIII is sleeping next to his papal tiara and pastoral staff and
-          is dreaming. In the dream, the Pope is sitting in a throne labeled "Presidential Chair"
-          and is surrounded by a group of people who bow to him. Above the Pope there is a sign
-          which reads "The Church First-The Country Afterwards." An assembly of people, depicted to
+          is dreaming. In the dream, the pope is sitting in a throne labeled "Presidential Chair"
+          and is surrounded by a group of people who bow to him. Above the pope there is a sign
+          which reads "The Church First—The Country Afterwards." An assembly of people, depicted to
           look like Irishmen, has gathered around the Pope in order to receive their titles and
           positions in government.</p>
       </div>
@@ -201,17 +202,16 @@
     <body>
       <div type="image_transcription" n="1" facs="#Title">
         <head><supplied resp="editorial">Title</supplied></head>
-        <p>THE POPE'S DREAM.-A ROMAN CATHOLIC AMERICA.</p>
+        <p>THE POPE'S DREAM.—A ROMAN CATHOLIC AMERICA.</p>
       </div>
       <div type="image_transcription" n="2" facs="#Artist">
-        <head><supplied resp="editorial"><persName key="ENT.000000379">Joseph Ferdinand
-              Keppler</persName></supplied></head>
-        <p>JK.</p>
+        <head><supplied resp="editorial"><persName key="ENT.000000379">Artist's signature</persName></supplied></head>
+        <p><persName key="ENT.000000379">JK.</persName></p>
       </div>
       <div type="image_transcription" n="3" facs="#Puck">
-        <head><supplied resp="editorial"><orgName key="ENT.000000384"
-          >Puck</orgName></supplied></head>
-        <p>PUCK.</p>
+        <head><supplied resp="editorial">Magazine title</supplied></head>
+        <p><orgName key="ENT.000000384">PUCK.</orgName></p>
+    
       </div>
       <div type="image_transcription" n="4" facs="#Banner_1">
         <head><supplied resp="editorial">Banner 1</supplied></head>
@@ -256,8 +256,8 @@
         <p/>
       </div>
       <div type="image_annotation" n="11" facs="#Pope">
-        <head><supplied resp="editorial"><persName key="ENT.000003644">Pope Leo
-            XIII</persName></supplied></head>
+        <head><persName key="ENT.000003644">Pope Leo
+            XIII</persName></head>
         <p>Gioacchino Vincenzo Pecci became Pope in 1878 and took the name Leo XIII. He reigned
           until 1903. In the political cartoon he sleeps next to his pastoral staff and Papal
           Tiara.</p>

@@ -71,9 +71,10 @@
                 <date from="1887-10-12">October 12, 1887</date>
                 <extent>1 loose sheet</extent>
                 <extent>
-                  <dimensions type="image" unit="cm"/>
+                  <dimensions type="image" unit="cm">
                   <height quantity="26"/>
                   <width quantity="33.5"/>
+                  </dimensions>
                 </extent>
               </bibl>
             </msItem>
@@ -97,7 +98,7 @@
             <date from="1887-10-12">October 12, 1887</date>
           </analytic>
           <monogr>
-            <title type="marc245a" level="j"><orgName key="ENT.000000384"> Puck</orgName></title>
+            <title type="marc245a" level="j"><orgName key="ENT.000000384">Puck</orgName></title>
             <imprint>
               <pubPlace>New York</pubPlace>
               <date from="1887-10-12">October 12, 1887</date>
@@ -193,14 +194,14 @@
   <text>
     <front>
       <div type="editorial_desc">
-        <p>In the image a group of well dressed immigrants are trying to enter the United States,
+        <p>In the image a group of well-dressed immigrants are trying to enter the United States,
           but an official stops them. Each immigrant worker holds in his or her hand a contract for
           employment. Behind the official there is a crowd of poorly dressed immigrants who are
           depicted as criminals. One of these immigrants holds a "socialist" newspaper and a bundle
           labeled "mischief." An anarchist immigrant with a bindle speaks with a group of street
-          musicians while another immigrant opens his "infernal machine" bag. The caption below the
+          musicians while another immigrant opens bag with an "infernal machine" bomb. The caption below the
           political cartoon explains that the law bans immigrant workers with contracts from
-          entering the US.</p>
+          entering the United States.</p>
         <p>The political cartoon criticizes the Alien Contract Labor Law, otherwise known as the
           Foran Act which prohibited laborers with contracts or labor agreements from entering the
           United States. During the 19th century a wave of immigrants from China and southern,
@@ -216,18 +217,18 @@
         <p><hi rendition="#bold">"FREE AMERICA."</hi></p>
         <p>CHORUS OF SKILLED FOREIGNERS.-Why are we not allowed to land, when those people over
           there are received with open arms?</p>
-        <p>OFFICIAL.-The law lEts them fellers in because they did n't come over under contract; an'
+        <p>OFFICIAL.-The law lets them fellers in because they did n't come over under contract; an'
           it keeps you out because you did.</p>
       </div>
       <div type="image_transcription" n="2" facs="#Artist">
-        <head><supplied resp="editorial"><persName key="ENT.000003616">Frederick
-            Opper</persName></supplied></head>
-        <p>F. Opper</p>
+        <head><supplied resp="editorial">Artist's signature</supplied></head>
+        <p><persName key="ENT.000003616">F. Opper</persName></p>
       </div>
       <div type="image_transcription" n="3" facs="#Puck">
-        <head><supplied resp="editorial"><orgName key="ENT.000000384"
-          >Puck</orgName></supplied></head>
-        <p>PUCK.</p>
+        
+        <head><supplied resp="editorial">Magazine title</supplied></head>
+        <p><orgName key="ENT.000000384">
+          PUCK.</orgName></p>
       </div>
       <div type="image_transcription" n="4" facs="#Contract_1">
         <head><supplied resp="editorial">Contract 1</supplied></head>

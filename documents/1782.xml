@@ -202,8 +202,8 @@
       <div type="image_transcription" n="1" facs="#Title">
         <head><supplied resp="editorial">Title and notes</supplied></head>
         <p>BLOCKED</p>
-        <p>By De Mar.</p>
-        <p><add rendition="#handwritten">PhilaRecord 10-17-1907</add></p>
+        <p>By <persName key="ENT.000000436">De Mar</persName>.</p>
+        <p><add rendition="#handwritten"><orgName key="ENT.000000437">PhilaRecord</orgName>10-17-1907</add></p>
       </div>
       <div type="image_transcription" n="2" facs="#Taft">
         <head><supplied resp="editorial"><persName key="ENT.000003384">William
