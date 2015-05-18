@@ -1,0 +1,232 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+    <teiHeader xml:lang="English">
+
+        <fileDesc>
+
+            <titleStmt>
+                <title type="main"
+                    >"Oh, Yes, Our Relations Are Perfectly Amicable--Perfectly!"</title>
+                <respStmt>
+                    <resp key="art">Artist</resp>
+                    <persName key="ENT.000003742"
+                        >Harold Brown</persName>
+                </respStmt>
+                <respStmt>
+                    <resp key="trc">Transcribed by</resp>
+                    <persName key="ENT.000003544">Biunno, Diane</persName>
+                </respStmt>
+                
+                <respStmt>
+                    <resp key="mrk">Encoded by</resp>
+                    <persName key="ENT.000003544">Biunno, Diane</persName>
+                </respStmt>
+
+            </titleStmt>
+
+            <editionStmt>
+                <p>First edition, <date when="2015">2015</date></p>
+            </editionStmt>
+
+            <publicationStmt>
+                <publisher><orgName key="ENT.000002473">Historical Society of
+                    Pennsylvania</orgName></publisher>
+                <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
+                <idno type="filename"
+                    >12379</idno>
+                <availability status="restricted">
+                    <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of
+                        copyright only to original contributions made by the Historic Images, New
+                        Technologies (HINT) Project participants and other staff. HSP makes no claim
+                        of copyright to the original text. Permission is granted to download,
+                        transmit or otherwise reproduce, distribute or display the text
+                        contributions to this work claimed by HSP for non-profit educational
+                        purposes, provided that this header is included in its entirety. For
+                        inquiries about commercial uses, please contact the Historical Society of
+                        Pennsylvania. HSP retains the rights of all images unless otherwise noted.
+                        Possession of an HSP digital image does not constitute permission to use or
+                        publish it. Requests for digital imaging, other reproduction services, and
+                        the intended use of reproductions must be made in writing to the Rights and
+                        Reproductions Coordinator at rnr@hsp.org.</p>
+                </availability>
+                <date when="2015"/>
+            </publicationStmt>
+
+            <seriesStmt>
+                <title level="s" type="project" key="CARTOONS"/>
+            </seriesStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository key="ENT.000002473"/>
+                        <collection key="V64"/>
+                       
+                        <idno type="citation"
+                            >Bb 526 Sp24</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <bibl>
+                                <date from="1897-11-27"
+                                    >November 27, 1897</date>
+                                <extent>1 loose page</extent>
+                                <extent>
+                                    <dimensions type="image" unit="cm">
+                                        <height quantity="29.5"/>
+                                        <width quantity="22.3"/>
+                                    </dimensions>
+                                </extent>
+                                
+                                <listRelation>
+                                    <relation name="depicted" active="cartoons_symbols.xml#uncle_sam"/>
+                                </listRelation>
+                            </bibl>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+                <biblStruct>
+                    <analytic>
+                        <respStmt>
+                            <resp key="art">Artist</resp>
+                            <persName key="ENT.000003742"/>
+                        </respStmt>
+                        <title type="main" level="a">"Oh, Yes, Our Relations Are Perfectly AmicablePerfectly!"</title>
+                    </analytic>
+                    <monogr>
+                        <title type="marc245a" level="j"><orgName key="ENT.000003639"
+                            >Illustrated American</orgName></title>
+                        <imprint>
+                            <publisher><orgName key="ENT.000003640"
+                                >Illustrated American Publishing Company</orgName></publisher>
+                            <pubPlace>New York</pubPlace>
+                            <date from="1897-11-27"
+                                >November 27, 1897</date>
+                            <biblScope unit="volume">22</biblScope>
+                            <biblScope unit="issue">22</biblScope>     
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <projectDesc>
+                <p>The Historic Images, New Technologies (HINT) project aims to enhance description
+                    and discovery of the Historical Society of Pennsylvania's graphics materials and
+                    promote the linking and sharing of content among institutions and scholars. The
+                    project will result in an update to HSP's digital image viewer and an online
+                    digital history exhibit that will demonstrate the new viewer's capabilities and
+                    provide interpretive and contextual materials to encourage users to interact
+                    with historical images in new ways. This project was funded by a grant from the
+                    National Historical Publications and Records Commission's (NHPRC) Innovation in
+                    Archives and Documentary Editing program.</p>
+            </projectDesc>
+            <editorialDecl n="4">
+                <p>This electronic file was created using manual keying following the
+                    recommendations for Level 4 of "Best Practices for TEI in Libraries" guidelines
+                    v3.0.</p>
+                <p>This xml file uses unique entity identifiers, media file identifiers, and
+                    collection identifiers in HSP's Digital Library, available at
+                    http://digitallibrary.hsp.org.</p>
+
+            </editorialDecl>
+            <tagsDecl>
+                <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
+                <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
+                <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
+                <rendition scheme="css" xml:id="crossed-through">text-decoration:
+                    line-through</rendition>
+                <rendition scheme="other" xml:id="printed"/>
+                <rendition scheme="other" xml:id="typescript"/>
+                <rendition scheme="other" xml:id="handwritten"/>
+                <rendition scheme="other" xml:id="handwritten-underlined"/>
+                <rendition scheme="other" xml:id="handwritten-circled"/>
+                <rendition scheme="other" xml:id="handwritten-crossed-through"/>
+                <rendition scheme="other" xml:id="double-underline"/>
+                <rendition scheme="other" xml:id="stamp"/>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+        </encodingDesc>
+
+        <profileDesc>
+            <textClass>
+                <catRef target=""/>
+                <catRef target="cartoons_genres.xml#political_cartoons"/>
+               
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change who="DianeBiunno" when="2015-05-18">Encoded to basic level</change>
+            <change who="RachelMoloshok" when="2015-01-07">Template file created</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <facsimile>
+        <surface ulx="" uly="" lrx="" lry="">
+
+            <graphic
+                url="FIL.000094915"/>
+            
+            <zone n="1" xml:id="Title" points=""/>
+            <zone n="2" xml:id="Artist" points=""/>
+            <zone n="3" xml:id="Spain" points=""/>
+            <zone n="4" xml:id="Bar" points=""/>
+            
+        </surface>
+    </facsimile>
+
+    <text>
+
+        <front>
+            <div type="editorial_desc">
+                <p>Uncle Sam and a Spanish matador are at a bar having a drink.  They both wink and hold weapons behind their backs.  Uncle Sam holds are revolver and the matador holds a knife.</p>
+            </div>
+        </front>
+
+        <body>
+            <div type="image_transcription" facs="#Title" n="1">
+                <head><supplied resp="editorial">Title and heading</supplied></head>
+                <p><hi rendition="#bold">EDITION DE LUXE</hi></p>
+                <p>Price 10 Cents</p>
+                <p>November 27, 1897</p>
+                <p>THE ILLUSTRATED AMERICAN</p>
+                <p>"Oh, yes, our relations are perfectly amicable-perfectly!"</p>
+            </div>
+            
+            <div type="image_transcription" facs="#Artist" n="2">
+                <head><supplied resp="editorial">Signature</supplied></head>
+                <p>Harold Brown</p>
+                <p>P</p>
+            </div>
+            
+            <div type="image_transcription" facs="#Spain" n="3">
+                <head><supplied resp="editorial">Knife</supplied></head>
+                <p>SPAIN</p>
+            </div>
+            
+            <div type="image_transcription" facs="#Bar" n="4">
+                <head><supplied resp="editorial">Table of contents</supplied></head>
+                <p>THIS NUMBER CONTAINS</p>
+                <p><hi rendition="#bold">WAR or PEACE with SPAIN? By A.B de Guerville</hi></p>
+                <p>The Grill Room at Princeton Inn By Herbert S. Houston</p>
+                <p>WHY the POST OFFICE DOES NOT PAY By the Hon E.F. LOUD of California</p>
+                <p>Our Militia on the March Drawn By Charles D. Graves</p>
+                <p>Jolly Poverty in New York By James Realf, Jr</p>
+                <p>Story "My Last Game of Football!" By Helen Ray Kent</p>
+                <p>Fashions at the Horse Show By Helen C. Candee</p>
+                <p>The Recent Records in Football By Charles E. Paterson</p>
+                <p>Drama: "Miss Francis of Yale" By Albert White Vorse</p>
+            </div>
+        </body>
+
+        <back/>
+    </text>
+</TEI>
