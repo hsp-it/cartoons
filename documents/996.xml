@@ -1,248 +1,309 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/css" href="./tiny_TEI_template.css"?>
-<?oxygen RNGSchema="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="compact"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader xml:lang="English">
-        <fileDesc>
-            <titleStmt>
-                <title type="main"
-                    >TEI transcription of Emancipation</title>
-                <respStmt>
-                    <resp key="art">Artist</resp>
-                    <persName key="ENT.000000251">Thomas Nast</persName>
-                </respStmt>
-                <respStmt>
-                    <resp key="pbl">Publisher</resp>
-                    <orgName key="ENT.000000961">King &amp; Baird Printers</orgName>
-                </respStmt>
-                <respStmt>
-                    <resp key="trc">Transcribed by</resp>
-                    <persName key="ENT.000003545">Borden, Sara</persName>
-                </respStmt>
-                <respStmt>
-                    <resp key="mrk">Encoded by</resp>
-                    <persName key="ENT.000003545">Borden, Sara</persName>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <p>First edition, <date when="2015">2015</date></p>
-            </editionStmt>
-            <publicationStmt>
-                <publisher><orgName key="ENT.000002473">Historical Society of
-                    Pennsylvania</orgName></publisher>
-                <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
-                <idno type="filename">996</idno>
-                <availability status="restricted">
-                    <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of
-                        copyright only to original contributions made by the Historic Images, New
-                        Technologies (HINT) Project participants and other staff. HSP makes no claim
-                        of copyright to the original text. Permission is granted to download,
-                        transmit or otherwise reproduce, distribute or display the text
-                        contributions to this work claimed by HSP for non-profit educational
-                        purposes, provided that this header is included in its entirety. For
-                        inquiries about commercial uses, please contact the Historical Society of
-                        Pennsylvania. HSP retains the rights of all images unless otherwise noted.
-                        Possession of an HSP digital image does not constitute permission to use or
-                        publish it. Requests for digital imaging, other reproduction services, and
-                        the intended use of reproductions must be made in writing to the Rights and
-                        Reproductions Coordinator at rnr@hsp.org.</p>
-                </availability>
-                <date when="2015"/>
-            </publicationStmt>
-            <seriesStmt>
-                <title level="s" type="project" key="CARTOONS">Historic Images, New Technologies (HINT) Project</title>
-            </seriesStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <repository key="ENT.000002473">Historical Society of Pennsylvania</repository>
-                        <collection key="V65">Historical Society of Pennsylvania large graphics collection</collection>
-                        <idno type="citation">Bc 95 N269</idno>
-                    </msIdentifier>
-                    <msContents>
-                        <msItem>
-                            <bibl>
-                                <date from="1865-01-01" to="1865-12-31">circa 1865</date>
-                                <extent>One loose sheet.</extent>
-                                <listRelation>
-                                <relation name="depicted" active="ENT.000000447"/>
-                                </listRelation>
-                            </bibl>
-                        </msItem>
-                    </msContents>
-                    <history>
-                        <acquisition>This collection includes engravings, lithographs, blueprints, architectural drawings, sketches, and watercolors. The images, which include posters, advertisements, landscapes, historical scenes, still-lifes, and portraits, had both decorative and commercial purposes. Among the artists represented are John Sartain, Henry Inman, Albert Newsam, Frank Taylor, Joseph Pennell, and Peter Rothermel. Architects include Frank Furness, William Strickland, and George B. Roberts.</acquisition>
-                    </history>
-                </msDesc>
-                <biblStruct>
-                    <monogr>
-                        <respStmt>
-                            <resp key="art">Artist</resp>
-                            <persName key="ENT.000000251">Thomas Nast</persName>
-                        </respStmt>
-                        <respStmt>
-                            <resp key="pbl">Publisher</resp>
-                            <orgName key="ENT.000000961">King &amp; Baird Printers</orgName>
-                        </respStmt>
-                        <title type="main" level="m">Emancipation</title>
-                        <imprint>
-                            <publisher><orgName key="ENT.000000961">King &amp; Baird Printers</orgName></publisher>
-                            <pubPlace>Philadelphia</pubPlace>
-                            <date from="1865-01-01" to="1865-12-31">circa 1865</date>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <projectDesc>
-                <p>The Historic Images, New Technologies (HINT) project aims to enhance description
-                    and discovery of the Historical Society of Pennsylvania's graphics materials and
-                    promote the linking and sharing of content among institutions and scholars. The
-                    project will result in an update to HSP's digital image viewer and an online
-                    digital history exhibit that will demonstrate the new viewer's capabilities and
-                    provide interpretive and contextual materials to encourage users to interact
-                    with historical images in new ways. This project was funded by a grant from the
-                    National Historical Publications and Records Commission's (NHPRC) Innovation in
-                    Archives and Documentary Editing program.</p>
-            </projectDesc>
-            <editorialDecl n="4">
-                <p>This electronic file was created using manual keying following the
-                    recommendations for Level 4 of "Best Practices for TEI in Libraries" guidelines
-                    v3.0.</p>
-                <p>This xml file uses unique entity identifiers, media file identifiers, and
-                    collection identifiers in HSP's Digital Library, available at
-                    http://digitallibrary.hsp.org.</p>
-            </editorialDecl>
-            <tagsDecl>
-                <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
-                <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
-                <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
-                <rendition scheme="css" xml:id="crossed-through">text-decoration:
-                    line-through</rendition>
-                <rendition scheme="other" xml:id="printed"/>
-                <rendition scheme="other" xml:id="typescript"/>
-                <rendition scheme="other" xml:id="handwritten"/>
-                <rendition scheme="other" xml:id="handwritten-underlined"/>
-                <rendition scheme="other" xml:id="handwritten-circled"/>
-                <rendition scheme="other" xml:id="handwritten-crossed-through"/>
-                <rendition scheme="other" xml:id="double-underline"/>
-                <rendition scheme="other" xml:id="stamp"/>
-                <namespace name="http://www.tei-c.org/ns/1.0">
-                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
-                </namespace>
-            </tagsDecl>
-        </encodingDesc>
-        <profileDesc>
-            <textClass>
-                <catRef target="cartoons_taxonomies.xml#civil war"/>
-                <catRef target="cartoons_genres.xml#lithographs"/>
-                <catRef target="cartoons_taxonomies.xml#African_American"/>
-                <catRef target="cartoons_taxonomies.xml#slavery"/>
-                <catRef target="cartoons_taxonomies.xml#featured"/>
-            </textClass>
-        </profileDesc>
-        <revisionDesc>
-            <change who="SaraBorden" when="2015-03-31">Updated genres and taxononies</change>
-            <change who="SaraBorden" when="2015-02-24">Filled out header, added additional description information, upgraded encoding from basic level to featured</change>
-            <change who="RachelMoloshok" when="2015-01-07">Template file created</change>
-        </revisionDesc>
-    </teiHeader>
+<?xml version="1.0" encoding="utf-8"?>
 
-    <facsimile>
-        <surface ulx="" uly="" lrx="" lry="">
-            <graphic
-                url="FIL.000085260"/>
-            <zone n="1" xml:id="chase" points=""/>
-            <zone n="2" xml:id="auction" points=""/>
-            <zone n="3" xml:id="abuse" points=""/>
-            <zone n="4" xml:id="cerberus" points=""/>
-            <zone n="5" xml:id="emancipation" points=""/>
-            <zone n="6" xml:id="freedom" points=""/>
-            <zone n="7" xml:id="family" points=""/>
-            <zone n="8" xml:id="lincoln" points=""/>
-            <zone n="9" xml:id="justice" points=""/>
-            <zone n="10" xml:id="homeownership" points=""/>
-            <zone n="11" xml:id="school" points=""/>
-            <zone n="12" xml:id="payment" points=""/>
-            <zone n="13" xml:id="repository" points=""/>
-            <zone n="14" xml:id="donor" points=""/>
-            <zone n="15" xml:id="publisher" points=""/>
-            <zone n="16" xml:id="signature" points=""/>
-        </surface>
-    </facsimile>
-    <text>
-        <front>
-            <div type="editorial_desc">
-                <p>Cartoon depicts African American life both before and after the issuing of the Emancipation Proclamation. An idealized version of African American life is featured in the illustration along with renderings of the depravities of slave life. A large center circle shows an African American family (mother, father, children, grandparents) in a home going about daily life. Below this center circle is a oval portrait of Abraham Lincoln. Flanking the main circle and Lincoln portrait is complex imagery showing of hardships facing African Americans during slavery and the benefits of freedom following the Emancipation Proclamation.</p>
-         </div>
-        </front>
-        <body>
-            <div type="image_annotation" facs="#chase" n="1">
-                <head><supplied resp="editorial">Chase Scene</supplied></head>
-                <p>This scene depicts fugitive slaves being chased through a swamp in the Confederate South prior to emancipation.</p>
-            </div>
-            <div type="image_annotation" facs="#auction" n="2">
-                <head><supplied resp="editorial">Auction</supplied></head>
-                <p>This scene depicts an African American slave being publicly auctioned as his wife, children, and other bystanders look on. The emphasis here is on the male slave's separation from his family against his will.</p>
-            </div>
-            <div type="image_annotation" facs="#abuse" n="3">
-                <head><supplied resp="editorial">Abuse</supplied></head>
-                <p>This third and final scene depicting the hardships of the life of slavees shows a man beting an African American woman with a whip as she is held down over a tree stump. Meanwhile, another slave is being painfully branded on his back. Two other enslaved people await their turn while a man wearing a tophat and smoking a pipe looks on.</p>
-            </div>
-            <div type="image_annotation" facs="#cerberus" n="3">
-                <head><supplied resp="editorial">Cerberus</supplied></head>
-                <p>Cerberus is a three-headed dog with a serpent's tail who, in Greek and Roman mythology, guards the entrance to the underworld. Here, one woman holds Cerberus's leash while another holds a flaming torch; all three flee from Freedom and Emancipation.</p>
-            </div>
-            <div type="image_transcription" facs="#emancipation" n="5">
-                <head><supplied resp="editorial">Emancipation</supplied></head>
-                <p>EMANCIPATION.</p>
-                <p>The word is depicted on a field of shining rays of light, as though from a sunrise.</p>
-            </div>
-            <div type="image_annotation" facs="#freedom" n="6">
-                <head><supplied resp="editorial">Freedom</supplied></head>
-                <p>Nast has included a rendering of the famous statue, "Freedom," that is mounted atop the dome of the Capitol building in Washington, D.C. This statue was cast by enslaved laborers, the most well-known of whom was Philip Reid. Reid was owned by the sculptor Clark Mills, who was commissioned to cast a version of Thomas Crawford's "Freedom" as the crowning detail of the Capitol dome.</p>
-            </div>
-            <div type="image_annotation" facs="#family" n="7">
-                <head><supplied resp="editorial">Family</supplied></head>
-                <p>In the central scene of this cartoon is three generations of an African American family enjoying life post-emancipation. A woman cooks on a stove labeled "Union" while a man bounces a baby on his knee. A male and female child look on. There is also an older woman reading and a couple having a conversation in the background. Presiding over the scene is a framed portrait of Abraham Lincoln hanging next to a banjo on the wall.</p>
-            </div>
-            <div type="image_annotation" facs="#lincoln" n="8">
-                <head><supplied resp="editorial">Lincoln Portrait</supplied></head>
-                <p>Abraham Lincoln, sixteenth President of the United States, issued the Emancipation Proclamation on January 1, 1863. The document declared "that all persons held as slaves" within the states in rebellion against the Union "henceforward shall be free." Though momentous, this document had many limitations and did not free any slaves in those slave-holding states which remained loyal to the Union during the Civil War.</p>
-            </div>
-            <div type="image_annotation" facs="#justice" n="9">
-                <head><supplied resp="editorial">Justice</supplied></head>
-                <p>A personified rendering of Justice, holding olive branch and scales, reaches up to the depictions of freedom and emancipation. Behind her, two men in what appear to be Union soldier uniforms enthusiastically plant a flag.</p>
-            </div>
-            <div type="image_annotation" facs="#homeownership" n="10">
-                <head><supplied>Homeownership</supplied></head>
-                <p>One of the advantages of African-American life after the Emancipation Proclamation that Nast imagines is homeownership, here depicted as a man playing a banjo for a woman as they sit on the shores of an idyllic lake against the background of a peaceful town.</p>
-            </div>
-            <div type="image_annotation" facs="#school" n="11">
-                <head><supplied resp="editorial">Public School</supplied></head>
-                <p>Another benefit of life after emancipation is show in children gleefuly leaving their mother at home and entering a building labeled, Public School," over which the American flag flies.</p>
-            </div>
-            <div type="image_annotation" facs="#payment" n="12">
-            <head><supplied resp="editorial">Payment for Labor</supplied></head>
-                <p>A third benefit of a life free from slavery is earning a wage for work. This portion of the cartoon shows an African American man coming in from the cotton field and receiving his pay for a day's work at the cashier's window while others line up for their money behind him and a child looks on.</p>
-            </div>
-            <div type="image_transcription" facs="#repository" n="13">
-                <head><supplied resp="editorial">Stamp</supplied></head>
-                <p><add>HISTORICAL SOCIETY OF PENNSYLVANIA</add></p>
-            </div>
-            <div type="image_transcription" facs="#donor" n="14">
-                <head><supplied resp="editorial">Donor</supplied></head>
-                <p>From <persName key="ENT.000003587">H.N. Smith</persName> 5.15.1865</p>
-            </div>
-            <div type="image_transcription" facs="#publisher" n="15">
-                <head><supplied resp="editorial">Publisher</supplied></head>
-                <p>King &amp; Baird, Printers, 607 Sansom Street, Philadelphia.</p>
-            </div>
-            <div type="image_transcription" facs="#signature" n="16">
-                <head><supplied>Artist's Signature</supplied></head>
-                <p><persName key="ENT.000000251">Th. Nast</persName></p>
-            </div>
-        </body>
-    </text>
+<?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="English">
+    <fileDesc>
+      <titleStmt>
+        <title type="main">TEI transcription of Emancipation</title>
+        <respStmt>
+          <resp key="art">artist</resp>
+          <persName key="ENT.000000251">Nast, Thomas, 1840-1902</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="trc">Transcribed by</resp>
+          <persName key="ENT.000003545">Borden, Sara</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="mrk">Encoded by</resp>
+          <persName key="ENT.000003545">Borden, Sara</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="pfr">Proofread by</resp>
+          <persName key="ENT.000003368">Moloshok, Rachel</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="prt">printer</resp>
+          <orgName key="ENT.000000961">King &amp; Baird</orgName>
+        </respStmt>
+        <respStmt>
+          <resp key="pbl">publisher</resp>
+          <orgName key="ENT.000000961">King &amp; Baird</orgName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <p>First edition, <date when="2015">2015</date></p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher><orgName key="ENT.000002473">Historical Society of
+          Pennsylvania</orgName></publisher>
+        <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
+        <idno type="filename">996</idno>
+        <availability status="restricted">
+          <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of copyright only
+            to original contributions made by the Historic Images, New Technologies (HINT) Project
+            participants and other staff. HSP makes no claim of copyright to the original text.
+            Permission is granted to download, transmit or otherwise reproduce, distribute or
+            display the text contributions to this work claimed by HSP for non-profit educational
+            purposes, provided that this header is included in its entirety. For inquiries about
+            commercial uses, please contact the Historical Society of Pennsylvania. HSP retains the
+            rights of all images unless otherwise noted. Possession of an HSP digital image does not
+            constitute permission to use or publish it. Requests for digital imaging, other
+            reproduction services, and the intended use of reproductions must be made in writing to
+            the Rights and Reproductions Coordinator at rnr@hsp.org.</p>
+        </availability>
+        <date when="2015">2015</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="project" key="CARTOONS">Historic Images, New Technologies (HINT)
+          Project</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository key="ENT.000002473">Historical Society of Pennsylvania</repository>
+            <collection key="V65">Historical Society of Pennsylvania large graphics
+              collection</collection>
+            <idno type="citation">Bc 95 N269</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <bibl>
+                <date from="1865-01-01" to="1865-12-31">circa 1865</date>
+                <extent>1 loose sheet</extent>
+                <listRelation>
+                  <relation name="depicted" active="ENT.000000447"/>
+                  <relation name="depicted" active="cartoons_symbols.xml#justice"/>
+                  <relation name="depicted" active="cartoons_symbols.xml#cerberus"/>
+                </listRelation>
+              </bibl>
+            </msItem>
+          </msContents>
+          <history>
+            <acquisition/>
+          </history>
+        </msDesc>
+        <biblStruct>
+          <monogr>
+            <respStmt>
+              <resp key="art">artist</resp>
+              <persName key="ENT.000000251">Nast, Thomas, 1840-1902</persName>
+            </respStmt>
+            <respStmt>
+              <orgName key="ENT.000000961">King &amp; Baird</orgName>
+              <resp key="prt">printer</resp>
+            </respStmt>
+            <title type="main" level="m">Emancipation</title>
+            <imprint>
+              <publisher><orgName key="ENT.000000961">King &amp; Baird
+                Printers</orgName></publisher>
+              <pubPlace>Philadelphia</pubPlace>
+              <date from="1865-01-01" to="1865-12-31">circa 1865</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The Historic Images, New Technologies (HINT) project aims to enhance description and
+          discovery of the Historical Society of Pennsylvania's graphics materials and promote the
+          linking and sharing of content among institutions and scholars. The project will result in
+          an update to HSP's digital image viewer and an online digital history exhibit that will
+          demonstrate the new viewer's capabilities and provide interpretive and contextual
+          materials to encourage users to interact with historical images in new ways. This project
+          was funded by a grant from the National Historical Publications and Records Commission's
+          (NHPRC) Innovation in Archives and Documentary Editing program.</p>
+      </projectDesc>
+      <editorialDecl n="4">
+        <p>This electronic file was created using manual keying following the recommendations for
+          Level 4 of "Best Practices for TEI in Libraries" guidelines v3.0.</p>
+        <p>This xml file uses unique entity identifiers, media file identifiers, and collection
+          identifiers in HSP's Digital Library, available at http://digitallibrary.hsp.org.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
+        <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
+        <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
+        <rendition scheme="css" xml:id="crossed-through">text-decoration: line-through</rendition>
+        <rendition scheme="other" xml:id="printed"/>
+        <rendition scheme="other" xml:id="typescript"/>
+        <rendition scheme="other" xml:id="handwritten"/>
+        <rendition scheme="other" xml:id="handwritten-underlined"/>
+        <rendition scheme="other" xml:id="handwritten-circled"/>
+        <rendition scheme="other" xml:id="handwritten-crossed-through"/>
+        <rendition scheme="other" xml:id="double-underline"/>
+        <rendition scheme="other" xml:id="stamp"/>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <catRef target="cartoons_genres.xml#lithographs"/>
+        <catRef target="cartoons_genres.xml#political_cartoons"/>
+        <catRef target="cartoons_taxonomies.xml#featured"/>
+        <catRef target="cartoons_taxonomies.xml#civil_war"/>
+        <catRef target="cartoons_taxonomies.xml#African_American"/>
+        <catRef target="cartoons_taxonomies.xml#slavery"/>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change who="RachelMoloshok" when="2015-05-18">Proofreading</change>
+      <change who="SaraBorden" when="2015-03-31">Updated genres and taxononies</change>
+      <change who="SaraBorden" when="2015-02-24">Filled out header, added additional description
+        information, upgraded encoding from basic level to featured</change>
+      <change who="RachelMoloshok" when="2015-01-07">Template file created</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="100" lry="100">
+      <graphic url="FIL.000085260"/>
+      <zone n="1" xml:id="chase"
+        points="8.83,10.84 23.32,11.06 21.95,17.42 21.07,23.98 18.91,27.89 14.45,29.74 8.91,28.88"/>
+      <zone n="2" xml:id="auction"
+        points="8.91,29.94 13.52,29.48 22.34,32.33 27.73,34.72 29.94,38.03 29.94,41.48 29.55,45.45 29.4,50.69 29.94,54.8 31.16,59.57 23.17,61.56 22.19,59.63 8.67,59.63"/>
+      <zone n="3" xml:id="abuse"
+        points="8.95,60.48 19.64,59.91 23.54,62.18 28.3,60.79 30.68,60.85 32.48,62.24 34.29,65.18 35.85,67.45 37.77,69.39 39.95,71.11 41.43,72.28 42.98,82.98 8.94,83.2"/>
+      <zone n="3" xml:id="cerberus"
+        points="27.4,21.82 29.2,21.76 31.19,21.89 33.72,20.29 36.74,22.77 33.94,31.18 31.85,34.32 28.54,34.25 25.6,26.18 23.11,23.9 22.58,19.94"/>
+      <zone n="5" xml:id="emancipation"
+        points="33.23,18.08 35.21,17.1 36.75,16.22 38.29,15.59 39.75,15.22 42.23,14.74 44.38,14.25 46.81,13.94 48.92,13.85 51.42,13.87 54,14.16 55.77,14.54 57.76,15.05 59.54,15.42 61.11,15.95 63.07,16.83 64.98,17.99 64.19,20.22 61.88,19.08 59.94,18.44 58.1,17.94 56.37,17.5 54.35,17.1 52.19,16.76 50.56,16.73 47.63,16.53 45.22,16.86 42.58,17.33 41.12,17.77 39.13,18.24 37.2,18.98 34.06,20.89"/>
+      <zone n="6" xml:id="freedom"
+        points="50.22,21.3 50.24,22.39 49.29,22.5 48.31,22.54 48.43,21.51 47.7,19.14 47.6,16.57 48.18,14.08 48.77,11.31 49.62,11.36 50.46,15.75 50.41,18.17 50.07,18.6"/>
+      <zone n="7" xml:id="family"
+        points="35.76,28.65 37.15,27.24 38.68,25.74 39.9,24.81 41.59,23.66 43.28,22.73 45.24,21.8 47.62,21.66 49.94,21.52 51.69,21.66 53.49,22.02 55.28,22.73 57.08,23.52 58.99,24.97 60.77,26.6 62.1,28.09 63.37,29.88 64.48,31.6 65.65,33.53 66.49,35.74 67.44,38.39 68.13,41.18 68.45,43.9 68.77,46.4 68.61,49.9 68.24,53.69 67.55,56.55 66.65,59.55 65.28,62.77 63.43,65.99 61.1,68.99 58.98,71.21 56.82,72.71 55.92,68.78 54.86,66.63 53.54,64.99 51.79,63.91 49.63,63.34 47.67,63.41 45.82,64.34 43.65,66.42 42.44,69.28 41.69,72.35 38.84,70.13 36.41,67.92 33.44,63.74 31.96,60.24 30.67,56.13 30.04,52.69 29.73,49.49 29.73,47.26 29.82,45.44 30.13,42.61 30.89,39.16 31.61,36.57 32.54,34.09 33.88,31.37"/>
+      <zone n="8" xml:id="lincoln"
+        points="46.59,63.67 48.72,62.97 51.19,63.48 53.03,64.63 54.69,66.49 55.64,68.48 56.16,70.21 56.54,72.84 56.35,75.85 55.17,78.99 53.98,80.78 52.23,82.13 50.43,82.83 48.48,82.77 46.21,82.26 44.36,80.78 43.22,79.05 42.13,76.1 41.66,72.84 42.32,69.44 43.46,66.94 44.74,64.95"/>
+      <zone n="9" xml:id="justice"
+        points="62.39,19.52 63.57,20.65 64.4,21.65 67.76,22.65 67.89,18.46 70.39,20.41 71.87,20.65 72.96,24.19 72.7,28.27 71.3,34.18 69.07,34.59 66.23,33.17 64.18,30.04 64.31,27.68 63.92,25.9 62.78,22.6"/>
+      <zone n="10" xml:id="homeownership"
+        points="84.17,11.09 89.17,11.09 89.08,30.97 84.91,28.78 78.49,30.31 80.79,24.94 77.56,19.24 79.18,11.48"/>
+      <zone n="11" xml:id="school"
+        points="77.12,32.36 78.64,30.37 80.55,29.58 82.51,29.71 84.13,29.97 85.3,29.38 86.63,30.37 87.85,30.31 88.98,29.97 89.08,58.21 83.1,59.27 78.05,60.33 74.47,58.8 70.55,58.67 68.05,57.74 68.88,52.44 69.28,47.6 68.98,42.43 70.31,37.73 73.59,35.61 76.38,34.88"/>
+      <zone n="12" xml:id="payment"
+        points="74.72,60.06 88.98,62.71 89.22,78.69 86.19,80.41 82.46,78.49 69.77,83.26 53.05,82.99 55.99,79.02 57.07,75.17 57.46,73.25 59.82,71.59 61.68,69.08 63.64,66.03 65.31,63.04 67.22,59.73"/>
+      <zone n="13" xml:id="repository"
+        points="91.64,87.29 91.15,85.77 89.61,85.14 88.36,85.27 87.32,86.01 86.9,87.86 87.55,89.1 89.03,89.7 91,89.13"/>
+      <zone n="14" xml:id="donor"
+        points="96.41,95.94 96.53,97.19 99.47,97.4 99.53,98.97 94.89,98.99 94.8,97.95 87.06,98.07 87.19,96.23"/>
+      <zone n="15" xml:id="publisher" points="9.45,83.36 30.62,83.43 30.72,85.08 9.45,85.28"/>
+      <zone n="16" xml:id="signature"
+        points="79.77,80.3 83.08,78.93 85.06,79.8 84.59,81.48 81.66,83.19"/>
+    </surface>
+  </facsimile>
+  <text>
+    <front>
+      <div type="editorial_desc">
+        <p>Cartoon depicts African American life both before and after the issuing of the
+          Emancipation Proclamation. An idealized version of African American life is featured in
+          the illustration along with renderings of the depravities of slave life. A large center
+          circle shows an African American family (mother, father, children, grandparents) in a home
+          going about daily life. Below this center circle is a oval portrait of Abraham Lincoln.
+          Flanking the main circle and Lincoln portrait is complex imagery showing of hardships
+          facing African Americans during slavery and the benefits of freedom following the
+          Emancipation Proclamation.</p>
+      </div>
+    </front>
+    <body>
+      <div type="image_annotation" n="1" facs="#chase">
+        <head>Chase Scene</head>
+        <p>This scene depicts fugitive slaves being chased through a swamp in the South prior to
+          emancipation.</p>
+      </div>
+      <div type="image_annotation" n="2" facs="#auction">
+        <head>Auction</head>
+        <p>This scene depicts an African American slave being publicly auctioned as his wife,
+          children, and other bystanders look on. The emphasis here is on the male slave's
+          separation from his family against his will.</p>
+      </div>
+      <div type="image_annotation" n="3" facs="#abuse">
+        <head>Abuse</head>
+        <p>This third and final scene depicting the hardships of the life of slaves shows a white
+          man beating an African American woman with a whip as she is held down over a tree stump.
+          Meanwhile, another slave is being painfully branded on his back. Two other enslaved people
+          await their turn while a man wearing a top hat and smoking a pipe looks on.</p>
+      </div>
+      <div type="image_annotation" n="3" facs="#cerberus">
+        <head>Cerberus</head>
+        <p>Cerberus is a three-headed dog with a serpent's tail who, in Greek and Roman mythology,
+          guards the entrance to the underworld. Here, one woman holds Cerberus's leash while
+          another holds a flaming torch; all three flee from Freedom and Emancipation.</p>
+      </div>
+      <div type="image_transcription" n="5" facs="#emancipation">
+        <head><supplied resp="editorial">Emancipation</supplied></head>
+        <p>EMANCIPATION.</p>
+        <note type="editorial" n="1">The word is depicted on a field of shining rays of light, as
+          though from a sunrise.</note>
+      </div>
+      <div type="image_annotation" n="6" facs="#freedom">
+        <head>Freedom</head>
+        <p>Nast has included a rendering of the famous statue, "Freedom," that is mounted atop the
+          dome of the Capitol building in Washington, D.C. This statue was cast by enslaved
+          laborers, the most well-known of whom was Philip Reid. Reid was owned by the sculptor
+          Clark Mills, who was commissioned to cast a version of Thomas Crawford's "Freedom" as the
+          crowning detail of the Capitol dome.</p>
+      </div>
+      <div type="image_annotation" n="7" facs="#family">
+        <head>Family</head>
+        <p>In the central scene of this cartoon is three generations of an African American family
+          enjoying life post-emancipation. A woman cooks on a stove labeled "Union" while a man
+          bounces a baby on his knee. A male and female child look on. There is also an older woman
+          reading and a couple having a conversation in the background. Presiding over the scene is
+          a framed portrait of Abraham Lincoln hanging next to a banjo on the wall.</p>
+      </div>
+      <div type="image_annotation" n="8" facs="#lincoln">
+        <head>Lincoln Portrait</head>
+        <p>Abraham Lincoln, 16th president of the United States, issued the Emancipation
+          Proclamation on January 1, 1863. The document declared "that all persons held as slaves"
+          within the states in rebellion against the Union "henceforward shall be free." Though
+          momentous, this document had many limitations and did not free any slaves in those
+          slave-holding states that remained loyal to the Union during the Civil War.</p>
+      </div>
+      <div type="image_annotation" n="9" facs="#justice">
+        <head><rs ref="cartoons_symbols.xml#justice">Justice</rs></head>
+        <p>A personified rendering of Justice, holding olive branch and scales, reaches up to the
+          depictions of freedom and emancipation. Behind her, two men in what appear to be Union
+          army uniforms enthusiastically plant a flag.</p>
+      </div>
+      <div type="image_annotation" n="10" facs="#homeownership">
+        <head>Homeownership</head>
+        <p>One of the advantages of African-American life after the Emancipation Proclamation that
+          Nast imagines is homeownership, here depicted as a man playing a banjo for a woman as they
+          sit on the shores of an idyllic lake against the background of a peaceful town.</p>
+      </div>
+      <div type="image_annotation" n="11" facs="#school">
+        <head>Public School</head>
+        <p>Another benefit of life after emancipation is shown in children gleefully leaving their
+          mother at home and entering a building labeled Public School," over which the American
+          flag flies.</p>
+      </div>
+      <div type="image_annotation" n="12" facs="#payment">
+        <head>Payment for Labor</head>
+        <p>A third benefit of a life free from slavery is earning a wage for work. This portion of
+          the cartoon shows an African American man coming in from the cotton field and receiving
+          his pay for a day's work at the cashier's window while others line up for their money
+          behind him and a child looks on.</p>
+      </div>
+      <div type="image_transcription" n="13" facs="#repository">
+        <head><supplied resp="editorial">Stamp</supplied></head>
+        <p><add><orgName key="ENT.000002473">HISTORICAL SOCIETY OF PENNSYLVANIA</orgName></add></p>
+      </div>
+      <div type="image_transcription" n="14" facs="#donor">
+        <head><supplied resp="editorial">Donor</supplied></head>
+        <p>From <persName key="ENT.000003587">H.N. Smith</persName> 5.15.1865</p>
+      </div>
+      <div type="image_transcription" n="15" facs="#publisher">
+        <head><supplied resp="editorial">Publisher</supplied></head>
+        <p><orgName key="ENT.000000961">King &amp; Baird</orgName>, Printers, 607 Sansom Street,
+          Philadelphia.</p>
+      </div>
+      <div type="image_transcription" n="16" facs="#signature">
+        <head><supplied>Artist's Signature</supplied></head>
+        <p><persName key="ENT.000000251">Th. Nast</persName></p>
+      </div>
+    </body>
+  </text>
 </TEI>
