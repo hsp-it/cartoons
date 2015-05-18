@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<?oxygen RNGSchema="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="compact"?>
+<?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="English">
     <fileDesc>
       <titleStmt>
         <title type="main">TEI transcription of The Great "Cannon Game"</title>
-        <author/>
         <respStmt>
           <resp key="art">artist</resp>
           <persName key="ENT.000003590">Tenniel, John, 1820-1914</persName>
@@ -27,6 +26,10 @@
         <respStmt>
           <resp key="pfr">Proofread by</resp>
           <persName key="ENT.000003545">Borden, Sara</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="pfr">Proofread by</resp>
+          <persName key="ENT.000003368">Moloshok, Rachel</persName>
         </respStmt>
         <respStmt>
           <resp key="pbl">publisher</resp>
@@ -116,7 +119,6 @@
             </imprint>
           </monogr>
         </biblStruct>
-        <bibl/>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -158,14 +160,19 @@
       <textClass>
         <catRef target="cartoons_genres.xml#lithographs"/>
         <catRef target="cartoons_genres.xml#clippings"/>
+        <catRef target="cartoons_genres.xml#political_cartoons"/>
         <catRef target="cartoons_taxonomies.xml#featured"/>
         <catRef target="cartoons_taxonomies.xml#lesson_plan"/>
         <catRef target="cartoons_taxonomies.xml#civil_war"/>
         <catRef target="cartoons_taxonomies.xml#culture"/>
+        <catRef target="cartoons_taxonomies.xml#war"/>
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change who="SaraBorden" when="2015-04-14">Exported from Collective Access and basic proofreading.</change>
+      <change who="RachelMoloshok" when="2015-05-18">Made corrections and re-exported from
+        Collective Access</change>
+      <change who="SaraBorden" when="2015-04-14">Exported from Collective Access and basic
+        proofreading.</change>
       <change who="SaraBorden" when="2015-03-31">Added genres and taxonomies, created zones,
         provided description, started transcription.</change>
       <change who="RachelMoloshok" when="2015-02-09">Updated old shell file header; passing along to
@@ -180,11 +187,9 @@
         points="20.97,79.69 20.31,76.17 19.92,75.28 20.36,71.38 21.77,69.51 22.62,64.38 20.44,49.58 19.19,46.03 18.25,36.67 17.47,34.69 17.86,31.54 19.5,26.9 20.98,22.66 22.39,21.48 25.04,21.18 25.36,18.42 26.29,17.04 28.17,15.66 29.34,15.66 30.59,15.96 32.46,17.83 31.91,21.28 31.91,23.85 31.06,25.72 31.06,27.89 29.88,28.97 29.88,31.24 31.37,34.3 31.21,36.17 28.95,37.95 29.76,78.95 31.26,80.57 30.21,82.11 29.82,83.16 20.88,82.89 20.66,81.23"/>
       <zone n="3" xml:id="observer"
         points="38.24,19.67 40.17,19.73 41.96,20.83 43.22,23.64 42.54,27.06 42.3,30.6 40.32,31.09 37.27,29.32 36.06,25.78 36.4,21.57"/>
-      <zone n="4" xml:id="quotation"
-        points="54,24.33 57.03,23.7 63.58,24.01 66.6,24.56 68.15,25.18 70.87,26.59 70.25,27.68 68.21,27.99 66.17,29.01 63.76,29.16 63.2,30.18 63.95,32.21 61.6,32.68 60.05,32.99 58.82,34 59,35.33 57.03,35.49 57.58,33.3 58.2,32.36 57.15,31.58 57.03,30.26 58.2,29.71 54.06,25.89"/>
-      <zone n="5" xml:id="Davis"
-        points="49.77,29.52 50.74,28.3 52.26,27.86 54.04,28.11 55.57,29.29 55.95,30.53 56.12,32.79 55.78,35.04 55.44,35.69 55.23,37.25 57.23,39.18 59.02,40.42 62.04,41.76 63.83,43.54 65.49,44.51 68.17,45.85 69.87,45.37 71.23,46.28 73.19,46.76 71.79,48.54 67.49,48.16 62.59,47.19 60.47,46.12 45.61,45.47 45.74,49.5 47.4,58.59 48.51,61.87 48.59,64.99 49.87,69.4 51.5,73.35 53.24,74.18 55.39,74.78 54.67,76.14 48.46,75.69 47.86,72.6 44.16,61.96 41.65,52.57 41.47,61.89 41.05,63.62 41.71,68.6 42.49,71.01 41.89,74.78 39.82,76.17 38.08,75.42 39.1,70.74 37.65,58.38 36.29,47.52 36.59,44.83 33.48,44.77 33.65,43.54 36.67,43.38 36.72,41.76 36.08,40.04 36.04,37.09 37.74,32.09 43.57,31.66 45.95,31.17 48.85,32.25"/>
-      <zone n="6" xml:id="title"
+      <zone n="4" xml:id="Davis"
+        points="37.15,32.41 34.85,36.68 37.83,71.01 37.29,76.31 55.68,77.16 55.41,73.06 50.81,70.5 49.19,60.76 47.84,46.58 53.25,42.14 58.52,47.27 70.83,49.66 73.13,47.1 56.49,38.04 70.01,28.31 70.83,26.77 64.74,23.86 53.65,24.03 51.22,27.28"/>
+      <zone n="5" xml:id="title"
         points="32.63,86.32 32.69,83.55 66.56,83.47 66.76,86.32 82.5,86.66 82.63,88.08 15.96,88.33 15.89,86.74"
       />
     </surface>
@@ -201,36 +206,39 @@
     </front>
     <body>
       <div type="image_transcription" n="1" facs="#publication">
-        <head><supplied resp="editorial">Publisher</supplied></head>
-        <p>PUNCH, OR THE LONDON CHARIVARI.-MAY 9, 1863.</p>
+        <head>
+          <supplied resp="editorial">Publisher</supplied>
+        </head>
+        <p><orgName key="ENT.000003323">PUNCH, OR THE LONDON CHARIVARI</orgName>.-<date
+            when="1863-05-09">MAY 9, 1863</date>.</p>
       </div>
       <div type="image_annotation" n="2" facs="#Lincoln">
-        <head><supplied resp="editorial">Abraham Lincoln</supplied></head>
-        <p>Here, Lincoln wears the clothes of Uncle Sam while he jealously looks on as Davis scores
-          during a pool game. This is an allusion to the secession of South Carolina and Confederate
-          forces overtaking Charleston. Lincoln jealously wishes he could strike some victories for
-          the Union in the quotation below the title.</p>
+        <head><persName key="ENT.000000447">Abraham Lincoln</persName></head>
+        <p>Here, Lincoln wears the clothes of <rs ref="cartoons_symbols.xml#uncle_sam">Uncle
+            Sam</rs>, looking on as <persName key="ENT.000001041">Davis</persName> scores during a
+          pool game. This is an allusion to the secession of South Carolina and Confederate forces
+          overtaking Charleston. Lincoln jealously wishes he could strike some victories for the
+          Union in the quotation below the title.</p>
       </div>
       <div type="image_annotation" n="3" facs="#observer">
-        <head><supplied resp="editorial"/></head>
-        <p>This bored-looking character watches over the Lincoln-Davis match.</p>
+        <head>Observer</head>
+        <p>This bored-looking character watches over the match.</p>
       </div>
-      <div type="image_transcription" n="4" facs="#quotation">
-        <head><supplied resp="editorial">Speech Bubble</supplied></head>
-        <p>Hurrah for Charleston :</p>
-        <p>that's another</p>
-        <p>to me</p>
+      <div type="image_transcription" n="4" facs="#Davis">
+        <head>
+          <supplied resp="editorial"><persName key="ENT.000001041">Jefferson
+            Davis</persName></supplied>
+        </head>
+        <p>Hurrah for Charleston! that's another to me</p>
       </div>
-      <div type="image_annotation" n="5" facs="#Davis">
-        <head><supplied resp="editorial">Jefferson Davis</supplied></head>
-        <p>Davis lines up his pool cue to take a shot while looking very self-satisfied and gloating
-          over the fall of Charleston to Confederate troops.</p>
-      </div>
-      <div type="image_transcription" n="6" facs="#title">
-        <head><supplied resp="editorial">Title</supplied></head>
+      <div type="image_transcription" n="5" facs="#title">
+        <head>
+          <supplied resp="editorial">Title</supplied>
+        </head>
         <p>THE GREAT "CANNON GAME."</p>
-        <p>ABE LINCOLN (ASIDE). "DARN'D IF HE AIN'T SCORED AG'IN!-WISH I COULD MAKE A FEW <hi
-            rendition="#italics">WINNING</hi> HAZARDS FOR A CHANGE.</p>
+        <p><persName key="ENT.000000447">ABE LINCOLN</persName> (ASIDE). "DARN'D IF HE AIN'T SCORED
+          AG'IN!-WISH I COULD MAKE A FEW <hi rendition="#italics">WINNING</hi> HAZARDS FOR A
+          CHANGE.</p>
       </div>
     </body>
   </text>
