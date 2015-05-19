@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
 
+<?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 
     <teiHeader xml:lang="English">
@@ -9,11 +9,13 @@
 
             <titleStmt>
                 <title type="main"
-                    >TEI transcription of "Oh, Yes, Our Relations Are Perfectly Amicable-Perfectly!"</title>
+                    >TEI transcription of Polly Got a Cracker </title>
                 <respStmt>
-                    <resp key="art">artist</resp>
-                    <persName key="ENT.000003742">Brown, Harold</persName>
+                    <resp key="art">Artist</resp>
+                    <persName key="ENT.000003547"
+                        >Charles Nelan</persName>
                 </respStmt>
+                
                 <respStmt>
                     <resp key="trc">Transcribed by</resp>
                     <persName key="ENT.000003544">Biunno, Diane</persName>
@@ -23,12 +25,7 @@
                     <resp key="mrk">Encoded by</resp>
                     <persName key="ENT.000003544">Biunno, Diane</persName>
                 </respStmt>
-
-            <respStmt>
-          <resp key="pbl">publisher</resp>
-          <orgName key="ENT.000003640">The Illustrated American Publishing Company</orgName>
-        </respStmt>
-      </titleStmt>
+            </titleStmt>
 
             <editionStmt>
                 <p>First edition, <date when="2015">2015</date></p>
@@ -39,7 +36,7 @@
                     Pennsylvania</orgName></publisher>
                 <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
                 <idno type="filename"
-                    >12379</idno>
+                    >11950</idno>
                 <availability status="restricted">
                     <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of
                         copyright only to original contributions made by the Historic Images, New
@@ -55,68 +52,72 @@
                         the intended use of reproductions must be made in writing to the Rights and
                         Reproductions Coordinator at rnr@hsp.org.</p>
                 </availability>
-                <date when="2015">2015</date>
+                <date when="2015"/>
             </publicationStmt>
 
             <seriesStmt>
-                <title level="s" type="project" key="CARTOONS">Historic Images, New Technologies (HINT) Project</title>
+                <title level="s" type="project" key="CARTOONS"/>
             </seriesStmt>
 
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <repository key="ENT.000002473">Historical Society of Pennsylvania</repository>
-                        <collection key="V64">Historical Society of Pennsylvania medium graphics collection</collection>
-                       
+                        <repository key="ENT.000002473"/>
+                        <collection key="0117">Hampton L. Carson Papers</collection>
+                        
                         <idno type="citation"
-                            >Bb 526 Sp24</idno>
+                            ><idno type="box">51</idno>
+                            <idno type="folder">9</idno>
+                        </idno>
                     </msIdentifier>
                     <msContents>
                         <msItem>
                             <bibl>
-                                <date from="1897-11-27"
-                                    >November 27, 1897</date>
+                                <date from="1903-05-16"
+                                    >May 16, 1903</date>
                                 <extent>1 loose page</extent>
                                 <extent>
                                     <dimensions type="image" unit="cm">
-                                        <height quantity="29.5"/>
-                                        <width quantity="22.3"/>
+                                        <height quantity="35"/>
+                                        <width quantity="26.5"/>
                                     </dimensions>
                                 </extent>
                                 
                                 <listRelation>
-                                    <relation name="depicted" active="cartoons_symbols.xml#uncle_sam"/>
+                                    <relation name="depicted" active="ENT.000000557"/>
+                                    
                                 </listRelation>
                             </bibl>
                         </msItem>
                     </msContents>
+                    
+                    <history>
+                        <acquisition>Gift of Hampton L. Carson, 1929. 
+                            Gift of Joseph Carson. 
+                            Miscellaneous news clippings collected by Hampton Carson (part of former call number 
+                            Wzz. 352, now folder 12 of box 38):
+                            Gift of Mrs. Evan Randolph, 1935.</acquisition>
+                    </history>
                 </msDesc>
                 <biblStruct>
                     <analytic>
                         <respStmt>
-                            <resp key="art">artist</resp>
-                            <persName key="ENT.000003742">Brown, Harold</persName>
+                            <resp key="art">Artist</resp>
+                            <persName key="ENT.000003745"/>
                         </respStmt>
-                        <respStmt>
-              <resp key="pbl">publisher</resp>
-              <orgName key="ENT.000003640">The Illustrated American Publishing Company</orgName>
-            </respStmt>
-                    <title type="main" level="a">"Oh, Yes, Our Relations Are Perfectly Amicable-Perfectly!"</title>
-            <date from="1897-11-27">November 27, 1897</date>
-          </analytic>
+                        <title type="main" level="a">Polly Got a Cracker</title>
+                    </analytic>
                     <monogr>
-                        <title type="marc245a" level="j"><orgName key="ENT.000003639"
-                            >Illustrated American</orgName></title>
+                        <title type="marc245a" level="j"><orgName key="ENT.000003556"
+                            >North American</orgName></title>
                         <imprint>
-                            <pubPlace>New York</pubPlace>
-                            <date from="1897-11-27"
-                                >November 27, 1897</date>
-                            <biblScope unit="volume">22</biblScope>
-                            <biblScope unit="issue">22</biblScope>     
-                        <publisher>
-                <orgName key="ENT.000003640">The Illustrated American Publishing Company</orgName>
-              </publisher>
-            </imprint>
+                            <publisher><orgName key="ENT.000003366"
+                                >Thomas Wanamaker</orgName></publisher>
+                            <pubPlace>Philadelphia</pubPlace>
+                            <date from="1903-05-16"
+                                >May 16, 1903</date>
+                            <biblScope/>
+                        </imprint>
                     </monogr>
                 </biblStruct>
 
@@ -136,6 +137,7 @@
                     Archives and Documentary Editing program.</p>
             </projectDesc>
             <editorialDecl n="4">
+            
                 <p>This electronic file was created using manual keying following the
                     recommendations for Level 4 of "Best Practices for TEI in Libraries" guidelines
                     v3.0.</p>
@@ -166,75 +168,52 @@
 
         <profileDesc>
             <textClass>
-        <catRef target="cartoons_genres.xml#political_cartoons"/>
-        <catRef target="cartoons_genres.xml#clippings"/>
-        <catRef target="cartoons_taxonomies.xml#war"/>
-        <catRef target="cartoons_taxonomies.xml#international"/>
-        <catRef target="cartoons_taxonomies.xml#stereotypes"/>
-      </textClass>
+                <catRef target="cartoons_genres.xml#political_cartoons"/>
+                <catRef target="cartoons_genres.xml#nineties"/>
+                <catRef target="cartoons_genres.xml#clippings"/>
+                <catRef target="cartoons_taxonomies.xml#Pennsylvania"/>
+                <catRef target="cartoons_taxonomies.xml#press"/>
+                <catRef target="cartoons_taxonomies.xml#laws"/>
+            </textClass>
         </profileDesc>
 
         <revisionDesc>
-            <change who="DianeBiunno" when="2015-05-18">Encoded to basic level</change>
+            <change who="DianeBiunno" when="2015-05-19">Encoded to basic level</change>
             <change who="RachelMoloshok" when="2015-01-07">Template file created</change>
         </revisionDesc>
     </teiHeader>
 
     <facsimile>
-        <surface ulx="0" uly="0" lrx="100" lry="100">
-
+        
+        <surface ulx="" uly="" lrx="" lry="">
+         
             <graphic
-                url="FIL.000094915"/>
+                url="FIL.000095406"/>
             
-            <zone n="1" xml:id="Title" points="9.58,7.81 91.11,8.87 89.99,34.33 36.83,33.45 33.68,29.2 25.35,29.91 24.22,33.8 10.26,33.8"/>
-            <zone n="2" xml:id="Artist" points="8.49,87.33 18.37,88.42 19.04,91.78 8.49,92.33"/>
-            <zone n="3" xml:id="Spain" points="77.57,57.73 82.56,59.61 84.58,63.14 75.8,61.37"/>
-            <zone n="4" xml:id="Bar" points="40.88,62.11 43.36,60.87 61.37,61.05 63.65,62.7 63.77,91.24 40.56,91.44"/>
-            
+            <zone n="1" xml:id="Title" points=""/>
+            <zone n="2" xml:id="Opinion" points=""/>
         </surface>
     </facsimile>
 
     <text>
-
+        
         <front>
             <div type="editorial_desc">
-                <p>Uncle Sam and a Spanish matador are at a bar having a drink.  They both wink and hold weapons behind their backs.  Uncle Sam holds are revolver and the matador holds a knife.</p>
+                <p>In the image, Governor Samuel Pennypacker is depicted as a parrot wearing spectacles.  A firecracker labeled "public opinion" explodes beneath him.  The political cartoon references Pennypacker's anti-cartoon bill which prohibited cartoonists from depicting politicians in any non-human form.  Cartoonist and the general public were outraged and the law was repealed in 1907.</p>
             </div>
         </front>
 
         <body>
             <div type="image_transcription" facs="#Title" n="1">
-                <head><supplied resp="editorial">Title and heading</supplied></head>
-                <p><hi rendition="#bold">EDITION DE LUXE</hi></p>
-                <p>Price 10 Cents</p>
-                <p>November 27, 1897</p>
-                <p>THE ILLUSTRATED AMERICAN</p>
-                <p>"Oh, yes, our relations are perfectly amicable-perfectly!"</p>
+                <head><supplied resp="editorial">Title, caption, and signature</supplied></head>
+                <p>POLLY GOT A CRACKER</p>
+                <p>FROM THE NORTH AMERICAN</p>
+                <p><hi rendition="#underline">Ch. Nelan</hi></p>
             </div>
             
-            <div type="image_transcription" facs="#Artist" n="2">
-                <head><supplied resp="editorial">Signature</supplied></head>
-                <p>Harold Brown</p>
-                <p>P</p>
-            </div>
-            
-            <div type="image_transcription" facs="#Spain" n="3">
-                <head><supplied resp="editorial">Knife</supplied></head>
-                <p>SPAIN</p>
-            </div>
-            
-            <div type="image_transcription" facs="#Bar" n="4">
-                <head><supplied resp="editorial">Table of contents</supplied></head>
-                <p>THIS NUMBER CONTAINS</p>
-                <p><hi rendition="#bold">WAR or PEACE with SPAIN? By A.B de Guerville</hi></p>
-                <p>The Grill Room at Princeton Inn By Herbert S. Houston</p>
-                <p>WHY the POST OFFICE DOES NOT PAY By the Hon E.F. LOUD of California</p>
-                <p>Our Militia on the March Drawn By Charles D. Graves</p>
-                <p>Jolly Poverty in New York By James Realf, Jr</p>
-                <p>Story "My Last Game of Football!" By Helen Ray Kent</p>
-                <p>Fashions at the Horse Show By Helen C. Candee</p>
-                <p>The Recent Records in Football By Charles E. Paterson</p>
-                <p>Drama: "Miss Francis of Yale" By Albert White Vorse</p>
+            <div type="image_transcription" facs="#Opinion" n="2">
+                <head><supplied resp="editorial">Firecracker</supplied></head>
+                <p>PUBLIC OPINION</p>
             </div>
         </body>
 
