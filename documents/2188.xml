@@ -1,217 +1,224 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 
 <?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader xml:lang="English">
-        <fileDesc>
-            <titleStmt>
-                <title type="main">TEI transcription of Lincoln's Last Warning</title>
-                <respStmt>
-                    <resp key="art">Artist</resp>
-                    <persName key="ENT.000003636"/>
-                    <!-- Bellew, Frank -->
-                </respStmt>
-                <respStmt>
-                    <resp key="trc">Transcribed by</resp>
-                    <persName key="ENT.000003545">Borden, Sara</persName>
-                </respStmt>
-                <respStmt>
-                    <resp key="mrk">Encoded by</resp>
-                    <persName key="ENT.000003545">Borden,Sara</persName>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <p>First edition, <date when="2015">2015</date></p>
-            </editionStmt>
-            <publicationStmt>
-                <publisher><orgName key="ENT.000002473">Historical Society of
-                    Pennsylvania</orgName></publisher>
-                <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
-                <idno type="filename">2188</idno>
-                <availability status="restricted">
-                    <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of
-                        copyright only to original contributions made by the Historic Images, New
-                        Technologies (HINT) Project participants and other staff. HSP makes no claim
-                        of copyright to the original text. Permission is granted to download,
-                        transmit or otherwise reproduce, distribute or display the text
-                        contributions to this work claimed by HSP for non-profit educational
-                        purposes, provided that this header is included in its entirety. For
-                        inquiries about commercial uses, please contact the Historical Society of
-                        Pennsylvania. HSP retains the rights of all images unless otherwise noted.
-                        Possession of an HSP digital image does not constitute permission to use or
-                        publish it. Requests for digital imaging, other reproduction services, and
-                        the intended use of reproductions must be made in writing to the Rights and
-                        Reproductions Coordinator at rnr@hsp.org.</p>
-                </availability>
-                <date when="2015"/>
-            </publicationStmt>
-            <seriesStmt>
-                <title level="s" type="project" key="CARTOONS"/>
-            </seriesStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <repository key="ENT.000002473"/>
-                        <collection key="3133"/>
-                    </msIdentifier>
-                    <msContents>
-                        <msItem>
-                            <bibl>
-                                <date from="1862-10-11">October 11, 1862</date>
-                                <extent>1 loose clipping</extent>
-                                <listRelation>
-                                    <relation name="depicted" active="ENT.000000447"/>
-                                    <!-- Lincoln -->
-                                    <relation name="depicted" active="ENT.000001041"/>
-                                    <!-- Davis -->
-                                </listRelation>
-                            </bibl>
-                        </msItem>
-                    </msContents>
-                    <history>
-                        <acquisition>This is an artificial collection created over time by HSP staff
-                            mostly through donations and purchases of individual prints. It also
-                            incorporates previously uncataloged materials collected by the Balch
-                            Institute for Ethnic Studies. Some of the 20th century cartoons and
-                            drawings were removed from the J. Hampton Moore papers (Collection
-                            1541).</acquisition>
-                    </history>
-                </msDesc>
-                <biblStruct>
-                    <analytic>
-                        <respStmt>
-                            <resp key="art">Artist</resp>
-                            <persName key="ENT.000003636"/>
-                            <!-- Bellew, Frank -->
-                        </respStmt>
-                        <title type="main" level="a">Lincoln's Last Warning</title>
-                    </analytic>
-                    <monogr>
-                        <title type="marc245a" level="j"><orgName key="ENT.000003139">Harper's
-                                Weekly</orgName></title>
-                        <imprint>
-                            <publisher><orgName key="ENT.000003540">Harper &amp; Brothers.
-                                </orgName></publisher>
-                            <pubPlace>New York</pubPlace>
-                            <date from="1862-10-11">October 11, 1862</date>
-                            <biblScope unit="volume">6</biblScope>
-                            <biblScope unit="page">656</biblScope>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <projectDesc>
-                <p>The Historic Images, New Technologies (HINT) project aims to enhance description
-                    and discovery of the Historical Society of Pennsylvania's graphics materials and
-                    promote the linking and sharing of content among institutions and scholars. The
-                    project will result in an update to HSP's digital image viewer and an online
-                    digital history exhibit that will demonstrate the new viewer's capabilities and
-                    provide interpretive and contextual materials to encourage users to interact
-                    with historical images in new ways. This project was funded by a grant from the
-                    National Historical Publications and Records Commission's (NHPRC) Innovation in
-                    Archives and Documentary Editing program.</p>
-            </projectDesc>
-            <editorialDecl n="4">
-                <p>This electronic file was created using manual keying following the
-                    recommendations for Level 4 of "Best Practices for TEI in Libraries" guidelines
-                    v3.0.</p>
-                <p>This xml file uses unique entity identifiers, media file identifiers, and
-                    collection identifiers in HSP's Digital Library, available at
-                    http://digitallibrary.hsp.org.</p>
-            </editorialDecl>
-            <tagsDecl>
-                <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
-                <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
-                <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
-                <rendition scheme="css" xml:id="crossed-through">text-decoration:
-                    line-through</rendition>
-                <rendition scheme="other" xml:id="printed"/>
-                <rendition scheme="other" xml:id="typescript"/>
-                <rendition scheme="other" xml:id="handwritten"/>
-                <rendition scheme="other" xml:id="handwritten-underlined"/>
-                <rendition scheme="other" xml:id="handwritten-circled"/>
-                <rendition scheme="other" xml:id="handwritten-crossed-through"/>
-                <rendition scheme="other" xml:id="double-underline"/>
-                <rendition scheme="other" xml:id="stamp"/>
-                <namespace name="http://www.tei-c.org/ns/1.0">
-                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
-                </namespace>
-            </tagsDecl>
-        </encodingDesc>
-        <profileDesc>
-            <textClass>
-                <catRef target="cartoons_taxonomies.xml#civil_war"/>
-                <catRef target="cartoons_taxonomies.xml#featured"/>
-                <catRef target="cartoons_taxonomies.xml#slavery"/>
-                <catRef target="cartoons_genres.xml#clippings"/>
-                <catRef target="cartoons_genres.xml#wood_engravings"/>
-                <catRef target="cartoons_genres.xml#political_cartoons"/>
-
-            </textClass>
-        </profileDesc>
-        <revisionDesc>
-            <change who="RachelMoloshok" when="2015-05-19">Cleaned up file</change>
-            <change who="SaraBorden" when="2015-03-31">Updated genres and taxonomies</change>
-            <change who="Sara Borden" when="2015-03-10">Filled out header, added description,
-                created zones</change>
-            <change who="RachelMoloshok" when="2015-01-07">Template file created</change>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile>
-        <surface ulx="" uly="" lrx="" lry="">
-            <graphic url="FIL.000001858"/>
-            <zone n="1" xml:id="slaveholder"/>
-            <zone n="2" xml:id="tree"/>
-            <zone n="3" xml:id="title"/>
-            <zone n="4" xml:id="Lincoln"/>
-            <zone n="5" xml:id="date"/>
-        </surface>
-    </facsimile>
-    <text>
-        <front>
-            <div type="editorial_desc">
-                <p>This cartoon depicts President Abraham Lincoln wielding an axe with which he is
-                    threatening to chop down a tree with the word "SLAVERY" on the trunk. There is a
-                    man, likely Confederate President Jefferson Davis, clutching the branches near
-                    the top of the tree and looking fearfully down at Lincoln. Beside this man, a
-                    sword or sabre hangs from a limb of the tree.</p>
-            </div>
-        </front>
-        <body>
-            <div type="image_annotation" facs="#slaveholder" n="1">
-                <head><supplied resp="editorial">Slaveholder</supplied></head>
-                <p>This man, who may be Confederate President <persName key="ENT.000001041"
-                        >Jefferson Davis</persName>, cowers in the high limbs of the tree that
-                        <persName key="ENT.000000447">Lincoln</persName> is threatening to chop
-                    down. His sword hangs uselessly from a twig beside him.</p>
-            </div>
-            <div type="image_transcription" facs="#tree" n="2">
-                <head><supplied resp="editorial">Tree</supplied></head>
-                <p>SLAVERY</p>
-            </div>
-            <div type="image_transcription" facs="#title" n="3">
-                <head><supplied>Title</supplied></head>
-                <p><persName key="ENT.000000447">LINCOLN</persName>'S LAST WARNING.</p>
-                <p>"Now, if you don't come down, I'll cut the Tree <hi rendition="#italics">from
-                        under you</hi>."</p>
-            </div>
-            <div type="image_annotation" facs="#Lincoln" n="4">
-                <head><supplied resp="editorial"><persName key="ENT.000000447"
-                        >Lincoln</persName></supplied></head>
-                <p>President Abraham Lincoln threatens to chop down a tree labeled "Slavery." This
-                    is a reference to Lincoln's desire to abolish slavery in the Southern states,
-                    which he would do with the Emancipation Proclamation, effective January 1, 1863.
-                    Lincoln "cut the Tree out from under" the South by ending slavery despite
-                    Southern resistance.</p>
-            </div>
-            <div type="image_transcription" facs="#date" n="5">
-                <head><supplied resp="editorial">Note</supplied></head>
-                <p><add><date when="1862-10-11">Oct 11, 1862</date></add></p>
-            </div>
-        </body>
-        <back/>
-    </text>
+  <teiHeader xml:lang="English">
+    <fileDesc>
+      <titleStmt>
+        <title type="main">TEI transcription of Lincoln's Last Warning</title>
+        <respStmt>
+          <resp key="art">artist</resp>
+          <persName key="ENT.000003636">Bellew, Frank (1828-1888)</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="trc">Transcribed by</resp>
+          <persName key="ENT.000003545">Borden, Sara</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="mrk">Encoded by</resp>
+          <persName key="ENT.000003545">Borden, Sara</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="pfr">Proofread by</resp>
+          <persName key="ENT.000003368">Moloshok, Rachel</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="pbl">publisher</resp>
+          <orgName key="ENT.000003540">Harper &amp; Brothers</orgName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <p>First edition, <date when="2015">2015</date></p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher><orgName key="ENT.000002473">Historical Society of
+          Pennsylvania</orgName></publisher>
+        <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
+        <idno type="filename">2188</idno>
+        <availability status="restricted">
+          <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of copyright only
+            to original contributions made by the Historic Images, New Technologies (HINT) Project
+            participants and other staff. HSP makes no claim of copyright to the original text.
+            Permission is granted to download, transmit or otherwise reproduce, distribute or
+            display the text contributions to this work claimed by HSP for non-profit educational
+            purposes, provided that this header is included in its entirety. For inquiries about
+            commercial uses, please contact the Historical Society of Pennsylvania. HSP retains the
+            rights of all images unless otherwise noted. Possession of an HSP digital image does not
+            constitute permission to use or publish it. Requests for digital imaging, other
+            reproduction services, and the intended use of reproductions must be made in writing to
+            the Rights and Reproductions Coordinator at rnr@hsp.org.</p>
+        </availability>
+        <date when="2015">2015</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="project" key="CARTOONS">Historic Images, New Technologies (HINT)
+          Project</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository key="ENT.000002473">Historical Society of Pennsylvania</repository>
+            <collection key="3133">Historical Society of Pennsylvania cartoons and caricatures
+              collection</collection>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <bibl>
+                <date from="1862-10-11">October 11, 1862</date>
+                <extent>1 loose clipping</extent>
+                <listRelation>
+                  <relation name="depicted" active="ENT.000000447"/>
+                  <relation name="depicted" active="ENT.000001041"/>
+                </listRelation>
+              </bibl>
+            </msItem>
+          </msContents>
+          <history>
+            <acquisition>This is an artificial collection created over time by HSP staff mostly
+              through donations and purchases of individual prints. It also incorporates previously
+              uncataloged materials collected by the Balch Institute for Ethnic Studies. Some of the
+              20th century cartoons and drawings were removed from the J. Hampton Moore papers
+              (Collection 1541).</acquisition>
+          </history>
+        </msDesc>
+        <biblStruct>
+          <analytic>
+            <respStmt>
+              <resp key="art">artist</resp>
+              <persName key="ENT.000003636">Bellew, Frank (1828-1888)</persName>
+            </respStmt>
+            <respStmt>
+              <resp key="pbl">publisher</resp>
+              <orgName key="ENT.000003540">Harper &amp; Brothers</orgName>
+            </respStmt>
+            <title type="main" level="a">Lincoln's Last Warning</title>
+            <date from="1862-10-11">October 11, 1862</date>
+          </analytic>
+          <monogr>
+            <title type="marc245a" level="j"><orgName key="ENT.000003139">Harper's
+              Weekly</orgName></title>
+            <imprint>
+              <pubPlace>New York</pubPlace>
+              <date from="1862-10-11">October 11, 1862</date>
+              <biblScope unit="volume">6</biblScope>
+              <biblScope unit="page">656</biblScope>
+              <publisher>
+                <orgName key="ENT.000003540">Harper &amp; Brothers</orgName>
+              </publisher>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The Historic Images, New Technologies (HINT) project aims to enhance description and
+          discovery of the Historical Society of Pennsylvania's graphics materials and promote the
+          linking and sharing of content among institutions and scholars. The project will result in
+          an update to HSP's digital image viewer and an online digital history exhibit that will
+          demonstrate the new viewer's capabilities and provide interpretive and contextual
+          materials to encourage users to interact with historical images in new ways. This project
+          was funded by a grant from the National Historical Publications and Records Commission's
+          (NHPRC) Innovation in Archives and Documentary Editing program.</p>
+      </projectDesc>
+      <editorialDecl n="4">
+        <p>This electronic file was created using manual keying following the recommendations for
+          Level 4 of "Best Practices for TEI in Libraries" guidelines v3.0.</p>
+        <p>This xml file uses unique entity identifiers, media file identifiers, and collection
+          identifiers in HSP's Digital Library, available at http://digitallibrary.hsp.org.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
+        <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
+        <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
+        <rendition scheme="css" xml:id="crossed-through">text-decoration: line-through</rendition>
+        <rendition scheme="other" xml:id="printed"/>
+        <rendition scheme="other" xml:id="typescript"/>
+        <rendition scheme="other" xml:id="handwritten"/>
+        <rendition scheme="other" xml:id="handwritten-underlined"/>
+        <rendition scheme="other" xml:id="handwritten-circled"/>
+        <rendition scheme="other" xml:id="handwritten-crossed-through"/>
+        <rendition scheme="other" xml:id="double-underline"/>
+        <rendition scheme="other" xml:id="stamp"/>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <catRef target="cartoons_genres.xml#clippings"/>
+        <catRef target="cartoons_genres.xml#wood_engravings"/>
+        <catRef target="cartoons_genres.xml#political_cartoons"/>
+        <catRef target="cartoons_taxonomies.xml#civil_war"/>
+        <catRef target="cartoons_taxonomies.xml#featured"/>
+        <catRef target="cartoons_taxonomies.xml#slavery"/>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change who="RachelMoloshok" when="2015-05-19">Exported from Collective Access. Basic proofreading</change>
+      <change who="RachelMoloshok" when="2015-05-19">Cleaned up file</change>
+      <change who="SaraBorden" when="2015-03-31">Updated genres and taxonomies</change>
+      <change who="Sara Borden" when="2015-03-10">Filled out header, added description, created
+        zones</change>
+      <change who="RachelMoloshok" when="2015-01-07">Template file created</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="100" lry="100">
+      <graphic url="FIL.000001858"/>
+      <zone n="1" xml:id="slaveholder"
+        points="68.67,5.28 76.89,4.11 81.16,14.74 74.04,19.22 76,24.07 75.11,27.8 59.62,30.97 61.94,22.57 61.22,19.4 64.43,15.67 65.5,10.82"/>
+      <zone n="2" xml:id="tree"
+        points="21.88,2.8 97.01,2.8 97.54,49.81 85.61,51.49 71.37,42.16 72.08,53.35 67.63,65.85 64.07,71.44 71.91,85.81 51.61,85.25 52.86,67.34 61.22,51.3 58.73,45.7 51.79,38.06 44.67,30.78 33.63,29.29 15.12,18.28 14.76,11.75"/>
+      <zone n="3" xml:id="title"
+        points="37.2,88.34 73.5,87.68 75.28,90.48 87.56,90.66 87.38,95.7 23.3,96.45 23.3,92.16 35.76,91.6"/>
+      <zone n="4" xml:id="Lincoln"
+        points="14.78,21.61 23.65,24.07 25.43,28.92 33.44,38.25 35.05,37.13 36.29,33.96 40.03,31.72 43.24,33.77 44.3,39.93 46.44,42.35 45.91,55.22 52.49,68.47 52.49,78.35 54.63,80.78 53.94,84.98 47.05,84.54 46.08,75.37 44.66,68.65 41.1,65.11 34.69,78.54 32.91,85.44 31.31,86.56 25.79,87.87 24.54,83.58 35.76,54.85 34.87,49.44 29.71,48.51 26.86,41.79 26.86,38.44 19.91,28.18 15.46,26.5"/>
+      <zone n="5" xml:id="date" points="1.76,14 7.45,14 7.99,39.93 2.11,39.55"/>
+    </surface>
+  </facsimile>
+  <text>
+    <front>
+      <div type="editorial_desc">
+        <p>This cartoon depicts President Abraham Lincoln wielding an axe with which he is
+          threatening to chop down a tree with the word "SLAVERY" on the trunk. There is a man,
+          likely Confederate President Jefferson Davis, clutching the branches near the top of the
+          tree and looking fearfully down at Lincoln. Beside this man, a sword or sabre hangs from a
+          limb of the tree.</p>
+      </div>
+    </front>
+    <body>
+      <div type="image_annotation" n="1" facs="#slaveholder">
+        <head><supplied resp="editorial">Slaveholder</supplied></head>
+        <p>This man, who may be Confederate President <persName key="ENT.000001041">Jefferson
+            Davis</persName>, cowers in the high limbs of the tree that <persName
+            key="ENT.000000447">Lincoln</persName> is threatening to chop down. His sword hangs
+          uselessly from a twig beside him.</p>
+      </div>
+      <div type="image_transcription" n="2" facs="#tree">
+        <head><supplied resp="editorial">Tree</supplied></head>
+        <p>SLAVERY</p>
+      </div>
+      <div type="image_transcription" n="3" facs="#title">
+        <head><supplied>Title</supplied></head>
+        <p><persName key="ENT.000000447">LINCOLN</persName>'S LAST WARNING.</p>
+        <p>"Now, if you don't come down, I'll cut the Tree <hi rendition="#italics">from under
+            you</hi>."</p>
+      </div>
+      <div type="image_annotation" n="4" facs="#Lincoln">
+        <head><supplied resp="editorial"><persName key="ENT.000000447"
+          >Lincoln</persName></supplied></head>
+        <p>President Abraham Lincoln threatens to chop down a tree labeled "Slavery." This is a
+          reference to Lincoln's desire to abolish slavery in the Southern states, which he would do
+          with the Emancipation Proclamation, effective January 1, 1863. Lincoln "cut the Tree out
+          from under" the South by ending slavery despite Southern resistance.</p>
+      </div>
+      <div type="image_transcription" n="5" facs="#date">
+        <head><supplied resp="editorial">Note</supplied></head>
+        <p><add><date when="1862-10-11">Oct 11, 1862</date></add></p>
+      </div>
+    </body>
+  </text>
 </TEI>
