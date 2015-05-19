@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 
+<?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
 
-<?oxygen RNGSchema="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="English">
     <fileDesc>
       <titleStmt>
         <title type="main">TEI transcription of Southern Ass-stock-crazy</title>
-        <author/>
         <respStmt>
           <resp key="art">artist</resp>
           <persName key="ENT.000000553">Unknown Artist</persName>
@@ -21,26 +20,47 @@
           <persName key="ENT.000003545">Borden, Sara</persName>
         </respStmt>
         <respStmt>
+          <resp key="pfr">Proofread by</resp>
+          <persName key="ENT.000003368">Moloshok, Rachel</persName>
+        </respStmt>
+        <respStmt>
           <resp key="pbl">publisher</resp>
           <persName key="ENT.000003562">Ruoff, John T.</persName>
         </respStmt>
       </titleStmt>
-      <editionStmt><p>First edition, <date when="2015">2015</date></p></editionStmt>
+      <editionStmt>
+        <p>First edition, <date when="2015">2015</date></p>
+      </editionStmt>
       <publicationStmt>
         <publisher><orgName key="ENT.000002473">Historical Society of
-                    Pennsylvania</orgName></publisher>
+          Pennsylvania</orgName></publisher>
         <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
         <idno type="filename">12336</idno>
-        <availability status="restricted"><p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of                        copyright only to original contributions made by the Historic Images, New                        Technologies (HINT) Project participants and other staff. HSP makes no claim                        of copyright to the original text. Permission is granted to download,                        transmit or otherwise reproduce, distribute or display the text                        contributions to this work claimed by HSP for non-profit educational                        purposes, provided that this header is included in its entirety. For                        inquiries about commercial uses, please contact the Historical Society of                        Pennsylvania. HSP retains the rights of all images unless otherwise noted.                        Possession of an HSP digital image does not constitute permission to use or                        publish it. Requests for digital imaging, other reproduction services, and                        the intended use of reproductions must be made in writing to the Rights and                        Reproductions Coordinator at rnr@hsp.org.</p></availability>
+        <availability status="restricted">
+          <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of copyright only
+            to original contributions made by the Historic Images, New Technologies (HINT) Project
+            participants and other staff. HSP makes no claim of copyright to the original text.
+            Permission is granted to download, transmit or otherwise reproduce, distribute or
+            display the text contributions to this work claimed by HSP for non-profit educational
+            purposes, provided that this header is included in its entirety. For inquiries about
+            commercial uses, please contact the Historical Society of Pennsylvania. HSP retains the
+            rights of all images unless otherwise noted. Possession of an HSP digital image does not
+            constitute permission to use or publish it. Requests for digital imaging, other
+            reproduction services, and the intended use of reproductions must be made in writing to
+            the Rights and Reproductions Coordinator at rnr@hsp.org.</p>
+        </availability>
+        <date when="2015">2015</date>
       </publicationStmt>
       <seriesStmt>
-        <title level="s" type="project" key="CARTOONS">Historic Images, New Technologies (HINT) Project</title>
+        <title level="s" type="project" key="CARTOONS">Historic Images, New Technologies (HINT)
+          Project</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
           <msIdentifier>
             <repository key="ENT.000002473">Historical Society of Pennsylvania</repository>
-            <collection key="3133">Historical Society of Pennsylvania cartoons and caricatures collection</collection>
+            <collection key="3133">Historical Society of Pennsylvania cartoons and caricatures
+              collection</collection>
             <idno type="citation">
               <idno type="box">3</idno>
               <idno type="folder">25</idno>
@@ -50,8 +70,7 @@
             <msItem>
               <bibl>
                 <date from="1861-01-01" to="1861-12-31">1861</date>
-                <extent>One loose sheet.</extent>
-                
+                <extent>1 loose sheet</extent>
                 <listRelation>
                   <relation name="mentioned" active="ENT.000003587"/>
                   <relation name="depicted" active="cartoons_symbols.xml#donkey"/>
@@ -60,7 +79,11 @@
             </msItem>
           </msContents>
           <history>
-            <acquisition>This is an artificial collection created over time by HSP staff mostly through donations and purchases of individual prints. It also incorporates previously uncataloged materials collected by the Balch Institute for Ethnic Studies. Some of the 20th century cartoons and drawings were removed from the J. Hampton Moore papers (Collection 1541).</acquisition>
+            <acquisition>This is an artificial collection created over time by HSP staff mostly
+              through donations and purchases of individual prints. It also incorporates previously
+              uncataloged materials collected by the Balch Institute for Ethnic Studies. Some of the
+              20th century cartoons and drawings were removed from the J. Hampton Moore papers
+              (Collection 1541).</acquisition>
           </history>
         </msDesc>
         <biblStruct>
@@ -87,22 +110,23 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <projectDesc><p>The Historic Images, New Technologies (HINT) project aims to enhance description
-                    and discovery of the Historical Society of Pennsylvania's graphics materials and
-                    promote the linking and sharing of content among institutions and scholars. The
-                    project will result in an update to HSP's digital image viewer and an online
-                    digital history exhibit that will demonstrate the new viewer's capabilities and
-                    provide interpretive and contextual materials to encourage users to interact
-                    with historical images in new ways. This project was funded by a grant from the
-                    National Historical Publications and Records Commission's (NHPRC) Innovation in
-                    Archives and Documentary Editing program.</p></projectDesc>
-      <editorialDecl n="4"><p/>
-                <p>This electronic file was created using manual keying following the
-                    recommendations for Level 4 of "Best Practices for TEI in Libraries" guidelines
-                    v3.0.</p>
-                <p>This xml file uses unique entity identifiers, media file identifiers, and
-                    collection identifiers in HSP's Digital Library, available at
-                    http://digitallibrary.hsp.org.</p></editorialDecl>
+      <projectDesc>
+        <p>The Historic Images, New Technologies (HINT) project aims to enhance description and
+          discovery of the Historical Society of Pennsylvania's graphics materials and promote the
+          linking and sharing of content among institutions and scholars. The project will result in
+          an update to HSP's digital image viewer and an online digital history exhibit that will
+          demonstrate the new viewer's capabilities and provide interpretive and contextual
+          materials to encourage users to interact with historical images in new ways. This project
+          was funded by a grant from the National Historical Publications and Records Commission's
+          (NHPRC) Innovation in Archives and Documentary Editing program.</p>
+      </projectDesc>
+      <editorialDecl n="4">
+        <p/>
+        <p>This electronic file was created using manual keying following the recommendations for
+          Level 4 of "Best Practices for TEI in Libraries" guidelines v3.0.</p>
+        <p>This xml file uses unique entity identifiers, media file identifiers, and collection
+          identifiers in HSP's Digital Library, available at http://digitallibrary.hsp.org.</p>
+      </editorialDecl>
       <tagsDecl>
         <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
         <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
@@ -123,49 +147,84 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <catRef target="cartoons_genres.xml#lithograph"/>
-        <catRef target="cartoons_taxonomies.xml#civil war"/>
-        <catRef target="cartoons_taxonomies.xml#slavery"/>
-        <catRef target="cartoons_taxonomies.xml#featured"/>
+        <catRef target="cartoons_genres.xml#political_cartoons"/>
+        <catRef target="cartoons_genres.xml#lithographs"/>
+        <catRef target="cartoons_taxonomies.xml#civil_war"/>
+        <catRef target="cartoons_taxonomies.xml#lesson_plan"/>
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change who="SaraBorden" when="2015-03-31">Updated genres and taxonomies.</change>
-      <change who="SaraBorden" when="2015-02-09">Exported from DAMS</change>
-      <change who="SaraBorden" when="2015-02-06">Cleaned up header, added more description, and created zones</change>
+      <change who="RachelMoloshok" when="2015-05-09">Exported from Collective Access. Basic proofreading</change>
+      <change who="SaraBorden" when="2015-02-06">Cleaned up header, added more description, and
+        created zones</change>
       <change who="SaraBorden" when="2015-01-21">Filled out header</change>
       <change who="RachelMoloshok" when="2015-01-07">Template file created</change>
     </revisionDesc>
   </teiHeader>
   <facsimile>
     <surface ulx="0" uly="0" lrx="100" lry="100">
-      <graphic url="FIL.000090248"/>
-      <zone n="1" xml:id="donkey" points="39.79,47.45 41.5,46.74 43.85,46.27 44.69,44.81 48.71,42.53 47.27,44.38 45.6,46.27 48.79,45.72 51.14,44.85 49.06,46.9 46.28,48.24 47.95,49.34 51.03,50.68 53.42,51.07 56.35,52.53 59.65,52.72 62.35,52.65 65.8,54.38 67.62,56.94 67.74,60.32 65.65,62.84 63.75,64.23 62.04,65.02 61.32,67.54 60.11,68.21 59.08,68.92 56.84,71 54.98,72.38 49.28,69.9 40.59,68.48 39.56,69.23 37.25,69.78 33.6,66.59 37.63,64.27 39.41,63.17 41.31,61.47 42.41,61.16 44.92,59.26 44.69,57.05 45.15,55.16 42.56,51.9 41.08,51.98 39.41,50.87 37.51,50.2 35.58,50.09 35.16,48.55 36.15,47.61 38.2,47.68"/>
-      <zone n="2" xml:id="post" points="18.17,42.14 19.42,41.51 21.17,41.4 22.75,41.57 24.6,41.91 24.66,46.95 25.86,46.38 27.17,47.06 27.71,48.64 27.66,50.34 27.11,51.92 25.97,52.43 24.77,52.26 25.09,61.31 25.53,68.16 16.58,68.5 17.68,51.64 17.24,51.7 17.24,47.45 17.78,47.4"/>
-      <zone n="3" xml:id="title" points="28.53,77.8 60.2,77.99 59.44,80.43 48.96,80.55 48.62,81.61 38.02,81.65 38.06,80.24 28.8,80.31"/>
-      <zone n="4" xml:id="ownership" points="57.71,84.59 59.33,83.47 61.52,82.92 63.36,83.1 64.92,83.94 66.13,85.14 66.36,86.49 66.04,87.88 65.46,88.81 64.07,89.79 62.68,90.2 60.94,90.3 59.46,90.02 58.07,89.37 57.04,87.93 56.86,86.26"/>
-      <zone n="5" xml:id="donor" points="75.07,87.66 80.7,90.85 83.25,91.39 86.18,90.38 87.68,91.24 93.16,91.78 91.73,93.49 90.08,93.41 89.11,94.58 77.02,94.66 78.6,92.25 73.87,92.17"/>
-      <zone n="6" xml:id="flag" points="69.59,46.18 75.52,46.72 79.58,46.57 77.62,56.37 75,55.28 69.74,54.97 69.37,50.15"/>
+      <graphic url="FIL.000092010"/>
+      <zone n="1" xml:id="donkey"
+        points="39.79,47.45 41.5,46.74 43.85,46.27 44.69,44.81 48.71,42.53 47.27,44.38 45.6,46.27 48.79,45.72 51.14,44.85 49.06,46.9 46.28,48.24 47.95,49.34 51.03,50.68 53.42,51.07 56.35,52.53 59.65,52.72 62.35,52.65 65.8,54.38 67.62,56.94 67.74,60.32 65.65,62.84 63.75,64.23 62.04,65.02 61.32,67.54 60.11,68.21 59.08,68.92 56.84,71 54.98,72.38 49.28,69.9 40.59,68.48 39.56,69.23 37.25,69.78 33.6,66.59 37.63,64.27 39.41,63.17 41.31,61.47 42.41,61.16 44.92,59.26 44.69,57.05 45.15,55.16 42.56,51.9 41.08,51.98 39.41,50.87 37.51,50.2 35.58,50.09 35.16,48.55 36.15,47.61 38.2,47.68"/>
+      <zone n="2" xml:id="post"
+        points="18.17,42.14 19.42,41.51 21.17,41.4 22.75,41.57 24.6,41.91 24.66,46.95 25.86,46.38 27.17,47.06 27.71,48.64 27.66,50.34 27.11,51.92 25.97,52.43 24.77,52.26 25.09,61.31 25.53,68.16 16.58,68.5 17.68,51.64 17.24,51.7 17.24,47.45 17.78,47.4"/>
+      <zone n="3" xml:id="title"
+        points="28.53,77.8 60.2,77.99 59.44,80.43 48.96,80.55 48.62,81.61 38.02,81.65 38.06,80.24 28.8,80.31"/>
+      <zone n="4" xml:id="ownership"
+        points="57.77,84.65 59.39,83.54 61.58,82.98 63.42,83.16 64.98,84 66.19,85.21 66.42,86.55 66.1,87.95 65.52,88.87 64.13,89.85 62.74,90.27 61,90.36 59.52,90.08 58.13,89.43 57.1,87.99 56.92,86.32"/>
+      <zone n="5" xml:id="donor"
+        points="75.07,87.66 80.7,90.85 83.25,91.39 86.18,90.38 87.68,91.24 93.16,91.78 91.73,93.49 90.08,93.41 89.11,94.58 77.02,94.66 78.6,92.25 73.87,92.17"/>
+      <zone n="6" xml:id="flag"
+        points="69.59,46.18 75.52,46.72 79.58,46.57 77.62,56.37 75,55.28 69.74,54.97 69.37,50.15"/>
     </surface>
   </facsimile>
   <text>
     <front>
-      <div type="editorial_desc"><p>Cartoon depicts a donkey labeled "South Carolina" trying to pull away from a post labeled "Union." The donkey has South Carolina's secession flag flying from its tail.  The post from which the donkey pulls is flying a tattered American flag. The donkey and post appear to be on a hill, which looks down on a body of water, likely Charleston Harbor. Two fortifications are represented (possibly Fort Sumter and Fort Moultrie), and other buildings are drawn along the water. The title of the cartoon, "Southern Ass-stock-crazy," is a play on the phrase "Southern Aristocracy," which appears parenthetically below the title text. </p></div>
+      <div type="editorial_desc">
+        <p>Cartoon depicts a donkey labeled "South Carolina" trying to pull away from a post labeled
+          "Union." The donkey has South Carolina's secession flag flying from its tail. The post
+          from which the donkey pulls is flying a tattered American flag. The donkey and post appear
+          to be on a hill, which looks down on a body of water, likely Charleston Harbor. Two
+          fortifications are represented (possibly Fort Sumter and Fort Moultrie), and other
+          buildings are drawn along the water. The title of the cartoon, "Southern Ass-stock-crazy,"
+          is a play on the phrase "Southern Aristocracy," which appears parenthetically below the
+          title text. </p>
+      </div>
     </front>
     <body>
-      <div type="image_transcription" n="1" facs="#donkey"><head><supplied resp="editorial"><rs ref="cartoons_symbols.xml#donkey">Donkey</rs></supplied></head>
-                <p>SOUTH CAROLINA.</p></div>
-      <div type="image_transcription" n="2" facs="#post"><head><supplied resp="editorial">Post</supplied></head>
-                <p>UNION.</p></div>
-      <div type="image_transcription" n="3" facs="#title"><head> <supplied resp="editorial">Title</supplied> </head>
-                <p>Southern Ass-stock-crazy.</p>
-                <p><hi rendition="#italics">(Southern Aristocracy.)</hi></p></div>
-      <div type="image_transcription" n="4" facs="#ownership"><head><supplied resp="editorial">Stamp</supplied></head>
-                    <p><add>HISTORICAL SOCIETY OF PENNSYLVANIA</add></p></div>
-      <div type="image_transcription" n="5" facs="#donor"><head><supplied resp="editorial">Donor</supplied></head>
-          <p>From <persName key="ENT.000003587">HN Smith</persName></p></div>
-      <div type="image_annotation" n="6" facs="#flag"><head>Secession flag of South Carolina</head>
-                <p>This flag, also called the Sovereignty Flag, briefly flew over Fort Sumter after South Carolina seceded from the Union. The fifteen stars stand for the slave-holding states and the large star in the center signifies South Carolina. The pairing of the crescent and palmetto traditionally symbolizes South Carolina. The origin of the crescent is of some debate, but the palmetto represents Fort Moultrie. South Carolina is known as "The Palmetto State."</p></div>
+      <div type="image_transcription" n="1" facs="#donkey">
+        <head><supplied resp="editorial"><rs ref="cartoons_symbols.xml#donkey"
+            >Donkey</rs></supplied></head>
+        <p>SOUTH CAROLINA.</p>
+      </div>
+      <div type="image_transcription" n="2" facs="#post">
+        <head><supplied resp="editorial">Post</supplied></head>
+        <p>UNION.</p>
+      </div>
+      <div type="image_transcription" n="3" facs="#title">
+        <head>
+          <supplied resp="editorial">Title</supplied>
+        </head>
+        <p>Southern Ass-stock-crazy.</p>
+        <p><hi rendition="#italics">(Southern Aristocracy.)</hi></p>
+      </div>
+      <div type="image_transcription" n="4" facs="#ownership">
+        <head><supplied resp="editorial">Stamp</supplied></head>
+        <p><add><orgName key="ENT.000002473">HISTORICAL SOCIETY OF PENNSYLVANIA</orgName></add></p>
+      </div>
+      <div type="image_transcription" n="5" facs="#donor">
+        <head><supplied resp="editorial">Donor note</supplied></head>
+        <p>From <persName key="ENT.000003587">HN Smith</persName></p>
+      </div>
+      <div type="image_annotation" n="6" facs="#flag">
+        <head>Secession flag of South Carolina</head>
+        <p>This flag, also called the Sovereignty Flag, briefly flew over Fort Sumter after South
+          Carolina seceded from the Union. The fifteen stars stand for the slave-holding states and
+          the large star in the center signifies South Carolina. The pairing of the crescent and
+          palmetto traditionally symbolizes South Carolina. The origin of the crescent is of some
+          debate, but the palmetto represents Fort Moultrie. South Carolina is known as "The
+          Palmetto State."</p>
+      </div>
     </body>
   </text>
 </TEI>
