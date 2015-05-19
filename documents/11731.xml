@@ -1,0 +1,310 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+
+    <teiHeader xml:lang="English">
+
+        <fileDesc>
+
+            <titleStmt>
+                <title type="main">TEI transcription of The Siege of Zion 1787 [Zion Besieged and Attacked]</title>
+                <respStmt>
+                    <resp key="art">Artist</resp>
+                    <persName key="ENT.000000553"/>
+                </respStmt>
+                <respStmt>
+                    <resp key="trc">Transcribed by</resp>
+                    <persName key="ENT.000003368"/>
+                </respStmt>
+                <respStmt>
+                    <resp key="mrk">Encoded by</resp>
+                    <persName key="ENT.000003368"/>
+                </respStmt>
+
+            </titleStmt>
+
+            <editionStmt>
+                <p>First edition, <date when="2015">2015</date></p>
+            </editionStmt>
+
+            <publicationStmt>
+                <publisher><orgName key="ENT.000002473">Historical Society of
+                    Pennsylvania</orgName></publisher>
+                <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
+                <idno type="filename">11731</idno>
+                <availability status="restricted">
+                    <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of
+                        copyright only to original contributions made by the Historic Images, New
+                        Technologies (HINT) Project participants and other staff. HSP makes no claim
+                        of copyright to the original text. Permission is granted to download,
+                        transmit or otherwise reproduce, distribute or display the text
+                        contributions to this work claimed by HSP for non-profit educational
+                        purposes, provided that this header is included in its entirety. For
+                        inquiries about commercial uses, please contact the Historical Society of
+                        Pennsylvania. HSP retains the rights of all images unless otherwise noted.
+                        Possession of an HSP digital image does not constitute permission to use or
+                        publish it. Requests for digital imaging, other reproduction services, and
+                        the intended use of reproductions must be made in writing to the Rights and
+                        Reproductions Coordinator at rnr@hsp.org.</p>
+                </availability>
+                <date when="2015"/>
+            </publicationStmt>
+
+            <seriesStmt>
+                <title level="s" type="project" key="CARTOONS"/>
+            </seriesStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository key="ENT.000002473"/>
+                        <collection key="V65"/>
+                        <idno type="citation">Bc 612 Z67</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <bibl>
+                                <date from="1787-01-01" to="1787-12-31">1787</date>
+                                <extent>1 loose sheet</extent>
+                                <listRelation>
+                                    <relation name="depicted" active="ENT.000000168"/><!-- Robert Morris -->
+                                    <relation name="depicted" active="ENT.000000478"/><!-- Benjamin Rush -->
+                                    <relation name="depicted" active="ENT.000000869"/><!-- Thomas Paine -->
+                                    <relation name="depicted" active="ENT.000003746"/><!-- Alexander Hamilton -->
+                                    <relation name="depicted" active="cartoons_symbols.xml#liberty_cap"/>
+                                    <relation name="depicted" active="cartoons_symbols.xml#devil"/>
+                                    <relation name="mentioned" active="ENT.000000054"/><!-- Benjamin Franklin -->
+                                </listRelation>
+                            </bibl>
+                        </msItem>
+                    </msContents>
+
+                    <history>
+                        <acquisition/>
+                    </history>
+                </msDesc>
+                <biblStruct>
+                    <monogr>
+                        <respStmt>
+                            <resp key="art">Artist</resp>
+                            <persName key="ENT.000000553"/>
+                        </respStmt>
+                        <title type="main" level="m">The Siege of Zion 1787 [Zion Besieged and Attacked]</title>
+                        <imprint>
+                            <publisher><persName key="ENT.000003744">William Poyntell</persName></publisher>
+                            <pubPlace>Philadelphia</pubPlace>
+                            <date from="1787-01-01" to="1787-12-31">1787</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <projectDesc>
+                <p>The Historic Images, New Technologies (HINT) project aims to enhance description
+                    and discovery of the Historical Society of Pennsylvania's graphics materials and
+                    promote the linking and sharing of content among institutions and scholars. The
+                    project will result in an update to HSP's digital image viewer and an online
+                    digital history exhibit that will demonstrate the new viewer's capabilities and
+                    provide interpretive and contextual materials to encourage users to interact
+                    with historical images in new ways. This project was funded by a grant from the
+                    National Historical Publications and Records Commission's (NHPRC) Innovation in
+                    Archives and Documentary Editing program.</p>
+            </projectDesc>
+            <editorialDecl n="4">
+                <p>This electronic file was created using manual keying following the
+                    recommendations for Level 4 of "Best Practices for TEI in Libraries" guidelines
+                    v3.0.</p>
+                <p>This xml file uses unique entity identifiers, media file identifiers, and
+                    collection identifiers in HSP's Digital Library, available at
+                    http://digitallibrary.hsp.org.</p>
+
+            </editorialDecl>
+            <tagsDecl>
+                <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
+                <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
+                <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
+                <rendition scheme="css" xml:id="crossed-through">text-decoration:
+                    line-through</rendition>
+                <rendition scheme="other" xml:id="printed"/>
+                <rendition scheme="other" xml:id="typescript"/>
+                <rendition scheme="other" xml:id="handwritten"/>
+                <rendition scheme="other" xml:id="handwritten-underlined"/>
+                <rendition scheme="other" xml:id="handwritten-circled"/>
+                <rendition scheme="other" xml:id="handwritten-crossed-through"/>
+                <rendition scheme="other" xml:id="double-underline"/>
+                <rendition scheme="other" xml:id="stamp"/>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+        </encodingDesc>
+
+        <profileDesc>
+            <textClass>
+                <catRef target="cartoons_genres.xml#etchings"/>
+                <catRef target="cartoons_genres.xml#political_cartoons"/>
+                <catRef target="cartoons_taxonomies.xml#early"/>
+                <catRef target="cartoons_taxonomies.xml#Pennsylvania"/>
+                <catRef target="cartoons_taxonomies.xml#laws"/>
+                <catRef target="cartoons_taxonomies.xml#econ"/>
+                <catRef target="cartoons_taxonomies.xml#culture"/>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change who="RachelMoloshok" when="2015-05-19">Basic encoding</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <facsimile>
+        <surface ulx="" uly="" lrx="" lry="">
+            <graphic url="FIL.000089140"/>
+            <zone n="1" xml:id="title"/>
+            <zone n="2" xml:id="zion"/>
+            <zone n="3" xml:id="climbers"/>
+            <zone n="4" xml:id="books"/>
+            <zone n="5" xml:id="cauldron"/>
+            <zone n="6" xml:id="peacock"/>
+            <zone n="7" xml:id="morris"/>
+            <zone n="8" xml:id="paine"/>
+            <zone n="9" xml:id="insanity"/>
+            <zone n="10" xml:id="aerial"/>
+        </surface>
+    </facsimile>
+
+    <text>
+        <front>
+            <div type="editorial_desc">
+                <p>The editors of <hi rendition="#italics">Made in America: Printmaking 1760-1860</hi> (Philadelphia, 1973) described this etching as "perhaps the most complex and layrinthine political cartoon ever made." On the right side of this chaotic image is "Zion," a citadel and encampment on a mountain, guarded by figures holding banners labeled "Franklin &amp; Liberty." Zion is under siege by groups of bankers and devils who attempt to scale the mountain, and by hordes of devils, witches, satyrs, and other fantastical man-animal hybrid creatures, and some prominent politicians and philosophers, including Robert Morris, Thomas Paine, Alexander Hamilton, and Benjamin Rush. At left, birds attack air balloons as the battle continues in the air. "Zion" in this case is the 1776 Constitution of Pennsylvania, which in 1787 was criticized by reformers from across the political spectrum as debate raged over ratification of the federal Constitution. The Historical Society of Pennsylvania's copy of this cartoon (perhaps the original etching) is clearly titled "The Siege of Zion 1787"; however, other reproductions of this image are often catalogued under the title "Zion Besieg'd and Attack'd."</p>
+            </div>
+        </front>
+
+        <body>
+            <div type="image_transcription" n="1" facs="#title">
+                <head><supplied resp="editorial">Title</supplied></head>
+                <p>The Siege of Zion 1787</p>
+            </div>
+            <div type="image_transcription" n="2" facs="#zion">
+                <head><supplied resp="editorial">Top of the mountain</supplied></head>
+                <p>to your tents O <unclear reason="handwriting">Isriel</unclear></p>
+                <p>CONFED</p>
+                <p>FRANKLIN &amp; Liberty</p>
+                <p>Mechanicks</p>
+                <p>Demosthenes of ye Mtns.</p>
+                <p>Turky Corpotn.</p>
+            </div>
+            <div type="image_transcription" n="3" facs="#climbers">
+                <head><supplied resp="editorial">Mountain climbers</supplied></head>
+                <p>BANKERS Corps</p>
+                <p>Follow me up Boys I will be Governor this Constitution is too democratic the People are not Virtuous enough to enjoy so much 
+                Liberty we are the Gentlemans party &amp; we'll keep down those Plaebians</p>
+                <p>Up we go</p>
+                <p>Revenge is Sweet my Children they took our Charter we'll Storm their Garrisons</p>
+                <p>Down with it tho' we Perish Neck or Nothing Well done brother</p>
+            </div>
+            <div type="image_transcription" n="4" facs="#books">
+                <head><supplied resp="editorial">Books</supplied></head>
+                <p>The Bowers of <unclear reason="handwriting">unadmired</unclear> obscurity</p>
+                <p>Tudor Works Essay the 1st</p>
+                <p>A Young Author</p>
+                <p>Dunlap</p>
+                <p>Baily</p>
+                <p>Carey</p>
+                <p>Loudon</p>
+                <p>Monopoly of Slander <unclear reason="handwriting"/> for Bank <unclear reason="handwriting"/> Wilds Gazette or Chronicle of Beelzebub — Version 5th Octr 1786</p>
+                <p>Homespun of Slander Poison Containd in the hoof of an Ass</p>
+                <p>TRUTH</p>
+                <p>HONOR</p>
+                <p>Religion</p>
+                <p>VIRTUE</p>
+                <p>Scurriliad</p>
+                <p>Nestor</p>
+                <p>Pages of Dishonor</p>
+            </div>
+            <div type="image_transcription" n="5" facs="#cauldron">
+                <head><supplied resp="editorial">Witch's cauldron</supplied></head>
+                <p>Round about the Chaldron go In ye Poisond Entrails <unclear reason="handwriting">Throw</unclear> Charm of powerful Trouble like a hellbroth boil &amp; bubble Dash of malice without Reason Lies &amp; discord mixt <unclear reason="handwriting">with</unclear> treason Lastly Blood of a Babboon Zink for filling our Balloon</p>
+                <p>When shall we all meet again <unclear reason="handwriting">ye</unclear> Black Spirits &amp; white blue Sprits Grey mingle mingle mingle you <unclear reason="handwriting">ye</unclear> mingle may</p>
+                <p></p>
+            </div>
+            <div type="image_transcription" n="6" facs="#peacock">
+                <head><supplied resp="editorial"></supplied></head>
+                <p>Honor thy Father &amp; Mother</p>
+                <p>Now for a Blastphemous Blast Ely but dont p-ss upon me</p>
+                <p>The History of <unclear reason="handwriting"/> of Mutton by me Junius Van Doodle</p>
+            </div>
+            <div type="image_transcription" n="7" facs="#morris">
+                <head><supplied resp="editorial">Robert Morris, horse, and trumpet</supplied></head>
+                <p>I will blow a Trumpet in Zion and bray aloud</p>
+                <p>SLANDER</p>
+                <p>DISCORD</p>
+                <p>TREASON</p>
+                <p>LIES</p>
+                <p>SEDITION</p>
+                <p>MALICE</p>
+                <p>INFLAMABLE</p>
+                <p>IRRUPTION</p>
+                <p>If I be not asham'd of my Troops I'm a <unclear reason="handwriting">Toad Gurne</unclear>t</p>
+                <p>PUBLIC CO</p>
+                <p>An unlawful Charter for my Bank Poll Tax Chains for my Enemies &amp; the Const.tsts</p>
+                <p>£20.000 St. <unclear reason="handwriting"></unclear> <unclear reason="handwriting">Valued</unclear> in hard <unclear reason="handwriting">Dol</unclear> To RM Esqr</p>
+                <p>Recd on <unclear reason="handwriting">Dyrecast</unclear> Jack Tar</p>
+                <p>It is impossible for my Bank to fail because Banks with twice its <unclear reason="handwriting">follies</unclear> in Europe <unclear reason="handwriting">&amp;</unclear> ruined whole states</p>
+            </div>
+            <div type="image_transcription" n="8" facs="#paine">
+                <head><supplied resp="editorial">Paine and pedestal</supplied></head>
+                <p>In memory of ye Ar...al Army 1787 and likewise in honour of the Man who having prostituted the Pen of COMMON SENSE to the 
+                ruin in His Country <unclear reason="handwriting">Flew</unclear> to the Ar   al Standard in his <unclear reason="handwriting">last</unclear> days.</p>
+                <p><unclear reason="handwriting">Ecce Sigvino</unclear></p>
+                <p>Bank Notes Coind in a Rag Mill are better Security than Landed property of Pensa. the Credit of Government must Bend to Bank 
+                Paper. See Paines Brokenblurbuss work </p>
+            </div>
+            <div type="image_transcription" n="9" facs="#insanity">
+                <head><supplied resp="editorial">Left-most scene</supplied></head>
+                <p>Fanny Tench</p>
+                <p><unclear reason="handwriting"/></p>
+                <p><unclear reason="handwriting"/></p>
+                <p><unclear reason="handwriting"/></p>
+                <p><unclear reason="handwriting"/></p>
+                <p>I'll have no Second Bank</p>
+                <p>The Bank is no Monopoly I have the exclusive right of issuing bills of Credit</p>
+                <p>Yield up your Liberty &amp; bow down to the Majesty of Riches or I'll find <unclear reason="handwriting">for them</unclear> <unclear reason="handwriting"/> to Punish your Insolence</p>
+                <p>Restore my Old Charter Unlimited you Plaebians or Ill let loose my Blood Hounds &amp; if we cant Establish an A-r-t-ry by Bribery &amp; <unclear reason="faded"/>We'll Storm your Constitution</p>
+                <p>A Warm injection will dispel the Vapour</p>
+                <p>Your Mutton spoor Essay is not worth a Rush Dr.</p>
+                <p>No Jewish tricks Mr. Conjurer</p>
+                <p>You are Natural enough without an...ACT</p>
+                <p>I hate all Tories Blasphemers and Claret</p>
+                <p>If I cant argue I can bother them</p>
+                <p>Blast the Skunks</p>
+                <p>Drive on my Jewels</p>
+                <p>By G Ely</p>
+                <p>won the Laurels at M-mth</p>
+                <p>Sharp's ye word</p>
+                <p>Bill of Rights</p>
+                <p>Just a going</p>
+                <p>Byhard Gentn. Vendue here under a Patt-n See 36th Section</p>
+            </div>
+            <div type="image_transcription" n="10" facs="#aerial">
+                <head><supplied resp="editorial">Birds and balloons</supplied></head>
+                <p>Gold Dust is now my text</p>
+                <p>What un-common sense-ations have I sufferd for the Loss of my Reputation from that D--d attack of Atticus I fear I shall at last become Tom Fool for all my Paines</p>
+                <p>Sic transit Gloria Mundi</p>
+                <p>A+ROST+++ATIC MACHINE</p>
+                <p>INDEPENDANT GAS 259</p>
+                <p>Site-poakas Dragoons</p>
+                <p>Broakers G. House</p>
+                <p>Where ever the Carcass is there will the Ravens be Gatherd together</p>
+                <p>Z</p>
+            </div>
+        </body>
+
+        <back/>
+    </text>
+</TEI>
