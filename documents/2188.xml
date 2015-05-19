@@ -1,20 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/css" href="./tiny_TEI_template.css"?>
-<?xml-model href="../../../HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
-<?oxygen RNGSchema="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="compact"?>
+
+<?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="English">
         <fileDesc>
             <titleStmt>
-                <title type="main"
-                    >TEI transcription of Lincoln's Last Warning</title>
+                <title type="main">TEI transcription of Lincoln's Last Warning</title>
                 <respStmt>
                     <resp key="art">Artist</resp>
-                    <persName key="ENT.000003636">Frank Bellew</persName>
-                </respStmt>
-                <respStmt>
-                    <resp key="pbl">Publisher</resp>
-                    <orgName key="ENT.000003139">Harper's Weekly</orgName>
+                    <persName key="ENT.000003636"/>
+                    <!-- Bellew, Frank -->
                 </respStmt>
                 <respStmt>
                     <resp key="trc">Transcribed by</resp>
@@ -29,7 +25,8 @@
                 <p>First edition, <date when="2015">2015</date></p>
             </editionStmt>
             <publicationStmt>
-                <publisher><orgName key="ENT.000002473">Historical Society of Pennsylvania</orgName></publisher>
+                <publisher><orgName key="ENT.000002473">Historical Society of
+                    Pennsylvania</orgName></publisher>
                 <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
                 <idno type="filename">2188</idno>
                 <availability status="restricted">
@@ -57,40 +54,45 @@
                     <msIdentifier>
                         <repository key="ENT.000002473"/>
                         <collection key="3133"/>
-                        <idno type="citation">
-                            <idno type="box"></idno>
-                            <idno type="folder"></idno>
-                        </idno>
                     </msIdentifier>
                     <msContents>
                         <msItem>
                             <bibl>
                                 <date from="1862-10-11">October 11, 1862</date>
-                                <extent>One loose clipping</extent>
+                                <extent>1 loose clipping</extent>
                                 <listRelation>
                                     <relation name="depicted" active="ENT.000000447"/>
-                                    <relation name="depicted" active="ENT.000001041"></relation>
+                                    <!-- Lincoln -->
+                                    <relation name="depicted" active="ENT.000001041"/>
+                                    <!-- Davis -->
                                 </listRelation>
                             </bibl>
                         </msItem>
                     </msContents>
                     <history>
-                        <acquisition>This is an artificial collection created over time by HSP staff mostly through donations and purchases of individual prints. It also incorporates previously uncataloged materials collected by the Balch Institute for Ethnic Studies. Some of the 20th century cartoons and drawings were removed from the J. Hampton Moore papers (Collection 1541).</acquisition>
+                        <acquisition>This is an artificial collection created over time by HSP staff
+                            mostly through donations and purchases of individual prints. It also
+                            incorporates previously uncataloged materials collected by the Balch
+                            Institute for Ethnic Studies. Some of the 20th century cartoons and
+                            drawings were removed from the J. Hampton Moore papers (Collection
+                            1541).</acquisition>
                     </history>
                 </msDesc>
                 <biblStruct>
                     <analytic>
                         <respStmt>
                             <resp key="art">Artist</resp>
-                            <persName key="ENT.000003636">Frank Bellew</persName>
+                            <persName key="ENT.000003636"/>
+                            <!-- Bellew, Frank -->
                         </respStmt>
                         <title type="main" level="a">Lincoln's Last Warning</title>
                     </analytic>
                     <monogr>
-                        <title type="marc245a" level="j"><orgName key="ENT.000003139">Harper's Weekly</orgName></title>
+                        <title type="marc245a" level="j"><orgName key="ENT.000003139">Harper's
+                                Weekly</orgName></title>
                         <imprint>
-                            <publisher><orgName key="ENT.000003540"
-                                    >Harper &amp; Brothers. </orgName></publisher>
+                            <publisher><orgName key="ENT.000003540">Harper &amp; Brothers.
+                                </orgName></publisher>
                             <pubPlace>New York</pubPlace>
                             <date from="1862-10-11">October 11, 1862</date>
                             <biblScope unit="volume">6</biblScope>
@@ -114,7 +116,8 @@
             </projectDesc>
             <editorialDecl n="4">
                 <p>This electronic file was created using manual keying following the
-                    recommendations for Level 4 of "Best Practices for TEI in Libraries" guidelines v3.0.</p>
+                    recommendations for Level 4 of "Best Practices for TEI in Libraries" guidelines
+                    v3.0.</p>
                 <p>This xml file uses unique entity identifiers, media file identifiers, and
                     collection identifiers in HSP's Digital Library, available at
                     http://digitallibrary.hsp.org.</p>
@@ -123,7 +126,8 @@
                 <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
                 <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
                 <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
-                <rendition scheme="css" xml:id="crossed-through">text-decoration: line-through</rendition>
+                <rendition scheme="css" xml:id="crossed-through">text-decoration:
+                    line-through</rendition>
                 <rendition scheme="other" xml:id="printed"/>
                 <rendition scheme="other" xml:id="typescript"/>
                 <rendition scheme="other" xml:id="handwritten"/>
@@ -139,39 +143,50 @@
         </encodingDesc>
         <profileDesc>
             <textClass>
-                <catRef target="cartoons_taxonomies.xml#civil_war"/> 
-                <catRef target="cartoons_taxonomies.xml#slavery"/> 
+                <catRef target="cartoons_taxonomies.xml#civil_war"/>
+                <catRef target="cartoons_taxonomies.xml#featured"/>
+                <catRef target="cartoons_taxonomies.xml#slavery"/>
                 <catRef target="cartoons_genres.xml#clippings"/>
                 <catRef target="cartoons_genres.xml#wood_engravings"/>
-                <catRef target="cartoons_taxonomies.xml#featured"/>
+                <catRef target="cartoons_genres.xml#political_cartoons"/>
+
             </textClass>
         </profileDesc>
         <revisionDesc>
+            <change who="RachelMoloshok" when="2015-05-19">Cleaned up file</change>
             <change who="SaraBorden" when="2015-03-31">Updated genres and taxonomies</change>
-            <change who="Sara Borden" when="2015-03-10">Filled out header, added description, created zones</change>
+            <change who="Sara Borden" when="2015-03-10">Filled out header, added description,
+                created zones</change>
             <change who="RachelMoloshok" when="2015-01-07">Template file created</change>
         </revisionDesc>
     </teiHeader>
     <facsimile>
         <surface ulx="" uly="" lrx="" lry="">
             <graphic url="FIL.000001858"/>
-            <zone n="1" xml:id="slaveholder" points=""/>
-            <zone n="2" xml:id="tree" points=""/>
-            <zone n="3" xml:id="title" points=""/>
-            <zone n="4" xml:id="Lincoln" points=""/>
-            <zone n="5" xml:id="date" points=""/>
+            <zone n="1" xml:id="slaveholder"/>
+            <zone n="2" xml:id="tree"/>
+            <zone n="3" xml:id="title"/>
+            <zone n="4" xml:id="Lincoln"/>
+            <zone n="5" xml:id="date"/>
         </surface>
     </facsimile>
     <text>
         <front>
             <div type="editorial_desc">
-                <p>This cartoon depicts President Abraham Lincoln weilding an axe with which he is threatening to chop down a tree with the word, "SLAVERY" on the trunk. There is a man, likely Confederate President Jefferson Davis, near the top of the tree looking fearfully down at Lincoln. Beside this man is a sword or sabre hanging from a limb of the tree.</p>
+                <p>This cartoon depicts President Abraham Lincoln wielding an axe with which he is
+                    threatening to chop down a tree with the word "SLAVERY" on the trunk. There is a
+                    man, likely Confederate President Jefferson Davis, clutching the branches near
+                    the top of the tree and looking fearfully down at Lincoln. Beside this man, a
+                    sword or sabre hangs from a limb of the tree.</p>
             </div>
         </front>
         <body>
             <div type="image_annotation" facs="#slaveholder" n="1">
                 <head><supplied resp="editorial">Slaveholder</supplied></head>
-                <p>This man, who may be Confederate President Jefferson Davis, cowers in the high limbs of the tree that Lincoln is threatening to chop down. His sword hangs uselessly from a twig beside him.</p>
+                <p>This man, who may be Confederate President <persName key="ENT.000001041"
+                        >Jefferson Davis</persName>, cowers in the high limbs of the tree that
+                        <persName key="ENT.000000447">Lincoln</persName> is threatening to chop
+                    down. His sword hangs uselessly from a twig beside him.</p>
             </div>
             <div type="image_transcription" facs="#tree" n="2">
                 <head><supplied resp="editorial">Tree</supplied></head>
@@ -179,16 +194,22 @@
             </div>
             <div type="image_transcription" facs="#title" n="3">
                 <head><supplied>Title</supplied></head>
-                <p>LINCOLN'S LAST WARNING.</p>
-                <p>"Now, if you don't come down, I'll cut the Tree <hi rendition="#italics">from under you</hi>."</p>
+                <p><persName key="ENT.000000447">LINCOLN</persName>'S LAST WARNING.</p>
+                <p>"Now, if you don't come down, I'll cut the Tree <hi rendition="#italics">from
+                        under you</hi>."</p>
             </div>
-             <div type="image_annotation" facs="#Lincoln" n="4">
-                 <head><supplied resp="editorial">Lincoln</supplied></head>
-                 <p>President Abraham Lincoln threatens to chop down the Slavery Tree with his axe as he looks up at a man who has climbed the tree. This is a reference to Lincoln's desire to abolish slavery in the southnern states, which he would do with the Emancipation Proclamation, effective January 1, 1863. Lincoln "cut the Tree out from under" the South by ending slavery despite Southern resistence.</p>
-             </div>
+            <div type="image_annotation" facs="#Lincoln" n="4">
+                <head><supplied resp="editorial"><persName key="ENT.000000447"
+                        >Lincoln</persName></supplied></head>
+                <p>President Abraham Lincoln threatens to chop down a tree labeled "Slavery." This
+                    is a reference to Lincoln's desire to abolish slavery in the Southern states,
+                    which he would do with the Emancipation Proclamation, effective January 1, 1863.
+                    Lincoln "cut the Tree out from under" the South by ending slavery despite
+                    Southern resistance.</p>
+            </div>
             <div type="image_transcription" facs="#date" n="5">
-                <head><supplied resp="editorial">Date</supplied></head>
-                <p><add>Oct 11, 1862</add></p>
+                <head><supplied resp="editorial">Note</supplied></head>
+                <p><add><date when="1862-10-11">Oct 11, 1862</date></add></p>
             </div>
         </body>
         <back/>
