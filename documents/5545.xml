@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/css" href="./tiny_TEI_template.css"?>
-<?oxygen RNGSchema="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="compact"?>
+
+<?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="English">
         <fileDesc>
@@ -63,10 +64,11 @@
                             <bibl>
                                 <date from="1861-01-01" to="1861-12-31"></date>
                                 <extent>One loose sheet.</extent>
-                                <relatedItem type="references" target="12052"></relatedItem>
+                                <relatedItem type="references" target="12052"/>
                                 <listRelation>
                                     <relation name="depicted" active="cartoons_symbols.xml#donkey"/>
-                                    <relation name="mentioned" active="ENT.000002223"/>
+                                    <relation name="mentioned" active="ENT.000002223"/><!-- Andrew Jackson -->
+                                    <!-- Add humbug as symbol? -->
                                 </listRelation>
                             </bibl>
                         </msItem>
@@ -86,8 +88,7 @@
                             <publisher><orgName key="ENT.000000844"
                                     >Currier and Ives</orgName></publisher>
                             <pubPlace>New York</pubPlace>
-                            <date from="1861"
-                                >1861</date>
+                            <date from="1861-01-01" to="1861-12-31">1861</date>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -136,14 +137,16 @@
 
         <profileDesc>
             <textClass>
-                <catRef target="cartoons_taxonomies.xml#civil_war"/> 
-                <catRef target="cartoons_taxonomies.xml#slavery"/> 
                 <catRef target="cartoons_genres.xml#lithographs"/>
+                <catRef target="cartoons_genres.xml#political_cartoons"/>
                 <catRef target="cartoons_taxonomies.xml#featured"/>
+                <catRef target="cartoons_taxonomies.xml#civil_war"/> 
+                <catRef target="cartoons_taxonomies.xml#econ"/>
             </textClass>
         </profileDesc>
 
         <revisionDesc>
+            <change who="RachelMoloshok" when="2015-05-19">Cleaned up file; added genre "political cartoons"; removed "slavery" topic tag, added "econ" topic tag (cartoon does not reference slavery, does reference economic matters)</change>
             <change who="SaraBorden" when="2015-03-31">Added genres and taxonomies.</change>
             <change who="SaraBorden" when="2015-02-09">Cleaned up header, added more description, created zones</change>
             <change who="TammyGaskell" when="2015-01-21">filled out header</change>
@@ -152,8 +155,7 @@
     </teiHeader>
     <facsimile>
         <surface ulx="" uly="" lrx="" lry="">
-            <graphic
-                url="FIL.000017393"/>
+            <graphic url="FIL.000017393"/>
             <zone n="1" xml:id="humbug" points=""/>
             <zone n="2" xml:id="South_Carolina" points=""/>
             <zone n="3" xml:id="Florida" points=""/>
@@ -172,7 +174,7 @@
     <text>
         <front>
             <div type="editorial_desc">
-                <p>Representatives of various southern states, including Florida, Alabama, Mississippi, and Lousiana, ride on donkeys following South Carolina, riding on a hog, going off a cliff. Georgia also rides a donkey, but takes a different downhill path deviating from the one that leads off the edge of the cliff. The man from South Carolina is reaching for the "Secession Humbug," depicted as a butterfly. The secessionists ride off the cliff into the water below. </p>
+                <p>Representatives of various southern states, including Florida, Alabama, Mississippi, and Louisiana, ride on donkeys following South Carolina, riding on a hog, going off a cliff. Georgia also rides a donkey, but takes a different downhill path, deviating from the one that leads off the edge of the cliff. The man from South Carolina is reaching for the "Secession Humbug," depicted as a butterfly. The secessionists ride off the cliff into the water below. </p>
             </div>
         </front>
         <body>
@@ -181,33 +183,27 @@
                 <p>SECESSION HUMBUG.</p>
             </div>
             <div type="image_transcription" facs="#South_Carolina" n="2">
-            <head><supplied resp="editorial">South Carolina</supplied></head>
-                <p>SOUTH CAROLINA.</p>
+                <head>SOUTH CAROLINA.</head>
                 <p>We go the whole hog._<rs key="ENT.000002223">Old Hickory</rs> is dead; and now we'll have it.</p>
                 </div>
 <div type="image_transcription" facs="#Florida" n="3">
-    <head><supplied resp="editorial">Florida</supplied></head>
-    <p>FLORIDA.</p>
+    <head>FLORIDA.</head>
     <p>Go it Carolina! we are the boys to <hi rendition="#underline">wreck</hi> the Union.</p>
 </div>
             <div type="image_transcription" facs="#Alabama" n="4">
-<head><supplied resp="editorial">Alabama</supplied></head>
-                <p>ALABAMA.</p>
+                <head>ALABAMA.</head>
             <p>We go it blind, "Cotton is King"!</p>
             </div>
             <div type="image_transcription" facs="#Mississippi" n="5">
-                <head><supplied resp="editorial">Mississippi</supplied></head>
-                <p>MISSISSIPPI.</p>
+                <head>MISSISSIPPI.</head>
                 <p>Down with the Union! Mississippi <hi rendition="#underline">repudiates her bonds</hi>.</p>
             </div>
             <div type="image_transcription" facs="#Louisiana" n="6">
-                <head><supplied resp="editorial">Louisiana</supplied></head>
-                <p>LOUISIANA.</p>
+                <head>>LOUISIANA.</head>
                 <p>Go it boys! We'll soon taste the <hi rendition="#underline">sweets of</hi> secession.</p>
             </div>
             <div type="image_transcription" facs="#Georgia" n="7">
-<head><supplied resp="editorial">Georgia</supplied></head>
-                <p>GEORGIA.</p>
+                <head>GEORGIA.</head>
                 <p>We have some doubts about <hi rendition="#underline">the end</hi> of that road and think it expedient to deviate a little.</p>
             </div>
            <div type="image_transcription" facs="#waves" n="8">
@@ -216,8 +212,8 @@
            </div> 
             <div type="image_transcription" facs="#title" n="9">
                 <head><supplied resp="editorial">Title</supplied></head>
-                <p><hi rendition="#italics">Entered according to act of Congress in the Year 1861, by Currier &amp; Ives, in the Clerk's Office of the District Court of the United States for the Southern District of New York.</hi></p>
                 <p>THE "SECESSION MOVEMENT".</p>
+                <p><hi rendition="#italics">Entered according to act of Congress in the Year <date when="1861">1861</date>, by <orgName key="ENT.000000844">Currier &amp; Ives</orgName>, in the Clerk's Office of the District Court of the United States for the Southern District of New York.</hi></p>
             </div>
             <div type="image_transcription" facs="#publisher" n="10">
                 <head><supplied resp="editorial">Publisher</supplied></head>
@@ -228,12 +224,12 @@
                 <p><hi rendition="#italics">152 Nassau St. N.Y.</hi></p>
             </div>
             <div type="image_transcription" facs="#year" n="12">
-                <p>Year</p>
-                <p>1861</p>
+                <head><supplied resp="editorial">Note</supplied></head>
+                <p><add><date when="1861">1861</date></add></p>
             </div>
             <div type="image_annotation" facs="#butterfly" n="13">
                 <head>Humbug</head>
-                <p>This butterfly, the "Secession Humbug," is a reference to a cartoon published in 1837 skewering President Andrew Jackson's fiscal policies and his desire to dismantle the Bank of the United States. Jackson's policies were considered ill-advised and in this cartoon, secession is depicted as just as foolish. South Carolina leads the charge and was the first state to secede from the Union on December 20, 1860. Mississippi followed on January 9, 1861; Florida on January 10; Alabama on January 11; Georgia on January 19; and Louisiana on January 26. Georgia, depicted as taking a different path than other southern states in this cartoon, was home to both citizens and law-makers who were reluctant to secede and who urged that the decision not be made hastily or lightly.  Georgia was not, however, the slowest state to join the secession movement.  Tennessee was the last state to secede on June 8, 1861.  Texas, Virginia, Arkansas, and North Carolina were the final states which formed the Confederacy.</p>
+                <p>This butterfly, the "Secession Humbug," is a reference to a cartoon published in <date when="1837">1837</date> skewering <persName key="ENT.000002223">President Andrew Jackson</persName>'s fiscal policies and his desire to dismantle the <orgName key="ENT.000003326">Bank of the United States</orgName>. Jackson's policies were considered ill-advised, and in this cartoon, secession is depicted as just as foolish. South Carolina, leading the charge,  was the first state to secede from the Union on <date when="1860-12-20">December 20, 1860</date>. Mississippi followed on <date when="1861-01-09">January 9, 1861</date>; Florida on <date when="1861-01-10">January 10</date>; Alabama on <date when="1861-01-11">January 11</date>; Georgia on <date when="1861-01-19">January 19</date>; and Louisiana on <date when="1861-01-26">January 26</date>. Georgia, depicted as taking a different path than other southern states in this cartoon, was home to both citizens and law-makers who were reluctant to secede and who urged that the decision not be made hastily or lightly. Georgia was not, however, the slowest state to join the secession movement. Tennessee was the last state to secede on <date when="1861-06-08">June 8, 1861</date>. Texas, Virginia, Arkansas, and North Carolina were the final states that formed the Confederacy.</p>
             </div>
         </body>
 
