@@ -11,9 +11,8 @@
                 <title type="main"
                     >TEI transcription of Effect of the Penna. Anti-Cartoon Law</title>
                 <respStmt>
-                    <resp key="art">Artist</resp>
-                    <persName key="ENT.000003745"
-                        >C.K Berryman</persName>
+                    <resp key="art">artist</resp>
+                    <persName key="ENT.000003745">Berryman, Clifford Kennedy, 1869-1949</persName>
                 </respStmt>
                 <respStmt>
                     <resp key="trc">Transcribed by</resp>
@@ -25,7 +24,11 @@
                     <persName key="ENT.000003544">Biunno, Diane</persName>
                 </respStmt>
 
-            </titleStmt>
+            <respStmt>
+          <resp key="pbl">publisher</resp>
+          <persName key="ENT.000003366">Wanamaker, Thomas B., 1865-1908</persName>
+        </respStmt>
+      </titleStmt>
 
             <editionStmt>
                 <p>First edition, <date when="2015">2015</date></p>
@@ -52,18 +55,18 @@
                         the intended use of reproductions must be made in writing to the Rights and
                         Reproductions Coordinator at rnr@hsp.org.</p>
                 </availability>
-                <date when="2015"/>
+                <date when="2015">2015</date>
             </publicationStmt>
 
             <seriesStmt>
-                <title level="s" type="project" key="CARTOONS"/>
+                <title level="s" type="project" key="CARTOONS">Historic Images, New Technologies (HINT) Project</title>
             </seriesStmt>
 
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <repository key="ENT.000002473"/>
-                        <collection key="0117">Hampton L. Carson Papers</collection>
+                        <repository key="ENT.000002473">Historical Society of Pennsylvania</repository>
+                        <collection key="0117">Hampton L. Carson papers</collection>
                         
                         <idno type="citation"
                             ><idno type="box">51</idno>
@@ -102,21 +105,26 @@
                 <biblStruct>
                     <analytic>
                         <respStmt>
-                            <resp key="art">Artist</resp>
-                            <persName key="ENT.000003745"/>
+                            <resp key="art">artist</resp>
+                            <persName key="ENT.000003745">Berryman, Clifford Kennedy, 1869-1949</persName>
                         </respStmt>
-                        <title type="main" level="a">Effect of the Penna. Anti-Cartoon Law</title>
-                    </analytic>
+                        <respStmt>
+              <resp key="pbl">publisher</resp>
+              <persName key="ENT.000003366">Wanamaker, Thomas B., 1865-1908</persName>
+            </respStmt>
+            <title type="main" level="a">Effect of the Penna. Anti-Cartoon Law</title>
+                    <date from="1903-05-01" to="1903-05-31">circa May 1903</date>
+          </analytic>
                     <monogr>
                         <title type="marc245a" level="j"><orgName key="ENT.000003556"
                             >North American</orgName></title>
                         <imprint>
-                            <publisher><orgName key="ENT.000003366"
-                                >Thomas Wanamaker</orgName></publisher>
                             <pubPlace>Philadelphia</pubPlace>
                             <date from="1903-05-01" to="1903-05-31"
                                 >circa May 1903</date>
-                            <biblScope/>
+                            <publisher>
+                <persName key="ENT.000003366">Wanamaker, Thomas B., 1865-1908</persName>
+              </publisher>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -179,6 +187,7 @@
         </profileDesc>
 
         <revisionDesc>
+            <change who="DianeBiunno" when="2015-05-19">Basic proofreading and exported from CA</change>
             <change who="DianeBiunno" when="2015-05-19">Encoded to basic level</change>
             <change who="RachelMoloshok" when="2015-01-07">Template file created</change>
         </revisionDesc>
@@ -186,18 +195,18 @@
 
     <facsimile>
        
-        <surface ulx="" uly="" lrx="" lry="">
+    <surface ulx="0" uly="0" lrx="100" lry="100">
           
             <graphic
                 url="FIL.000095409"/>
             
-            <zone n="1" xml:id="Title" points=""/>
-            <zone n="2" xml:id="Chair" points=""/>
-            <zone n="3" xml:id="Drawing1" points=""/>
-            <zone n="4" xml:id="Drawing2" points=""/>
-            <zone n="5" xml:id="Drawing3" points=""/>
-            <zone n="6" xml:id="Drawing4" points=""/>
-            <zone n="7" xml:id="Drawing5" points=""/>
+            <zone n="1" xml:id="Title" points="0.27,91.42 34.05,92.97 60.36,92.39 66.16,86.58 88.95,86.58 99.52,95.49 98.69,99.75 0.48,99.55"/>
+            <zone n="2" xml:id="Chair" points="44.61,1.61 70.1,0.45 69.68,5.48 44.2,5.87"/>
+            <zone n="3" xml:id="Drawing1" points="14.5,47.47 30.96,49.21 24.38,69.41 8.9,63.87"/>
+            <zone n="4" xml:id="Drawing2" points="46.05,78.09 49.34,76.44 55.82,77.37 60.65,72.86 63.28,73.16 68.88,76.85 51.42,83.01"/>
+            <zone n="5" xml:id="Drawing3" points="58.68,46.04 72.18,51.48 60.88,65.12 48.8,58.45"/>
+            <zone n="6" xml:id="Drawing4" points="78.71,48.61 87.17,45.69 82.94,40.71 90.11,37.62 95.62,55.66 80.36,61.67"/>
+            <zone n="7" xml:id="Drawing5" points="86.61,15.97 97.65,20.44 92.5,28.69 89.74,35.9 82.94,34.7 77.24,29.2 79.26,22.84 83.67,20.1"/>
         </surface>
     </facsimile>
 
