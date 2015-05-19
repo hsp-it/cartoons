@@ -27,6 +27,10 @@
                     <resp key="mrk">Encoded by</resp>
                     <persName key="ENT.000003368">Moloshok, Rachel</persName>
                 </respStmt>
+                <respStmt>
+                    <resp key="pfr">Proofread by</resp>
+                    <persName key="ENT.000003368">Moloshok, Rachel</persName>
+                </respStmt>
 
             </titleStmt>
 
