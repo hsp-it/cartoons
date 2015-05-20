@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+
+    <teiHeader xml:lang="English">
+
+        <fileDesc>
+
+            <titleStmt>
+                <title type="main">TEI transcription of An Available Candidate</title>
+                <respStmt>
+                    <resp key="art">Artist</resp>
+                    <persName key="ENT.000000553"/>
+                </respStmt>
+                <respStmt>
+                    <resp key="trc">Transcribed by</resp>
+                    <persName key="ENT.000003368"/>
+                </respStmt>
+                <respStmt>
+                    <resp key="mrk">Encoded by</resp>
+                    <persName key="ENT.000003368"/>
+                </respStmt>
+
+            </titleStmt>
+
+            <editionStmt>
+                <p>First edition, <date when="2015">2015</date></p>
+            </editionStmt>
+
+            <publicationStmt>
+                <publisher><orgName key="ENT.000002473">Historical Society of
+                    Pennsylvania</orgName></publisher>
+                <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
+                <idno type="filename">12278</idno>
+                <availability status="restricted">
+                    <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of
+                        copyright only to original contributions made by the Historic Images, New
+                        Technologies (HINT) Project participants and other staff. HSP makes no claim
+                        of copyright to the original text. Permission is granted to download,
+                        transmit or otherwise reproduce, distribute or display the text
+                        contributions to this work claimed by HSP for non-profit educational
+                        purposes, provided that this header is included in its entirety. For
+                        inquiries about commercial uses, please contact the Historical Society of
+                        Pennsylvania. HSP retains the rights of all images unless otherwise noted.
+                        Possession of an HSP digital image does not constitute permission to use or
+                        publish it. Requests for digital imaging, other reproduction services, and
+                        the intended use of reproductions must be made in writing to the Rights and
+                        Reproductions Coordinator at rnr@hsp.org.</p>
+                </availability>
+                <date when="2015"/>
+            </publicationStmt>
+
+            <seriesStmt>
+                <title level="s" type="project" key="CARTOONS"/>
+            </seriesStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository key="ENT.000002473"/>
+                        <collection key="V64"/>
+                        <idno type="citation">Bb 612 Ac161</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <bibl>
+                                <date from="1848-01-01" to="1848-12-31">1848</date>
+                                <extent>1 loose sheet</extent>
+                                <listRelation>
+                                    <relation name="depicted" active="ENT.000003169"/>
+                                    <relation name="depicted" active="ENT.000003747"/>
+                                </listRelation>
+                            </bibl>
+                        </msItem>
+                    </msContents>
+
+                    <history>
+                        <acquisition/>
+                    </history>
+                </msDesc>
+                <biblStruct>
+                    <monogr>
+                        <respStmt>
+                            <resp key="art">Artist</resp>
+                            <persName key="ENT.000000553"/>
+                        </respStmt>
+                        <title type="main" level="m">An Available Candidate</title>
+                        <imprint>
+                            <publisher><orgName key="ENT.000003748">N. Currier</orgName></publisher>
+                            <pubPlace>New York</pubPlace>
+                            <date from="1848-01-01" to="1848-12-31">1848</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <projectDesc>
+                <p>The Historic Images, New Technologies (HINT) project aims to enhance description
+                    and discovery of the Historical Society of Pennsylvania's graphics materials and
+                    promote the linking and sharing of content among institutions and scholars. The
+                    project will result in an update to HSP's digital image viewer and an online
+                    digital history exhibit that will demonstrate the new viewer's capabilities and
+                    provide interpretive and contextual materials to encourage users to interact
+                    with historical images in new ways. This project was funded by a grant from the
+                    National Historical Publications and Records Commission's (NHPRC) Innovation in
+                    Archives and Documentary Editing program.</p>
+            </projectDesc>
+            <editorialDecl n="4">
+                <p>This electronic file was created using manual keying following the
+                    recommendations for Level 4 of "Best Practices for TEI in Libraries" guidelines
+                    v3.0.</p>
+                <p>This xml file uses unique entity identifiers, media file identifiers, and
+                    collection identifiers in HSP's Digital Library, available at
+                    http://digitallibrary.hsp.org.</p>
+
+            </editorialDecl>
+            <tagsDecl>
+                <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
+                <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
+                <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
+                <rendition scheme="css" xml:id="crossed-through">text-decoration:
+                    line-through</rendition>
+                <rendition scheme="other" xml:id="printed"/>
+                <rendition scheme="other" xml:id="typescript"/>
+                <rendition scheme="other" xml:id="handwritten"/>
+                <rendition scheme="other" xml:id="handwritten-underlined"/>
+                <rendition scheme="other" xml:id="handwritten-circled"/>
+                <rendition scheme="other" xml:id="handwritten-crossed-through"/>
+                <rendition scheme="other" xml:id="double-underline"/>
+                <rendition scheme="other" xml:id="stamp"/>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+        </encodingDesc>
+
+        <profileDesc>
+            <textClass>
+                <catRef target="cartoons_genres.xml#lithographs"/>
+                <catRef target="cartoons_genres.xml#political_cartoons"/>
+                <catRef target="cartoons_taxonomies.xml#early"/>
+                <catRef target="cartoons_taxonomies.xml#elections"/>
+                <catRef target="cartoons_taxonomies.xml#war"/>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change who="RachelMoloshok" when="2015-05-20">Basic encoding</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <facsimile>
+        <surface ulx="" uly="" lrx="" lry="">
+            <graphic url="FIL.000093152"/>
+            <zone n="1" xml:id="title"/>
+            <zone n="2" xml:id="candidate"/>
+        </surface>
+    </facsimile>
+
+    <text>
+        <front>
+            <div type="editorial_desc">
+                <p>A man with bushy eyebrows and sideburns, wearing a military uniform and a
+                    flamboyantly plumed helmet, sits atop a pyramid-shaped pile of sculls, holding a
+                    blood-tipped sword in his right hand. The caption reads "An Available Candidate:
+                    The One Qualification for a Whig President." Historians are unsure whether the
+                    central figure in this political cartoon, produced during the run-up to the US
+                    presidential election of 1848, is General Zachary Taylor or General Winfield
+                    Scott. Taylor was regarded favorably as a Mexican-American War hero and won the
+                    Whig presidential nomination (and, eventually, the presidency), but the hat and
+                    uniform are more often associated with representations of Scott, was also a
+                    popular general of the Mexican-American War and a rival for the Whig
+                    presidential nomination. Taylor was nominated at the party's convention in
+                    Philadelphia in June 1848.</p>
+            </div>
+        </front>
+
+        <body>
+            <div type="image_transcription" n="1" facs="#title">
+                <head><supplied resp="editorial">Title and imprint</supplied></head>
+                <p>AN AVAILABLE CANDIDATE.</p>
+                <p>THE ONE QUALIFICATION FOR A WHIG PRESIDENT.</p>
+                <p><hi rendition="#italics">For sale at No. 2 Spruce St. N.Y.</hi></p>
+            </div>
+            <div type="image_annotation" n="2" facs="#candidate">
+                <head>Taylor or Scott</head>
+                <p>Historians are unsure whether the Whig party presidential candidate depicted
+                    sitting on atop a pyramid of skulls is Zachary Taylor or Winfield Scott.</p>
+            </div>
+
+        </body>
+
+        <back/>
+    </text>
+</TEI>
