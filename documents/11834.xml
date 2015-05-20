@@ -28,11 +28,11 @@
                     <orgName key="ENT.000000380">Mayer, Merkel &amp; Ottmann</orgName>
                 </respStmt>
 
-            <respStmt>
-          <resp key="pbl">publisher</resp>
-          <orgName key="ENT.000003163">Keppler &amp; Schwarzmann</orgName>
-        </respStmt>
-      </titleStmt>
+                <respStmt>
+                    <resp key="pbl">publisher</resp>
+                    <orgName key="ENT.000003163">Keppler &amp; Schwarzmann</orgName>
+                </respStmt>
+            </titleStmt>
 
             <editionStmt>
                 <p>First edition, <date when="2015">2015</date></p>
@@ -62,13 +62,15 @@
             </publicationStmt>
 
             <seriesStmt>
-                <title level="s" type="project" key="CARTOONS">Historic Images, New Technologies (HINT) Project</title>
+                <title level="s" type="project" key="CARTOONS">Historic Images, New Technologies
+                    (HINT) Project</title>
             </seriesStmt>
 
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <repository key="ENT.000002473">Historical Society of Pennsylvania</repository>
+                        <repository key="ENT.000002473">Historical Society of
+                            Pennsylvania</repository>
                         <collection key="PG278">Balch Broadsides: Satirical Cartoons</collection>
                         <idno type="citation">
                             <idno type="box">5</idno>
@@ -123,13 +125,13 @@
                         </respStmt>
 
                         <respStmt>
-              <resp key="pbl">publisher</resp>
-              <orgName key="ENT.000003163">Keppler &amp; Schwarzmann</orgName>
-            </respStmt>
-            <title type="main" level="a">Another Bombardment. -- The Newspaper Fleet
+                            <resp key="pbl">publisher</resp>
+                            <orgName key="ENT.000003163">Keppler &amp; Schwarzmann</orgName>
+                        </respStmt>
+                        <title type="main" level="a">Another Bombardment. -- The Newspaper Fleet
                             Firing on the Bedouins in Washington</title>
-                    <date from="1882-08-02">August 2, 1882</date>
-          </analytic>
+                        <date from="1882-08-02">August 2, 1882</date>
+                    </analytic>
                     <monogr>
                         <title type="marc245a" level="j"><orgName key="ENT.000000384"
                             >Puck</orgName></title>
@@ -202,35 +204,50 @@
         </profileDesc>
 
         <revisionDesc>
-            <change who="DianeBiunno" when="2015-04-29">Exported from CA and basic proofreading</change>
+            <change who="DianeBiunno" when="2015-04-29">Exported from CA and basic
+                proofreading</change>
             <change who="DianeBiunno" when="2015-04-29">Encoded cartoon to basic level</change>
             <change who="RachelMoloshok" when="2015-01-07">Template file created</change>
         </revisionDesc>
     </teiHeader>
 
     <facsimile>
-       
+
         <surface ulx="0" uly="0" lrx="100" lry="100">
-            
-            <graphic
-                url="FIL.000089726"/>
-           
-            <zone n="1" xml:id="Title" points="6.48,91 85.65,90.24 89.54,87.23 96.14,86.77 96.04,93.86 6.78,95.82"/>
+
+            <graphic url="FIL.000089726"/>
+
+            <zone n="1" xml:id="Title"
+                points="6.48,91 85.65,90.24 89.54,87.23 96.14,86.77 96.04,93.86 6.78,95.82"/>
             <zone n="2" xml:id="Puck" points="47.79,5.46 56.09,5.71 56.19,9.18 47.69,9.03"/>
-            <zone n="3" xml:id="Bill" points="68.81,69.58 69.11,62.18 77.9,58.26 84,68.52 83.6,83 70.13,90.57 59.59,90.57 65.06,85.5 59.71,80.29 58.61,76.06 61.21,73.35 63.81,76.82 67.01,72.59"/>
-            <zone n="4" xml:id="WHouse" points="61.59,18.91 68.97,8.77 95.06,9.1 95.39,38.18 81.3,37.85 80.97,24.06 70.62,28.71"/>
-            <zone n="5" xml:id="Guns" points="43.45,32.65 60.92,31.55 61.15,26.4 66.38,26.88 76.07,29.97 80.03,37.04 47.96,39.72"/>
-            <zone n="6" xml:id="Wall" points="38.39,52.81 47.39,54.17 55.49,52.66 50.49,61.25 42.89,76.49 41.39,90.82 11.31,90.67 13.78,63.62 17.3,59.47 23.91,65.45"/>
-            <zone n="7" xml:id="Robeson" points="50.93,24.06 53.79,19.91 62.38,22.57 60.51,30.04 59.01,36.84 61.67,36.44 63.26,44.83 61.28,50.31 60.95,54.8 52.69,47.16 51.59,53.64 45.32,54.97 44,51.31 47.74,51.14 48.18,37.85 48.4,28.22"/>
-            <zone n="8" xml:id="Keifer" points="33.16,39.44 35.55,37.28 39.09,40 40.32,33.88 44.44,35.27 48.36,40.77 47.4,48.33 47.51,51.37 42.87,52.39 39.91,50.75 36.33,46.02"/>
-            <zone n="9" xml:id="Reid" points="43.78,19.6 49.47,18.63 49.04,26.48 48.54,29.82 43.04,29.66 43.06,27.85 47.02,21.8 43.75,22.16"/>
-            <zone n="10" xml:id="Curtis" points="35.95,17.87 40.2,18.27 42.07,26.08 39.62,30.24 33.67,30.11 33.92,22.97"/>
-            <zone n="11" xml:id="Fleet" points="8.85,17.1 18.19,12.55 34.13,15.78 35.74,18.95 34.43,26.85 28.05,18.52 27.71,15.52 22.1,16.66 24.92,25.34 20.25,21.72 13.65,28.5"/>
-            <zone n="12" xml:id="Puck_2" points="13.34,23.58 27.43,21.26 29.41,32.55 26.77,37.37 14.77,37.54 12.13,33.39"/>
-            <zone n="13" xml:id="Schurz" points="6.6,25.48 11.6,25.48 14.22,40.53 11.8,47.01 6.73,48.34"/>
-            <zone n="14" xml:id="Bennett" points="11.03,39.87 15.32,32.89 23.03,34.71 28.2,39.53 21.49,51.16 9.59,49.67"/>
-            <zone n="15" xml:id="Dana" points="6.4,49.83 18.4,49.83 24.9,52.66 22.59,57.31 13.23,67.78 7.06,68.94"/>
-            <zone n="16" xml:id="Waterson" points="22.29,17.65 27.1,14.45 30.59,19.73 34.05,26.45 32.26,31.09 22.99,29.4"/>
+            <zone n="3" xml:id="Bill"
+                points="68.81,69.58 69.11,62.18 77.9,58.26 84,68.52 83.6,83 70.13,90.57 59.59,90.57 65.06,85.5 59.71,80.29 58.61,76.06 61.21,73.35 63.81,76.82 67.01,72.59"/>
+            <zone n="4" xml:id="WHouse"
+                points="61.59,18.91 68.97,8.77 95.06,9.1 95.39,38.18 81.3,37.85 80.97,24.06 70.62,28.71"/>
+            <zone n="5" xml:id="Guns"
+                points="43.45,32.65 60.92,31.55 61.15,26.4 66.38,26.88 76.07,29.97 80.03,37.04 47.96,39.72"/>
+            <zone n="6" xml:id="Wall"
+                points="38.39,52.81 47.39,54.17 55.49,52.66 50.49,61.25 42.89,76.49 41.39,90.82 11.31,90.67 13.78,63.62 17.3,59.47 23.91,65.45"/>
+            <zone n="7" xml:id="Robeson"
+                points="50.93,24.06 53.79,19.91 62.38,22.57 60.51,30.04 59.01,36.84 61.67,36.44 63.26,44.83 61.28,50.31 60.95,54.8 52.69,47.16 51.59,53.64 45.32,54.97 44,51.31 47.74,51.14 48.18,37.85 48.4,28.22"/>
+            <zone n="8" xml:id="Keifer"
+                points="33.16,39.44 35.55,37.28 39.09,40 40.32,33.88 44.44,35.27 48.36,40.77 47.4,48.33 47.51,51.37 42.87,52.39 39.91,50.75 36.33,46.02"/>
+            <zone n="9" xml:id="Reid"
+                points="43.78,19.6 49.47,18.63 49.04,26.48 48.54,29.82 43.04,29.66 43.06,27.85 47.02,21.8 43.75,22.16"/>
+            <zone n="10" xml:id="Curtis"
+                points="35.95,17.87 40.2,18.27 42.07,26.08 39.62,30.24 33.67,30.11 33.92,22.97"/>
+            <zone n="11" xml:id="Fleet"
+                points="8.85,17.1 18.19,12.55 34.13,15.78 35.74,18.95 34.43,26.85 28.05,18.52 27.71,15.52 22.1,16.66 24.92,25.34 20.25,21.72 13.65,28.5"/>
+            <zone n="12" xml:id="Puck_2"
+                points="13.34,23.58 27.43,21.26 29.41,32.55 26.77,37.37 14.77,37.54 12.13,33.39"/>
+            <zone n="13" xml:id="Schurz"
+                points="6.6,25.48 11.6,25.48 14.22,40.53 11.8,47.01 6.73,48.34"/>
+            <zone n="14" xml:id="Bennett"
+                points="11.03,39.87 15.32,32.89 23.03,34.71 28.2,39.53 21.49,51.16 9.59,49.67"/>
+            <zone n="15" xml:id="Dana"
+                points="6.4,49.83 18.4,49.83 24.9,52.66 22.59,57.31 13.23,67.78 7.06,68.94"/>
+            <zone n="16" xml:id="Waterson"
+                points="22.29,17.65 27.1,14.45 30.59,19.73 34.05,26.45 32.26,31.09 22.99,29.4"/>
         </surface>
     </facsimile>
 
@@ -238,37 +255,60 @@
 
         <front>
             <div type="editorial_desc">
-                <p>In the image, a fleet of newspaper editors in paper gunboats are armed with ink, pens, and cannons and surround a fort secured by a group of "bedouins in Washington" flying a "plunder" Flag.  The editors include Charles A. Dana of the <hi rendition="#italics">New York Sun</hi>, James Gordon Bennett of the <hi rendition="#italics">New York Herald</hi>, <hi rendition="#italics">Carl Schurz</hi> of the <hi rendition="#italics">Evening Post</hi>, Henry Watterson of the <hi rendition="#italics">Courier-Journal</hi>, and George William Curtis of <hi rendition="#italics">Harper's Weekly</hi>.  The symbol for <hi rendition="#italics">Puck</hi>, a putto, also rides in one of the gunboats, as do editors of the <hi rendition="#italics">Brooklyn Eagle</hi>, <hi rendition="#italics">Philadelphia Times</hi> and the <hi rendition="#italics">New York Times</hi>.  Defenders of the fort include George M. Robeson who wears a "record" bandage around his head, Joseph Warren Keifer who holds a "Keifer" knife, and John Logan who carries a "306" bag.  Also present in the fort are John P. Jones, James D. Cameron, David Davis, and John Sherman.</p>
-                <p>"Condemnation, exposure, ensure, and criticism" bombs explode upon the fort.  Paper stacks labeled "logrolling, corrupt bills, and bargains" comprise the walls of the fort.  Cannons labeled "Mississippi levee, mileage steal, public buildings, monitor job, and pension arrears $ 103.962.300" fire on the newspaper editors.  The "US Treasury Ammunition House" is located within the fort.</p>
+                <p>In the image, a fleet of newspaper editors in paper gunboats are armed with ink,
+                    pens, and cannons and surround a fort secured by a group of "bedouins in
+                    Washington" flying a "plunder" Flag. The editors include Charles A. Dana of the
+                        <hi rendition="#italics">New York Sun</hi>, James Gordon Bennett of the <hi
+                        rendition="#italics">New York Herald</hi>, Carl
+                        Schurz of the <hi rendition="#italics">Evening Post</hi>, Henry
+                    Watterson of the <hi rendition="#italics">Courier-Journal</hi>, and George
+                    William Curtis of <hi rendition="#italics">Harper's Weekly</hi>. The symbol for
+                        <hi rendition="#italics">Puck</hi>, a putto, also rides in one of the
+                    gunboats, as do editors of the <hi rendition="#italics">Brooklyn Eagle</hi>, <hi
+                        rendition="#italics">Philadelphia Times</hi> and the <hi
+                        rendition="#italics">New York Times</hi>. Defenders of the fort include
+                    George M. Robeson who wears a "record" bandage around his head, Joseph Warren
+                    Keifer who holds a "Keifer" knife, and John Logan who carries a "306" bag. Also
+                    present in the fort are John P. Jones, James D. Cameron, David Davis, and John
+                    Sherman.</p>
+                <p>"Condemnation, exposure, ensure, and criticism" bombs explode upon the fort.
+                    Paper stacks labeled "logrolling, corrupt bills, and bargains" comprise the
+                    walls of the fort. Cannons labeled "Mississippi levee, mileage steal, public
+                    buildings, monitor job, and pension arrears $ 103.962.300" fire on the newspaper
+                    editors. The "US Treasury Ammunition House" is located within the fort.</p>
             </div>
         </front>
 
         <body>
             <div type="image_transcription" facs="#Title" n="1">
-                <head><supplied resp="editorial">Title and Artist</supplied></head>
-                <p>ANOTHER BOMBARDMENT.-THE NEWSPAPER FLEET FIRING ON THE BEDOUINS IN WASHINGTON.</p>
+                <head><supplied resp="editorial">Title and artist</supplied></head>
+                <p>ANOTHER BOMBARDMENT.-THE NEWSPAPER FLEET FIRING ON THE BEDOUINS IN
+                    WASHINGTON.</p>
                 <p>OFFICE OF <hi rendition="#bold">"PUCK"</hi> 23 WARREN ST. NEW YORK.</p>
                 <p>MAYER, MERKELL &amp; OTTMAN. LITH. 23-25 WARREN ST. N.Y</p>
                 <p>GILLAM</p>
             </div>
-            
+
             <div type="image_transcription" facs="#Puck" n="2">
-                <head><supplied resp="editorial">Puck</supplied></head>
+                <head><supplied resp="editorial">Magazine title</supplied></head>
                 <p>PUCK.</p>
             </div>
-            
+
             <div type="image_transcription" facs="#Bill" n="3">
                 <head><supplied resp="editorial">Bill</supplied></head>
                 <p>RIVER &amp; HARBOR BILL $20.000.000 00</p>
                 <p>CONDEMNATION</p>
                 <p>306</p>
             </div>
-            
+
             <div type="image_transcription" facs="#WHouse" n="4">
                 <head><supplied resp="editorial">White House</supplied></head>
-                <p>U.S. TREASURY</p> <p>AMMUNITION HOUSE</p> <p>PLUNDER</p>  <p>CRITICISM</p>
+                <p>U.S. TREASURY</p>
+                <p>AMMUNITION HOUSE</p>
+                <p>PLUNDER</p>
+                <p>CRITICISM</p>
             </div>
-            
+
             <div type="image_transcription" facs="#Guns" n="5">
                 <head><supplied resp="editorial">Cannons</supplied></head>
                 <p>MISSISSIPPI LEVEE</p>
@@ -277,9 +317,9 @@
                 <p>PUBLIC BUILDINGS</p>
                 <p>MONITOR JOB</p>
             </div>
-            
+
             <div type="image_transcription" n="6" facs="#Wall">
-<head><supplied resp="editorial">Wall and Boat</supplied></head>
+                <head><supplied resp="editorial">Wall and boat</supplied></head>
                 <p>BILLS</p>
                 <p>JOBS</p>
                 <p>BARGAINS</p>
@@ -287,29 +327,30 @@
                 <p>EXPOSURE</p>
                 <p>CORRUPT BILLS</p>
                 <p>LOGROLLING</p>
-                <p>N.Y. TIMES</p></div>
-            
+                <p>N.Y. TIMES</p>
+            </div>
+
             <div type="image_transcription" facs="#Robeson" n="7">
                 <head><supplied resp="editorial">George Maxwell Robeson</supplied></head>
                 <p>RECORD</p>
                 <p>ROBESON BEY</p>
             </div>
-            
+
             <div type="image_transcription" facs="#Keifer" n="8">
                 <head><supplied resp="editorial">Joseph Warren Keifer</supplied></head>
                 <p>KEIFER</p>
             </div>
-            
+
             <div type="image_transcription" facs="#Reid" n="9">
                 <head><supplied resp="editorial">Whitelaw Reid</supplied></head>
                 <p>N.Y. TRIBUNE</p>
             </div>
-            
+
             <div type="image_transcription" facs="#Curtis" n="10">
                 <head><supplied resp="editorial">George William Curtis</supplied></head>
                 <p>HARPERS</p>
             </div>
-            
+
             <div type="image_transcription" facs="#Fleet" n="11">
                 <head><supplied resp="editorial">Fleet</supplied></head>
                 <p>BROOKLYN EAGLE</p>
@@ -317,32 +358,35 @@
                 <p>MAIL</p>
                 <p>PHILA. TIMES</p>
             </div>
-            
+
             <div type="image_transcription" facs="#Puck_2" n="12">
-                <head><supplied resp="editorial">Puck</supplied></head>
-                <p>PUCK <note type="editorial" n="1">The symbol for <hi rendition="#italics">Puck</hi>, which appeared on the cover of the magazine, is a putto wearing a top hat. In the political cartoon the putto wears a military hat and jacket.</note></p>
+                <head><supplied resp="editorial">Putto</supplied></head>
+                <p>PUCK <note type="editorial" n="1">The symbol for <hi rendition="#italics"
+                            >Puck</hi>, which appeared on the cover of the magazine, is a putto
+                        wearing a top hat. In the political cartoon the putto wears a military hat
+                        and jacket.</note></p>
             </div>
-            
+
             <div type="image_transcription" facs="#Schurz" n="13">
                 <head><supplied resp="editorial">Carl Schurz</supplied></head>
                 <p>EV. POST</p>
             </div>
-            
+
             <div type="image_transcription" facs="#Bennett" n="14">
                 <head><supplied resp="editorial">James Gordon Bennett</supplied></head>
                 <p>N.Y. HERALD</p>
             </div>
-            
+
             <div type="image_transcription" facs="#Dana" n="15">
                 <head><supplied resp="editorial">Charles Dana</supplied></head>
                 <p>N.Y. SUN</p>
             </div>
-            
+
             <div type="image_transcription" facs="#Waterson" n="16">
                 <head><supplied resp="editorial">Henry Waterson</supplied></head>
                 <p>COURIER-JOURNAL </p>
             </div>
-            
+
         </body>
 
         <back/>
