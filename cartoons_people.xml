@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 
-
 <?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 
@@ -66,7 +65,7 @@
             </projectDesc>
         </encodingDesc>
         <revisionDesc>
-            <change who="HSP" when="2015-05-05">Exported from Collective Access.</change>
+            <change who="HSP" when="2015-05-20">Exported from Collective Access.</change>
         </revisionDesc>
     </teiHeader>
 
@@ -143,11 +142,21 @@
   <sex>Male</sex>
   <note type="biography"><p>Thomas Francis Bayard was born on October 29, 1828 in Wilmington, Delaware and was a diplomat and lawyer.  From 1863-1864 he served as the US attorney for Delaware.  In 1865 he represented Delaware in the US Senate, and then left his post in 1885 to become the Secretary of State during Grover Cleveland’s first administration.  During Cleveland’s second administration, Bayard was appointed Ambassador of Great Britain.  He died in Massachusetts on September 28, 1898. </p></note>
   <bibl> <bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). <hi rendition="#italics"> Historical dictionary of the Gilded Age</hi>. Armonk, N.Y.: M.E. Sharpe.</bibl>
-                <bibl>“Thomas Francis Bayard, Office of the Historian.” Accessed May 5, 2015.<ref target="https://history.state.gov/departmenthistory/people/bayard-thomas-francis"
+                <bibl>“Thomas Francis Bayard, Office of the Historian.” Accessed May 5, 2015. <ref target="https://history.state.gov/departmenthistory/people/bayard-thomas-francis"
                     >Link</ref>
                 </bibl>
                 <bibl>“Thomas Francis Bayard Biography, United States Statesman, Encyclopedia Britannica.” Accessed May 5, 2015. <ref target="http://www.britannica.com/EBchecked/topic/56741/Thomas-Francis-Bayard">Link</ref></bibl>
 </bibl>
+</person>
+<person xml:id="ENT.000003729">
+  <persName key="ENT.000003729">
+    <forename type="first">Joseph</forename>
+    <surname type="last">Bayley</surname>
+  </persName>
+  <birth when="1775">1775</birth>
+  <death when="1836">1836</death>
+  <sex>Male</sex>
+  <note type="internal">http://id.loc.gov/authorities/names/nr2004036048.html; depicted 11824 (one of the doctors)</note>
 </person>
 <person xml:id="ENT.000003331">
   <persName key="ENT.000003331">
@@ -182,6 +191,17 @@
   <note type="internal">Depicted in HINT cartoon #12155&#13;
 editor of NY Herald</note>
 </person>
+<person xml:id="ENT.000003745">
+  <persName key="ENT.000003745">
+    <forename type="first">Clifford </forename>
+    <forename type="middle">Kennedy</forename>
+    <surname type="last">Berryman</surname>
+  </persName>
+  <birth when="1869">1869</birth>
+  <death when="1949">1949</death>
+  <sex>Male</sex>
+  <note type="internal">artist of hint cartoon: 11953</note>
+</person>
 <person xml:id="ENT.000000552">
   <persName key="ENT.000000552">
     <forename type="first">Nicholas</forename>
@@ -207,8 +227,12 @@ editor of NY Herald</note>
   <birth when="1830">1830</birth>
   <death when="1893">1893</death>
   <sex>Male</sex>
-  <note type="biography">James Gillespie Blaine was born on January 31, 1830 in West Brownsville, Pennsylvania.  He served as Secretary of State during the Benjamin Harrison and James A. Garfield Administrations and was the 31st Speaker of the US House of Representatives.  Blaine graduated from Washington College in 1847 and worked as a newspaper editor.  In 1859 he was elected to serve in the Maine House of Representatives and later, in 1862, successfully ran for the US Congress.  In 1880 he lost the Republican Presidential nomination to James A. Garfield and, after the election, was chosen to serve as Secretary of State.  Four years later Republicans nominated him as their candidate, but he narrowly lost the presidential election to Grover Cleveland.  In 1888, Benjamin Harrison appointed him Secretary of State.  As Secretary of State, Blaine expanded trade with Latin America and served as chairman of the first Pan-American Conference.  Blaine resigned as Secretary of State on June 4, 1892.  He died on January 27, 1893 in Washington, DC.</note>
-  <bibl><bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). <hi rendition="#italics">Historical dictionary of the Gilded Age</hi>. Armonk, N.Y.: M.E. Sharpe. </bibl></bibl>
+  <note type="biography">James Gillespie Blaine was born on January 31, 1830 in West Brownsville, Pennsylvania.  He served as Secretary of State during the Benjamin Harrison and James A. Garfield Administrations and was the 31st Speaker of the US House of Representatives.  Blaine graduated from Washington College in 1847 and worked as a newspaper editor.  In 1859 he was elected to serve in the Maine House of Representatives and later, in 1862, successfully ran for the US Congress.  In 1880 he lost the Republican Presidential nomination to James A. Garfield and, after the election, was chosen to serve as Secretary of State.  Four years later Republicans nominated him as their candidate, but he lost the presidential election to Grover Cleveland.  In 1888, Benjamin Harrison appointed him Secretary of State.  As Secretary of State, Blaine expanded trade with Latin America and served as chairman of the first Pan-American Conference.  Blaine resigned as Secretary of State on June 4, 1892.  He died on January 27, 1893 in Washington, DC.</note>
+  <bibl><bibl>“James G. Blaine, Biography, American Politician, Encyclopedia Britannica.” Accessed May 6, 2015. <ref target="http://www.britannica.com/EBchecked/topic/68723/James-G-Blaine">Link</ref></bibl>
+                
+                <bibl>“James Gillespie Blaine, People, Department History, Office of the Historian.” Accessed May 6, 2015. <ref target="https://history.state.gov/departmenthistory/people/blaine-james-gillespie">Link</ref></bibl>
+                
+                <bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). <hi rendition="#italics"> Historical dictionary of the Gilded Age</hi>. Armonk, N.Y.: M.E. Sharpe.</bibl></bibl>
   <note type="internal">http://id.loc.gov/authorities/names/n82011612 ; depicted in 11585-Bc612P567_1_TEI.xml</note>
 </person>
 <person xml:id="ENT.000003602">
@@ -250,11 +274,20 @@ editor of NY Herald</note>
   <death when="1896">1896</death>
   <sex>Male</sex>
   <note type="biography">Bristow was a lawyer, the first Solicitor General of the United States, and the 30th US Secretary of the Treasury.  He was born in Kentucky on June 20, 1832, and graduated from Jefferson College in Pennsylvania in 1851.  He fought as a Union Soldier in the Civil War, was seriously wounded at the Battle of Shiloh in Tennessee, became the lieutenant colonel of the 8th Kentucky Calvary, and assisted in the 1863 capture of the Confederate raider John Hunt Morgan.  On September 23, 1863 Bristow received an honorable discharge from the Union Army because he was selected to serve in the Kentucky senate.   Bristow was unaware that he had been elected and served only one term, until 1865.  One year later he became the US Attorney for the Kentucky District where he vigorously defended the Civil Rights Act of 1866.  From 1870-1872 he served as the first Solicitor General of the United States.  During his service, he argued issues related to Reconstruction and prosecuted thousands of Ku Klux Klan members.  In 1874, he became the United States Secretary of the Treasury and helped prosecute the Whisky Ring.  Following his resignation in 1876, he returned to New York to practice law and was later elected the second president of the American Bar Association.  He died in New York in 1896.</note>
-  <bibl><bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). Historical dictionary of the Gilded Age. Armonk, N.Y.: M.E. Sharpe. </bibl>
-
-<bibl>Solicitor General Benjamin H Bristow. The United States Department of Justice.  Accessed January 21, 2015 http://www.justice.gov/osg/bio/benjamin-h-bristow</bibl>
+  <bibl><bibl>"Butler, Benjamin Franklin.  Biographical Directory of the United States Congress."  Last Accessed February 3, 2015 <ref target="http://bioguide.congress.gov/scripts/biodisplay.pl?index=b001174">Link</ref></bibl>
+<bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). <hi rendition="#italics"> Historical dictionary of the Gilded Age</hi>. Armonk, N.Y.: M.E. Sharpe.</bibl>
+                
+                <bibl>"Solicitor General Benjamin H Bristow. The United States Department of Justice."  Accessed January 21, 2015 <ref target="http://www.justice.gov/osg/bio/benjamin-h-bristow">Link</ref></bibl>
 </bibl>
   <note type="internal">http://id.loc.gov/authorities/names/n85158278.html ; depicted in 11585-Bc612P567_1_TEI.xml</note>
+</person>
+<person xml:id="ENT.000003742">
+  <persName key="ENT.000003742">
+    <forename type="first">Harold</forename>
+    <surname type="last">Brown</surname>
+  </persName>
+  <sex>Male</sex>
+  <note type="internal">Artist of HINT cartoon #12379</note>
 </person>
 <person xml:id="ENT.000003335">
   <persName key="ENT.000003335">
@@ -275,7 +308,7 @@ editor of NY Herald</note>
   <birth when="1791">1791</birth>
   <death when="1868">1868</death>
   <sex>Male</sex>
-  <note type="internal">depicted in 12332</note>
+  <note type="internal">depicted in 12332, 11730</note>
 </person>
 <person xml:id="ENT.000003382">
   <persName key="ENT.000003382">
@@ -329,8 +362,8 @@ editor of NY Herald</note>
   <death when="1918">1918</death>
   <sex>Male</sex>
   <note type="biography">James Donald Cameron was a US Republican Senator, Secretary of War, and Republican National Committee Chairman.  Cameron was born in Middletown, PA on May 14, 1833 and was the son of Simon Cameron, a prominent Republican politician and the Secretary of War in President Lincoln’s Cabinet.  After graduating from Princeton College in 1852, he worked for the family businesses, including banking and the North Central Railroad.  In 1866 he helped his father win a seat in the US Senate, and later in 1876, campaigned for Ulysses S. Grant.  When Grant won the presidential election, he appointed Cameron Secretary of War.  Cameron served for one year (1876-1877).  He served in the US Senate from 1877-1897 and served as the Republican National Committee Chairman from 1879-1880.  He died in his home in Lancaster County Pennsylvania on August 30, 1918.</note>
-  <bibl><bibl>Cameron, James Donald.  Biographical Directory of the United States Congress.  Last Accessed February 3, 2015.  http://bioguide.congress.gov/scripts/biodisplay.pl?index=c000065</bibl>
-<bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). Historical dictionary of the Gilded Age. Armonk, N.Y.: M.E. Sharpe.</bibl>
+  <bibl> <bibl>"Cameron, James Donald.  Biographical Directory of the United States Congress."  Last Accessed February 3, 2015.  <ref target="http://bioguide.congress.gov/scripts/biodisplay.pl?index=c000065"></ref>Link</bibl>
+<bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). <hi rendition="#italics"> Historical dictionary of the Gilded Age</hi>. Armonk, N.Y.: M.E. Sharpe.</bibl>
 </bibl>
   <note type="internal">http://id.loc.gov/authorities/names/n86114833.html ; depicted in 11585-Bc612P567_1_TEI.xml</note>
 </person>
@@ -342,12 +375,13 @@ editor of NY Herald</note>
   <birth when="1799">1799</birth>
   <death when="1889">1889</death>
   <sex>Male</sex>
-  <note type="biography">Simon Cameron was born on March 8, 1799 in Pennsylvania and was the father of James Donald Cameron, (Secretary of War during the Grant Administration).  At seventeen years old Simon Cameron became an editor for the newspaper <hi rendition="#italics">Northumberland Gazette </hi>and later a newspaper owner and editor.  In 1822 was appointed to the post of State Printer and later in 1829 became the Adjutant General of the Pennsylvania state militia.  He became an influential politician whose support convinced Democrats to nominate Martin Van Buren as the 1832 vice presidential candidate.   In addition to his work as a politician, Cameron was a successful businessman who earned his fortune in the banking and railroad industries.  In 1845 he successfully ran for the US Senate and later, in 1861, became Abraham Lincoln’s secretary of war.  He served a ten month term, resigned in 1862 due to corruption allegations, and was appointed by Lincoln to serve as the ambassador to Russia.   In 1863 Cameron resigned, ran unsuccessfully for the US Senate, and was accused of bribing politicians in order to sway the election.  He was never formally charged with corruption.  Cameron supported Lincoln’s re-election, and in return, Lincoln appointed politicians loyal to Cameron to federal positions in Pennsylvania.  Consequently, Cameron’s political power grew and he soon became the leader of Pennsylvania’s political machine.  political influence was so great that he convinced President Ulysses S. Grant to appoint his son, James Donald Cameron, secretary of war in 1876.  His After James Donald resigned amongst rumors of corruption, Cameron resigned his seat in the US Senate, making sure that his son would replace him.  Simon Cameron died on June 26, 1899 at his home in Pennsylvania.</note>
-  <bibl><bibl>Cameron, Simon.  Biographical Directory of the United States Congress.  Last Accessed February 3, 2015.  http://bioguide.congress.gov/scripts/biodisplay.pl?index=c000068
-</bibl>
-<bibl>Simon Cameron.  Pennsylvania Historical and Museum Commission.  Last Accessed February 3, 2015.  http://www.ddap.pa.gov/portal/server.pt/community/people/4277/cameron,_simon/443541
-</bibl>
-</bibl>
+  <note type="biography"><p>Simon Cameron was born on March 8, 1799 in Pennsylvania and was the father of James Donald Cameron, (Secretary of War during the Grant Administration).  At seventeen years old Simon Cameron became an editor for the newspaper <hi rendition="#italics">Northumberland Gazette </hi>and later a newspaper owner and editor.  In 1822 was appointed to the post of State Printer and later became an influential politician whose support convinced Democrats to nominate Martin Van Buren as the 1832 vice presidential candidate.   In addition to his work as a politician, Cameron was a successful businessman who earned his fortune in the banking and railroad industries.  In 1845 he successfully ran for the US Senate and later, in 1861, became Abraham Lincoln’s secretary of war.  He served a ten month term, resigned in 1862 due to corruption allegations, and was appointed by Lincoln to serve as the ambassador to Russia.   In 1863 Cameron resigned, ran unsuccessfully for the US Senate, and was accused of bribing politicians in order to sway the election.   Cameron supported Lincoln’s re-election, and in return, Lincoln appointed  politicians loyal to Cameron to serve in Pennsylvania.  Consequently, Cameron’s political influence increased and he soon became the leader of Pennsylvania’s political machine.   Simon Cameron died on June 26, 1899 at his home in Pennsylvania.</p></note>
+  <bibl> <bibl>"Cameron, Simon.  Biographical Directory of the United States Congress."  Last Accessed February 3, 2015.  <ref target="http://bioguide.congress.gov/scripts/biodisplay.pl?index=c000068">Link</ref>
+                </bibl>
+                <bibl>"Simon Cameron.  Pennsylvania Historical and Museum Commission."  Last Accessed February 3, 2015.  <ref target="http://www.ddap.pa.gov/portal/server.pt/community/people/4277/cameron,_simon/443541">Link</ref>
+                </bibl>
+                
+                <bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). <hi rendition="#italics"> Historical dictionary of the Gilded Age</hi>. Armonk, N.Y.: M.E. Sharpe.</bibl></bibl>
   <note type="internal">depicted in 11585-Bc612P567_1_TEI.xml according to LOC, but I don't know which one is he -SN see: http://www.loc.gov/pictures/item/2005696340/ ; http://id.loc.gov/authorities/names/n86114834.html ; father of James Donald Cameron</note>
 </person>
 <person xml:id="ENT.000003338">
@@ -360,6 +394,16 @@ editor of NY Herald</note>
   <death when="1926">1926</death>
   <sex>Male</sex>
   <note type="internal">depicted in 1782-3313_b2f8_1_TEI.xml ; http://id.loc.gov/authorities/names/n50051508.html</note>
+</person>
+<person xml:id="ENT.000000910">
+  <persName key="ENT.000000910">
+    <forename type="first">Lewis</forename>
+    <surname type="last">Cass</surname>
+  </persName>
+  <birth when="1782">1782</birth>
+  <death when="1866">1866</death>
+  <sex>Male</sex>
+  <note type="internal">depicted in 11730 http://id.loc.gov/authorities/names/n50034113.html</note>
 </person>
 <person xml:id="ENT.000003664">
   <persName key="ENT.000003664">
@@ -419,6 +463,41 @@ editor of NY Herald</note>
   <sex>Male</sex>
   <note type="internal">only pres to serve 2 nonconsecutive terms ; depicted 11524-PG278_b5f2_1_TEI.xml ; http://id.loc.gov/authorities/names/n50029194.html</note>
 </person>
+<person xml:id="ENT.000003732">
+  <persName key="ENT.000003732">
+    <forename type="first">DeWitt</forename>
+    <surname type="last">Clinton</surname>
+  </persName>
+  <birth when="1769">1769</birth>
+  <death when="1828">1828</death>
+  <sex>Male</sex>
+  <note type="biography">DeWitt Clinton was a US senator from New York 1802-1803, mayor of New York City 1803-1815, and governor of New York 1817-1822 and 1825-1828. He may be depicted in the 1796 political cartoon "A Peek Into the Antifederal Club" as the man sitting on the floor singing to a doll; some historians identify this figure instead as George Clinton.</note>
+  <bibl><bibl>"A Peep into the Antifederal Club - JCB Political Cartoons." Accessed May 12, 2015. <ref target="http://jcb.lunaimaging.com/luna/servlet/detail/JCBMAPS~2~2~656~100498:A-Peep-into-the-Antifederal-Club">Link</ref></bibl>
+<bibl><hi rendition="#italics">Made in America: Printmaking, 1760-1860</hi> (Philadelphia: Library Company of Philadelphia, 1973), 11-12</bibl></bibl>
+</person>
+<person xml:id="ENT.000003731">
+  <persName key="ENT.000003731">
+    <forename type="first">George</forename>
+    <surname type="last">Clinton</surname>
+  </persName>
+  <birth when="1739">1739</birth>
+  <death when="1812">1812</death>
+  <sex>Male</sex>
+  <note type="biography">George Clinton was governor of New York from 1777-1795 and from 1801-1804; he also served as the first elected vice president of the United States (1805-1812) under Thomas Jefferson and James Madison. He may be depicted in the 1796 political cartoon "A Peek Into the Antifederal Club" as the man sitting on the floor singing to a doll; some historians identify this figure instead as DeWitt Clinton.</note>
+  <bibl><bibl>"A Peep into the Antifederal Club - JCB Political Cartoons." Accessed May 12, 2015. <ref target="http://jcb.lunaimaging.com/luna/servlet/detail/JCBMAPS~2~2~656~100498:A-Peep-into-the-Antifederal-Club">Link</ref></bibl>
+<bibl><hi rendition="#italics">Made in America: Printmaking, 1760-1860</hi> (Philadelphia: Library Company of Philadelphia, 1973), 11-12</bibl></bibl>
+</person>
+<person xml:id="ENT.000003727">
+  <persName key="ENT.000003727">
+    <forename type="first">William</forename>
+    <surname type="last">Coleman</surname>
+  </persName>
+  <birth when="1766">1766</birth>
+  <death when="1829">1829</death>
+  <sex>Male</sex>
+  <note type="biography">First editor of the <hi rendition="#italics">New York Evening Post</hi></note>
+  <note type="internal">http://id.loc.gov/authorities/names/n86104944.html; depicted in 11824</note>
+</person>
 <person xml:id="ENT.000003552">
   <persName key="ENT.000003552">
     <forename type="first">Roscoe</forename>
@@ -427,12 +506,11 @@ editor of NY Herald</note>
   <birth when="1829">1829</birth>
   <death when="1888">1888</death>
   <sex>Male</sex>
-  <note type="biography">Roscoe Conkling was a congressman, politician, and leader of the Stalwart faction of the Republican Party.  He was born on October 30, 1829 in New York, studied at the Auburn Academy, and joined the bar in 1850.  He was elected to serve in the US House of Representatives in 1859 and later became a US Senator (1867-1881).   He helped draft the Electoral Commission Act of 1877, as well as the 14th and 15th amendments, and he supported and helped pass Reconstruction legislation and the Civil Rights Act of 1875. He was nominated in 1873 by Ulysses S. Grant to the post of chief justice of the Supreme Court, but declined the offer.  In 1876 he unsuccessfully sought the Republican presidential nomination.  By 1880 Conkling had become the leader of the Stalwart Faction of the Republican Party.  The Stalwarts staunchly supported Ulysses S. Grant in his bid for a presidential third term.  Due to divisions within the party, however, Republicans did not give Grant the nomination and opted instead to place James A. Garfield on the ticket.  He resigned from the Senate in 1881, returned to his law practice in New York City, and died on April 18, 1888.</note>
-  <bibl><bibl>Conkling, Roscoe.  Biographical Directory of the United States Congress.  Last Accessed February 3, 2015.  http://bioguide.congress.gov/scripts/biodisplay.pl?index=c000681
-</bibl>
-
-<bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). Historical dictionary of the Gilded Age. Armonk, N.Y.: M.E. Sharpe. </bibl>
-</bibl>
+  <note type="biography">  <p>Roscoe Conkling was a congressman, politician, and leader of the Stalwart faction of the Republican Party.  He was born on October 30, 1829 in New York, studied at the Auburn Academy, and joined the bar in 1850.  He was elected to serve in the US House of Representatives in 1859 and later became a US Senator (1867-1881).   He helped draft the Electoral Commission Act of 1877 and the 14th and 15th amendments.  He supported and helped pass Reconstruction legislation and the Civil Rights Act of 1875. He was nominated in 1873 by Ulysses S. Grant to the post of chief justice of the Supreme Court, but declined the offer.  In 1876 he unsuccessfully sought the Republican presidential nomination.  By 1880 Conkling had become the leader of the Stalwart Faction of the Republican Party.  The Stalwarts staunchly supported Ulysses S. Grant in his bid for a presidential third term.  Due to divisions within the party, however, Republicans placed James A. Garfield on the ticket.  Conkling resigned from the Senate in 1881, returned to his law practice in New York City, and died on April 18, 1888.</p>
+                </note>
+  <bibl> <bibl>"Conkling, Roscoe.  Biographical Directory of the United States Congress."  Last Accessed February 3, 2015.  <ref target="http://bioguide.congress.gov/scripts/biodisplay.pl?index=c000681">Link</ref>
+                </bibl>
+                <bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). <hi rendition="#italics"> Historical dictionary of the Gilded Age</hi>. Armonk, N.Y.: M.E. Sharpe.</bibl></bibl>
   <note type="internal">LOC:  http://id.loc.gov/authorities/names/n85363319.html</note>
 </person>
 <person xml:id="ENT.000003633">
@@ -457,14 +535,22 @@ editor of NY Herald</note>
   <death when="1904">1904</death>
   <sex>Male</sex>
   <note type="biography"><p>Alonzo Cornell was born on January 22, 1832 in Ithaca, New York and became a politician, successful businessman, and the 13th Governor of New York.  His father Ezra Cornell, was the founder of Cornell University.</p>
-<p>Cornell helped his father found the Western Union Telegraph Company, and later served as the company’s director.  He entered politics in 1868 when he unsuccessfully ran for lieutenant governor.  He became the New York Republican State Central Committee Chairman in 1870 and served until 1878.  In 1876 he was appointed by Rutherford B. Hayes to serve as Surveyor of the Port of New York.  Because of a political dispute, Hayes removed him from the position two years later.  In 1878 Cornell became New York State Governor, beating his democratic incumbent opponent, Lucius Robinson.  As governor, Cornell established a state board of health and a state railroad commission.  After serving only one term, Cornell left politics and returned to business.  He died on October 15, 1904.</p>
-</note>
-  <bibl><bibl>“Alonzo B. Cornell, Hallofgovernors.ny.gov,” accessed February 11, 2015, http://hallofgovernors.ny.gov/AlonzoCornell.</bibl>
-
-<bibl>“Cornell, Alonzo Barton, House Divided,” accessed February 11, 2015, http://hd.housedivided.dickinson.edu/node/5481.</bibl>
-
-<bibl>“Alonzo Barton Cornell, National Governors’ Association” accessed February 11, 2015, http://www.nga.org/cms/home/governors/past-governors-bios/page_new_york/col2-content/main-content-list/title_cornell_alonzo.html.</bibl></bibl>
+<p>Cornell helped his father found the Western Union Telegraph Company, and later served as the company’s director.  He became the New York Republican State Central Committee Chairman in 1870 and served until 1878.  In 1876 he was appointed by Rutherford B. Hayes to serve as Surveyor of the Port of New York.  Because of a political dispute, Hayes removed him from the position two years later.  In 1878 Cornell became New York State Governor, beating his democratic incumbent opponent, Lucius Robinson.  As governor, Cornell established a state board of health and a state railroad commission.  After serving only one term, Cornell left politics and returned to business.  He died on October 15, 1904.</p></note>
+  <bibl>  <bibl>“Alonzo B. Cornell, Hallofgovernors.ny.gov,” accessed February 11, 2015. <ref target="http://hallofgovernors.ny.gov/AlonzoCornell">Link</ref></bibl>
+                <bibl>“Cornell, Alonzo Barton, House Divided,” accessed February 11, 2015. <ref target="http://hd.housedivided.dickinson.edu/node/5481">Link</ref></bibl>
+                <bibl>“Alonzo Barton Cornell, National Governors’ Association” accessed February 11, 2015. <ref target="http://www.nga.org/cms/home/governors/past-governors-bios/page_new_york/col2-content/main-content-list/title_cornell_alonzo.html"></ref>Link</bibl></bibl>
   <note type="internal">LOC:  http://id.loc.gov/authorities/names/no98021391</note>
+</person>
+<person xml:id="ENT.000003713">
+  <persName key="ENT.000003713">
+    <forename type="first">Samuel</forename>
+    <surname type="last">Cox</surname>
+  </persName>
+  <birth when="1824">1824</birth>
+  <death when="1889">1889</death>
+  <sex>Male</sex>
+  <note type="internal">LOC:  http://id.loc.gov/authorities/names/n50018799.html&#13;
+depicted in hint cartoon #12154</note>
 </person>
 <person xml:id="ENT.000003340">
   <persName key="ENT.000003340">
@@ -475,9 +561,9 @@ editor of NY Herald</note>
   <birth when="1824">1824</birth>
   <death when="1892">1892</death>
   <sex>Male</sex>
-  <note type="biography">George William Curtis was a journalist and editor.  He was born on February 24, 1824 in Providence, RI, attended private school in New York, and traveled throughout Europe, Egypt, and Syria in the 1840s.  Upon his return to the US, he wrote for and helped George Palmer Putnam found <hi rendition="#italics">Putman’s Magazine</hi>.  Shortly thereafter, he began writing for the <hi rendition="#italics">Tribune and Harper’s Weekly</hi>, a popular New York political magazine.  He served as the editor of <hi rendition="#italics">Harper’s Weekly</hi> from 1863 to 1892.  In 1864 he served as a delegate to the Republican National Convention where he supported Lincoln, and even wrote the letter notifying the incumbent president of his re-nomination.   Curtis was politically active, and a Mugwump who believed in civil service, education, and trade reforms.  During the Grant administration he became Chairman of the Civil Service Reform Commission and later the president of the National Civil Service Reform League and the New York Civil Service Reform Association.  He died in Staten Island on August 31, 1892.</note>
-  <bibl><bibl>George William Curtis Papers Finding Aid. Staten Island Museum.  Last Accessed February 3, 2015.  http://www.statenislandmuseum.org/images/uploads/collections/Curtis_(George_William)_Papers_Finding_Aids.pdf </bibl>
-
+  <note type="biography"><p>George William Curtis was a journalist and editor.  He was born on February 24, 1824 in Providence, RI, attended private school in New York, and traveled throughout Europe, Egypt, and Syria in the 1840s.  Upon his return to the US, he wrote for and helped George Palmer Putnam found <hi rendition="#italics">Putman’s Magazine</hi>.  Shortly thereafter, he began writing for the <hi rendition="#italics">Tribune and Harper’s Weekly</hi>, a popular New York political magazine.  He served as the editor of <hi rendition="#italics">Harper’s Weekly</hi> from 1863 to 1892.  In 1864 he served as a delegate to the Republican National Convention where he supported Lincoln, and even wrote the letter notifying the incumbent president of his re-nomination.   Curtis was politically active, and a Mugwump who believed in civil service, education, and trade reforms.  During the Grant administration he became Chairman of the Civil Service Reform Commission and later the president of the National Civil Service Reform League and the New York Civil Service Reform Association.  He died in Staten Island on August 31, 1892.</p></note>
+  <bibl><bibl>"George William Curtis Papers Finding Aid. Staten Island Museum."  Last Accessed February 3, 2015.  <ref target="http://www.statenislandmuseum.org/images/uploads/collections/Curtis_(George_William)_Papers_Finding_Aids.pdf">Link</ref></bibl>
+                
 <bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). Historical dictionary of the Gilded Age. Armonk, N.Y.: M.E. Sharpe.</bibl>
 </bibl>
   <note type="internal">http://id.loc.gov/authorities/names/n50018719.html ; depicted in 11585-Bc612P567_1_TEI.xml</note>
@@ -491,6 +577,17 @@ editor of NY Herald</note>
   <death when="1942">1942</death>
   <sex>Male</sex>
   <note type="internal">LOC:  http://id.loc.gov/authorities/names/n95000553.html</note>
+</person>
+<person xml:id="ENT.000003716">
+  <persName key="ENT.000003716">
+    <forename type="first">Louis</forename>
+    <surname type="last">Dalrymple</surname>
+  </persName>
+  <birth when="1866">1866</birth>
+  <death when="1905">1905</death>
+  <sex>Male</sex>
+  <note type="internal">cartoonist for Puck.  artist of hint cartoon #12311&#13;
+http://id.loc.gov/authorities/names/n95000561.html</note>
 </person>
 <person xml:id="ENT.000003594">
   <persName key="ENT.000003594">
@@ -571,6 +668,15 @@ See http://politicalgraveyard.com/death/offices.html; https://books.google.com/b
   <sex>Male</sex>
   <note type="internal">depicted in 11561; 11562; 11563; http://id.loc.gov/authorities/names/n50027507.html</note>
 </person>
+<person xml:id="ENT.000002166">
+  <persName key="ENT.000002166">
+    <forename type="first">Frederick</forename>
+    <surname type="last">Douglass</surname>
+  </persName>
+  <birth when="1818">1818</birth>
+  <death when="1895">1895</death>
+  <sex>Male</sex>
+</person>
 <person xml:id="ENT.000003345">
   <persName key="ENT.000003345">
     <forename type="first">George</forename>
@@ -580,13 +686,12 @@ See http://politicalgraveyard.com/death/offices.html; https://books.google.com/b
   <birth when="1828">1828</birth>
   <death when="1919">1919</death>
   <sex>Male</sex>
-  <note type="biography">George Franklin Edmunds was a lawyer and Republican senator who was born on February 1, 1828 in Richmond, Vermont.  He studied law, and was admitted to the bar in 1849.  In 1854 he became a representative in the Vermont House of Representatives and later in 1856, the speaker of the Vermont House of Representatives.  He joined the US Senate in 1866 and continued to serve until 1891.  As Senator, he supported Reconstruction policies, was active in the impeachment of Andrew Johnson, and drafted the Tenure of Office Act in 1867.  He served as chairman of the Senate Judiciary Committee from 1872 to 1879 and again from 1882 to 1891.  He worked to pass legislation to outlaw Mormon polygamy and to regulate railroads, as well as, drafted and supported the 1877 Electoral Commission Act which helped settle the election between Rutherford Hayes and Samuel Tilden.  After Edmunds resigning from the Senate, Edmunds continued to practice law and successfully argued before the Supreme Court the unconstitutionality of the income tax in the 1895 Pollock v. Famers’ Loan and Trust Co. Case.  He died in Pasadena, California on February 27, 1919.</note>
-  <bibl><bibl>Edmunds, George Franklin.  Biographical Directory of the United States Congress.  Last Accessed February 3, 2015.  http://bioguide.congress.gov/scripts/biodisplay.pl?index=e000056</bibl>
-
-<bibl>George Franklin Edmunds.  Encyclopedia Britannica Online.  Last Accessed February 3, 2015 http://www.britannica.com/EBchecked/topic/179355/George-Franklin-Edmunds </bibl>
-
-<bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). Historical dictionary of the Gilded Age. Armonk, N.Y.: M.E. Sharpe. </bibl>
-</bibl>
+  <note type="biography"><p>George Franklin Edmunds was a lawyer and Republican senator who was born on February 1, 1828 in Richmond, Vermont.  He studied law, and was admitted to the bar in 1849.  In 1854 he became a representative in the Vermont House of Representatives and later in 1856, the speaker of the Vermont House of Representatives.  He joined the US Senate in 1866 and continued to serve until 1891.  As Senator, he supported Reconstruction policies, was active in the impeachment of Andrew Johnson, and drafted the Tenure of Office Act in 1867.  He served as chairman of the Senate Judiciary Committee from 1872 to 1879 and again from 1882 to 1891.  He worked to pass legislation to outlaw Mormon polygamy and to regulate railroads, as well as, drafted and supported the 1877 Electoral Commission Act which resolved the presidential election dispute between Rutherford Hayes and Samuel Tilden.  He also helped draft the Sherman Anti-Trust Act.  After Edmunds resigned from the Senate, he continued to practice law and argued several cases before the Supreme Court, including the 1895 Pollock v. Farmers’ Loan and Trust Co. Case.  He died in Pasadena, California on February 27, 1919.</p></note>
+  <bibl><bibl>"Edmunds, George Franklin.  Biographical Directory of the United States Congress."  Last Accessed February 3, 2015.  <ref target="http://bioguide.congress.gov/scripts/biodisplay.pl?index=e000056">Link</ref></bibl>
+                
+<bibl>George Franklin Edmunds.  Encyclopedia Britannica Online.  Last Accessed February 3, 2015. <ref target="http://www.britannica.com/EBchecked/topic/179355/George-Franklin-Edmunds">Link</ref></bibl>
+                
+<bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). Historical dictionary of the Gilded Age. Armonk, N.Y.: M.E. Sharpe.</bibl></bibl>
   <note type="internal">depicted in 11585-Bc612P567_1_TEI.xml ; http://id.loc.gov/authorities/names/n88071154.html</note>
 </person>
 <person xml:id="ENT.000003553">
@@ -599,9 +704,11 @@ See http://politicalgraveyard.com/death/offices.html; https://books.google.com/b
   <death when="1896">1896</death>
   <sex>Male</sex>
   <note type="biography"><p> William Hayden English was a lawyer, historian, Democratic politician, and candidate for Vice President.  He was born on August 27, 1822 in Lexington, Indiana, studied at Hanover College, and was admitted to the Indiana bar in 1840.  In 1851 he was elected to the Indiana House of Representatives and served as speaker.  Two years later he became the Indiana State Representative in the US House of Representatives where he served until 1861.  After his retirement, he founded the First National Bank of Indianapolis and later became the chairman of the Indiana Democratic Central Committee.  In 1880, the Democrats nominated him as Winfield Scott Hancock’s vice presidential running-mate.  After losing the election to Republicans James A. Garfield and Chester Arthur, English served as the president of the Indiana Historical Society, published a book on the history of Indiana, and two other history books entitled <hi rendition="#italics">Conquest of the Country Northwest of the River Ohio, 1778-1783</hi> and <hi rendition="#italics">Life of General George Rogers Clark</hi>.  English died from complications due to heart disease on February 7, 1896.</p></note>
-  <bibl> <bibl>“ENGLISH, William Hayden - Biographical Information,” accessed February 4, 2015, http://bioguide.congress.gov/scripts/biodisplay.pl?index=E000191.</bibl>
-                <bibl>“IDOA: William H. English,” accessed February 4, 2015, http://www.in.gov/idoa/2791.htm. </bibl> 
-                <bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). Historical dictionary of the Gilded Age. Armonk, N.Y.: M.E. Sharpe. </bibl></bibl>
+  <bibl> <bibl>“English, William Hayden - Biographical Information,” accessed February 4, 2015.  <ref target="http://bioguide.congress.gov/scripts/biodisplay.pl?index=E000191">Link</ref> </bibl>
+
+                <bibl>“IDOA: William H. English,” accessed February 4, 2015.  <ref target="http://www.in.gov/idoa/2791.htm">Link</ref></bibl>
+
+<bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). Historical dictionary of the Gilded Age. Armonk, N.Y.: M.E. Sharpe.</bibl></bibl>
   <note type="internal">LOC:  http://id.loc.gov/authorities/names/n89611965.html</note>
 </person>
 <person xml:id="ENT.000003346">
@@ -614,11 +721,11 @@ See http://politicalgraveyard.com/death/offices.html; https://books.google.com/b
   <death when="1901">1901</death>
   <sex>Male</sex>
   <note type="biography">William Maxwell Evarts was a lawyer, politician, and Secretary of State.  He was born in Boston, Massachusetts on February 6, 1818.  He studied at Yale College and Harvard Law School and joined the bar in 1841.  He was the Assistant District Attorney of the southern district of New York from 1848-1853.  Evarts served as chief counsel during President Andrew Johnson’s impeachment trial and was later appointed Attorney General by Johnson.  Evarts remained in the post for one year from 1868 to 1869, and then returned to private practice, helped found the New York Bar Association, and served as its first president, 1870-1879.  In 1876 Evarts represented Benjamin Hayes before the Electoral Commission during the disputed election of 1876 between Hayes and Samuel J. Tilden.  Evarts later served as Secretary of State from 1877 to 1881 during President Hayes’ administration.  After leaving office, he was elected to the US Senate and served from 1885 to 1891 and died on February 28, 1901.   </note>
-  <bibl> <bibl>“EVARTS, William Maxwell - Biographical Information,” accessed February 4, 2015, http://bioguide.congress.gov/scripts/biodisplay.pl?index=E000262. </bibl>
+  <bibl><bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). Historical dictionary of the Gilded Age. Armonk, N.Y.: M.E. Sharpe. </bibl>
+
+                <bibl>“Evarts, William Maxwell - Biographical Information,” accessed February 4, 2015. <ref target="http://bioguide.congress.gov/scripts/biodisplay.pl?index=E000262">Link</ref> </bibl>
                 
-<bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). Historical dictionary of the Gilded Age. Armonk, N.Y.: M.E. Sharpe. </bibl>
-                
- <bibl>“William Maxwell Evarts - People - Department History - Office of the Historian,” accessed February 4, 2015, https://history.state.gov/departmenthistory/people/evarts-william-maxwell. </bibl></bibl>
+                <bibl>“William Maxwell Evarts - People - Department History - Office of the Historian,” accessed February 4, 2015, <ref target="https://history.state.gov/departmenthistory/people/evarts-william-maxwell">Link</ref></bibl></bibl>
   <note type="internal">http://id.loc.gov/authorities/names/n84124640.html ; depicted in 11585-Bc612P567_1_TEI.xml</note>
 </person>
 <person xml:id="ENT.000003347">
@@ -667,10 +774,9 @@ See http://politicalgraveyard.com/death/offices.html; https://books.google.com/b
   <birth when="1835">1835</birth>
   <death when="1872">1872</death>
   <sex>Male</sex>
-  <note type="biography">James Fisk was born on April 1, 1834 in Bennington, Vermont.  He was a financier, stockbroker, and one of the robber barons.  He formed a brokerage firm in 1866.  A few years later, he and his business partner Jay Gould fought Cornelius Vanderbilt for control of the Erie Railroad.  During the Erie War Gould and Fisk inflated the value of the stocks and thus succeeded in gaining control of the Erie Railroad.  The pair bribed and created alliances with a number of judges, legislators, and politicians including Boss Tweed.  On September 24, 1869, their financial schemes and dishonesty led to the panic of Black Friday.  Fisk was married to Lucy Moore, but had a relationship with Josie Mansfield.  Mansfield later began a relationship with Edward Stokes and the pair attempted to blackmail Fisk out of a large sum of money.  On January 6, 1872 an argument between Stokes and Fisk turned deadly when Stokes shot and murdered Fisk.  </note>
-  <bibl><bibl>“James Fisk | Biography - American Financier,” <hi rendition="#italics">Encyclopedia Britannica</hi>, accessed January 21, 2015, http://www.britannica.com/EBchecked/topic/208740/James-Fisk.</bibl>
-                <bibl>Ellen Terrell, “Robber Barons: Gould and Fisk | Inside Adams: Science, Technology &amp; Business,” webpage, (September 26, 2012), http://blogs.loc.gov/inside_adams/2012/09/robber-barons-gould-and-fisk/.</bibl>
-</bibl>
+  <note type="biography">James Fisk was born on April 1, 1834 in Bennington, Vermont.  He was a financier, stockbroker, and one of the robber barons.  He formed a brokerage firm in 1866.  A few years later, he and his business partner Jay Gould fought Cornelius Vanderbilt for control of the Erie Railroad.  During the Erie War Gould and Fisk inflated the value of the stocks and thus succeeded in gaining control of the Erie Railroad.  The pair bribed and created alliances with a number of judges, legislators, and politicians including Boss Tweed.  On September 24, 1869, their financial schemes and dishonesty led to the panic of Black Friday.  Fisk was married to Lucy Moore and his mistress was Josie Mansfield.  Mansfield later had an affair with Edward Stokes and the pair attempted to blackmail Fisk out of a large sum of money.  On January 6, 1872 an argument between Stokes and Fisk turned deadly when Stokes shot and killed Fisk.  </note>
+  <bibl><bibl>Ellen Terrell, “Robber Barons: Gould and Fisk, Inside Adams: Science, Technology &amp; Business,” webpage, (September 26, 2012)." <ref target="http://blogs.loc.gov/inside_adams/2012/09/robber-barons-gould-and-fisk/">Link</ref></bibl>
+                <bibl>“James Fisk | Biography - American Financier,<hi rendition="#italics">Encyclopedia Britannica</hi>." accessed January 21, 2015.  <ref target="http://www.britannica.com/EBchecked/topic/208740/James-Fisk">Link</ref></bibl></bibl>
   <note type="internal">LOC:  http://id.loc.gov/authorities/names/n80107292.html</note>
 </person>
 <person xml:id="ENT.000003349">
@@ -738,12 +844,22 @@ See http://politicalgraveyard.com/death/offices.html; https://books.google.com/b
   <death when="1881">1881</death>
   <sex>Male</sex>
   <note type="biography">James Abram Garfield was the 20th president of the United States and was assassinated 200 days into his presidency.  He was born on November 19, 1831 in Ohio, and lost his father when he was two years old.  He graduated in 1856 from Williams College, became a classics professor, and served as president of the Western Reserve Eclectic Institute.  He became a state senator in 1859 and later a major general in the Union Army.  He served nine consecutive terms in the US House of Representatives from 1863 to 1880.  In 1880 Republicans nominated Garfield as their presidential candidate.  He won a narrow victory against his Democratic opponent Winfield S. Hancock.  As president, Garfield fought for civil service reform and called for an investigation of the Post Office.  On July 2, 1881 Charles Guiteau shot the President in a Washington D.C Railway Station.  Garfield died eighty days later on September 19, 1881.</note>
-  <bibl><bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). <hi rendition="#italics">Historical dictionary of the Gilded Age</hi>. Armonk, N.Y.: M.E. Sharpe. </bibl>
-
-<bibl> “James Garfield,” <hi rendition="#italics">Whitehouse.gov</hi>, accessed January 21, 2015, http://www.whitehouse.gov/1600/presidents/jamesgarfield.</bibl>
-</bibl>
+  <bibl><bibl> “James Garfield,Whitehouse.gov." accessed January 21, 2015. <ref target="http://www.whitehouse.gov/1600/presidents/jamesgarfield">Link</ref></bibl>
+                <bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). <hi rendition="#italics">Historical dictionary of the Gilded Age</hi>. Armonk, N.Y.: M.E. Sharpe. </bibl></bibl>
   <note type="internal">LOC:  http://id.loc.gov/authorities/names/n50015182
 </note>
+</person>
+<person xml:id="ENT.000003734">
+  <persName key="ENT.000003734">
+    <forename type="first">Edmond</forename>
+    <forename type="middle">Charles</forename>
+    <surname type="last">Genet</surname>
+    <addName type="alt">Citizen Genet</addName>
+  </persName>
+  <birth when="1763">1763</birth>
+  <death when="1834">1834</death>
+  <sex>Male</sex>
+  <note type="internal">http://id.loc.gov/authorities/names/n50024348.html; depicted in 11579</note>
 </person>
 <person xml:id="ENT.000003392">
   <persName key="ENT.000003392">
@@ -755,6 +871,17 @@ See http://politicalgraveyard.com/death/offices.html; https://books.google.com/b
   <sex>Male</sex>
   <note type="biography">King of Great Britain and Ireland, 1760-1801; king of the United Kingdom of Great Britain and Ireland, 1801-1820.</note>
   <note type="internal">http://id.loc.gov/authorities/names/n79061402.html</note>
+</person>
+<person xml:id="ENT.000003722">
+  <persName key="ENT.000003722">
+    <forename type="first">Henry</forename>
+    <surname type="last">George</surname>
+  </persName>
+  <birth when="1839">1839</birth>
+  <death when="1897">1897</death>
+  <sex>Male</sex>
+  <note type="internal">http://id.loc.gov/authorities/names/n79056213&#13;
+depicted in hint cartoon #12371</note>
 </person>
 <person xml:id="ENT.000003351">
   <persName key="ENT.000003351">
@@ -847,11 +974,21 @@ See http://politicalgraveyard.com/death/offices.html; https://books.google.com/b
   <death when="1904">1904</death>
   <sex>Male</sex>
   <note type="biography">Jean-Léon Gérôme was born on May 11, 1824 in Vesoul, France and was a 19th century French artist.  He was a student of Paul Delaroche and many of his paintings explored Greco-Roman themes and classical mythology.  His paintings were inspired by his travels to Egypt, the Holy Land, and Asia Minor.  In addition to being a successful painter, Gérôme was a sculptor and a teacher.</note>
-  <bibl><bibl> “Jean-Leon Gerome | Biography - French Artist,” Encyclopedia Britannica, accessed January 21, 2015, http://www.britannica.com/EBchecked/topic/231830/Jean-Leon-Gerome.</bibl>
- <bibl>“The Spectacular Art of Jean-Léon Gérôme,” The J. Paul Getty Museum, accessed January 21, 2015, http://www.getty.edu/art/exhibitions/gerome/</bibl></bibl>
+  <bibl><bibl>“Jean-Leon Gerome, Biography - French Artist, Encyclopedia Britannica." accessed January 21, 2015.  <ref target="http://www.britannica.com/EBchecked/topic/231830/Jean-Leon-Gerome">Link</ref></bibl>
+                    <bibl>“The Spectacular Art of Jean-Léon Gérôme, The J. Paul Getty Museum." accessed January 21, 2015. <ref target="http://www.getty.edu/art/exhibitions/gerome/">Link</ref></bibl></bibl>
   <note type="internal">NOTE: LOC does not hyphenate his first name, although most other sources do. Need to make a final decision about this. http://id.loc.gov/authorities/names/n50016499.html &#13;
 &#13;
 mentioned in 11585-Bc612P567_1_TEI.xml; painted Phryne Before the Aeropagus</note>
+</person>
+<person xml:id="ENT.000003746">
+  <persName key="ENT.000003746">
+    <forename type="first">Alexander</forename>
+    <surname type="last">Hamilton</surname>
+  </persName>
+  <birth when="1757">1757</birth>
+  <death when="1804">1804</death>
+  <sex>Male</sex>
+  <note type="biography">First US Secretary of the Treasury, 1789-1795</note>
 </person>
 <person xml:id="ENT.000003603">
   <persName key="ENT.000003603">
@@ -945,6 +1082,29 @@ mentioned in 11585-Bc612P567_1_TEI.xml; painted Phryne Before the Aeropagus</not
   <sex>Male</sex>
   <note type="internal">LOC:  http://id.loc.gov/authorities/names/n86012017</note>
 </person>
+<person xml:id="ENT.000003726">
+  <persName key="ENT.000003726">
+    <forename type="first">David</forename>
+    <surname type="last">Hosack</surname>
+  </persName>
+  <birth when="1769">1769</birth>
+  <death when="1835">1835</death>
+  <sex>Male</sex>
+  <note type="internal">http://id.loc.gov/authorities/names/n84804805.html; depicted in 11824 (one of the doctors)</note>
+</person>
+<person xml:id="ENT.000003735">
+  <persName key="ENT.000003735">
+    <forename type="first">James</forename>
+    <surname type="last">Hutchinson</surname>
+  </persName>
+  <birth when="1752">1752</birth>
+  <death when="1793">1793</death>
+  <sex>Male</sex>
+  <note type="biography">Dr. James Hutchinson was a Pennsylvania physician and surgeon, active in Revolutionary politics. He was friends with Benjamin Franklin, a supporter of Pennsylvania's 1776 Constitution, an Anti-Federalist, and a founder of Pennsylvania's Democratic Society. He may be depicted in the 1796 cartoon "A Peep into the Antifederalist Club" as the fat man drinking wine and cursing government.</note>
+  <bibl><bibl>"James Hutchinson (1752-1793)," Penn University Archives and Records Center, accessed May 12, 2015. <ref target="http://www.archives.upenn.edu/people/1700s/hutchinson_jas.html">Link</ref></bibl>
+<bibl>James C. Kelly and B. S. Lovell, "Thomas Jefferson: His Friends and Foes," <hi rendition="#italics">Virginia Magazine of History and Biography</hi> 101 (1993): 145.</bibl></bibl>
+  <note type="internal">http://id.loc.gov/authorities/names/nr92034134.html; depicted in 11579. See also http://www.archives.upenn.edu/people/1700s/hutchinson_jas.html</note>
+</person>
 <person xml:id="ENT.000002863">
   <persName key="ENT.000002863">
     <forename type="first">Anthony</forename>
@@ -983,6 +1143,16 @@ mentioned in 11585-Bc612P567_1_TEI.xml; painted Phryne Before the Aeropagus</not
   </persName>
   <death when="1790">1790</death>
   <sex>Male</sex>
+</person>
+<person xml:id="ENT.000000045">
+  <persName key="ENT.000000045">
+    <forename type="first">Thomas</forename>
+    <surname type="last">Jefferson</surname>
+  </persName>
+  <birth when="1743">1743</birth>
+  <death when="1826">1826</death>
+  <sex>Male</sex>
+  <note type="internal">may be depicted in 11579 (man standing on table)</note>
 </person>
 <person xml:id="ENT.000003563">
   <persName key="ENT.000003563">
@@ -1118,6 +1288,19 @@ Depicted in Hint cartoon 11834</note>
   <sex>Male</sex>
   <note type="internal">depicted in 11562, 11564, 11563, 11511, 2189, 996</note>
 </person>
+<person xml:id="ENT.000002461">
+  <persName key="ENT.000002461">
+    <forename type="first">Robert</forename>
+    <forename type="middle">R.</forename>
+    <surname type="last">Livingston</surname>
+  </persName>
+  <birth when="1746">1746</birth>
+  <death when="1813">1813</death>
+  <sex>Male</sex>
+  <note type="biography">Robert R. Livingston was a diplomat, lawyer, and statesman who helped draft the Declaration of Independence. He was the US secretary of foreign affairs from 1781 to 1783. He may be pictured in the 1796 political cartoon "A Peep into the Antifederal Club" as the tiny, doll-like figure perched on the knee of either George or DeWitt Clinton.</note>
+  <bibl><bibl>"A Peep into the Antifederal Club - JCB Political Cartoons." Accessed May 12, 2015. <ref target="http://jcb.lunaimaging.com/luna/servlet/detail/JCBMAPS~2~2~656~100498:A-Peep-into-the-Antifederal-Club">Link</ref></bibl>
+<bibl><hi rendition="#italics">Made in America: Printmaking, 1760-1860</hi> (Philadelphia: Library Company of Philadelphia, 1973), 11-12</bibl></bibl>
+</person>
 <person xml:id="ENT.000003362">
   <persName key="ENT.000003362">
     <forename type="first">John</forename>
@@ -1142,7 +1325,7 @@ http://id.loc.gov/authorities/names/nr2007000099.html</note>
 <person xml:id="ENT.000003641">
   <persName key="ENT.000003641">
     <forename type="first">James</forename>
-    <forename type="middle">Rusesell</forename>
+    <forename type="middle">Russell</forename>
     <surname type="last">Lowell</surname>
   </persName>
   <birth when="1819">1819</birth>
@@ -1185,12 +1368,31 @@ fourth president of the United States (1809-1817). Not to be confused with James
   <sex>Male</sex>
   <note type="internal">Publisher of Evening Telegraph (Phila.)</note>
 </person>
+<person xml:id="ENT.000003721">
+  <persName key="ENT.000003721">
+    <forename type="first">William</forename>
+    <forename type="middle">Learned</forename>
+    <surname type="last">Marcy</surname>
+  </persName>
+  <birth when="1756">1756</birth>
+  <death when="1857">1857</death>
+  <sex>Male</sex>
+  <note type="internal">http://id.loc.gov/authorities/names/n86111463.html; depicted in 11730</note>
+</person>
 <person xml:id="ENT.000000259">
   <persName key="ENT.000000259">
     <forename type="first">David</forename>
     <surname type="last">Martin</surname>
   </persName>
   <sex>Male</sex>
+</person>
+<person xml:id="ENT.000003719">
+  <persName key="ENT.000003719">
+    <forename type="first">James Campbell</forename>
+    <surname type="last">Matthews</surname>
+  </persName>
+  <sex>Male</sex>
+  <note type="internal">depicted in hint cartoon #12376. </note>
 </person>
 <person xml:id="ENT.000003364">
   <persName key="ENT.000003364">
@@ -1213,6 +1415,25 @@ fourth president of the United States (1809-1817). Not to be confused with James
   <sex>Male</sex>
   <note type="internal">http://id.loc.gov/authorities/names/n50014834.html. Depicted in 2189</note>
 </person>
+<person xml:id="ENT.000003723">
+  <persName key="ENT.000003723">
+    <forename type="first">Edward </forename>
+    <surname type="last">McGlynn</surname>
+  </persName>
+  <birth when="1837">1837</birth>
+  <death when="1900">1900</death>
+  <sex>Male</sex>
+  <note type="internal">depicted in hint cartoon #12371&#13;
+http://id.loc.gov/authorities/names/no97050463</note>
+</person>
+<person xml:id="ENT.000003750">
+  <persName key="ENT.000003750">
+    <forename type="first">James</forename>
+    <surname type="last">McNichol</surname>
+  </persName>
+  <sex>Male</sex>
+  <note type="internal">depicted in hint cartoon 12233</note>
+</person>
 <person xml:id="ENT.000003367">
   <persName key="ENT.000003367">
     <forename type="first">Warner</forename>
@@ -1233,6 +1454,17 @@ fourth president of the United States (1809-1817). Not to be confused with James
   <death when="1918">1918</death>
   <sex>Male</sex>
 </person>
+<person xml:id="ENT.000003725">
+  <persName key="ENT.000003725">
+    <forename type="first">Samuel</forename>
+    <forename type="middle">Latham</forename>
+    <surname type="last">Mitchill</surname>
+  </persName>
+  <birth when="1764">1764</birth>
+  <death when="1831">1831</death>
+  <sex>Male</sex>
+  <note type="internal">http://id.loc.gov/authorities/names/n82268189.html; depicted in 11824 (one of the doctors, not clear which)</note>
+</person>
 <person xml:id="ENT.000003368">
   <persName key="ENT.000003368">
     <forename type="first">Rachel</forename>
@@ -1249,6 +1481,17 @@ fourth president of the United States (1809-1817). Not to be confused with James
   <note type="internal">Philadelphia Inquirer cartoonist ; artist of 11565-3133_b2f9_1_TEI.xml&#13;
 &#13;
 LOC:  http://id.loc.gov/authorities/names/n79060685</note>
+</person>
+<person xml:id="ENT.000000168">
+  <persName key="ENT.000000168">
+    <forename type="first">Robert</forename>
+    <surname type="last">Morris</surname>
+  </persName>
+  <birth when="1734">1734</birth>
+  <death when="1806">1806</death>
+  <sex>Male</sex>
+  <note type="biography">Philadelphia merchant, Revolutionary War financier, and founder of the Bank of North America.  A signer of the Declaration of Independence, Robert Morris also served a Pennsylvania delegate to both Continental Congresses, as well as the first United States Senator from Pennsylvania.</note>
+  <note type="internal">depicted in 11731</note>
 </person>
 <person xml:id="ENT.000003678">
   <persName key="ENT.000003678">
@@ -1286,6 +1529,17 @@ LOC:  http://id.loc.gov/authorities/names/n79060685</note>
   </persName>
   <note type="internal">HINT project staff</note>
 </person>
+<person xml:id="ENT.000003733">
+  <persName key="ENT.000003733">
+    <addName type="honorific">Commodore</addName>
+    <forename type="first">James</forename>
+    <surname type="last">Nicholson</surname>
+  </persName>
+  <birth when="1737">1737</birth>
+  <death when="1804">1804</death>
+  <sex>Male</sex>
+  <note type="internal">http://id.loc.gov/authorities/names/nr94002178.html; depicted in 11579</note>
+</person>
 <person xml:id="ENT.000003535">
   <persName key="ENT.000003535">
     <forename type="first">Mordecai</forename>
@@ -1307,6 +1561,16 @@ LOC:  http://id.loc.gov/authorities/names/n79060685</note>
   <sex>Male</sex>
   <note type="internal">depicted in 2562-Bb612L615_1_TEI.xml (Liberty Triumphant) ; http://id.loc.gov/authorities/names/n79056537.html</note>
 </person>
+<person xml:id="ENT.000003714">
+  <persName key="ENT.000003714">
+    <forename type="first">Patrick</forename>
+    <surname type="last">O'Donnell</surname>
+  </persName>
+  <birth when="1835">1835</birth>
+  <death when="1883">1883</death>
+  <sex>Male</sex>
+  <note type="internal">depicted in hint cartoon #12154</note>
+</person>
 <person xml:id="ENT.000003656">
   <persName key="ENT.000003656">
     <forename type="first">Ole</forename>
@@ -1326,6 +1590,15 @@ LOC:  http://id.loc.gov/authorities/names/n79060685</note>
   <sex>Male</sex>
   <note type="internal">LOC:  http://id.loc.gov/authorities/names/n85247604</note>
 </person>
+<person xml:id="ENT.000000869">
+  <persName key="ENT.000000869">
+    <surname type="last">Thomas Paine</surname>
+  </persName>
+  <birth when="1737">1737</birth>
+  <death when="1809">1809</death>
+  <sex>Male</sex>
+  <note type="internal">http://id.loc.gov/authorities/names/n79021666.html; depicted in 11731</note>
+</person>
 <person xml:id="ENT.000002957">
   <persName key="ENT.000002957">
     <forename type="first">Charles</forename>
@@ -1336,6 +1609,16 @@ LOC:  http://id.loc.gov/authorities/names/n79060685</note>
   <death when="1891">1891</death>
   <sex>Male</sex>
   <note type="internal">Mentioned in cartoon 12155</note>
+</person>
+<person xml:id="ENT.000003724">
+  <persName key="ENT.000003724">
+    <forename type="first">Felix</forename>
+    <surname type="last">Pascalis</surname>
+  </persName>
+  <birth when="1762">1762</birth>
+  <death when="1833">1833</death>
+  <sex>Male</sex>
+  <note type="internal">http://id.loc.gov/authorities/names/n85253104.html; depicted in 11824 (French doctor)</note>
 </person>
 <person xml:id="ENT.000002593">
   <persName key="ENT.000002593">
@@ -1355,6 +1638,16 @@ LOC:  http://id.loc.gov/authorities/names/n79060685</note>
   <death when="1889">1889</death>
   <sex>Male</sex>
   <note type="internal">depicted in 11572 and 11756; http://id.loc.gov/authorities/names/n86812256.html</note>
+</person>
+<person xml:id="ENT.000000166">
+  <persName key="ENT.000000166">
+    <forename type="first">William</forename>
+    <surname type="last">Penn</surname>
+  </persName>
+  <birth when="1644">1644</birth>
+  <death when="1718">1718</death>
+  <sex>Male</sex>
+  <note type="internal">depicted in hint cartoon #12232</note>
 </person>
 <person xml:id="ENT.000000557">
   <persName key="ENT.000000557">
@@ -1395,6 +1688,16 @@ LOC:  http://id.loc.gov/authorities/names/n79060685</note>
 &#13;
 http://id.loc.gov/authorities/names/n2001153414</note>
 </person>
+<person xml:id="ENT.000003720">
+  <persName key="ENT.000003720">
+    <forename type="first">Franklin</forename>
+    <surname type="last">Pierce</surname>
+  </persName>
+  <birth when="1804">1804</birth>
+  <death when="1869">1869</death>
+  <sex>Male</sex>
+  <note type="internal">http://id.loc.gov/authorities/names/n50018658.html; depicted in 11730</note>
+</person>
 <person xml:id="ENT.000003375">
   <persName key="ENT.000003375">
     <surname type="last">Poplicola</surname>
@@ -1404,6 +1707,18 @@ http://id.loc.gov/authorities/names/n2001153414</note>
   <note type="internal">Pen name associated with three editorials in Rivington's New York Gazetteer (November 18, December 2, and December 23, 1773) that took a pro-government, pro-East India Company stance during uproar over the Tea Act in America. Depicted in 2562-Bb612L615_1_TEI.xml (Liberty Triumphant). Looks like Poplicola was pen name of co-authored piece. Use article printouts in cartoon folder.
 
                     </note>
+</person>
+<person xml:id="ENT.000003744">
+  <persName key="ENT.000003744">
+    <forename type="first">William</forename>
+    <surname type="last">Poyntell</surname>
+  </persName>
+  <birth when="1756">1756</birth>
+  <death when="1811">1811</death>
+  <sex>Male</sex>
+  <note type="biography">Philadelphia bookseller and printer, born in England. After immigrating to Philadelphia, he established a printing office notable for publishing the first American editions of the works of Horace, Virgil, and Ovid, among other classics. He also served as a member of the Philadelphia Select Council. He died in Philadelphia on September 10, 1811, at age 56.</note>
+  <bibl><bibl>Obituary in <hi rendition="#italics">The Gentlemen’s Magazine and Historical Chronicle</hi>, vol. 82, part 2 (1812): 294-295.</bibl></bibl>
+  <note type="internal">http://id.loc.gov/authorities/names/n88115514.html; publisher of "The Siege of Zion" (11731)</note>
 </person>
 <person xml:id="ENT.000003534">
   <persName key="ENT.000003534">
@@ -1475,6 +1790,19 @@ http://id.loc.gov/authorities/names/n2001153414</note>
   <sex>Male</sex>
   <note type="internal">depicted in 11585-Bc612P567_1_TEI.xml ; http://id.loc.gov/authorities/names/n50050931.html</note>
 </person>
+<person xml:id="ENT.000003749">
+  <persName key="ENT.000003749">
+    <forename type="first">John</forename>
+    <forename type="middle">Edgar</forename>
+    <surname type="last">Reyburn</surname>
+  </persName>
+  <birth when="1845">1845</birth>
+  <death when="1914">1914</death>
+  <sex>Male</sex>
+  <note type="internal">http://id.loc.gov/authorities/names/no2010065016&#13;
+&#13;
+depicted in hint cartoon 12233</note>
+</person>
 <person xml:id="ENT.000003359">
   <persName key="ENT.000003359">
     <forename type="first">Charles</forename>
@@ -1485,6 +1813,16 @@ http://id.loc.gov/authorities/names/n2001153414</note>
   <death when="1806">1806</death>
   <sex>Male</sex>
   <note type="internal">depicted in 2562-Bb612L615_1_TEI.xml (Liberty Triumphant) ; http://id.loc.gov/authorities/names/n86104945.html</note>
+</person>
+<person xml:id="ENT.000003477">
+  <persName key="ENT.000003477">
+    <forename type="first">David</forename>
+    <surname type="last">Rittenhouse</surname>
+  </persName>
+  <birth when="1732">1732</birth>
+  <death when="1796">1796</death>
+  <sex>Male</sex>
+  <note type="biography">David Rittenhouse was a renowned American astronomer, inventor, clockmaker, mathematician, surveyor, scientific instrument craftsman and public official. The 1796 political cartoon "A Peep Into the Antifederal Club" depicts him peering through a telescope and wishing aloud for "such a government as [they] have on Saturn," reflecting his interest in astronomy and his leadership of the Philadelphia Democratic Society.</note>
 </person>
 <person xml:id="ENT.000003378">
   <persName key="ENT.000003378">
@@ -1518,6 +1856,17 @@ http://id.loc.gov/authorities/names/n85250958</note>
   <death when="1891">1891</death>
   <sex>Male</sex>
 </person>
+<person xml:id="ENT.000003712">
+  <persName key="ENT.000003712">
+    <forename type="first">William</forename>
+    <surname type="last">Robinson</surname>
+  </persName>
+  <birth when="1814">1814</birth>
+  <death when="1892">1892</death>
+  <sex>Male</sex>
+  <note type="internal">depicted in hint cartoon 12154&#13;
+LOC:http://id.loc.gov/authorities/names/n86025981.html</note>
+</person>
 <person xml:id="ENT.000003651">
   <persName key="ENT.000003651">
     <forename type="first">John</forename>
@@ -1546,6 +1895,17 @@ http://id.loc.gov/authorities/names/n85250958</note>
     <surname type="last">Ruoff</surname>
   </persName>
 </person>
+<person xml:id="ENT.000000478">
+  <persName key="ENT.000000478">
+    <forename type="first">Benjamin</forename>
+    <surname type="last">Rush</surname>
+  </persName>
+  <birth when="1746">1746</birth>
+  <death when="1813">1813</death>
+  <sex>Male</sex>
+  <note type="biography">Born in Byberry, Pennsylvania, Dr. Benjamin Rush was an influential physician, educator, politician, and humanitarian. He was a professor of chemistry and medicine at the College of Philadelphia and later the University of Pennsylvania, a member of the Continental Congress, signer of the Declaration of Independence, surgeon general of the Continental Army,  and founder of Dickinson College. </note>
+  <note type="internal">http://id.loc.gov/authorities/names/n50000649.html; depicted in 11731</note>
+</person>
 <person xml:id="ENT.000003687">
   <persName key="ENT.000003687">
     <forename type="first">Wilhelm</forename>
@@ -1567,6 +1927,17 @@ http://id.loc.gov/authorities/names/n85250958</note>
   <death when="1906">1906</death>
   <sex>Male</sex>
   <note type="internal">http://id.loc.gov/authorities/names/n50003179.html ; depicted in 11585-Bc612P567_1_TEI.xml</note>
+</person>
+<person xml:id="ENT.000003747">
+  <persName key="ENT.000003747">
+    <forename type="first">Winfield</forename>
+    <surname type="last">Scott</surname>
+  </persName>
+  <birth when="1786">1786</birth>
+  <death when="1866">1866</death>
+  <sex>Male</sex>
+  <note type="biography">Nicknamed "Old Fuss and Feathers" and "Grand Old Man of the Army," Winfield Scott was a long-serving US Army general. He was considered as a Whig Party presidential candidate in 1840 and 1848 but was not nominated; in 1852, he was nominated and ran, unsuccessfully, against Democrat Franklin Pierce.</note>
+  <note type="internal">Possibly depicted in 12278 (may be Zachary Taylor instead); LOC http://id.loc.gov/authorities/names/n79059770.html</note>
 </person>
 <person xml:id="ENT.000003283">
   <persName key="ENT.000003283">
@@ -1628,14 +1999,6 @@ http://id.loc.gov/authorities/names/n85250958</note>
     <surname type="last">Smith</surname>
   </persName>
   <note type="internal">This is a person whose name was handwritten on a cartoon featured in the HINT project.  No further information is known about this entity.</note>
-</person>
-<person xml:id="ENT.000003711">
-  <persName key="ENT.000003711">
-    <forename type="first">Solly</forename>
-    <surname type="last">Walter</surname>
-  </persName>
-  <sex>Male</sex>
-  <note type="internal">Artist for Wasp.  Artist for Hint cartoon #11685</note>
 </person>
 <person xml:id="ENT.000003631">
   <persName key="ENT.000003631">
@@ -1704,6 +2067,31 @@ LOC:  http://id.loc.gov/authorities/names/n79022244&#13;
 &#13;
 http://id.loc.gov/authorities/names/n79022244.html</note>
 </person>
+<person xml:id="ENT.000000383">
+  <persName key="ENT.000000383">
+    <forename type="first">Charles Jay</forename>
+    <surname type="last">Taylor</surname>
+  </persName>
+  <birth when="1855">1855</birth>
+  <death when="1929">1929</death>
+  <sex>Male</sex>
+  <note type="internal">artist for Puck.  hint cartoon #11484&#13;
+LOC:  http://id.loc.gov/authorities/names/n95002542</note>
+</person>
+<person xml:id="ENT.000003169">
+  <persName key="ENT.000003169">
+    <forename type="first">Zachary</forename>
+    <surname type="last">Taylor</surname>
+  </persName>
+  <birth when="1784">1784</birth>
+  <death when="1850">1850</death>
+  <sex>Male</sex>
+  <note type="biography"><p>Zachary Taylor (November 24, 1784-July 9, 1850) was the 12th President of the United States, serving from March 1849 until his death in July 1850. Prior to his presidency, Taylor was a career officer in the United States Army, rising to the rank of major general. His status as a national hero as a result of his victories in the Mexican-American War won him election to the White House despite his vague political beliefs. His top priority as president was preserving the Union, but he died sixteen months into his term, before making any progress on the status of slavery, which had been inflaming tensions in Congress.</p>
+                <p>Taylor was born to a prominent family of planters who migrated westward from Virginia to Kentucky in his youth. He was commissioned as an officer in the U.S. Army in 1808 and made a name for himself as a captain in the War of 1812. He climbed the ranks establishing military forts along the Mississippi River and entered the Black Hawk War as a colonel in 1832. His success in the Second Seminole War attracted national attention and earned him the nickname "Old Rough and Ready".</p>
+                <p>In 1845, as the annexation of Texas was underway, President James K. Polk dispatched Taylor to the Rio Grande area in anticipation of a potential battle with Mexico over the disputed Texas-Mexico border. The Mexican–American War broke out in May 1846, and Taylor led American troops to victory in a series of battles culminating in the Battle of Palo Alto and the Battle of Monterrey. He became a national hero, and political clubs sprung up to draw him into the upcoming 1848 presidential election.</p>
+                <p>The Whig Party convinced the reluctant Taylor to lead their ticket, despite his unclear platform and lack of interest in politics. He won the election alongside U.S. Representative Millard Fillmore of New York, defeating Democratic candidate Lewis Cass. As president, Taylor kept his distance from Congress and his cabinet, even as partisan tensions threatened to divide the Union. Debate over the slave status of the large territories claimed in the war led to threats of secession from Southerners. Despite being a Southerner and a slaveholder himself, Taylor did not push for the expansion of slavery. To avoid the question, he urged settlers in New Mexico and California to bypass the territorial stage and draft constitutions for statehood, setting the stage for the Compromise of 1850. Taylor died suddenly of a stomach-related illness in July 1850, ensuring he would have little impact on the sectional divide that led to civil war a decade later.</p></note>
+  <note type="internal">Copied HINT project biography from preexisting description, written by Allison Chomet (RM 5/20/15). May be depicted in 12278 (could be Winfield Scott instead). LOC: http://id.loc.gov/authorities/names/n50008436.html</note>
+</person>
 <person xml:id="ENT.000003590">
   <persName key="ENT.000003590">
     <forename type="first">John</forename>
@@ -1713,6 +2101,17 @@ http://id.loc.gov/authorities/names/n79022244.html</note>
   <death when="1914">1914</death>
   <sex>Male</sex>
   <note type="internal">http://id.loc.gov/authorities/names/n79058883.html. Artist of 11511</note>
+</person>
+<person xml:id="ENT.000003385">
+  <persName key="ENT.000003385">
+    <forename type="first">Allen</forename>
+    <forename type="middle">Granberry</forename>
+    <surname type="last">Thurman</surname>
+  </persName>
+  <birth when="1813">1813</birth>
+  <death when="1895">1895</death>
+  <sex>Male</sex>
+  <note type="internal">Cleveland's running mate in 1888 ; depicted in 11524-PG278_b5f2_1_TEI.xml ; http://id.loc.gov/authorities/names/n85808912.html</note>
 </person>
 <person xml:id="ENT.000003566">
   <persName key="ENT.000003566">
@@ -1800,6 +2199,14 @@ http://id.loc.gov/authorities/names/n79017983</note>
   <sex>Male</sex>
   <note type="internal">LOC:  http://id.loc.gov/authorities/names/n95002906</note>
 </person>
+<person xml:id="ENT.000003711">
+  <persName key="ENT.000003711">
+    <forename type="first">Solly</forename>
+    <surname type="last">Walter</surname>
+  </persName>
+  <sex>Male</sex>
+  <note type="internal">Artist for Wasp.  Artist for Hint cartoon #11685</note>
+</person>
 <person xml:id="ENT.000003366">
   <persName key="ENT.000003366">
     <forename type="first">Thomas</forename>
@@ -1809,6 +2216,7 @@ http://id.loc.gov/authorities/names/n79017983</note>
   <birth when="1865">1865</birth>
   <death when="1908">1908</death>
   <sex>Male</sex>
+  <note type="internal">publisher of North American newspaper.  Purchased paper in 1899.</note>
 </person>
 <person xml:id="ENT.000003700">
   <persName key="ENT.000003700">
@@ -1882,6 +2290,15 @@ depicted in hint cartoon #12151</note>
   <death when="1941">1941</death>
   <sex>Male</sex>
   <note type="internal">LOC:  http://id.loc.gov/authorities/names/n50018122</note>
+</person>
+<person xml:id="ENT.000003730">
+  <persName key="ENT.000003730">
+    <forename type="first">John</forename>
+    <forename type="middle">C.</forename>
+    <surname type="last">Williams</surname>
+  </persName>
+  <sex>Male</sex>
+  <note type="biography">In August 1820, newspapers reported the story of "John C. Williams," a drunk man, claiming to be from Philadelphia, who was falsely diagnosed with yellow fever by doctors in New York. Williams's story is parodied in the circa 1820 political cartoon "A Case of Infectious Fever."</note>
 </person>
 <person xml:id="ENT.000003391">
   <persName key="ENT.000003391">

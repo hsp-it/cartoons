@@ -65,7 +65,7 @@
             </projectDesc>
         </encodingDesc>
         <revisionDesc>
-            <change who="HSP" when="2015-05-05">Exported from Collective Access.</change>
+            <change who="HSP" when="2015-05-20">Exported from Collective Access.</change>
         </revisionDesc>
     </teiHeader>
 
@@ -157,6 +157,7 @@
 </org>
 <org xml:id="ENT.000003554">
   <orgName key="ENT.000003554">E. C. MacFarlane &amp; Co.<orgName type="alt">E. C. MacFarlane and Company</orgName></orgName>
+  <note type="internal">publisher for Wasp</note>
 </org>
 <org xml:id="ENT.000000637">
   <orgName key="ENT.000000637">East India Company</orgName>
@@ -274,6 +275,11 @@ LOC name authority record spells Ottman with one "n", but in the cartoon "If-The
                </bibl>
   <note type="internal">Mentioned in 11820; http://chroniclingamerica.loc.gov/lccn/sn85034453/; Newspaper published in Meridian, Mississippi</note>
 </org>
+<org xml:id="ENT.000003748">
+  <orgName key="ENT.000003748">N. Currier (Firm)</orgName>
+  <note type="org">Lithography firm of Nathaniel Currier</note>
+  <note type="internal">publisher/lithographer of 12278. http://id.loc.gov/authorities/names/n80126272.html</note>
+</org>
 <org xml:id="ENT.000003597">
   <orgName key="ENT.000003597">National Advocate<orgName type="alt">The National advocate, for the country</orgName></orgName>
   <note type="internal">Early newspaper referenced in 11738. See http://chroniclingamerica.loc.gov/lccn/sn83030516/</note>
@@ -299,6 +305,10 @@ LOC name authority record spells Ottman with one "n", but in the cartoon "If-The
                 <p>However, as Jacksonian populism lost steam with the growing business class in New York, the paper began to support Henry Clay’s burgeoning National Republicanism. Webb and the <hi rendition="#italics">New York Courier and Enquirer</hi> were founding tenets of the new party, and the paper became one of the most powerful in the country. As part of the party machine, it sparked ferocious debate in the U.S. House of Representatives in its 1837-1838 sessions: Kentucky congressman William J. Graves challenged a Maine Democratic congressman, Jonathan Cilley, to a duel after Cilly criticized the Courier and Enquirer on the House floor. It ended with Graves shooting Cilley to death. </p>
                 <p>The <hi rendition="#italics">New York Courier and Enquirer</hi> went into decline with the Whig party, as the country moved towards greater unrest. The paper, which had always supported slavery, fell out of favor as many New Yorkers and other Northerners began to become more earnestly interested in abolition. With the election of President Lincoln in 1861 and the onset of the Civil War, the paper merged with the <hi rendition="#italics">New York World</hi>. </p></note>
   <note type="internal">published by James Watson Webb; mentioned in 11561; possibly mentioned in 11738</note>
+</org>
+<org xml:id="ENT.000003728">
+  <orgName key="ENT.000003728">New York Evening Post</orgName>
+  <note type="internal">mentioned in 11824; precursor to modern-day NY Post</note>
 </org>
 <org xml:id="ENT.000003541">
   <orgName key="ENT.000003541">New York Herald</orgName>
@@ -423,6 +433,12 @@ publisher of Gazette Times</note>
 <org xml:id="ENT.000003688">
   <orgName key="ENT.000003688">Sackett &amp; Wilhelms Litho. &amp; Prt. Co.<orgName type="alt">Sackett &amp; Wilhelms Lithographing Corporation</orgName></orgName>
   <note type="internal">http://id.loc.gov/authorities/names/no00092199</note>
+</org>
+<org xml:id="ENT.000003325">
+  <orgName key="ENT.000003325">Schmidt Litho. Co.<orgName type="alt">Schmidt Lithograph Company</orgName></orgName>
+  <note type="internal">lithographs 11524-PG278_b5f2_1_TEI.xml ; founded by Max Schmidt of SF Wasp?&#13;
+&#13;
+http://id.loc.gov/authorities/names/no2013118726</note>
 </org>
 <org xml:id="ENT.000003327">
   <orgName key="ENT.000003327">Sons of Liberty</orgName>

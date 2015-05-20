@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?xml-model href="../../../../HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
 
-
-<?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 
     <teiHeader>
@@ -66,7 +65,7 @@
             </projectDesc>
         </encodingDesc>
         <revisionDesc>
-            <change who="HSP" when="2015-05-05">Exported from Collective Access.</change>
+          <change who="HSP" when="2015-05-20">Exported from Collective Access.</change>
         </revisionDesc>
     </teiHeader>
 
@@ -90,6 +89,10 @@
 <item xml:id="bull_moose">
   <label>Bull moose</label>
   <note type="symbol">The bull moose is a symbol for the Progressive Party which was founded by President Theodore Roosevelt in 1912. </note>
+</item>
+<item xml:id="cerberus">
+  <label>Cerberus</label>
+  <note type="symbol">Cerberus is a three-headed dog with a serpent's tail who, in Greek and Roman mythology, guards the entrance to the underworld.</note>
 </item>
 <item xml:id="columbia">
   <label>Columbia</label>
@@ -140,6 +143,10 @@
 <item xml:id="john_bull">
   <label>John Bull</label>
   <note type="symbol">Symbolic representation of Great Britain, often depicted as a paunchy, middle-aged man.</note>
+</item>
+<item xml:id="justice">
+  <label>Justice</label>
+  <note type="symbol">Justice is often depicted as a woman wearing a blindfold and holding a sword and a set of scales. <!-- provide explanation of what the sword, blindfold, and scales signify --></note>
 </item>
 <item xml:id="liberty_cap">
   <label>Liberty cap</label>
