@@ -177,7 +177,7 @@
         <profileDesc>
             <textClass>
                 <catRef target="cartoons_genres.xml#political_cartoons"/>
-                <catRef target="cartoons_genres.xml#nineties"/>
+                <catRef target="cartoons_genres.xml#twentieth"/>
                 <catRef target="cartoons_genres.xml#clippings"/>
                 <catRef target="cartoons_taxonomies.xml#Pennsylvania"/>
                 <catRef target="cartoons_taxonomies.xml#labor"/>
