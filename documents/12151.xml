@@ -85,6 +85,7 @@
                                     <relation name="depicted" active="ENT.000003708"/>
                                     <relation name="depicted" active="ENT.000003709"/>
                                     <relation name="depicted" active="ENT.000003710"/>
+                                    <relation name="depicted" active="cartoons_symbols.xml#liberty_cap"/>
                                 </listRelation>
                             </bibl>
                         </msItem>

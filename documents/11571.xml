@@ -79,6 +79,7 @@
                   <relation name="depicted" active="ENT.000003384"/>
                   <relation active="cartoons_symbols.xml#uncle_sam"/>
                   <relation active="cartoons_symbols.xml#columbia"/>
+                  <relation active="cartoons_symbols.xml#liberty_cap"/>
                 </listRelation>
               </bibl>
             </msItem>
@@ -257,7 +258,7 @@
             <rs ref="cartoons_symbols.xml#columbia">Columbia</rs>
           </supplied>
         </head>
-        <p>Columbia presents Theodore Roosevelt to Uncle Sam for a scolding.</p>
+        <p>Columbia presents Theodore Roosevelt to Uncle Sam for a scolding.  She wears a <rs ref="cartoons_symbols.xml#liberty_cap">liberty cap</rs>.</p>
       </div>
       <div type="image_annotation" n="6" facs="#Taft">
         <head>
