@@ -65,7 +65,7 @@
             </projectDesc>
         </encodingDesc>
         <revisionDesc>
-            <change who="HSP" when="2015-05-20">Exported from Collective Access.</change>
+            <change who="HSP" when="2015-05-21">Exported from Collective Access.</change>
         </revisionDesc>
     </teiHeader>
 
@@ -599,7 +599,7 @@ http://id.loc.gov/authorities/names/n95000561.html</note>
   <death when="1897">1897</death>
   <sex>Male</sex>
   <note type="biography"><p>Charles Anderson Dana was born on August 8, 1819 in Hinsdale, New Hampshire and became the editor of the <hi rendition="#italics">New York Sun</hi>.  In 1839 he enrolled at Havard College, but due to financial problems, was forced to leave school.  He later began writing for the <hi rendition="#italics">New York Tribune</hi>.  He became the managing editor for the <hi rendition="#italics">New York Tribune</hi> in 1849, but in 1862 was forced to resign because he did not get along with the editor-publisher Horace Greeley.   In 1868 Dana became an owner and editor of the <hi rendition="#italics">New York Sun</hi>.  Dana also authored several books including  <hi rendition="#italics">Recollections of the Civil War</hi> and <hi rendition="#italics">The Art of Newspaper Making</hi>.</p></note>
-  <bibl><bibl>“Charles A. Dana  Biography - American Journalist” Encyclopedia Britannica, accessed February 10, 2015, http://www.britannica.com/EBchecked/topic/150676/Charles-A-Dana.</bibl></bibl>
+  <bibl><bibl>“Charles A. Dana  Biography - American Journalist” Encyclopedia Britannica, accessed February 10, 2015.  <ref target="http://www.britannica.com/EBchecked/topic/150676/Charles-A-Dana">Link</ref></bibl></bibl>
   <note type="internal">http://id.loc.gov/authorities/names/n85253013.html</note>
 </person>
 <person xml:id="ENT.000003703">
@@ -892,7 +892,7 @@ depicted in hint cartoon #12371</note>
   <death when="1896">1896</death>
   <sex>Male</sex>
   <note type="biography"><p>Bernhard Gillam was born on April 28, 1856 in Banbury, Oxforshire in England and was a famous 19th century American cartoonist.  At the age of ten, Gillam’s family immigrated to the United States and settled in New York.  He studied engraving and worked as a cartoonist for <hi rendition="#italics">Leslie’s Weekly</hi>,  the <hi rendition="#italics">New York Graphic</hi>, and <hi rendition="#italics">Harper’s Weekly</hi>.  Joseph Keppler later hired Gillam to work for <hi rendition="#italics">Puck</hi>, a weekly humor magazine.  At <hi rendition="#italics">Puck</hi>, Gillam characterized a number of political figures including the 1884 presidential candidate James A. Blaine.   In 1886 Gillam became part owner of the humor magazine <hi rendition="#italics">Judge</hi> where he continued to poke fun at presidential candidates and their policies.  He died of typhoid fever on January 19, 1896 in Canajoharie, New York. </p></note>
-  <bibl><bibl> “Bernhard Gillam | Biography - American Cartoonist,” <hi rendition="#italics">Encyclopedia Britannica</hi>, accessed January 21, 2015, http://www.britannica.com/EBchecked/topic/233731/Bernhard-Gillam.</bibl></bibl>
+  <bibl><bibl> “Bernhard Gillam | Biography - American Cartoonist,” <hi rendition="#italics">Encyclopedia Britannica</hi>, accessed January 21, 2015.  <ref target="http://www.britannica.com/EBchecked/topic/233731/Bernhard-Gillam">Link</ref></bibl></bibl>
   <note type="internal">http://id.loc.gov/authorities/names/n94122577.html ; cartoonist for Puck, among other publications. created 11585-Bc612P567_1_TEI.xml</note>
 </person>
 <person xml:id="ENT.000003689">
@@ -915,12 +915,11 @@ depicted in hint cartoon #12371</note>
   <sex>Male</sex>
   <note type="biography"><p>Jay Gould was born on May 27, 1836 in Roxbury, New York and was an American railroad financier and one of the “robber barons”.  He attended Hobart Academy and worked as a surveyor.  He later began dealing in railroad stocks, became business partners with James Fisk and Daniel Drew, and formed a Wall Street Brokerage House.  In 1868, Gould, Fisk, and Drew successfully gained control of the Erie Railroad from Cornelius Vanderbilt by inflating the value of the company’s stocks.  Gould and Fisk engaged in political bribery and formed a partnership with the infamous William “Boss” Tweed.</p>
                 <p>On September 24, 1869, Gould and Fisk’s financial schemes led to the panic of “Black Friday” and Gould was forced to relinquish control of the Eerie Railroad.  In the 1870s Gould bought stock of railroads in the West and gained control of several railroad companies including the Union Pacific Railroad.  He also was owner of the Western Union Telegraph Company and the <hi rendition="#italics">New York World</hi> Newspaper.  He died in New York City on December 2, 1892 and left his $72 million fortune to his children. </p></note>
-  <bibl><bibl> “Jay Gould | Biography - American Financier,” <hi rendition="#italics">Encyclopedia Britannica</hi>.  accessed January 21, 2015, http://www.britannica.com/EBchecked/topic/239993/Jay-Gould</bibl>
-
-<bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). <hi rendition="#italics">Historical dictionary of the Gilded Age</hi>. Armonk, N.Y.: M.E. Sharpe. </bibl>
-
-<bibl>Terrell, Ellen “Robber Barons: Gould and Fisk | Inside Adams: Science, Technology &amp; Business,” webpage, (September 26, 2012), http://blogs.loc.gov/inside_adams/2012/09/robber-barons-gould-and-fisk/.</bibl>
-</bibl>
+  <bibl><bibl> “Jay Gould | Biography - American Financier,” <hi rendition="#italics">Encyclopedia Britannica</hi>.  accessed January 21, 2015.  <ref target="http://www.britannica.com/EBchecked/topic/239993/Jay-Gould">Link</ref></bibl>
+                
+                <bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). <hi rendition="#italics">Historical dictionary of the Gilded Age</hi>. Armonk, N.Y.: M.E. Sharpe. </bibl>
+                    
+                <bibl>Terrell, Ellen “Robber Barons: Gould and Fisk | Inside Adams: Science, Technology &amp; Business,” webpage, (September 26, 2012). <ref target="http://blogs.loc.gov/inside_adams/2012/09/robber-barons-gould-and-fisk/">Link</ref></bibl></bibl>
   <note type="internal">LOC:  http://id.loc.gov/authorities/names/n50035745</note>
 </person>
 <person xml:id="ENT.000003642">
@@ -950,10 +949,9 @@ depicted in hint cartoon #12371</note>
                 
                 <p>After leaving office, Grant went bankrupt and developed throat cancer.  In order to overcome his financial difficulties, he wrote his <hi rendition="#italics">Personal Memoirs</hi>  which eventually earned over $400,000.  He died on July 23, 1885, a few days after he finished writing.</p></note>
   <bibl><bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). <hi rendition="#italics">Historical dictionary of the Gilded Age</hi>. Armonk, N.Y.: M.E. Sharpe. </bibl>
-
-<bibl>“Ulysses S. Grant" <hi rendition="#italics">Whitehouse.gov</hi>, accessed February 4, 2015, http://www.whitehouse.gov/1600/presidents/ulyssessgrant.
-                </bibl>
-</bibl>
+                
+                <bibl>“Ulysses S. Grant" <hi rendition="#italics">Whitehouse.gov</hi>, accessed February 4, 2015.  <ref target="http://www.whitehouse.gov/1600/presidents/ulyssessgrant">Link</ref>
+                </bibl></bibl>
 </person>
 <person xml:id="ENT.000003352">
   <persName key="ENT.000003352">
@@ -1011,9 +1009,9 @@ mentioned in 11585-Bc612P567_1_TEI.xml; painted Phryne Before the Aeropagus</not
   <sex>Male</sex>
   <note type="biography"><p>Winfield Scott Hancock was born in Pennsylvania on February 14, 1824 and died on February 9, 1886.  He was a highly respected general and, in 1800, became the Democratic presidential candidate.</p>
                 <p>He graduated from West Point in 1844 and fought in the Mexican War from 1846 to 1848.  During the Civil War, he was appointed brigadier general.  He served with distinction at several important Civil War battles including Antietam, Fredericksburg, and Gettysburg.  After the war he was appointed major general and commanded the Central Military Department and the Department of Louisiana and Texas.  His views and policies concerning Reconstruction made him well respected within the Democratic Party, and in 1880 he became their presidential nominee.  He narrowly lost the election to James A. Garfield.  Hancock died on February 9, 1886 in New York City.</p></note>
-  <bibl><bibl>“Winfield Scott Hancock , Biography ,United States Military Officer, Encyclopedia Britannica,” accessed February 11, 2015, http://www.britannica.com/EBchecked/topic/254062/Winfield-Scott-Hancock.</bibl>
-
-<bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). <hi rendition="#italics">Historical dictionary of the Gilded Age</hi>. Armonk, N.Y.: M.E. Sharpe. </bibl></bibl>
+  <bibl><bibl>“Winfield Scott Hancock , Biography ,United States Military Officer, Encyclopedia Britannica,” accessed February 11, 2015.  <ref target="http://www.britannica.com/EBchecked/topic/254062/Winfield-Scott-Hancock">Link</ref></bibl>
+                
+                <bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). <hi rendition="#italics">Historical dictionary of the Gilded Age</hi>. Armonk, N.Y.: M.E. Sharpe. </bibl></bibl>
   <note type="internal">LOC:  http://id.loc.gov/authorities/names/n87918075</note>
 </person>
 <person xml:id="ENT.000001948">
@@ -1026,8 +1024,7 @@ mentioned in 11585-Bc612P567_1_TEI.xml; painted Phryne Before the Aeropagus</not
   <sex>Male</sex>
   <note type="biography">Benjamin Harrison was the 23rd President of the United States.  He was born on August 20, 1833 in North Bend, Ohio and later practiced law.  He served in the Civil War and became a colonel.  In 1876, he unsuccessfully ran for governor of Indiana, but, four years later, was elected to serve in the US Senate.  In 1884 he lost the Republican presidential nomination to James Blaine and then in 1886 lost reelection to the Senate.  Two years later, however, he ran for president and launched a well organized and successful “front-porch” campaign in which he did not travel, but gave numerous speeches to visiting supporters.  He narrowly defeated the democratic incumbent Grover Cleveland, becoming the 23rd President of the United States.  At 5 feet 6 inches tall, Harrison became one the shortest US presidents, and democrats nicknamed him “Little Ben.”  As president, Harrison hosted the first Pan American Congress in 1889 and helped establish what would later become the Pan American Union.  He put forth legislation in Congress for the annexation of Hawaii which ultimately failed, signed the Sherman Anti-Trust law, and bolstered the American navy.  He ran for second term, but lost to Cleveland.  He died on March 13, 1901 in Indianapolis.</note>
   <bibl><bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). <hi rendition="#italics">Historical dictionary of the Gilded Age</hi>. Armonk, N.Y.: M.E. Sharpe. </bibl>
-<bibl>“Benjamin Harrison ,Whitehouse.gov,” accessed February 11, 2015, http://www.whitehouse.gov/1600/presidents/benjaminharrison.</bibl>
-</bibl>
+                <bibl>“Benjamin Harrison ,Whitehouse.gov,” accessed February 11, 2015.  <ref target="http://www.whitehouse.gov/1600/presidents/benjaminharrison">Link</ref></bibl></bibl>
   <note type="internal">LOC:  http://id.loc.gov/authorities/names/n50026594</note>
 </person>
 <person xml:id="ENT.000003685">
