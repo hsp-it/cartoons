@@ -23,7 +23,11 @@
                     <persName key="ENT.000003544">Biunno, Diane</persName>
                 </respStmt>
 
-            </titleStmt>
+            <respStmt>
+          <resp key="pbl">publisher</resp>
+          <persName key="ENT.000003387">Unknown</persName>
+        </respStmt>
+      </titleStmt>
 
             <editionStmt>
                 <p>First edition, <date when="2015">2015</date></p>
@@ -50,11 +54,11 @@
                         the intended use of reproductions must be made in writing to the Rights and
                         Reproductions Coordinator at rnr@hsp.org.</p>
                 </availability>
-                <date when="2015"/>
+                <date when="2015">2015</date>
             </publicationStmt>
 
             <seriesStmt>
-                <title level="s" type="project" key="CARTOONS"/>
+                <title level="s" type="project" key="CARTOONS">Historic Images, New Technologies (HINT) Project</title>
             </seriesStmt>
 
             <sourceDesc>
@@ -91,23 +95,27 @@
                 <biblStruct>
                     <analytic>
                         <respStmt>
-                            <resp key="art">Artist</resp>
+                            <resp key="art">artist</resp>
                             <persName key="ENT.000000436">De Mar, John L.</persName>
                         </respStmt>
                         
-                        <title type="main" level="a">"STOP!"</title>
-                    </analytic>
+                        <respStmt>
+              <resp key="pbl">publisher</resp>
+              <persName key="ENT.000003387">Unknown</persName>
+            </respStmt>
+            <title type="main" level="a">"STOP!"</title>
+                    <date from="1907-10-09">October 9, 1907</date>
+          </analytic>
                     <monogr>
                         <title type="marc245a" level="j"><orgName key="ENT.000000437"
                             >Philadelphia Record</orgName></title>
                         <imprint>
-                            <publisher>
-                                <persName key="ENT.000003387">Unknown</persName>
-                            </publisher>
                             <pubPlace>Philadelphia</pubPlace>
                             <date from="1907-10-12"
                                 >October 12, 1907</date>
-                            <biblScope/>
+                            <publisher>
+                <persName key="ENT.000003387">Unknown</persName>
+              </publisher>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -170,6 +178,7 @@
         </profileDesc>
 
         <revisionDesc>
+            <change who="DianeBiunno" when="2015-05-21">Basic proofreading and export from CA</change>
             <change who="DianeBiunno" when="2015-05-20">Encoded to basic level</change>
             <change who="RachelMoloshok" when="2015-01-07">Template file created</change>
         </revisionDesc>
@@ -177,21 +186,21 @@
 
     <facsimile>
        
-        <surface ulx="" uly="" lrx="" lry="">
+        <surface ulx="0" uly="0" lrx="100" lry="100">
            
             <graphic
                 url="FIL.000093273"/>
             
-            <zone n="1" xml:id="Title" points=""/>
-            <zone n="2" xml:id="Hat" points=""/>
-            <zone n="3" xml:id="Flag" points=""/>
+            <zone n="1" xml:id="Title" points="41.9,92.33 96.64,89.2 96.64,97.56 40.93,97.56"/>
+            <zone n="2" xml:id="Hat" points="25.71,16.2 32.18,14.11 34.29,19.51 37.21,22.3 31.05,22.47 23.92,25.26 26.68,22.47"/>
+            <zone n="3" xml:id="Flag" points="60.85,17.6 65.39,16.55 71.22,18.64 76.72,20.03 78.02,26.66 79.31,30.84 62.63,31.36"/>
         </surface>
     </facsimile>
 
     <text>
         <front>
             <div type="editorial_desc">
-                <p>in the image a man with a hat labeled "the gang" holds his right arm up in order to stop a parade of school children from passing.  Two children in the front row of the parade wave an American flag and a flag with the inscription "education." </p>
+                <p>In the image a man with a hat labeled "the gang" holds his right arm up in order to stop a parade of school children from passing.  Two children in the front row of the parade wave an American flag and a flag with the inscription "education." </p>
             </div>
         </front>
 

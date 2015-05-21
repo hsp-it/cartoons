@@ -24,7 +24,11 @@
                     <persName key="ENT.000003544">Biunno, Diane</persName>
                 </respStmt>
 
-            </titleStmt>
+            <respStmt>
+          <resp key="pbl">publisher</resp>
+          <persName key="ENT.000003387">Unknown</persName>
+        </respStmt>
+      </titleStmt>
 
             <editionStmt>
                 <p>First edition, <date when="2015">2015</date></p>
@@ -51,11 +55,11 @@
                         the intended use of reproductions must be made in writing to the Rights and
                         Reproductions Coordinator at rnr@hsp.org.</p>
                 </availability>
-                <date when="2015"/>
+                <date when="2015">2015</date>
             </publicationStmt>
 
             <seriesStmt>
-                <title level="s" type="project" key="CARTOONS"/>
+                <title level="s" type="project" key="CARTOONS">Historic Images, New Technologies (HINT) Project</title>
             </seriesStmt>
 
             <sourceDesc>
@@ -101,19 +105,23 @@
                             <persName key="ENT.000000436">De Mar, John L.</persName>
                           </respStmt>
                         
-                        <title type="main" level="a">The Last Appropriation Was Delivered at the Wrong Address</title>
-                    </analytic>
+                        <respStmt>
+              <resp key="pbl">publisher</resp>
+              <persName key="ENT.000003387">Unknown</persName>
+            </respStmt>
+            <title type="main" level="a">The Last Appropriation Was Delivered at the Wrong Address</title>
+                    <date from="1907-10-08">October 8, 1907</date>
+          </analytic>
                     <monogr>
                         <title type="marc245a" level="j"><orgName key="ENT.000000437"
                             >Philadelphia Record</orgName></title>
                         <imprint>
-                            <publisher>
-                                <persName key="ENT.000003387">Unknown</persName>
-                            </publisher>
                             <pubPlace>Philadelphia</pubPlace>
                             <date from="1907-10-08"
                                 >October 8, 1907</date>
-                            <biblScope/>
+                            <publisher>
+                <persName key="ENT.000003387">Unknown</persName>
+              </publisher>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -177,7 +185,7 @@
         </profileDesc>
         
         <revisionDesc>
-            
+            <change who="DianeBiunno" when="2015-05-20">Basic proofreading and exported from CA</change>
             <change who="DianeBiunno" when="2015-05-20">Encoded to basic level</change>
             <change who="RachelMoloshok" when="2015-01-07">Template file created</change>
         </revisionDesc>
@@ -185,17 +193,17 @@
 
     <facsimile>
         
-        <surface ulx="" uly="" lrx="" lry="">
+        <surface ulx="0" uly="0" lrx="100" lry="100">
         
             <graphic
                 url="FIL.000093269"/>
        
-            <zone n="1" xml:id="Title" points=""/>
-            <zone n="2" xml:id="Penn" points=""/>
-            <zone n="3" xml:id="Gang" points=""/>
-            <zone n="4" xml:id="Sign" points=""/>
-            <zone n="5" xml:id="State" points=""/>
-            <zone n="6" xml:id="School" points=""/>
+            <zone n="1" xml:id="Title" points="11.72,92.87 96.01,86.61 95.65,97.89 11.54,96.85"/>
+            <zone n="2" xml:id="Penn" points="79.4,52.12 80.75,50.32 84.34,51.93 85.6,55.63 77.16,53.17"/>
+            <zone n="3" xml:id="Gang" points="12.63,46.17 20.13,42.47 24.41,45.29 25.6,51.8 27.43,50.84 29.88,53.43 27.22,57.28 24.13,53.06 19.15,56.54 15.58,62.16 12.56,63.94 8.35,62.53 8.49,57.57"/>
+            <zone n="4" xml:id="Sign" points="5.95,24.15 25.3,27.93 25.62,36.51 6.44,34.79"/>
+            <zone n="5" xml:id="State" points="53.42,29.86 60.49,29.78 63.64,28.97 66.25,29.86 73.09,30.18 73.25,38.22 53.03,37.73"/>
+            <zone n="6" xml:id="School" points="83.02,34.28 92.94,32.22 92.29,47.15 82.37,43.89"/>
         </surface>
     </facsimile>
 

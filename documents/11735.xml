@@ -24,7 +24,11 @@
                     <persName key="ENT.000003544">Biunno, Diane</persName>
                 </respStmt>
 
-            </titleStmt>
+            <respStmt>
+          <resp key="pbl">publisher</resp>
+          <persName key="ENT.000003387">Unknown</persName>
+        </respStmt>
+      </titleStmt>
 
             <editionStmt>
                 <p>First edition, <date when="2015">2015</date></p>
@@ -51,11 +55,11 @@
                         the intended use of reproductions must be made in writing to the Rights and
                         Reproductions Coordinator at rnr@hsp.org.</p>
                 </availability>
-                <date when="2015"/>
+                <date when="2015">2015</date>
             </publicationStmt>
 
             <seriesStmt>
-                <title level="s" type="project" key="CARTOONS"/>
+                <title level="s" type="project" key="CARTOONS">Historic Images, New Technologies (HINT) Project</title>
             </seriesStmt>
 
             <sourceDesc>
@@ -96,26 +100,31 @@
                 <biblStruct>
                     <analytic>
                         <respStmt>
-                            <resp key="art">Artist</resp>
+                            <resp key="art">artist</resp>
                             <persName key="ENT.000000436">De Mar, John L.</persName>
                         </respStmt>
                         
-                        <title type="main" level="a">Suggested Keystone Exhibit for the World's Fair</title>
-                    </analytic>
+                        <respStmt>
+              <resp key="pbl">publisher</resp>
+              <persName key="ENT.000003387">Unknown</persName>
+            </respStmt>
+            <title type="main" level="a">Suggested Keystone Exhibit for the World's Fair</title>
+                    <date from="1903-12-18">December 18, 1903</date>
+          </analytic>
                     <monogr>
                         <title type="marc245a" level="j"><orgName key="ENT.000000437"
                             >Philadelphia Record</orgName></title>
                         <imprint>
-                            <publisher>
-                                <persName key="ENT.000003387">Unknown</persName>
-                            </publisher>
                             <pubPlace>Philadelphia</pubPlace>
                             <date from="1903-12-18"
                                 >December 18, 1903</date>
                             <biblScope unit="issue">12,611</biblScope>
                             <biblScope unit="page">1</biblScope>
                                 
-                        </imprint>
+                        <publisher>
+                <persName key="ENT.000003387">Unknown</persName>
+              </publisher>
+            </imprint>
                     </monogr>
                 </biblStruct>
 
@@ -187,14 +196,14 @@
 
     <facsimile>
 
-        <surface ulx="" uly="" lrx="" lry="">
+        <surface ulx="0" uly="0" lrx="100" lry="100">
         
             <graphic
                 url="FIL.000089308"/>
 
-            <zone n="1" xml:id="Title" points=""/>
-            <zone n="2" xml:id="Artist" points=""/>
-            <zone n="3" xml:id="Machine" points=""/>
+            <zone n="1" xml:id="Title" points="5.28,90.09 85.85,91.36 86.18,96.44 5.28,94.69"/>
+            <zone n="2" xml:id="Artist" points="87.61,90.66 92.88,90.57 93.05,95.81 87.61,95.66"/>
+            <zone n="3" xml:id="Machine" points="10.15,5.26 16.2,5.58 20.61,14.47 25.19,14.63 31.56,12.25 43,13.2 45.95,17.96 44.8,7.64 55.89,5.82 64.36,15.3 69.71,10.47 80.02,9.93 92.17,16.19 90.88,22.81 85.73,28.18 80.57,33.54 88.67,40.7 90.7,51.61 90.7,56.44 90.7,67.71 89.91,82.26 72.26,81.94 51.99,91.15 38.75,90.99 7.7,73.21 5.74,58.44 9.83,54.79 6.39,52.73 8.52,33.04 9.66,19.23 8.84,12.56"/>
         </surface>
     </facsimile>
 

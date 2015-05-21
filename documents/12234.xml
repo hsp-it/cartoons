@@ -25,7 +25,11 @@
                 </respStmt>
                 
 
-            </titleStmt>
+            <respStmt>
+          <resp key="pbl">publisher</resp>
+          <persName key="ENT.000003387">Unknown</persName>
+        </respStmt>
+      </titleStmt>
 
             <editionStmt>
                 <p>First edition, <date when="2015">2015</date></p>
@@ -52,11 +56,11 @@
                         the intended use of reproductions must be made in writing to the Rights and
                         Reproductions Coordinator at rnr@hsp.org.</p>
                 </availability>
-                <date when="2015"/>
+                <date when="2015">2015</date>
             </publicationStmt>
 
             <seriesStmt>
-                <title level="s" type="project" key="CARTOONS"/>
+                <title level="s" type="project" key="CARTOONS">Historic Images, New Technologies (HINT) Project</title>
             </seriesStmt>
 
             <sourceDesc>
@@ -97,19 +101,23 @@
                             <persName key="ENT.000000436">De Mar, John L.</persName>
                         </respStmt>
                         
-                        <title type="main" level="a">No Money for Schools—But We Can Take Care of You</title>
-                    </analytic>
+                        <respStmt>
+              <resp key="pbl">publisher</resp>
+              <persName key="ENT.000003387">Unknown</persName>
+            </respStmt>
+            <title type="main" level="a">No Money for Schools—But We Can Take Care of You</title>
+                    <date from="1907-10-12">October 12, 1907</date>
+          </analytic>
                     <monogr>
                         <title type="marc245a" level="j"><orgName key="ENT.000000437"
                             >Philadelphia Record</orgName></title>
                         <imprint>
-                            <publisher>
-                                <persName key="ENT.000003387">Unknown</persName>
-                            </publisher>
                             <pubPlace>Philadelphia</pubPlace>
                             <date from="1907-10-12"
                                 >October 12, 1907</date>
-                            <biblScope/>
+                            <publisher>
+                <persName key="ENT.000003387">Unknown</persName>
+              </publisher>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -172,23 +180,24 @@
         </profileDesc>
 
         <revisionDesc>
+            <change who="DianeBiunno" when="2015-05-21">Basic proofreading and export from CA</change>
             <change who="DianeBiunno" when="2015-05-20">Encoded to basic level</change>
             <change who="RachelMoloshok" when="2015-01-07">Template file created</change>
         </revisionDesc>
     </teiHeader>
 
     <facsimile>
-        <surface ulx="" uly="" lrx="" lry="">
+        <surface ulx="0" uly="0" lrx="100" lry="100">
           
             <graphic
                 url="FIL.000093271"/>
           
-            <zone n="1" xml:id="Title" points=""/>
-            <zone n="2" xml:id="Council" points=""/>
-            <zone n="3" xml:id="Citizen" points=""/>
-            <zone n="4" xml:id="Boy" points=""/>
-            <zone n="5" xml:id="Gang" points=""/>
-            <zone n="6" xml:id="Man" points=""/>
+            <zone n="1" xml:id="Title" points="7.69,92.07 95.34,91.06 92.72,97.26 7.46,95.74"/>
+            <zone n="2" xml:id="Council" points="7.36,5.56 32.39,11.4 51.09,7.04 77.63,14.1 77.47,21.04 51.48,16.23 31.58,17.99 7.36,13.39"/>
+            <zone n="3" xml:id="Citizen" points="34.23,23.09 35.31,20.69 38.24,20.12 41.42,21.89 41.35,25.35 42.18,26.76 41.48,27.82 39.7,27.74 36.14,25.2 31.81,23.37"/>
+            <zone n="4" xml:id="Boy" points="25.12,55.41 27.64,52.88 29.39,54.1 31.51,54.73 34.28,56.49 35.42,61.18 32.69,61.46 27.8,61.05 25.69,61.14 25.97,58.52 26.05,57.12"/>
+            <zone n="5" xml:id="Gang" points="68.47,31.59 70.45,29.3 74.44,28.49 75.51,32.63 76.67,32.25 78.08,34.11 77.05,35.49 73.58,34.63 71.43,35.82 70.02,37.82 68.17,36.2 69.8,35.82"/>
+            <zone n="6" xml:id="Man" points="70.26,62.74 72.18,61.35 73.07,59.67 75.87,59.55 79.6,64.26 80.93,68.47 74.36,68.84 73.43,69.16 72.85,66.51 71.92,63.6"/>
            
         </surface>
     </facsimile>
@@ -196,9 +205,7 @@
     <text>
         
         <front>
-            <div type="editorial_desc">
-                <p>The image is divided into two scenes.  In the first scene a man wearing a hat labeled "citizen" and a boy labeled "schools" try to enter into a building labeled "councils."  A man at the door does not let them enter.  In the second scene a man wearing a hat labeled "gang" and a small man labeled "gangster" try to enter the same building.  The man at the door welcomes them in.  There are sacks filled with money inside the building.</p>
-            </div>
+            <div type="editorial_desc"><p>The image is divided into two scenes.  In the first scene a man wearing a hat labeled "citizen" and a boy labeled "schools" try to enter into a building labeled "councils."  A man at the door does not let them enter.  In the second scene a man wearing a hat labeled "gang" and a small man labeled "gangster" try to enter the same building.  The man at the door welcomes them.  There are sacks filled with money inside the building.</p></div>
         </front>
 
         <body>
