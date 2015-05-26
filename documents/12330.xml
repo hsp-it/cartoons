@@ -34,7 +34,7 @@
                 <publisher><orgName key="ENT.000002473">Historical Society of
                     Pennsylvania</orgName></publisher>
                 <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
-                <idno type="filename">12230</idno>
+                <idno type="filename">12330</idno>
                 <availability status="restricted">
                     <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of
                         copyright only to original contributions made by the Historic Images, New
@@ -75,15 +75,22 @@
                                 <relatedItem type="references" target="12333"/>
                                 <listRelation>
                                     <relation name="depicted" active="ENT.000003344"/>
-                                    <relation name="depicted" active="cartoons_symbols.xml#uncle_sam"/>
-                                    <relation name="depicted" active="cartoons_symbols.xml#columbia"/>
+                                    <relation name="depicted"
+                                        active="cartoons_symbols.xml#uncle_sam"/>
+                                    <relation name="depicted" active="cartoons_symbols.xml#columbia"
+                                    />
                                 </listRelation>
                             </bibl>
                         </msItem>
                     </msContents>
 
                     <history>
-                        <acquisition>This is an artificial collection created over time by HSP staff mostly through donations and purchases of individual prints. It also incorporates previously uncataloged materials collected by the Balch Institute for Ethnic Studies. Some of the 20th century cartoons and drawings were removed from the J. Hampton Moore papers (Collection 1541)."</acquisition>
+                        <acquisition>This is an artificial collection created over time by HSP staff
+                            mostly through donations and purchases of individual prints. It also
+                            incorporates previously uncataloged materials collected by the Balch
+                            Institute for Ethnic Studies. Some of the 20th century cartoons and
+                            drawings were removed from the J. Hampton Moore papers (Collection
+                            1541)."</acquisition>
                     </history>
                 </msDesc>
                 <biblStruct>
@@ -94,7 +101,8 @@
                         </respStmt>
                         <title type="main" level="m">Stephen Finding "His Mother"</title>
                         <imprint>
-                            <publisher><orgName key="ENT.000000844">Currier &amp; Ives</orgName></publisher>
+                            <publisher><orgName key="ENT.000000844">Currier &amp;
+                                Ives</orgName></publisher>
                             <pubPlace>New York</pubPlace>
                             <date from="1860-01-01" to="1860-12-31">1860</date>
                         </imprint>
@@ -179,7 +187,17 @@
     <text>
         <front>
             <div type="editorial_desc">
-                <p>Columbia, sitting in a chair bearing the seal of the United States, holds 1860 presidential candidate Stephen Douglas over her knee and beats him with a multi-tailed whip labeled "News from Maine," scolding him for supporting the "Nebraska Bill" (the Kansas-Nebraska Act). An elderly man, labeled "Uncle Sam," observing at left, encourages Columbia to beat Douglas harder. In 1860, Douglas was criticized for the relatively unusual practice of making nationwide campaign tours and was accused of making a campaign visit to New England and New York under the ruse of visiting his mother. In this cartoon, likely a sequel to another cartoon entitled "Taking the Stump, or Stephen in Search of His Mother," Douglas has found his mother (Columbia, the female embodiment of the United States), and she is very disappointed in him.</p>
+                <p>Columbia, sitting in a chair bearing the seal of the United States, holds 1860
+                    presidential candidate Stephen Douglas over her knee and beats him with a
+                    multi-tailed whip labeled "News from Maine," scolding him for supporting the
+                    "Nebraska Bill" (the Kansas-Nebraska Act). An elderly man, labeled "Uncle Sam,"
+                    observing at left, encourages Columbia to beat Douglas harder. In 1860, Douglas
+                    was criticized for the relatively unusual practice of making nationwide campaign
+                    tours and was accused of making a campaign visit to New England and New York
+                    under the ruse of visiting his mother. In this cartoon, likely a sequel to
+                    another cartoon entitled "Taking the Stump, or Stephen in Search of His Mother,"
+                    Douglas has found his mother (Columbia, the female embodiment of the United
+                    States), and she is very disappointed in him.</p>
             </div>
         </front>
 
@@ -191,11 +209,14 @@
             </div>
             <div type="image_transcription" n="2" facs="#copyright">
                 <head><supplied resp="editorial">Copyright</supplied></head>
-                <p>Entered according to act of Congress in the year 1860, by Currier &amp; Ives, in the Clerk's Office of the Dist. Court for the Southn. Dist. of N.Y.</p>
+                <p>Entered according to act of Congress in the year 1860, by Currier &amp; Ives, in
+                    the Clerk's Office of the Dist. Court for the Southn. Dist. of N.Y.</p>
             </div>
             <div type="image_transcription" n="3" facs="#columbia">
                 <head><supplied resp="editorial">Columbia</supplied></head>
-                <p>You have been a bad boy Steve, ever since you had anything to do with that Nebraska Bill and have made a great deal of trouble in the family and now I'll pay you for it.—</p>
+                <p>You have been a bad boy Steve, ever since you had anything to do with that
+                    Nebraska Bill and have made a great deal of trouble in the family and now I'll
+                    pay you for it.—</p>
             </div>
             <div type="image_transcription" n="4" facs="#whip">
                 <head><supplied resp="editorial">Whip</supplied></head>
@@ -207,7 +228,8 @@
             </div>
             <div type="image_transcription" n="6" facs="#uncle_sam">
                 <head>Uncle Sam.</head>
-                <p>That's right! Columbia lay it on to him, for he richly deserves it, give him the Stripes till he sees Stars.—</p>
+                <p>That's right! Columbia lay it on to him, for he richly deserves it, give him the
+                    Stripes till he sees Stars.—</p>
             </div>
             <div type="image_transcription" n="7" facs="#note1">
                 <head><supplied resp="editorial">Note (year)</supplied></head>
