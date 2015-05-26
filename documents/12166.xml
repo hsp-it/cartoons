@@ -12,8 +12,7 @@
                     >TEI transcription of A Serious Affair for the Plum Tree Operators</title>
                 <respStmt>
                     <resp key="art">artist</resp>
-                    <persName key="ENT.000000553"
-                        >Unknown artist</persName>
+                    <persName key="ENT.000000553">Unknown Artist</persName>
                 </respStmt>
                 <respStmt>
                     <resp key="trc">Transcribed by</resp>
@@ -23,7 +22,11 @@
                     <resp key="mrk">Encoded by</resp>
                     <persName key="ENT.000003544">Biunno, Diane</persName>
                 </respStmt>
-            </titleStmt>
+            <respStmt>
+          <resp key="pbl">publisher</resp>
+          <persName key="ENT.000003387">Unknown</persName>
+        </respStmt>
+      </titleStmt>
             <editionStmt>
                 <p>First edition, <date when="2015">2015</date></p>
             </editionStmt>
@@ -49,18 +52,18 @@
                         the intended use of reproductions must be made in writing to the Rights and
                         Reproductions Coordinator at rnr@hsp.org.</p>
                 </availability>
-                <date when="2015"/>
+                <date when="2015">2015</date>
             </publicationStmt>
 
             <seriesStmt>
-                <title level="s" type="project" key="CARTOONS"/>
+                <title level="s" type="project" key="CARTOONS">Historic Images, New Technologies (HINT) Project</title>
             </seriesStmt>
 
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <repository key="ENT.000002473"/>
-                        <collection key="117"/>
+                        <repository key="ENT.000002473">Historical Society of Pennsylvania</repository>
+                        <collection key="0117">Hampton L. Carson papers</collection>
                      
                         <idno type="citation"
                             ><idno type="box">55</idno>
@@ -102,23 +105,27 @@
                 <biblStruct>
                     <analytic>
                         <respStmt>
-                            <resp key="art">Artist</resp>
-                            <persName key="ENT.000000553"
-                                >Unknown artist</persName>
+                            <resp key="art">artist</resp>
+                            <persName key="ENT.000000553">Unknown Artist</persName>
                         </respStmt>
                         
-                        <title type="main" level="a">A Serious Affair for the Plum Tree Operators</title>
-                    </analytic>
+                        <respStmt>
+              <resp key="pbl">publisher</resp>
+              <persName key="ENT.000003387">Unknown</persName>
+            </respStmt>
+            <title type="main" level="a">A Serious Affair for the Plum Tree Operators</title>
+                    <date from="1898-12-25">December 25, 1898</date>
+          </analytic>
                     <monogr>
                         <title type="marc245a" level="j"><orgName key="ENT.000003387"
                             >Unknown</orgName></title>
                         <imprint>
-                            <publisher><orgName key="ENT.000003387"
-                                >Unknown</orgName></publisher>
                             <pubPlace>Philadelphia</pubPlace>
                             <date from="1898-12-25"
                                 >December 25, 1898</date>
-                            <biblScope/>
+                            <publisher>
+                <persName key="ENT.000003387">Unknown</persName>
+              </publisher>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -184,6 +191,7 @@
         </profileDesc>
 
         <revisionDesc>
+            <change who="DianeBiunno" when="2015-05-26">Basic proofreading and export from CA</change>
             <change who="DianeBiunno" when="2015-05-26">Encoded to basic level</change>
             <change who="RachelMoloshok" when="2015-01-07">Template file created</change>
         </revisionDesc>
@@ -191,15 +199,15 @@
 
     <facsimile>
        
-        <surface ulx="" uly="" lrx="" lry="">
+        <surface ulx="0" uly="0" lrx="100" lry="100">
          
             <graphic
                 url="FIL.000091303"/>
            
-            <zone n="1" xml:id="Caption" points=""/>
-            <zone n="2" xml:id="Tree" points=""/>
-            <zone n="3" xml:id="Heading" points=""/>
-            <zone n="4" xml:id="Title" points=""/>
+            <zone n="1" xml:id="Caption" points="18.65,84.97 80.41,84.61 81.18,88.67 18.44,89.16"/>
+            <zone n="2" xml:id="Tree" points="17.25,17.25 21.29,15.46 25.91,15.78 28.02,21.47 36.68,18.71 40.19,26.2 30.86,33.17 34.69,36.21 37.56,44.99 39.24,51.36 36.72,58.63 46.5,62.09 40.38,77.3 21.33,74.54 27.1,84.77 12.09,85.42 14.55,80.13 14.94,72.49 10.13,60.63 11.28,37.07 13.4,29.92 12.24,26.18"/>
+            <zone n="3" xml:id="Heading" points="7.28,5.64 89.84,5.97 89.64,8.73 6.89,9.22"/>
+            <zone n="4" xml:id="Title" points="11.8,9 83.29,9.22 83.87,13.93 11.8,14"/>
         </surface>
     </facsimile>
 
@@ -234,7 +242,7 @@
             </div>   
             <div type="image_transcription" facs="#Title" n="4">
                 <head><supplied resp="editorial">Title</supplied></head>
-                <p><hi rendition="#bold">A SERIOUS(?)AFFAIR</hi></p>
+                <p><hi rendition="#bold">A SERIOUS (?) AFFAIR</hi></p>
             </div>
         </body>
         <back/>
