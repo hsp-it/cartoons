@@ -165,7 +165,14 @@
     <facsimile>
         <surface ulx="" uly="" lrx="" lry="">
             <graphic url="FIL.000092005"/>
-            <zone n="" xml:id=""/>
+            <zone n="1" xml:id="title"/>
+            <zone n="2" xml:id="copyright"/>
+            <zone n="3" xml:id="columbia"/>
+            <zone n="4" xml:id="whip"/>
+            <zone n="5" xml:id="douglas"/>
+            <zone n="6" xml:id="uncle_sam"/>
+            <zone n="7" xml:id="note1"/>
+            <zone n="8" xml:id="note2"/>
         </surface>
     </facsimile>
 
@@ -202,11 +209,11 @@
                 <head>Uncle Sam.</head>
                 <p>That's right! Columbia lay it on to him, for he richly deserves it, give him the Stripes till he sees Stars.—</p>
             </div>
-            <div type="image_transcription" n="5" facs="#note1">
+            <div type="image_transcription" n="7" facs="#note1">
                 <head><supplied resp="editorial">Note (year)</supplied></head>
                 <p><add>1860</add></p>
             </div>
-            <div type="image_transcription" n="" facs="#">
+            <div type="image_transcription" n="8" facs="#note2">
                 <head><supplied resp="editorial">Note (collection)</supplied></head>
                 <p><add>Gilpin 1275</add></p>
             </div>
