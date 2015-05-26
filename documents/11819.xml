@@ -1,0 +1,230 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+
+    <teiHeader xml:lang="English">
+
+        <fileDesc>
+
+            <titleStmt>
+                <title type="main">TEI transcription of Brother Jonathan Administering a Salutary
+                    Cordial to John Bull</title>
+                <respStmt>
+                    <resp key="art">Artist</resp>
+                    <persName key="ENT.000003757"/>
+                </respStmt>
+                <respStmt>
+                    <resp key="egr">Engraver</resp>
+                    <persName key="ENT.000003757"/>
+                </respStmt>
+                <respStmt>
+                    <resp key="clr">Colorist</resp>
+                    <persName key="ENT.000003387"/>
+                </respStmt>
+                <respStmt>
+                    <resp key="trc">Transcribed by</resp>
+                    <persName key="ENT.000003368"/>
+                </respStmt>
+                <respStmt>
+                    <resp key="mrk">Encoded by</resp>
+                    <persName key="ENT.000003368"/>
+                </respStmt>
+
+            </titleStmt>
+
+            <editionStmt>
+                <p>First edition, <date when="2015">2015</date></p>
+            </editionStmt>
+
+            <publicationStmt>
+                <publisher><orgName key="ENT.000002473">Historical Society of
+                    Pennsylvania</orgName></publisher>
+                <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
+                <idno type="filename">11819</idno>
+                <availability status="restricted">
+                    <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of
+                        copyright only to original contributions made by the Historic Images, New
+                        Technologies (HINT) Project participants and other staff. HSP makes no claim
+                        of copyright to the original text. Permission is granted to download,
+                        transmit or otherwise reproduce, distribute or display the text
+                        contributions to this work claimed by HSP for non-profit educational
+                        purposes, provided that this header is included in its entirety. For
+                        inquiries about commercial uses, please contact the Historical Society of
+                        Pennsylvania. HSP retains the rights of all images unless otherwise noted.
+                        Possession of an HSP digital image does not constitute permission to use or
+                        publish it. Requests for digital imaging, other reproduction services, and
+                        the intended use of reproductions must be made in writing to the Rights and
+                        Reproductions Coordinator at rnr@hsp.org.</p>
+                </availability>
+                <date when="2015"/>
+            </publicationStmt>
+
+            <seriesStmt>
+                <title level="s" type="project" key="CARTOONS"/>
+            </seriesStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository key="ENT.000002473"/>
+                        <collection key="V64"/>
+                        <idno type="citation">Bb 612 B 795.1</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <respStmt>
+                                <resp key="art">Artist</resp>
+                                <persName key="ENT.000003757"/>
+                            </respStmt>
+                            <respStmt>
+                                <resp key="egr">Engraver</resp>
+                                <persName key="ENT.000003757"/>
+                            </respStmt>
+                            <respStmt>
+                                <resp key="clr">Colorist</resp>
+                                <persName key="ENT.000003387"/>
+                            </respStmt>
+                            <title type="main" level="u">Brother Jonathan Administering a Salutary
+                                Cordial to John Bull</title>
+                            <bibl>
+                                <date from="1813-01-01" to="1813-12-31">1813</date>
+                                <extent>1 loose sheet</extent>
+                                <relatedItem type="relates_to" target="11812"/>
+                                <listRelation>
+                                    <relation name="depicted"
+                                        active="cartoons_symbols.xml#brother_jonathan"/>
+                                    <relation name="depicted"
+                                        active="cartoons_symbols.xml#john_bull"/>
+                                    <relation name="mentioned" active="ENT.000003543"/>
+                                    <!-- Oliver Hazard Perry -->
+                                </listRelation>
+                            </bibl>
+                        </msItem>
+                    </msContents>
+
+                    <history>
+                        <acquisition/>
+                    </history>
+                </msDesc>
+
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <projectDesc>
+                <p>The Historic Images, New Technologies (HINT) project aims to enhance description
+                    and discovery of the Historical Society of Pennsylvania's graphics materials and
+                    promote the linking and sharing of content among institutions and scholars. The
+                    project will result in an update to HSP's digital image viewer and an online
+                    digital history exhibit that will demonstrate the new viewer's capabilities and
+                    provide interpretive and contextual materials to encourage users to interact
+                    with historical images in new ways. This project was funded by a grant from the
+                    National Historical Publications and Records Commission's (NHPRC) Innovation in
+                    Archives and Documentary Editing program.</p>
+            </projectDesc>
+            <editorialDecl n="4">
+                <p>This electronic file was created using manual keying following the
+                    recommendations for Level 4 of "Best Practices for TEI in Libraries" guidelines
+                    v3.0.</p>
+                <p>This xml file uses unique entity identifiers, media file identifiers, and
+                    collection identifiers in HSP's Digital Library, available at
+                    http://digitallibrary.hsp.org.</p>
+
+            </editorialDecl>
+            <tagsDecl>
+                <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
+                <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
+                <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
+                <rendition scheme="css" xml:id="crossed-through">text-decoration:
+                    line-through</rendition>
+                <rendition scheme="other" xml:id="printed"/>
+                <rendition scheme="other" xml:id="typescript"/>
+                <rendition scheme="other" xml:id="handwritten"/>
+                <rendition scheme="other" xml:id="handwritten-underlined"/>
+                <rendition scheme="other" xml:id="handwritten-circled"/>
+                <rendition scheme="other" xml:id="handwritten-crossed-through"/>
+                <rendition scheme="other" xml:id="double-underline"/>
+                <rendition scheme="other" xml:id="stamp"/>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+        </encodingDesc>
+
+        <profileDesc>
+            <textClass>
+                <catRef target="cartoons_genres.xml#etchings"/>
+                <catRef target="cartoons_genres.xml#engravings"/>
+                <catRef target="cartoons_genres.xml#watercolors"/>
+                <catRef target="cartoons_genres.xml#political_cartoons"/>
+                <catRef target="cartoons_taxonomies.xml#early"/>
+                <catRef target="cartoons_taxonomies.xml#war"/>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change who="RachelMoloshok" when="2015-05-26">Basic encoding</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <facsimile>
+        <surface ulx="" uly="" lrx="" lry="">
+            <graphic url="FIL.000089727"/>
+            <zone n="1" xml:id="title"/>
+            <zone n="2" xml:id="bull"/>
+            <zone n="3" xml:id="jonathan"/>
+            <zone n="4" xml:id="mug"/>
+            <zone n="5" xml:id="note"/>
+        </surface>
+    </facsimile>
+
+    <text>
+        <front>
+            <div type="editorial_desc">
+                <p>This early American political cartoon depicts "Brother Jonathan," a symbolic
+                    representation of the United States, forcing a mug of fermented pear juice, or
+                    perry (a pun on the name of US naval hero Oliver Hazard Perry), down the throat
+                    of "John Bull," a symbolic representation of Great Britain. At far right, as a
+                    naval battle is depicted in the background.</p>
+            </div>
+        </front>
+
+        <body>
+            <div type="image_transcription" n="1" facs="#title">
+                <head><supplied resp="editorial">Title and imprint</supplied></head>
+                <p>BROTHER JONATHAN <hi rendition="#underline">Administering</hi> a Salutory Cordial
+                    to JOHN BULL.</p>
+                <p>Copy Right Secured</p>
+                <p>Yankee-Doodle Scratch't.</p>
+            </div>
+            <div type="image_transcription" n="2" facs="#bull">
+                <head><supplied resp="editorial">John Bull</supplied></head>
+                <p>O! don't force me to take it, Brother Jonathan.—Give me <hi
+                        rendition="#underline">Holland</hi> Gin, <hi rendition="#underline"
+                        >French</hi> Brandy—any thing but this D—d <hi rendition="#underline"
+                        >Yankee</hi>
+                    <hi rendition="#double-underline">Perry</hi>—it has already fuddled me.</p>
+            </div>
+            <div type="image_transcription" n="3" facs="#jonathan">
+                <head><supplied resp="editorial">Brother Jonathan</supplied></head>
+                <p>Take it, Johnny—take it, I say—why <hi rendition="#underline">cant</hi> you take
+                    it?—It will mend your <hi rendition="#underline">morals</hi> &amp; your <hi
+                        rendition="#underline">manners</hi> too, friend Johnny.—Plague on you, you
+                        <hi rendition="#underline">shall</hi> swallow it.</p>
+            </div>
+            <div type="image_transcription" n="4" facs="#mug">
+                <head><supplied resp="editorial">Mug</supplied></head>
+                <p>Perry</p>
+            </div>
+            <div type="image_transcription" n="5" facs="#note">
+                <head><supplied resp="editorial">Note</supplied></head>
+                <p><add>1813</add></p>
+            </div>
+        </body>
+
+        <back/>
+    </text>
+</TEI>
