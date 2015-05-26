@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+
+    <teiHeader xml:lang="English">
+
+        <fileDesc>
+
+            <titleStmt>
+                <title type="main">TEI transcription of Columbia Teaching John Bull his New
+                    Lesson</title>
+                <respStmt>
+                    <resp key="art">Artist</resp>
+                    <persName key="ENT.000003758"/>
+                </respStmt>
+                <respStmt>
+                    <resp key="egr">Engraver</resp>
+                    <persName key="ENT.000000848"/>
+                </respStmt>
+                <respStmt>
+                    <resp key="clr">Colorist</resp>
+                    <persName key="ENT.000003387"/>
+                </respStmt>
+                <respStmt>
+                    <resp key="trc">Transcribed by</resp>
+                    <persName key="ENT.000003368"/>
+                </respStmt>
+                <respStmt>
+                    <resp key="mrk">Encoded by</resp>
+                    <persName key="ENT.000003368"/>
+                </respStmt>
+
+            </titleStmt>
+
+            <editionStmt>
+                <p>First edition, <date when="2015">2015</date></p>
+            </editionStmt>
+
+            <publicationStmt>
+                <publisher><orgName key="ENT.000002473">Historical Society of
+                    Pennsylvania</orgName></publisher>
+                <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
+                <idno type="filename">11825</idno>
+                <availability status="restricted">
+                    <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of
+                        copyright only to original contributions made by the Historic Images, New
+                        Technologies (HINT) Project participants and other staff. HSP makes no claim
+                        of copyright to the original text. Permission is granted to download,
+                        transmit or otherwise reproduce, distribute or display the text
+                        contributions to this work claimed by HSP for non-profit educational
+                        purposes, provided that this header is included in its entirety. For
+                        inquiries about commercial uses, please contact the Historical Society of
+                        Pennsylvania. HSP retains the rights of all images unless otherwise noted.
+                        Possession of an HSP digital image does not constitute permission to use or
+                        publish it. Requests for digital imaging, other reproduction services, and
+                        the intended use of reproductions must be made in writing to the Rights and
+                        Reproductions Coordinator at rnr@hsp.org.</p>
+                </availability>
+                <date when="2015"/>
+            </publicationStmt>
+
+            <seriesStmt>
+                <title level="s" type="project" key="CARTOONS"/>
+            </seriesStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository key="ENT.000002473"/>
+                        <collection key="V64"/>
+                        <idno type="citation">Bb 612 C723</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <respStmt>
+                                <resp key="art">Artist</resp>
+                                <persName key="ENT.000003758"/>
+                            </respStmt>
+                            <respStmt>
+                                <resp key="egr">Engraver</resp>
+                                <persName key="ENT.000000848"/>
+                            </respStmt>
+                            <respStmt>
+                                <resp key="clr">Colorist</resp>
+                                <persName key="ENT.000003387"/>
+                            </respStmt>
+                            <title type="main" level="u">Columbia Teaching John Bull his New
+                                Lesson</title>
+                            <bibl>
+                                <date from="1813-01-01" to="1813-12-31">1813</date>
+                                <extent>1 loose sheet</extent>
+                                <listRelation>
+                                    <relation name="depicted" active="ENT.000003759"/>
+                                    <relation name="depicted" active="cartoons_symbols.xml#columbia"/>
+                                    <relation name="depicted"
+                                        active="cartoons_symbols.xml#john_bull"/>
+                                </listRelation>
+                            </bibl>
+                        </msItem>
+                    </msContents>
+
+                    <history>
+                        <acquisition/>
+                    </history>
+                </msDesc>
+
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <projectDesc>
+                <p>The Historic Images, New Technologies (HINT) project aims to enhance description
+                    and discovery of the Historical Society of Pennsylvania's graphics materials and
+                    promote the linking and sharing of content among institutions and scholars. The
+                    project will result in an update to HSP's digital image viewer and an online
+                    digital history exhibit that will demonstrate the new viewer's capabilities and
+                    provide interpretive and contextual materials to encourage users to interact
+                    with historical images in new ways. This project was funded by a grant from the
+                    National Historical Publications and Records Commission's (NHPRC) Innovation in
+                    Archives and Documentary Editing program.</p>
+            </projectDesc>
+            <editorialDecl n="4">
+                <p>This electronic file was created using manual keying following the
+                    recommendations for Level 4 of "Best Practices for TEI in Libraries" guidelines
+                    v3.0.</p>
+                <p>This xml file uses unique entity identifiers, media file identifiers, and
+                    collection identifiers in HSP's Digital Library, available at
+                    http://digitallibrary.hsp.org.</p>
+
+            </editorialDecl>
+            <tagsDecl>
+                <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
+                <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
+                <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
+                <rendition scheme="css" xml:id="crossed-through">text-decoration:
+                    line-through</rendition>
+                <rendition scheme="other" xml:id="printed"/>
+                <rendition scheme="other" xml:id="typescript"/>
+                <rendition scheme="other" xml:id="handwritten"/>
+                <rendition scheme="other" xml:id="handwritten-underlined"/>
+                <rendition scheme="other" xml:id="handwritten-circled"/>
+                <rendition scheme="other" xml:id="handwritten-crossed-through"/>
+                <rendition scheme="other" xml:id="double-underline"/>
+                <rendition scheme="other" xml:id="stamp"/>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+        </encodingDesc>
+
+        <profileDesc>
+            <textClass>
+                <catRef target="cartoons_genres.xml#etchings"/>
+                <catRef target="cartoons_genres.xml#engravings"/>
+                <catRef target="cartoons_genres.xml#watercolors"/>
+                <catRef target="cartoons_genres.xml#political_cartoons"/>
+                <catRef target="cartoons_taxonomies.xml#early"/>
+                <catRef target="cartoons_taxonomies.xml#war"/>
+                <catRef target="cartoons_taxonomies.xml#international"/>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change who="RachelMoloshok" when="2015-05-26">Basic encoding</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <facsimile>
+        <surface ulx="" uly="" lrx="" lry="">
+            <graphic url="FIL.000089717"/>
+            <zone n="1" xml:id="title"/>
+            <zone n="2" xml:id="columbia"/>
+            <zone n="3" xml:id="napoleon"/>
+            <zone n="4" xml:id="john"/>
+            <zone n="5" xml:id="book"/>
+        </surface>
+    </facsimile>
+
+    <text>
+        <front>
+            <div type="editorial_desc">
+                <p>In this hand-colored political cartoon, printed during the War of 1812, Columbia,
+                    personifying the United States, lectures John Bull, symbolic representation of
+                    Great Britain, and Napoleon Bonaparte (whom she calls "Mounseer Beau Napperty")
+                    on free trade and seaman's rights. Bonaparte stands on a small hill in the
+                    middle. Columbia, standing at left, carries a pole topped by a liberty cap and
+                    has a shield bearing the stars and stripes of the United States and an American
+                    bald eagle behind her. At right, John Bull says he doesn't like Columbia's
+                    lesson and prefers to read his own book, which contains the message "Power
+                    Constitutes Right."</p>
+            </div>
+        </front>
+
+        <body>
+            <div type="image_transcription" n="1" facs="#title">
+                <head><supplied resp="editorial">Title</supplied></head>
+                <p>Columbia TEACHING John Bull his new LESSON</p>
+                <p>S. Kennedy del_ Wm Charles Sculp</p>
+            </div>
+            <div type="image_transcription" n="2" facs="#columbia">
+                <head><supplied resp="editorial">Columbia</supplied></head>
+                <p>I tell you Johnny, you must learn to read Respect_ Free trade_ Seamans rights
+                    &amp;c_ As for you Mounseer Beau Napperty, when John gets his lesson by heart
+                    I'll teach you Respect_ Retribution &amp;c. &amp;c.</p>
+            </div>
+            <div type="image_transcription" n="3" facs="#napoleon">
+                <head><supplied resp="editorial">Napoleon Bonaparte</supplied></head>
+                <p>Ha_ ha_ Begar me glad to see Madam Columbia angry with dat dere Bull_ But me no
+                    learn respect_ me no learn retribution_ Me be de grand Emperor_</p>
+            </div>
+            <div type="image_transcription" n="4" facs="#john">
+                <head><supplied resp="editorial">John Bull</supplied></head>
+                <p>I don't like that lesson_ I'll read this pretty lesson</p>
+            </div>
+            <div type="image_transcription" n="5" facs="#book">
+                <head><supplied resp="editorial">John Bull's book</supplied></head>
+                <p>Power</p>
+                <p>Constitutes</p>
+                <p>Right</p>
+            </div>
+        </body>
+
+        <back/>
+    </text>
+</TEI>
