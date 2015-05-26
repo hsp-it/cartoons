@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+
+    <teiHeader xml:lang="English">
+
+        <fileDesc>
+
+            <titleStmt>
+                <title type="main">TEI transcription of Stephen Finding "His Mother"</title>
+                <respStmt>
+                    <resp key="art">Artist</resp>
+                    <persName key="ENT.000003364"/>
+                </respStmt>
+                <respStmt>
+                    <resp key="trc">Transcribed by</resp>
+                    <persName key="ENT.000003368"/>
+                </respStmt>
+                <respStmt>
+                    <resp key="mrk">Encoded by</resp>
+                    <persName key="ENT.000003368"/>
+                </respStmt>
+
+            </titleStmt>
+
+            <editionStmt>
+                <p>First edition, <date when="2015">2015</date></p>
+            </editionStmt>
+
+            <publicationStmt>
+                <publisher><orgName key="ENT.000002473">Historical Society of
+                    Pennsylvania</orgName></publisher>
+                <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
+                <idno type="filename">12230</idno>
+                <availability status="restricted">
+                    <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of
+                        copyright only to original contributions made by the Historic Images, New
+                        Technologies (HINT) Project participants and other staff. HSP makes no claim
+                        of copyright to the original text. Permission is granted to download,
+                        transmit or otherwise reproduce, distribute or display the text
+                        contributions to this work claimed by HSP for non-profit educational
+                        purposes, provided that this header is included in its entirety. For
+                        inquiries about commercial uses, please contact the Historical Society of
+                        Pennsylvania. HSP retains the rights of all images unless otherwise noted.
+                        Possession of an HSP digital image does not constitute permission to use or
+                        publish it. Requests for digital imaging, other reproduction services, and
+                        the intended use of reproductions must be made in writing to the Rights and
+                        Reproductions Coordinator at rnr@hsp.org.</p>
+                </availability>
+                <date when="2015"/>
+            </publicationStmt>
+
+            <seriesStmt>
+                <title level="s" type="project" key="CARTOONS"/>
+            </seriesStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository key="ENT.000002473"/>
+                        <collection key="3133"/>
+                        <idno type="citation">
+                            <idno type="box">4</idno>
+                            <idno type="folder">15</idno>
+                        </idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <bibl>
+                                <date from="1860-01-01" to="1860-12-31">1860</date>
+                                <extent>1 loose sheet</extent>
+                                <relatedItem type="references" target="12333"/>
+                                <listRelation>
+                                    <relation name="depicted" active="ENT.000003344"/>
+                                    <relation name="depicted" active="cartoons_symbols.xml#uncle_sam"/>
+                                    <relation name="depicted" active="cartoons_symbols.xml#columbia"/>
+                                </listRelation>
+                            </bibl>
+                        </msItem>
+                    </msContents>
+
+                    <history>
+                        <acquisition>This is an artificial collection created over time by HSP staff mostly through donations and purchases of individual prints. It also incorporates previously uncataloged materials collected by the Balch Institute for Ethnic Studies. Some of the 20th century cartoons and drawings were removed from the J. Hampton Moore papers (Collection 1541)."</acquisition>
+                    </history>
+                </msDesc>
+                <biblStruct>
+                    <monogr>
+                        <respStmt>
+                            <resp key="art">Artist</resp>
+                            <persName key="ENT.000003364"/>
+                        </respStmt>
+                        <title type="main" level="m">Stephen Finding "His Mother"</title>
+                        <imprint>
+                            <publisher><orgName key="ENT.000000844">Currier &amp; Ives</orgName></publisher>
+                            <pubPlace>New York</pubPlace>
+                            <date from="1860-01-01" to="1860-12-31">1860</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <projectDesc>
+                <p>The Historic Images, New Technologies (HINT) project aims to enhance description
+                    and discovery of the Historical Society of Pennsylvania's graphics materials and
+                    promote the linking and sharing of content among institutions and scholars. The
+                    project will result in an update to HSP's digital image viewer and an online
+                    digital history exhibit that will demonstrate the new viewer's capabilities and
+                    provide interpretive and contextual materials to encourage users to interact
+                    with historical images in new ways. This project was funded by a grant from the
+                    National Historical Publications and Records Commission's (NHPRC) Innovation in
+                    Archives and Documentary Editing program.</p>
+            </projectDesc>
+            <editorialDecl n="4">
+                <p>This electronic file was created using manual keying following the
+                    recommendations for Level 4 of "Best Practices for TEI in Libraries" guidelines
+                    v3.0.</p>
+                <p>This xml file uses unique entity identifiers, media file identifiers, and
+                    collection identifiers in HSP's Digital Library, available at
+                    http://digitallibrary.hsp.org.</p>
+
+            </editorialDecl>
+            <tagsDecl>
+                <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
+                <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
+                <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
+                <rendition scheme="css" xml:id="crossed-through">text-decoration:
+                    line-through</rendition>
+                <rendition scheme="other" xml:id="printed"/>
+                <rendition scheme="other" xml:id="typescript"/>
+                <rendition scheme="other" xml:id="handwritten"/>
+                <rendition scheme="other" xml:id="handwritten-underlined"/>
+                <rendition scheme="other" xml:id="handwritten-circled"/>
+                <rendition scheme="other" xml:id="handwritten-crossed-through"/>
+                <rendition scheme="other" xml:id="double-underline"/>
+                <rendition scheme="other" xml:id="stamp"/>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+        </encodingDesc>
+
+        <profileDesc>
+            <textClass>
+                <catRef target="cartoons_genres.xml#lithographs"/>
+                <catRef target="cartoons_genres.xml#political_cartoons"/>
+                <catRef target="cartoons_taxonomies.xml#early"/>
+                <catRef target="cartoons_taxonomies.xml#elections"/>
+                <catRef target="cartoons_taxonomies.xml#laws"/>
+                <catRef target="cartoons_taxonomies.xml#gender"/>
+                <catRef target="cartoons_taxonomies.xml#children"/>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change who="RachelMoloshok" when="2015-05-26">Basic encoding</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <facsimile>
+        <surface ulx="" uly="" lrx="" lry="">
+            <graphic url="FIL.000092005"/>
+            <zone n="" xml:id=""/>
+        </surface>
+    </facsimile>
+
+    <text>
+        <front>
+            <div type="editorial_desc">
+                <p>Columbia, sitting in a chair bearing the seal of the United States, holds 1860 presidential candidate Stephen Douglas over her knee and beats him with a multi-tailed whip labeled "News from Maine," scolding him for supporting the "Nebraska Bill" (the Kansas-Nebraska Act). An elderly man, labeled "Uncle Sam," observing at left, encourages Columbia to beat Douglas harder. In 1860, Douglas was criticized for the relatively unusual practice of making nationwide campaign tours and was accused of making a campaign visit to New England and New York under the ruse of visiting his mother. In this cartoon, likely a sequel to another cartoon entitled "Taking the Stump, or Stephen in Search of His Mother," Douglas has found his mother (Columbia, the female embodiment of the United States), and she is very disappointed in him.</p>
+            </div>
+        </front>
+
+        <body>
+            <div type="image_transcription" n="1" facs="#title">
+                <head><supplied resp="editorial">Title and imprint</supplied></head>
+                <p>STEPHEN FINDING "HIS MOTHER".</p>
+                <p>Published by Currier &amp; Ives, 152 Nassau St. N.Y.</p>
+            </div>
+            <div type="image_transcription" n="2" facs="#copyright">
+                <head><supplied resp="editorial">Copyright</supplied></head>
+                <p>Entered according to act of Congress in the year 1860, by Currier &amp; Ives, in the Clerk's Office of the Dist. Court for the Southn. Dist. of N.Y.</p>
+            </div>
+            <div type="image_transcription" n="3" facs="#columbia">
+                <head><supplied resp="editorial">Columbia</supplied></head>
+                <p>You have been a bad boy Steve, ever since you had anything to do with that Nebraska Bill and have made a great deal of trouble in the family and now I'll pay you for it.—</p>
+            </div>
+            <div type="image_transcription" n="4" facs="#whip">
+                <head><supplied resp="editorial">Whip</supplied></head>
+                <p>NEWS FROM MAINE.</p>
+            </div>
+            <div type="image_transcription" n="5" facs="#douglas">
+                <head><add><sic>Douglass</sic></add></head>
+                <p>Oh! Marm let me off this time and I'll never do so any more.</p>
+            </div>
+            <div type="image_transcription" n="6" facs="#uncle_sam">
+                <head>Uncle Sam.</head>
+                <p>That's right! Columbia lay it on to him, for he richly deserves it, give him the Stripes till he sees Stars.—</p>
+            </div>
+            <div type="image_transcription" n="5" facs="#note1">
+                <head><supplied resp="editorial">Note (year)</supplied></head>
+                <p><add>1860</add></p>
+            </div>
+            <div type="image_transcription" n="" facs="#">
+                <head><supplied resp="editorial">Note (collection)</supplied></head>
+                <p><add>Gilpin 1275</add></p>
+            </div>
+        </body>
+
+        <back/>
+    </text>
+</TEI>
