@@ -22,7 +22,11 @@
                     <resp key="mrk">Encoded by</resp>
                     <persName key="ENT.000003544">Biunno, Diane</persName>
                 </respStmt>
-            </titleStmt>
+            <respStmt>
+          <resp key="pbl">publisher</resp>
+          <persName key="ENT.000003387">Unknown</persName>
+        </respStmt>
+      </titleStmt>
 
             <editionStmt>
                 <p>First edition, <date when="2015">2015</date></p>
@@ -49,18 +53,18 @@
                         the intended use of reproductions must be made in writing to the Rights and
                         Reproductions Coordinator at rnr@hsp.org.</p>
                 </availability>
-                <date when="2015"/>
+                <date when="2015">2015</date>
             </publicationStmt>
 
             <seriesStmt>
-                <title level="s" type="project" key="CARTOONS"/>
+                <title level="s" type="project" key="CARTOONS">Historic Images, New Technologies (HINT) Project</title>
             </seriesStmt>
 
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <repository key="ENT.000002473"/>
-                        <collection key="0117"/>                   
+                        <repository key="ENT.000002473">Historical Society of Pennsylvania</repository>
+                        <collection key="0117">Hampton L. Carson papers</collection>                   
                         <idno type="citation"
                             ><idno type="box">54</idno>
                             <idno type="folder">8</idno>
@@ -101,11 +105,16 @@
                 <biblStruct>
                     <analytic>
                         <respStmt>
-                            <resp key="art">Artist</resp>
-                            <persName key="ENT.000003762"/>
+                            <resp key="art">artist</resp>
+                            <persName key="ENT.000003762">Schaadt, J. Allan</persName>
                         </respStmt>  
-                        <title type="main" level="a">The Great Championship Race</title>
-                    </analytic>
+                        <respStmt>
+              <resp key="pbl">publisher</resp>
+              <persName key="ENT.000003387">Unknown</persName>
+            </respStmt>
+            <title type="main" level="a">The Great Championship Race</title>
+                    <date from="1895-07-15">July 15, 1895</date>
+          </analytic>
                     <monogr>
                         <title type="marc245a" level="j"><orgName key="ENT.000003763"
                             >Philadelphia Times</orgName></title>
@@ -175,6 +184,7 @@
         </profileDesc>
 
         <revisionDesc>
+            <change who="DianeBiunno" when="2015-05-27">Basic proofreading and export from CA</change>
             <change who="DianeBiunno" when="2015-05-27">Encoded to basic level</change>
             <change who="RachelMoloshok" when="2015-01-07">Template file created</change>
         </revisionDesc>
@@ -182,19 +192,19 @@
 
     <facsimile>
        
-        <surface ulx="" uly="" lrx="" lry="">
+        <surface ulx="0" uly="0" lrx="100" lry="100">
             
             <graphic
                 url="FIL.000095424"/>
             
-            <zone n="1" xml:id="Title" points=""/>
-            <zone n="2" xml:id="Artist" points=""/>
-            <zone n="3" xml:id="Rocks" points=""/>
-            <zone n="4" xml:id="Hat1" points=""/>
-            <zone n="5" xml:id="Hat2" points=""/>
-            <zone n="6" xml:id="Hat3" points=""/>
-            <zone n="7" xml:id="Hat4" points=""/>
-            <zone n="8" xml:id="Date" points=""/>     
+            <zone n="1" xml:id="Title" points="26.17,94.07 74.25,94.07 74.39,97.69 26.17,98.6"/>
+            <zone n="2" xml:id="Artist" points="79.16,84.9 90.64,84.67 91.21,89.38 79.16,89.9"/>
+            <zone n="3" xml:id="Rocks" points="48.96,76.94 51.63,73.78 56.42,73.38 59.52,76.77 62.77,74.23 66.61,73.12 72.57,80.58 79.78,80.38 82.45,75.34 85.66,75.44 90.37,78.06 92.88,79.97 93.41,83.33 48.96,81.94"/>
+            <zone n="4" xml:id="Hat1" points="77.56,24.46 80.54,23.85 82.19,21.23 86.03,22.24 86.66,27.58 81.25,25.97 78.82,27.58"/>
+            <zone n="5" xml:id="Hat2" points="68,33.13 69.25,30 74.35,29.5 76.86,36.86 72.86,37.46 69.1,35.24"/>
+            <zone n="6" xml:id="Hat3" points="46.47,10.47 50.59,10.14 55.14,12.26 55.64,18.08 50.67,17.7 45.21,12.82"/>
+            <zone n="7" xml:id="Hat4" points="13.48,26.06 17.57,24.97 20.95,29.33 13.34,30.05 11.36,31.14 7.84,30.6 9.81,27.88"/>
+            <zone n="8" xml:id="Date" points="20.25,0.31 77.78,0.31 77.92,5.75 20.25,6.66"/>     
         </surface>
     </facsimile>
 
