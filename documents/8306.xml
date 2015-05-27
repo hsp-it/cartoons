@@ -1,295 +1,288 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 
 <?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-
-
-    <teiHeader xml:lang="English">
-
-        <fileDesc>
-
-            <titleStmt>
-                <title type="main">TEI transcription of A Kean* Shave between "John Bull and Brother
-                    Jonathan"</title>
-                <respStmt>
-                    <resp key="art">Artist</resp>
-                    <persName key="ENT.000000729"/>
-                </respStmt>
-                <respStmt>
-                    <resp key="ltg">Lithographer</resp>
-                    <persName key="ENT.000000729"/>
-                </respStmt>
-                <respStmt>
-                    <resp key="clr">Colorist</resp>
-                    <persName key="ENT.000003387"/>
-                </respStmt>
-                <respStmt>
-                    <resp key="trc">Transcribed by</resp>
-                    <persName key="ENT.000003368"/>
-                </respStmt>
-                <respStmt>
-                    <resp key="mrk">Encoded by</resp>
-                    <persName key="ENT.000003368"/>
-                </respStmt>
-
-            </titleStmt>
-
-            <editionStmt>
-                <p>First edition, <date when="2015">2015</date></p>
-            </editionStmt>
-
-            <publicationStmt>
-                <publisher><orgName key="ENT.000002473">Historical Society of
-                    Pennsylvania</orgName></publisher>
-                <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
-                <idno type="filename">8306</idno>
-                <availability status="restricted">
-                    <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of
-                        copyright only to original contributions made by the Historic Images, New
-                        Technologies (HINT) Project participants and other staff. HSP makes no claim
-                        of copyright to the original text. Permission is granted to download,
-                        transmit or otherwise reproduce, distribute or display the text
-                        contributions to this work claimed by HSP for non-profit educational
-                        purposes, provided that this header is included in its entirety. For
-                        inquiries about commercial uses, please contact the Historical Society of
-                        Pennsylvania. HSP retains the rights of all images unless otherwise noted.
-                        Possession of an HSP digital image does not constitute permission to use or
-                        publish it. Requests for digital imaging, other reproduction services, and
-                        the intended use of reproductions must be made in writing to the Rights and
-                        Reproductions Coordinator at rnr@hsp.org.</p>
-                </availability>
-                <date when="2015"/>
-            </publicationStmt>
-
-            <seriesStmt>
-                <title level="s" type="project" key="CARTOONS"/>
-            </seriesStmt>
-
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <repository key="ENT.000002473"/>
-                        <collection key="V64"/>
-                        <idno type="citation">Bb 612 K 193</idno>
-                    </msIdentifier>
-                    <msContents>
-                        <msItem>
-                            <bibl>
-                                <date from="1835-01-01" to="1836-12-31">circa 1835-1836</date>
-                                <extent>1 loose sheet</extent>
-                                <listRelation>
-                                    <relation name="depicted" active="ENT.000001353"/>
-                                    <relation name="depicted"
-                                        active="cartoons_symbols.xml#brother_jonathan"/>
-                                    <relation name="depicted"
-                                        active="cartoons_symbols.xml#john_bull"/>
-                                    <relation name="mentioned" active="ENT.000003764"/>
-                                    <relation name="mentioned" active="ENT.000003765"/>
-                                </listRelation>
-                            </bibl>
-                        </msItem>
-                    </msContents>
-
-                    <history>
-                        <acquisition/>
-                    </history>
-                </msDesc>
-                <biblStruct>
-                    <monogr>
-                        <respStmt>
-                            <resp key="art">Artist</resp>
-                            <persName key="ENT.000000729"/>
-                        </respStmt>
-                        <respStmt>
-                            <resp key="ltg">Lithographer</resp>
-                            <persName key="ENT.000000729"/>
-                        </respStmt>
-                        <respStmt>
-                            <resp key="clr">Colorist</resp>
-                            <persName key="ENT.000003387"/>
-                        </respStmt>
-                        <title type="main" level="m">A Kean* Shave between "John Bull and Brother
-                            Jonathan"</title>
-                        <imprint>
-                            <publisher><persName key="ENT.000000729">Akin, James, approximately
-                                    1773-1846</persName></publisher>
-                            <pubPlace>Philadelphia</pubPlace>
-                            <date from="1835-01-01" to="1836-12-31">circa 1835-1836</date>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
-
-            </sourceDesc>
-        </fileDesc>
-
-        <encodingDesc>
-            <projectDesc>
-                <p>The Historic Images, New Technologies (HINT) project aims to enhance description
-                    and discovery of the Historical Society of Pennsylvania's graphics materials and
-                    promote the linking and sharing of content among institutions and scholars. The
-                    project will result in an update to HSP's digital image viewer and an online
-                    digital history exhibit that will demonstrate the new viewer's capabilities and
-                    provide interpretive and contextual materials to encourage users to interact
-                    with historical images in new ways. This project was funded by a grant from the
-                    National Historical Publications and Records Commission's (NHPRC) Innovation in
-                    Archives and Documentary Editing program.</p>
-            </projectDesc>
-            <editorialDecl n="4">
-                <p>This electronic file was created using manual keying following the
-                    recommendations for Level 4 of "Best Practices for TEI in Libraries" guidelines
-                    v3.0.</p>
-                <p>This xml file uses unique entity identifiers, media file identifiers, and
-                    collection identifiers in HSP's Digital Library, available at
-                    http://digitallibrary.hsp.org.</p>
-
-            </editorialDecl>
-            <tagsDecl>
-                <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
-                <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
-                <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
-                <rendition scheme="css" xml:id="crossed-through">text-decoration:
-                    line-through</rendition>
-                <rendition scheme="other" xml:id="printed"/>
-                <rendition scheme="other" xml:id="typescript"/>
-                <rendition scheme="other" xml:id="handwritten"/>
-                <rendition scheme="other" xml:id="handwritten-underlined"/>
-                <rendition scheme="other" xml:id="handwritten-circled"/>
-                <rendition scheme="other" xml:id="handwritten-crossed-through"/>
-                <rendition scheme="other" xml:id="double-underline"/>
-                <rendition scheme="other" xml:id="stamp"/>
-                <namespace name="http://www.tei-c.org/ns/1.0">
-                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
-                </namespace>
-            </tagsDecl>
-        </encodingDesc>
-
-        <profileDesc>
-            <textClass>
-                <catRef target="cartoons_genres.xml#lithographs"/>
-                <catRef target="cartoons_genres.xml#watercolors"/>
-                <catRef target="cartoons_genres.xml#political_cartoons"/>
-                <catRef target="cartoons_taxonomies.xml#early"/>
-                <catRef target="cartoons_taxonomies.xml#culture"/>
-                <catRef target="cartoons_taxonomies.xml#econ"/>
-                <catRef target="cartoons_taxonomies.xml#gender"/>
-                <catRef target="cartoons_taxonomies.xml#international"/>
-            </textClass>
-        </profileDesc>
-
-        <revisionDesc>
-            <change who="RachelMoloshok" when="2015-05-27">Basic encoding</change>
-        </revisionDesc>
-    </teiHeader>
-
-    <facsimile>
-        <surface ulx="" uly="" lrx="" lry="">
-            <graphic url="FIL.000052637"/>
-            <zone n="1" xml:id="title"/>
-            <zone n="2" xml:id="jonathan"/>
-            <zone n="3" xml:id="john"/>
-            <zone n="4" xml:id="kemble"/>
-            <zone n="5" xml:id="basket"/>
-            <zone n="6" xml:id="exports"/>
-            <zone n="7" xml:id="imports"/>
-            <zone n="8" xml:id="imprint"/>
-            <zone n="9" xml:id="note"/>
-        </surface>
-    </facsimile>
-
-    <text>
-        <front>
-            <div type="editorial_desc">
-                <p>This political cartoon slams British actress and writer Fanny Kemble for
-                    criticizing American manners and habits. The cartoon also references British
-                    actor Charles Kean and novelist Frances Trollope for similar negative remarks
-                    about Americans. Fanny Kemble is depicted at the center of the cartoon, dressed
-                    in rags. Standing at right and holding her hand is John Bull (representing Great
-                    Britain), who asks Brother Jonathan (representing the United States), standing
-                    at left, to take her in. Brother Jonathan refuses. Both Brother Jonathan and
-                    John Bull make lengthy speeches with numerous quotes from Kemble's published
-                    journal.</p>
-            </div>
-        </front>
-
-        <body>
-            <div type="image_transcription" n="1" facs="#title">
-                <head><supplied resp="editorial">Title</supplied></head>
-                <p>A <hi rendition="#italics">KEAN</hi>* shave, between "JOHN BULL <hi
-                        rendition="#italics">and</hi> BROTHER JONATHAN," or, another return from
-                    John's "right bits of English brag!"</p>
-                <p><hi rendition="#italics">_____* (Keen, "that cuts well.") see Letter abusing
-                        Americans!_____</hi></p>
-            </div>
-            <div type="image_transcription" n="2" facs="#jonathan">
-                <head><supplied resp="editorial">Brother Jonathan</supplied></head>
-                <p>Why you tarnal Crittur, it beats all natur to think how slick you work it; Ivum
-                    on pohagen and wood-chucks, I ben too long stuffing your hungry beggars and
-                    paupers, rotten gizzards, with Chouder and chum-fish out o' pity and
-                    compassion's sake, tho' I shou'dn't s'pose, sir, car'd a snap o my finger about
-                    the Varment, seeng you mout "trollope her over" to the Butler o' the house, to
-                    "wallop in an American hell-of-a coach; bumping, thumping, jolting, shaking,"
-                    and "tumbling," as if the "Devil blew a hurrican at her back." <hi
-                        rendition="#italics">(page 77)</hi> I guess it would be rather "slithery,
-                    odd and dauldrummish <hi rendition="#italics">(page 195)</hi> if the "Finger
-                    glasses" stood the "jog and jumble, <hi rendition="#italics">p 158</hi>"
-                    whatever Fan's carcase mout tho, sartain twou'd make the sarpent squirm about,
-                    and <hi rendition="#italics">"pish, and pshaw"</hi> the hull time, <hi
-                        rendition="#italics">(page 98)</hi> like "musquetos, so cantankerous!!" <hi
-                        rendition="#italics">see Vol. 1. page 96</hi></p>
-            </div>
-            <div type="image_transcription" n="3" facs="#john">
-                <head><supplied resp="editorial">John Bull</supplied></head>
-                <p>By goes Jonathan, but I be summut roight glad to zee thee, wi zo many <hi
-                        rendition="#italics"/>Forrest's and Hill's to show, and zo ah bethouten a
-                    power o' zarving thee, we a bit o' a "twaddling <hi rendition="#italics">p.
-                        64)</hi>(" zort o' a hoozey, who be a main beggarish breed, o' the <hi
-                        rendition="#italics">"Puddledock" fudge family (p. 16) loike,</hi> but dang
-                    it, she can "wallop, and shample <hi rendition="#italics">(p. 131)</hi> about at
-                    a "shuffling, <hi rendition="#italics">(p. 52)</hi> rollicking, <hi
-                        rendition="#italics">(p. 149)</hi> mongrel pace," mongst the Yankees; for
-                    "nathless" thof she hath a main hack "and snivelling fancy, for a snuggery"
-                    situation to "dowdle and potter in, we damnable iterations <hi
-                        rendition="#italics">(p. 63)</hi> about looking on "the moon shine, over
-                    bright waters, as still as death" <hi rendition="#italics">(p. 76)</hi> when
-                    there be a "sloping lawn <hi rendition="#italics">(p. 80)</hi> to be jumping,
-                    tossing, and rumbling over, as if the "Devil had toied a string to her legs, and
-                    jerk'd her out o' spite" <hi rendition="#italics">(p. 27)</hi>; yet we be no
-                    ways proudish about such flimsyish flirtish brats, for we hae un in froightful
-                    aboondance, seeing they thout o' "making a necessity wi roight strange bed
-                    fellows" <hi rendition="#italics">(p. 76)</hi> "Oh! England! England!!!!"</p>
-            </div>
-            <div type="image_transcription" n="4" facs="#kemble">
-                <head><supplied resp="editorial">Fanny Kemble</supplied></head>
-                <p>"How I do loathe the stage! and these wretched rags—an actress, a mimicker, a
-                    sham, creature me. Oh Horror! Horror!" <hi rendition="#italics">p. 16.</hi> How
-                    the codfish stinks!</p>
-            </div>
-            <div type="image_transcription" n="5" facs="#basket">
-                <head><supplied resp="editorial">Basket</supplied></head>
-                <p>Finger Glasses</p>
-                <p>The Yankees, stupid, ign'rant Asses! don't know the Use of, Finger
-                    Glasses!!!!</p>
-            </div>
-            <div type="image_transcription" n="6" facs="#exports">
-                <head><supplied resp="editorial">American goods</supplied></head>
-                <p>(Exports) Yankee Notions.</p>
-                <p>Nutmeg</p>
-            </div>
-            <div type="image_transcription" n="7" facs="#imports">
-                <head><supplied resp="editorial">British goods</supplied></head>
-                <p>(Imports) British staples.</p>
-            </div>
-            <div type="image_transcription" n="8" facs="#imprint">
-                <head><supplied resp="editorial">Imprint</supplied></head>
-                <p>Sold by J. Akin, Lithographer, No. 18 Prune Street Philada.</p>
-            </div>
-            <div type="image_transcription" n="9" facs="#note">
-                <head><supplied resp="editorial">Note</supplied></head>
-                <p><add>1835-36</add></p>
-            </div>
-        </body>
-
-        <back/>
-    </text>
+  <teiHeader xml:lang="English">
+    <fileDesc>
+      <titleStmt>
+        <title type="main">TEI transcription of A Kean* Shave between "John Bull and Brother
+          Jonathan"</title>
+        <respStmt>
+          <resp key="ltg">lithographer</resp>
+          <persName key="ENT.000000729">Akin, James, approximately 1773-1846</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="art">artist</resp>
+          <persName key="ENT.000000729">Akin, James, approximately 1773-1846</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="clr">colorist</resp>
+          <persName key="ENT.000003387">Unknown</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="trc">Transcribed by</resp>
+          <persName key="ENT.000003368">Moloshok, Rachel</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="mrk">Encoded by</resp>
+          <persName key="ENT.000003368">Moloshok, Rachel</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="pfr">Proofread by</resp>
+          <persName key="ENT.000003368">Moloshok, Rachel</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="pbl">publisher</resp>
+          <persName key="ENT.000000729">Akin, James, approximately 1773-1846</persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <p>First edition, <date when="2015">2015</date></p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher><orgName key="ENT.000002473">Historical Society of
+          Pennsylvania</orgName></publisher>
+        <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
+        <idno type="filename">8306</idno>
+        <availability status="restricted">
+          <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of copyright only
+            to original contributions made by the Historic Images, New Technologies (HINT) Project
+            participants and other staff. HSP makes no claim of copyright to the original text.
+            Permission is granted to download, transmit or otherwise reproduce, distribute or
+            display the text contributions to this work claimed by HSP for non-profit educational
+            purposes, provided that this header is included in its entirety. For inquiries about
+            commercial uses, please contact the Historical Society of Pennsylvania. HSP retains the
+            rights of all images unless otherwise noted. Possession of an HSP digital image does not
+            constitute permission to use or publish it. Requests for digital imaging, other
+            reproduction services, and the intended use of reproductions must be made in writing to
+            the Rights and Reproductions Coordinator at rnr@hsp.org.</p>
+        </availability>
+        <date when="2015">2015</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="project" key="CARTOONS">Historic Images, New Technologies (HINT)
+          Project</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository key="ENT.000002473">Historical Society of Pennsylvania</repository>
+            <collection key="V64">Historical Society of Pennsylvania medium graphics
+              collection</collection>
+            <idno type="citation">Bb 612 K 193</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <bibl>
+                <date from="1835-01-01" to="1836-12-31">circa 1835-1836</date>
+                <extent>1 loose sheet</extent>
+                <extent>
+                  <dimensions type="image" unit="cm">
+                    <height quantity="24.5"/>
+                    <width quantity="35"/>
+                  </dimensions>
+                </extent>
+                <listRelation>
+                  <relation name="depicted" active="ENT.000001353"/>
+                  <relation name="mentioned" active="ENT.000003764"/>
+                  <relation name="mentioned" active="ENT.000003765"/>
+                  <relation name="depicted" active="cartoons_symbols.xml#brother_jonathan"/>
+                  <relation name="depicted" active="cartoons_symbols.xml#john_bull"/>
+                </listRelation>
+              </bibl>
+            </msItem>
+          </msContents>
+        </msDesc>
+        <biblStruct>
+          <monogr>
+            <respStmt>
+              <resp key="ltg">lithographer</resp>
+              <persName key="ENT.000000729">Akin, James, approximately 1773-1846</persName>
+            </respStmt>
+            <respStmt>
+              <resp key="art">artist</resp>
+              <persName key="ENT.000000729">Akin, James, approximately 1773-1846</persName>
+            </respStmt>
+            <respStmt>
+              <resp key="clr">colorist</resp>
+              <persName key="ENT.000003387">Unknown</persName>
+            </respStmt>
+            <respStmt>
+              <resp key="pbl">publisher</resp>
+              <persName key="ENT.000000729">Akin, James, approximately 1773-1846</persName>
+            </respStmt>
+            <title type="main" level="m">A Kean* Shave between "John Bull and Brother
+              Jonathan"</title>
+            <imprint>
+              <pubPlace>Philadelphia</pubPlace>
+              <date from="1835-01-01" to="1836-12-31">circa 1835-1836</date>
+              <publisher>
+                <persName key="ENT.000000729">Akin, James, approximately 1773-1846</persName>
+              </publisher>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The Historic Images, New Technologies (HINT) project aims to enhance description and
+          discovery of the Historical Society of Pennsylvania's graphics materials and promote the
+          linking and sharing of content among institutions and scholars. The project will result in
+          an update to HSP's digital image viewer and an online digital history exhibit that will
+          demonstrate the new viewer's capabilities and provide interpretive and contextual
+          materials to encourage users to interact with historical images in new ways. This project
+          was funded by a grant from the National Historical Publications and Records Commission's
+          (NHPRC) Innovation in Archives and Documentary Editing program.</p>
+      </projectDesc>
+      <editorialDecl n="4">
+        <p>This electronic file was created using manual keying following the recommendations for
+          Level 4 of "Best Practices for TEI in Libraries" guidelines v3.0.</p>
+        <p>This xml file uses unique entity identifiers, media file identifiers, and collection
+          identifiers in HSP's Digital Library, available at http://digitallibrary.hsp.org.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
+        <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
+        <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
+        <rendition scheme="css" xml:id="crossed-through">text-decoration: line-through</rendition>
+        <rendition scheme="other" xml:id="printed"/>
+        <rendition scheme="other" xml:id="typescript"/>
+        <rendition scheme="other" xml:id="handwritten"/>
+        <rendition scheme="other" xml:id="handwritten-underlined"/>
+        <rendition scheme="other" xml:id="handwritten-circled"/>
+        <rendition scheme="other" xml:id="handwritten-crossed-through"/>
+        <rendition scheme="other" xml:id="double-underline"/>
+        <rendition scheme="other" xml:id="stamp"/>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <catRef target="cartoons_genres.xml#lithographs"/>
+        <catRef target="cartoons_genres.xml#watercolors"/>
+        <catRef target="cartoons_genres.xml#political_cartoons"/>
+        <catRef target="cartoons_taxonomies.xml#early"/>
+        <catRef target="cartoons_taxonomies.xml#culture"/>
+        <catRef target="cartoons_taxonomies.xml#econ"/>
+        <catRef target="cartoons_taxonomies.xml#gender"/>
+        <catRef target="cartoons_taxonomies.xml#international"/>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change who="RachelMoloshok" when="2015-05-27">Exported from Collective Access. Basic
+        proofreading</change>
+      <change who="RachelMoloshok" when="2015-05-27">Basic encoding</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="100" lry="100">
+      <graphic url="FIL.000052637"/>
+      <zone n="1" xml:id="title" points="33.73,84.81 61.26,85.7 64.89,88.86 64.96,94.3 31.84,93.8"/>
+      <zone n="2" xml:id="jonathan"
+        points="7.29,6.62 49.83,6.32 52.27,28.17 33.09,29.42 32.32,45.46 28.44,48.6 28.22,72.34 31.1,77.37 25.45,82.09 18.46,80.2 18.79,29.27 7.04,29.27"/>
+      <zone n="3" xml:id="john"
+        points="52.97,5.99 93.38,5.9 93.55,41.51 71.88,42.81 72.49,58.03 69.02,60.64 67.59,72.82 59.3,75.87 54.6,73.26 53.99,60.93 52.97,54.41 50.82,56.15 47.75,53.1 48.67,43.1 56.54,23.39 59.3,19.33 53.17,19.04"/>
+      <zone n="4" xml:id="kemble"
+        points="42.92,32.04 46.04,30.38 48.69,33.7 49.01,47.63 51.03,53.05 50.57,55.71 48.23,55.37 47.68,74.06 37,72.73 41.52,45.86 34.81,51.84 34.19,47.74 40.27,39.56 34.5,38.57 34.66,31.82"/>
+      <zone n="5" xml:id="basket"
+        points="34.34,46.89 38.81,44.33 41.3,49.15 40.3,58.79 35.08,63.85 34.09,59.62"/>
+      <zone n="6" xml:id="exports"
+        points="9.64,76.35 17.62,77.66 22.43,81.28 29.58,78.53 27.23,72.29 38.89,67.07 44,77.51 38.27,84.61 30.2,87.08 17.42,87.22 8.93,82.88"/>
+      <zone n="7" xml:id="imports"
+        points="56.46,73.98 83.45,67.31 86.42,75.27 78.01,83.67 65.46,85.72 59.84,84.7 57.38,80.5"/>
+      <zone n="8" xml:id="imprint"
+        points="62.94,85.75 73.95,86.45 84.76,84.07 84.48,86.94 74.02,89.21 62.73,88.62"/>
+      <zone n="9" xml:id="note" points="84.94,91.21 92.27,91.22 93.34,94.81 84.94,96.21"/>
+    </surface>
+  </facsimile>
+  <text>
+    <front>
+      <div type="editorial_desc">
+        <p>This political cartoon slams British actress and writer Fanny Kemble for criticizing
+          American manners and habits. The cartoon also references British actor Charles Kean and
+          novelist Frances Trollope for similar negative remarks about Americans. Fanny Kemble is
+          depicted at the center of the cartoon, dressed in rags. Standing at right and holding her
+          hand is John Bull (representing Great Britain), who asks Brother Jonathan (representing
+          the United States), standing at left, to take her in. Brother Jonathan refuses. Both
+          Brother Jonathan and John Bull make lengthy speeches with numerous quotes from Kemble's
+          published journal.</p>
+      </div>
+    </front>
+    <body>
+      <div type="image_transcription" n="1" facs="#title">
+        <head><supplied resp="editorial">Title</supplied></head>
+        <p>A <hi rendition="#italics">KEAN</hi>* shave, between "JOHN BULL <hi rendition="#italics"
+            >and</hi> BROTHER JONATHAN," or, another return from John's "right bits of English
+          brag!"</p>
+        <p><hi rendition="#italics">_____* (Keen, "that cuts well.") see Letter abusing
+            Americans!_____</hi></p>
+      </div>
+      <div type="image_transcription" n="2" facs="#jonathan">
+        <head><supplied resp="editorial">Brother Jonathan</supplied></head>
+        <p>Why you tarnal Crittur, it beats all natur to think how slick you work it; Ivum on
+          pohagen and wood-chucks, I ben too long stuffing your hungry beggars and paupers, rotten
+          gizzards, with Chouder and chum-fish out o' pity and compassion's sake, tho' I shou'dn't
+          s'pose, sir, car'd a snap o my finger about the Varment, seeng you mout "trollope her
+          over" to the Butler o' the house, to "wallop in an American hell-of-a coach; bumping,
+          thumping, jolting, shaking," and "tumbling," as if the "Devil blew a hurrican at her
+          back." <hi rendition="#italics">(page 77)</hi> I guess it would be rather "slithery, odd
+          and dauldrummish <hi rendition="#italics">(page 195)</hi> if the "Finger glasses" stood
+          the "jog and jumble, <hi rendition="#italics">p 158</hi>" whatever Fan's carcase mout tho,
+          sartain twou'd make the sarpent squirm about, and <hi rendition="#italics">"pish, and
+            pshaw"</hi> the hull time, <hi rendition="#italics">(page 98)</hi> like "musquetos, so
+          cantankerous!!" <hi rendition="#italics">see Vol. 1. page 96</hi></p>
+      </div>
+      <div type="image_transcription" n="3" facs="#john">
+        <head><supplied resp="editorial">John Bull</supplied></head>
+        <p>By goes Jonathan, but I be summut roight glad to zee thee, wi zo many <hi
+            rendition="#italics"/>Forrest's and Hill's to show, and zo ah bethouten a power o'
+          zarving thee, we a bit o' a "twaddling <hi rendition="#italics">p. 64)</hi>(" zort o' a
+          hoozey, who be a main beggarish breed, o' the <hi rendition="#italics">"Puddledock" fudge
+            family (p. 16) loike,</hi> but dang it, she can "wallop, and shample <hi
+            rendition="#italics">(p. 131)</hi> about at a "shuffling, <hi rendition="#italics">(p.
+            52)</hi> rollicking, <hi rendition="#italics">(p. 149)</hi> mongrel pace," mongst the
+          Yankees; for "nathless" thof she hath a main hack "and snivelling fancy, for a snuggery"
+          situation to "dowdle and potter in, we damnable iterations <hi rendition="#italics">(p.
+            63)</hi> about looking on "the moon shine, over bright waters, as still as death" <hi
+            rendition="#italics">(p. 76)</hi> when there be a "sloping lawn <hi rendition="#italics"
+            >(p. 80)</hi> to be jumping, tossing, and rumbling over, as if the "Devil had toied a
+          string to her legs, and jerk'd her out o' spite" <hi rendition="#italics">(p. 27)</hi>;
+          yet we be no ways proudish about such flimsyish flirtish brats, for we hae un in
+          froightful aboondance, seeing they thout o' "making a necessity wi roight strange bed
+          fellows" <hi rendition="#italics">(p. 76)</hi> "Oh! England! England!!!!"</p>
+      </div>
+      <div type="image_transcription" n="4" facs="#kemble">
+        <head><supplied resp="editorial">Fanny Kemble</supplied></head>
+        <p>"How I do loathe the stage! and these wretched rags—an actress, a mimicker, a sham,
+          creature me. Oh Horror! Horror!" <hi rendition="#italics">p. 16.</hi> How the codfish
+          stinks!</p>
+      </div>
+      <div type="image_transcription" n="5" facs="#basket">
+        <head><supplied resp="editorial">Basket</supplied></head>
+        <p>Finger Glasses</p>
+        <p>The Yankees, stupid, ign'rant Asses! don't know the Use of, Finger Glasses!!!!</p>
+      </div>
+      <div type="image_transcription" n="6" facs="#exports">
+        <head><supplied resp="editorial">American goods</supplied></head>
+        <p>(Exports) Yankee Notions.</p>
+        <p>Nutmeg</p>
+      </div>
+      <div type="image_transcription" n="7" facs="#imports">
+        <head><supplied resp="editorial">British goods</supplied></head>
+        <p>(Imports) British staples.</p>
+      </div>
+      <div type="image_transcription" n="8" facs="#imprint">
+        <head><supplied resp="editorial">Imprint</supplied></head>
+        <p>Sold by J. Akin, Lithographer, No. 18 Prune Street Philada.</p>
+      </div>
+      <div type="image_transcription" n="9" facs="#note">
+        <head><supplied resp="editorial">Note</supplied></head>
+        <p><add>1835-36</add></p>
+      </div>
+    </body>
+  </text>
 </TEI>
