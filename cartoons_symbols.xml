@@ -1,246 +1,188 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
-
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title type="main">TEI description of symbols mentioned and depicted in the Historic Images,
-          New Technologies (HINT) Project</title>
-        <author>
-          <persName key="ENT.000003526">Moloshok, Rachel</persName>
-        </author>
-        <author>
-          <persName key="ENT.000003352">Newhouse, Sarah</persName>
-        </author>
-        <author>
-          <persName key="ENT.000003528">Dorman, Dana</persName>
-        </author>
-      </titleStmt>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">TEI description of symbols mentioned and depicted in the Historic
+                    Images, New Technologies (HINT) Project</title>
+                <author>
+                    <persName key="ENT.000003526">Moloshok, Rachel</persName>
+                </author>
+                <author>
+                    <persName key="ENT.000003352">Newhouse, Sarah</persName>
+                </author>
+                <author>
+                    <persName key="ENT.000003528">Dorman, Dana</persName>
+                </author>
+            </titleStmt>
 
-      <publicationStmt>
-        <publisher><orgName key="ENT.000002473">Historical Society of
-          Pennsylvania</orgName></publisher>
-        <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
-        <availability status="restricted">
-          <p>Copyright 2014, The Historical Society of Pennsylvania. HSP makes a claim of copyright
-            only to original contributions made by the Historic Images, New Technologies (HINT)
-            Project participants and other staff. Permission is granted to download, transmit or
-            otherwise reproduce, distribute or display the text contributions to this work claimed
-            by HSP for non-profit educational purposes, provided that this header is included in its
-            entirety. For inquiries about commercial uses, please contact the Historical Society of
-            Pennsylvania. HSP retains the rights of all images unless otherwise noted. Possession of
-            an HSP digital image does not constitute permission to use or publish it. Requests for
-            digital imaging, other reproduction services, and the intended use of reproductions must
-            be made in writing to the Rights and Reproductions Coordinator at rnr@hsp.org.</p>
-        </availability>
-        <date when="2014"/>
-      </publicationStmt>
+            <publicationStmt>
+                <publisher><orgName key="ENT.000002473">Historical Society of
+                    Pennsylvania</orgName></publisher>
+                <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
+                <availability status="restricted">
+                    <p>Copyright 2014, The Historical Society of Pennsylvania. HSP makes a claim of
+                        copyright only to original contributions made by the Historic Images, New
+                        Technologies (HINT) Project participants and other staff. Permission is
+                        granted to download, transmit or otherwise reproduce, distribute or display
+                        the text contributions to this work claimed by HSP for non-profit
+                        educational purposes, provided that this header is included in its entirety.
+                        For inquiries about commercial uses, please contact the Historical Society
+                        of Pennsylvania. HSP retains the rights of all images unless otherwise
+                        noted. Possession of an HSP digital image does not constitute permission to
+                        use or publish it. Requests for digital imaging, other reproduction
+                        services, and the intended use of reproductions must be made in writing to
+                        the Rights and Reproductions Coordinator at rnr@hsp.org.</p>
+                </availability>
+                <date when="2014"/>
+            </publicationStmt>
 
-      <seriesStmt>
-        <title level="s" type="project" key="CARTOONS">Historic Images, New Technologies (HINT)
-          Project</title>
-      </seriesStmt>
+            <seriesStmt>
+                <title level="s" type="project" key="CARTOONS">Historic Images, New Technologies
+                    (HINT) Project</title>
+            </seriesStmt>
 
-      <sourceDesc>
-        <p>Born digital.</p>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <projectDesc>
-        <p>The Historic Images, New Technologies (HINT) project aims to enhance description and
-          discovery of the Historical Society of Pennsylvania's graphics materials and promote the
-          linking and sharing of content among institutions and scholars. The project will result in
-          an update to HSP's digital image viewer and an online digital history exhibit, featuring
-          500 encoded political cartoons, that will demonstrate the new viewer's capabilities and
-          provide interpretive and contextual materials to encourage users to interact with
-          historical images in new ways. This project was funded by a grant from the National
-          Historical Publications and Records Commission's (NHPRC) Innovation in Archives and
-          Documentary Editing program.></p>
-      </projectDesc>
-    </encodingDesc>
-    <revisionDesc>
-      <change who="HSP" when="2015-05-26">Exported from Collective Access.</change>
-    </revisionDesc>
-  </teiHeader>
+            <sourceDesc>
+                <p>Born digital.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The Historic Images, New Technologies (HINT) project aims to enhance description
+                    and discovery of the Historical Society of Pennsylvania's graphics materials and
+                    promote the linking and sharing of content among institutions and scholars. The
+                    project will result in an update to HSP's digital image viewer and an online
+                    digital history exhibit, featuring 500 encoded political cartoons, that will
+                    demonstrate the new viewer's capabilities and provide interpretive and
+                    contextual materials to encourage users to interact with historical images in
+                    new ways. This project was funded by a grant from the National Historical
+                    Publications and Records Commission's (NHPRC) Innovation in Archives and
+                    Documentary Editing program.></p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change who="HSP" when="2015-05-27">Exported from Collective Access.</change>
+        </revisionDesc>
+    </teiHeader>
 
-  <text>
-    <body>
-      <div type="ography">
-        <list type="symbols">
-          <item xml:id="alligator">
-            <label>Alligator</label>
-            <note type="symbol"><p>During the 1820s, the alligator became associated with the
-                presidential campaigns of Andrew Jackson and with Jacksonian Democracy in general.
-                During the campaigns of 1824 and 1828, Jackson and his supporters used the popular
-                song <ref target="http://www.loc.gov/teachers/lyrical/songs/docs/kentucky_trans.pdf"
-                  >The Hunters of Kentucky; Or, Half Horse and Half Alligator"</ref> on the campaign
-                trail. The song, alternately titled "The Battle of New Orleans" celebrated
-                then-General Jackson's victory at the Battle of New Orleans during the War of 1812.
-                The reference to the "half horse, half alligator" seems obscure now, but in the
-                early national period, this semi-mythic creature was associated with Kentuckians and
-                the rugged inhabitants of the Southwestern territories of the early United
-                States.</p>
-              <p>Ironically, although Jackson's candidacy was associated with the alligator symbol,
-                Jackson's presidential rival, John Quincy Adams, actually kept a pet alligator,
-                given to him by the Marquis de Lafayette, in a bathtub at the White
-              House.</p></note>
-          </item>
-          <item xml:id="britannia">
-            <label>Britannia</label>
-            <note type="symbol">Symbolic representation of Great Britain, often depicted as a woman
-              holding a shield and a spear.</note>
-          </item>
-          <item xml:id="brother_jonathan">
-            <label>Brother Jonathan</label>
-            <note type="symbol">Early personification of the United States as a man; precursor to
-              Uncle Sam.</note>
-          </item>
-          <item xml:id="bull_moose">
-            <label>Bull moose</label>
-            <note type="symbol">The bull moose is a symbol for the Progressive Party which was
-              founded by President Theodore Roosevelt in 1912. </note>
-          </item>
-          <item xml:id="cerberus">
-            <label>Cerberus</label>
-            <note type="symbol">Cerberus is a three-headed dog with a serpent's tail who, in Greek
-              and Roman mythology, guards the entrance to the underworld.</note>
-          </item>
-          <item xml:id="columbia">
-            <label>Columbia</label>
-            <note type="symbol">Personification of America, often depicted as a woman wearing a
-              liberty cap (or holding a staff topped with a liberty cap) and accompanied by an
-              American bald eagle.</note>
-          </item>
-          <item xml:id="death">
-            <label>Death</label>
-            <note type="symbol">Death is often personified as a skeleton holding a scythe. Death
-              often wears a black cloak and hood.</note>
-          </item>
-          <item xml:id="devil">
-            <label>Devil</label>
-            <note type="symbol">An evil spirit in the Christian, Jewish, and Islamic traditions,
-              often depicted as a demon with horns, hooves, and a tail, sometimes also depicted with
-              wings and/or a pitchfork. Nicknames or alternative titles for the devil include "Old
-              Nick," Satan, and Beelzebub. <!-- depicted in 2562, 11508 --></note>
-          </item>
-          <item xml:id="dogs">
-            <label>Dogs</label>
-            <note type="symbol">Dogs are often depicted in political cartoons as representatives of
-              the press.</note>
-          </item>
-          <item xml:id="donkey">
-            <label>Donkey</label>
-            <note type="symbol">Usage as a symbol of the Democratic Party attributed to Thomas Nast
-              by many, but "jackass" also used in iconography of Andrew Jackson's 1828 presidential
-              campaign. Nast also used donkey to symbolize Democratic-supporting newspaper the New
-              York Herald during the 1870s.</note>
-          </item>
-          <item xml:id="dove">
-            <label>Dove</label>
-            <note type="symbol">The dove, often depicted holding an olive branch in its beak, is a
-              symbol of peace.</note>
-          </item>
-          <item xml:id="elephant">
-            <label>Elephant</label>
-            <note type="symbol">The elephant is a symbol of the Republican Party. The origin of the
-              Republican Elephant is attributed to Thomas Nast.</note>
-          </item>
-          <item xml:id="fame">
-            <label>Fame</label>
-            <note type="symbol">Personification of fame, often depicted as a winged goddess holding
-              a laurel wreath and a trumpet. In Greek mythology, this goddess is called Pheme; in
-              Roman mythology, Fama.</note>
-          </item>
-          <item xml:id="fox">
-            <label>Fox</label>
-            <note type="symbol"
-              ><!-- Thomas Nast used occasionally as symbol of Democratic Party (ex, 11578); also used in early cartoons to represent  Joseph Fox (see 1478) --></note>
-          </item>
-          <item xml:id="giraffe">
-            <label>Giraffe</label>
-            <note type="symbol">In the 1870s, Thomas Nast used the giraffe to represent the New York
-              Tribune.</note>
-          </item>
-          <item xml:id="jack_downing">
-            <label>Jack Downing</label>
-            <note type="symbol">A fictional character popularized in a serial newspaper narrative by
-              author Seba Smith, Jack Downing (who, over the course of his adventures, rose to the
-              rank of Major) appears frequently in American political cartoons from the early
-              republic as a stand-in for the American everyman.</note>
-          </item>
-          <item xml:id="john_bull">
-            <label>John Bull</label>
-            <note type="symbol">Symbolic representation of Great Britain, often depicted as a
-              paunchy, middle-aged man.</note>
-          </item>
-          <item xml:id="justice">
-            <label>Justice</label>
-            <note type="symbol">Justice is often depicted as a woman wearing a blindfold and holding
-              a sword and a set of scales.
-              <!-- provide explanation of what the sword, blindfold, and scales signify --></note>
-          </item>
-          <item xml:id="liberty_cap">
-            <label>Liberty cap</label>
-            <note type="symbol">Liberty caps, also sometimes called Phrygian caps, appear frequently
-              in political cartoons. In ancient Rome, freed slaves wore pointed hats, with the peak
-              bent or turned at the side or front, to indicate their status; thus, the Phrygian cap
-              became a symbol of freedom. <rs ref="cartoons_symbols.xml#columbia">Columbia</rs>, the
-              female personification of America, is often depicted wearing this type of cap, and
-              many characters in American political cartoons are shown either wearing these caps or
-              carrying poles decorated with liberty caps.<!-- do more research --></note>
-          </item>
-          <item xml:id="liberty_tree">
-            <label>Liberty tree</label>
-            <note type="symbol"
-              ><!-- see http://en.wikipedia.org/wiki/Liberty_Tree, David Hackett Fischer's "Liberty and Freedom" etc. for description --></note>
-          </item>
-          <item xml:id="lion">
-            <label>Lion</label>
-            <note type="symbol">Often used as a symbol of Great Britain. Nast also used lion to
-              represent President Ulysses S. Grant</note>
-          </item>
-          <item xml:id="marianne">
-            <label>Marianne</label>
-            <note type="symbol">Marianne is the National emblem of France. She is often depicted
-              wearing a Phrygian cap.</note>
-          </item>
-          <item xml:id="rail">
-            <label>Fence rail</label>
-            <note type="symbol">Many political cartoons of the 1860s show Abraham Lincoln holding a
-              fence rail, or refer to Lincoln as the "rail candidate." In his youth, before going
-              into politics, Lincoln split rails and performed other difficult manual labor on the
-              American frontier. When he campaigned for president in 1860, he and his supporters
-              used the fence rail as a prop to remind voters of his humble origins and strong work
-              ethic. At a Republican state convention in Illinois in 1860, Lincoln's supporters made
-              a splash by dramatically marching into the hall carrying pieces of fence rail
-              decorated with a pro-Lincoln banner, cementing Lincoln's near-mythical identity as
-              "the rail splitter." Political cartoons of the era often invoked the image of the
-              fence rail to symbolize Lincoln's candidacy.</note>
-          </item>
-          <item xml:id="statue_of_liberty">
-            <label>Statue of Liberty</label>
-          </item>
-          <item xml:id="tortoise">
-            <label>Tortoise</label>
-            <note type="symbol">In political cartoons of the 1820s-1840s, the tortoise (or
-              land-dwelling turtle) was used to symbolize the Whig party. In the circa-1829
-              lithographed cartoon "A New Map of the United States..." John Quincy Adams and other
-              Whigs are shown riding on the back of a gigantic tortoise.</note>
-          </item>
-          <item xml:id="uncle_sam">
-            <label>Uncle Sam</label>
-            <note type="symbol">Representation of the United States as a man.</note>
-          </item>
-          <item xml:id="unicorn">
-            <label>Unicorn</label>
-            <note type="symbol">Used occasionally to symbolize Great Britain; in the 1870s, Thomas
-              Nast also used a unicorn wearing a monocle to represent the New York Times.</note>
-          </item>
-        </list>
-      </div>
-    </body>
-  </text>
+    <text>
+        <body>
+            <div type="ography">
+                <list type="symbols">
+<item xml:id="alligator">
+  <label>Alligator</label>
+  <note type="symbol"><p>During the 1820s, the alligator became associated with the presidential campaigns of Andrew Jackson and with Jacksonian Democracy in general. During the campaigns of 1824 and 1828, Jackson and his supporters used the popular song <ref target="http://www.loc.gov/teachers/lyrical/songs/docs/kentucky_trans.pdf">The Hunters of Kentucky; Or, Half Horse and Half Alligator"</ref> on the campaign trail. The song, alternately titled "The Battle of New Orleans" celebrated then-General Jackson's victory at the Battle of New Orleans during the War of 1812. The reference to the "half horse, half alligator" seems obscure now, but in the early national period, this semi-mythic creature was associated with Kentuckians and the rugged inhabitants of the Southwestern territories of the early United States.</p>
+<p>Ironically, although Jackson's candidacy was associated with the alligator symbol, Jackson's presidential rival, John Quincy Adams, actually kept a pet alligator, given to him by the Marquis de Lafayette, in a bathtub at the White House.</p></note>
+</item>
+<item xml:id="britannia">
+  <label>Britannia</label>
+  <note type="symbol">Symbolic representation of Great Britain, often depicted as a woman holding a shield and a spear.</note>
+</item>
+<item xml:id="brother_jonathan">
+  <label>Brother Jonathan</label>
+  <note type="symbol">Early personification of the United States as a man; precursor to Uncle Sam.</note>
+</item>
+<item xml:id="bull_moose">
+  <label>Bull moose</label>
+  <note type="symbol">The bull moose is a symbol for the Progressive Party which was founded by President Theodore Roosevelt in 1912. </note>
+</item>
+<item xml:id="cerberus">
+  <label>Cerberus</label>
+  <note type="symbol">Cerberus is a three-headed dog with a serpent's tail who, in Greek and Roman mythology, guards the entrance to the underworld.</note>
+</item>
+<item xml:id="columbia">
+  <label>Columbia</label>
+  <note type="symbol">Personification of America, often depicted as a woman wearing a liberty cap (or holding a staff topped with a liberty cap) and accompanied by an American bald eagle.</note>
+</item>
+<item xml:id="death">
+  <label>Death</label>
+  <note type="symbol">Death is often personified as a skeleton holding a scythe. Death often wears a black cloak and hood.</note>
+</item>
+<item xml:id="devil">
+  <label>Devil</label>
+  <note type="symbol">An evil spirit in the Christian, Jewish, and Islamic traditions, often depicted as a demon with horns, hooves, and a tail, sometimes also depicted with wings and/or a pitchfork. Nicknames or alternative titles for the devil include "Old Nick," Satan, and Beelzebub.
+
+<!-- depicted in 2562, 11508 --></note>
+</item>
+<item xml:id="dogs">
+  <label>Dogs</label>
+  <note type="symbol">Dogs are often depicted in political cartoons as representatives of the press.</note>
+</item>
+<item xml:id="donkey">
+  <label>Donkey</label>
+  <note type="symbol">Usage as a symbol of the Democratic Party attributed to Thomas Nast by many, but "jackass" also used in iconography of Andrew Jackson's 1828 presidential campaign. Nast also used donkey to symbolize Democratic-supporting newspaper the New York Herald during the 1870s.</note>
+</item>
+<item xml:id="dove">
+  <label>Dove</label>
+  <note type="symbol">The dove, often depicted holding an olive branch in its beak, is a symbol of peace.</note>
+</item>
+<item xml:id="elephant">
+  <label>Elephant</label>
+  <note type="symbol">The elephant is a symbol of the Republican Party.  The origin of the Republican Elephant is attributed to Thomas Nast.</note>
+</item>
+<item xml:id="fame">
+  <label>Fame</label>
+  <note type="symbol">Personification of fame, often depicted as a winged goddess holding a laurel wreath and a trumpet. In Greek mythology, this goddess is called Pheme; in Roman mythology, Fama.</note>
+</item>
+<item xml:id="fox">
+  <label>Fox</label>
+  <note type="symbol">Cartoonist Thomas Nast occasionally drew the fox as a symbol of the Democratic Party. In several cartoons in the Historic Images, New Technologies (HINT) Project, artists drew actual foxes to represent men with the surname "Fox."</note>
+</item>
+<item xml:id="giraffe">
+  <label>Giraffe</label>
+  <note type="symbol">In the 1870s, Thomas Nast used the giraffe to represent the New York Tribune.</note>
+</item>
+<item xml:id="jack_downing">
+  <label>Jack Downing</label>
+  <note type="symbol">A fictional character popularized in a serial newspaper narrative by author Seba Smith, Jack Downing (who, over the course of his adventures, rose to the rank of Major) appears frequently in American political cartoons from the early republic as a stand-in for the American everyman. Several of the cartoons in the Historic Images, New Technologies (HINT) project bear the "signature" of Jack Downing's nephew, "Zek" Downing.</note>
+</item>
+<item xml:id="john_bull">
+  <label>John Bull</label>
+  <note type="symbol">Symbolic representation of Great Britain, often depicted as a paunchy, middle-aged man.</note>
+</item>
+<item xml:id="justice">
+  <label>Justice</label>
+  <note type="symbol">Justice is often depicted as a woman wearing a blindfold and holding a sword and a set of scales. <!-- provide explanation of what the sword, blindfold, and scales signify --></note>
+</item>
+<item xml:id="liberty_cap">
+  <label>Liberty cap</label>
+  <note type="symbol">Liberty caps, also sometimes called Phrygian caps, appear frequently in political cartoons. In ancient Rome, freed slaves wore pointed hats, with the peak bent or turned at the side or front, to indicate their status; thus, the Phrygian cap became a symbol of freedom. <rs ref="cartoons_symbols.xml#columbia">Columbia</rs>, the female personification of America, is often depicted wearing this type of cap, and many characters in American political cartoons are shown either wearing these caps or carrying poles decorated with liberty caps.<!-- do more research --></note>
+</item>
+<item xml:id="liberty_tree">
+  <label>Liberty tree</label>
+  <note type="symbol"><!-- see http://en.wikipedia.org/wiki/Liberty_Tree, David Hackett Fischer's "Liberty and Freedom" etc. for description --></note>
+</item>
+<item xml:id="lion">
+  <label>Lion</label>
+  <note type="symbol">The lion appears on the royal coat of arms of the United Kingdom and is often used as a symbol of Great Britain. American cartoonist Thomas Nast also drew  President Ulysses S. Grant as a lion.</note>
+</item>
+<item xml:id="marianne">
+  <label>Marianne</label>
+  <note type="symbol">Marianne is the National emblem of France.  She is often depicted wearing a Phrygian cap.</note>
+</item>
+<item xml:id="rail">
+  <label>Fence rail</label>
+  <note type="symbol">Many political cartoons of the 1860s show Abraham Lincoln holding a fence rail, or refer to Lincoln as the "rail candidate." In his youth, before going into politics, Lincoln split rails and performed other difficult manual labor on the American frontier. When he campaigned for president in 1860, he and his supporters used the fence rail as a prop to remind voters of his humble origins and strong work ethic. At a Republican state convention in Illinois in 1860, Lincoln's supporters made a splash by dramatically marching into the hall carrying pieces of fence rail decorated with a pro-Lincoln banner, cementing Lincoln's near-mythical identity as "the rail splitter." Political cartoons of the era often invoked the image of the fence rail to symbolize Lincoln's candidacy.</note>
+</item>
+<item xml:id="statue_of_liberty">
+  <label>Statue of Liberty</label>
+</item>
+<item xml:id="tortoise">
+  <label>Tortoise</label>
+  <note type="symbol">In political cartoons of the 1820s-1840s, the tortoise (or land-dwelling turtle) was used to symbolize the Whig party. In the circa-1829 lithographed cartoon "A New Map of the United States..." John Quincy Adams and other Whigs are shown riding on the back of a gigantic tortoise.</note>
+</item>
+<item xml:id="uncle_sam">
+  <label>Uncle Sam</label>
+  <note type="symbol">Representation of the United States as a man.</note>
+</item>
+<item xml:id="unicorn">
+  <label>Unicorn</label>
+  <note type="symbol">Used occasionally to symbolize Great Britain; in the 1870s, Thomas Nast also used a unicorn wearing a monocle to represent the New York Times.</note>
+</item>
+</list>
+</div>
+</body>
+</text>
 </TEI>

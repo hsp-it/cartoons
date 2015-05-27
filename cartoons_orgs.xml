@@ -1,1050 +1,501 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
-
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title type="main">TEI description of organizations mentioned and depicted in the Historic
-          Images, New Technologies (HINT) Project</title>
-        <author>
-          <persName key="ENT.000003526">Moloshok, Rachel</persName>
-        </author>
-        <author>
-          <persName key="ENT.000003352">Newhouse, Sarah</persName>
-        </author>
-        <author>
-          <persName key="ENT.000003528">Dorman, Dana</persName>
-        </author>
-      </titleStmt>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">TEI description of organizations mentioned and depicted in the
+                    Historic Images, New Technologies (HINT) Project</title>
+                <author>
+                    <persName key="ENT.000003526">Moloshok, Rachel</persName>
+                </author>
+                <author>
+                    <persName key="ENT.000003352">Newhouse, Sarah</persName>
+                </author>
+                <author>
+                    <persName key="ENT.000003528">Dorman, Dana</persName>
+                </author>
+            </titleStmt>
 
-      <publicationStmt>
-        <publisher><orgName key="ENT.000002473">Historical Society of
-          Pennsylvania</orgName></publisher>
-        <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
-        <availability status="restricted">
-          <p>Copyright 2014, The Historical Society of Pennsylvania. HSP makes a claim of copyright
-            only to original contributions made by the Historic Images, New Technologies (HINT)
-            Project participants and other staff. Permission is granted to download, transmit or
-            otherwise reproduce, distribute or display the text contributions to this work claimed
-            by HSP for non-profit educational purposes, provided that this header is included in its
-            entirety. For inquiries about commercial uses, please contact the Historical Society of
-            Pennsylvania. HSP retains the rights of all images unless otherwise noted. Possession of
-            an HSP digital image does not constitute permission to use or publish it. Requests for
-            digital imaging, other reproduction services, and the intended use of reproductions must
-            be made in writing to the Rights and Reproductions Coordinator at rnr@hsp.org.</p>
-        </availability>
-        <date when="2014"/>
-      </publicationStmt>
+            <publicationStmt>
+                <publisher><orgName key="ENT.000002473">Historical Society of
+                    Pennsylvania</orgName></publisher>
+                <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
+                <availability status="restricted">
+                    <p>Copyright 2014, The Historical Society of Pennsylvania. HSP makes a claim of
+                        copyright only to original contributions made by the Historic Images, New
+                        Technologies (HINT) Project participants and other staff. Permission is
+                        granted to download, transmit or otherwise reproduce, distribute or display
+                        the text contributions to this work claimed by HSP for non-profit
+                        educational purposes, provided that this header is included in its entirety.
+                        For inquiries about commercial uses, please contact the Historical Society
+                        of Pennsylvania. HSP retains the rights of all images unless otherwise
+                        noted. Possession of an HSP digital image does not constitute permission to
+                        use or publish it. Requests for digital imaging, other reproduction
+                        services, and the intended use of reproductions must be made in writing to
+                        the Rights and Reproductions Coordinator at rnr@hsp.org.</p>
+                </availability>
+                <date when="2014"/>
+            </publicationStmt>
 
-      <seriesStmt>
-        <title level="s" type="project" key="CARTOONS">Historic Images, New Technologies (HINT)
-          Project</title>
-      </seriesStmt>
+            <seriesStmt>
+                <title level="s" type="project" key="CARTOONS">Historic Images, New Technologies
+                    (HINT) Project</title>
+            </seriesStmt>
 
-      <sourceDesc>
-        <p>Born digital.</p>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <projectDesc>
-        <p>The Historic Images, New Technologies (HINT) project aims to enhance description and
-          discovery of the Historical Society of Pennsylvania's graphics materials and promote the
-          linking and sharing of content among institutions and scholars. The project will result in
-          an update to HSP's digital image viewer and an online digital history exhibit, featuring
-          500 encoded political cartoons, that will demonstrate the new viewer's capabilities and
-          provide interpretive and contextual materials to encourage users to interact with
-          historical images in new ways. This project was funded by a grant from the National
-          Historical Publications and Records Commission's (NHPRC) Innovation in Archives and
-          Documentary Editing program.</p>
-      </projectDesc>
-    </encodingDesc>
-    <revisionDesc>
-      <change who="HSP" when="2015-05-26">Exported from Collective Access.</change>
-    </revisionDesc>
-  </teiHeader>
+            <sourceDesc>
+                <p>Born digital.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The Historic Images, New Technologies (HINT) project aims to enhance description
+                    and discovery of the Historical Society of Pennsylvania's graphics materials and
+                    promote the linking and sharing of content among institutions and scholars. The
+                    project will result in an update to HSP's digital image viewer and an online
+                    digital history exhibit, featuring 500 encoded political cartoons, that will
+                    demonstrate the new viewer's capabilities and provide interpretive and
+                    contextual materials to encourage users to interact with historical images in
+                    new ways. This project was funded by a grant from the National Historical
+                    Publications and Records Commission's (NHPRC) Innovation in Archives and
+                    Documentary Editing program.</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change who="HSP" when="2015-05-27">Exported from Collective Access.</change>
+        </revisionDesc>
+    </teiHeader>
 
-  <text>
-    <body>
-      <div type="ography">
-        <listOrg>
-          <org xml:id="ENT.000003574">
-            <orgName key="ENT.000003574">Albany Gazette</orgName>
-            <note type="org"><p>Founded by brothers Alexander and James Robertson in November 1771,
-                the <hi rendition="#italics">Albany Gazette</hi> was the first newspaper published
-                in the New York colony outside of New York City. The Robertson brothers printed the
-                Gazette for less than a year, as difficulties obtaining supplies, distributing the
-                paper, and a lack of subscriptions overwhelmed the small operation; their last issue
-                was published in August 1772. The brothers began their publication ambivalent about
-                the impending conflict for American independence and their paper was largely devoid
-                of content relating to political tensions. The <hi rendition="#italics">Albany
-                  Gazette</hi> was resurrected after the Revolution in 1784 by another pair of
-                brothers, Charles and George Webster. Under their direction, the <hi
-                  rendition="#italics">Albany Gazette</hi> largely matched the general New York
-                political leanings toward Federalism, and they reprinted 12 of the 85 Federalist
-                papers in 1788. The <hi rendition="#italics">Albany Gazette</hi> ceased printing in
-                1817.</p></note>
-            <bibl><bibl>“About The Albany Gazette. (Albany, N.Y.) 1784-1817 Chronicling America
-                Library of Congress.” Accessed April 20, 2015. <ref
-                  target="http://chroniclingamerica.loc.gov/lccn/sn83030894/">Link</ref></bibl>
-              <bibl>Brennan, Denis P., "Open to All Parties: Alexander and James Robertson, Albany
-                Printers, 1771-1777," <hi rendition="#italics">The Hudson Valley Regional
-                  Review</hi> (March 1993), 25-39. <ref
-                  target="http://www.hudsonrivervalley.org/review/pdfs/hvrr_10pt1_brennan.pdf"
-                /></bibl>
-              <bibl>“Charles R. Webster, New York State Museum.” Accessed April 20, 2015.
-                http://www.nysm.nysed.gov/albany/bios/w/crwebster6841.html.</bibl>
-              <bibl>“Publius in the Provinces: Where Was ‘The Federalist’ Reprinted Outside New York
-                City? On JSTOR.” Accessed April 20, 2015.
-                http://www.jstor.org/stable/1923310?seq=1#page_scan_tab_contents.</bibl>
-              <bibl>Thomas, I., &amp; McCorison, M. A. (1970). <hi rendition="#italics">The history
-                  of printing in America: With a biography of printers &amp; an account of
-                  newspapers.</hi> New York: Weathervane Books.</bibl>
-            </bibl>
-          </org>
-          <org xml:id="ENT.000003691">
-            <orgName key="ENT.000003691">Arkell Publishing Company</orgName>
-          </org>
-          <org xml:id="ENT.000003326">
-            <orgName key="ENT.000003326">Bank of the United States (1816-1836)<orgName type="alt"
-                >Second Bank of the United States</orgName></orgName>
-            <note type="org">The Second Bank of the United States was chartered by Congress in1816
-              to perform essentially the same duties as the First Bank: to stabilize and unify the
-              country’s economy. In its first eight years it was plagued by mismanagement,
-              instability, and fraud. In 1823, Nicholas Biddle became the President of the Bank and
-              gained control over a large portion of its functionality. However, Andrew Jackson was
-              elected as President in 1828 on a largely anti-Bank platform, arguing that the Bank of
-              the United States violated republican ideals. He vetoed the Bank’s early charter
-              renewal in 1832, and it expired in 1836; most of its funds were moved to state banks,
-              although Biddle converted the Bank to a state-chartered corporation in Pennsylvania
-              just before its expiration. The Bank was eventually totally liquidated in 1841. The
-              building of the Second Bank of the United States was designed by William Strickland,
-              modeled on the Greek Parthenon. </note>
-            <bibl>
-              <bibl>“American History From Revolution To Reconstruction and beyond, Second Bank of
-                the United States (1816-1836) A Brief History of Central Banking in the United
-                States - Edward Flaherty.” Accessed April 17, 2015. <ref
-                  target="http://www.let.rug.nl/usa/essays/general/a-brief-history-of-central-banking/second-bank-of-the-united-states-(1816-1836).php"
-                  >Link</ref>
-              </bibl>
-              <bibl>“Second Bank of the United States - Independence National Historical Park (U.S.
-                National Park Service).” Accessed April 17, 2015. <ref
-                  target="http://www.nps.gov/inde/learn/historyculture/places-secondbank.htm"
-                  >Link</ref></bibl></bibl>
-            <note type="internal">depicted 11508;
-              http://id.loc.gov/authorities/names/n50082233.html</note>
-          </org>
-          <org xml:id="ENT.000003575">
-            <orgName key="ENT.000003575">Boston Courier</orgName>
-            <note type="org"><p>The <hi rendition="#italics">Boston Courier</hi> was the first daily
-                newspaper printed in Boston, with its first issue published on March 2, 1824. The
-                  <hi rendition="#italics">Boston Courier</hi> was founded, published, and edited by
-                prominent Boston conservative Joseph T. Buckingham, who had gained notoriety for
-                publishing the New England Galaxy and Masonic Magazine. The <hi rendition="#italics"
-                  >Boston Courier</hi> was an early mouthpiece of the Whig Party and before that,
-                the National Republicans; the paper spent a large portion of its early issues
-                publishing pro-tariff editorial letters written by Buckingham. The newspaper was
-                also notable for its “Geoponics” columns, published every Saturday, which gave
-                readers useful information about farming practices and tools. The columns were
-                distinct for a paper based in a large city. </p>
-              <p>Buckingham sold out his shares in the paper in 1848, and his sons, Joseph H.
-                Buckingham and Edwin Buckingham, who had been involved with the editing and
-                publishing the paper since 1831, also abandoned the project to their longtime
-                partner E.B. Foster. The paper changed hands and political profiles several times in
-                the years leading up to the Civil War, becoming a conservative weekly paper in 1871.
-              </p></note>
-            <bibl><bibl>“About Boston Courier. ([Boston, Mass.]) 1824-1851, Chronicling America,
-                Library of Congress.” Accessed April 20, 2015. <ref
-                  target="http://chroniclingamerica.loc.gov/lccn/sn84023099/">Link</ref>
-              </bibl>
-              <bibl>Buckingham, Joseph T. 1779-1861. <hi rendition="#italics">Personal Memoirs and
-                  Recollections of Editorial Life</hi>. Boston: Ticknor, Reed, and Fields,
-                1852.</bibl>
-              <bibl>Hudson, Frederic. <hi rendition="#italics">Journalism in the United States From
-                  1690 to 1872</hi>. New York: Harper &amp; Row, 1969.</bibl>
-              <bibl>Thomas, I., &amp; McCorison, M. A. (1970). <hi rendition="#italics">The History
-                  of Printing in America: With a biography of Printers &amp; an Account of
-                  Newspapers</hi>. New York: Weathervane Books.</bibl></bibl>
-          </org>
-          <org xml:id="ENT.000003598">
-            <orgName key="ENT.000003598">Cincinnati Gazette</orgName>
-            <note type="org"><p>The <hi rendition="#italics">Cincinnati Gazette</hi> was founded as
-                a weekly paper in July 1815 by publisher Thomas Palmer. Later that year, the <hi
-                  rendition="#italics">Gazette</hi> merged with another newly-founded paper, <hi
-                  rendition="#italics">Liberty Hall</hi> and <hi rendition="#italics">Cincinnati
-                  Mercury</hi>, to publish as <hi rendition="#italics">Cincinnati Gazette and
-                  Liberty Hall</hi>, and was owned and operated by Wesley Smead and S.S.
-                L’Hommedieu. The paper published only weekly until 1827, when it became Cincinnati’s
-                first daily paper, boasting new and modern printing technologies. Under the new and
-                prominent editor Charles Hammond, the <hi rendition="#italics">Cincinnati
-                  Gazette</hi> was published daily, and the <hi rendition="#italics">Cincinnati
-                  Gazette and Liberty Hall</hi> continued to be published weekly. The <hi
-                  rendition="#italics">Gazette</hi> was printed until late 1881. </p>
-            </note>
-            <bibl><bibl>“History of Cincinnati, Ohio, with Illustrations and Biographical Sketches:
-                Ford, Henry A., Comp: Internet Archive.” Accessed March 25, 2015. <ref
-                  target="https://archive.org/details/cu31924032193520">Link</ref></bibl></bibl>
-            <note type="internal">Chronicling america:
-              http://chroniclingamerica.loc.gov/lccn/sn85034482/</note>
-          </org>
-          <org xml:id="ENT.000003600">
-            <orgName key="ENT.000003600">Colored Orphan Asylum and Association for the Benefit of
-              Colored Orphans (New York, N.Y.)</orgName>
-            <note type="org"><p>Founded by three white Quaker women in 1836, the New York Colored
-                Orphan’s Asylum housed destitute African American orphans. Founders Anna and Hanna
-                Shotwell and Mary Murry purchased a small building at 12th Street and Fifth Avenue
-                in Manhattan, and began housing 11 black orphans rescued from almshouses. In 1843,
-                the organization moved to larger house at 43rd and Fifth Avenue, which had a much
-                larger capacity. </p>
-              <p> In the summer of 1863, New York City saw the largest armed insurrection outside of
-                the Civil War: the New York Draft Riots. The riots were fueled by underlying racial
-                and class tensions in the city, and broke out after Congress passed new laws
-                allowing men to pay $300 to hire a replacement. Beginning on July 13th a white,
-                majority-Irish mob took to the streets and began burning buildings, smashing
-                windows, and pulling up cobblestones in the streets. A mob seized the Orphan’s
-                Asylum at around 4 PM, stealing everything of value, including donated infant's
-                clothing, before setting the building ablaze. Overall in the draft riots that week,
-                there were 120 deaths and 2000 people injured.</p>
-              <p>All 233 children and in-house staff survived the attack, and the organization was
-                forced to begin again on Randall’s Island (now Roosevelt Island), after all its
-                assets were destroyed in the fire, an estimated loss of $80,000. The Asylum opened a
-                new home in Harlem in 1867, and then relocated again to Riverdale, in the Bronx, in
-                1907. It continues to exist today as Harlem-Dowling Children’s Services. </p></note>
-            <bibl><bibl> “The Burning of the Colored Orphan Asylum, NYC | Jeffrey Kraus Antique
-                Photographics.” Accessed March 25, 2015. <ref
-                  target="http://antiquephotographics.com/the-colored-orphan-asylum-nyc/"
-                >Link</ref></bibl>
-              <bibl>“MAAP | Place Detail: Colored Orphan Asylum.” Accessed March 25, 2015. <ref
-                  target="http://maap.columbia.edu/place/35">Link</ref></bibl>
-              <bibl> “The New York Draft Riots and the Burning of the Colored Orphan Asylum New-York
-                Historical Society -.” Accessed March 25, 2015. <ref
-                  target="http://blog.nyhistory.org/burning-of-orphan-asylum/"
-              >Link</ref></bibl></bibl>
-            <note type="internal">http://id.loc.gov/authorities/names/n2005009223.html. Est. 1836,
-              burned during NYC draft riots of 1863; depicted in 11820</note>
-          </org>
-          <org xml:id="ENT.000003577">
-            <orgName key="ENT.000003577">Columbian Centinel</orgName>
-            <note type="org"><p>The <hi rendition="#italics">Columbian Centinel</hi> was a
-                continuation of the <hi rendition="#italics">Massachusetts Centinel</hi> and the <hi
-                  rendition="#italics">Republican Journal</hi>, first published by Benjamin Russell
-                and William Warden in Boston, 1784. The publishers changed the paper’s name to <hi
-                  rendition="#italics">Columbian Centinel</hi> to reflect their project taking on
-                more national news, rather than Massachusetts-specific content; the first issue
-                under that title was published on June 16, 1790. The <hi rendition="#italics"
-                  >Columbian Centinel</hi> was fiercely Federalist and feuded with its rival, the
-                anti-Federalist Boston Chronicle from 1790 to 1793. The <hi rendition="#italics"
-                  >Columbian Centinel</hi> had the largest subscription base of any newspaper in
-                Boston in the years after the Revolution, and successfully reported on the
-                Napoleonic Wars in Europe as well as national and local news. </p>
-              <p>As Federalism dissolved with the election of James Monroe in 1816, the influence of
-                the <hi rendition="#italics">Columbian Centinel</hi> waned. It merged with the <hi
-                  rendition="#italics">New England Palladium</hi> in 1830, and then again in 1836
-                with the <hi rendition="#italics">Boston Gazette</hi>. It was finally bought out by
-                the <hi rendition="#italics">Boston Daily Advertiser</hi> in 1840. </p>
-            </note>
-            <bibl><bibl>Hudson, Frederic. <hi rendition="#italics">Journalism in the United States
-                  From 1690 to 1872</hi>. New York: Harper &amp; Row, 1969.</bibl></bibl>
-          </org>
-          <org xml:id="ENT.000003570">
-            <orgName key="ENT.000003570">Commercial Advertiser</orgName>
-            <note type="org"><p>Originally published by Noah Webster under the title <hi
-                  rendition="#italics">American Minerva</hi>, the paper began as the <hi
-                  rendition="#italics">Commercial Advertiser</hi> in September 1797 after a series
-                of intermediate name changes. Webster ceased his work with the paper in 1803, and
-                Zachariah Lewis took over as publisher. Under its two first publishers the <hi
-                  rendition="#italics">Commercial Advertiser</hi> was strongly Federalist, and when
-                Lewis sold the paper to William Stone (editor) and Francis Hall (publisher) in April
-                1820, it remained loyal to DeWitt Clinton and the Federalist project to construct
-                the Erie Canal. With Stone and Hall, the paper became known for publishing
-                cutting-edge literary works by Robert Charles Sands, Lucretia and Margaret Davidson,
-                and other prominent poets. </p>
-              <p> In the election of 1828, the <hi rendition="#italics">Commercial Advertiser</hi>
-                supported National Republican candidate John Quincy Adams, who lost to Andrew
-                Jackson; even with a losing endorsement, the paper remained popular and moved to
-                support the newly forming Whig Party. During these years, the <hi
-                  rendition="#italics">Commercial Advertiser</hi> also gained notoriety for publicly
-                feuding with novelist James Fennimore Cooper; along with a number of other papers,
-                Cooper sued the paper in 1840 for libel over reviews of his books <hi
-                  rendition="#italics">Home as Found</hi> and <hi rendition="#italics">History of
-                  the Navy in the United States</hi>. Early in 1844, Stone left his editorship due
-                to illness and died soon after; Francis Hall assumed his position. Leadership of the
-                paper changed hands several times over the next decades, until the <hi
-                  rendition="#italics">Commercial Advertiser</hi> was rebranded in 1904 as <hi
-                  rendition="#italics">The Globe and Commercial Advertiser</hi>, popularly known as
-                the <hi rendition="#italics">New York Globe</hi>. In 1923, Frank Munsey bought the
-                paper and merged it with the <hi rendition="#italics">New York Sun</hi>. </p>
-            </note>
-            <bibl><bibl>Wilson, James Grant. The Memorial History of the City of New-York: From Its
-                First Settlement to the Year 1892. [New York]: New York History Co.,
-              1892.</bibl></bibl>
-          </org>
-          <org xml:id="ENT.000000844">
-            <orgName key="ENT.000000844">Currier &amp; Ives</orgName>
-            <note type="org">
-              <p>Perhaps the most famous and prolific lithography house, Currier and Ives was
-                founded on Nassau Street in New York City in 1834 by Nathaniel Currier. Currier
-                operated this print shop, with its factory around the corner on Spruce Street, for
-                70 years. Currier enlisted self-trained artist James Merritt Ives in 1857 to create
-                images for the firm. Under the new partnership, the business thrived; Currier and
-                Ives innovated an assembly line-like factory floor, with a work flowing from
-                artists, to lithographers, to letterers, to colorists in an efficient pattern.</p>
-              <p>By the time the firm closed in 1907, they had a working catalog of over 7,000
-                images in a variety of genres: popular news illustrations, political cartoons,
-                celebrity portraits, sentimental images of families, children, and animals, as well
-                as some copies of famous paintings. In the years after the Civil War, Currier and
-                Ives also began printing “darktown comics,” cartoons depicting racist stereotypes of
-                African-Americans. </p>
-              <p>Business slowed for the firm at the turn of the 20th century, as costs dropped on
-                photography and chromolithography, and hand-colored lithographs began to fall out of
-                style. Currier and Ives had also suffered a myriad of personal tragedies over their
-                careers and began to slow down. Just over a decade after the shop closed, after
-                World War I, Currier and Ives prints came to be regarded as important pieces of
-                Americana and became collectors’ items. </p></note>
-            <bibl><bibl>“Currier And Ives Dark Town, Currier &amp; Ives America Could Be a Dark
-                Place Art: Printmakers Gave Us Shiny, Happy Scenes of the Bucolic Life of the Haves,
-                but Moralizing, Hatred Were There, Too, Baltimore Sun." Accessed March 3, 2015. <ref
-                  target="http://articles.baltimoresun.com/1997-06-26/features/1997177066_1_currier-ives-ives-print-unintentionally-funny"
-                /></bibl>
-              <bibl>“Currier &amp; Ives, Printmakers to the American People.” Accessed March 3,
-                2015. <ref target="http://www.tfaoi.com/aa/2aa/2aa36.htm">Link</ref></bibl>
-            </bibl>
-            <note type="internal">LOC: http://id.loc.gov/authorities/names/n80126271</note>
-          </org>
-          <org xml:id="ENT.000003554">
-            <orgName key="ENT.000003554">E. C. MacFarlane &amp; Co.<orgName type="alt">E. C.
-                MacFarlane and Company</orgName></orgName>
-            <note type="internal">publisher for Wasp</note>
-          </org>
-          <org xml:id="ENT.000000637">
-            <orgName key="ENT.000000637">East India Company</orgName>
-          </org>
-          <org xml:id="ENT.000003578">
-            <orgName key="ENT.000003578">Evening Star</orgName>
-            <note type="org"><p>Founded by Mordecai Manuel Noah in September 1833, the <hi
-                  rendition="#italics">Evening Star</hi> was published in New York until August
-                1840. Noah invited Thomas Gill, previously the business manager for <hi
-                  rendition="#italics">The Evening Post</hi>, to handle the financial end of the <hi
-                  rendition="#italics">Evening Star</hi>. Founded after Noah had a serious falling
-                out with his once-ally President Jackson, the paper was an early promoter of Whig
-                politics. It endorsed William Henry Harrison for President in 1836 through his loss
-                to Martin Van Buren, and again in 1840, likely heavily influencing the outcome for
-                Harrison in New York.</p>
-              <p>Just after the 1840 elections, Gill passed away, and Noah was left unequipped to
-                handle the paper’s business alone. He sold it to the Commercial Advertiser in late
-                1840. </p></note>
-            <bibl><bibl>“About The Evening Star. (New York [N.Y.]) 1833-1840 Chronicling America
-                Library of Congress.” Accessed May 21, 2015. <ref
-                  target="http://chroniclingamerica.loc.gov/lccn/sn83030448/">Link</ref></bibl>
-              <bibl>Goldberg, Isaac. Major Noah: American-Jewish Pioneer. Philadelphia: The Jewish
-                Publication Society of America, 1936. </bibl>
-              <bibl>“Mordecai Manuel Noah: A Biographical Sketch - Simon Wolf - Google Books.”
-                Accessed May 21, 2015. <ref
-                  target="https://books.google.com/books?id=AUM4AQAAMAAJ&amp;dq=mordecai+manuel+noah+evening+star&amp;source=gbs_navlinks_s"
-                  >Link</ref></bibl></bibl>
-          </org>
-          <org xml:id="ENT.000003667">
-            <orgName key="ENT.000003667">Evening public ledger, 1914-1942 <orgName type="alt"
-                >Evening public ledger and the evening telegraph </orgName></orgName>
-            <note type="internal">Description in Chronicling Am:
-              http://chroniclingamerica.loc.gov/lccn/sn83045211/</note>
-          </org>
-          <org xml:id="ENT.000003653">
-            <orgName key="ENT.000003653">Evening telegraph </orgName>
-            <note type="internal">Chronicling America:
-              http://chroniclingamerica.loc.gov/lccn/sn83025925/ </note>
-          </org>
-          <org xml:id="ENT.000003683">
-            <orgName key="ENT.000003683">Frank Leslie's Budget of Fun</orgName>
-            <note type="internal">19th-century illustrated humor magazine, published by Frank
-              Leslie.</note>
-          </org>
-          <org xml:id="ENT.000003053">
-            <orgName key="ENT.000003053">Frank Leslie's illustrated newspaper</orgName>
-            <note type="org">
-              <p>Frank Leslie began his weekly illustrated newspaper in 1855, first edited by John
-                Y. Foster. Printed on large quarto sized paper, each issue was 16 pages, and ran a
-                mix of stories relating to war, politics, exploration, literature, and art,
-                interspersed with detailed woodblock prints. As print and imaging technology
-                progressed throughout the late 19th and early 20th century, <hi rendition="#italics"
-                  >Leslie’s Illustrated</hi> began using daguerreotypes, and later, more advanced
-                forms of photography for their illustrations. The paper became known for its images
-                from the battlefields of the Civil War, and ran stories by prominent authors
-                including Louisa May Alcott, Irving Hancock, Helen R. Martin, and Ellis Parker
-                Butler. Its content was largely hawkish and patriotic, but was also followed for its
-                coverage for other national events like the Klondike gold rush in 1897.</p>
-              <p>Leslie died in 1880, and his wife, Miriam Florence Leslie took over the paper. In
-                1902 she severed ties to <hi rendition="#italics">Leslie’s Illustrated</hi>,
-                although it kept the Leslie name, as it was a long-established brand. <hi
-                  rendition="#italics">Leslie’s Illustrated</hi> cycled through a series of names,
-                all variations on the original—it became <hi rendition="#italics">Frank Leslie’s
-                  Illustrated Weekly</hi> in 1891, <hi rendition="#italics">Leslie’s Illustrated
-                  Weekly</hi> in 1894, <hi rendition="#italics">Leslie’s Weekly</hi> in 1901, back
-                to <hi rendition="#italics">Leslie’s Illustrated Weekly</hi> in 1907, <hi
-                  rendition="#italics">Leslie's</hi> in 1912, <hi rendition="#italics">Leslie’s
-                  Illustrated Weekly Newspaper</hi> in 1914, and finally back to <hi
-                  rendition="#italics">Leslie's</hi> in 1920, before it ceased publication in 1922.
-              </p></note>
-            <bibl><bibl>“About Frank Leslie’s Illustrated Newspaper. (New York, N.Y.) 1855-1891,
-                Chronicling America Library of Congress.” Accessed April 8, 2015. <ref
-                  target="http://chroniclingamerica.loc.gov/lccn/sn86090491/">Link</ref></bibl>
-              <bibl>“Frank Leslie’s Weekly 1852-1922.” Accessed April 8, 2015. <ref
-                  target="http://www.accessible-archives.com/collections/frank-leslies-weekly/"
-                  >Link</ref></bibl></bibl>
-            <note type="internal">publisher of 11683</note>
-          </org>
-          <org xml:id="ENT.000003657">
-            <orgName key="ENT.000003657">Gazette Times</orgName>
-            <note type="internal">Chronicling Am:
-              http://chroniclingamerica.loc.gov/lccn/sn84024549/</note>
-          </org>
-          <org xml:id="ENT.000003540">
-            <orgName key="ENT.000003540">Harper &amp; Brothers</orgName>
-            <note type="org"><p> Harper &amp; Brothers was a publishing house founded as J.J. Harper
-                in 1817. In 1833, the company changed its name to Harper &amp; Brothers, to Harper
-                &amp; Row in 1962, and Harper Collins in 1990. Harper &amp; Brothers was
-                headquartered on Pearl Street in Manhattan, New York, and began publishing <hi
-                  rendition="#italics">Harper’s New Monthly Magazine</hi> in 1850. The company
-                gradually added more publications, beginning with <hi rendition="#italics">Harper’s
-                  Weekly</hi> in 1857, then <hi rendition="#italics">Harper’s Bazar</hi> in 1867,
-                and <hi rendition="#italics">Harper’s Young People</hi> in 1879. Throughout its
-                period of expanding periodical publication, Harper &amp; Brothers continued to
-                publish books. </p>
-              <p>In 1899, George B.M. Harvey became president of Harper &amp; Brothers. William
-                Randolph Hearst bought <hi rendition="#italics">Harper’s Bazaar</hi> in 1913.
-              </p></note>
-            <bibl><bibl>“HARPER and BROS. REORGANIZE. - G.B.M. Harvey, Editor and Proprietor of The
-                North American Review, Elected President of the Firm. - Front Page - NYTimes.com.”
-                Accessed March 25, 2015. <ref
-                  target="http://query.nytimes.com/gst/abstract.html?res=9505E2DB1530E132A25754C1A9679D94689ED7CF"
-                  >Link</ref></bibl></bibl>
-            <note type="internal">Publishers of Harper's Weekly;
-              http://id.loc.gov/authorities/names/n50041511.html</note>
-          </org>
-          <org xml:id="ENT.000003139">
-            <orgName key="ENT.000003139">Harper's Weekly</orgName>
-          </org>
-          <org xml:id="ENT.000003611">
-            <orgName key="ENT.000003611">J. Ottman Lithographic Company<orgName type="alt">Ottman
-                Lithographic Company</orgName></orgName>
-            <note type="internal">LOC: http://id.loc.gov/authorities/names/nr95031115 LOC name
-              authority record spells Ottman with one "n", but in the cartoon "If-The Inaugural
-              Dinner at the White House" (DAMS 11687), it is spelled "Ottmann."</note>
-          </org>
-          <org xml:id="ENT.000003581">
-            <orgName key="ENT.000003581">Journal of Commerce</orgName>
-            <note type="org">
-              <p>First printed in September 1827, New York City’s <hi rendition="#italics">Journal
-                  of Commerce</hi> made its name intercepting incoming shipping vessels far off the
-                shore in a schooner, taking note of their stock, and bringing the news to the harbor
-                before it reached other papers so that merchants could prepare their bids. The <hi
-                  rendition="#italics">Journal of Commerce</hi> was founded by Arthur Tappan, a silk
-                merchant and prominent abolitionist. In 1840, Tappan turned control over the paper
-                to Gereard Hallock and David Hale, editor and business manager respectively.</p>
-              <p>The <hi rendition="#italics">Journal of Commerce</hi> was unique in its coverage of
-                the Amistad case in 1839, as Tappan was spearheading the revolters’ defense; the
-                paper is largely credited with keeping the incident central to the national news
-                media’s focus. In 1840, it merged with the <hi rendition="#italics">New York
-                  Gazette</hi> to gain stronger circulation base.</p>
-              <p>Leading up to the Civil War, mirroring Hallock’s personal politics, the <hi
-                  rendition="#italics">Journal of Commerce</hi> advocated for the abolition of
-                slavery by legal means, taking a strong anti-war and states’ rights stance. Many
-                Republicans who had previously supported the paper were angered, and under the
-                Lincoln administration in 1861, Hallock was indicted for publishing material
-                supportive of the Confederacy; additionally the Postmaster General refused to
-                distribute the paper by mail. In order to placate the federal government, Hallock
-                retired, selling his shares in the paper to David M. Stone and William Cowper Prime. </p>
-              <p>The paper faced financial difficulties as printing technologies changed rapidly
-                after the Civil War and commerce and business news increasingly came from the new
-                Western states and territories, rather than New York Harbor. But the paper persists
-                into the 21st century having undergone a series of mergers, and is now published
-                daily as an online subscription-only paper.</p>
-            </note>
-            <bibl><bibl>Leach, Peter T. “Turning Back the Years.” <hi rendition="#italics">The
-                  Journal of Commerce</hi>. United Business Media, 2005. 30 January 2015.
-              </bibl></bibl>
-          </org>
-          <org xml:id="ENT.000003690">
-            <orgName key="ENT.000003690">Judge</orgName>
-          </org>
-          <org xml:id="ENT.000003618">
-            <orgName key="ENT.000003618">Kentucky Gazette, 1787-1848<orgName type="alt">Kentucke
-                Gazette</orgName></orgName>
-            <note type="org"><p><hi rendition="#italics">The Kentucke Gazette</hi> (later changed to
-                  <hi rendition="#italics">Kentucky Gazette</hi>) was established in Lexington by
-                John Bradford in 1787. It was the first newspaper printed in the Kentucky colony. In
-                its early days, Bradford labored on the publication virtually alone, writing the
-                content, setting the type, and printing it by hand, only later hiring an editorial
-                and printing staff including his son, Daniel Bradford, in 1802. The paper’s early
-                issues were often commented on the colony’s bid for independent statehood from
-                Virginia, which it achieved in 1792; Bradford was then appointed the first public
-                printer of the new state. Throughout his tenure on the paper, Bradford published
-                “personal journalism,” commenting on his own experiences on the paper and in
-                Lexington, and printed columns written by local personalities. Ownership of the <hi
-                  rendition="#italics">The Kentucke Gazette</hi> was passed down through the
-                Bradford family until it went defunct in 1848. </p></note>
-            <bibl><bibl>Evans, Herndon J. <hi rendition="#italics">The Newspaper Press in
-                  Kentucky</hi>. Lexington: The University Press of Kentucky, 1976.</bibl></bibl>
-            <note type="internal">Also known as "Kentucke Gazette".</note>
-          </org>
-          <org xml:id="ENT.000003163">
-            <orgName key="ENT.000003163">Keppler &amp; Schwarzmann<orgName type="alt">Keppler and
-                Schwarzmann</orgName></orgName>
-          </org>
-          <org xml:id="ENT.000000961">
-            <orgName key="ENT.000000961">King &amp; Baird<orgName type="alt">King und
-                Baird</orgName></orgName>
-            <note type="org"><p>Founded in 1838 at 607 Sansom Street in Philadelphia, King and Baird
-                Printers were among the largest print shops in the city. In its early years, Robert
-                P. King and Alexander Baird were the only two employees of the firm, King working as
-                compositor, solicitor, bookkeeper, foreman, proofreader, and purchaser, while Baird
-                operated a single hand press. By the time of Baird’s death in 1868, the business had
-                grown to include over 120 employees and 20 presses, some powered by steam. The firm
-                was well known for publishing in German and other foreign languages including
-                Swedish and Norwegian, as well as printing in the Cherokee syllabary, and in Grebo,
-                a West African language. </p></note>
-            <bibl><bibl>“American Dictionary of Printing and Bookmaking, Google Books," accessed
-                March 3, 2015 <ref
-                  target="https://books.google.com/books?id=nuc-AAAAYAAJ&amp;pg=PA316&amp;lpg=PA316&amp;dq=robert+p.+king+philadelphia+printer&amp;source=bl&amp;ots=oeBSFr9nzJ&amp;sig=YUxvIrLUnU-FsvdjrFHUQpMXkw4&amp;hl=en&amp;sa=X&amp;ei=8dnwVJ7pAomjgwTZ0oFg&amp;ved=0CEEQ6AEwBw#v=onepage&amp;q=alexander baird&amp;f=false"
-                  >Link</ref></bibl>
-              <bibl>“Robert P King (1815 - 1868), Find A Grave Photos," accessed March 3, 2015. <ref
-                  target="http://www.findagrave.com/cgi-bin/fg.cgi?page=pv&amp;GRid=68901464&amp;PIpi=41532436"
-                  >Link</ref></bibl></bibl>
-            <note type="internal">LOC: http://id.loc.gov/authorities/names/nr91044076.html</note>
-          </org>
-          <org xml:id="ENT.000003599">
-            <orgName key="ENT.000003599">Ku Klux Klan<orgName type="alt">KKK</orgName></orgName>
-            <note type="internal">http://id.loc.gov/authorities/names/n80076146.html (for
-              19th-century KKK); depicted in 11820</note>
-          </org>
-          <org xml:id="ENT.000003698">
-            <orgName key="ENT.000003698">L. Prang &amp; Co.</orgName>
-            <note type="internal">lithographer for political cartoon 11751_ Democracy: 1832,
-              1864</note>
-          </org>
-          <org xml:id="ENT.000003557">
-            <orgName key="ENT.000003557">Life</orgName>
-          </org>
-          <org xml:id="ENT.000003677">
-            <orgName key="ENT.000003677">Lincoln Young Men's Wide Awake Club<orgName type="alt">Wide
-                Awakes</orgName></orgName>
-            <note type="internal">depicted in 12332;
-              http://id.loc.gov/authorities/names/n99049259.html</note>
-          </org>
-          <org xml:id="ENT.000003582">
-            <orgName key="ENT.000003582">Lithography of Imbert</orgName>
-            <note type="org"><p> Anthony Imbert began a lithography company on Murray Street in New
-                York City in 1825, and gained notoriety for producing the plates for <hi
-                  rendition="#italics">Memoir</hi>, a commemorative book by Cadwallader D. Colden
-                celebrating the completion of the Erie Canal. The 35 plates in <hi
-                  rendition="#italics">Memoir</hi> showed a variety of new lithographic techniques,
-                and the book’s text proclaimed Imbert’s relatively new lithography business “the
-                most prominent in New York,” which was very likely an exaggeration. Imbert gained
-                notoriety as a lithographer of landscapes, and flourished as the Hudson River School
-                style and interest in New York scenes gained notoriety.</p>
-              <p> Imbert began lithographing music scores in 1827, and caricatures and satirical
-                images in 1828; between 1828 and his death in 1834 he issued 19 cartoons, more than
-                double that of any other publisher in the country. </p></note>
-            <bibl><bibl>Colden, Cadwallader D. <hi rendition="#italics">Memoir, prepared at the
-                  request of a committee of the Common Council of the city of New York, and
-                  presented to the mayor of the city, at the celebration of the completion of the
-                  New York canals.</hi> New York: Corp. of New York, 1825. </bibl>
-              <bibl>Gross, Robert A. and Mary Kelly.<hi rendition="#italics"> An Extensive Republic:
-                  Print, Culture, and Society in the New Nation, 1790-1840.</hi> Chapel Hill: UNC
-                Press Books, 2010. </bibl>
-              <bibl>Tatham, David. <hi rendition="#italics">Prints and Printmakers of New York
-                  State, 1825-1940.</hi> Syracuse: Syracuse University Press, 1986. </bibl></bibl>
-          </org>
-          <org xml:id="ENT.000000380">
-            <orgName key="ENT.000000380">Mayer, Merkel &amp; Ottmann</orgName>
-            <note type="internal">LOC: http://id.loc.gov/authorities/names/nr2001044226</note>
-          </org>
-          <org xml:id="ENT.000003620">
-            <orgName key="ENT.000003620">Meridian (MS) Mercury</orgName>
-            <note type="org"><p> The <hi rendition="#italics">Meridian Mercury</hi> was a paper
-                published in Meridian, Mississippi by Colonel Alexander Grice Horn. He began the <hi
-                  rendition="#italics">Mississippi Star</hi> in 1836, another eastern Mississippi
-                paper, before founding the Mercury. Horn was the editor and primary writer for the
-                paper, and was a staunch Democrat, unwaveringly supportive of the Confederate cause
-                during the Civil War. Horn also allegedly had ties to the Ku Klux Klan, and was
-                arrested on charges of riot, riotous homicide, and arson during the 1871 Meridian
-                race riots, although he was never indicted or charged.</p>
-              <p>Horn did not allow the financial department to have any bearing on editorial
-                content of the Mercury, and when he died in 1886, the paper followed, apparently
-                unable to become sustainable.</p>
-            </note>
-            <bibl><bibl>“Ancestors of Colonel Alexander Grice Horn Sr.” Accessed March 25, 2015.
-                  <ref
-                  target="http://freepages.genealogy.rootsweb.ancestry.com/~talbotfamilyhistory/3657.htm"
-                  >Link</ref></bibl>
-              <bibl>“Editors I Have Known Since the Civil War: rewritten and Reprinted from Robert
-                Hiram Henry - Google Books.” Accessed March 25, 2015. <ref
-                  target="https://books.google.com/books?id=PFEOAAAAIAAJ&amp;pg=PA55&amp;lpg=PA55&amp;dq=colonel+ag+horn&amp;source=bl&amp;ots=JoocvDq62Tsig=K-1Zh2XQeI-0HDsb9tsXIcD1xFA&amp;hl=en&amp;sa=X&amp;ei=MEQMVZDOMsWhNuGjgMAH&amp;ved=0CCQQ6AEwAQ#v=onepage&amp;q=colonel ag horn&amp;f=false"
-                  >Link</ref></bibl></bibl>
-            <note type="internal">Mentioned in 11820;
-              http://chroniclingamerica.loc.gov/lccn/sn85034453/; Newspaper published in Meridian,
-              Mississippi</note>
-          </org>
-          <org xml:id="ENT.000003748">
-            <orgName key="ENT.000003748">N. Currier (Firm)</orgName>
-            <note type="org">Lithography firm of Nathaniel Currier</note>
-            <note type="internal">publisher/lithographer of 12278.
-              http://id.loc.gov/authorities/names/n80126272.html</note>
-          </org>
-          <org xml:id="ENT.000003597">
-            <orgName key="ENT.000003597">National Advocate<orgName type="alt">The National advocate,
-                for the country</orgName></orgName>
-            <note type="internal">Early newspaper referenced in 11738. See
-              http://chroniclingamerica.loc.gov/lccn/sn83030516/</note>
-          </org>
-          <org xml:id="ENT.000003619">
-            <orgName key="ENT.000003619">National Gazette, 1791-1793</orgName>
-            <note type="org"><p>Founded in Philadelphia by poet and printer Philip Freneau, the <hi
-                  rendition="#italics">National Gazette</hi> began publishing in October 1791. The
-                paper was conceived of by Thomas Jefferson and his Democratic-Republican colleagues
-                to combat the <hi rendition="#italics">Federalist Gazette</hi> of the United States.
-                From the start, the paper was purely an organ of the Democratic - Republican Party;
-                Freneau was a college friend of James Madison’s, and the paper was almost totally
-                bankrolled by Jefferson. Additionally, George Washington and his administration,
-                along with Alexander Hamilton, repeatedly accused of Jefferson dictating the paper’s
-                content, although Freneau denied these allegations under oath. Madison himself wrote
-                numerous essays published by the Gazette anonymously. The paper was virulent in
-                attacking Adams and the Federalists, including Washington whenever he sided with
-                Federalists in a debate, repeatedly accusing the party of Toryism, and warning of
-                monarchical tendencies. Freneau went as far as to call Washington’s 61st birthday
-                party “a forerunner of other monarchical vices.” The <hi rendition="#italics"
-                  >National Gazette</hi> informally ceased printing in October 1793, during the
-                Yellow Fever epidemic in Philadelphia. A few months later, Jefferson resigned from
-                his position as Washington’s Secretary of State, dissipating Freneau’s funding for
-                the paper. </p>
-            </note>
-            <bibl><bibl>Hudson, Frederic. <hi rendition="#italics">Journalism in the United
-                  States</hi>. New York: Harper &amp; Brothers, 1873. </bibl>
-              <bibl>“National Gazette George Washington’s Mount Vernon." Accessed February 23, 2015.
-                  <ref
-                  target="http://www.mountvernon.org/research-collections/digital-encyclopedia/article/national-gazette/"
-                  >Link</ref></bibl></bibl>
-          </org>
-          <org xml:id="ENT.000003628">
-            <orgName key="ENT.000003628">National Intelligencer</orgName>
-            <note type="org"><p>Following the <hi rendition="#italics">Independent Gazetteer</hi> of
-                Philadelphia, the <hi rendition="#italics">National Intelligencer</hi> was founded
-                in 1800, when the federal government moved from Philadelphia to Washington D.C. It
-                was first owned by Samuel Harrison Smith, who was soon replaced by Joseph Gales and
-                William Winston Seaton. Under Seaton and Gales, the Intelligencer became a
-                stenographic paper, recording and publishing debates taking place on the floor of
-                Congress and the House of Representatives. The paper remained popular through the
-                Madison administration, but its offices were partially destroyed during the British
-                occupation of Washington in the War of 1812; however, this only spurred the paper on
-                to more patriotic popularity.</p>
-              <p> The <hi rendition="#italics">Intelligencer</hi> operated as the organ of all of
-                the federal administrations until Andrew Jackson’s election in 1828, when it sided
-                with the Whig party, and featured essays and columns written by the strongest voices
-                of the opposition: Henry Clay, Daniel Webster, and even John Calhoun, Jackson’s Vice
-                President. However, as a partisan paper, the <hi rendition="#italics"
-                  >Intelligencer</hi> steadily declined in popularity; it was debt-ridden by the end
-                of the Civil War, and was bought by Alexander del Mar in 1869. He then merged it
-                with the <hi rendition="#italics">Washington Express</hi>.</p></note>
-            <bibl><bibl>“Geo. P. Rowell &amp; Co’s American Newspaper Directory, Containing Accurate
-                Lists of All the Newspapers and Periodicals Published in the United States and
-                Territories, and the Dominion of Canada, and British Colonies of North America;
-                Together with a Description of the Towns and Cities in Which They Are Published,
-                1872, Page: 518 UNT Digital Library." Accessed March 3, 2015. <ref
-                  target="http://digital.library.unt.edu/ark:/67531/metadc9262/m1/517/">Link</ref>
-              </bibl>
-              <bibl>Hudson, Frederic. <hi rendition="#italics">Journalism in the United States</hi>.
-                New York: Harper &amp; Brothers, 1873.</bibl></bibl>
-          </org>
-          <org xml:id="ENT.000003317">
-            <orgName key="ENT.000003317">New York Courier and Enquirer</orgName>
-            <note type="org"><p>The <hi rendition="#italics">New York Courier and Enquirer</hi>
-                formed in 1829 with the merger of James Watson Webb’s <hi rendition="#italics">New
-                  York Morning Courier</hi> and the <hi rendition="#italics">New-York Enquirer</hi>,
-                edited by Mordecai Noah. Webb assumed editorship over the new paper, and after
-                hiring associate editor James Gordon Bennett, it became an early mouthpiece of the
-                Democratic Party. The <hi rendition="#italics">New York Courier and Enquirer</hi>
-                gained fame in 1830 for setting up a pony express system to bring memos from
-                Washington D.C. to the New York City newspapers. </p>
-              <p>However, as Jacksonian populism lost steam with the growing business class in New
-                York, the paper began to support Henry Clay’s burgeoning National Republicanism.
-                Webb and the <hi rendition="#italics">New York Courier and Enquirer</hi> were
-                founding tenets of the new party, and the paper became one of the most powerful in
-                the country. As part of the party machine, it sparked ferocious debate in the U.S.
-                House of Representatives in its 1837-1838 sessions: Kentucky congressman William J.
-                Graves challenged a Maine Democratic congressman, Jonathan Cilley, to a duel after
-                Cilly criticized the Courier and Enquirer on the House floor. It ended with Graves
-                shooting Cilley to death. </p>
-              <p>The <hi rendition="#italics">New York Courier and Enquirer</hi> went into decline
-                with the Whig party, as the country moved towards greater unrest. The paper, which
-                had always supported slavery, fell out of favor as many New Yorkers and other
-                Northerners began to become more earnestly interested in abolition. With the
-                election of President Lincoln in 1861 and the onset of the Civil War, the paper
-                merged with the <hi rendition="#italics">New York World</hi>. </p></note>
-            <bibl><bibl>“Mr. Lincoln and New York.” Accessed May 21, 2015. <ref
-                  target="http://www.mrlincolnandnewyork.org/print.asp?ID=41&amp;subjectID=3"
-                  >Link</ref></bibl></bibl>
-            <note type="internal">published by James Watson Webb; mentioned in 11561; possibly
-              mentioned in 11738</note>
-          </org>
-          <org xml:id="ENT.000003728">
-            <orgName key="ENT.000003728">New York Evening Post</orgName>
-            <note type="internal">mentioned in 11824; precursor to modern-day NY Post</note>
-          </org>
-          <org xml:id="ENT.000003541">
-            <orgName key="ENT.000003541">New York Herald</orgName>
-            <note type="org"><p> The <hi rendition="#italics">New York Herald</hi> was first
-                published on May 6th 1835, by James Gordon Bennett Sr., a former schoolteacher and
-                Scottish immigrant. After years as a journalist in New York City, he rose to become
-                the assistant editor of the <hi rendition="#italics">New York Courier</hi> and <hi
-                  rendition="#italics">Enquirer</hi> in 1823, and then quickly founded his own
-                paper. The <hi rendition="#italics">New York Herald</hi> became known for its
-                salacious subject matter, which some critics found to be lowbrow; Bennett himself
-                asserted that the paper’s mission was “not to instruct but to startle.” The paper
-                was sold at a lower price than its competitors, and was edited to be consumed by the
-                general public. It became the highest circulated and most profitable paper in the
-                country. </p>
-              <p>Bennett’s <hi rendition="#italics">Herald</hi>, was pioneering in several areas,
-                running the first newspaper interview ever, which was in conjunction with the <hi
-                  rendition="#italics">Herald</hi>’s high-profile coverage of the murder of Helen
-                Jewett. He also conducted the first ever exclusive interview with a US
-                President—Martin Van Buren. Additionally, Bennett was the first to use the industry
-                standard of taking cash from advertisers in advance, rather than waiting for their
-                adverts to run. </p>
-              <p>Bennett’s politics were essentially conservative—he was a Democrat and
-                anti-abolitionist, anti-Catholic, and anti-immigrant. The paper remained supportive
-                of the Democratic Party throughout the Civil War, but backed the Union cause.</p>
-              <p>In 1866, Bennett’s son, James Gordon Bennett Jr., assumed control of the paper.
-                Bennett Jr. used the <hi rendition="#italics">Herald</hi> to finance several
-                high-profile trans-continental explorations, including Henry Morton Stanley’s
-                expeditions to Africa in 1871, and George W. DeLong’s expedition to the arctic. He
-                also infamously ran the New York Zoo hoax in 1874, in which almost an entire day’s
-                paper was devoted to a wholly fabricated story about wild animals escaping from the
-                Central Park Zoo and goring several people. Fine print at the end of the issue
-                stated that the story was a fiction, and Bennett tried to assuage critics by arguing
-                that the issue was meant to highlight inadequate safety precautions at the zoo. </p>
-              <p>The <hi rendition="#italics">New York Herald</hi> acquired its smaller rival, the
-                  <hi rendition="#italics">New York Tribune</hi>, after Bennett Jr.’s death in 1924,
-                and published as the <hi rendition="#italics">New York Herald-Tribune</hi>. It
-                ceased publication in 1966.</p></note>
-            <bibl><bibl>“Abraham Lincoln and New York - James Gordon Bennett (1795-1872).” Accessed
-                April 8, 2015. <ref
-                  target="http://www.mrlincolnandnewyork.org/inside.asp?ID=327&amp;subjectID=3"
-                  >Link</ref></bibl>
-              <bibl>“Bennett’s New York Herald and the Rise of the Popular Press - 1989, Page Iii by
-                James L. Crouthamel. | Online Research Library: Questia.” Accessed April 8, 2015.
-                  <ref
-                  target="https://www.questia.com/read/22960927/bennett-s-new-york-herald-and-the-rise-of-the-popular"
-                  >Link</ref></bibl>
-              <bibl> “HarpWeek Abraham Lincoln Cartoons.” Accessed April 8, 2015. <ref
-                  target="http://www.abrahamlincolncartoons.info/SubPages/Biography.php?UniqueID=7"
-                  >Link</ref></bibl></bibl>
-            <note type="internal">depicted in 11578.xml&#13;
-              http://id.loc.gov/authorities/names/n2002162950.html</note>
-          </org>
-          <org xml:id="ENT.000003328">
-            <orgName key="ENT.000003328">New York Times</orgName>
-            <note type="internal">depicted in 11578.xml; changed display name from "The New York
-              Times" to "New York Times" to aid alphabetical indexing in HINT project digital
-              exhibit</note>
-          </org>
-          <org xml:id="ENT.000003329">
-            <orgName key="ENT.000003329">New York Tribune</orgName>
-            <note type="internal">mentioned in 11561.xml; 11564.xml; depicted 11578 (as
-              giraffe)</note>
-          </org>
-          <org xml:id="ENT.000003596">
-            <orgName key="ENT.000003596">New-York American<orgName type="alt">The American, for the
-                country</orgName></orgName>
-            <note type="internal">Newspapers "NY American" and "American" referenced in
-              Jacksonian-era political cartoons 11508 and 11738. See
-              http://chroniclingamerica.loc.gov/lccn/sn83030019/ for details on this title and
-              preceeding/succeeding iterations.</note>
-          </org>
-          <org xml:id="ENT.000003556">
-            <orgName key="ENT.000003556">North American</orgName>
-            <note type="internal">http://chroniclingamerica.loc.gov/lccn/sn84024584/</note>
-          </org>
-          <org xml:id="ENT.000001300">
-            <orgName key="ENT.000001300">Pennsylvania Gazette</orgName>
-            <note type="org"><p>This prominent Pennsylvania newspaper was first published on
-                Christmas Eve 1728 by Samuel Keimer as <hi rendition="#italics">The Universal
-                  Instructor in all Arts and Sciences: and Pennsylvania Gazette</hi>. Keimer’s
-                original intent was to print a page of <hi rendition="#italics">Ephraim Chambers’
-                  Cyclopaedia</hi>, or <hi rendition="#italics">Universal Dictionary of Arts and
-                  Sciences</hi> in every issue; however, after nine months of printing he had less
-                than 100 subscribers. On October 2, 1729, Benjamin Franklin and Hugh Meredith bought
-                the paper and shortened the name to the Pennsylvania Gazette. Franklin and Meredith
-                gained a reputation and a large subscriber base, and after Franklin was appointed
-                postmaster, the paper overtook Bradford’s Mercury for the largest circulation in
-                Philadelphia. </p>
-              <p>The partners separated in 1732, and Franklin began to publish the paper once a week
-                rather than bi-weekly. The <hi rendition="#italics">Pennsylvania Gazette</hi>
-                published the first American political cartoon on May 9, 1754, with the iconic Join
-                or Die image of a snake cut into pieces, referencing the colonies need to unite in
-                the face of European power in the midst of the Seven Years War. The paper remained
-                prominent in Philadelphia and is best known for its coverage of the precluding
-                sentiment to the American Revolution, as well as its reporting on the war itself.
-                The <hi rendition="#italics">Pennsylvania Gazette</hi> ceased publication in 1800,
-                ten years after Franklin’s death.</p></note>
-            <bibl><bibl>Hudson, Frederic. <hi rendition="#italics">Journalism in the United
-                  States</hi>. New York: Harper &amp; Brothers, 1873. </bibl>
-              <bibl>“The Pennsylvania Gazette 1728-1800.” Accessed April 17, 2015. <ref
-                  target="http://www.accessible-archives.com/collections/the-pennsylvania-gazette/"
-                  >Link</ref></bibl></bibl>
-          </org>
-          <org xml:id="ENT.000003671">
-            <orgName key="ENT.000003671">Pennsylvanian</orgName>
-            <note type="internal">newspaper that existed in 1833; mentioned in 11508</note>
-          </org>
-          <org xml:id="ENT.000000572">
-            <orgName key="ENT.000000572">Philadelphia Inquirer</orgName>
-          </org>
-          <org xml:id="ENT.000000435">
-            <orgName key="ENT.000000435">Philadelphia Public Ledger</orgName>
-          </org>
-          <org xml:id="ENT.000000437">
-            <orgName key="ENT.000000437">Philadelphia Record</orgName>
-          </org>
-          <org xml:id="ENT.000003655">
-            <orgName key="ENT.000003655">Phunny Phellow</orgName>
-            <note type="org"><p>Founded in 1859 by popular New York publishers Street &amp; Smith,
-                  <hi rendition="#italics">Phunny Phellow</hi> was an inexpensive and popular comic
-                magazine, known for printing a high volume of cartoons. It distinguished itself from
-                rivals by running half of its pages with woodcut cartoons, while similar papers
-                relied on prose jokes. <hi rendition="#italics">Phunny Phellow</hi> was known for
-                running on low-quality paper, its poor engravings, and plagiarized jokes, but it was
-                the first to regularly run cartoons by Thomas Nast, who was simultaneously but
-                intermittently submitting cartoons to high-brow publications like <hi
-                  rendition="#italics">Harper’s Weekly</hi>. Nast was contracted to illustrate <hi
-                  rendition="#italics">Phunny Phellow</hi>’s front page, back page, and center
-                spread each month, although he did not sign his illustrations for the publication,
-                explaining that he didn’t want to be associated with its poor engraving quality.
-                Still, Nast was allowed ample room at <hi rendition="#italics">Phunny Phellow</hi>
-                to develop his skills as a cartoonist. Nast terminated his contract at the comic
-                magazine when he was offered on at <hi rendition="#italics">Harper’s Weekly</hi> in
-                1873. <hi rendition="#italics">Phunny Phellow</hi> ceased publication in
-              1879.</p></note>
-            <bibl><bibl>“A History of American Magazines, 1850-1865 - Frank Luther Mott - Google
-                Books.” Accessed April 8, 2015. <ref target="http://tinyurl.com/lg4dwf9"
-                >Link</ref></bibl>
-              <bibl>“Cartoonist Thomas Nast vs. Candidate Horace Greeley Content Page.” Accessed
-                April 8, 2015. <ref
-                  target="http://nastandgreeley.harpweek.com/subpages/cartoon-1872-MediumA.asp?UniqueID=1&amp;Year=background"
-                  >Link</ref></bibl>
-              <bibl>“Illustrated Civil War Newspapers &amp; Magazines.” Accessed April 8, 2015. <ref
-                  target="http://www.lincolnandthecivilwar.com/SubLevelPages/PhunnyPhellow.asp"
-                  >Link</ref></bibl></bibl>
-            <note type="internal">illustrated humor magazine, 1859-1876; publisher of 12347. Thomas
-              Nast was a cartoonist (anonymous and unsigned)</note>
-          </org>
-          <org xml:id="ENT.000003658">
-            <orgName key="ENT.000003658">Pittsburgh Commercial Gazette Inc.</orgName>
-            <note type="internal">http://chroniclingamerica.loc.gov/lccn/sn84024549/&#13; &#13;
-              publisher of Gazette Times</note>
-          </org>
-          <org xml:id="ENT.000003668">
-            <orgName key="ENT.000003668">Public Ledger Co.</orgName>
-            <note type="internal">publisher of evening public ledger. cartoon Dams ID 12262</note>
-          </org>
-          <org xml:id="ENT.000000384">
-            <orgName key="ENT.000000384">Puck</orgName>
-          </org>
-          <org xml:id="ENT.000003323">
-            <orgName key="ENT.000003323">Punch, or the London Charivari</orgName>
-            <note type="org"><p>One of the most famous and long-running satirical magazines of all
-                time, <hi rendition="#italics">Punch</hi> was founded in London by Ebenezer Landells
-                and Henry Mayhew in 1841. Early on, the magazine modeled itself on the French paper
-                  <hi rendition="#italics">Le Charivari</hi>, and with the desire to be less bitter
-                and more literary than contemporary British humor magazines. <hi
-                  rendition="#italics">Punch</hi> initially struggled with subscriptions, until it
-                began to publish with the prominent Bradbury and Evans house. At the start of its
-                heyday, it was a politically radical, supporting labor and critical of the upper
-                class. But as the 1860s progressed, it earned its conservative reputation by keeping
-                consistent with the values of the rising middle class and expanding British Empire
-                under Queen Victoria. </p>
-              <p><hi rendition="#italics">Punch</hi> employed the most prominent British cartoonists
-                of the day, including Leech, Keene, du Maurier, and Tenniel, and the staff developed
-                a particular culture and method of producing the magazine. Perhaps the most famous
-                aspect of the staff culture was the “Punch Table”—a large oblong table at which the
-                staff would eat decadent lunches, drink wine, and smoke cigars. Only after the meal
-                was thoroughly enjoyed did the editor convene the meeting by yelling out,
-                “Gentleman, the cartoon!” Artists would then begin pitching their ideas.</p>
-              <p><hi rendition="#italics">Punch</hi> is credited with coining the word “cartoon”
-                itself, in 1843.</p>
-              <p>Circulation was at its highest in 1940 with 175,000 subscribers. <hi
-                  rendition="#italics">Punch</hi> only began to stagnate in the 1970s, with
-                circulation dropping to desperate levels in the ‘80s. It closed in 1992, and came to
-                a brief revival from 1996-2002, but was eventually closed again due to a poor
-                subscription base. </p></note>
-            <bibl><bibl> “About Punch Magazine, Punch Cartoons, Cartoon History,” Punch Magazine
-                Cartoon Archive,” accessed March 3, 2015. <ref
-                  target="http://www.punch.co.uk/about/">Link</ref></bibl>
-              <bibl>“Whack! Whack! Whack! Reborn Punch Pounded,” NYTimes.com, accessed March 3,
-                2015. <ref
-                  target="http://www.nytimes.com/1996/09/18/world/whack-whack-whack-reborn-punch-pounded.html"
-                  >Link</ref></bibl></bibl>
-          </org>
-          <org xml:id="ENT.000003635">
-            <orgName key="ENT.000003635">Punchinello</orgName>
-            <note type="org"><p><hi rendition="#italics">Punchinello</hi> was a short-lived national
-                American satirical magazine, founded in New York City April, 1870 by the former
-                editors of <hi rendition="#italics">Vanity Fair</hi>—Henry Louis Stephens and
-                William Allen Stephens. In early 1870, they received financial backing from Jay
-                Gould, Jim Fisk, William M. “Boss” Tweed, and Peter B. Sweeny, all men involved in
-                Tammany Hall politics and corruption in New York City. <hi rendition="#italics"
-                  >Punchinello's</hi> financial backers remained anonymous, but because of their
-                involvement, the comedy magazine couldn’t print material explicitly mocking or
-                derisive of the most prominent and powerful New Yorkers, rendering the magazine
-                somewhat politically impotent. </p>
-              <p>Much like the British <hi rendition="#italics">Punch</hi>, for which it was
-                explicitly modeled and named, <hi rendition="#italics">Punchinello</hi> was a
-                sixteen-page quarto magazine featuring one full page cartoon. Probably because of
-                its inability to be totally politically relevant, <hi rendition="#italics"
-                  >Punchinello</hi> folded after 9 months of printing due to poor sales, in December
-                of 1870.</p>
-            </note>
-            <bibl><bibl>“A History of American Magazines, 1865-1885 - Frank L. Mott - Google Books.”
-                Accessed April 9, 2015. <ref
-                  target="http://books.google.com/books?id=zt1V-ISXFsoC&amp;pg=PA440#v=onepage&amp;q&amp;f=false"
-                  >Link</ref></bibl></bibl>
-            <note type="internal">illustrated comic magazine; publisher of 11747</note>
-          </org>
-          <org xml:id="ENT.000003672">
-            <orgName key="ENT.000003672">Punchinello Publishing Company</orgName>
-            <note type="org"><p>Punchinello Publishing Company was founded in April 1870 alongside
-                the only magazine it published, <hi rendition="#italics">Punchinello</hi>. The
-                publisher was located at 83 Nassau Street, New York City, and likely folded with the
-                magazine about 9 months after its inception, in December 1870. </p></note>
-            <bibl>
-              <bibl>“Plymouth Pulpit: A Weekly Publication of Sermons Preached by Henry Ward Beecher
-                - Henry Ward Beecher - Google Books.” Accessed April 9, 2015.
-                https://books.google.com/books?id=wLnRAAAAMAAJ&amp;pg=PA153&amp;lpg=PA153&amp;dq="punchinello+publishing+co"&amp;source=bl&amp;ots=sFVOTilpmk&amp;sig=gAeS77_owaOtBFyizrI5oHaK1rA&amp;hl=en&amp;sa=X&amp;ei=MkokVdPaPIK4ggTBhIHQCA&amp;ved=0CEMQ6AEwBg#v=onepage&amp;q="punchinello
-                publishing co"&amp;f=false.</bibl>
-              <bibl>“The Project Gutenberg eBook of Punchinello Vol. 2, No. 27.” Accessed April 9,
-                2015. <ref target="http://www.gutenberg.org/files/10035/10035-h/10035-h.htm"
-                /></bibl></bibl>
-          </org>
-          <org xml:id="ENT.000003621">
-            <orgName key="ENT.000003621">Richmond Whig</orgName>
-            <note type="org"><p>Founded in Richmond, Virginia in 1842, the <hi rendition="#italics"
-                  >Richmond Whig</hi> was the primary organ of the Whig Party in Virginia. It was
-                one of four daily papers in the city and remained loyal to the Whigs during
-                secession, although the party was largely defunct. The paper was therefore more
-                critical of Jefferson Davis and his administration from the get-go of the
-                Confederacy, perceiving Davis’ mistrust of Whigs in the Confederate army and
-                elsewhere.</p>
-              <p>The<hi rendition="#italics">Richmond Whig</hi> continued to print in several
-                different iterations through the end of the Civil War and Reconstruction; it ceased
-                publication in 1888. </p></note>
-            <bibl><bibl> “About Richmond Daily Whig. (Richmond, Va.) 1842-1861 « Chronicling America
-                « Library of Congress.” Accessed April 9, 2015.
-                http://chroniclingamerica.loc.gov/lccn/sn84024656/. </bibl>
-              <bibl> “About Daily Richmond Whig. (Richmond, Va.) 1861-1862 « Chronicling America
-                « Library of Congress.” Accessed April 9, 2015.
-                http://chroniclingamerica.loc.gov/lccn/sn86071866/.</bibl>
-              <bibl>“About Richmond Whig. (Richmond, Va.) 1862-1865 « Chronicling America « Library
-                of Congress.” Accessed April 9, 2015.
-                http://chroniclingamerica.loc.gov/lccn/sn84024669/. </bibl>
-              <bibl> “About Daily Richmond Whig. (Richmond, Va.) 1865-1869 « Chronicling America
-                « Library of Congress.” Accessed April 9, 2015.
-                http://chroniclingamerica.loc.gov/lccn/sn84024660/.</bibl>
-              <bibl>“About Richmond Daily Whig. (Richmond, Va.) 1869-1885 « Chronicling America
-                « Library of Congress.” Accessed April 9, 2015.
-                http://chroniclingamerica.loc.gov/lccn/sn84024668/.</bibl>
-              <bibl>“About Richmond Whig. (Richmond, Va.) 1886-1888 « Chronicling America « Library
-                of Congress.” Accessed April 9, 2015.
-                http://chroniclingamerica.loc.gov/lccn/sn86071867/. </bibl>
-              <bibl>“Newspapers in Virginia During the Civil War, Confederate.” Accessed April 9,
-                2015.
-                http://www.encyclopediavirginia.org/Newspapers_in_Virginia_During_the_Civil_War_Confederate.</bibl></bibl>
-            <note type="internal">Newspaper published in Richmond, VA, mentioned in 11820; see
-              chroniclingamerica.loc.gov for details</note>
-          </org>
-          <org xml:id="ENT.000003688">
-            <orgName key="ENT.000003688">Sackett &amp; Wilhelms Litho. &amp; Prt. Co.<orgName
-                type="alt">Sackett &amp; Wilhelms Lithographing Corporation</orgName></orgName>
-            <note type="internal">http://id.loc.gov/authorities/names/no00092199</note>
-          </org>
-          <org xml:id="ENT.000003325">
-            <orgName key="ENT.000003325">Schmidt Litho. Co.<orgName type="alt">Schmidt Lithograph
-                Company</orgName></orgName>
-            <note type="internal">lithographs 11524-PG278_b5f2_1_TEI.xml ; founded by Max Schmidt of
-              SF Wasp?&#13; &#13; http://id.loc.gov/authorities/names/no2013118726</note>
-          </org>
-          <org xml:id="ENT.000003327">
-            <orgName key="ENT.000003327">Sons of Liberty</orgName>
-            <note type="internal">depicted 2562-Bb612L615_1_TEI.xml (Liberty Triumphant) &#13;
-              http://id.loc.gov/authorities/names/n50071988.html</note>
-          </org>
-          <org xml:id="ENT.000003626">
-            <orgName key="ENT.000003626">Standard Oil Company</orgName>
-            <note type="internal">LOC: http://id.loc.gov/authorities/names/n79053083</note>
-          </org>
-          <org xml:id="ENT.000003627">
-            <orgName key="ENT.000003627">Swain, Abell &amp; Simmons</orgName>
-            <note type="internal"> http://id.loc.gov/authorities/names/nr2003020764 </note>
-          </org>
-          <org xml:id="ENT.000003639">
-            <orgName key="ENT.000003639">The Illustrated American</orgName>
-            <note type="internal">Published cartoon, "The Silence of Matt Quay" (DAMS #11737),
-              unable to find much information about this publication. See
-              http://www.worldcat.org/title/illustrated-american-magazine/oclc/10048433.</note>
-          </org>
-          <org xml:id="ENT.000003640">
-            <orgName key="ENT.000003640">The Illustrated American Publishing Company</orgName>
-            <note type="internal">Published "The Illustrated American," which featured the cartoon,
-              "The Silence of Matt Quay" (DAMS #11737), unable to find much information about this
-              publication. See
-              http://www.worldcat.org/title/illustrated-american-magazine/oclc/10048433.</note>
-          </org>
-          <org xml:id="ENT.000003622">
-            <orgName key="ENT.000003622">The Jefferson (TX)</orgName>
-            <note type="internal">Jefferson (TX) newspaper, mentioned in 11820; could be "Jefferson
-              Jimplecute," "Jefferson News," or various other local publications.</note>
-          </org>
-          <org xml:id="ENT.000003604">
-            <orgName key="ENT.000003604">United States Gazette</orgName>
-            <note type="org">
-              <p>The <hi rendition="#italics">United States Gazette</hi> was a daily newspaper
-                (except Sunday) published in Philadelphia from 1823-1847. The paper underwent a
-                series of ownership and editorship changes in the decades leading up to its merger
-                with the <hi rendition="#italics">North American</hi>, another prominent
-                Philadelphia newspaper, to become, in 1847, the <hi rendition="#italics">North
-                  American and United States Gazette</hi>.</p>
-            </note>
-            <bibl><bibl>“About The United States Gazette. (Philadelphia [Pa.]) 1823-1847,
-                Chronicling America Library of Congress,” Accessed February 11, 2015. <ref
-                  target="http://chroniclingamerica.loc.gov/lccn/sn84026283/"
-              >Link</ref></bibl></bibl>
-            <note type="internal">See chronicling america:
-              chroniclingamerica.loc.gov/lccn/sn84026283/</note>
-          </org>
-          <org xml:id="ENT.000000382">
-            <orgName key="ENT.000000382">Wasp (San Francisco, Calif.)<orgName type="alt">San
-                Francisco Illustrated Wasp</orgName></orgName>
-            <note type="internal">LOC: http://id.loc.gov/authorities/names/n2007069903</note>
-          </org>
-          <org xml:id="ENT.000003632">
-            <orgName key="ENT.000003632">Wevill &amp; Hammar</orgName>
-            <note type="org"><p>George Wevill and George Hammar (alt. Hammer) were a wood engraving
-                partnership in New York City at 208 Broadway. The business flourished in the
-                1870s.</p>
-            </note>
-            <bibl><bibl>“Punchinello - Google Books.” Accessed April 9, 2015. <ref
-                  target="https://books.google.com/books?id=56tDAQAAMAAJ&amp;pg=PA130&amp;lpg=PA130&amp;dq=wevill+&amp;+Hammar+wood+engravers&amp;source=bl&amp;ots=yCkDQYK2BS&amp;sig=FOybkKoOZe3NTBX3TbloDCk04i4&amp;hl=en&amp;sa=X&amp;ei=2DEkVaLWGsursAWDpoDwDQ&amp;ved=0CCUQ6AEwAQ#v=onepage&amp;q=wevill &amp; Hammar wood engravers&amp;f=false"
-                  >Link</ref></bibl></bibl>
-            <note type="internal">engravers of 11747; wood engraving firm of George D. Hammar and
-              George Wevill)</note>
-          </org>
-          <org xml:id="ENT.000003608">
-            <orgName key="ENT.000003608">World (New York, N.Y. : 1860-1931)<orgName type="alt">New
-                York World</orgName></orgName>
-            <note type="internal">mentioned in 11820</note>
-          </org>
-        </listOrg>
-      </div>
-    </body>
-  </text>
+    <text>
+        <body>
+            <div type="ography">
+                <listOrg>
+<org xml:id="ENT.000003574">
+  <orgName key="ENT.000003574">Albany Gazette</orgName>
+  <note type="org"><p>Founded by brothers Alexander and James Robertson in November 1771, the <hi rendition="#italics">Albany Gazette</hi> was the first newspaper published in the New York colony outside of New York City. The Robertson brothers printed the Gazette for less than a year, as difficulties obtaining supplies, distributing the paper, and a lack of subscriptions overwhelmed the small operation; their last issue was published in August 1772. The brothers began their publication ambivalent about the impending conflict for American independence and their paper was largely devoid of content relating to political tensions. The <hi rendition="#italics">Albany Gazette</hi> was resurrected after the Revolution in 1784 by another pair of brothers, Charles and George Webster. Under their direction, the <hi rendition="#italics">Albany Gazette</hi> largely matched the general New York political leanings toward Federalism, and they reprinted 12 of the 85 Federalist papers in 1788. The <hi rendition="#italics">Albany Gazette</hi> ceased printing in 1817.</p></note>
+  <bibl><bibl>“About The Albany Gazette. (Albany, N.Y.) 1784-1817 Chronicling America Library of Congress.” Accessed April 20, 2015. <ref target="http://chroniclingamerica.loc.gov/lccn/sn83030894/">Link</ref></bibl>
+                
+                <bibl>Brennan, Denis P., "Open to All Parties: Alexander and James Robertson, Albany Printers, 1771-1777," <hi rendition="#italics">The Hudson Valley Regional Review</hi> (March 1993), 25-39. <ref target="http://www.hudsonrivervalley.org/review/pdfs/hvrr_10pt1_brennan.pdf"></ref></bibl>
+                
+                <bibl>“Charles R. Webster, New York State Museum.” Accessed April 20, 2015. http://www.nysm.nysed.gov/albany/bios/w/crwebster6841.html.</bibl>
+                
+                <bibl>“Publius in the Provinces: Where Was ‘The Federalist’ Reprinted Outside New York City? On JSTOR.” Accessed April 20, 2015. http://www.jstor.org/stable/1923310?seq=1#page_scan_tab_contents.</bibl>
+                
+                <bibl>Thomas, I., &amp; McCorison, M. A. (1970). <hi rendition="#italics">The history of printing in America: With a biography of printers &amp; an account of newspapers.</hi> New York: Weathervane Books.</bibl>
+             </bibl>
+</org>
+<org xml:id="ENT.000003691">
+  <orgName key="ENT.000003691">Arkell Publishing Company</orgName>
+</org>
+<org xml:id="ENT.000003326">
+  <orgName key="ENT.000003326">Bank of the United States (1816-1836)<orgName type="alt">Second Bank of the United States</orgName></orgName>
+  <note type="org">The Second Bank of the United States was chartered by Congress in1816 to perform essentially the same duties as the First Bank: to stabilize and unify the country’s economy. In its first eight years it was plagued by mismanagement, instability, and fraud. In 1823, Nicholas Biddle became the President of the Bank and gained control over a large portion of its functionality. However, Andrew Jackson was elected as President in 1828 on a largely anti-Bank platform, arguing that the Bank of the United States violated republican ideals. He vetoed the Bank’s early charter renewal in 1832, and it expired in 1836; most of its funds were moved to state banks, although Biddle converted the Bank to a state-chartered corporation in Pennsylvania just before its expiration. The Bank was eventually totally liquidated in 1841.  The building of the Second Bank of the United States was designed by William Strickland, modeled on the Greek Parthenon. </note>
+  <bibl> <bibl>“American History From Revolution To Reconstruction and beyond, Second Bank of the United States (1816-1836) A Brief History of Central Banking in the United States - Edward Flaherty.” Accessed April 17, 2015. <ref target="http://www.let.rug.nl/usa/essays/general/a-brief-history-of-central-banking/second-bank-of-the-united-states-(1816-1836).php">Link</ref> </bibl>
+                
+                <bibl>“Second Bank of the United States - Independence National Historical Park (U.S. National Park Service).” Accessed April 17, 2015. <ref target="http://www.nps.gov/inde/learn/historyculture/places-secondbank.htm">Link</ref></bibl></bibl>
+  <note type="internal">depicted 11508; http://id.loc.gov/authorities/names/n50082233.html</note>
+</org>
+<org xml:id="ENT.000003575">
+  <orgName key="ENT.000003575">Boston Courier</orgName>
+  <note type="org"><p>The <hi rendition="#italics">Boston Courier</hi> was the first daily newspaper printed in Boston, with its first issue published on March 2, 1824. The <hi rendition="#italics">Boston Courier</hi> was founded, published, and edited by prominent Boston conservative Joseph T. Buckingham, who had gained notoriety for publishing the New England Galaxy and Masonic Magazine.  The <hi rendition="#italics">Boston Courier</hi> was an early mouthpiece of the Whig Party and before that, the National Republicans; the paper spent a large portion of its early issues publishing pro-tariff editorial letters written by Buckingham. The newspaper was also notable for its “Geoponics” columns, published every Saturday, which gave readers useful information about farming practices and tools.  The columns were distinct for a paper based in a large city. </p>
+                <p>Buckingham sold out his shares in the paper in 1848, and his sons, Joseph H. Buckingham and Edwin Buckingham, who had been involved with the editing and publishing the paper since 1831, also abandoned the project to their longtime partner E.B. Foster. The paper changed hands and political profiles several times in the years leading up to the Civil War, becoming a conservative weekly paper in 1871. </p></note>
+  <bibl><bibl>“About Boston Courier. ([Boston, Mass.]) 1824-1851, Chronicling America, Library of Congress.” Accessed April 20, 2015. <ref target="http://chroniclingamerica.loc.gov/lccn/sn84023099/">Link</ref> </bibl>
+                
+                <bibl>Buckingham, Joseph T. 1779-1861. <hi rendition="#italics">Personal Memoirs and Recollections of Editorial Life</hi>. Boston: Ticknor, Reed, and Fields, 1852.</bibl>
+                
+                <bibl>Hudson, Frederic. <hi rendition="#italics">Journalism in the United States From 1690 to 1872</hi>. New York: Harper &amp; Row, 1969.</bibl>
+                    
+                    <bibl>Thomas, I., &amp; McCorison, M. A. (1970). <hi rendition="#italics">The History of Printing in America: With a biography of Printers &amp; an Account of Newspapers</hi>. New York: Weathervane Books.</bibl></bibl>
+</org>
+<org xml:id="ENT.000003598">
+  <orgName key="ENT.000003598">Cincinnati Gazette</orgName>
+  <note type="org"><p>The <hi rendition="#italics">Cincinnati Gazette</hi> was founded as a weekly paper in July 1815 by publisher Thomas Palmer. Later that year, the <hi rendition="#italics">Gazette</hi> merged with another newly-founded paper, <hi rendition="#italics">Liberty Hall</hi> and <hi rendition="#italics">Cincinnati Mercury</hi>, to publish as <hi rendition="#italics">Cincinnati Gazette and Liberty Hall</hi>, and was owned and operated by Wesley Smead and S.S. L’Hommedieu.  The paper published only weekly until 1827, when it became Cincinnati’s first daily paper, boasting new and modern printing technologies. Under the new and prominent editor Charles Hammond, the <hi rendition="#italics">Cincinnati Gazette</hi> was published daily, and the <hi rendition="#italics">Cincinnati Gazette and Liberty Hall</hi> continued to be published weekly. The <hi rendition="#italics">Gazette</hi> was printed until late 1881. </p>
+                </note>
+  <bibl><bibl>“History of Cincinnati, Ohio, with Illustrations and Biographical Sketches: Ford, Henry A., Comp: Internet Archive.” Accessed March 25, 2015. <ref target="https://archive.org/details/cu31924032193520">Link</ref></bibl></bibl>
+  <note type="internal">Chronicling america:  http://chroniclingamerica.loc.gov/lccn/sn85034482/</note>
+</org>
+<org xml:id="ENT.000003600">
+  <orgName key="ENT.000003600">Colored Orphan Asylum and Association for the Benefit of Colored Orphans (New York, N.Y.)</orgName>
+  <note type="org"><p>Founded by three white Quaker women in 1836, the New York Colored Orphan’s Asylum housed destitute African American orphans. Founders Anna and Hanna Shotwell and Mary Murry purchased a small building at 12th Street and Fifth Avenue in Manhattan, and began housing 11 black orphans rescued from almshouses. In 1843, the organization moved to larger house at 43rd and Fifth Avenue, which had a much larger capacity. </p>
+              <p>  In the summer of 1863, New York City saw the largest armed insurrection outside of the Civil War: the New York Draft Riots. The riots were fueled by underlying racial and class tensions in the city, and broke out after Congress passed new laws allowing men to pay $300 to hire a replacement.  Beginning on July 13th a white, majority-Irish mob took to the streets and began burning buildings, smashing windows, and pulling up cobblestones in the streets. A mob seized the Orphan’s Asylum at around 4 PM, stealing everything of value, including donated infant's clothing, before setting the building ablaze. Overall in the draft riots that week, there were 120 deaths and 2000 people injured.</p>
+                <p>All 233 children and in-house staff survived the attack, and the organization was forced to begin again on Randall’s Island (now Roosevelt Island), after all its assets were destroyed in the fire, an estimated loss of $80,000. The Asylum opened a new home in Harlem in 1867, and then relocated again to Riverdale, in the Bronx, in 1907. It continues to exist today as Harlem-Dowling Children’s Services. </p></note>
+  <bibl><bibl> “The Burning of the Colored Orphan Asylum, NYC | Jeffrey Kraus Antique Photographics.” Accessed March 25, 2015. <ref target="http://antiquephotographics.com/the-colored-orphan-asylum-nyc/">Link</ref></bibl>
+                
+                <bibl>“MAAP | Place Detail: Colored Orphan Asylum.” Accessed March 25, 2015. <ref target="http://maap.columbia.edu/place/35">Link</ref></bibl>
+                
+                <bibl> “The New York Draft Riots and the Burning of the Colored Orphan Asylum New-York Historical Society -.” Accessed March 25, 2015. <ref target="http://blog.nyhistory.org/burning-of-orphan-asylum/">Link</ref></bibl></bibl>
+  <note type="internal">http://id.loc.gov/authorities/names/n2005009223.html. Est. 1836, burned during NYC draft riots of 1863; depicted in 11820</note>
+</org>
+<org xml:id="ENT.000003577">
+  <orgName key="ENT.000003577">Columbian Centinel</orgName>
+  <note type="org"><p>The <hi rendition="#italics">Columbian Centinel</hi> was a continuation of the <hi rendition="#italics">Massachusetts Centinel</hi> and the <hi rendition="#italics">Republican Journal</hi>, first published by Benjamin Russell and William Warden in Boston, 1784. The publishers changed the paper’s name to <hi rendition="#italics">Columbian Centinel</hi> to reflect their project taking on more national news, rather than Massachusetts-specific content; the first issue under that title was published on June 16, 1790. The <hi rendition="#italics">Columbian Centinel</hi> was fiercely Federalist and feuded with its rival, the anti-Federalist Boston Chronicle from 1790 to 1793. The <hi rendition="#italics">Columbian Centinel</hi> had the largest subscription base of any newspaper in Boston in the years after the Revolution, and successfully reported on the Napoleonic Wars in Europe as well as national and local news. </p>
+                <p>As Federalism dissolved with the election of James Monroe in 1816, the influence of the <hi rendition="#italics">Columbian Centinel</hi> waned. It merged with the <hi rendition="#italics">New England Palladium</hi> in 1830, and then again in 1836 with the <hi rendition="#italics">Boston Gazette</hi>. It was finally bought out by the <hi rendition="#italics">Boston Daily Advertiser</hi> in 1840. </p>
+                </note>
+  <bibl><bibl>Hudson, Frederic. <hi rendition="#italics">Journalism in the United States From 1690 to 1872</hi>. New York: Harper &amp; Row, 1969.</bibl></bibl>
+</org>
+<org xml:id="ENT.000003570">
+  <orgName key="ENT.000003570">Commercial Advertiser</orgName>
+  <note type="org"><p>Originally published by Noah Webster under the title <hi rendition="#italics">American Minerva</hi>, the paper began as the <hi rendition="#italics">Commercial Advertiser</hi> in September 1797 after a series of intermediate name changes.  Webster ceased his work with the paper in 1803, and Zachariah Lewis took over as publisher. Under its two first publishers the <hi rendition="#italics">Commercial Advertiser</hi> was strongly Federalist, and when Lewis sold the paper to William Stone (editor) and Francis Hall (publisher) in April 1820, it remained loyal to DeWitt Clinton and the Federalist project to construct the Erie Canal. With Stone and Hall, the paper became known for publishing cutting-edge literary works by Robert Charles Sands, Lucretia and Margaret Davidson, and other prominent poets. </p>
+                   <p> In the election of 1828, the <hi rendition="#italics">Commercial Advertiser</hi> supported National Republican candidate John Quincy Adams, who lost to Andrew Jackson; even with a losing endorsement, the paper remained popular and moved to support the newly forming Whig Party. During these years, the <hi rendition="#italics">Commercial Advertiser</hi> also gained notoriety for publicly feuding with novelist James Fennimore Cooper; along with a number of other papers, Cooper sued the paper in 1840 for libel over reviews of his books <hi rendition="#italics">Home as Found</hi> and <hi rendition="#italics">History of the Navy in the United States</hi>. Early in 1844, Stone left his editorship due to illness and died soon after; Francis Hall assumed his position. Leadership of the paper changed hands several times over the next decades, until the <hi rendition="#italics">Commercial Advertiser</hi> was rebranded in 1904 as <hi rendition="#italics">The Globe and Commercial Advertiser</hi>, popularly known as the <hi rendition="#italics">New York Globe</hi>. In 1923, Frank Munsey bought the paper and merged it with the <hi rendition="#italics">New York Sun</hi>. </p>
+                    
+                </note>
+  <bibl><bibl>Wilson, James Grant. The Memorial History of the City of New-York: From Its First Settlement to the Year 1892. [New York]: New York History Co., 1892.</bibl></bibl>
+</org>
+<org xml:id="ENT.000000844">
+  <orgName key="ENT.000000844">Currier &amp; Ives</orgName>
+  <note type="org"> <p>Perhaps the most famous and prolific lithography house, Currier and Ives was founded on Nassau Street in New York City in 1834 by Nathaniel Currier.  Currier operated this print shop, with its factory around the corner on Spruce Street, for 70 years.  Currier enlisted self-trained artist James Merritt Ives in 1857 to create images for the firm.  Under the new partnership, the business thrived; Currier and Ives innovated an assembly line-like factory floor, with a work flowing from artists, to lithographers, to letterers, to colorists in an efficient pattern.</p> 
+                <p>By the time the firm closed in 1907, they had a working catalog of over 7,000 images in a variety of genres:  popular news illustrations, political cartoons, celebrity portraits, sentimental images of families, children, and animals, as well as some copies of famous paintings.  In the years after the Civil War, Currier and Ives also began printing “darktown comics,” cartoons depicting racist stereotypes of African-Americans. </p>
+                <p>Business slowed for the firm at the turn of the 20th century, as costs dropped on photography and chromolithography, and hand-colored lithographs began to fall out of style. Currier and Ives had also suffered a myriad of personal tragedies over their careers and began to slow down. Just over a decade after the shop closed, after World War I, Currier and Ives prints came to be regarded as important pieces of Americana and became collectors’ items. </p></note>
+  <bibl><bibl>“Currier And Ives Dark Town, Currier &amp; Ives America Could Be a Dark Place Art: Printmakers Gave Us Shiny, Happy Scenes of the Bucolic Life of the Haves, but Moralizing, Hatred Were There, Too, Baltimore Sun." Accessed March 3, 2015.  <ref target="http://articles.baltimoresun.com/1997-06-26/features/1997177066_1_currier-ives-ives-print-unintentionally-funny"></ref></bibl>
+                <bibl>“Currier &amp; Ives, Printmakers to the American People.” Accessed March 3, 2015.  <ref target="http://www.tfaoi.com/aa/2aa/2aa36.htm">Link</ref></bibl>
+
+</bibl>
+  <note type="internal">LOC:  http://id.loc.gov/authorities/names/n80126271</note>
+</org>
+<org xml:id="ENT.000003554">
+  <orgName key="ENT.000003554">E. C. MacFarlane &amp; Co.<orgName type="alt">E. C. MacFarlane and Company</orgName></orgName>
+  <note type="internal">publisher for Wasp</note>
+</org>
+<org xml:id="ENT.000000637">
+  <orgName key="ENT.000000637">East India Company</orgName>
+</org>
+<org xml:id="ENT.000003578">
+  <orgName key="ENT.000003578">Evening Star</orgName>
+  <note type="org"><p>Founded by Mordecai Manuel Noah in September 1833, the <hi rendition="#italics">Evening Star</hi> was published in New York until August 1840. Noah invited Thomas Gill, previously the business manager for <hi rendition="#italics">The Evening Post</hi>, to handle the financial end of the <hi rendition="#italics">Evening Star</hi>. Founded after Noah had a serious falling out with his once-ally President Jackson, the paper was an early promoter of Whig politics. It endorsed William Henry Harrison for President in 1836 through his loss to Martin Van Buren, and again in 1840, likely heavily influencing the outcome for Harrison in New York.</p>
+                    <p>Just after the 1840 elections, Gill passed away, and Noah was left unequipped to handle the paper’s business alone. He sold it to the Commercial Advertiser in late 1840. 
+                </p></note>
+  <bibl><bibl>“About The Evening Star. (New York [N.Y.]) 1833-1840 Chronicling America Library of Congress.” Accessed May 21, 2015. <ref target="http://chroniclingamerica.loc.gov/lccn/sn83030448/">Link</ref></bibl>
+                
+                <bibl>Goldberg, Isaac. Major Noah: American-Jewish Pioneer. Philadelphia: The Jewish Publication Society of America, 1936. </bibl> 
+                <bibl>“Mordecai Manuel Noah: A Biographical Sketch - Simon Wolf - Google Books.” Accessed May 21, 2015. <ref target="https://books.google.com/books?id=AUM4AQAAMAAJ&amp;dq=mordecai+manuel+noah+evening+star&amp;source=gbs_navlinks_s">Link</ref></bibl></bibl>
+</org>
+<org xml:id="ENT.000003667">
+  <orgName key="ENT.000003667">Evening public ledger, 1914-1942 <orgName type="alt">Evening public ledger and the evening telegraph </orgName></orgName>
+  <note type="internal">Description in Chronicling Am:  http://chroniclingamerica.loc.gov/lccn/sn83045211/</note>
+</org>
+<org xml:id="ENT.000003653">
+  <orgName key="ENT.000003653">Evening telegraph </orgName>
+  <note type="internal">Chronicling America:  http://chroniclingamerica.loc.gov/lccn/sn83025925/
+</note>
+</org>
+<org xml:id="ENT.000003683">
+  <orgName key="ENT.000003683">Frank Leslie's Budget of Fun</orgName>
+  <note type="internal">19th-century illustrated humor magazine, published by Frank Leslie.</note>
+</org>
+<org xml:id="ENT.000003053">
+  <orgName key="ENT.000003053">Frank Leslie's illustrated newspaper</orgName>
+  <note type="org"> <p>Frank Leslie began his weekly illustrated newspaper in 1855, first edited by John Y. Foster. Printed on large quarto sized paper, each issue was 16 pages, and ran a mix of stories relating to war, politics, exploration, literature, and art, interspersed with detailed woodblock prints. As print and imaging technology progressed throughout the late 19th and early 20th century, <hi rendition="#italics">Leslie’s Illustrated</hi> began using daguerreotypes, and later, more advanced forms of photography for their illustrations. The paper became known for its images from the battlefields of the Civil War, and ran stories by prominent authors including Louisa May Alcott, Irving Hancock, Helen R. Martin, and Ellis Parker Butler. Its content was largely hawkish and patriotic, but was also followed for its coverage for other national events like the Klondike gold rush in 1897.</p> 
+                <p>Leslie died in 1880, and his wife, Miriam Florence Leslie took over the paper. In 1902 she severed ties to <hi rendition="#italics">Leslie’s Illustrated</hi>, although it kept the Leslie name, as it was a long-established brand. <hi rendition="#italics">Leslie’s Illustrated</hi> cycled through a series of names, all variations on the original—it became <hi rendition="#italics">Frank Leslie’s Illustrated Weekly</hi> in 1891, <hi rendition="#italics">Leslie’s Illustrated Weekly</hi> in 1894, <hi rendition="#italics">Leslie’s Weekly</hi> in 1901, back to <hi rendition="#italics">Leslie’s Illustrated Weekly</hi> in 1907, <hi rendition="#italics">Leslie's</hi> in 1912, <hi rendition="#italics">Leslie’s Illustrated Weekly Newspaper</hi> in 1914, and finally back to <hi rendition="#italics">Leslie's</hi> in 1920, before it ceased publication in 1922. </p></note>
+  <bibl><bibl>“About Frank Leslie’s Illustrated Newspaper. (New York, N.Y.) 1855-1891, Chronicling America Library of Congress.” Accessed April 8, 2015. <ref target="http://chroniclingamerica.loc.gov/lccn/sn86090491/">Link</ref></bibl>
+                
+                <bibl>“Frank Leslie’s Weekly 1852-1922.” Accessed April 8, 2015. <ref target="http://www.accessible-archives.com/collections/frank-leslies-weekly/">Link</ref></bibl></bibl>
+  <note type="internal">publisher of 11683</note>
+</org>
+<org xml:id="ENT.000003657">
+  <orgName key="ENT.000003657">Gazette Times</orgName>
+  <note type="internal">Chronicling Am:  http://chroniclingamerica.loc.gov/lccn/sn84024549/</note>
+</org>
+<org xml:id="ENT.000003540">
+  <orgName key="ENT.000003540">Harper &amp; Brothers</orgName>
+  <note type="org"><p> Harper &amp; Brothers was a publishing house founded as J.J. Harper in 1817. In 1833, the company changed its name to Harper &amp; Brothers, to Harper &amp; Row in 1962, and Harper Collins in 1990. Harper &amp; Brothers was headquartered on Pearl Street in Manhattan, New York, and began publishing <hi rendition="#italics">Harper’s New Monthly Magazine</hi> in 1850. The company gradually added more publications, beginning with <hi rendition="#italics">Harper’s Weekly</hi> in 1857, then <hi rendition="#italics">Harper’s Bazar</hi> in 1867, and <hi rendition="#italics">Harper’s Young People</hi> in 1879. Throughout its period of expanding periodical publication, Harper &amp; Brothers continued to publish books. </p>
+                <p>In 1899, George B.M. Harvey became president of Harper &amp; Brothers. William Randolph Hearst bought <hi rendition="#italics">Harper’s Bazaar</hi> in 1913. </p></note>
+  <bibl><bibl>“HARPER and BROS. REORGANIZE. - G.B.M. Harvey, Editor and Proprietor of The North American Review, Elected President of the Firm. - Front Page - NYTimes.com.” Accessed March 25, 2015. <ref target="http://query.nytimes.com/gst/abstract.html?res=9505E2DB1530E132A25754C1A9679D94689ED7CF">Link</ref></bibl></bibl>
+  <note type="internal">Publishers of Harper's Weekly; http://id.loc.gov/authorities/names/n50041511.html</note>
+</org>
+<org xml:id="ENT.000003139">
+  <orgName key="ENT.000003139">Harper's Weekly</orgName>
+</org>
+<org xml:id="ENT.000003611">
+  <orgName key="ENT.000003611">J. Ottman Lithographic Company<orgName type="alt">Ottman Lithographic Company</orgName></orgName>
+  <note type="internal">LOC:  http://id.loc.gov/authorities/names/nr95031115  
+
+LOC name authority record spells Ottman with one "n", but in the cartoon "If-The Inaugural Dinner at the White House" (DAMS 11687), it is spelled "Ottmann."</note>
+</org>
+<org xml:id="ENT.000003581">
+  <orgName key="ENT.000003581">Journal of Commerce</orgName>
+  <note type="org"> <p>First printed in September 1827, New York City’s <hi rendition="#italics">Journal of Commerce</hi> made its name intercepting incoming shipping vessels far off the shore in a schooner, taking note of their stock, and bringing the news to the harbor before it reached other papers so that merchants could prepare their bids. The <hi rendition="#italics">Journal of Commerce</hi> was founded by Arthur Tappan, a silk merchant and prominent abolitionist.  In 1840, Tappan turned control over the paper to Gereard Hallock and David Hale, editor and business manager respectively.</p> 
+                <p>The <hi rendition="#italics">Journal of Commerce</hi> was unique in its coverage of the Amistad case in 1839, as Tappan was spearheading the revolters’ defense; the paper is largely credited with keeping the incident central to the national news media’s focus. In 1840, it merged with the <hi rendition="#italics">New York Gazette</hi> to gain stronger circulation base.</p>
+                <p>Leading up to the Civil War, mirroring Hallock’s personal politics, the <hi rendition="#italics">Journal of Commerce</hi> advocated for the abolition of slavery by legal means, taking a strong anti-war and states’ rights stance. Many Republicans who had previously supported the paper were angered, and under the Lincoln administration in 1861, Hallock was indicted for publishing material supportive of the Confederacy; additionally the Postmaster General refused to distribute the paper by mail. In order to placate the federal government, Hallock retired, selling his shares in the paper to David M. Stone and William Cowper Prime. </p>
+                <p>The paper faced financial difficulties as printing technologies changed rapidly after the Civil War and commerce and business news increasingly came from the new Western states and territories, rather than New York Harbor. But the paper persists into the 21st century having undergone a series of mergers, and is now published daily as an online subscription-only paper.</p> </note>
+  <bibl><bibl>Leach, Peter T. “Turning Back the Years.” <hi rendition="#italics">The Journal of Commerce</hi>. United Business Media, 2005. 30 January 2015. </bibl></bibl>
+</org>
+<org xml:id="ENT.000003690">
+  <orgName key="ENT.000003690">Judge</orgName>
+</org>
+<org xml:id="ENT.000003618">
+  <orgName key="ENT.000003618">Kentucky Gazette, 1787-1848<orgName type="alt">Kentucke Gazette</orgName></orgName>
+  <note type="org"><p><hi rendition="#italics">The Kentucke Gazette</hi> (later changed to <hi rendition="#italics">Kentucky Gazette</hi>) was established in Lexington by John Bradford in 1787. It was the first newspaper printed in the Kentucky colony. In its early days, Bradford labored on the publication virtually alone, writing the content, setting the type, and printing it by hand, only later hiring an editorial and printing staff including his son, Daniel Bradford, in 1802. The paper’s early issues were often commented on the colony’s bid for independent statehood from Virginia, which it achieved in 1792; Bradford was then appointed the first public printer of the new state. Throughout his tenure on the paper, Bradford published “personal journalism,” commenting on his own experiences on the paper and in Lexington, and printed columns written by local personalities. Ownership of the <hi rendition="#italics">The Kentucke Gazette</hi> was passed down through the Bradford family until it went defunct in 1848. </p></note>
+  <bibl><bibl>Evans, Herndon J. <hi rendition="#italics">The Newspaper Press in Kentucky</hi>. Lexington: The University Press of Kentucky, 1976.</bibl></bibl>
+  <note type="internal">Also known as "Kentucke Gazette".</note>
+</org>
+<org xml:id="ENT.000003163">
+  <orgName key="ENT.000003163">Keppler &amp; Schwarzmann<orgName type="alt">Keppler and Schwarzmann</orgName></orgName>
+</org>
+<org xml:id="ENT.000000961">
+  <orgName key="ENT.000000961">King &amp; Baird<orgName type="alt">King und Baird</orgName></orgName>
+  <note type="org"><p>Founded in 1838 at 607 Sansom Street in Philadelphia, King and Baird Printers were among the largest print shops in the city. In its early years, Robert P. King and Alexander Baird were the only two employees of the firm, King working as compositor, solicitor, bookkeeper, foreman, proofreader, and purchaser, while Baird operated a single hand press. By the time of Baird’s death in 1868, the business had grown to include over 120 employees and 20 presses, some powered by steam. The firm was well known for publishing in German and other foreign languages including Swedish and Norwegian, as well as printing in the Cherokee syllabary, and in Grebo, a West African language. </p></note>
+  <bibl><bibl>“American Dictionary of Printing and Bookmaking, Google Books," accessed March 3, 2015  <ref target= "https://books.google.com/books?id=nuc-AAAAYAAJ&amp;pg=PA316&amp;lpg=PA316&amp;dq=robert+p.+king+philadelphia+printer&amp;source=bl&amp;ots=oeBSFr9nzJ&amp;sig=YUxvIrLUnU-FsvdjrFHUQpMXkw4&amp;hl=en&amp;sa=X&amp;ei=8dnwVJ7pAomjgwTZ0oFg&amp;ved=0CEEQ6AEwBw#v=onepage&amp;q=alexander baird&amp;f=false">Link</ref></bibl>
+                    <bibl>“Robert P King (1815 - 1868), Find A Grave Photos," accessed March 3, 2015. <ref target= "http://www.findagrave.com/cgi-bin/fg.cgi?page=pv&amp;GRid=68901464&amp;PIpi=41532436">Link</ref></bibl></bibl>
+  <note type="internal">LOC:  http://id.loc.gov/authorities/names/nr91044076.html</note>
+</org>
+<org xml:id="ENT.000003599">
+  <orgName key="ENT.000003599">Ku Klux Klan<orgName type="alt">KKK</orgName></orgName>
+  <note type="internal">http://id.loc.gov/authorities/names/n80076146.html (for 19th-century KKK); depicted in 11820</note>
+</org>
+<org xml:id="ENT.000003698">
+  <orgName key="ENT.000003698">L. Prang &amp; Co.</orgName>
+  <note type="internal">lithographer for political cartoon 11751_ Democracy: 1832, 1864</note>
+</org>
+<org xml:id="ENT.000003557">
+  <orgName key="ENT.000003557">Life</orgName>
+</org>
+<org xml:id="ENT.000003677">
+  <orgName key="ENT.000003677">Lincoln Young Men's Wide Awake Club<orgName type="alt">Wide Awakes</orgName></orgName>
+  <note type="internal">depicted in 12332; http://id.loc.gov/authorities/names/n99049259.html</note>
+</org>
+<org xml:id="ENT.000003582">
+  <orgName key="ENT.000003582">Lithography of Imbert</orgName>
+  <note type="org"><p> Anthony Imbert began a lithography company on Murray Street in New York City in 1825, and gained notoriety for producing the plates for <hi rendition="#italics">Memoir</hi>, a commemorative book by Cadwallader D. Colden celebrating the completion of the Erie Canal. The 35 plates in <hi rendition="#italics">Memoir</hi> showed a variety of new lithographic techniques, and the book’s text proclaimed Imbert’s relatively new lithography business “the most prominent in New York,” which was very likely an exaggeration. Imbert gained notoriety as a lithographer of landscapes, and flourished as the Hudson River School style and interest in New York scenes gained notoriety.</p> 
+               <p> Imbert began lithographing music scores in 1827, and caricatures and satirical images in 1828; between 1828 and his death in 1834 he issued 19 cartoons, more than double that of any other publisher in the country. </p></note>
+  <bibl><bibl>Colden, Cadwallader D. <hi rendition="#italics">Memoir, prepared at the request of a committee of the Common Council of the city of New York, and presented to the mayor of the city, at the celebration of the completion of the New York canals.</hi> New York: Corp. of New York, 1825. </bibl>
+ <bibl>Gross, Robert A. and Mary Kelly.<hi rendition="#italics"> An Extensive Republic: Print, Culture, and Society in the New Nation, 1790-1840.</hi> Chapel Hill: UNC Press Books, 2010. </bibl>
+<bibl>Tatham, David. <hi rendition="#italics">Prints and Printmakers of New York State, 1825-1940.</hi> Syracuse: Syracuse University Press, 1986. </bibl></bibl>
+</org>
+<org xml:id="ENT.000000380">
+  <orgName key="ENT.000000380">Mayer, Merkel &amp; Ottmann</orgName>
+  <note type="internal">LOC:  http://id.loc.gov/authorities/names/nr2001044226</note>
+</org>
+<org xml:id="ENT.000003620">
+  <orgName key="ENT.000003620">Meridian (MS) Mercury</orgName>
+  <note type="org"><p> The <hi rendition="#italics">Meridian Mercury</hi> was a paper published in Meridian, Mississippi by Colonel Alexander Grice Horn. He began the <hi rendition="#italics">Mississippi Star</hi> in 1836, another eastern Mississippi paper, before founding the Mercury. Horn was the editor and primary writer for the paper, and was a staunch Democrat, unwaveringly supportive of the Confederate cause during the Civil War. Horn also allegedly had ties to the Ku Klux Klan, and was arrested on charges of riot, riotous homicide, and arson during the 1871 Meridian race riots, although he was never indicted or charged.</p>
+               <p>Horn did not allow the financial department to have any bearing on editorial content of the Mercury, and when he died in 1886, the paper followed, apparently unable to become sustainable.</p> </note>
+  <bibl><bibl>“Ancestors of Colonel Alexander Grice Horn Sr.” Accessed March 25, 2015. <ref target="http://freepages.genealogy.rootsweb.ancestry.com/~talbotfamilyhistory/3657.htm">Link</ref></bibl>
+                
+                <bibl>“Editors I Have Known Since the Civil War: rewritten and Reprinted from Robert Hiram Henry - Google Books.” Accessed March 25, 2015. <ref target="https://books.google.com/books?id=PFEOAAAAIAAJ&amp;pg=PA55&amp;lpg=PA55&amp;dq=colonel+ag+horn&amp;source=bl&amp;ots=JoocvDq62Tsig=K-1Zh2XQeI-0HDsb9tsXIcD1xFA&amp;hl=en&amp;sa=X&amp;ei=MEQMVZDOMsWhNuGjgMAH&amp;ved=0CCQQ6AEwAQ#v=onepage&amp;q=colonel ag horn&amp;f=false">Link</ref></bibl></bibl>
+  <note type="internal">Mentioned in 11820; http://chroniclingamerica.loc.gov/lccn/sn85034453/; Newspaper published in Meridian, Mississippi</note>
+</org>
+<org xml:id="ENT.000003748">
+  <orgName key="ENT.000003748">N. Currier (Firm)</orgName>
+  <note type="org">Lithography firm of Nathaniel Currier</note>
+  <note type="internal">publisher/lithographer of 12278. http://id.loc.gov/authorities/names/n80126272.html</note>
+</org>
+<org xml:id="ENT.000003597">
+  <orgName key="ENT.000003597">National Advocate<orgName type="alt">The National advocate, for the country</orgName></orgName>
+  <note type="internal">Early newspaper referenced in 11738. See http://chroniclingamerica.loc.gov/lccn/sn83030516/</note>
+</org>
+<org xml:id="ENT.000003619">
+  <orgName key="ENT.000003619">National Gazette, 1791-1793</orgName>
+  <note type="org"><p>Founded in Philadelphia by poet and printer Philip Freneau, the <hi rendition="#italics">National Gazette</hi> began publishing in October 1791. The paper was conceived of by Thomas Jefferson and his Democratic-Republican colleagues to combat the <hi rendition="#italics">Federalist Gazette</hi> of the United States. From the start, the paper was purely an organ of the Democratic - Republican Party; Freneau was a college friend of James Madison’s, and the paper was almost totally bankrolled by Jefferson. Additionally, George Washington and his administration, along with Alexander Hamilton, repeatedly accused of Jefferson dictating the paper’s content, although Freneau denied these allegations under oath. Madison himself wrote numerous essays published by the Gazette anonymously. The paper was virulent in attacking Adams and the Federalists, including Washington whenever he sided with Federalists in a debate, repeatedly accusing the party of Toryism, and warning of monarchical tendencies. Freneau went as far as to call Washington’s 61st birthday party “a forerunner of other monarchical vices.”  The <hi rendition="#italics">National Gazette</hi> informally ceased printing in October 1793, during the Yellow Fever epidemic in Philadelphia. A few months later, Jefferson resigned from his position as Washington’s Secretary of State, dissipating Freneau’s funding for the paper. </p> </note>
+  <bibl><bibl>Hudson, Frederic. <hi rendition="#italics">Journalism in the United States</hi>. New York: Harper &amp; Brothers, 1873. </bibl>
+                    
+                    <bibl>“National Gazette George Washington’s Mount Vernon." Accessed February 23, 2015.  <ref target="http://www.mountvernon.org/research-collections/digital-encyclopedia/article/national-gazette/">Link</ref></bibl></bibl>
+</org>
+<org xml:id="ENT.000003628">
+  <orgName key="ENT.000003628">National Intelligencer</orgName>
+  <note type="org"><p>Following the <hi rendition="#italics">Independent Gazetteer</hi> of Philadelphia, the <hi rendition="#italics">National Intelligencer</hi> was founded in 1800, when the federal government moved from Philadelphia to Washington D.C. It was first owned by Samuel Harrison Smith, who was soon replaced by Joseph Gales and William Winston Seaton. Under Seaton and Gales, the Intelligencer became a stenographic paper, recording and publishing debates taking place on the floor of Congress and the House of Representatives. The paper remained popular through the Madison administration, but its offices were partially destroyed during the British occupation of Washington in the War of 1812; however, this only spurred the paper on to more patriotic popularity.</p>
+                <p> The <hi rendition="#italics">Intelligencer</hi> operated as the organ of all of the federal administrations until Andrew Jackson’s election in 1828, when it sided with the Whig party, and featured essays and columns written by the strongest voices of the opposition: Henry Clay, Daniel Webster, and even John Calhoun, Jackson’s Vice President.  However, as a partisan paper, the <hi rendition="#italics">Intelligencer</hi> steadily declined in popularity; it was debt-ridden by the end of the Civil War, and was bought by Alexander del Mar in 1869. He then merged it with the <hi rendition="#italics">Washington Express</hi>.</p></note>
+  <bibl><bibl>“Geo. P. Rowell &amp; Co’s American Newspaper Directory, Containing Accurate Lists of All the Newspapers and Periodicals Published in the United States and Territories, and the Dominion of Canada, and British Colonies of North America; Together with a Description of the Towns and Cities in Which They Are Published, 1872, Page: 518 UNT Digital Library." Accessed March 3, 2015. <ref target="http://digital.library.unt.edu/ark:/67531/metadc9262/m1/517/">Link</ref> </bibl>
+                
+                <bibl>Hudson, Frederic. <hi rendition="#italics">Journalism in the United States</hi>. New York: Harper &amp; Brothers, 1873.</bibl></bibl>
+</org>
+<org xml:id="ENT.000003317">
+  <orgName key="ENT.000003317">New York Courier and Enquirer</orgName>
+  <note type="org"><p>The <hi rendition="#italics">New York Courier and Enquirer</hi> formed in 1829 with the merger of James Watson Webb’s <hi rendition="#italics">New York Morning Courier</hi> and the <hi rendition="#italics">New-York Enquirer</hi>, edited by Mordecai Noah. Webb assumed editorship over the new paper, and after hiring associate editor James Gordon Bennett, it became an early mouthpiece of the Democratic Party. The <hi rendition="#italics">New York Courier and Enquirer</hi> gained fame in 1830 for setting up a pony express system to bring memos from Washington D.C. to the New York City newspapers. </p>
+                <p>However, as Jacksonian populism lost steam with the growing business class in New York, the paper began to support Henry Clay’s burgeoning National Republicanism. Webb and the <hi rendition="#italics">New York Courier and Enquirer</hi> were founding tenets of the new party, and the paper became one of the most powerful in the country. As part of the party machine, it sparked ferocious debate in the U.S. House of Representatives in its 1837-1838 sessions: Kentucky congressman William J. Graves challenged a Maine Democratic congressman, Jonathan Cilley, to a duel after Cilly criticized the Courier and Enquirer on the House floor. It ended with Graves shooting Cilley to death. </p>
+                <p>The <hi rendition="#italics">New York Courier and Enquirer</hi> went into decline with the Whig party, as the country moved towards greater unrest. The paper, which had always supported slavery, fell out of favor as many New Yorkers and other Northerners began to become more earnestly interested in abolition. With the election of President Lincoln in 1861 and the onset of the Civil War, the paper merged with the <hi rendition="#italics">New York World</hi>. </p></note>
+  <bibl><bibl>“Mr. Lincoln and New York.” Accessed May 21, 2015. <ref target="http://www.mrlincolnandnewyork.org/print.asp?ID=41&amp;subjectID=3">Link</ref></bibl></bibl>
+  <note type="internal">published by James Watson Webb; mentioned in 11561; possibly mentioned in 11738</note>
+</org>
+<org xml:id="ENT.000003728">
+  <orgName key="ENT.000003728">New York Evening Post</orgName>
+  <note type="internal">mentioned in 11824; precursor to modern-day NY Post</note>
+</org>
+<org xml:id="ENT.000003541">
+  <orgName key="ENT.000003541">New York Herald</orgName>
+  <note type="org"><p> The <hi rendition="#italics">New York Herald</hi> was first published on May 6th 1835, by James Gordon Bennett Sr., a former schoolteacher and Scottish immigrant. After years as a journalist in New York City, he rose to become the assistant editor of the <hi rendition="#italics">New York Courier</hi> and <hi rendition="#italics">Enquirer</hi> in 1823, and then quickly founded his own paper. The <hi rendition="#italics">New York Herald</hi> became known for its salacious subject matter, which some critics found to be lowbrow; Bennett himself asserted that the paper’s mission was “not to instruct but to startle.” The paper was sold at a lower price than its competitors, and was edited to be consumed by the general public. It became the highest circulated and most profitable paper in the country. </p>
+                <p>Bennett’s <hi rendition="#italics">Herald</hi>, was pioneering in several areas, running the first newspaper interview ever, which was in conjunction with the <hi rendition="#italics">Herald</hi>’s high-profile coverage of the murder of Helen Jewett. He also conducted the first ever exclusive interview with a US President—Martin Van Buren. Additionally, Bennett was the first to use the industry standard of taking cash from advertisers in advance, rather than waiting for their adverts to run. </p>
+                <p>Bennett’s politics were essentially conservative—he was a Democrat and anti-abolitionist, anti-Catholic, and anti-immigrant. The paper remained supportive of the Democratic Party throughout the Civil War, but backed the Union cause.</p> 
+                <p>In 1866, Bennett’s son, James Gordon Bennett Jr., assumed control of the paper. Bennett Jr. used the <hi rendition="#italics">Herald</hi> to finance several high-profile trans-continental explorations, including Henry Morton Stanley’s expeditions to Africa in 1871, and George W. DeLong’s expedition to the arctic. He also infamously ran the New York Zoo hoax in 1874, in which almost an entire day’s paper was devoted to a wholly fabricated story about wild animals escaping from the Central Park Zoo and goring several people. Fine print at the end of the issue stated that the story was a fiction, and Bennett tried to assuage critics by arguing that the issue was meant to highlight inadequate safety precautions at the zoo. </p>
+                <p>The <hi rendition="#italics">New York Herald</hi> acquired its smaller rival, the <hi rendition="#italics">New York Tribune</hi>, after Bennett Jr.’s death in 1924, and published as the <hi rendition="#italics">New York Herald-Tribune</hi>. It ceased publication in 1966.</p></note>
+  <bibl><bibl>“Abraham Lincoln and New York - James Gordon Bennett (1795-1872).” Accessed April 8, 2015. <ref target="http://www.mrlincolnandnewyork.org/inside.asp?ID=327&amp;subjectID=3">Link</ref></bibl>
+                    
+                <bibl>“Bennett’s New York Herald and the Rise of the Popular Press - 1989, Page Iii by James L. Crouthamel. | Online Research Library: Questia.” Accessed April 8, 2015. <ref target="https://www.questia.com/read/22960927/bennett-s-new-york-herald-and-the-rise-of-the-popular">Link</ref></bibl>
+                    
+                <bibl> “HarpWeek Abraham Lincoln Cartoons.” Accessed April 8, 2015. <ref target="http://www.abrahamlincolncartoons.info/SubPages/Biography.php?UniqueID=7">Link</ref></bibl></bibl>
+  <note type="internal">depicted in 11578.xml&#13;
+http://id.loc.gov/authorities/names/n2002162950.html</note>
+</org>
+<org xml:id="ENT.000003328">
+  <orgName key="ENT.000003328">New York Times</orgName>
+  <note type="internal">depicted in 11578.xml; changed display name from "The New York Times" to "New York Times" to aid alphabetical indexing in HINT project digital exhibit</note>
+</org>
+<org xml:id="ENT.000003329">
+  <orgName key="ENT.000003329">New York Tribune</orgName>
+  <note type="internal">mentioned in 11561.xml; 11564.xml; depicted 11578 (as giraffe)</note>
+</org>
+<org xml:id="ENT.000003596">
+  <orgName key="ENT.000003596">New-York American<orgName type="alt">The American, for the country</orgName></orgName>
+  <note type="internal">Newspapers "NY American" and "American" referenced in Jacksonian-era political cartoons 11508 and 11738. See http://chroniclingamerica.loc.gov/lccn/sn83030019/ for details on this title and preceeding/succeeding iterations.</note>
+</org>
+<org xml:id="ENT.000003556">
+  <orgName key="ENT.000003556">North American</orgName>
+  <note type="internal">http://chroniclingamerica.loc.gov/lccn/sn84024584/</note>
+</org>
+<org xml:id="ENT.000001300">
+  <orgName key="ENT.000001300">Pennsylvania Gazette</orgName>
+  <note type="org"><p>This prominent Pennsylvania newspaper was first published on Christmas Eve 1728 by Samuel Keimer as <hi rendition="#italics">The Universal Instructor in all Arts and Sciences: and Pennsylvania Gazette</hi>. Keimer’s original intent was to print a page of <hi rendition="#italics">Ephraim Chambers’ Cyclopaedia</hi>, or <hi rendition="#italics">Universal Dictionary of Arts and Sciences</hi> in every issue; however, after nine months of printing he had less than 100 subscribers. On October 2, 1729, Benjamin Franklin and Hugh Meredith bought the paper and shortened the name to the Pennsylvania Gazette. Franklin and Meredith gained a reputation and a large subscriber base, and after Franklin was appointed postmaster, the paper overtook Bradford’s Mercury for the largest circulation in Philadelphia. </p>
+                <p>The partners separated in 1732, and Franklin began to publish the paper once a week rather than bi-weekly. The <hi rendition="#italics">Pennsylvania Gazette</hi> published the first American political cartoon on May 9, 1754, with the iconic Join or Die image of a snake cut into pieces, referencing the colonies need to unite in the face of European power in the midst of the Seven Years War. The paper remained prominent in Philadelphia and is best known for its coverage of the precluding sentiment to the American Revolution, as well as its reporting on the war itself. The <hi rendition="#italics">Pennsylvania Gazette</hi> ceased publication in 1800, ten years after Franklin’s death.</p></note>
+  <bibl><bibl>Hudson, Frederic. <hi rendition="#italics">Journalism in the United States</hi>. New York: Harper &amp; Brothers, 1873. </bibl>
+                <bibl>“The Pennsylvania Gazette 1728-1800.” Accessed April 17, 2015. <ref target="http://www.accessible-archives.com/collections/the-pennsylvania-gazette/">Link</ref></bibl></bibl>
+</org>
+<org xml:id="ENT.000003671">
+  <orgName key="ENT.000003671">Pennsylvanian</orgName>
+  <note type="internal">newspaper that existed in 1833; mentioned in 11508</note>
+</org>
+<org xml:id="ENT.000000572">
+  <orgName key="ENT.000000572">Philadelphia Inquirer</orgName>
+</org>
+<org xml:id="ENT.000000435">
+  <orgName key="ENT.000000435">Philadelphia Public Ledger</orgName>
+</org>
+<org xml:id="ENT.000000437">
+  <orgName key="ENT.000000437">Philadelphia Record</orgName>
+</org>
+<org xml:id="ENT.000003763">
+  <orgName key="ENT.000003763">Philadelphia Times</orgName>
+  <note type="internal">HINT #12020</note>
+</org>
+<org xml:id="ENT.000003655">
+  <orgName key="ENT.000003655">Phunny Phellow</orgName>
+  <note type="org"><p>Founded in 1859 by popular New York publishers Street &amp; Smith, <hi rendition="#italics">Phunny Phellow</hi> was an inexpensive and popular comic magazine, known for printing a high volume of cartoons.  It distinguished itself from rivals by running half of its pages with woodcut cartoons, while similar papers relied on prose jokes.  <hi rendition="#italics">Phunny Phellow</hi> was known for running on low-quality paper, its poor engravings, and plagiarized jokes, but it was the first to regularly run cartoons by Thomas Nast, who was simultaneously but intermittently submitting cartoons to high-brow publications like <hi rendition="#italics">Harper’s Weekly</hi>.  Nast was contracted to illustrate <hi rendition="#italics">Phunny Phellow</hi>’s front page, back page, and center spread each month, although he did not sign his illustrations for the publication, explaining that he didn’t want to be associated with its poor engraving quality. Still, Nast was allowed ample room at <hi rendition="#italics">Phunny Phellow</hi> to develop his skills as a cartoonist. Nast terminated his contract at the comic magazine when he was offered on at <hi rendition="#italics">Harper’s Weekly</hi> in 1873. <hi rendition="#italics">Phunny Phellow</hi> ceased publication in 1879.</p></note>
+  <bibl><bibl>“A History of American Magazines, 1850-1865 - Frank Luther Mott - Google Books.” Accessed April 8, 2015.  <ref target="http://tinyurl.com/lg4dwf9">Link</ref></bibl>
+                    
+                <bibl>“Cartoonist Thomas Nast vs. Candidate Horace Greeley Content Page.” Accessed April 8, 2015. <ref target="http://nastandgreeley.harpweek.com/subpages/cartoon-1872-MediumA.asp?UniqueID=1&amp;Year=background">Link</ref></bibl>               
+                        
+                <bibl>“Illustrated Civil War Newspapers &amp; Magazines.” Accessed April 8, 2015. <ref target="http://www.lincolnandthecivilwar.com/SubLevelPages/PhunnyPhellow.asp">Link</ref></bibl></bibl>
+  <note type="internal">illustrated humor magazine, 1859-1876; publisher of 12347. Thomas Nast was a cartoonist (anonymous and unsigned)</note>
+</org>
+<org xml:id="ENT.000003658">
+  <orgName key="ENT.000003658">Pittsburgh Commercial Gazette Inc.</orgName>
+  <note type="internal">http://chroniclingamerica.loc.gov/lccn/sn84024549/&#13;
+&#13;
+publisher of Gazette Times</note>
+</org>
+<org xml:id="ENT.000003668">
+  <orgName key="ENT.000003668">Public Ledger Co.</orgName>
+  <note type="internal">publisher of evening public ledger.  cartoon Dams ID 12262</note>
+</org>
+<org xml:id="ENT.000000384">
+  <orgName key="ENT.000000384">Puck</orgName>
+</org>
+<org xml:id="ENT.000003323">
+  <orgName key="ENT.000003323">Punch, or the London Charivari</orgName>
+  <note type="org"><p>One of the most famous and long-running satirical magazines of all time, <hi rendition="#italics">Punch</hi> was founded in London by Ebenezer Landells and Henry Mayhew in 1841. Early on, the magazine modeled itself on the French paper <hi rendition="#italics">Le Charivari</hi>, and with the desire to be less bitter and more literary than contemporary British humor magazines. <hi rendition="#italics">Punch</hi> initially struggled with subscriptions, until it began to publish with the prominent Bradbury and Evans house. At the start of its heyday, it was a politically radical, supporting labor and critical of the upper class. But as the 1860s progressed, it earned its conservative reputation by keeping consistent with the values of the rising middle class and expanding British Empire under Queen Victoria. </p>
+                <p><hi rendition="#italics">Punch</hi> employed the most prominent British cartoonists of the day, including Leech, Keene, du Maurier, and Tenniel, and the staff developed a particular culture and method of producing the magazine. Perhaps the most famous aspect of the staff culture was the “Punch Table”—a large oblong table at which the staff would eat decadent lunches, drink wine, and smoke cigars. Only after the meal was thoroughly enjoyed did the editor convene the meeting by yelling out, “Gentleman, the cartoon!” Artists would then begin pitching their ideas.</p> 
+                <p><hi rendition="#italics">Punch</hi> is credited with coining the word “cartoon” itself, in 1843.</p>
+                <p>Circulation was at its highest in 1940 with 175,000 subscribers. <hi rendition="#italics">Punch</hi> only began to stagnate in the 1970s, with circulation dropping to desperate levels in the ‘80s. It closed in 1992, and came to a brief revival from 1996-2002, but was eventually closed again due to a poor subscription base. </p></note>
+  <bibl><bibl> “About Punch Magazine, Punch Cartoons, Cartoon History,” Punch Magazine Cartoon Archive,” accessed March 3, 2015.  <ref target="http://www.punch.co.uk/about/">Link</ref></bibl>
+                <bibl>“Whack! Whack! Whack! Reborn Punch Pounded,” NYTimes.com, accessed March 3, 2015.  <ref target="http://www.nytimes.com/1996/09/18/world/whack-whack-whack-reborn-punch-pounded.html">Link</ref></bibl></bibl>
+</org>
+<org xml:id="ENT.000003635">
+  <orgName key="ENT.000003635">Punchinello</orgName>
+  <note type="org"><p><hi rendition="#italics">Punchinello</hi> was a short-lived national American satirical magazine, founded in New York City April, 1870 by the former editors of <hi rendition="#italics">Vanity Fair</hi>—Henry Louis Stephens and William Allen Stephens. In early 1870, they received financial backing from Jay Gould, Jim Fisk, William M. “Boss” Tweed, and Peter B. Sweeny, all men involved in Tammany Hall politics and corruption in New York City. <hi rendition="#italics">Punchinello's</hi> financial backers remained anonymous, but because of their involvement, the comedy magazine couldn’t print material explicitly mocking or derisive of the most prominent and powerful New Yorkers, rendering the magazine somewhat politically impotent. </p> 
+                    <p>Much like the British <hi rendition="#italics">Punch</hi>, for which it was explicitly modeled and named, <hi rendition="#italics">Punchinello</hi> was a sixteen-page quarto magazine featuring one full page cartoon. Probably because of its inability to be totally politically relevant, <hi rendition="#italics">Punchinello</hi> folded after 9 months of printing due to poor sales, in December of 1870.</p> </note>
+  <bibl><bibl>“A History of American Magazines, 1865-1885 - Frank L. Mott - Google Books.” Accessed April 9, 2015. <ref target="http://books.google.com/books?id=zt1V-ISXFsoC&amp;pg=PA440#v=onepage&amp;q&amp;f=false">Link</ref></bibl></bibl>
+  <note type="internal">illustrated comic magazine; publisher of 11747</note>
+</org>
+<org xml:id="ENT.000003672">
+  <orgName key="ENT.000003672">Punchinello Publishing Company</orgName>
+  <note type="org"><p>Punchinello Publishing Company was founded in April 1870 alongside the only magazine it published, <hi rendition="#italics">Punchinello</hi>. The publisher was located at 83 Nassau Street, New York City, and likely folded with the magazine about 9 months after its inception, in December 1870. </p></note>
+  <bibl> <bibl>“Plymouth Pulpit: A Weekly Publication of Sermons Preached by Henry Ward Beecher - Henry Ward Beecher - Google Books.” Accessed April 9, 2015.  https://books.google.com/books?id=wLnRAAAAMAAJ&amp;pg=PA153&amp;lpg=PA153&amp;dq="punchinello+publishing+co"&amp;source=bl&amp;ots=sFVOTilpmk&amp;sig=gAeS77_owaOtBFyizrI5oHaK1rA&amp;hl=en&amp;sa=X&amp;ei=MkokVdPaPIK4ggTBhIHQCA&amp;ved=0CEMQ6AEwBg#v=onepage&amp;q="punchinello publishing co"&amp;f=false.</bibl>
+                    
+                    <bibl>“The Project Gutenberg eBook of Punchinello Vol. 2, No. 27.” Accessed April 9, 2015. <ref target="http://www.gutenberg.org/files/10035/10035-h/10035-h.htm"></ref></bibl></bibl>
+</org>
+<org xml:id="ENT.000003621">
+  <orgName key="ENT.000003621">Richmond Whig</orgName>
+  <note type="org"><p>Founded in Richmond, Virginia in 1842, the <hi rendition="#italics">Richmond Whig</hi> was the primary organ of the Whig Party in Virginia. It was one of four daily papers in the city and remained loyal to the Whigs during secession, although the party was largely defunct. The paper was therefore more critical of Jefferson Davis and his administration from the get-go of the Confederacy, perceiving Davis’ mistrust of Whigs in the Confederate army and elsewhere.</p>
+                <p>The<hi rendition="#italics">Richmond Whig</hi> continued to print in several different iterations through the end of the Civil War and Reconstruction; it ceased publication in 1888. </p></note>
+  <bibl><bibl> “About Richmond Daily Whig. (Richmond, Va.) 1842-1861 « Chronicling America « Library of Congress.” Accessed April 9, 2015. http://chroniclingamerica.loc.gov/lccn/sn84024656/.
+                </bibl>
+                
+                <bibl> “About Daily Richmond Whig. (Richmond, Va.) 1861-1862 « Chronicling America « Library of Congress.” Accessed April 9, 2015. http://chroniclingamerica.loc.gov/lccn/sn86071866/.</bibl>
+                
+                <bibl>“About Richmond Whig. (Richmond, Va.) 1862-1865 « Chronicling America « Library of Congress.” Accessed April 9, 2015. http://chroniclingamerica.loc.gov/lccn/sn84024669/.
+                </bibl>
+                
+                <bibl> “About Daily Richmond Whig. (Richmond, Va.) 1865-1869 « Chronicling America « Library of Congress.” Accessed April 9, 2015. http://chroniclingamerica.loc.gov/lccn/sn84024660/.</bibl>
+                
+                <bibl>“About Richmond Daily Whig. (Richmond, Va.) 1869-1885 « Chronicling America « Library of Congress.” Accessed April 9, 2015. http://chroniclingamerica.loc.gov/lccn/sn84024668/.</bibl>
+                
+                <bibl>“About Richmond Whig. (Richmond, Va.) 1886-1888 « Chronicling America « Library of Congress.” Accessed April 9, 2015. http://chroniclingamerica.loc.gov/lccn/sn86071867/.
+                </bibl>
+                
+                <bibl>“Newspapers in Virginia During the Civil War, Confederate.” Accessed April 9, 2015. http://www.encyclopediavirginia.org/Newspapers_in_Virginia_During_the_Civil_War_Confederate.</bibl></bibl>
+  <note type="internal">Newspaper published in Richmond, VA, mentioned in 11820; see chroniclingamerica.loc.gov for details</note>
+</org>
+<org xml:id="ENT.000003688">
+  <orgName key="ENT.000003688">Sackett &amp; Wilhelms Litho. &amp; Prt. Co.<orgName type="alt">Sackett &amp; Wilhelms Lithographing Corporation</orgName></orgName>
+  <note type="internal">http://id.loc.gov/authorities/names/no00092199</note>
+</org>
+<org xml:id="ENT.000003325">
+  <orgName key="ENT.000003325">Schmidt Litho. Co.<orgName type="alt">Schmidt Lithograph Company</orgName></orgName>
+  <note type="internal">lithographs 11524-PG278_b5f2_1_TEI.xml ; founded by Max Schmidt of SF Wasp?&#13;
+&#13;
+http://id.loc.gov/authorities/names/no2013118726</note>
+</org>
+<org xml:id="ENT.000003327">
+  <orgName key="ENT.000003327">Sons of Liberty</orgName>
+  <note type="internal">depicted 2562-Bb612L615_1_TEI.xml (Liberty Triumphant) &#13;
+http://id.loc.gov/authorities/names/n50071988.html</note>
+</org>
+<org xml:id="ENT.000003626">
+  <orgName key="ENT.000003626">Standard Oil Company</orgName>
+  <note type="internal">LOC:  http://id.loc.gov/authorities/names/n79053083</note>
+</org>
+<org xml:id="ENT.000003627">
+  <orgName key="ENT.000003627">Swain, Abell &amp; Simmons</orgName>
+  <note type="internal"> http://id.loc.gov/authorities/names/nr2003020764
+</note>
+</org>
+<org xml:id="ENT.000003639">
+  <orgName key="ENT.000003639">The Illustrated American</orgName>
+  <note type="internal">Published cartoon, "The Silence of Matt Quay" (DAMS #11737), unable to find much information about this publication.  See http://www.worldcat.org/title/illustrated-american-magazine/oclc/10048433.</note>
+</org>
+<org xml:id="ENT.000003640">
+  <orgName key="ENT.000003640">The Illustrated American Publishing Company</orgName>
+  <note type="internal">Published "The Illustrated American," which featured the cartoon, "The Silence of Matt Quay" (DAMS #11737), unable to find much information about this publication.  See http://www.worldcat.org/title/illustrated-american-magazine/oclc/10048433.</note>
+</org>
+<org xml:id="ENT.000003622">
+  <orgName key="ENT.000003622">The Jefferson (TX)</orgName>
+  <note type="internal">Jefferson (TX) newspaper, mentioned in 11820; could be "Jefferson Jimplecute," "Jefferson News," or various other local publications.</note>
+</org>
+<org xml:id="ENT.000003604">
+  <orgName key="ENT.000003604">United States Gazette</orgName>
+  <note type="org"> <p>The <hi rendition="#italics">United States Gazette</hi> was a daily newspaper (except Sunday) published in Philadelphia from 1823-1847. The paper underwent a series of ownership and editorship changes in the decades leading up to its merger with the <hi rendition="#italics">North American</hi>, another prominent Philadelphia newspaper, to become, in 1847, the <hi rendition="#italics">North American and United States Gazette</hi>.</p> </note>
+  <bibl><bibl>“About The United States Gazette. (Philadelphia [Pa.]) 1823-1847, Chronicling America Library of Congress,” Accessed February 11, 2015.  <ref target="http://chroniclingamerica.loc.gov/lccn/sn84026283/">Link</ref></bibl></bibl>
+  <note type="internal">See chronicling america:  chroniclingamerica.loc.gov/lccn/sn84026283/</note>
+</org>
+<org xml:id="ENT.000000382">
+  <orgName key="ENT.000000382">Wasp (San Francisco, Calif.)<orgName type="alt">San Francisco Illustrated Wasp</orgName></orgName>
+  <note type="internal">LOC:  http://id.loc.gov/authorities/names/n2007069903</note>
+</org>
+<org xml:id="ENT.000003773">
+  <orgName key="ENT.000003773">Westminster Magazine; or The Pantheon of Taste</orgName>
+  <note type="internal">British magazine, publisher of 12017</note>
+</org>
+<org xml:id="ENT.000003632">
+  <orgName key="ENT.000003632">Wevill &amp; Hammar</orgName>
+  <note type="org"><p>George Wevill and George Hammar (alt. Hammer) were a wood engraving partnership in New York City at 208 Broadway. The business flourished in the 1870s.</p> </note>
+  <bibl><bibl>“Punchinello - Google Books.” Accessed April 9, 2015. <ref target="https://books.google.com/books?id=56tDAQAAMAAJ&amp;pg=PA130&amp;lpg=PA130&amp;dq=wevill+&amp;+Hammar+wood+engravers&amp;source=bl&amp;ots=yCkDQYK2BS&amp;sig=FOybkKoOZe3NTBX3TbloDCk04i4&amp;hl=en&amp;sa=X&amp;ei=2DEkVaLWGsursAWDpoDwDQ&amp;ved=0CCUQ6AEwAQ#v=onepage&amp;q=wevill &amp; Hammar wood engravers&amp;f=false">Link</ref></bibl></bibl>
+  <note type="internal">engravers of 11747; wood engraving firm of George D. Hammar and George Wevill)</note>
+</org>
+<org xml:id="ENT.000003608">
+  <orgName key="ENT.000003608">World (New York, N.Y. : 1860-1931)<orgName type="alt">New York World</orgName></orgName>
+  <note type="internal">mentioned in 11820</note>
+</org>
+                </listOrg>
+            </div>
+        </body>
+    </text>
 </TEI>
