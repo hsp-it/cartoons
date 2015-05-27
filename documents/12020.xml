@@ -87,6 +87,7 @@
                                 <listRelation>
                                     <relation name="depicted" active="ENT.000003754"/>
                                     <relation name="depicted" active="ENT.000000259"/>
+                                    <relation name="depicted" active="ENT.000003766"/>
                                 </listRelation>
                             </bibl>
                         </msItem>
