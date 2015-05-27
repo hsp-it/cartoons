@@ -1,256 +1,236 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 
 <?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-
-
-    <teiHeader xml:lang="English">
-
-        <fileDesc>
-
-            <titleStmt>
-                <title type="main">TEI transcription of The Political Barbecue: Going the Whole
-                    Hog</title>
-                <respStmt>
-                    <resp key="art">Artist</resp>
-                    <persName key="ENT.000000553"/>
-                </respStmt>
-                <respStmt>
-                    <resp key="trc">Transcribed by</resp>
-                    <persName key="ENT.000003368"/>
-                </respStmt>
-                <respStmt>
-                    <resp key="mrk">Encoded by</resp>
-                    <persName key="ENT.000003368"/>
-                </respStmt>
-
-            </titleStmt>
-
-            <editionStmt>
-                <p>First edition, <date when="2015">2015</date></p>
-            </editionStmt>
-
-            <publicationStmt>
-                <publisher><orgName key="ENT.000002473">Historical Society of
-                    Pennsylvania</orgName></publisher>
-                <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
-                <idno type="filename">1778</idno>
-                <availability status="restricted">
-                    <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of
-                        copyright only to original contributions made by the Historic Images, New
-                        Technologies (HINT) Project participants and other staff. HSP makes no claim
-                        of copyright to the original text. Permission is granted to download,
-                        transmit or otherwise reproduce, distribute or display the text
-                        contributions to this work claimed by HSP for non-profit educational
-                        purposes, provided that this header is included in its entirety. For
-                        inquiries about commercial uses, please contact the Historical Society of
-                        Pennsylvania. HSP retains the rights of all images unless otherwise noted.
-                        Possession of an HSP digital image does not constitute permission to use or
-                        publish it. Requests for digital imaging, other reproduction services, and
-                        the intended use of reproductions must be made in writing to the Rights and
-                        Reproductions Coordinator at rnr@hsp.org.</p>
-                </availability>
-                <date when="2015"/>
-            </publicationStmt>
-
-            <seriesStmt>
-                <title level="s" type="project" key="CARTOONS"/>
-            </seriesStmt>
-
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <repository key="ENT.000002473"/>
-                        <collection key="V65"/>
-                        <idno type="citation">Bc 612 Pb 232</idno>
-                    </msIdentifier>
-                    <msContents>
-                        <msItem>
-                            <respStmt>
-                                <resp key="art">Artist</resp>
-                                <persName key="ENT.000000553"/>
-                            </respStmt>
-                            <title type="main" level="u">The Political Barbecue: Going the Whole
-                                Hog</title>
-                            <bibl>
-                                <date from="1834-01-01" to="1835-12-31">circa 1835</date>
-                                <extent>1 loose sheet</extent>
-                                <listRelation>
-                                    <relation name="depicted" active="ENT.000002223"/>
-                                    <relation name="depicted" active="ENT.000002636"/>
-                                    <relation name="depicted" active="ENT.000003308"/>
-                                    <relation name="depicted" active="ENT.000000552"/>
-                                    <relation name="depicted" active="ENT.000003760"/>
-                                    <relation name="depicted" active="ENT.000001368"/>
-                                    <relation name="depicted" active="ENT.000002230"/>
-                                    <relation name="depicted"
-                                        active="cartoons_symbols.xml#jack_downing"/>
-                                    <relation name="depicted" active="cartoons_symbols.xml#justice"/>
-                                    <relation name="depicted" active="cartoons_symbols.xml#devil"/>
-                                    <relation name="mentioned" active="ENT.000003761"/>
-                                </listRelation>
-                            </bibl>
-                        </msItem>
-                    </msContents>
-
-                    <history>
-                        <acquisition/>
-                    </history>
-                </msDesc>
-
-            </sourceDesc>
-        </fileDesc>
-
-        <encodingDesc>
-            <projectDesc>
-                <p>The Historic Images, New Technologies (HINT) project aims to enhance description
-                    and discovery of the Historical Society of Pennsylvania's graphics materials and
-                    promote the linking and sharing of content among institutions and scholars. The
-                    project will result in an update to HSP's digital image viewer and an online
-                    digital history exhibit that will demonstrate the new viewer's capabilities and
-                    provide interpretive and contextual materials to encourage users to interact
-                    with historical images in new ways. This project was funded by a grant from the
-                    National Historical Publications and Records Commission's (NHPRC) Innovation in
-                    Archives and Documentary Editing program.</p>
-            </projectDesc>
-            <editorialDecl n="4">
-                <p>This electronic file was created using manual keying following the
-                    recommendations for Level 4 of "Best Practices for TEI in Libraries" guidelines
-                    v3.0.</p>
-                <p>This xml file uses unique entity identifiers, media file identifiers, and
-                    collection identifiers in HSP's Digital Library, available at
-                    http://digitallibrary.hsp.org.</p>
-
-            </editorialDecl>
-            <tagsDecl>
-                <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
-                <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
-                <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
-                <rendition scheme="css" xml:id="crossed-through">text-decoration:
-                    line-through</rendition>
-                <rendition scheme="other" xml:id="printed"/>
-                <rendition scheme="other" xml:id="typescript"/>
-                <rendition scheme="other" xml:id="handwritten"/>
-                <rendition scheme="other" xml:id="handwritten-underlined"/>
-                <rendition scheme="other" xml:id="handwritten-circled"/>
-                <rendition scheme="other" xml:id="handwritten-crossed-through"/>
-                <rendition scheme="other" xml:id="double-underline"/>
-                <rendition scheme="other" xml:id="stamp"/>
-                <namespace name="http://www.tei-c.org/ns/1.0">
-                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
-                </namespace>
-            </tagsDecl>
-        </encodingDesc>
-
-        <profileDesc>
-            <textClass>
-                <catRef target="cartoons_genres.xml#lithographs"/>
-                <catRef target="cartoons_genres.xml#political_cartoons"/>
-                <catRef target="cartoons_taxonomies.xml#early"/>
-                <catRef target="cartoons_taxonomies.xml#econ"/>
-            </textClass>
-        </profileDesc>
-
-        <revisionDesc>
-            <change who="RachelMoloshok" when="2015-05-26">Basic encoding</change>
-        </revisionDesc>
-    </teiHeader>
-
-    <facsimile>
-        <surface ulx="" uly="" lrx="" lry="">
-            <graphic url="FIL.000093453"/>
-            <zone n="1" xml:id="title"/>
-            <zone n="2" xml:id="subtitle"/>
-            <zone n="3" xml:id="jackson"/>
-            <zone n="4" xml:id="furnace"/>
-            <zone n="5" xml:id="clay"/>
-            <zone n="6" xml:id="webster"/>
-            <zone n="7" xml:id="preston"/>
-            <zone n="8" xml:id="devil"/>
-            <zone n="9" xml:id="duane"/>
-            <zone n="10" xml:id="downing"/>
-            <zone n="11" xml:id="justice"/>
-        </surface>
-    </facsimile>
-
-    <text>
-        <front>
-            <div type="editorial_desc">
-                <p>In this political cartoon, which comments Andrew Jackson's removal of federal
-                    funds from the Bank of the United States, President Jackson is drawn as a pig
-                    with a human head, wearing one boot, roasting on a stove labeled "The Purifying
-                    Furnace of Public Opinion." Behind the barbecue stand five men, three of whom
-                    comment on the barbecue. Various historians have identified these men as
-                    Nicholas Biddle, William B. Preston, Daniel Webster, Henry Clay, and an
-                    unidentified fifth man. At right, Justice stands and holds the roasting rack
-                    steady, while Jack Downing (a popular character in a newspaper serial) kneels
-                    and splits kindling wood to feed the fire. At left, William Duane, former
-                    Secretary of the Treasury, leans down to stoke the fire, and a devil runs away.
-                    Numerous versions of this cartoon exist, some with the image reversed. In some
-                    versions of this cartoon, the devil has the face of Martin Van Buren, and all
-                    five men standing behind the barbecue speak. H. R. Robinson and Ezra Bisbee are
-                    both known to have published variants of this cartoon, but the Historical
-                    Society of Pennsylvania's copy of this image differs from theirs. Therefore, the
-                    publisher of this cartoon is as yet unknown.</p>
-            </div>
-        </front>
-
-        <body>
-            <div type="image_transcription" n="1" facs="#title">
-                <head><supplied resp="editorial">Title</supplied></head>
-                <p>THE POLITICAL BARBECUE</p>
-            </div>
-            <div type="image_transcription" n="2" facs="#subtitle">
-                <head><supplied resp="editorial">Subtitle and imprint</supplied></head>
-                <p>From Mr Van Buren's big picter draw'd off from nater by Zek Downing, Historical
-                    Painter to Uncle Jack &amp; Jineral Jackson.</p>
-                <p>GOING THE WHOLE HOG.</p>
-            </div>
-            <div type="image_annotation" n="3" facs="#jackson">
-                <head>Andrew Jackson</head>
-            </div>
-            <div type="image_transcription" n="4" facs="#furnace">
-                <head><supplied resp="editorial">Furnace</supplied></head>
-                <p>THE PURIFYING FURNACE OF PUBLIC OPINION</p>
-            </div>
-            <div type="image_transcription" n="5" facs="#clay">
-                <head><supplied resp="editorial">Henry Clay?</supplied></head>
-                <p>Mac, this is what they call <sic>in in Kentuc</sic> Our High Game to their
-                    Low</p>
-            </div>
-            <div type="image_transcription" n="6" facs="#webster">
-                <head><supplied resp="editorial">Daniel Webster?</supplied></head>
-                <p>They call it in <sic>Massachusets</sic> Roasting and as you have all turn'd him
-                    over, <sic>t'is</sic> my turn next but I am afraid I shall turn him into the
-                    Fire.</p>
-            </div>
-            <div type="image_transcription" n="7" facs="#preston">
-                <head><supplied resp="editorial">William Ballard Preston?</supplied></head>
-                <p>In South Carolina <sic>t'is</sic> call'd Barbecue, only he <unclear
-                        reason="handwriting">want</unclear> a little more <sic>Basteing</sic></p>
-            </div>
-            <div type="image_transcription" n="8" facs="#devil">
-                <head><supplied resp="editorial">Devil</supplied></head>
-                <p><sic>T'is</sic> my Business to get folks in trouble and their Business to get
-                    themselves out</p>
-            </div>
-            <div type="image_transcription" n="9" facs="#duane">
-                <head><supplied resp="editorial">William Duane?</supplied></head>
-                <p>I am opposed to removing the deposits as when I was <sic>Secratery</sic>, but
-                    prefer <sic>gentlely</sic> stirring them up</p>
-            </div>
-            <div type="image_transcription" n="10" facs="#downing">
-                <head><supplied resp="editorial">Jack Downing</supplied></head>
-                <p>I jest split a little <sic>kindleying</sic> Wood, so Amos can jest make Broth for
-                    all hands, but I hate it worse than smoking out Skunks.</p>
-            </div>
-            <div type="image_annotation" n="11" facs="#justice">
-                <head>Justice</head>
-            </div>
-
-        </body>
-
-        <back/>
-    </text>
+  <teiHeader xml:lang="English">
+    <fileDesc>
+      <titleStmt>
+        <title type="main">TEI transcription of The Political Barbecue: Going the Whole Hog</title>
+        <respStmt>
+          <resp key="art">artist</resp>
+          <persName key="ENT.000000553">Unknown Artist</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="trc">Transcribed by</resp>
+          <persName key="ENT.000003368">Moloshok, Rachel</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="mrk">Encoded by</resp>
+          <persName key="ENT.000003368">Moloshok, Rachel</persName>
+        </respStmt>
+        <respStmt>
+          <resp key="pfr">Proofread by</resp>
+          <persName key="ENT.000003368">Moloshok, Rachel</persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <p>First edition, <date when="2015">2015</date></p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher><orgName key="ENT.000002473">Historical Society of
+          Pennsylvania</orgName></publisher>
+        <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
+        <idno type="filename">1778</idno>
+        <availability status="restricted">
+          <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of copyright only
+            to original contributions made by the Historic Images, New Technologies (HINT) Project
+            participants and other staff. HSP makes no claim of copyright to the original text.
+            Permission is granted to download, transmit or otherwise reproduce, distribute or
+            display the text contributions to this work claimed by HSP for non-profit educational
+            purposes, provided that this header is included in its entirety. For inquiries about
+            commercial uses, please contact the Historical Society of Pennsylvania. HSP retains the
+            rights of all images unless otherwise noted. Possession of an HSP digital image does not
+            constitute permission to use or publish it. Requests for digital imaging, other
+            reproduction services, and the intended use of reproductions must be made in writing to
+            the Rights and Reproductions Coordinator at rnr@hsp.org.</p>
+        </availability>
+        <date when="2015">2015</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s" type="project" key="CARTOONS">Historic Images, New Technologies (HINT)
+          Project</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository key="ENT.000002473">Historical Society of Pennsylvania</repository>
+            <collection key="V65">Historical Society of Pennsylvania large graphics
+              collection</collection>
+            <idno type="citation">Bc 612 Pb 232</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <respStmt>
+                <resp key="art">artist</resp>
+                <persName key="ENT.000000553">Unknown Artist</persName>
+              </respStmt>
+              <title type="main" level="u">The Political Barbecue: Going the Whole Hog</title>
+              <bibl>
+                <date from="1834-01-01" to="1835-12-31">circa 1835</date>
+                <extent>1 loose sheet</extent>
+                <listRelation>
+                  <relation name="depicted" active="ENT.000002223"/>
+                  <relation name="depicted" active="ENT.000002636"/>
+                  <relation name="depicted" active="ENT.000003308"/>
+                  <relation name="depicted" active="ENT.000000552"/>
+                  <relation name="depicted" active="ENT.000003760"/>
+                  <relation name="depicted" active="ENT.000001368"/>
+                  <relation name="depicted" active="ENT.000002230"/>
+                  <relation name="mentioned" active="ENT.000003761"/>
+                  <relation name="depicted" active="cartoons_symbols.xml#jack_downing"/>
+                  <relation name="depicted" active="cartoons_symbols.xml#justice"/>
+                  <relation name="depicted" active="cartoons_symbols.xml#devil"/>
+                </listRelation>
+              </bibl>
+            </msItem>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The Historic Images, New Technologies (HINT) project aims to enhance description and
+          discovery of the Historical Society of Pennsylvania's graphics materials and promote the
+          linking and sharing of content among institutions and scholars. The project will result in
+          an update to HSP's digital image viewer and an online digital history exhibit that will
+          demonstrate the new viewer's capabilities and provide interpretive and contextual
+          materials to encourage users to interact with historical images in new ways. This project
+          was funded by a grant from the National Historical Publications and Records Commission's
+          (NHPRC) Innovation in Archives and Documentary Editing program.</p>
+      </projectDesc>
+      <editorialDecl n="4">
+        <p>This electronic file was created using manual keying following the recommendations for
+          Level 4 of "Best Practices for TEI in Libraries" guidelines v3.0.</p>
+        <p>This xml file uses unique entity identifiers, media file identifiers, and collection
+          identifiers in HSP's Digital Library, available at http://digitallibrary.hsp.org.</p>
+      </editorialDecl>
+      <tagsDecl>
+        <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
+        <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
+        <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
+        <rendition scheme="css" xml:id="crossed-through">text-decoration: line-through</rendition>
+        <rendition scheme="other" xml:id="printed"/>
+        <rendition scheme="other" xml:id="typescript"/>
+        <rendition scheme="other" xml:id="handwritten"/>
+        <rendition scheme="other" xml:id="handwritten-underlined"/>
+        <rendition scheme="other" xml:id="handwritten-circled"/>
+        <rendition scheme="other" xml:id="handwritten-crossed-through"/>
+        <rendition scheme="other" xml:id="double-underline"/>
+        <rendition scheme="other" xml:id="stamp"/>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <catRef target="cartoons_genres.xml#lithographs"/>
+        <catRef target="cartoons_genres.xml#political_cartoons"/>
+        <catRef target="cartoons_taxonomies.xml#early"/>
+        <catRef target="cartoons_taxonomies.xml#econ"/>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change who="RachelMoloshok" when="2015-05-27">Exported from Collective Access. Basic
+        proofreading</change>
+      <change who="RachelMoloshok" when="2015-05-26">Basic encoding</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface ulx="0" uly="0" lrx="100" lry="100">
+      <graphic url="FIL.000093453"/>
+      <zone n="1" xml:id="title" points="38.99,16.68 59.97,16.59 60.03,19.58 38.97,19.93"/>
+      <zone n="2" xml:id="subtitle" points="33.17,77.23 71.45,77.11 71.45,81.95 33.17,82.23"/>
+      <zone n="3" xml:id="jackson"
+        points="30.19,38.13 32.85,41.55 38.5,41.29 43.47,41.67 51.26,40.28 54.86,41.93 56.83,40.03 58.2,40.53 61.54,39.52 64.28,43.45 60.52,49.65 57,47.24 55.29,50.53 49.04,49.14 43.47,49.77 41.67,53.06 35.42,54.46 31.48,55.72 31.39,51.29 40.56,48.76 34.39,48 30.26,44.82"/>
+      <zone n="4" xml:id="furnace" points="28.95,51.55 58.38,52.14 58.81,66.7 28.74,65.94"/>
+      <zone n="5" xml:id="clay"
+        points="59.51,20.98 66.59,20.72 67.38,24.77 65.68,29.5 62.41,30.66 65.68,37.32 62.8,41.86 56.53,40.22 56.66,32.2 58.03,31.24 57.38,27.86"/>
+      <zone n="6" xml:id="webster"
+        points="51.61,20.51 59.16,20.66 65.63,29.73 61.12,38.42 57.2,36.78 55.18,42.38 49.36,40.84 51.71,30.7 51.61,25.51"/>
+      <zone n="7" xml:id="preston"
+        points="43.52,20.24 52.18,20.84 53.49,24.89 50.42,29.43 51.66,33.29 48.98,41.31 45.12,41.4 46.17,35.03 44.6,32.71 45.58,30.3 45.65,26.25 43.52,25.24"/>
+      <zone n="8" xml:id="devil"
+        points="25.14,22.28 30.43,20.84 33.7,22.19 34.29,26.53 32.65,28.27 27.88,27.69 26.71,29.81 27.95,33.19 31.67,29.33 32.92,29.62 29.84,34.64 31.87,35.41 32.26,41.11 29.75,38.1 20.4,40.88 20.45,37.32 24.59,34.69 20.76,33 19.65,30.78 23.05,24.89 24.62,25.37"/>
+      <zone n="9" xml:id="duane"
+        points="19.86,47.75 22.11,43.4 31.79,44.66 32.43,51.92 31.08,54.05 33.06,54.19 35.13,57.32 37.02,62.76 27.42,68.08 22.88,76.69 19.71,77.07"/>
+      <zone n="10" xml:id="downing"
+        points="65.44,34.73 70.44,34.73 73.6,39.29 69.57,44.99 77.54,59.29 78.56,76.76 65.11,76.76 61.52,73.72 60.92,59.04 61.43,51.19 64.17,45.75 62.72,42.71"/>
+      <zone n="11" xml:id="justice"
+        points="66.48,22.36 70.43,24.6 70.83,28.94 72.59,31.64 73.18,26.43 75.6,25.27 77.49,27.49 76.84,32.13 77.88,48.93 78.41,64.67 77.36,63.79 76.58,58.39 72,49.02 70.44,49.23 68.47,46.19 68.9,42.77 72.41,39.73 70.87,36.06 68.39,29.73 64.53,29.61"
+      />
+    </surface>
+  </facsimile>
+  <text>
+    <front>
+      <div type="editorial_desc">
+        <p>In this political cartoon, which comments Andrew Jackson's removal of federal funds from
+          the Bank of the United States, President Jackson is drawn as a pig with a human head,
+          wearing one boot, roasting on a stove labeled "The Purifying Furnace of Public Opinion."
+          Behind the barbecue stand five men, three of whom comment on the barbecue. Various
+          historians have identified these men as Nicholas Biddle, William B. Preston, Daniel
+          Webster, Henry Clay, and an unidentified fifth man. At right, Justice stands and holds the
+          roasting rack steady, while Jack Downing (a popular character in a newspaper serial)
+          kneels and splits kindling wood to feed the fire. At left, William Duane, former Secretary
+          of the Treasury, leans down to stoke the fire, and a devil runs away. Numerous versions of
+          this cartoon exist, some with the image reversed. In some versions of this cartoon, the
+          devil has the face of Martin Van Buren, and all five men standing behind the barbecue
+          speak. H. R. Robinson and Ezra Bisbee are both known to have published variants of this
+          cartoon, but the Historical Society of Pennsylvania's copy of this image differs from
+          theirs. Therefore, the publisher of this cartoon is as yet unknown.</p>
+      </div>
+    </front>
+    <body>
+      <div type="image_transcription" n="1" facs="#title">
+        <head><supplied resp="editorial">Title</supplied></head>
+        <p>THE POLITICAL BARBECUE</p>
+      </div>
+      <div type="image_transcription" n="2" facs="#subtitle">
+        <head><supplied resp="editorial">Subtitle and imprint</supplied></head>
+        <p>From Mr Van Buren's big picter draw'd off from nater by Zek Downing, Historical Painter
+          to Uncle Jack &amp; Jineral Jackson.</p>
+        <p>GOING THE WHOLE HOG.</p>
+      </div>
+      <div type="image_annotation" n="3" facs="#jackson">
+        <head>Andrew Jackson</head>
+      </div>
+      <div type="image_transcription" n="4" facs="#furnace">
+        <head><supplied resp="editorial">Furnace</supplied></head>
+        <p>THE PURIFYING FURNACE OF PUBLIC OPINION</p>
+      </div>
+      <div type="image_transcription" n="5" facs="#clay">
+        <head><supplied resp="editorial">Henry Clay?</supplied></head>
+        <p>Mac, this is what they call <sic>in in Kentuc</sic> Our High Game to their Low</p>
+      </div>
+      <div type="image_transcription" n="6" facs="#webster">
+        <head><supplied resp="editorial">Daniel Webster?</supplied></head>
+        <p>They call it in <sic>Massachusets</sic> Roasting and as you have all turn'd him over,
+            <sic>t'is</sic> my turn next but I am afraid I shall turn him into the Fire.</p>
+      </div>
+      <div type="image_transcription" n="7" facs="#preston">
+        <head><supplied resp="editorial">William Ballard Preston?</supplied></head>
+        <p>In South Carolina <sic>t'is</sic> call'd Barbecue, only he <unclear reason="handwriting"
+            >want</unclear> a little more <sic>Basteing</sic></p>
+      </div>
+      <div type="image_transcription" n="8" facs="#devil">
+        <head><supplied resp="editorial">Devil</supplied></head>
+        <p><sic>T'is</sic> my Business to get folks in trouble and their Business to get themselves
+          out</p>
+      </div>
+      <div type="image_transcription" n="9" facs="#duane">
+        <head><supplied resp="editorial">William Duane?</supplied></head>
+        <p>I am opposed to removing the deposits as when I was <sic>Secratery</sic>, but prefer
+            <sic>gentlely</sic> stirring them up</p>
+      </div>
+      <div type="image_transcription" n="10" facs="#downing">
+        <head><supplied resp="editorial">Jack Downing</supplied></head>
+        <p>I jest split a little <sic>kindleying</sic> Wood, so Amos can jest make Broth for all
+          hands, but I hate it worse than smoking out Skunks.</p>
+      </div>
+      <div type="image_annotation" n="11" facs="#justice">
+        <head>Justice</head>
+      </div>
+    </body>
+  </text>
 </TEI>
