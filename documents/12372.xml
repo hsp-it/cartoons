@@ -187,7 +187,7 @@
         
         <surface ulx="0" uly="0" lrx="100" lry="100">
             
-            <graphic url="FIL.000090250"/>
+            <graphic url="FIL.000094913"/>
             
             <zone n="1" xml:id="Title_left" points="2.32,28.45 4.13,28.81 4.54,72.33 2.36,72.14"/>
             <zone n="2" xml:id="Artist"
