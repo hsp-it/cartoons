@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 
     <teiHeader xml:lang="English">
@@ -8,7 +9,7 @@
 
             <titleStmt>
                 <title type="main"
-                    >TEI transcription of Where They Find Good Fishing</title>
+                    >TEI transcription of The Great Championship Race</title>
                 <respStmt>
                     <resp key="art">artist</resp>
                     <persName key="ENT.000003762">Schaadt, J. Allan</persName>
@@ -21,7 +22,6 @@
                     <resp key="mrk">Encoded by</resp>
                     <persName key="ENT.000003544">Biunno, Diane</persName>
                 </respStmt>
-
             <respStmt>
           <resp key="pbl">publisher</resp>
           <persName key="ENT.000003387">Unknown</persName>
@@ -37,7 +37,7 @@
                     Pennsylvania</orgName></publisher>
                 <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
                 <idno type="filename"
-                    >12020</idno>
+                    >11940</idno>
                 <availability status="restricted">
                     <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of
                         copyright only to original contributions made by the Historic Images, New
@@ -64,8 +64,7 @@
                 <msDesc>
                     <msIdentifier>
                         <repository key="ENT.000002473">Historical Society of Pennsylvania</repository>
-                        <collection key="0117">Hampton L. Carson papers</collection>
-                        
+                        <collection key="0117">Hampton L. Carson papers</collection>                   
                         <idno type="citation"
                             ><idno type="box">54</idno>
                             <idno type="folder">8</idno>
@@ -74,8 +73,8 @@
                     <msContents>
                         <msItem>
                             <bibl>
-                                <date from="1895-07-30"
-                                    >July 30, 1895</date>
+                                <date from="1895-07-15"
+                                    >July 15, 1895</date>
                                 <extent>1 loose page</extent>
                                 <extent>
                                     <dimensions type="image" unit="cm">
@@ -83,10 +82,11 @@
                                         <width quantity="26.5"/>
                                     </dimensions>
                                 </extent>
-                               
+                                
                                 <listRelation>
                                     <relation name="depicted" active="ENT.000003754"/>
                                     <relation name="depicted" active="ENT.000000259"/>
+                                    <relation name="depicted" active="ENT.000001953"/>
                                     <relation name="depicted" active="ENT.000003766"/>
                                 </listRelation>
                             </bibl>
@@ -107,24 +107,24 @@
                         <respStmt>
                             <resp key="art">artist</resp>
                             <persName key="ENT.000003762">Schaadt, J. Allan</persName>
-                        </respStmt>
+                        </respStmt>  
                         <respStmt>
               <resp key="pbl">publisher</resp>
               <persName key="ENT.000003387">Unknown</persName>
             </respStmt>
-            <title type="main" level="a">Where They Find Good Fishing</title>
-                    <date from="1895-07-30">July 30, 1895</date>
+            <title type="main" level="a">The Great Championship Race</title>
+                    <date from="1895-07-15">July 15, 1895</date>
           </analytic>
                     <monogr>
                         <title type="marc245a" level="j"><orgName key="ENT.000003763"
                             >Philadelphia Times</orgName></title>
                         <imprint>
                             <pubPlace>Philadelphia</pubPlace>
-                            <date from="1895-07-30"
-                                >July 30, 1895</date>
+                            <date from="1895-07-15"
+                                >July 15, 1895</date>
                             <publisher>
-                <persName key="ENT.000003387">Unknown</persName>
-              </publisher>
+                                <persName key="ENT.000003387">Unknown</persName>
+                            </publisher>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -191,43 +191,74 @@
     </teiHeader>
 
     <facsimile>
-        <surface ulx="0" uly="0" lrx="100" lry="100">       
+       
+        <surface ulx="0" uly="0" lrx="100" lry="100">
+            
             <graphic
-                url="FIL.000090426"/>
-
-            <zone n="1" xml:id="Title" points="34.1,66.04 65.13,65.6 65.05,62.12 75.08,59.64 74.22,68.24 33.79,68.09"/>
-            <zone n="2" xml:id="Date" points="35.71,22.46 63.08,22.89 62.85,26.21 35.57,26.21"/>
-            <zone n="3" xml:id="Table" points="30.15,49.3 71.3,48.96 72.63,53.99 30.36,53.61"/>
+                url="FIL.000095424"/>
+            
+            <zone n="1" xml:id="Title" points="26.17,94.07 74.25,94.07 74.39,97.69 26.17,98.6"/>
+            <zone n="2" xml:id="Artist" points="79.16,84.9 90.64,84.67 91.21,89.38 79.16,89.9"/>
+            <zone n="3" xml:id="Rocks" points="48.96,76.94 51.63,73.78 56.42,73.38 59.52,76.77 62.77,74.23 66.61,73.12 72.57,80.58 79.78,80.38 82.45,75.34 85.66,75.44 90.37,78.06 92.88,79.97 93.41,83.33 48.96,81.94"/>
+            <zone n="4" xml:id="Hat1" points="77.56,24.46 80.54,23.85 82.19,21.23 86.03,22.24 86.66,27.58 81.25,25.97 78.82,27.58"/>
+            <zone n="5" xml:id="Hat2" points="68,33.13 69.25,30 74.35,29.5 76.86,36.86 72.86,37.46 69.1,35.24"/>
+            <zone n="6" xml:id="Hat3" points="46.47,10.47 50.59,10.14 55.14,12.26 55.64,18.08 50.67,17.7 45.21,12.82"/>
+            <zone n="7" xml:id="Hat4" points="13.48,26.06 17.57,24.97 20.95,29.33 13.34,30.05 11.36,31.14 7.84,30.6 9.81,27.88"/>
+            <zone n="8" xml:id="Date" points="20.25,0.31 77.78,0.31 77.92,5.75 20.25,6.66"/>     
         </surface>
     </facsimile>
 
     <text>
-    
+
         <front>
             <div type="editorial_desc">
-                <p>In the image there is a table with three small fish tanks.  Charles Warwick uses a fishing pole to catch fish from the "city office aquarium" while David Martin uses his hands to grab a fish from the "McMullen Dem acquarium."</p>
+                <p>Matthew Quay, David Martin, Daniel Hastings, and Charles Warwick are in a bicycle race.  Martin, Warwick, and Hastings try to catch up with Quay, but rocks labeled "his record," "broken pledges," and "ambition" block their path.</p>
             </div>
         </front>
-
+        
         <body>
-            <div type="image_transcription" n="1" facs="#Title">
-                <head><supplied resp="editorial">Title and signature</supplied></head>
-                <p>WHERE THEY FIND GOOD FISHING.</p>
-                <p>J.Allan Schaadt</p>
-</div>
+            <div type="image_transcription" facs="#Title" n="1">
+                <head><supplied resp="editorial">Title</supplied></head>
+                <p>THE GREAT CHAMPIONSHIP RACE</p>
+            </div>
             
-            <div type="image_transcription" n="2" facs="#Date">
+            <div type="image_transcription" facs="#Artist" n="2">
+                <head><supplied resp="editorial">Signature</supplied></head>
+                <p>J. Allan Schaadt</p>
+            </div>
+            
+            <div type="image_transcription" facs="#Rocks" n="3">
+                <head><supplied resp="editorial">Rocks</supplied></head>
+                <p>HIS RECORD</p>
+                <p>BROKEN PLEDGES</p>
+                <p>AMBITION</p>
+            </div>
+            
+            <div type="image_transcription" facs="#Hat1" n="4">
+                <head><supplied resp="editorial">Hat 1</supplied></head>
+                <p>HASTINGS</p>
+            </div>
+            
+            <div type="image_transcription" facs="#Hat2" n="5">
+                <head><supplied resp="editorial">Hat 2</supplied></head>
+                <p>WARWICK</p>
+            </div>
+            
+            <div type="image_transcription" facs="#Hat3" n="6">
+                <head><supplied resp="editorial">Hat 3</supplied></head>
+                <p>MARTIN</p>
+            </div>
+            
+            <div type="image_transcription" facs="#Hat4" n="7">
+                <head><supplied resp="editorial">Hat 4</supplied></head>
+                <p>QUAY</p>
+            </div>
+            
+            <div type="image_transcription" facs="#Date" n="8">
                 <head><supplied resp="editorial">Publication date</supplied></head>
-                <p>MORNING.  JULY 30, 1895.</p>
+                <p>MONDAY MORNING.  JULY 15, 1895.</p>
             </div>
-            
-            <div type="image_transcription" n="3" facs="#Table">
-                <head><supplied resp="editorial">Labels</supplied></head>
-                <p>CITY OFFICE AQUARIUM</p>
-                <p>STATE OFFICE AQUARIUM</p>
-                <p>McMULLEN DEM AQUARIUM</p>
-            </div>
-        </body>
+ </body>
 
         <back/>
     </text>
