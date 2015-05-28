@@ -8,7 +8,7 @@
             <titleStmt>
                 <title type="main">"TEI transcription of Effect of Roentgen's "Rays"</title>
                 <respStmt>
-                    <resp key="art">Artist</resp>
+                    <resp key="art">artist</resp>
                     <persName key="ENT.000000553">"Unknown Artist"</persName>
                 </respStmt>
                 <respStmt>
@@ -103,7 +103,7 @@
                 <biblStruct>
                     <analytic>
                         <respStmt>
-                            <resp key="art">Artist</resp>
+                            <resp key="art">artist</resp>
                             <persName key="ENT.000000553"/>
                         </respStmt>
                         <respStmt>
