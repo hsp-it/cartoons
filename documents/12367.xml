@@ -23,6 +23,10 @@
                     <resp key="mrk">Encoded by</resp>
                     <persName key="ENT.000003544">Biunno, Diane</persName>
                 </respStmt>
+                <respStmt>
+                    <resp key="pfr">Proofread by</resp>
+                    <persName key="ENT.000003544">Biunno, Diane</persName>
+                </respStmt>
 
                 <respStmt>
                     <resp key="pbl">publisher</resp>
@@ -75,12 +79,8 @@
                             <bibl>
                                 <date from="1915-11-05">November 5, 1915</date>
                                 <extent>1 scrapbook page</extent>
-                                <extent>
-                                    <dimensions type="image" unit="cm"/>
-                                </extent>
                                 <listRelation>
-                                    <relation name="depicted" active="cartoons_symbols.xml#columbia"
-                                    />
+                                    <relation name="depicted" active="cartoons_symbols.xml#columbia"/>
                                 </listRelation>
                             </bibl>
                         </msItem>
@@ -269,8 +269,8 @@
             </div>
 
             <div type="image_annotation" n="7" facs="#Columbia">
-                <head><supplied resp="editorial"><rs ref="cartoons_symbols.xml#columbia"
-                            >Columbia</rs></supplied></head>
+                <head><rs ref="cartoons_symbols.xml#columbia"
+                            >Columbia</rs></head>
                 <p>In her right hand, Columbia raises the sword of justice. She wears Roman armor
                     and carries a banner.</p>
 
