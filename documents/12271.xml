@@ -22,6 +22,10 @@
           <persName key="ENT.000003544">Biunno, Diane</persName>
         </respStmt>
         <respStmt>
+          <resp key="pfr">Proofread by</resp>
+          <persName key="ENT.000003544">Biunno, Diane</persName>
+        </respStmt>
+        <respStmt>
           <resp key="pbl">publisher</resp>
           <persName key="ENT.000003387">Unknown</persName>
         </respStmt>
@@ -70,9 +74,10 @@
                 <date from="1914-07-27">July 27, 1914</date>
                 <extent>1 loose page</extent>
                 <extent>
-                  <dimensions type="image" unit="cm"/>
+                  <dimensions type="image" unit="cm">
                   <height quantity="21"/>
                   <width quantity="17.5"/>
+                  </dimensions>
                 </extent>
                 <listRelation>
                   <relation name="depicted" active="ENT.000002738"/>
@@ -200,7 +205,7 @@
     </front>
     <body>
       <div type="image_transcription" n="1" facs="#Title">
-        <head><supplied resp="editorial">Title and Artist</supplied></head>
+        <head><supplied resp="editorial">Title and artist</supplied></head>
         <p>"FOR HE HIMSELF HAS SAID IT."</p>
         <p>"I regard the action of Mr. Barnes as the most striking proof that could be given that
           the bosses recognize in ME personally the ONE enemy that the type of machine government
@@ -216,12 +221,12 @@
       </div>
       <div type="image_transcription" n="3" facs="#LittleTR">
         <head><supplied resp="editorial"><persName key="ENT.000002738">Theodore
-            Roosevelt</persName></supplied></head>
+            Roosevelt</persName> as a child</supplied></head>
         <p>TEDDY</p>
       </div>
       <div type="image_transcription" n="4" facs="#BigTR">
         <head><supplied resp="editorial"><persName key="ENT.000002738">Theodore
-            Roosevelt</persName></supplied></head>
+            Roosevelt</persName> as an adult</supplied></head>
         <p>ME</p>
       </div>
     </body>
