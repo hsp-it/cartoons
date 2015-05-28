@@ -172,7 +172,7 @@
   </teiHeader>
   <facsimile>
     <surface ulx="0" uly="0" lrx="100" lry="100">
-      <graphic url="FIL.000090268"/>
+      <graphic url="FIL.000094422"/>
       <zone n="1" xml:id="Title" points="3.46,4.98 81.51,4.79 81.29,13.5 3.2,13.76"/>
       <zone n="2" xml:id="Artist" points="7.81,90.07 25.62,91.59 26.71,97.21 7.24,97.31"/>
       <zone n="3" xml:id="Tomb"
