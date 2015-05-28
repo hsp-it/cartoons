@@ -193,7 +193,7 @@
 
         <surface ulx="0" uly="0" lrx="100" lry="100">
 
-            <graphic url="FIL.000090259"/>
+            <graphic url="FIL.000094912"/>
 
             <zone n="1" xml:id="Title" points="12.37,85.94 68.38,87.19 68.64,89.85 12.36,88.18"/>
             <zone n="2" xml:id="Text"
