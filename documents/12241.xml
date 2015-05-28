@@ -25,6 +25,10 @@
                     <resp key="mrk">Encoded by</resp>
                     <persName key="ENT.000003544">Biunno, Diane</persName>
                 </respStmt>
+                <respStmt>
+                    <resp key="pfr">Proofread by</resp>
+                    <persName key="ENT.000003544">Biunno, Diane</persName>
+                </respStmt>
 
             <respStmt>
           <resp key="pbl">publisher</resp>
@@ -79,10 +83,8 @@
                             <bibl>
                                 <date from="1908-09-25">September 25, 1908</date>
                                 <extent>1 loose sheet</extent>
-                                <extent>
-               
-                </extent>
-                <listRelation>
+                         
+                                <listRelation>
                                     <relation name="depicted" active="ENT.000002738"/>
                                     <relation name="depicted" active="ENT.000003335"/>
                                     <relation name="depicted" active="ENT.000003626"/>
@@ -236,9 +238,8 @@
             </div>
 
             <div type="image_transcription" n="2" facs="#Artist">
-                <head><supplied resp="editorial"><persName key="ENT.000003391">Orville P.
-                            Williams</persName></supplied></head>
-                <p>Williams</p>
+                <head><supplied resp="editorial">Signature</supplied></head>
+                <p><persName key="ENT.000003391">Williams</persName></p>
             </div>
 
             <div type="image_transcription" n="3" facs="#Basket">
@@ -268,8 +269,8 @@
                 <p><add>Ledger 9-25-08</add></p>
             </div>
             <div type="image_annotation" n="7" facs="#Bryan">
-                <head><supplied resp="editorial"><persName key="ENT.000003335">William Jennings
-                            Bryan</persName></supplied></head>
+                <head><persName key="ENT.000003335">William Jennings
+                            Bryan</persName></head>
                 <p>William Jennings Bryan looks out the window at the baby in the basket.</p>
             </div>
 
