@@ -19,8 +19,13 @@
           <resp key="trc">Transcribed by</resp>
           <persName key="ENT.000003544">Biunno, Diane</persName>
         </respStmt>
+      
         <respStmt>
           <resp key="mrk">Encoded by</resp>
+          <persName key="ENT.000003544">Biunno, Diane</persName>
+        </respStmt>
+         <respStmt>
+          <resp key="pfr">Proofread by</resp>
           <persName key="ENT.000003544">Biunno, Diane</persName>
         </respStmt>
         <respStmt>
@@ -85,7 +90,7 @@
               <persName key="ENT.000000379">Keppler, Joseph Ferdinand, 1838-1894</persName>
             </respStmt>
             <respStmt>
-              <resp key="ltg">Lithographer</resp>
+              <resp key="ltg">lithographer</resp>
               <persName key="ENT.000000380">Mayer, Merkel &amp; Ottmann </persName>
             </respStmt>
             <respStmt>
@@ -219,7 +224,7 @@
     </front>
     <body>
       <div type="image_transcription" n="1" facs="#Title">
-        <head><supplied resp="editorial">Title and Caption</supplied></head>
+        <head><supplied resp="editorial">Title and caption</supplied></head>
         <p><rs ref="cartoons_symbols.xml#uncle_sam">UNCLE SAM'S</rs> LODGING-HOUSE</p>
         <p>Uncle Sam:-"Look here, you, everybody else is quiet and peaceable, and you're all the
           time a-kicking up a row!"</p>
@@ -294,17 +299,17 @@
         <p>LONDON</p>
       </div>
       <div type="image_annotation" n="15" facs="#Sam">
-        <head><supplied resp="editorial"><rs ref="cartoons_symbols.xml#uncle_sam">Uncle
-            Sam</rs></supplied></head>
+        <head><rs ref="cartoons_symbols.xml#uncle_sam">Uncle
+            Sam</rs></head>
         <p>Uncle Sam in his pajamas, carries a lantern and covers his ears.</p>
       </div>
       <div type="image_annotation" n="16" facs="#Columbia">
-        <head><supplied resp="editorial"><rs ref="cartoons_symbols.xml#columbia"
-            >Columbia</rs></supplied></head>
+        <head><rs ref="cartoons_symbols.xml#columbia"
+            >Columbia</rs></head>
         <p>Columbia covers her ears.</p>
       </div>
       <div type="image_annotation" n="17" facs="#Pipe">
-        <head><supplied resp="editorial">Opium Pipe</supplied></head>
+        <head>Opium Pipe</head>
         <p>Some native-born Americans believed that most Chinese immigrants abused opium. The
           political cartoon highlights this Chinese immigrant stereotype by depicting the Chinese
           man asleep next to his opium pipe.</p>
