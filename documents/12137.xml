@@ -25,6 +25,10 @@
           <persName key="ENT.000003544">Biunno, Diane</persName>
         </respStmt>
         <respStmt>
+          <resp key="pfr">Proofread by</resp>
+          <persName key="ENT.000003544">Biunno, Diane</persName>
+        </respStmt>
+        <respStmt>
           <resp key="pbl">publisher</resp>
           <orgName key="ENT.000003163">Keppler &amp; Schwarzmann</orgName>
         </respStmt>
@@ -204,7 +208,7 @@
     </front>
     <body>
       <div type="image_transcription" n="1" facs="#Title">
-        <head><supplied resp="editorial">Title and Caption</supplied></head>
+        <head><supplied resp="editorial">Title and caption</supplied></head>
         <p>EXTREMES MEET</p>
         <p>CROWDED BY CHOICE.</p>
         <p>PACKED BY NECESSITY.</p>
