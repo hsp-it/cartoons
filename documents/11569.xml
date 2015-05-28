@@ -14,6 +14,10 @@
           <resp key="mrk">Encoded by</resp>
           <persName key="ENT.000003544">Biunno, Diane</persName>
         </respStmt>
+         <respStmt>
+          <resp key="pfr">Proofread by</resp>
+          <persName key="ENT.000003544">Biunno, Diane</persName>
+        </respStmt>
         <respStmt>
           <resp key="pbl">publisher</resp>
           <persName key="ENT.000003387">Unknown</persName>
@@ -46,9 +50,6 @@
               <bibl>
                 <date from="1908-08-16">August 16, 1908</date>
                 <extent>1 loose page</extent>
-                <extent>
-                  <dimensions type="image" unit="cm"/>
-                </extent>
                 <listRelation>
                   <relation name="depicted" active="ENT.000003384"/>
                   
@@ -160,7 +161,7 @@
     <body>
       <div type="image_transcription" n="1" facs="#Title"><head><supplied resp="editorial">Title</supplied></head>
                 <p>THE HARDEST JOB THEY EVER TACKLED</p></div>
-      <div type="image_transcription" n="2" facs="#Artist"><head><supplied resp="editorial"><persName key="ENT.000000436">John L. De Mar</persName></supplied></head>
+      <div type="image_transcription" n="2" facs="#Artist"><head><supplied resp="editorial"><persName key="ENT.000000436">John L. De Mar's </persName> Signature</supplied></head>
                 <p>-By De Mar.</p></div>
       <div type="image_transcription" n="3" facs="#Weights"><head><supplied resp="editorial">Weights</supplied></head>
                 <p>INDUSTRIAL DEPRESSION</p>
@@ -175,7 +176,7 @@
                 <p>TAFT</p></div>
       <div type="image_transcription" n="8" facs="#Chair"><head><supplied resp="editorial">Chair</supplied></head>
                 <p>THE PRESIDENCY</p></div>
-      <div type="image_transcription" n="9" facs="#Heading"><head><supplied resp="editorial">Heading</supplied></head>
+      <div type="image_transcription" n="9" facs="#Heading"><head><supplied resp="editorial">Publication heading</supplied></head>
                 <p>PHILADELPHIA,  SUNDAY  MORNING,</p></div>
     </body>
   </text>
