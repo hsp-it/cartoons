@@ -22,6 +22,10 @@
                     <resp key="mrk">Encoded by</resp>
                     <persName key="ENT.000003544">Biunno, Diane</persName>
                 </respStmt>
+                <respStmt>
+                    <resp key="pfr">Proofread by</resp>
+                    <persName key="ENT.000003544">Biunno, Diane</persName>
+                </respStmt>
 
             <respStmt>
           <resp key="ltg">lithographer</resp>
@@ -196,7 +200,7 @@
         <surface ulx="0" uly="0" lrx="100" lry="100">
 
             <graphic
-                url="FIL.000090463"/>
+                url="FIL.000091292"/>
            
             <zone n="1" xml:id="Title" points="3.73,91.95 46.41,92.13 76.02,92.3 81.53,91.95 95.38,86.13 95.51,96.24 3.85,96.75"/>
             <zone n="2" xml:id="Parnell" points="80,52.23 79.35,45.72 85.38,40.75 88.07,42.12 92.56,42.12 93.2,55.31 86.53,56.16 86.53,59.42 89.74,59.76 92.3,62.5 89.61,66.1 86.4,67.64 79.23,67.3 78.97,63.53 80.89,59.93 85.12,56.16 78.84,57.19"/>
