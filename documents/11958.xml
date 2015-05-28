@@ -20,6 +20,10 @@
           <persName key="ENT.000003544">Biunno, Diane</persName>
         </respStmt>
         <respStmt>
+          <resp key="pfr">Proofread by</resp>
+          <persName key="ENT.000003544">Biunno, Diane</persName>
+          </respStmt>
+        <respStmt>
           <resp key="pbl">publisher</resp>
           <persName key="ENT.000003366">Wanamaker, Thomas B., 1865-1908</persName>
         </respStmt>
@@ -67,9 +71,10 @@
                 <date from="1903-01-29">January 29, 1903</date>
                 <extent>1 loose page</extent>
                 <extent>
-                  <dimensions type="image" unit="cm"/>
-                  <height quantity="35"/>
-                  <width quantity="26.5"/>
+                    <dimensions type="image" unit="cm">
+                        <height quantity="35"/>
+                        <width quantity="26.5"/>
+                    </dimensions>
                 </extent>
                 <listRelation>
                   <relation name="depicted" active="ENT.000000557"/>
@@ -222,8 +227,8 @@
             collar with his name written on it.</note></p>
       </div>
       <div type="image_annotation" n="4" facs="#Bird">
-        <head><supplied resp="editorial"><persName key="ENT.000000557">Samuel
-            Pennypacker</persName></supplied></head>
+        <head><persName key="ENT.000000557">Samuel
+            Pennypacker</persName></head>
         <p><persName key="ENT.000003547">Charles Nelan</persName> has drawn Pennsylvania Governor
           Samuel Pennypacker as a parrot perched on a large boot. Prior to <hi rendition="#italics"
             >Mutual Admiration</hi>, Nelan had drawn several other cartoons featuring Pennypacker as
