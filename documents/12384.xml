@@ -24,6 +24,10 @@
                     <resp key="mrk">Encoded by</resp>
                     <persName key="ENT.000003544">Biunno, Diane</persName>
                 </respStmt>
+                <respStmt>
+                    <resp key="pfr">Proofread by</resp>
+                    <persName key="ENT.000003544">Biunno, Diane</persName>
+                </respStmt>
 
             <respStmt>
           <resp key="ltg">lithographer</resp>
@@ -81,11 +85,13 @@
                             <bibl>
                                 <date from="1898-05-07">May 7, 1898</date>
                                 <extent>1 loose page</extent>
-                                <extent>
-                                    <dimensions type="image" unit="cm"/>
-                                <height quantity="26.5"/>
-                  <width quantity="34"/>
-                </extent>
+                                
+                        <extent>
+                    <dimensions type="image" unit="cm">
+                    <height quantity="26.5"/>
+                    <width quantity="34"/>
+                    </dimensions>
+                        </extent>
                                 
                                 <listRelation>
                                     <relation name="depicted" active="cartoons_symbols.xml#uncle_sam"/>
@@ -228,7 +234,7 @@
             </div>
             
             <div type="image_annotation" n="2" facs="#Sam">
-                <head><supplied resp="editorial"><rs ref="cartoons_symbols.xml#uncle_sam">Uncle Sam</rs></supplied></head>
+                <head><rs ref="cartoons_symbols.xml#uncle_sam">Uncle Sam</rs></head>
                 <p>Uncle Sam holds a handkerchief and stands in front of a large photograph album.  Behind him are photographs of starving Cuban women and children and of the destruction of the USS <hi rendition="#italics">Maine</hi>.</p>
             </div>
             
