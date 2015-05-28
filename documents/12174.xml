@@ -18,6 +18,10 @@
                     <resp key="mrk">Encoded by</resp>
                     <persName key="ENT.000003544">Biunno, Diane</persName>
                 </respStmt>
+                <respStmt>
+                    <resp key="pfr">Proofread by</resp>
+                    <persName key="ENT.000003544">Biunno, Diane</persName>
+                </respStmt>
 
                 <respStmt>
                     <resp key="pbl">publisher</resp>
@@ -242,7 +246,7 @@
             </div>
 
             <div type="image_transcription" n="2" facs="#Artist">
-                <head><supplied resp="editorial">Artist</supplied></head>
+                <head><supplied resp="editorial">Artist's signature</supplied></head>
                 <p><persName key="ENT.000003579">R.C Swayze</persName></p>
             </div>
 
@@ -252,16 +256,16 @@
             </div>
 
             <div type="image_annotation" n="4" facs="#Grover">
-                <head><supplied resp="editorial"><persName key="ENT.000003339">Grover
-                            Cleveland</persName></supplied></head>
+                <head><persName key="ENT.000003339">Grover
+                            Cleveland</persName></head>
                 <p>Cleveland became the 22nd and 24th President of the United States. He supported
                     the gold currency, civil service reform, and free trade. After his presidency,
                     he served as a professor at Princeton University.</p>
             </div>
 
             <div type="image_annotation" n="5" facs="#Adlai">
-                <head><supplied resp="editorial"><persName key="ENT.000003686">Adlai
-                            Stevenson</persName></supplied></head>
+                <head><persName key="ENT.000003686">Adlai
+                            Stevenson</persName></head>
                 <p>Adlai Stevenson was a congressman from Illinois. Cleveland supported the gold
                     standard and in order to balance out the ticket, chose Stevenson, a supporter of
                     free silver, as his vice presidential running mate.</p>
@@ -294,7 +298,7 @@
             </div>
 
             <div type="image_transcription" n="11" facs="#Date">
-                <head><supplied resp="editorial">Date</supplied></head>
+                <head><supplied resp="editorial">Publication date</supplied></head>
                 <p>JULY 24, 1892</p>
             </div>
         </body>
