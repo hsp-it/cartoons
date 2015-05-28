@@ -23,6 +23,10 @@
           <persName key="ENT.000003544">Biunno, Diane</persName>
         </respStmt>
         <respStmt>
+                    <resp key="pfr">Proofread by</resp>
+                    <persName key="ENT.000003544">Biunno, Diane</persName>
+                </respStmt>
+        <respStmt>
           <resp key="pbl">publisher</resp>
           <orgName key="ENT.000003554">E. C. MacFarlane &amp; Co.</orgName>
         </respStmt>
@@ -213,8 +217,8 @@
         <p>A STATUE FOR <hi rendition="#italics">OUR</hi> HARBOR</p>
       </div>
       <div type="image_transcription" n="2" facs="#Artist">
-         <head><supplied resp="editorial"><persName key="ENT.000003164">George Frederick Keller</persName></supplied></head>
-        <p>KELLER</p>
+         <head><supplied resp="editorial">Signature</supplied></head>
+        <p><persName key="ENT.000003164">KELLER</persName></p>
       </div>
       <div type="image_transcription" n="3" facs="#Statue">
         <head><supplied resp="editorial">Statue</supplied></head>
@@ -226,27 +230,28 @@
         <p>LABOR</p>
       </div>
       <div type="image_transcription" n="4" facs="#Wasp">
-        <head><supplied resp="editorial"><orgName key="ENT.000000382"
-          >Wasp</orgName></supplied></head>
-        <p>The Wasp</p>
+        <head><supplied resp="editorial">Magazine title</supplied></head>
+        <p><orgName key="ENT.000000382"
+          >The Wasp</orgName></p>
       </div>
       <div type="image_annotation" n="5" facs="#Pipe">
-        <head><supplied resp="editorial">Pipe</supplied></head>
+        <head>Pipe</head>
         <p>Many whites believed that Chinese immigrants abused opium. The political cartoon
           highlights this Chinese immigrant stereotype and replaces the Statue of Liberty's tablet
           of laws with an opium pipe.</p>
       </div>
       <div type="image_annotation" n="6" facs="#Skull">
-        <head><supplied resp="editorial">Skull</supplied></head>
+        <head>Skull</head>
         <p>Chinese man rests his leg on a human skull. It is implied that the skull belongs to a
           white man.</p>
       </div>
       <div type="image_annotation" n="7" facs="#Statue_of_Liberty">
-        <head><supplied resp="editorial"><rs ref="cartoons_symbols.xml#statue_of_liberty">Statue of
-              Liberty</rs></supplied></head>
+        <head><rs ref="cartoons_symbols.xml#statue_of_liberty">Statue of
+              Liberty</rs></head>
+              <p>Artist has depicted the Statue of Liberty with the face of a Chinese man.</p>
       </div>
       <div type="image_annotation" n="8" facs="#Moon">
-        <head><supplied resp="editorial">Moon</supplied></head>
+        <head>Moon</head>
         <p>The moon has the face of a Chinese man.</p>
       </div>
     </body>
