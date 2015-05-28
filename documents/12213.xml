@@ -25,6 +25,10 @@
                     <resp key="mrk">Encoded by</resp>
                     <persName key="ENT.000003544">Biunno, Diane</persName>
                 </respStmt>
+                <respStmt>
+                    <resp key="pfr">Proofread by</resp>
+                    <persName key="ENT.000003544">Biunno, Diane</persName>
+                </respStmt>
             </titleStmt>
 
             <editionStmt>
@@ -85,7 +89,6 @@
                                     <relation name="depicted" active="ENT.000003607"/>
                                     <relation name="depicted" active="ENT.000002704"/>
                                     <relation name="depicted" active="ENT.000000259"/>
-                                   
                                     <relation name="mentioned" active="ENT.000003687"/>
                                     
                                 </listRelation>
