@@ -25,11 +25,15 @@
                     <persName key="ENT.000003544">Biunno, Diane</persName>
                 </respStmt>
                 <respStmt>
+                    <resp key="pfr">Proofread by</resp>
+                    <persName key="ENT.000003544">Biunno, Diane</persName>
+                </respStmt>
+                <respStmt>
                     <resp key="pbl">publisher</resp>
                     <orgName key="ENT.000003163">Keppler &amp; Schwarzmann</orgName>
                 </respStmt>
                 <respStmt>
-                    <resp key="ltg">Lithographer</resp>
+                    <resp key="ltg">lithographer</resp>
                     <orgName key="ENT.000000380">Mayer, Merkel &amp; Ottomann</orgName>
                 </respStmt>
 
@@ -302,9 +306,8 @@
             </div>
 
             <div type="image_transcription" n="2" facs="#Signature">
-                <head><supplied resp="editorial"><persName key="ENT.000000379">Joseph
-                            Keppler</persName></supplied></head>
-                <p>KEPPLER</p>
+                <head><supplied resp="editorial">Signature</supplied></head>
+                <p><persName key="ENT.000000379">KEPPLER</persName></p>
             </div>
 
             <div type="image_transcription" n="3" facs="#Office">
@@ -313,9 +316,8 @@
             </div>
 
             <div type="image_transcription" n="4" facs="#Lithographer">
-                <head><supplied resp="editorial"><orgName key="ENT.000000380">Mayer, Merckel &amp;
-                            Ottomann</orgName></supplied></head>
-                <p>MAYER MERCKEL &amp; OTTOMANN LITHOG.2325 WARREN ST. N.Y</p>
+                <head><supplied resp="editorial">Lithographer's address</supplied></head>
+                <p><orgName key="ENT.000000380">MAYER MERCKEL &amp; OTTOMANN LITHOG.2325 WARREN ST. N.Y</orgName></p>
             </div>
 
             <div type="image_transcription" n="5" facs="#Democrat">
@@ -396,37 +398,37 @@
             </div>
 
             <div type="image_annotation" n="17" facs="#Face_1">
-                <head><supplied resp="editorial">Face 1</supplied></head>
+                <head>Face 1</head>
                 <p>The identity of the image is unknown. It is most likely <persName
                         key="ENT.000003553">William Hayden English</persName>.</p>
             </div>
 
             <div type="image_annotation" n="18" facs="Face_2">
-                <head><supplied resp="editorial">Face 2</supplied></head>
+                <head>Face 2</head>
                 <p>The identity of the image is unknown, but it is most likely <persName
                         key="ENT.000003362">John Logan</persName></p>
             </div>
 
             <div type="image_annotation" n="19" facs="#Face_3">
-                <head><supplied resp="editorial">Face 3</supplied></head>
+                <head>Face 3</head>
                 <p>The identity of the image is unknown. It is most likely <persName
                         key="ENT.000003561">Thomas Bayard.</persName></p>
             </div>
 
             <div type="image_annotation" n="20" facs="#Face_4">
-                <head><supplied resp="editorial">Face 4</supplied></head>
+                <head>Face 4</head>
                 <p>The identity of the image is unknown. It may be of <persName key="ENT.000003379"
                         >Carl Schurz</persName>.</p>
             </div>
 
             <div type="image_annotation" n="21" facs="#Face_5">
-                <head><supplied resp="editorial">Face 5</supplied></head>
+                <head>Face 5</head>
                 <p>The identity of the image is unknown. It may be of <persName key="ENT.000003563"
                         >Marshall Jewell</persName></p>
             </div>
 
             <div type="image_annotation" n="22" facs="#Face_6">
-                <head><supplied resp="editorial">Face 6</supplied></head>
+                <head>Face 6</head>
                 <p>The identity of the image is unknown. It may be of <persName key="ENT.000003567"
                         >Rutherford Hayes</persName></p>
             </div>
