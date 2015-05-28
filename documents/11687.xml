@@ -21,6 +21,10 @@
           <persName key="ENT.000003544">Biunno, Diane</persName>
         </respStmt>
         <respStmt>
+        <resp key="pfr">Proofread by</resp>
+        <persName key="ENT.000003544">Biunno, Diane</persName>
+        </respStmt>
+        <respStmt>
           <resp key="ltg">lithographer</resp>
           <orgName key="ENT.000003611">J. Ottman Lithographic Company</orgName>
         </respStmt>
@@ -74,9 +78,10 @@
                 <date from="1904-06-29">June 29, 1904</date>
                 <extent>1 loose sheet</extent>
                 <extent>
-                  <dimensions type="image" unit="cm"/>
+                  <dimensions type="image" unit="cm">
                   <height quantity="33"/>
                   <width quantity="50"/>
+                  </dimensions>
                 </extent>
                 <listRelation>
                   <relation name="depicted" active="ENT.000002738"/>
@@ -244,39 +249,33 @@
       </div>
       <div type="image_transcription" n="2" facs="#Lithographer">
         <head>
-          <supplied resp="editorial">
-            <persName key="ENT.000003611">J. Ottman Lithographic Company</persName>
-          </supplied>
+          <supplied resp="editorial">Lithographer</supplied>
         </head>
-        <p>J.OTTMANN LITH CO.PUCK BLDG</p>
+        <p><persName key="ENT.000003611">J.OTTMANN LITH CO.PUCK BLDG</persName></p>
       </div>
       <div type="image_transcription" n="3" facs="#Artist">
-        <head>
-          <supplied resp="editorial">J.S. Pughe</supplied>
+        <head><supplied resp="editorial">Signature</supplied>
         </head>
-        <p>J.S. PUGHE</p>
+        <p><persname key="ENT.000003548">J.S. PUGHE</persname></p>
       </div>
       <div type="image_transcription" n="4" facs="#Painting">
         <head>
           <supplied resp="editorial">
-            <persName key="ENT.000002738">Theodore Roosevelt</persName>
+            Portrait of <persName key="ENT.000002738"> Theodore Roosevelt</persName>
           </supplied>
         </head>
         <p>ROOSEVELT</p>
       </div>
       <div type="image_transcription" n="5" facs="#Puck">
         <head>
-          <supplied resp="editorial">
-            <orgName key="ENT.000000384">Puck</orgName>
+          <supplied resp="editorial">Magazine title
           </supplied>
         </head>
-        <p>PUCK</p>
+        <p><orgName key="ENT.000000384">PUCK</orgName></p>
       </div>
       <div type="image_annotation" n="6" facs="#Hearst">
         <head>
-          <supplied resp="editorial">
             <persName key="ENT.000003605">William Randolph Hearst</persName>
-          </supplied>
         </head>
         <p>William Randolph Hearst, owner of the <hi rendition="#italics">New York Journal</hi> and
             <hi rendition="#italics">San Francisco Examiner</hi>, gives a toast to a cast of popular
@@ -285,9 +284,7 @@
       </div>
       <div type="image_annotation" n="7" facs="#Tigers">
         <head>
-          <supplied resp="editorial">
             <hi rendition="#italics">Little Tigers</hi>
-          </supplied>
         </head>
         <p>Cartoon characters from Jimmy Swinnerton's <hi rendition="#italics">Little Tigers</hi>
           comic strip play musical instruments. <hi rendition="#italics">Little Tigers</hi> was
@@ -295,9 +292,7 @@
       </div>
       <div type="image_annotation" n="8" facs="#Hooligan">
         <head>
-          <supplied resp="editorial">
             <hi rendition="#italics">Happy Hooligan</hi>
-          </supplied>
         </head>
         <p>Happy Hooligan wears tattered clothing, holds a champagne bottle and raises his glass.
           Happy Hooligan and the policeman standing next to him were drawn by the cartoonist
@@ -307,9 +302,7 @@
       </div>
       <div type="image_annotation" n="9" facs="#Alphonse">
         <head>
-          <supplied resp="editorial">
             <hi rendition="#italics">Alphonse and Gaston</hi>
-          </supplied>
         </head>
         <p><hi rendition="#italics">Alphonse and Gaston</hi> was a comic strip by the cartoonist
             <persName key="ENT.000003616">Frederick Burr Opper</persName>. It debuted in the <hi
@@ -321,9 +314,7 @@
       </div>
       <div type="image_annotation" n="10" facs="#Kids">
         <head>
-          <supplied resp="editorial">
             <hi rendition="#italics">The Katzenjammer Kids</hi>
-          </supplied>
         </head>
         <p><hi rendition="#italics">The Katzenjammer Kids</hi> was a Sunday comic strip published in
           the <hi rendition="#italics">New York Journal</hi> and featured two naughty children named
@@ -335,44 +326,35 @@
             Katzenjammer Kids</hi>.</p>
       </div>
       <div type="image_annotation" n="11" facs="#Jack">
-        <head>
-          <supplied resp="editorial">Mr. Jack</supplied>
-        </head>
+        <head>Mr. Jack</head>
         <p><hi rendition="#italics">Mr. Jack</hi> was an early 20th century comic strip by
           cartoonist James Swinnerton and featured a bachelor tiger. The character of Mr. Jack first
           appeared in Swinnerton's <hi rendition="#italics">Little Tigers</hi>. In the political
           cartoon, Mr. Jack wears a top hat and bow tie and raises his glass.</p>
       </div>
       <div type="image_annotation" n="12" facs="#Grandpa">
-        <head>
-          <supplied resp="editorial">Foxy Grandpa</supplied>
-        </head>
+        <head>Foxy Grandpa</head>
         <p><hi rendition="#italics">Foxy Grandpa</hi> was an early 20th century comic strip and its
           cartoonist was Carl E. Schultze. In the political cartoon, Foxy Grandpa is seated next to
           a caveman wielding a stone hammer.</p>
       </div>
       <div type="image_annotation" n="13" facs="#Caveman">
         <head>
-          <supplied resp="editorial">
             <hi rendition="#italics">Our Antediluvian Ancestors</hi>
-          </supplied>
         </head>
         <p>The caveman appears to break his dish with a stone tool. The character appeared in <hi
             rendition="#italics">Our Antediluvian Ancestors</hi> by <persName key="ENT.000003616"
             >Frederick Burr Opper</persName>.</p>
       </div>
       <div type="image_annotation" n="14" facs="#Gus">
-        <head>
-          <supplied resp="editorial">Gloomy Gus</supplied>
+        <head>Gloomy Gus
         </head>
         <p>Gloomy Gus was a character in <persName key="ENT.000003616">Opper's</persName>
           <hi rendition="#italics">Happy Hooligan</hi>. In the political cartoon, he is dressed in
           ragged clothing and stuffs his pockets with silverware and a champagne bottle.</p>
       </div>
       <div type="image_annotation" n="15" facs="#Dinosaur">
-        <head>
-          <supplied resp="editorial">Dinosaur</supplied>
-        </head>
+        <head>Dinosaur</head>
         <p>The dinosaur character appeared in <hi rendition="#italics">Our Antediluvian
             Ancestors</hi> by <persName key="ENT.000003616">Frederick Burr Opper</persName>. In the
           political cartoon, he is eating a portrait of <persName key="ENT.000002738">Theodore
