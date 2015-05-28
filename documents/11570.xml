@@ -20,6 +20,10 @@
           <resp key="mrk">Encoded by</resp>
           <persName key="ENT.000003544">Biunno, Diane</persName>
         </respStmt>
+         <respStmt>
+          <resp key="pfr">Proofread by</resp>
+          <persName key="ENT.000003544">Biunno, Diane</persName>
+        </respStmt>
         <respStmt>
           <resp key="pbl">publisher</resp>
           <persName key="ENT.000003387">Unknown</persName>
@@ -52,9 +56,6 @@
               <bibl>
                 <date from="1908-09-07">September 7, 1908</date>
                 <extent>1 loose page</extent>
-                <extent>
-                  <dimensions type="image" unit="cm"/>
-                </extent>
                 <listRelation>
                   <relation name="mentioned" active="ENT.000003384"/>
                 </listRelation>
@@ -163,13 +164,13 @@
       <div type="editorial_desc"><p>In the image an unemployed workingman writes graffiti on a fence.  The graffiti claims that Republican presidential candidate William Taft favors trusts over the workingman.  During the presidential campaign of 1908, Taft seemed to support several politicians who were known to favor big business and the trusts.</p>                <p>William Taft became the 27th President of the United States and served only one term (1909-1913).  Although Theodore Roosevelt is known as the great "trust-buster," Taft actually filed more anti-trust lawsuits than Roosevelt.  In 1911 Taft launched a lawsuit against J.P. Morgan's US Steel for taking over the Tennessee Coal, Iron, and Railroad Company during in 1907.  Roosevelt had approved the takeover during his own administration in order to avoid further economic collapse during the Panic of 1907.</p></div>
     </front>
     <body>
-      <div type="image_transcription" n="1" facs="#Title"><head><supplied resp="editorial">Title and Notes</supplied></head>
+      <div type="image_transcription" n="1" facs="#Title"><head><supplied resp="editorial">Title and notes</supplied></head>
                 <p>SOLVING THE ACROSTIC</p>
                 <p>By De Mar.</p>
                 <p><add rendition="#handwritten">Phila. Record 9-7-1908</add></p></div>
       <div type="image_transcription" n="2" facs="#Worker"><head><supplied resp="editorial">Workingman</supplied></head>
                 <p>UNEMPLOYED WORKINGMAN</p></div>
-      <div type="image_transcription" n="3" facs="#Taft"><head><supplied resp="editorial"><persName key="ENT.000003384">William Taft</persName></supplied></head>
+      <div type="image_transcription" n="3" facs="#Taft"><head><supplied resp="editorial">Puzzle that spells out the name <persName key="ENT.000003384">Taft</persName></supplied></head>
                 <p><hi rendition="#bold">T</hi>ARIFF</p>
                 <p><hi rendition="#bold">A</hi>LWAYS</p>
                 <p><hi rendition="#bold">F</hi>AVORS</p>
