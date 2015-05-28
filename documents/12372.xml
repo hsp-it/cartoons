@@ -24,6 +24,10 @@
                     <resp key="mrk">Encoded by</resp>
                     <persName key="ENT.000003544">Biunno, Diane</persName>
                 </respStmt>
+                <respStmt>
+                    <resp key="pfr">Proofread by</resp>
+                    <persName key="ENT.000003544">Biunno, Diane</persName>
+                </respStmt>
 
             <respStmt>
           <resp key="pbl">publisher</resp>
@@ -217,7 +221,7 @@
             </div>
             
             <div type="image_transcription" n="2" facs="#Artist">
-                <head><supplied resp="editorial"><orgName key="ENT.000003164">George Frederick Keller</orgName></supplied></head>
+                <head><supplied resp="editorial">Signature of<orgName key="ENT.000003164">George Frederick Keller</orgName></supplied></head>
                 <p><hi rendition="#circled">KELLER</hi></p>
             </div>
             
@@ -227,8 +231,8 @@
             </div>
             
             <div type="image_transcription" n="4" facs="#Wasp">
-                <head><supplied resp="editorial"><orgName key="ENT.000000382">The Wasp</orgName></supplied></head>
-                <p>The Wasp</p>
+                <head><supplied resp="editorial">Magazine title</supplied></head>
+                <p><orgName key="ENT.000000382">The Wasp</orgName></p>
             </div>
             
             <div type="image_transcription" n="5" facs="#Title_right">
@@ -237,9 +241,7 @@
             </div>
             
             <div type="image_annotation" n="6" facs="#Chinese">
-                <head>
-          <supplied resp="editorial">Braid</supplied>
-        </head>
+                <head>Braid</head>
                 <p>The cartoon depicts a man pulling an immigrant's braid.  Under the Manchu Dynasty, Chinese men were required by law to wear a queue or long braid.   Men who cut off the queue would be imprisioned or killed. Because many immigrants planned to return to China, they did not cut off their queue.  Many whites, however, considered the hairstyle uncivilized and unhygienic. </p>
             </div>
         </body>
