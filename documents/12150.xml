@@ -24,6 +24,10 @@
           <resp key="mrk">Encoded by</resp>
           <persName key="ENT.000003544">Biunno, Diane</persName>
         </respStmt>
+         <respStmt>
+          <resp key="pfr">Proofread by</resp>
+          <persName key="ENT.000003544">Biunno, Diane</persName>
+        </respStmt>
         <respStmt>
           <resp key="pbl">publisher</resp>
           <orgName key="ENT.000003163">Keppler &amp; Schwarzmann</orgName>
@@ -212,14 +216,14 @@
     </front>
     <body>
       <div type="image_transcription" n="1" facs="#Title">
-        <head><supplied resp="editorial">Title and Caption</supplied></head>
+        <head><supplied resp="editorial">Title and caption</supplied></head>
         <p>AMERICAN GOLD.</p>
         <p>UNITED STATES-WORKING FOR IT.</p>
         <p>IRELAND-WAITING FOR IT.</p>
       </div>
       <div type="image_transcription" n="2" facs="#Artist">
         <head><supplied resp="editorial"><persName key="ENT.000003616">Frederick Burr
-              Opper</persName></supplied></head>
+              Opper's </persName> signature</supplied></head>
         <p>F. Opper</p>
       </div>
       <div type="image_transcription" n="3" facs="#City">
