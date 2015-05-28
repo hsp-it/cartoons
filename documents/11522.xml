@@ -19,6 +19,10 @@
           <resp key="mrk">Encoded by</resp>
           <persName key="ENT.000003544">Biunno, Diane</persName>
         </respStmt>
+         <respStmt>
+          <resp key="pfr">Proofread by</resp>
+          <persName key="ENT.000003544">Biunno, Diane</persName>
+        </respStmt>
         <respStmt>
           <resp key="pbl">publisher</resp>
           <persName key="ENT.000003387">Unknown</persName>
@@ -51,9 +55,6 @@
               <bibl>
                 <date from="1907-11-08">November 8, 1907</date>
                 <extent>1 loose page</extent>
-                <extent>
-                  <dimensions type="image" unit="cm"/>
-                </extent>
                 <listRelation>
                   <relation name="depicted" active="ENT.000002738"/>
                 </listRelation>
@@ -171,7 +172,7 @@
                 <p>T.R.</p></div>
       <div type="image_transcription" n="5" facs="#Building"><head><supplied resp="editorial">Financial building</supplied></head>
                 <p>FINANCIAL SITUATION</p></div>
-      <div type="image_annotation" n="6" facs="#Roosevelt"><head><supplied resp="editorial"><persName key="ENT.000002738">Theodore Roosevelt</persName></supplied></head>
+      <div type="image_annotation" n="6" facs="#Roosevelt"><head><persName key="ENT.000002738">Theodore Roosevelt</persName></head>
                 <p>Theodore Roosevelt served as US president from 1901 to 1909 and became known as the "trust buster."  However, in order to avoid further economic collapse during the Panic of 1907, Roosevelt allowed US Steel, a major corporate trust, to buy out Tennessee Coal, Iron, and Railroad Company.  The cartoon pokes fun at Roosevelt's response to the financial crisis by depicting him cutting out all the "trust busting clubs" from his presidential plan.</p></div>
     </body>
   </text>
