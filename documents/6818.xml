@@ -19,6 +19,10 @@
           <resp key="mrk">Encoded by</resp>
           <persName key="ENT.000003544">Biunno, Diane</persName>
         </respStmt>
+         <respStmt>
+          <resp key="pfr">Proofread by</resp>
+          <persName key="ENT.000003544">Biunno, Diane</persName>
+        </respStmt>
         <respStmt>
           <resp key="pbl">publisher</resp>
           <persName key="ENT.000003387">Unknown</persName>
@@ -181,9 +185,9 @@
                 <p>DECENT POLITICS SUDS</p></div>
       <div type="image_transcription" n="7" facs="#Map"><head><supplied resp="editorial">Pennsylvania</supplied></head>
                 <p>PENNSYLVANIA POLITICS</p></div>
-      <div type="image_annotation" n="8" facs="#Sam"><head><supplied resp="editorial"><persName key="ENT.000000557">Samuel W. Pennypacker</persName></supplied></head>
+      <div type="image_annotation" n="8" facs="#Sam"><head><persName key="ENT.000000557">Samuel W. Pennypacker</persName></head>
                 <p>Samuel W. Pennypacker was Pennsylvania's 23rd governor who served from 1903 to 1907.  In the image, he is depicted as cleaning up "Pennsylvania politics" with his mop and "decent politics suds."  Matthew Quay, his cousin and corrupt political ally who helped him win the 1902 gubernatorial election, looks on disapprovingly and asks "Is that my reward?"</p></div>
-      <div type="image_annotation" n="9" facs="#M_quay"><head><supplied resp="editorial"><persName key="ENT.000001953">Matthew Quay</persName></supplied></head>
+      <div type="image_annotation" n="9" facs="#M_quay"><head><persName key="ENT.000001953">Matthew Quay</persName></head>
                 <p>Matthew Quay was one of Pennsylvania's most powerful and corrupt political bosses, and Samuel Pennypacker's cousin.  Using his political influence, Quay helped Pennypacker win the 1902 gubernatorial election.</p></div>
     </body>
   </text>
