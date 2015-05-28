@@ -19,6 +19,10 @@
           <persName key="ENT.000003544">Biunno, Diane</persName>
         </respStmt>
         <respStmt>
+          <resp key="pfr">Proofread by</resp>
+          <persName key="ENT.000003544">Biunno, Diane</persName>
+        </respStmt>
+        <respStmt>
           <resp key="pbl">publisher</resp>
           <orgName key="ENT.000003668">Public Ledger Co.</orgName>
         </respStmt>
@@ -196,7 +200,7 @@
     <body>
       <div type="image_transcription" n="1" facs="#Title">
         <head>
-          <supplied resp="editorial">Title and Caption</supplied>
+          <supplied resp="editorial">Title and caption</supplied>
         </head>
         <p><supplied resp="editorial">SA</supplied>TURDAY, MARCH 23, 1918</p>
         <p>THE WAR GARDENER'S ULTIMATE OBJECTIVE</p>
@@ -212,14 +216,14 @@
       <div type="image_transcription" n="3" facs="#Tomb">
         <head>
           <supplied resp="editorial">
-            <persName key="ENT.000003666">William II, German Emperor</persName>
+            Tombstone of <persName key="ENT.000003666">William II, German Emperor</persName>
           </supplied>
         </head>
         <p>WILHELM II</p>
       </div>
       <div type="image_annotation" n="4" facs="#Gardener">
         <head>
-          <supplied resp="editorial">Gardener</supplied>
+          >Gardener
         </head>
         <p>During World War I, Americans planted fruits and vegetables in their private gardens or
           in public spaces in order to help with the war effort. The US National War Garden
