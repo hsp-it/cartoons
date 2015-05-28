@@ -21,6 +21,10 @@
                     <persName key="ENT.000003544">Biunno, Diane</persName>
                 </respStmt>
                 <respStmt>
+                    <resp key="pfr">Proofread by</resp>
+                    <persName key="ENT.000003544">Biunno, Diane</persName>
+                </respStmt>
+                <respStmt>
                     <resp key="ltg">Lithographer</resp>
                     <orgName key="ENT.000000380">Mayer, Merkel &amp; Ottomann</orgName>
                 </respStmt>
