@@ -27,6 +27,10 @@
           <resp key="mrk">Encoded by</resp>
           <persName key="ENT.000003544">Biunno, Diane</persName>
         </respStmt>
+         <respStmt>
+          <resp key="pfr">Proofread by</resp>
+          <persName key="ENT.000003544">Biunno, Diane</persName>
+        </respStmt>
         <respStmt>
           <resp key="pbl">publisher</resp>
           <orgName key="ENT.000003163">Keppler &amp; Schwarzmann</orgName>
@@ -274,9 +278,7 @@
       </div>
       <div type="image_annotation" n="8" facs="#Death">
         <head>
-          <supplied resp="editorial">
             <rs ref="cartoons_symbols.xml#death">Death</rs>
-          </supplied>
         </head>
         <p>Death carries a scythe, a traditional symbol of death. He wears a fez, Arabic style
           clothing, and a belt labeled "cholera" because it was presumed that the disease originated
