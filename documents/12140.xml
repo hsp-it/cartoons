@@ -197,7 +197,7 @@
 
     <facsimile>
         <surface ulx="0" uly="0" lrx="100" lry="100">
-            <graphic url="FIL.000090464"/>
+            <graphic url="FIL.000091285"/>
             <zone n="1" xml:id="Title" points="6.42,88.42 82.38,88.42 91.05,83 92.5,92.4 6.06,92.72"/>
             <zone n="2" xml:id="Puck" points="45.75,5.87 53.37,6.48 53.25,10.47 45.75,10.87"/>
             <zone n="3" xml:id="Flats"
