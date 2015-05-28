@@ -24,6 +24,10 @@
                     <persName key="ENT.000003544">Biunno, Diane</persName>
                 </respStmt>
                 <respStmt>
+                    <resp key="pfr">Proofread by</resp>
+                    <persName key="ENT.000003544">Biunno, Diane</persName>
+                </respStmt>
+                <respStmt>
                     <resp key="pbl">publisher</resp>
                     <orgName key="ENT.000003163">Keppler &amp; Schwarzmann</orgName>
                 </respStmt>
@@ -364,14 +368,14 @@
                         signs.</note></p>
             </div>
             <div type="image_annotation" n="19" facs="#Gould">
-                <head><supplied resp="editorial"><persName key="ENT.000003559">Jay
-                        Gould</persName></supplied></head>
+                <head><persName key="ENT.000003559">Jay
+                        Gould</persName></head>
                 <p>The two large branches of the tree form an image of Jay Gould, a railroad
                     financier and "robber baron."</p>
             </div>
             <div type="image_annotation" n="20" facs="#Roscoe">
-                <head><supplied resp="editorial"><persName key="ENT.000003552">Roscoe
-                            Conkling</persName></supplied></head>
+                <head><persName key="ENT.000003552">Roscoe
+                            Conkling</persName></head>
                 <p>The body of New York Senator Roscoe Conkling is slumped against a row of
                     buildings. </p>
             </div>
