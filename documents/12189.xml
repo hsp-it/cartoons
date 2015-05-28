@@ -27,7 +27,12 @@
                     <resp key="mrk">Encoded by</resp>
                     <persName key="ENT.000003544">Biunno, Diane</persName>
                 </respStmt>
-            </titleStmt>
+                 <respStmt>
+                    <resp key="pfr">Proofread by</resp>
+                    <persName key="ENT.000003544">Biunno, Diane</persName>
+                </respStmt>    
+        
+                </titleStmt>
 
             <editionStmt>
                 <p>First edition, <date when="2015">2015</date></p>
@@ -255,13 +260,13 @@
 
         <body>
             <div type="image_transcription" n="1" facs="#Date">
-                <head><supplied resp="editorial">Date</supplied></head>
+                <head><supplied resp="editorial">Publication date and location</supplied></head>
                 <p><supplied resp="editorial">PHILADELP</supplied>HIA, TUESDAY, AUGUST 9, 1898</p>
             </div>
 
             <div type="image_annotation" n="2" facs="#Sam">
-                <head><supplied resp="editorial"><rs ref="cartoons_symbols.xml#uncle_sam">Uncle
-                            Sam</rs></supplied></head>
+                <head><rs ref="cartoons_symbols.xml#uncle_sam">Uncle
+                            Sam</rs></head>
                 <p>Uncle Sam stands on an "army and navy" pedestal and performs a circus act for the
                     emperors and leaders of Europe.</p>
             </div>
@@ -285,10 +290,10 @@
             </div>
 
             <div type="image_transcription" n="6" facs="#Philippines">
-                <head><supplied resp="editorial">Philippines <note rendition="editorial" n="3">The
+                <head><supplied resp="editorial">Philippines</supplied></head>
+                <p>PHILIPPINES <note rendition="editorial" n="3"> The
                             Philippines gained their independence from the United States in 1946
-                            with the signing of the Treaty of Manila. </note></supplied></head>
-                <p>PHILIPPINES</p>
+                            with the signing of the Treaty of Manila.</note></p>
             </div>
 
             <div type="image_transcription" n="7" facs="#Ladrone">
@@ -297,7 +302,7 @@
             </div>
 
             <div type="image_transcription" n="8" facs="#Pedestal">
-                <head><supplied resp="editorial">Pedestal and Leaders</supplied></head>
+                <head><supplied resp="editorial">Pedestal and leaders</supplied></head>
                 <p>ARMY AND NAVY</p>
                 <p>RUSSIA</p>
                 <p>AUSTRIA</p>
@@ -309,15 +314,15 @@
             </div>
 
             <div type="image_transcription" n="10" facs="#Title">
-                <head><supplied resp="editorial">Title and Caption</supplied></head>
+                <head><supplied resp="editorial">Title and caption</supplied></head>
                 <p>HOLDING HIS END UP</p>
                 <p>John Bull-It's really most extraordinary what training will do. Why, only the
                     other day I thought that man unable to support himself.</p>
             </div>
 
             <div type="image_annotation" n="11" facs="#Bull">
-                <head><supplied resp="editorial"><rs ref="cartoons_symbols.xml#john_bull">John
-                            Bull</rs></supplied></head>
+                <head><rs ref="cartoons_symbols.xml#john_bull">John
+                            Bull</rs></head>
                 <p>John Bull, the symbol for Great Britain, watches Uncle Sam perform his circus
                     act.</p>
             </div>
