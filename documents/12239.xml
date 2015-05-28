@@ -20,6 +20,10 @@
           <resp key="mrk">Encoded by</resp>
           <persName key="ENT.000003544">Biunno, Diane</persName>
         </respStmt>
+         <respStmt>
+          <resp key="pfr">Proofread by</resp>
+          <persName key="ENT.000003544">Biunno, Diane</persName>
+        </respStmt>
         <respStmt>
           <resp key="pbl">publisher</resp>
           <persName key="ENT.000003654">Major Barclay Harding Warburton I, 1866-1954</persName>
@@ -172,20 +176,20 @@
       <div type="editorial_desc"><p>Image depicts a "Standard Oil" snake coiled around Uncle Sam. The snake has                    several tales which are labeled "Indiana, Ohio, Pennsylvania, Illinois, Kansas,                    Oklahoma," and "Texas." On the head of the snake, the cartoonist has drawn the                    face of John D. Rockefeller, founder of Standard Oil.</p>                <p>Rockefeller drove all his competitors out of business and created a monopoly of                    the US petroleum industry. In 1908, the United States government launched a                    major anti-trust suit which targeted Rockefeller's company. In May 1911, the                    U.S. Supreme Court declared Standard Oil in violation of the Sherman Anti-Trust                    Act and dismantled the company.</p></div>
     </front>
     <body>
-      <div type="image_transcription" n="1" facs="#Title"><head><supplied resp="editorial">Title and Artist</supplied></head>
+      <div type="image_transcription" n="1" facs="#Title"><head><supplied resp="editorial">Title and artist</supplied></head>
                 <p>ON HAZARDOUS BUSINESS</p>
                 <p>By M. de ZAYAS</p></div>
-      <div type="image_transcription" n="2" facs="#Artist"><head><supplied resp="editorial">Signature and Notes</supplied></head>
+      <div type="image_transcription" n="2" facs="#Artist"><head><supplied resp="editorial">Signature and notes</supplied></head>
                 <p>M. de Zayas</p>
                 <p><add rendition="#handwritten">Phila Evg. Telegraph 11-23-08</add></p></div>
-      <div type="image_annotation" n="3" facs="#Sam"><head><supplied resp="editorial"><rs ref="cartoons_symbols.xml#uncle_sam">Uncle
-                            Sam</rs></supplied></head>
+      <div type="image_annotation" n="3" facs="#Sam"><head><rs ref="cartoons_symbols.xml#uncle_sam">Uncle
+                            Sam</rs></head>
                 <p>Image depicts a large "Standard Oil" snake coiled around Uncle Sam.</p></div>
       <div type="image_transcription" n="4" facs="#Oil"><head><supplied resp="editorial"><orgName key="ENT.000003626">Standard
                         Oil</orgName></supplied></head>
                 <p></p></div>
-      <div type="image_annotation" n="5" facs="#Rockefeller"><head><supplied resp="editorial"><persName key="ENT.000003651">John D.
-                            Rockefeller</persName></supplied></head>
+      <div type="image_annotation" n="5" facs="#Rockefeller"><head><persName key="ENT.000003651">John D.
+                            Rockefeller</persName></head>
                 <p>Image depicts the face of John D. Rockefeller on the head of a "Standard Oil"
                     snake.</p></div>
       <div type="image_transcription" n="6" facs="#Illinois"><head><supplied resp="editorial">Illinois</supplied></head>
