@@ -23,6 +23,10 @@
                     <resp key="mrk">Encoded by</resp>
                     <persName key="ENT.000003544">Biunno, Diane</persName>
                 </respStmt>
+                <respStmt>
+                <resp key="pfr">Proofread by</resp>
+                <persName key="ENT.000003544">Biunno, Diane</persName>
+                </respStmt>
 
                 <respStmt>
                     <resp key="pbl">publisher</resp>
@@ -366,51 +370,51 @@
             </div>
 
             <div type="image_annotation" n="11" facs="#Edmunds">
-                <head><supplied resp="editorial"><persName key="ENT.000003345">George
-                            Edmunds</persName></supplied></head>
+                <head><persName key="ENT.000003345">George
+                            Edmunds</persName></head>
                 <p>George Edmunds (1828-1919) was a lawyer and Republican senator from Vermont. In
                     the cartoon he has a pensive expression and places his hand on his chin.</p>
             </div>
 
             <div type="image_annotation" n="12" facs="#Harrison">
-                <head><supplied resp="editorial"><persName key="ENT.000001948">Benjamin
-                            Harrison</persName></supplied></head>
+                <head><persName key="ENT.000001948">Benjamin
+                            Harrison</persName></head>
                 <p>Benjamin Harrison was a senator and the 23rd president of the United States. In
                     the cartoon, he expresses his surprise by throwing his arms into the air.</p>
             </div>
 
             <div type="image_annotation" n="13" facs="#Sherman">
-                <head><supplied resp="editorial"><persName key="ENT.000003380">John
-                            Sherman</persName></supplied></head>
+                <head><persName key="ENT.000003380">John
+                            Sherman</persName></head>
                 <p>John Sherman was a senator, United States Secretary of the Treasury, and United
                     States Secretary of State.</p>
             </div>
 
             <div type="image_annotation" n="14" facs="#Robertson">
-                <head><supplied resp="editorial"><persName key="ENT.000003378">William Henry
-                            Robertson</persName></supplied></head>
+                <head><persName key="ENT.000003378">William Henry
+                            Robertson</persName></head>
                 <p>Willam Henry Robertson was a lawyer and politician. In the cartoon, he looks at
                     Blaine with disgust.</p>
             </div>
 
             <div type="image_annotation" n="15" facs="#Cameron">
-                <head><supplied resp="editorial"><persName key="ENT.000003336">James Donald
-                            Cameron</persName></supplied></head>
+                <head><persName key="ENT.000003336">James Donald
+                            Cameron</persName></head>
                 <p>James Donald Cameron was a senator, US Secretary of War, and a Chairman of the
                     Republican National Committee.</p>
             </div>
 
             <div type="image_annotation" n="16" facs="#Curtis">
-                <head><supplied resp="editorial"><persName key="ENT.000003340">George William
-                            Curtis</persName></supplied></head>
+                <head><persName key="ENT.000003340">George William
+                            Curtis</persName></head>
                 <p>George William Curtis was a journalist and editor for <hi rendition="#italics"
                         >Harper's Weekly</hi>. In the cartoon, gestures with his right arm and turns
                     his head away from the spectacle.</p>
             </div>
 
             <div type="image_transcription" n="17" facs="#Evarts">
-                <head><supplied resp="editorial"><persName key="ENT.000003346">William Maxwell
-                            Evarts</persName></supplied></head>
+                <head><persName key="ENT.000003346">William Maxwell
+                            Evarts</persName></head>
                 <p><del><add>Tilden</add></del><add>Evarts</add><note n="6" rendition="editorial"
                         >William Maxwell Evarts was a lawyer, politican, and US Secretary of State.
                         In the cartoon, he rests his hands on his lap and looks down. He appears to
@@ -418,23 +422,23 @@
             </div>
 
             <div type="image_annotation" n="18" facs="#Roosevelt">
-                <head><supplied resp="editorial"><persName key="ENT.000002738">Theodore
-                            Roosevelt</persName></supplied></head>
+                <head><persName key="ENT.000002738">Theodore
+                            Roosevelt</persName></head>
                 <p>Theodore Roosevelt was a governor of New York, US Vice President, and US
                     President. In the cartoon, he places his hands on his chin</p>
             </div>
 
             <div type="image_annotation" n="19" facs="#Bristow">
-                <head><supplied resp="editorial"><persName key="ENT.000003334">Benjamin Helm
-                            Bristow</persName></supplied></head>
+                <head><persName key="ENT.000003334">Benjamin Helm
+                            Bristow</persName></head>
                 <p>Benjamin Helm Bristow was a lawyer, the first Solicitor General of the United
                     States, and the 30th US Secretary of the Treasury. In the cartoon, he opens his
                     eyes widely and has a surprised expression.</p>
             </div>
 
             <div type="image_annotation" n="20" facs="#Miller">
-                <head><supplied resp="editorial"><persName key="ENT.000003367">Warner
-                            Miller</persName></supplied></head>
+                <head><persName key="ENT.000003367">Warner
+                            Miller</persName></head>
                 <p>Warner Miller was a New York senator. In the cartoon, he raises his right arm and
                     appears to laugh.</p>
             </div>
