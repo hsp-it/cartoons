@@ -22,6 +22,10 @@
           <persName key="ENT.000003544">Biunno, Diane</persName>
         </respStmt>
         <respStmt>
+      <resp key="pfr">Proofread by</resp>
+      <persName key="ENT.000003544">Biunno, Diane</persName>
+      </respStmt>
+        <respStmt>
           <resp key="pbl">publisher</resp>
           <persName key="ENT.000003623">Mitchell, John Ames, 1845-1918</persName>
         </respStmt>
@@ -70,9 +74,6 @@
               <bibl>
                 <date from="1909-01-01" to="1912-12-31">Circa 1909-1912</date>
                 <extent>1 loose page</extent>
-                <extent>
-                  <dimensions type="image" unit="cm"/>
-                </extent>
                 <listRelation>
                   <relation name="depicted" active="ENT.000003084"/>
                   <relation name="depicted" active="ENT.000002738"/>
@@ -112,7 +113,7 @@
             </title>
             <imprint>
               <pubPlace>New York</pubPlace>
-              <date from="1909-01-01" to="1912-12-31">Circa 1909-1912</date>
+              <date from="1909-01-01" to="1912-12-31">circa 1909-1912</date>
               <publisher>
                 <persName key="ENT.000003623">Mitchell, John Ames, 1845-1918</persName>
               </publisher>
@@ -220,51 +221,37 @@
       </div>
       <div type="image_transcription" n="2" facs="#Artist">
         <head>
-          <supplied resp="editorial">
-            <persName key="ENT.000003549">Otho Cushing</persName>
-          </supplied>
+          <supplied resp="editorial">Artist's signature</supplied>
         </head>
-        <p>-Otho Cushing-</p>
+        <p><persName key="ENT.000003549">-Otho Cushing-</persName></p>
       </div>
       <div type="image_annotation" n="3" facs="#Sam">
-        <head>
-          <supplied resp="editorial">
-            <rs ref="cartoons_symbols.xml#uncle_sam">Uncle Sam</rs>
-          </supplied>
-        </head>
+        <head><rs ref="cartoons_symbols.xml#uncle_sam">Uncle Sam</rs></head>
         <p>Uncle Sam is seated at his desk and writing with a feather pen. He is wearing a vest with
           stars.</p>
       </div>
       <div type="image_annotation" n="4" facs="#Wilson">
         <head>
-          <supplied resp="editorial">
             <persName key="ENT.000003084">Woodrow Wilson</persName>
-          </supplied>
         </head>
         <p>Woodrow Wilson is depicted as a girl wearing a dress and a hair bow.</p>
       </div>
       <div type="image_annotation" n="5" facs="#Roosevelt">
         <head>
-          <supplied resp="editorial">
             <persName key="ENT.000002738">Theodore Roosevelt</persName>
-          </supplied>
         </head>
         <p>Columbia places her hand on Theodore Roosevelt's shoulder. He stands with his hands
           crossed behind his back.</p>
       </div>
       <div type="image_annotation" n="5" facs="#Columbia">
         <head>
-          <supplied resp="editorial">
             <rs ref="cartoons_symbols.xml#columbia">Columbia</rs>
-          </supplied>
         </head>
         <p>Columbia presents Theodore Roosevelt to Uncle Sam for a scolding.  She wears a <rs ref="cartoons_symbols.xml#liberty_cap">liberty cap</rs>.</p>
       </div>
       <div type="image_annotation" n="6" facs="#Taft">
         <head>
-          <supplied resp="editorial">
             <persName key="ENT.000003084">William Taft</persName>
-          </supplied>
         </head>
         <p>William Taft holds <rs ref="cartoons_symbols.xml#columbia">Columbia's</rs> hand and appears to be crying.</p>
       </div>
