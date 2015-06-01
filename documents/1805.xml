@@ -226,7 +226,7 @@
 
         <body>
             <div type="image_transcription" n="1" facs="#Title">
-                <head><supplied resp="editorial"/>Title, Notes, and Publication Information</head>
+                <head><supplied resp="editorial">Title, Notes, and Publication Information</supplied></head>
                 <p>OFFICE OF <hi rendition="#bold">PUCK.</hi> 23 WARREN ST. NEW YORK.</p>
                 <p>AN UNPLEASANT RIDE THROUGH THE PRESIDENTIAL "HAUNTED FOREST."</p>
                 <p><add rendition="#handwritten">Blaine &amp; Logan</add></p>
@@ -236,22 +236,22 @@
             </div>
             
             <div type="image_transcription" n="2" facs="#Artist">
-                <head><supplied resp="editorial"/>Artist Signature</head>
+                <head><supplied resp="editorial">Artist Signature</supplied></head>
                 <p>J. KEPPLER</p>
             </div>
             
             <div type="image_transcription" n="3" facs="#Columbia">
-                <head><supplied resp="editorial"/>Columbia</head>
+                <head><supplied resp="editorial">Columbia</supplied></head>
                 <p>PRESIDENCY</p>
             </div>
             
             <div type="image_transcription" n="4" facs="#Puck">
-                <head><supplied resp="editorial"/>Magazine Title</head>
+                <head><supplied resp="editorial">Magazine Title</supplied></head>
                 <p>PUCK.</p>
             </div>
             
             <div type="image_annotation" n="5" facs="#Tilden">
-                <head><supplied resp="editorial"/>Samuel Tilden</head>
+                <head>Samuel Tilden</head>
                 <p>The figure of Samuel Tilden can be seen between the two trees.  He was not an 1884 presidential candidate.</p>
             </div>
         </body>
