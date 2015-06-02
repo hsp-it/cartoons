@@ -1,0 +1,248 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+
+    <teiHeader xml:lang="English">
+
+        <fileDesc>
+
+            <titleStmt>
+                <title type="main">TEI transcription of John Bull and the Baltimoreans</title>
+                <respStmt>
+                    <resp key="art">Artist</resp>
+                    <persName key="ENT.000000848"/>
+                </respStmt>
+                <respStmt>
+                    <resp key="trc">Transcribed by</resp>
+                    <persName key="ENT.000003368"/>
+                </respStmt>
+                <respStmt>
+                    <resp key="mrk">Encoded by</resp>
+                    <persName key="ENT.000003368"/>
+                </respStmt>
+
+            </titleStmt>
+
+            <editionStmt>
+                <p>First edition, <date when="2015">2015</date></p>
+            </editionStmt>
+
+            <publicationStmt>
+                <publisher><orgName key="ENT.000002473">Historical Society of
+                    Pennsylvania</orgName></publisher>
+                <pubPlace>1300 Locust Street, Philadelphia, PA</pubPlace>
+                <idno type="filename">8533</idno>
+                <availability status="restricted">
+                    <p>Copyright 2015, Historical Society of Pennsylvania. HSP makes a claim of
+                        copyright only to original contributions made by the Historic Images, New
+                        Technologies (HINT) Project participants and other staff. HSP makes no claim
+                        of copyright to the original text. Permission is granted to download,
+                        transmit or otherwise reproduce, distribute or display the text
+                        contributions to this work claimed by HSP for non-profit educational
+                        purposes, provided that this header is included in its entirety. For
+                        inquiries about commercial uses, please contact the Historical Society of
+                        Pennsylvania. HSP retains the rights of all images unless otherwise noted.
+                        Possession of an HSP digital image does not constitute permission to use or
+                        publish it. Requests for digital imaging, other reproduction services, and
+                        the intended use of reproductions must be made in writing to the Rights and
+                        Reproductions Coordinator at rnr@hsp.org.</p>
+                </availability>
+                <date when="2015"/>
+            </publicationStmt>
+
+            <seriesStmt>
+                <title level="s" type="project" key="CARTOONS"/>
+            </seriesStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository key="ENT.000002473"/>
+                        <collection key="V64"/>
+                        <idno type="citation">Bb 612 Jb 217</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <bibl>
+                                <date from="1814-01-01" to="1814-12-31">circa 1814</date>
+                                <extent>1 loose sheet</extent>
+                                <listRelation>
+                                    <relation name="depicted"
+                                        active="cartoons_symbols.xml#john_bull"/>
+                                </listRelation>
+                            </bibl>
+                        </msItem>
+                    </msContents>
+
+                    <history>
+                        <acquisition/>
+                    </history>
+                </msDesc>
+                <biblStruct>
+                    <monogr>
+                        <respStmt>
+                            <resp key="art">Artist</resp>
+                            <persName key="ENT.000000848"/>
+                        </respStmt>
+                        <title type="main" level="m">John Bull and the Baltimoreans</title>
+                        <imprint>
+                            <publisher><persName key="ENT.000000848">William
+                                Charles</persName></publisher>
+                            <pubPlace>Philadelphia</pubPlace>
+                            <date from="1814-01-01" to="1814-12-31">circa 1814</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <projectDesc>
+                <p>The Historic Images, New Technologies (HINT) project aims to enhance description
+                    and discovery of the Historical Society of Pennsylvania's graphics materials and
+                    promote the linking and sharing of content among institutions and scholars. The
+                    project will result in an update to HSP's digital image viewer and an online
+                    digital history exhibit that will demonstrate the new viewer's capabilities and
+                    provide interpretive and contextual materials to encourage users to interact
+                    with historical images in new ways. This project was funded by a grant from the
+                    National Historical Publications and Records Commission's (NHPRC) Innovation in
+                    Archives and Documentary Editing program.</p>
+            </projectDesc>
+            <editorialDecl n="4">
+                <p>This electronic file was created using manual keying following the
+                    recommendations for Level 4 of "Best Practices for TEI in Libraries" guidelines
+                    v3.0.</p>
+                <p>This xml file uses unique entity identifiers, media file identifiers, and
+                    collection identifiers in HSP's Digital Library, available at
+                    http://digitallibrary.hsp.org.</p>
+
+            </editorialDecl>
+            <tagsDecl>
+                <rendition scheme="css" xml:id="italics">font-style: italic</rendition>
+                <rendition scheme="css" xml:id="bold">font-weight: bold</rendition>
+                <rendition scheme="css" xml:id="underline">text-decoration: underline</rendition>
+                <rendition scheme="css" xml:id="crossed-through">text-decoration:
+                    line-through</rendition>
+                <rendition scheme="other" xml:id="printed"/>
+                <rendition scheme="other" xml:id="typescript"/>
+                <rendition scheme="other" xml:id="handwritten"/>
+                <rendition scheme="other" xml:id="handwritten-underlined"/>
+                <rendition scheme="other" xml:id="handwritten-circled"/>
+                <rendition scheme="other" xml:id="handwritten-crossed-through"/>
+                <rendition scheme="other" xml:id="double-underline"/>
+                <rendition scheme="other" xml:id="stamp"/>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="div">Unnumbered divs used.</tagUsage>
+                </namespace>
+            </tagsDecl>
+        </encodingDesc>
+
+        <profileDesc>
+            <textClass>
+                <catRef target="cartoons_genres.xml#etchings"/>
+                <catRef target="cartoons_genres.xml#political_cartoons"/>
+                <catRef target="cartoons_taxonomies.xml#early"/>
+                <catRef target="cartoons_taxonomies.xml#war"/>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+            <change who="RachelMoloshok" when="2015-05-27">Basic encoding</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <facsimile>
+        <surface ulx="" uly="" lrx="" lry="">
+            <graphic url="FIL.000054709"/>
+            <zone n="1" xml:id="title"/>
+            <zone n="2" xml:id="soldier1"/>
+            <zone n="3" xml:id="soldier2"/>
+            <zone n="4" xml:id="bull"/>
+            <zone n="5" xml:id="soldier3"/>
+            <zone n="6" xml:id="soldier4"/>
+            <zone n="7" xml:id="soldier5"/>
+            <zone n="8" xml:id="soldier6"/>
+            <zone n="9" xml:id="sniper"/>
+            <zone n="10" xml:id="rider"/>
+        </surface>
+    </facsimile>
+
+    <text>
+        <front>
+            <div type="editorial_desc">
+                <p>This cartoon celebrates the American victory against the British at Fort McHenry
+                    during the War of 1812. It depicts members of the US 5th Regiment, at left,
+                    chasing off British and Scottish troops at right. One American soldier bayonets
+                    the bottom of "John Bull," an anthropomorphic bull wearing human clothes and a
+                    hat, who represents Great Britain. In the background, an American rifleman
+                    shoots from the bushes at a mounted Scottish general. Fort McHenry can be seen
+                    in the distance at left. "John Bull and the Baltimoreans" is a sequel to another
+                    cartoon by William Charles titled "John Bull and the Alexandrians." That cartoon
+                    showed John Bull dictating terms of surrender to the inhabitants of Alexandria,
+                    Virginia. In contrast, this cartoon shows the inhabitants of Baltimore,
+                    Maryland, turning the tables on the British.</p>
+            </div>
+        </front>
+
+        <body>
+            <div type="image_transcription" n="1" facs="#title">
+                <head><supplied resp="editorial">Title and imprint</supplied></head>
+                <p>JOHN BULL and the BALTIMOREANS.</p>
+                <p>Philada Pubd and Sold Wholesale by Wm Charles.</p>
+                <p>Enter'd according to Act of Congress.</p>
+                <p>Wm Charles del et Sculp.</p>
+            </div>
+            <div type="image_transcription" n="2" facs="#soldier1">
+                <head><supplied resp="editorial">US soldier waving hat</supplied></head>
+                <p>Shot, boys, shout, Huzza for Baltimore.__ Huzza.__</p>
+            </div>
+            <div type="image_transcription" n="3" facs="#soldier2">
+                <head><supplied resp="editorial">US soldier with bayonet</supplied></head>
+                <p>Oh! hoh_Johnny, you thought you had Alexandrians to deal with did you_ But we'll
+                    teach you to know what a flogging is!!!</p>
+            </div>
+            <div type="image_transcription" n="4" facs="#bull">
+                <head><supplied resp="editorial">John Bull</supplied></head>
+                <p>Mercy! mercy on me_ What fellows those Baltimoreans are_ After the example of the
+                    Alexandrians I thought I had nothing to do but enter the Town and carry off the
+                    Booty_ And here is nothing but Defeat and Disgrace!!!</p>
+            </div>
+            <div type="image_transcription" n="5" facs="#soldier3">
+                <head><supplied resp="editorial">Highlander</supplied></head>
+                <p>In gude troth Admiral I think ye are as mad as our government_ Dinna ye ken the
+                    Generals kilt_ ye must only attack sic places as Hampton_ Haver-de-Grace &amp;
+                    Alexandria_</p>
+            </div>
+            <div type="image_transcription" n="6" facs="#soldier4">
+                <head><supplied resp="editorial">British soldier with sling</supplied></head>
+                <p>O Lord the General is killed, and the fleet beat off_ Haste haste to the shipping
+                    or we are all gone._</p>
+            </div>
+            <div type="image_transcription" n="7" facs="#soldier5">
+                <head><supplied resp="editorial">Fat British soldier</supplied></head>
+                <p>That's not North point</p>
+            </div>
+            <div type="image_transcription" n="8" facs="#soldier6">
+                <head><supplied resp="editorial">British commander</supplied></head>
+                <p>What's the matter! you Cowardly rascals! Back back and execute the orders of your
+                    Government_ We must attack every point that's Assailable!</p>
+            </div>
+            <div type="image_transcription" n="9" facs="#sniper">
+                <head><supplied resp="editorial">Man in bushes</supplied></head>
+                <p>Now for this Chap on Horseback with the plaid Bonnet on_ There_ there's a Rifle
+                    pill for you_ Thats a quietus.</p>
+            </div>
+            <div type="image_transcription" n="10" facs="#rider">
+                <head><supplied resp="editorial">Man on horseback</supplied></head>
+                <p>Deil tak that Republican rascal we his Rifle gun for he's blawn my brains
+                    out_</p>
+            </div>
+        </body>
+
+        <back/>
+    </text>
+</TEI>
