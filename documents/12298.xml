@@ -180,7 +180,7 @@
   </teiHeader>
   <facsimile>
     <surface ulx="0" uly="0" lrx="100" lry="100">
-      <graphic url="FIL.000090278"/>
+      <graphic url="FIL.000094438"/>
       <zone n="1" xml:id="caption" points="6.64,91.72 96.23,91.2 96.39,96.63 6.47,97.58"/>
       <zone n="2" xml:id="freedmens_poster" points="59.71,8.81 82.07,6.41 81.43,38.35 58.91,38.03"/>
       <zone n="3" xml:id="suffrage_poster" points="79.34,14.71 93.82,13.76 93.49,41.86 79.5,42.02"/>
