@@ -200,7 +200,7 @@
         <surface ulx="0" uly="0" lrx="100" lry="100">
 
             <graphic
-                url="FIL.000090683"/>
+                url="FIL.000094905"/>
            
             <zone n="1" xml:id="Title" points="21.54,92.16 66.13,88.29 65.88,93.12 74.5,93.32 87.68,94.67 94.21,97.38 20.68,97.28"/>
             <zone n="2" xml:id="Puck" points="43.57,3.24 51.05,3.52 52.11,7.98 43.57,8.24"/>
@@ -214,7 +214,7 @@
        
         <front>
             <div type="editorial_desc">
-                <p>John Sherman, as Darius Green, flies over a barn.  His flying machine is constructed using a wheel, a tattered shirt, pension bills, and campaign speeches.  The putto, or symbol for <hi rendition="#italics">Puck</hi> waves a "Goodbye John" sign.  On the bottom right of the image there is a poem.</p>
+                <p>John Sherman, as Darius Green, flies over a barn. His flying machine is constructed using a wheel, a tattered shirt, pension bills, and campaign speeches. The putto, or mascot for <hi rendition="#italics">Puck</hi> waves a "Goodbye John" sign. A poem (a parody of the popular song "Darius Green and His Flying Machine") is printed on the bottom right of the image.</p>
             </div>
         </front>
 
