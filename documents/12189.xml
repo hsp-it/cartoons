@@ -199,7 +199,7 @@
 
     <facsimile>
         <surface ulx="0" uly="0" lrx="100" lry="100">
-            <graphic url="FIL.000090279"/>
+            <graphic url="FIL.000094990"/>
 
             <zone n="1" xml:id="Date" points="18.58,2.8 50,2.22 50.48,4.76 18.87,5.41"/>
             <zone n="2" xml:id="Sam"
