@@ -175,7 +175,7 @@
   </teiHeader>
   <facsimile>
     <surface ulx="0" uly="0" lrx="100" lry="100">
-      <graphic url="FIL.000090276"/>
+      <graphic url="FIL.000094444"/>
       <zone n="1" xml:id="caption" points="1.84,91 95.27,91 95.44,97.17 2.18,97.31"/>
       <zone n="2" xml:id="header" points="35.12,2.08 64.46,2.21 64.69,4.83 34.97,4.83"/>
       <zone n="3" xml:id="snake"
