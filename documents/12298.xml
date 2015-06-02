@@ -74,7 +74,7 @@
                 <date from="1866-11-03">November 3, 1866</date>
                 <extent>1 newspaper clipping</extent>
                 <extent>
-                  <dimensions type="image" unit="cm"/>
+                  <dimensions type="image" unit="cm">
                   <height quantity="12.5"/>
                   <width quantity="12"/>
                   </dimensions>
