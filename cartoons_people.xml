@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 
@@ -63,7 +64,7 @@
             </projectDesc>
         </encodingDesc>
         <revisionDesc>
-            <change who="HSP" when="2015-05-27">Exported from Collective Access.</change>
+            <change who="HSP" when="2015-06-03">Exported from Collective Access.</change>
         </revisionDesc>
     </teiHeader>
 
@@ -272,6 +273,12 @@ editor of NY Herald</note>
     <surname type="last">Borden</surname>
   </persName>
   <note type="internal">HINT project staff</note>
+</person>
+<person xml:id="ENT.000003781">
+  <persName key="ENT.000003781">
+    <surname type="last">Brackmere</surname>
+  </persName>
+  <note type="internal">artist of 12273</note>
 </person>
 <person xml:id="ENT.000003333">
   <persName key="ENT.000003333">
@@ -562,6 +569,20 @@ editor of NY Herald</note>
                 <bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). <hi rendition="#italics"> Historical dictionary of the Gilded Age</hi>. Armonk, N.Y.: M.E. Sharpe.</bibl></bibl>
   <note type="internal">LOC:  http://id.loc.gov/authorities/names/n85363319.html</note>
 </person>
+<person xml:id="ENT.000003783">
+  <persName key="ENT.000003783">
+    <forename type="first">Richard</forename>
+    <forename type="middle">Barrett</forename>
+    <surname type="last">Connolly</surname>
+  </persName>
+  <birth when="1810">1810</birth>
+  <death when="1880">1880</death>
+  <sex>Male</sex>
+  <note type="biography">Richard B. Connolly, aka "Slippery Dick," was the unofficial chief financial officer of the infamous "Tweed Ring." Connolly was comptroller of New York City from 1867 until his resignation on November 18, 1871. Shortly after his resignation, he was arrested an indicted of 15 misdemeanor counts. After being released on bail, he fled the United States and eventually died in Marseilles, France. Connolly was born in Ireland and came to New York City as a young man. He also served as Clerk of New York County from 1853 to 1858 and as a member of the NY State Senate from 1860 to 1863.</note>
+  <bibl><bibl>John Adler, with Draper Hill, <hi rendition="#italics">Doomed by Cartoon: How Cartoonist Thomas Nast the “The New-York Times” Brought down Boss Tweed and His Ring of Thieves</hi> (Garden City, New York: Morgan James, 2008)</bibl>
+<bibl>"At Three Score and Ten: Richard B. Connolly's Death at Marseilles," <hi rendition="#italics">New York Times</hi> obituary, June 1, 1880.</bibl></bibl>
+  <note type="internal">depicted in 12273</note>
+</person>
 <person xml:id="ENT.000003633">
   <persName key="ENT.000003633">
     <forename type="first">Tennessee</forename>
@@ -846,6 +867,10 @@ See http://politicalgraveyard.com/death/offices.html; https://books.google.com/b
   <birth when="1801">1801</birth>
   <death when="1870">1870</death>
   <sex>Male</sex>
+  <note type="biography"><p>David Glasgow Farragut was the first admiral of the United States. Farragut, born James Glasgow Farragut, was the son of a ferryboat operator and sailing master in the US Navy. James changed his name to David in 1814, in honor of David Porter Jr., who became young James’s guardian after his parents’ deaths. Farragut became a midshipman in 1810, at the age of nine. He served in the War of 1812 on the Essex, and at age twelve commanded the prize ship Alexander Barclay. After the war, Farragut served in the Mediterranean and the West Indies before marrying and settling in Norfolk, Virginia, where he lived until 1861. When Virginia seceded, Farragut left Norfolk, moving to Hastings-on-Hudson, New York, where he awaited orders. He was called to duty in December 1861 with orders to take New Orleans and open the Mississippi River up to Union traffic. In contrast to George McClellan, Farragut was willing to take risks if he thought the potential gains significant. He was successful in taking New Orleans and the Mississippi River forts by summer 1862 and he was made a rear admiral. By the end of 1862, he had closed every Gulf port except Mobile. After suffering some defeats in 1863, Farragut returned to New York. He was back in the Gulf in early 1864, however, where his target was Mobile. During a battle that August, Farragut reportedly ordered “Damn the torpedoes, full speed ahead” and succeeded in taking Mobile Bay, the first significant Union victory in nine months. On December 23, 1864, Lincoln signed a bill creating the office of vice admiral and nominated Farragut to it. Congress later created the rank of full admiral, specifically for Farragut, and he was appointed on July 26, 1866. After the war, Farragut toured Europe, promoting peaceful relations. After suffering from a heart attack from which he never fully recovered, he died at Portsmouth, New Hampshire in 1870.</p></note>
+  <bibl><bibl>“Farragut, David Glasgow.” American National Biography.</bibl>
+                
+                <bibl>“David Glasgow Farragut.” Tennessee Encyclopedia of History and Culture. <ref target="http://tennesseeencyclopedia.net/entry.php?rec=456">Link</ref></bibl></bibl>
   <note type="internal">mentioned in 11751; http://id.loc.gov/authorities/names/n50011924.html</note>
 </person>
 <person xml:id="ENT.000003558">
@@ -1084,6 +1109,20 @@ depicted in hint cartoon #12371</note>
 &#13;
 mentioned in 11585-Bc612P567_1_TEI.xml; painted Phryne Before the Aeropagus</note>
 </person>
+<person xml:id="ENT.000003782">
+  <persName key="ENT.000003782">
+    <forename type="first">Abraham</forename>
+    <forename type="middle">Oakey</forename>
+    <surname type="last">Hall</surname>
+  </persName>
+  <birth when="1826">1826</birth>
+  <death when="1898">1898</death>
+  <sex>Male</sex>
+  <note type="biography">Mayor of New York City from 1868 to 1872, A. Oakey Hall was an ally of William M. "Boss" Tweed. Mayor Hall was indicted for corruption twice, eventually going into exile in London. He later returned to the United States and died in New York in 1898. Prior to becoming mayor, Hall was district attorney of New York City.</note>
+  <bibl><bibl>John Adler, with Draper Hill, <hi rendition="#italics">Doomed by Cartoon: How Cartoonist Thomas Nast the “The New-York Times” Brought down Boss Tweed and His Ring of Thieves</hi> (Garden City, New York: Morgan James, 2008)</bibl>
+<bibl>Encyclopedia of New York City. <ref target="http://www.virtualny.cuny.edu/EncyNYC/A_oakey_hall.html">Link</ref></bibl></bibl>
+  <note type="internal">depicted in 12273</note>
+</person>
 <person xml:id="ENT.000003746">
   <persName key="ENT.000003746">
     <forename type="first">Alexander</forename>
@@ -1247,6 +1286,20 @@ depicted in HINT cartoon #11940 and 12020</note>
   <birth when="1767">1767</birth>
   <death when="1845">1845</death>
   <sex>Male</sex>
+  <note type="biography"><p>Andrew Jackson was the military hero and seventh president of the United States. Jackson was born in western South Carolina to a recently widowed mother with two young sons. By age fourteen, Jackson had lost his brothers and mother as well. Despite this inauspicious beginning, Jackson became a successful lawyer and politician in Tennessee, where he had settled in 1788. Jackson served in the convention that drafted Tennessee’s constitution, and then, once Tennessee was admitted to statehood, he became the state’s sole representative to the US House of Representatives in 1796. In 1797 he was elected to the US Senate. After a short, undistinguished congressional career, Jackson resigned from the Senate to serve on the Superior Court of Tennessee. 
+</p>
+<p>Jackson’s military career included command of Tennessee forces in the Creek War of 1813, which led to his commission as major general in the US Army in 1814. He is best known for his victory of the British in the Battle of New Orleans at the conclusion of the War of 1812. This victory made Jackson a national hero. Jackson’s soldiers named him “Old Hickory” because of his strength during hardship. In 1818 he led an expedition that captured Florida, and then in 1821 he served as governor of the new territory. He resigned that post in 1821 and returned to Tennessee, where the state legislature nominated him for president in 1822.</p>
+
+<p>Jackson was one of four candidates for president in 1824. Jackson won a plurality of the popular vote, but because he did not have a majority, the election was decided by the House of Representatives, which selected John Quincy Adams, who then named fourth-place finisher Henry Clay as secretary of state in what Jackson labeled a “corrupt bargain.” With that, Jackson’s 1828 campaign for the presidency began and the Jacksonian Democratic Party was born. The 1828 campaign between Andrew Jackson and John Quincy Adams was one of the nation’s nastiest. Jackson won by a wide margin.</p>
+
+<p>Jackson was a champion of the common man and of majority rule, and used his veto to strike at what he considered to be special interests. He also was a strong nationalist and rejected Vice President John Calhoun’s belief that states could nullify federal legislation they disliked. Calhoun and Jackson broke over nullification and other issues and Martin Van Buren ran with Jackson for vice president in 1832. Recharter of the powerful Second Bank of the United States became the primary issue during the 1832 presidential campaign between Jackson and Henry Clay. In July 1832, Jackson had vetoed a bill to recharter the bank sponsored by Clay. Jackson then defeated Clay in the presidential election and in 1833 he ordered that government funds be moved from the Bank of the United States and placed in selected state banks. Jackson’s adversaries depicted him as a tyrant, labeling him “King Andrew.” No doubt, Jackson was a divisive figure in American politics. By the end of this presidency, the clear two party system, Whigs and Democrats, was in place.</p>
+
+<p>Jackson returned to Tennessee in 1837, where he died in 1845.</p></note>
+  <bibl><bibl>“Andrew Jackson.” <hi rendition="#italics">Tennessee Encyclopedia of History and Culture</hi>. <ref target="http://tennesseeencyclopedia.net/entry.php?rec=695">Link</ref></bibl>
+
+<bibl>“Jackson, Andrew.” <hi rendition="#italics">American National Biography</hi>.</bibl>
+
+                <bibl>“Jackson, Andrew.” <hi rendition="#italics">Biographical Directory of the United States Congress</hi>. <ref target="http://bioguide.congress.gov/scripts/biodisplay.pl?index=j000005">Link</ref></bibl></bibl>
   <note type="internal">Andrew Jackson is referred to as "Old Hickory" in cartoon with DAMS #5545.  His biography should include a brief explanation of the origin of this nickname.</note>
 </person>
 <person xml:id="ENT.000003684">
@@ -1306,6 +1359,16 @@ depicted in HINT cartoon #11940 and 12020</note>
   <birth when="1808">1808</birth>
   <death when="1875">1875</death>
   <sex>Male</sex>
+  <note type="biography"><p>
+Andrew Johnson was the seventeenth president of the United States, taking office after Abraham Lincoln’s assassination in April 1865. Johnson was a southern Democrat, born in North Carolina and living most of his life in East Tennessee. Johnson grew up in a poor family, lost his father at an early age, and was apprenticed to a tailor, and then ran away. He settled in Greeneville, Tennessee, where he set up a tailor shop, married, raised a family, and entered local politics. In 1835 he was elected to the Tennessee legislature, lost that seat in 1837, and then regained it in 1839. In 1843 he was elected to the US House of Representatives as a Jacksonian Democrat.  He served in the House for ten years, where he was a sponsor of the homestead bill, which provided western settlers with public land. This support alienated many southern conservatives since this measure could weaken slavery. Johnson was not abolitionist, however. Indeed, he owned several slaves and was a strong believer in white supremacy and state’s rights. When gerrymandered out of his House seat in 1853, Johnson ran for governor of Tennessee instead, and won. In 1857 he was chosen US Senator. In the Senate he continued his advocacy for the homestead bill. </p>
+
+<p>In 1860, Johnson hoped to run for the presidency on the Democratic ticket. He was unsuccessful in securing the nomination, and when the party split, he endorsed the proslavery ticket of John Breckenridge and Joseph Lane. Following Abraham Lincoln’s election, however, Johnson remained a strong Unionist and opposed secession. He remained in the Senate during the secession crisis, even after Tennessee seceded from the Union—though East Tennessee remained Unionist. This action made Johnson a hero in the North. In March 1862, after the fall of Nashville, Lincoln appointed Johnson military governor of Tennessee.
+</p>
+<p>In 1864, in an effort to attract war Democrats to the Lincoln ticket, the National Union Part nominated Johnson for vice president. He served as vice president for just over a month before Lincoln was assassinated and Johnson assumed the presidency. Because he believed that the Southern states had never actually seceded and in state’s rights, he initiated a Reconstruction policy that angered Northern Radical Republicans. He pardoned nearly all Southerners who would take an oath of allegiance, requiring only Southern leaders and men of wealth to obtain special presidential pardons. He also did not insist that Southern states enfranchise freedmen. These policies set up a battle with the Congress. Johnson vetoed several measures, including, in February 1866, the Freedman’s Bureau bill, and in March 1866, a civil rights bill. Congress overrode the veto of the Civil Rights Act and passed a new Freedman’s Bureau bill in June 1866, which Johnson was not able to veto. In fall 1866 Radical Republicans won in the congressional elections, further weakening Johnson. In 1867, he attempted to settle remaining claims with Great Britain, including the <hi rendition="#italics">Alabama</hi> claims for damages to North from British built ships serving the Confederacy, but his efforts were rejected by the Senate. In March 1867, Congress enacted the Tenure of Office Act, which required Senate approval for dismissal of presidential appointees, and also began their own Reconstruction program. They also began efforts to impeach Johnson. After one failed attempt, Johnson was impeached for violations of the Tenure of Office Act in February 1868. The Senate then acquitted him by one vote in May 1868. In March 1869, Johnson left the presidency and returned to Tennessee. In 1875 he was returned to the US Senate. He died a few months later in Carter’s Station, Tennessee.
+</p></note>
+  <bibl><bibl>“Johnson, Andrew.” <hi rendition="#italics">American National Biography</hi></bibl>.
+
+                <bibl>“Andrew Johnson.” <hi rendition="#italics">WhiteHouse.gov</hi>. <ref target="https://www.whitehouse.gov/1600/presidents/andrewjohnson">Link</ref></bibl></bibl>
   <note type="internal">depicted 11512-3133_b1f32_1_TEI.xml (meteors at washington); 11572-3133_b3f18_1_TEI.xml (bagatelle) ; http://id.loc.gov/authorities/names/n79056304.html</note>
 </person>
 <person xml:id="ENT.000000443">
@@ -1451,6 +1514,14 @@ Depicted in Hint cartoon 11834</note>
   <birth when="1809">1809</birth>
   <death when="1865">1865</death>
   <sex>Male</sex>
+  <note type="biography"><p>Abraham Lincoln was elected sixteenth present of the United States in 1860, leading to the secession of the Southern states and the American Civil War. Lincoln was born to poor parents in Kentucky in 1809, spent some of his childhood in Indiana, then moved with his family to Illinois in the 1830s. As a young man, Lincoln earned some money splitting rails for other farmers, earning him the nickname the “Rail Splitter” later in life. In 1831 he settled in New Salem, Illinois, where he worked several jobs, joined a debating society, and became interested in politics. In 1834 he won election to the Illinois legislature as a Whig. While in the legislature, Lincoln studied law and obtained his license and began his legal practice. He retired from the legislature in 1841 and continued his legal practice. In 1842, he married Mary Todd, with whom he had four sons. In 1846, Lincoln achieved his ambition to serve in Congress, and he served in Congress from 1847 to 1849. He then returned to his legal practice in Springfield, Illinois. In 1854, passage of the Kansas-Nebraska Act propelled Lincoln back into politics. Lincoln strongly opposed of the extension of slavery into the western territories and he ran for the state legislature on a platform that opposed the act. In February 1855, however, he resigned from the legislature to become the Whig candidate for the US Senate but he failed to secure that seat. In 1858, the Republican Party nominated Lincoln its candidate for US Senate against Democrat Stephen Douglas. The famous Lincoln-Douglas debates over the extension of slavery brought Lincoln to national attention—though the state legislature reappointed Douglas to the Senate.
+</p>
+<p>When it came time to nominate a candidate for president in 1860, Lincoln emerged from the Republican National Convention in Chicago as the Republican nominee, beating out leading candidate William H. Seward of New York. The four-way election, with the Democrats split between northern and southern wings and a remnant of the Whig Party reorganizing as the Constitutional Union Party, allowed Lincoln to win the presidency with only 40 percent of the popular vote. Lincoln’s election precipitated the secession of the Southern states in the winter of 1860-61. Within weeks of Lincoln’s open rebellion began with the firing on Fort Sumter by Confederate soldiers. Originally a war to preserve the Union, by 1862, Lincoln was under pressure make the abolition of slavery a war aim. Instead, Lincoln moved to end slavery in those Confederate states still in rebellion as a military tactic. After issuing a draft proclamation in September 1862, Lincoln issued the final Emancipation Proclamation on January 1, 1863.</p>
+
+<p>While waging war against the Southern states, Lincoln also faced a tough battle within his party and his administration. Disagreements over prosecution of the war and its aftermath led to a contentious Republican nominating convention in 1864. Lincoln won the nomination, and the election, defeating his former general, George McClellan, who ran on the Democratic ticket. Lincoln lived to see the end of the war, but not the enactment of his Reconstruction policies. He was shot at while watching a comedy at Ford’s Theatre in Washington, DC, on April 14, 1865, and he died the following morning.</p></note>
+  <bibl><bibl>“Lincoln, Abraham.” <hi rendition="#italics">American National Biography</hi>.</bibl>
+
+                <bibl>“Abraham Lincoln.” <hi rendition="#italics">WhiteHouse.gov</hi>. <ref target="https://www.whitehouse.gov/1600/presidents/abrahamlincoln">Link</ref></bibl></bibl>
   <note type="internal">depicted in 11562, 11564, 11563, 11511, 2189, 996</note>
 </person>
 <person xml:id="ENT.000002461">
@@ -1578,6 +1649,14 @@ fourth president of the United States (1809-1817). Not to be confused with James
   <birth when="1826">1826</birth>
   <death when="1885">1885</death>
   <sex>Male</sex>
+  <note type="biography"><p>
+George Brinton McClellan was a Civil War general and presidential candidate. He was beloved by his troops but exasperating to President Lincoln, and he is ultimately remembered more for his failures than for his successes. George McClellan was born in 1826 in Philadelphia, where he studied law at the University of Pennsylvania before giving up the law to pursue a career in the military. McClellan secured an appointment to West Point and graduated second in his class in 1846. McClellan served in the Mexican War and on various western army expeditions. He was viewed as a rising star, but he left the army in 1857 to become superintendent of the Illinois Central Railroad. McClellan, a former Whig, became a Democrat by 1858, and he supported Stephen Douglas against Abraham Lincoln in the US Senate race and again in the 1860 presidential election. By 1861, his love of the military drew him back to the army. In April he was appointed commander of the Ohio troops. By July, Lincoln gave McClellan command of the Union troops in Washington, DC, and in August he formed the Army of the Potomac and in November was named general-in-chief of the Union armies. McClellan, known as the “Young Napoleon,” soon won the affection of his men, but he soon began to frustrate Lincoln. McClellan’s extreme caution or lack of nerve led him to forestall providing Lincoln with any war plans or to commit his troops to action. By March 1862, Lincoln relieved McClellan of the office of general-in-chief, and the following fall he removed McClellan from command of the Army of the Potomac and transferred him to Trenton, New Jersey.</p>
+
+<p>In 1864, McClellan sought, and won, the Democratic nomination for president. The nominating convention, however, was dominated by peace Democrats, who adopted a platform declaring the war a failure. McClellan tried to distance himself from this platform by declaring his intention of continuing the war until the Union was restored. McClellan lost the election in a landslide, in part because of significant Union victories in the months leading up to the election, and in part because the Democrats were viewed as the party of disunity. McClellan then traveled to Europe, where he lived for three years before returning to New Jersey to pursing engineering work. He was elected governor of New Jersey in 1877 and served one term. He died at his home in Orange, New Jersey, in 1885.</p>
+</note>
+  <bibl><bibl>“McClellan, George B.” <hi rendition="#italics">American National Biography</hi>.</bibl>
+
+                <bibl>Clemens, Tom. “George B. McClellan (1826-1885).” <hi rendition="#italics">Encyclopedia of Virginia</hi>. <ref target="http://www.encyclopediavirginia.org/mcclellan_george_b_1826-1885">Link</ref></bibl></bibl>
   <note type="internal">http://id.loc.gov/authorities/names/n50014834.html. Depicted in 2189</note>
 </person>
 <person xml:id="ENT.000003723">
@@ -2088,6 +2167,19 @@ LOC:http://id.loc.gov/authorities/names/n86025981.html</note>
   <sex>Male</sex>
   <note type="internal">http://id.loc.gov/authorities/names/n79095196</note>
 </person>
+<person xml:id="ENT.000003785">
+  <persName key="ENT.000003785">
+    <forename type="first">Robert</forename>
+    <forename type="middle">Barnwell</forename>
+    <surname type="last">Roosevelt</surname>
+  </persName>
+  <birth when="1829">1829</birth>
+  <death when="1906">1906</death>
+  <sex>Male</sex>
+  <note type="biography">Fish commissioner of the State of New York 1868-1888; editor of the "New York Citizen"; US Representative from New York 1871-1873; minister to the Hague 1888-1890; treasurer of the Democratic National Committee, 1892; member of the Board of Aldermen of New York City. Also uncle of Theodore Roosevelt and editor of the <hi rendition="#italics">New York Citizen</hi>.</note>
+  <bibl>Biographical Directory of the United States Congress <ref target="http://bioguide.congress.gov/scripts/biodisplay.pl?index=R000428">Link</ref></bibl>
+  <note type="internal">mentioned in 12273</note>
+</person>
 <person xml:id="ENT.000002738">
   <persName key="ENT.000002738">
     <forename type="first">Theodore</forename>
@@ -2257,6 +2349,20 @@ LOC:http://id.loc.gov/authorities/names/n86025981.html</note>
     <surname type="last">Swayze</surname>
   </persName>
   <sex>Male</sex>
+</person>
+<person xml:id="ENT.000003784">
+  <persName key="ENT.000003784">
+    <forename type="first">Peter</forename>
+    <forename type="middle">Barr</forename>
+    <surname type="last">Sweeny</surname>
+  </persName>
+  <birth when="1825">1825</birth>
+  <death when="1911">1911</death>
+  <sex>Male</sex>
+  <note type="biography">Peter B. Sweeney was known as the "Brains" of New York City's infamous "Tweed Ring." He was appointed city chamberlain (treasurer) in 1866 and was instrumental in nominating and securing the election of Mayor A. Oakey Hall, a Tweed ally, in 1868. Sweeny was named director of the city's parks department in 1870. In 1871, as the corruption of the Tweed Ring was exposed, Sweeney resigned his municipal positions and fled to France. He paid a $400,000 settlement to avoid prosecution and retired permanently from public life.</note>
+  <bibl><bibl>John Adler, with Draper Hill, <hi rendition="#italics">Doomed by Cartoon: How Cartoonist Thomas Nast the “The New-York Times” Brought down Boss Tweed and His Ring of Thieves</hi> (Garden City, New York: Morgan James, 2008)</bibl>
+<bibl>Biography at HarpWeek.com. <ref target="http://elections.harpweek.com/1872/bio-1872-Full.asp?UniqueID=29&amp;Year=1872">Link</ref></bibl></bibl>
+  <note type="internal">depicted in 12273</note>
 </person>
 <person xml:id="ENT.000002466">
   <persName key="ENT.000002466">
