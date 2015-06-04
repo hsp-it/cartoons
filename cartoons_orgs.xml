@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 
@@ -64,7 +63,7 @@
             </projectDesc>
         </encodingDesc>
         <revisionDesc>
-            <change who="HSP" when="2015-06-03">Exported from Collective Access.</change>
+            <change who="HSP" when="2015-06-04">Exported from Collective Access.</change>
         </revisionDesc>
     </teiHeader>
 

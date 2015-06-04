@@ -64,7 +64,7 @@
             </projectDesc>
         </encodingDesc>
         <revisionDesc>
-            <change who="HSP" when="2015-06-03">Exported from Collective Access.</change>
+            <change who="HSP" when="2015-06-04">Exported from Collective Access.</change>
         </revisionDesc>
     </teiHeader>
 
@@ -1210,7 +1210,17 @@ depicted in HINT cartoon #11940 and 12020</note>
   <birth when="1822">1822</birth>
   <death when="1893">1893</death>
   <sex>Male</sex>
-  <note type="internal">LOC:  http://id.loc.gov/authorities/names/n50025146</note>
+  <note type="biography"><p>Rutherford Hayes was the nineteenth President of the United States and the first US president to graduate from law school.</p>
+                <p>Hayes was born in Ohio and was raised by a single mother. His father died ten weeks before Hayes’ birth.  During the Civil War, he served as major general for the Union Army was wounded in battle five times, but continued to serve. Because of his bravery in battle, he quickly earned a reputation as war hero and, in 1864, was elected to serve in the United States House of Representatives.  He served from 1865-1867 and later became the Governor of Ohio from 1868-1872 and 1876-1877.  </p>
+                <p>In 1876, Hayes became the Republican presidential nominee, defeating popular republican politicians such as James G. Blaine and Roscoe Conkling.  His Democratic opponent, Samuel Tilden of New York, was a formidable opponent, excellent campaigner, and well-known reformer.  </p>
+                <p>The 1876 presidential election became one of the most contested in US history. The votes were so close that both candidates could claim victory in Florida, South Carolina, Louisiana, and Oregon.  In order to decide the election, Congress organized a special electoral commission.  The fifteen member commission awarded the presidency to Hayes which led some to question the legitimacy of his presidency. Some Democrats nicknamed Hayes “Rutherfraud” and “His Fraudulency.”</p>
+                <p>Hayes sought to strengthen the presidency and to end the practice of political patronage.  His civil service reforms put him at constant odds with Senator Roscoe Conkling of New York. He served only one term and did not seek re-election in 1880.  He died in 1893.</p>
+</note>
+  <bibl><bibl>“American President: Rutherford Birchard Hayes: A Life in Brief.” <hi rendition="#italics">University of Virginia Miller Center</hi>, Accessed June 4, 2015.  <ref target="http://millercenter.org/academic/americanpresident/hayes/essays/biography/1">Link</ref></bibl>
+                <bibl>“Rutherford Birchard Hayes,  Presidents of the United States (POTUS).” <hi rendition="#italics">Ipl2</hi>, Accessed June 4, 2015. <ref target="http://www.ipl.org/div/potus/rbhayes.html">Link</ref></bibl>
+                <bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). <hi rendition="#italics">Historical dictionary of the Gilded Age</hi>. Armonk, N.Y.: M.E. Sharpe.</bibl></bibl>
+  <note type="internal">LOC:  http://id.loc.gov/authorities/names/n50025146
+in cartoon 1801 "let us have peace"</note>
 </person>
 <person xml:id="ENT.000003768">
   <persName key="ENT.000003768">
@@ -1243,6 +1253,12 @@ depicted in HINT cartoon #11940 and 12020</note>
   <birth when="1822">1822</birth>
   <death when="1903">1903</death>
   <sex>Male</sex>
+  <note type="biography"><p>Abram Stevens Hewitt served five terms in the United States Congress, and one term as mayor of New York.
+He was born in Haverstraw, New York in 1822 and attended Columbia College where he studied law. Shortly after, he became an iron manufacturer when he entered into business with his brother-in-law and formed Copper, Hewitt, &amp; Company. Hewitt served in Congress from 1875-1886.  As a congressman, he fought for tariff reform and served as the Democratic Committee chairman during the disputed presidential election of 1876 in which Democratic candidate Samuel Tilden lost to Rutherford B. Hayes.  In 1883, alongside New York senators William Robinson and Samuel Cox, Hewitt petitioned the President Chester A. Arthur to intervene on behalf of Patrick O’Donnell, a United States citizen who on trial in the United Kingdom for murder.  O’Donnell was found guilty and executed in London.</p>
+<p>In 1886 Hewitt became mayor of New York City and tried to end the political influence of Tammany Hall.  He angered many Irish-Americans in New York for his immigration policies and his refusal to allow the Irish flag to be flown during the St. Patrick’s Day Parade.  Hewitt served only one term as mayor.  He died on January 18, 1903 in New York City.</p>
+</note>
+  <bibl><bibl>“Hewitt, Abram Stevens.”  <hi rendition="#italics">Biographical Directory of the United States Congress</hi>, Accessed June 4, 2015.  <ref target="http://bioguide.congress.gov/scripts/biodisplay.pl?index=h000552">Link</ref></bibl>
+<bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). <hi rendition="#italics">Historical dictionary of the Gilded Age</hi>. Armonk, N.Y.: M.E. Sharpe.</bibl> </bibl>
   <note type="internal">LOC:  http://id.loc.gov/authorities/names/n86012017</note>
 </person>
 <person xml:id="ENT.000003726">
@@ -1340,6 +1356,11 @@ depicted in HINT cartoon #11940 and 12020</note>
   <birth when="1825">1825</birth>
   <death when="1883">1883</death>
   <sex>Male</sex>
+  <note type="biography"><p>Marshall Jewell was a businessman, Republican Governor of Connecticut, and Minister to Russia.</p>
+                <p>Jewell was born in 1825 in New Hampshire.  He owned a profitable tanning business which he inherited from his father. He entered politics in the 1860s and unsuccessfully ran for the US Senate in 1867.  The following year he was elected as the Governor of Connecticut and served two terms from 1869-1873.  In 1873, he served seven months as Minister to Russia during President Ulysses S. Grant’s administration.  He became postmaster general from 1874-1876 and Republican National Committee Chairman from 1880-1883.  Jewell died in Connecticut on February 10, 1883 from pneumonia.</p></note>
+  <bibl>  <bibl>“Marshall Jewell (1825–1883).” <hi rendition="#italics">Cedar Hill Cemetery Foundation</hi>, Accessed June 4, 2015. <ref target="http://cedarhillfoundation.org/notable-residents/marshall-jewell/">Link</ref></bibl>
+                
+                <bibl>“Marshall Jewell (1874–1876).” <hi rendition="#italics">University of Virginia Miller Center</hi>, Accessed  June 4, 2015. <ref target="http://millercenter.org/president/grant/essays/cabinet/321">Link</ref></bibl></bibl>
   <note type="internal">LOC:  http://id.loc.gov/authorities/names/nr2001043325.html</note>
 </person>
 <person xml:id="ENT.000003564">
@@ -1766,6 +1787,10 @@ LOC:  http://id.loc.gov/authorities/names/n79060685</note>
   <birth when="1840">1840</birth>
   <death when="1902">1902</death>
   <sex>Male</sex>
+  <note type="biography"><p>Thomas Nast was perhaps the greatest American political cartoonist of the nineteenth century. He is credited shifting the focus on cartooning from text to imagery and with popularizing the symbols of the donkey and the elephant for the Democratic and Republican Parties. He also is responsible for our modern image of Santa Claus. Thomas Nast was born in Bavaria in 1840 and moved to New York City with his parents in 1846. There Nast studied art, and in 1855 he was hired as a staff artist for <hi rendition="#italics">Frank Leslie’s Illustrated Newspaper</hi>. Three years later he became a freelance artist for <hi rendition="#italics">Harper’s Weekly</hi> and <hi rendition="#italics">New York Illustrated News</hi>. In 1860, Nast traveled to Europe, where he covered subjects such as Garibaldi’s campaigns in Italy and English boxing. He returned to New York in 1861, where he married Sarah Edwards and sketched for the <hi rendition="#italics">Illustrated News</hi> and <hi rendition="#italics">Leslie’s</hi> before rejoining <hi rendition="#italics">Harper’s Weekly</hi> in 1862. During the Civil War, Nast’s most influential work captured the political issues dividing the nation and used domestic scenes to bolster the Union cause. After the war, Nast used his pen to comment on Reconstruction, black rights, and party politics. In the 1870s, he used his cartoons fight the corruption of New York’s Boss Tweed and Tammany Hall. In politics, Nast was a Republican, and he supported the Grant administration and the need for federal intervention in the South. Nash was at the peak of his popularity and power during the postwar years. His influence declined in the latter years of the nineteenth century. He left <hi rendition="#italics">Harper’s Weekly</hi> in 1886 and failed in his attempt to establish his own journal. In 1902, Theodore Roosevelt appointed him a consul to Ecuador, where he succumbed to yellow fever in that same year.</p></note>
+  <bibl><bibl>“Nast, Thomas.” <hi rendition="#italics">American National Biography</hi>.</bibl>
+                
+               <bibl>Lewin, J. G., and P. J. Huff. <hi rendition="#italics">Lines of Contention: Political Cartoons of the Civil War</hi>.  New York: HarperCollins Publishers, 2007. p. 199</bibl></bibl>
 </person>
 <person xml:id="ENT.000003547">
   <persName key="ENT.000003547">
@@ -2196,6 +2221,11 @@ LOC:http://id.loc.gov/authorities/names/n86025981.html</note>
     <forename type="middle">T.</forename>
     <surname type="last">Ruoff</surname>
   </persName>
+  <birth when="1832">1832</birth>
+  <sex>Male</sex>
+  <note type="biography">John T. Ruoff has been identified as the New York publisher of the cartoon “Southern Ass-Stock Crazy” by several print dealers, though not by the Library of Congress. A John T. Ruoff, bookkeeper, is listed in the 1860 federal census, living in Hoboken, New Jersey. This is likely the <p>John T. Ruoff has been identified as the New York publisher of the cartoon “Southern Ass-Stock Crazy” by several print dealers, though not by the Library of Congress. A John T. Ruoff, bookkeeper, is listed in the 1860 federal census, living in Hoboken, New Jersey. This is likely the John T. Ruoff identified by print dealers, since, in addition to his wife and two young children, Ruoff had two lithographers, Lewis Newmaker and Otto Wagner, living in his household. Ruoff was age twenty-eight in 1860 and the census gives his birthplace as Nuremberg. In 1870 he appears as John F. Ruoff and is living in Putnam, Connecticut, where he worked in a woolen mill. He does not appear in the 1880 federal census.</p></note>
+  <bibl><bibl>US Census, 1860, 1870.</bibl>
+                </bibl>
 </person>
 <person xml:id="ENT.000000478">
   <persName key="ENT.000000478">
@@ -2279,6 +2309,12 @@ LOC:http://id.loc.gov/authorities/names/n86025981.html</note>
   <birth when="1831">1831</birth>
   <death when="1888">1888</death>
   <sex>Male</sex>
+  <note type="biography"><p>Philip Henry Sheridan was born to an Irish laborer and his wife who migrated from Ireland to Somerset, Ohio, with a brief stay in Albany, New York, in 1830–31. It is not clear exactly where Philip was born. In Ohio, Sheridan received a rudimentary education and then worked as a bookkeeper in a dry goods store before winning an appointment to the US Military Academy at West Point in 1848. After graduation, Sheridan served on frontier duty in the West, until he was ordered to Missouri in September 1861 to join a new infantry unit under General Halleck. Sheridan was made chief commissary and quartermaster for the Army of the Southwest Missouri District. While he excelled in this position, he longed to command troops in the field. He finally secured such a command in spring 1862 when he was offered the position of commander of the volunteer Second Michigan Cavalry. From there, Sheridan quickly moved up, winning the admiration of his troops and superiors alike. He was promoted to brigadier general of US Volunteers by mid-1862. His battlefield courage and skills were admired by General U. S. Grant, who appointed Sheridan chief of cavalry in early 1864. Now brigadier general, US Army, in May 1864 Sheridan led his cavalry to Richmond, where he defeated Confederate cavalry forces under Jeb Stuart, further earning him the Grant’s respect. A year later, in April 1865, Sheridan’s cavalry played an important role in Lee’s surrender at Appomattox, though Sheridan himself was disappointed that he was not given the opportunity to crush the Confederate troops and instead they were allowed to negotiate their surrender.</p> 
+                
+                <p>After the Civil War, Sheridan was sent to New Orleans, where he commanded the Military Division of the Gulf and then was briefly military governor of Louisiana and Texas. In 1867, Sheridan returned to the West, where, except for a two-year hiatus when he served as an official observer of the Franco-Prussian War, he directed several campaigns against the Plains Indians. In 1883, Sheridan was named general in chief of the US Army. Sheridan published his memoirs in 1888. In that same year, he suffered a series of heart attacks, and he died at his summer cottage in Nonquitt, Massachusetts.</p></note>
+  <bibl><bibl>“Sheridan, Philip Henry.” <hi rendition="#italics">American National Biography</hi>.</bibl>
+                
+                <bibl>Philip Henry Sheridan Papers, 1853–1888, Finding Aid. Library of Congress.  <ref target="http://findingaids.loc.gov/db/search/xq/searchMfer02.xq?_id=loc.mss.eadmss.ms006029&amp;_faSection=overview&amp;_faSubsection=bioghist&amp;_dmdid=d31112e19">Link</ref></bibl></bibl>
   <note type="internal">mentioned in 11751; http://id.loc.gov/authorities/names/n79061256.html</note>
 </person>
 <person xml:id="ENT.000003380">
@@ -2289,6 +2325,11 @@ LOC:http://id.loc.gov/authorities/names/n86025981.html</note>
   <birth when="1823">1823</birth>
   <death when="1900">1900</death>
   <sex>Male</sex>
+  <note type="biography"><p>William Tecumseh Sherman was one of the Union’s most famous generals, best known for his efforts to demoralize the South through the destruction of property, epitomized in his March through Georgia in the fall of 1864. Sherman was born in Lancaster, Ohio, in 1820, to a prominent state judge, one of 11 children. The death of his father in 1829, however, left his family destitute, and William became the ward of Ohio lawyer and politician Thomas Ewing. In 1836, Sherman entered the US Military Academy, where he excelled. After his graduation in 1840, he served mostly in the South, including in the Seminole War. During the Mexican War, he was stationed in California, where he saw no combat. He returned east in 1850, where he married Ewing’s daughter, Ellen Ewing. He left the military at her insistence in 1853. From 1853 until 1861, Sherman worked as a banker and businessman in various locations. By 1859, Sherman was eager to reenter the army and was able to secure the position of superintendent of the Louisiana Military Seminary, where he served until February 1861, when he left when Louisiana seceded from the Union. A few months later he became a colonel in the regular army. Sherman performed valiantly at Shiloh and served as military governor of Memphis in 1862, where he came to recognize the important role that civilians—and morale—played in the war. In 1863, Sherman participated in the Vicksburg campaign and was promoted to brigadier general. That fall, Sherman was named commander of the Department of the Army of the Tennessee. Sherman first implemented his strategy to break the South through the widespread destruction of property in the Meridian Campaign of early 1864, leaving behind a path of destruction from Jackson to Meridian, Mississippi. In March 1864, Sherman became commander of the Military Division of the Mississippi and in charge of all military operations in the West. Sherman began his famous March through Georgia on September 1, 1864, following the fall of Atlanta, reaching Savannah on December 21.</p>                 
+                <p>Despite his devastating approach to war, Sherman advocated a lenient peace, and in April 1865 he negotiated such a peace with Confederate general Joseph Johnston. A nation recently traumatized by Lincoln’s assassination, however, forced him to renegotiate the peace treaty. After the war, Sherman remained in the army, and when Grant was elected president, Sherman became commanding general. Sherman retired in 1883 and later settled in New York City, where he died in 1888.</p></note>
+  <bibl><bibl>“Sherman, William Tecumseh.” <hi rendition="#italics">American National Biography</hi>.</bibl>
+                
+                <bibl>William T. Sherman Family Papers, Finding Aid. University of Notre Dame Archives. Notre Dame, Indiana.  <ref target="http://archives.nd.edu/findaids/ead/xml/shr.xml">Link</ref></bibl></bibl>
   <note type="internal">depicted in 11585-Bc612P567_1_TEI.xml ; http://id.loc.gov/authorities/names/n50023075</note>
 </person>
 <person xml:id="ENT.000003694">
@@ -2308,6 +2349,7 @@ LOC:http://id.loc.gov/authorities/names/n86025981.html</note>
     <forename type="middle">N.</forename>
     <surname type="last">Smith</surname>
   </persName>
+  <note type="biography"><p>H. N. Smith is the donor of the cartoon “Southern Ass-Stock Crazy” to the Historical Society of Pennsylvania. No further information has been uncovered.</p></note>
   <note type="internal">This is a person whose name was handwritten on a cartoon featured in the HINT project.  No further information is known about this entity.</note>
 </person>
 <person xml:id="ENT.000003631">
@@ -2330,7 +2372,8 @@ LOC:http://id.loc.gov/authorities/names/n86025981.html</note>
   <birth when="1835">1835</birth>
   <death when="1914">1914</death>
   <sex>Male</sex>
-  <note type="internal">http://id.loc.gov/authorities/names/n88159812</note>
+  <note type="internal">http://id.loc.gov/authorities/names/n88159812
+in cartoon "Bad Case of Chill"12174</note>
 </person>
 <person xml:id="ENT.000003383">
   <persName key="ENT.000003383">
@@ -2424,6 +2467,10 @@ LOC:  http://id.loc.gov/authorities/names/n95002542</note>
   <birth when="1820">1820</birth>
   <death when="1914">1914</death>
   <sex>Male</sex>
+  <note type="biography"><p>Sir John Tenniel was a cartoonist and illustrator, born in London, England, in 1820. Tenniel was educated at the Royal Academy and at the Clipstone Street Life Academy, in London. He became a cartoonist for the illustrated, satirical magazine, <hi rendition="#italics">Punch</hi>, or the <hi rendition="#italics">London Charivari</hi>, in 1850, became a junior partner with John Leech in 1861, and succeeded Leech as chief cartoonist in 1864. <hi rendition="#italics">Punch</hi> published more than 2,500 of his cartoons between 1851 and 1901, when he retired. Tenniel was also a prolific and notable illustrator, best known for his illustrations of Lewis Carroll’s <hi rendition="#italics">Alice’s Adventures in Wonderlan</hi>d (1865) and <hi rendition="#italics">Through the Looking-Glass</hi> and <hi rendition="#italics">What Alive Found There</hi> (1872). Tenniel was knighted in 1893 upon the recommendation of William Gladstone, a favorite subject of Tenniel’s cartoons. Tenniel died in London, in1914, just a few days short of his ninety-fourth birthday.</p></note>
+  <bibl><bibl>“Tenniel, John.” <hi rendition="#italics">Benezit Dictionary of Artists. Oxford Art Online.</hi> Oxford University Press.  <ref target="http://proxy.library.upenn.edu:2663/subscriber/article/benezit/B00180912">Link</ref></bibl>
+                <bibl>“Tenniel, John.” <hi rendition="#italics">Grove Art Online. Oxford Art Online.</hi> Oxford University Press.  <ref target="http://proxy.library.upenn.edu:2663/subscriber/article/grove/art/T083805">Link</ref></bibl>
+                <bibl>“Tenniel, Sir John.” <hi rendition="#italics">Oxford Dictionary of National Biography</hi>.</bibl></bibl>
   <note type="internal">http://id.loc.gov/authorities/names/n79058883.html. Artist of 11511</note>
 </person>
 <person xml:id="ENT.000003385">
@@ -2539,6 +2586,14 @@ His administration was largely characterized by the economic hardship of his tim
   <birth when="1794">1794</birth>
   <death when="1877">1877</death>
   <sex>Male</sex>
+  <note type="biography"><p>Cornelius Vanderbilt was a successful steamship and railroad tycoon, one of the wealthiest men of the Gilded Age. Vanderbilt was born on Staten Island, one of many children of a modest farming family. To supplement the family income, Cornelius’s father, also Cornelius, ferried produce to Manhattan. Young Cornelius much preferred sailing to school or farming, and by the age of sixteen he had established his own ferry service, a business that expanded during the War of 1812. In 1813, Vanderbilt married his cousin, Sophia Johnson, and together the couple had thirteen children. Throughout the early years of the nineteenth-century, Vanderbilt expanded his boating enterprises and his fortune, entering the steamboat business by 1818 when he went to work for Thomas Gibbons running a service between New York and New Jersey and settling his family in New Brunswick, New Jersey, where Sophia ran a successful tavern. In 1829, with a capital of $30,000, he ventured out on his own to ply the Hudson River and Long Island Sound, competing successfully with steamboat established lines. By the late 1830s he was known as “Commodore” Vanderbilt and had a fortune of $1 million. In 1840, the Vanderbilts moved to a new mansion next to the old family farm on Staten Island. In the later 1840s, the family moved to Manhattan. It was during the 1840s, too, that Vanderbilt entered the railroad business, buying stock in several Long Island and New Jersey lines. In 1857 he became the director of the New York and Harlem Railroad, and he continued his acquisitions into the 1860s and 1870s. By 1865 he held a controlling interest in the Hudson River Railroad and was elected president. After a rate war with the New York Central Railroad, Vanderbilt acquired large quantities of its stock and became its director in 1867. In that same year he consolidated  the New York Central and the Hudson River Railroad, with himself as president. Sophia Vanderbilt died in 1868. The bereaved widower soon remarried, marrying a woman named Frank Crawford in August 1869. In 1871, Vanderbilt—at the instigation of his new wife—donated $1 million to found Vanderbilt University in Nashville, Tennessee. He also completed construction of Grand Central Depot in New York. By late 1876, Vanderbilt, now in his eighties, suffered a prolonged illness. He died at his New York City home on January 4, 1877, leaving a fortune of $100 million, mostly to his son William.</p></note>
+  <bibl> <bibl>“Vanderbilt, Cornelius.” American National Biography.</bibl>
+                
+                <bibl><hi rendition="#italics">New York Times</hi>. “Cornelius Vanderbilt.” January 5, 1877.</bibl>
+                
+                <bibl><hi rendition="#italics">New York Times</hi>. “Cornelius Vanderbilt. A Long and Useful Life Ended.” January 5, 1877.</bibl>
+                
+                <bibl><hi rendition="#italics">New York Times</hi>. “Commodore Vanderbilt’s Life.” January 5, 1877.</bibl></bibl>
   <note type="internal">http://id.loc.gov/authorities/names/n50045037.html; depicted in 11747. Note/annotation from 11747: Cornelius ("Commodore") Vanderbilt made his fortune in the railroad business and in 1872, when this cartoon was published, was the richest man in America. His strong interest in spiritualism put him in touch with sisters <persName key="ENT.000002960">Victoria Woodhull</persName> and <persName key="ENT.000003633">Tennessee Claflin</persName>, who became his advisors. He provided silent financial backing for at least two historic firsts: the establishment of Woodhull and Claflin's brokerage firm, which made them the first women stock brokers, and Woodhull's presidential campaign, in which she became the first woman to run for president.</note>
 </person>
 <person xml:id="ENT.000003710">
@@ -2727,6 +2782,12 @@ http://strippersguide.blogspot.com/2012/11/ink-slinger-profiles-op-williams.html
   <birth when="1838">1838</birth>
   <death when="1927">1927</death>
   <sex>Female</sex>
+  <note type="biography"><p>Victoria Claflin Woodhull was perhaps the most sensational woman of early 1870s America. Born in 1838 in Homer, Ohio, Victoria was the seventh of ten children of Reuben and Roxanna Claflin. She experienced a poor and rootless childhood. At an early age she, with her younger sister Tennessee, became interested in spiritualism, and the sisters helped support their family with their psychic remedies for medical problems. Victoria married Canning Woodhull, a physician, in 1853, and had two children with him. She divorced Canning in 1865, who had become a drunkard and had drifted away, and in 1866 at least secured a marriage license to marry her lover, Col. James Harvey Blood, a Civil War veteran who had been one of her patients (no record of an actual ceremony exists). Woodhull, Blood, Tennessee Claflin, and other members of the Claflin family moved to New York City in 1868, where the sisters arranged a meeting with Cornelius Vanderbilt, the wealthy financier who shared their interest in spiritualism. Vanderbilt became the sisters’ financial advisor, and after some financial successes in late 1869, they launched their brokerage house in January 1870, becoming the first female stock brokers in the United States. Vanderbilt was almost certainly the silent partner in their firm, Woodhull, Claflin &amp; Co.</p>
+                
+                <p>By this time, Woodhull had also become involved in a number of reform causes, embracing Stephen Pearl Andrews’s idea of “Pantarchy,” which advocated a state in which property was commonly owned and free love replaced monogamous marriage. On April 2, 1870, Woodhull declared her candidacy for the presidency through a letter published in the <hi rendition="#italics">New York Herald</hi>. In May, she and Tennessee launched their own newspaper, <hi rendition="#italics">Woodhull &amp; Claflin’s Weekly</hi>, edited largely by Andrews and Blood. The paper combined columns on radical reform ideals along with financial news and muckraking journalism. By 1871, Woodhull became involved in the woman suffrage movement and was embraced by leaders such as Elizabeth Cady Stanton and Susan B. Anthony. In January 1871 she became the first woman to testify before a congressional committee, speaking on behalf of the suffrage issue, arguing that women already had the right to vote under the Fourteenth Amendment. Suffrage leaders later distanced themselves from Woodhull, because of her radical views and controversial personal life. . In 1872, Woodhull was nominated for president by the newly organized Equal Rights Party, after losing the support of the National Woman Suffrage Association and its proposed People’s Party. By late 1872, Woodhull’s star was beginning to fall. She spent election day in jail for publishing and circulating through the mails, in violation of the Comstock Act, details of the beloved minister Henry Ward Beecher’s extramarital affair with Elizabeth Tilton in order to pressure Beecher to endorse free love. The backlash to her role in the Beecher scandal and to her own controversial lifestyle further isolated Woodhull. By 1876, she reversed her position on free love and distanced herself from spiritualism. She divorced Blood for adultery, and in 1877 left for England with Tennessee, her children, and other members of her family. There she married banker John Biddulph Martin in 1883 and lived a relatively conventional life. She published a journal on eugenics, lectured, and cultivated a respectable image. She died in Tewksbury in 1927.</p></note>
+  <bibl><bibl>“Woodhull, Victoria Claflin.” <hi rendition="#italics">American National Biography</hi>.</bibl>
+                
+                <bibl>“Woodhull, Victoria Claflin.” <hi rendition="#italics">Notable American Women</hi>.</bibl></bibl>
   <note type="internal">depicted in 11747</note>
 </person>
 <person xml:id="ENT.000003536">
