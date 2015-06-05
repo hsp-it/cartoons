@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+
+
 <?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 
@@ -64,7 +66,7 @@
             </projectDesc>
         </encodingDesc>
         <revisionDesc>
-            <change who="HSP" when="2015-06-04">Exported from Collective Access.</change>
+            <change who="HSP" when="2015-06-05">Exported from Collective Access.</change>
         </revisionDesc>
     </teiHeader>
 
@@ -1371,6 +1373,12 @@ He was born in Haverstraw, New York in 1822 and attended Columbia College where 
   <birth when="1822">1822</birth>
   <death when="1886">1886</death>
   <sex>Male</sex>
+  <note type="biography"><p>John Kelly was a businessman, Democratic politician, and Tammany Hall leader. He was born in 1822 in New York City and was the son of Irish-Catholic immigrates.</p>
+<p>As a young man, Kelly was forced to quit school and support his family when his father died. He worked as an apprentice and later opened his own profitable business.  He completed his education by attending night school and in 1855 was elected to the US House of Representatives.  In 1859 he became city and county sheriff.  He unsuccessfully ran for mayor in 1868 and became leader of Tammany Hall in 1873.  He Kelly died in 1886 in New York City.</p></note>
+  <bibl><bibl>“John Kelly, Elections 1880 Biographies.” <hi rendition="#italics">HarpWeek</hi>, Accessed June 5, 2015. <ref target= "http://elections.harpweek.com/1880/bio-1880-Full.asp?UniqueID=7&amp;Year=1880">Link</ref></bibl>
+
+                <bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). <hi rendition="#italics">Historical dictionary of the Gilded Age</hi>. Armonk, N.Y.: M.E. Sharpe.</bibl> </bibl>
+  <note type="internal">In HINT cartoon 1801</note>
 </person>
 <person xml:id="ENT.000003356">
   <persName key="ENT.000003356">
@@ -1567,6 +1575,12 @@ Depicted in Hint cartoon 11834</note>
   <birth when="1826">1826</birth>
   <death when="1886">1886</death>
   <sex>Male</sex>
+  <note type="biography"><p>
+John Alexander Logan was a lawyer, Republican politician and soldier.</p>
+<p>Logan was born in 1826 in Illinois.  He fought in the Mexican War as a lieutenant and later became a lawyer.  In 1852, he was elected to the Illinois House of Representatives and later, in 1859, to the United States House of Representatives.  He served until 1862 and then joined the Union Army.  He served as a brigadier general and was later appointed major general of Volunteers.  He became a US Senator and served from 1871 to 1877 and 1879 to 1886.  In 1884, he became James Blaine’s vice presidential running mate and lost the election to the Democrats Grover Cleveland and Thomas A. Hendricks.  Logan died two years later and is buried in Washington, D.C.</p>
+</note>
+  <bibl><bibl>“Logan, John Alexander.”  <hi rendition="#italics">Biographical Directory of the United States Congress</hi>, Accessed June 5, 2015.  <ref target="http://bioguide.congress.gov/scripts/biodisplay.pl?index=l000403">Link</ref></bibl>
+                <bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). <hi rendition="#italics">Historical dictionary of the Gilded Age</hi>. Armonk, N.Y.: M.E. Sharpe.</bibl> </bibl>
   <note type="internal">depicted in 11585-Bc612P567_1_TEI.xml ; &#13;
 http://id.loc.gov/authorities/names/n79072806</note>
 </person>
@@ -1588,6 +1602,12 @@ http://id.loc.gov/authorities/names/nr2007000099.html</note>
   <birth when="1819">1819</birth>
   <death when="1891">1891</death>
   <sex>Male</sex>
+  <note type="biography">
+<p>James Russell Lowell was an American poet and diplomat.</p>
+<p>Lowell was born in 1819 in Cambridge, Massachusetts and studied law at Harvard University.  In 1845 he wrote a series of essays against slavery and later published the Biglow Papers, a satirical collection of poems against slavery and the Mexican War.  His other famous works include The Vision of Sir Launfal and A Fable for Critics.  In 1877 President Rutherford B. Hayes appointed Lowell Minister to Spain.  Three years later, he was appointed Ambassador to Great Britain and served from 1880 to 1885.  He died in 1891.</p></note>
+  <bibl><bibl>“James Russell Lowell, Biography, American Poet and Critic” <hi rendition="#italics">Britannica.com</hi>, Accessed June 5, 2015.  <ref target="http://www.britannica.com/EBchecked/topic/349823/James-Russell-Lowell"></ref></bibl>
+
+<bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). <hi rendition="#italics">Historical dictionary of the Gilded Age</hi>. Armonk, N.Y.: M.E. Sharpe.</bibl> </bibl>
   <note type="internal">LOC: http://id.loc.gov/authorities/names/n79076124
 
 
