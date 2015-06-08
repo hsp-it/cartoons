@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 
-
 <?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 
@@ -66,7 +65,7 @@
             </projectDesc>
         </encodingDesc>
         <revisionDesc>
-            <change who="HSP" when="2015-06-05">Exported from Collective Access.</change>
+            <change who="HSP" when="2015-06-08">Exported from Collective Access.</change>
         </revisionDesc>
     </teiHeader>
 
@@ -83,6 +82,9 @@
   <birth when="1767">1767</birth>
   <death when="1848">1848</death>
   <sex>Male</sex>
+  <note type="biography"><p>John Quincy Adams was the 6th president of the United States, serving from 1825 to 1829. Born in Braintree, Massachusetts, he was the son of John Adams, the 2nd president of the United States, and Abigail Adams. A  multilingual, Harvard-educated attorney, diplomat, and legislator, John Quincy Adams served as US minister to the Netherlands and Prussia before being elected to the Massachusetts State and then the US Senate in 1803, serving until 1808. He then was appointed ambassador to Russia (1809-1814) by President Madison. Adams, furthermore, assisted Madison in negotiating the Treaty of Ghent, which brought about the end of the War of 1812. As secretary of state under President Monroe (1817-1825) Adams was instrumental in shaping the Monroe Doctrine, acquiring the Floridas from Spain, and negotiating joint US-British occupation of the Oregon territory.</p>
+<p>In 1824, Adams was one of five contenders for the US presidency, running against Andrew Jackson, John Calhoun, William H. Crawford, and Henry Clay. Adams carried the Northeast, but Jackson beat Adams in both popular and electoral votes. No candidate, however, won a majority of electoral votes. Consequently, the US House of Representatives decided the election. Speaker of the House Henry Clay supported Adams, who won the presidency. Following his inauguration, Adams appointed Clay as secretary of state, prompting Jackson's supporters to accuse him of having struck a "corrupt bargain" in order to gain the presidency. In the subsequent presidential election of 1828, Adams lost to Jackson, becoming the first US president not to be elected to a second term. Adams retired briefly to farm life in Massachusetts but was elected to House of Representatives in 1830, where he served until his death in 1848, at age 80.</p></note>
+  <bibl>"John Quincy Adams," biography at WhiteHouse.gov, accessed June 8, 2015. <ref target="https://www.whitehouse.gov/1600/presidents/johnquincyadams">Link</ref></bibl>
   <note type="internal">http://id.loc.gov/authorities/names/n79140988.html; depicted in 11738</note>
 </person>
 <person xml:id="ENT.000000729">
@@ -193,14 +195,15 @@
   <birth when="1828-04-18">1828-04-18</birth>
   <death when="1888-06-29">1888-06-29</death>
   <sex>Male</sex>
-  <note type="biography"><p> Frank Bellew was an illustrator and caricaturist born who has been credited with the first graphic representation of “Uncle Sam” in the March 13, 1852, issue of the <hi rendition="#italics">New York Lantern</hi>. Born to an Irish captain and his British wife in India, Frank was educated in France, lived in England and Scotland, and migrated to the United States in about 1850, where he settled in New York City and became involved with the Lantern and other comic papers. His cartoons were often signed with his trademark triangle, which sometimes contained his initials “F.B.,” sometimes his last name, sometimes was left blank. Many of his cartoons were in the style of the British magazine <hi rendition="#italics">Puck</hi>, where he published a few cartoons in 1860 during a return visit to England. Bellew’s cartoons appeared in <hi rendition="#italics">Harper’s Weekly</hi>, <hi rendition="#italics">Scribner’s Monthly</hi>, and <hi rendition="#italics">Harper’s Monthly</hi>, among other papers. He also illustrated a number of books, including, in 1866, his own <hi rendition="#italics">The Art of Amusing</hi>, an illustrated volume on parlor games. Bellew had two children, a son, Frank, who was also an illustrator, and a daughter. He died on June 29, 1888, at his daughter’s home in New York.</p></note>
-  <bibl><bibl>“A Veteran Artist Dead. Frank Bellew’s Career of over Twenty Years.” <hi rendition="#italics">New York Times</hi>, June 30, 1888.</bibl>
+  <note type="biography">Frank Bellew was an illustrator and caricaturist who has been credited with the first graphic representation of "Uncle Sam" in the March 13, 1852, issue of the <hi rendition="#italics">New York Lantern</hi>. Born to an Irish captain and his British wife in India, Frank was educated in France, lived in England and Scotland, and migrated to the United States in about 1850, where he settled in New York City and became involved with the <hi rendition="#italics">Lantern</hi> and other comic papers. His cartoons were often signed with his trademark triangle, which often contained the initials "F.B.," but sometimes contained his last name or was left blank entirely. Many of his cartoons were in the style of the British magazine <hi rendition="#italics">Puck</hi>, where he published a few cartoons in 1860 during a return visit to England. Bellew's cartoons appeared in <hi rendition="#italics">Harper's Weekly</hi>, <hi rendition="#italics">Scribners Monthly</hi>, and <hi rendition="#italics">Harper's Monthly</hi>, among other papers. He also illustrated a number of books, including, in 1866, <hi rendition="#italics">The Art of Amusing</hi>, an illustrated volume on parlor games. Bellew had two children: a son, Frank, who was also an illustrator; and a daughter. He died on June 29, 1888, at his daughter’s home in New York.
+</note>
+  <bibl><bibl>"A Veteran Artist Dead. Frank Bellew’s Career of over Twenty Years." <hi rendition="#italics">New York Times</hi>, June 30, 1888.</bibl>
                 
                 <bibl><hi rendition="#italics">Dictionary of American Biography</hi>. New York: Charles Scribner’s Sons, 1938.</bibl>
                 
                 <bibl>Falk, Peter Hastings et al., eds. <hi rendition="#italics">Who Was Who in American Art, 1574-1975, vol. 1, A-F.</hi> Madison, CT: Sound View Press, 1999.</bibl>
                 
-                <bibl>“Uncle Sam.” <hi rendition="#italics">Time</hi>, May 11, 1931.</bibl></bibl>
+                <bibl>"Uncle Sam." <hi rendition="#italics">Time</hi>, May 11, 1931.</bibl></bibl>
   <note type="internal">http://id.loc.gov/authorities/names/n85352256.html - drew "Lincoln's Last Warning," DAMS #2188, page 2.</note>
 </person>
 <person xml:id="ENT.000003699">
@@ -842,13 +845,6 @@ See http://politicalgraveyard.com/death/offices.html; https://books.google.com/b
   <death when="1865">1865</death>
   <sex>Male</sex>
   <note type="internal">depicted in 11561;  http://id.loc.gov/authorities/names/n85158370.html. Constitutional Party vice presidential candidate in 1860.</note>
-</person>
-<person xml:id="ENT.000003682">
-  <persName key="ENT.000003682">
-    <forename type="first">F.</forename>
-    <surname type="last">B.</surname>
-  </persName>
-  <note type="internal">artist of 12305 and presumably other cartoons from Frank Leslie's Budget of Fun</note>
 </person>
 <person xml:id="ENT.000003348">
   <persName key="ENT.000003348">
@@ -1533,7 +1529,9 @@ Depicted in Hint cartoon 11834</note>
   <birth when="1810">1810</birth>
   <death when="1903">1903</death>
   <sex>Male</sex>
-  <note type="internal">http://id.loc.gov/authorities/names/n82060350</note>
+  <note type="biography"><p>Gioacchino Vincenzo Raffaele Luigi Pecci was born on March 2, 1810 in Carpineto, a town near Rome.  He was ordained on December 31, 1837.  In February 1838, he was appointed legate to Benevento, a small papal province with widespread corruption and poverty.  Three years later he was appointed to serve as legate of Spoleto, but at the last minute was sent to Perugia where he worked to help the poor and to end corruption.  In 1846 he was appointed Archbishop of Perugia where he served until 1877.  In 1878, following the death of Pope Pius IX, he was elected to the papacy.  He died at the age of 93 in Rome on July 20, 1903. </p></note>
+  <bibl><bibl>“Catholic Encyclopedia: Pope Leo XIII.” <hi rendition="#italics">New Advent</hi>. Accessed June 8, 2015. <ref target="http://newadvent.org/cathen/09169a.htm">Link</ref></bibl></bibl>
+  <note type="internal">http://id.loc.gov/authorities/names/n82060350. depicted in hint cartoon 1368</note>
 </person>
 <person xml:id="ENT.000000447">
   <persName key="ENT.000000447">
@@ -2122,6 +2120,12 @@ http://id.loc.gov/authorities/names/n2001153414</note>
   <birth when="1837">1837</birth>
   <death when="1912">1912</death>
   <sex>Male</sex>
+  <note type="biography"><p>Whitelaw Reid was a journalist, politician, and editor and publisher of the <hi rendition="#italics">New York Tribune</hi> (1873-1912), and ambassador to Great Britain.</p>
+                <p>Reid was born on October 27, 1837 in Ohio.  He joined the <hi rendition="#italics">Cincinnati Gazette</hi> in 1862 and served as a war correspondent during the Civil War.  He worked at the <hi rendition="#italics">Gazette</hi> until 1868 and also served as librarian of the House of Representatives (1863-1866).  In 1868, Horace Greeley, one of the nation’s most famous newspaper editors, hired him to work for the <hi rendition="#italics">New York Tribune</hi>.  In 1872, Reid managed Greeley’s presidential campaign.  Greeley lost the election and died a few weeks later.  Reid bought the <hi rendition="#italics">Tribune</hi> in 1873, and under his leadership, the newspaper became one of the most widely circulated and respected dailies in the country. </p> 
+               <p> Reid served as ambassador to France from 1889-1892.  In 1892, he became President Benjamin Harrison’s running mate during the 1892 election.  Harrison and Reid lost the election to Democrat and former president, Grover Cleveland. President Theodore Roosevelt later appointed him to serve as ambassador to Great Britain.  Reid died on December 15, 1912 in England.</p></note>
+  <bibl><bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). <hi rendition="#italics">Historical dictionary of the Gilded Age</hi>. Armonk, N.Y.: M.E. Sharpe.</bibl> 
+                
+ <bibl>“Whitelaw Reid, American Journalist and Politician.” <hi rendition="#italics">Encyclopedia Britannica Online</hi>. Accessed June 8, 2015. <ref target="http://www.britannica.com/EBchecked/topic/496470/Whitelaw-Reid">Link</ref></bibl></bibl>
   <note type="internal">depicted in 11585-Bc612P567_1_TEI.xml ; http://id.loc.gov/authorities/names/n50050931.html</note>
 </person>
 <person xml:id="ENT.000003749">
@@ -2233,6 +2237,19 @@ LOC:http://id.loc.gov/authorities/names/n86025981.html</note>
   <birth when="1858">1858</birth>
   <death when="1919">1919</death>
   <sex>Male</sex>
+  <note type="biography"><p>Theodore Roosevelt was the 26th President of the United States.</p>
+                <p>Roosevelt was born on October 27, 1858 in New York City and was the second child of Martha Bulloch Roosevelt and Theodore Roosevelt, Sr.  At a young age, Roosevelt developed bronchial asthma, a condition that was so severe, he almost died.  He had poor vision and at the age of fourteen began wearing glasses.  Despite his medical conditions, Roosevelt was a curious and energetic young boy.  He was interested in natural history, collected insects, and performed taxidermy on birds and other small creatures. When he was only nine years old he wrote a natural history paper entitled “The Natural History of Insects.”  Roosevelt’s poor health began to improve at the age of twelve when his father built him a gymnasium in the family home.  He lifted weights and learned how to box.  Roosevelt’s parents sought to expand their children’s world view and hired tutors to teach the children French, German, and Latin.  The family spent a year in Europe and the Middle East.  Roosevelt was mostly home schooled as a child, and in 1876 enrolled at Harvard College.  On October 27, 1880 Roosevelt married Alice Hathaway Lee.  Alice died on February 14, 1884, two days after giving birth to their daughter Alice.  His mother passed away from typhoid fever the same day.  Roosevelt was distraught and sent his daughter away to live with one of his sisters.</p>  
+                <p>In 1886, he unsuccessfully ran for mayor of New York.  On December 2, 1886 he married his second wife, Edith Kermit Carow.  From 1895-1897, he served as the head of the New York City Board of Police Commissioners.  In 1897, he was appointed assistant secretary of the navy.  In 1898, he became a military hero when he led the Rough Rider Regiment to victory at the battle of San Juan Hill in Cuba during the Spanish-American War. He served as the governor of New York from 1899 to 1901.  He became vice president in 1901 and President on September 14, 1901 after President McKinley’s assassination.  At the age of 42, he became the youngest president in American history.  He served from 1901-1909.</p>
+                <p>Roosevelt’s administration began what would be later known as the progressive era.  As president, he enacted numerous reforms, expanded the powers of the executive office, and became known as the great “trust buster” who broke up Standard Oil and filed forty anti-trust lawsuits.  During the anthracite coal strike, he became the first president to use his powers to negotiate and settle a labor dispute.  He expanded trade, built the Panama Canal, increased US military power and presence in the Western hemisphere, and was an imperialist who supported American expansionism.  He established the Forest Service, created five national parks, and signed legislation to preserve millions of acres of land. </p> 
+                <p>In 1908, he decided not to run for re-election to a third term.  Instead, he supported and helped William Howard Taft win the presidency.  However, Roosevelt soon began to disagree with the policies of the Taft administration and decided to run against Taft in 1912.  Roosevelt formed the Bull Moose party.  Roosevelt and Taft lost to Woodrow Wilson.</p>
+                <p>Roosevelt died on January 6, 1919.</p></note>
+  <bibl><bibl>Donald, Aida DiPace. <hi rendition="#italics">Lion in the White House: A Life of Theodore Roosevelt</hi>. New York: Basic Books, 2007.</bibl>
+
+<bibl>“The President. “ <hi rendition="#italics">Theodore Roosevelt Association</hi>. Accessed June 8, 2015. <ref target="http://www.theodoreroosevelt.org/site/c.elKSIdOWIiJ8H/b.8344377/k.8A97/The_President.htm">Link</ref></bibl>
+
+                <bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). <hi rendition="#italics">Historical dictionary of the Gilded Age</hi>. Armonk, N.Y.: M.E. Sharpe.</bibl> 
+
+<bibl>“Theodore Roosevelt.”  <hi rendition="#italics">Whitehouse.gov</hi>. Accessed June 8, 2015. <ref target="https://www.whitehouse.gov/1600/presidents/theodoreroosevelt">Link</ref></bibl></bibl>
   <note type="internal">LOC:  http://id.loc.gov/authorities/names/n79027239</note>
 </person>
 <person xml:id="ENT.000003562">
