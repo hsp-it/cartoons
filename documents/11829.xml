@@ -217,7 +217,7 @@
     </front>
     <body>
       <div type="image_transcription" n="1" facs="#Title">
-        <head><supplied resp="editorial">Title and Caption</supplied></head>
+        <head><supplied resp="editorial">Title and caption</supplied></head>
         <p><hi rendition="#bold">"FREE AMERICA."</hi></p>
         <p>CHORUS OF SKILLED FOREIGNERS.-Why are we not allowed to land, when those people over
           there are received with open arms?</p>
@@ -270,7 +270,7 @@
         <p><add>OCT. 12, 1887</add></p>
       </div>
       <div type="image_transcription" n="11" facs="#Bag">
-        <head><supplied resp="editorial">Bag</supplied></head>
+        <head><supplied resp="editorial">Bomb inside bag</supplied></head>
         <p>INFERNAL MACHINE</p>
       </div>
       <div type="image_transcription" n="12" facs="#Paper">
@@ -279,7 +279,7 @@
         <p>MISCHIEF</p>
       </div>
       <div type="image_transcription" n="13" facs="#Gloves">
-        <head><supplied resp="editorial">Boxing Gloves</supplied></head>
+        <head><supplied resp="editorial">Boxing gloves</supplied></head>
         <p>ENGLISH PUGILIST</p>
       </div>
       <div type="image_transcription" n="14" facs="#Bindle">
@@ -287,7 +287,7 @@
         <p>ANARCH</p>
       </div>
       <div type="image_transcription" n="15" facs="#Sign">
-        <head><supplied resp="editorial">Signs</supplied></head>
+        <head><supplied resp="editorial">Sign</supplied></head>
         <p>NO FOREIGN LABOR CAN ENTER THE UNITED STATES UNDER CONTRACT</p>
         <p>CUSTOMS OFFICE</p>
       </div>
