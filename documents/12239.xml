@@ -55,9 +55,7 @@
               <bibl>
                 <date from="1908-11-23">November 23, 1908</date>
                 <extent>1 loose page</extent>
-                <extent>
-                  <dimensions type="image" unit="cm"/>
-                </extent>
+                
                 <listRelation>
                   <relation name="depicted" active="ENT.000003651"/>
                   <relation name="depicted" active="ENT.000003626"/>
