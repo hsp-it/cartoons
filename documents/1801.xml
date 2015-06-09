@@ -403,7 +403,7 @@
                         key="ENT.000003553">William Hayden English</persName>.</p>
             </div>
 
-            <div type="image_annotation" n="18" facs="Face_2">
+            <div type="image_annotation" n="18" facs="#Face_2">
                 <head>Face 2</head>
                 <p>The identity of the image is unknown, but it is most likely <persName
                         key="ENT.000003362">John Logan</persName></p>
