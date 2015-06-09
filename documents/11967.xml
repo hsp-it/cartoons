@@ -73,10 +73,11 @@
                                     >February 2, 1895</date>
                                 <extent>1 loose page</extent>
                                 <extent>
-                                    <dimensions type="image" unit="cm"/>
+                                    <dimensions type="image" unit="cm">
                                 <height quantity="35"/>
-                  <width quantity="26.5"/>
-                </extent>
+                                <width quantity="26.5"/>
+                                     </dimensions>
+                                 </extent>
                                 
                                 <listRelation>
                                     <relation name="depicted" active="ENT.000003685"/>
