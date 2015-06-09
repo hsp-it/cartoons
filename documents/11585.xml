@@ -415,8 +415,8 @@
             <div type="image_transcription" n="17" facs="#Evarts">
                 <head><persName key="ENT.000003346">William Maxwell
                             Evarts</persName></head>
-                <p><del><add>Tilden</add></del><add>Evarts</add><note n="6" rendition="editorial"
-                        >William Maxwell Evarts was a lawyer, politican, and US Secretary of State.
+                <p><del><add>Tilden</add></del><add>Evarts</add><note n="6" type="editorial"
+                        > William Maxwell Evarts was a lawyer, politican, and US Secretary of State.
                         In the cartoon, he rests his hands on his lap and looks down. He appears to
                         be having a conversation with the man seated next to him.</note></p>
             </div>
