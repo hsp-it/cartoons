@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+
 <?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 
@@ -63,7 +65,7 @@
             </projectDesc>
         </encodingDesc>
         <revisionDesc>
-            <change who="HSP" when="2015-06-04">Exported from Collective Access.</change>
+            <change who="HSP" when="2015-06-11">Exported from Collective Access.</change>
         </revisionDesc>
     </teiHeader>
 
@@ -89,7 +91,7 @@
 </org>
 <org xml:id="ENT.000003326">
   <orgName key="ENT.000003326">Bank of the United States (1816-1836)<orgName type="alt">Second Bank of the United States</orgName></orgName>
-  <note type="org">The Second Bank of the United States was chartered by Congress in1816 to perform essentially the same duties as the First Bank: to stabilize and unify the country’s economy. In its first eight years it was plagued by mismanagement, instability, and fraud. In 1823, Nicholas Biddle became the President of the Bank and gained control over a large portion of its functionality. However, Andrew Jackson was elected as President in 1828 on a largely anti-Bank platform, arguing that the Bank of the United States violated republican ideals. He vetoed the Bank’s early charter renewal in 1832, and it expired in 1836; most of its funds were moved to state banks, although Biddle converted the Bank to a state-chartered corporation in Pennsylvania just before its expiration. The Bank was eventually totally liquidated in 1841.  The building of the Second Bank of the United States was designed by William Strickland, modeled on the Greek Parthenon. </note>
+  <note type="org">The Second Bank of the United States was chartered by Congress in 1816 to perform essentially the same duties as the First Bank: to stabilize and unify the country’s economy. In its first eight years it was plagued by mismanagement, instability, and fraud. In 1823, Nicholas Biddle became president of the bank and gained control over a large portion of its functionality. However, Andrew Jackson was elected as President in 1828 on a largely anti-Bank platform, arguing that the Bank of the United States violated republican ideals. He vetoed the bank’s early charter renewal in 1832, and it expired in 1836; most of its funds were moved to state banks, although Biddle converted the bank to a state-chartered corporation in Pennsylvania just before its expiration. The bank was eventually totally liquidated in 1841.  The building of the Second Bank of the United States was designed by William Strickland, modeled on the Greek Parthenon. </note>
   <bibl> <bibl>“American History From Revolution To Reconstruction and beyond, Second Bank of the United States (1816-1836) A Brief History of Central Banking in the United States - Edward Flaherty.” Accessed April 17, 2015. <ref target="http://www.let.rug.nl/usa/essays/general/a-brief-history-of-central-banking/second-bank-of-the-united-states-(1816-1836).php">Link</ref> </bibl>
                 
                 <bibl>“Second Bank of the United States," <hi rendition="#italics">Independence National Historical Park (U.S. National Park Service)</hi>, Accessed April 17, 2015. <ref target="http://www.nps.gov/inde/learn/historyculture/places-secondbank.htm">Link</ref></bibl></bibl>
@@ -210,9 +212,22 @@ carton# 6807 Out with them all!</note>
 </org>
 <org xml:id="ENT.000003139">
   <orgName key="ENT.000003139">Harper's Weekly</orgName>
+  <note type="org"><p><hi rendition="#italics">Harper’s Weekly (A Journal of Civilization)</hi> was a political magazine that printed news, foreign and domestic, essays, illustrations, and humor. It was printed by the New York City publishing house Harper &amp; Brothers from 1857 to 1916. The four brothers, James, John, Wesley, and Fletcher Harper, created <hi rendition="#italics">Harper’s</hi> after the success of their earlier venture the <hi rendition="#italics">Illustrated London New</hi>s. Featuring established authors like Charles Dickens and William Makepeace Thackeray, <hi rendition="#italics">Harper’s</hi> quickly became a popular weekly publication in New York. The prominent illustrations and cartoons that accompanied the news catapulted Harper’s circulation to 200,000 subscribers by 1860.</p> 
+                
+                
+                <p><hi rendition="#italics">Harper’s</hi> is also well-known for containing the most extensive contemporary coverage of the Civil War. Their original political stance was moderate. Before the war, they had supported the Stephen A. Douglas presidential campaign against Abraham Lincoln, and a moderate editorial stance on slavery. However, once the war began, <hi rendition="#italics">Harper’s</hi> aligned politically with Union and the North. A July 1863 article on the escaped slave Gordon included the now iconic Mathew Brady photograph of his back, severely scarred from whippings. This image provided many readers in the North their first visual evidence of the brutality of slavery. Press correspondent and illustrator Alfred R. Waud also contributed battle sketches to the publication, such as the First Battle of Bull Run and the Battle of Gettysburg. </p>
+                
+                <p>Post-war, <hi rendition="#italics">Harper’s</hi> supported the Republican Party. In 1863, George William Curtis became the political editor of the magazine, and remained in that capacity until his death in 1892. His editorials advocated civil service reform, low tariffs, and adherence to the gold standard. <hi rendition="#italics">Harper’s Weekly</hi> also became well-known as the forum for celebrated republican cartoonist Thomas Nast, “the father of modern political cartoons.” In the 1870s, Nast began an aggressive campaign in the journal against the corrupt New York political leader William “Boss” Tweed. Nast turned down a $500,000 bribe to end his attack. Tweed was arrested in 1873 and convicted of fraud.</p>
+                
+                <p>After 1900, <hi rendition="#italics">Harper’s Weekly</hi> devoted more print to political and social issues, and featured articles by some of the more prominent political figures of the time, such as Theodore Roosevelt and Woodrow Wilson. <hi rendition="#italics">Harper's Weekly</hi> published its final issue on May 13, 1916.</p></note>
+  <bibl><bibl>Cunningham, John M. “Alfred R. Waud.” <hi rendition="#italics">Encyclopedia Britannica online</hi>.  http://www.britannica.com/EBchecked/topic/637773/Alfred-R-Waud</bibl>
+                
+                <bibl>Halloran, Fiona Deans. <hi rendition="#italics">Thomas Nast: The Father of Modern Political Cartoons</hi>. Chapel Hill, NC: The University of North Carolina Press, 2012.</bibl>
+                
+                <bibl>“Harper’s Weekly.” <hi rendition="#italics">Wikipedia, the Free Encyclopedia</hi>. Accessed June 11, 2015. http://en.wikipedia.org/wiki/Harper's_Weekly</bibl></bibl>
 </org>
 <org xml:id="ENT.000003611">
-  <orgName key="ENT.000003611">J. Ottman Lithographic Company<orgName type="alt">Ottman Lithographic Company</orgName></orgName>
+  <orgName key="ENT.000003611">J. Ottman Lithographic Company<orgName type="alt">J. Ottmann Litho Co.</orgName><orgName type="alt">Ottman Lithographic Company</orgName></orgName>
   <note type="internal">LOC:  http://id.loc.gov/authorities/names/nr95031115  
 
 LOC name authority record spells Ottman with one "n", but in the cartoon "If-The Inaugural Dinner at the White House" (DAMS 11687), it is spelled "Ottmann."</note>
@@ -238,7 +253,7 @@ LOC name authority record spells Ottman with one "n", but in the cartoon "If-The
   <orgName key="ENT.000003163">Keppler &amp; Schwarzmann<orgName type="alt">Keppler and Schwarzmann</orgName></orgName>
 </org>
 <org xml:id="ENT.000000961">
-  <orgName key="ENT.000000961">King &amp; Baird<orgName type="alt">King und Baird</orgName></orgName>
+  <orgName key="ENT.000000961">King &amp; Baird<orgName type="alt">King and Baird</orgName><orgName type="alt">King und Baird</orgName></orgName>
   <note type="org"><p>Founded in 1838 at 607 Sansom Street in Philadelphia, King and Baird Printers were among the largest print shops in the city. In its early years, Robert P. King and Alexander Baird were the only two employees of the firm, King working as compositor, solicitor, bookkeeper, foreman, proofreader, and purchaser, while Baird operated a single hand press. By the time of Baird’s death in 1868, the business had grown to include over 120 employees and 20 presses, some powered by steam. The firm was well known for publishing in German and other foreign languages including Swedish and Norwegian, as well as printing in the Cherokee syllabary, and in Grebo, a West African language. </p></note>
   <bibl><bibl>“American Dictionary of Printing and Bookmaking, Google Books," accessed March 3, 2015  <ref target= "https://books.google.com/books?id=nuc-AAAAYAAJ&amp;pg=PA316&amp;lpg=PA316&amp;dq=robert+p.+king+philadelphia+printer&amp;source=bl&amp;ots=oeBSFr9nzJ&amp;sig=YUxvIrLUnU-FsvdjrFHUQpMXkw4&amp;hl=en&amp;sa=X&amp;ei=8dnwVJ7pAomjgwTZ0oFg&amp;ved=0CEEQ6AEwBw#v=onepage&amp;q=alexander baird&amp;f=false">Link</ref></bibl>
                     <bibl>“Robert P King (1815 - 1868), Find A Grave Photos," accessed March 3, 2015. <ref target= "http://www.findagrave.com/cgi-bin/fg.cgi?page=pv&amp;GRid=68901464&amp;PIpi=41532436">Link</ref></bibl></bibl>
@@ -345,7 +360,7 @@ http://id.loc.gov/authorities/names/n2002162950.html</note>
   <note type="internal">mentioned in 11561.xml; 11564.xml; depicted 11578 (as giraffe)</note>
 </org>
 <org xml:id="ENT.000003596">
-  <orgName key="ENT.000003596">New-York American<orgName type="alt">The American, for the country</orgName></orgName>
+  <orgName key="ENT.000003596">New-York American<orgName type="alt">New-York American, for the country</orgName><orgName type="alt">The American, for the country</orgName></orgName>
   <note type="internal">Newspapers "NY American" and "American" referenced in Jacksonian-era political cartoons 11508 and 11738. See http://chroniclingamerica.loc.gov/lccn/sn83030019/ for details on this title and preceeding/succeeding iterations.</note>
 </org>
 <org xml:id="ENT.000003556">

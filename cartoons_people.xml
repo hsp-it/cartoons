@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-
 <?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 
@@ -65,7 +64,7 @@
             </projectDesc>
         </encodingDesc>
         <revisionDesc>
-            <change who="HSP" when="2015-06-08">Exported from Collective Access.</change>
+            <change who="HSP" when="2015-06-11">Exported from Collective Access.</change>
         </revisionDesc>
     </teiHeader>
 
@@ -184,6 +183,13 @@
   <birth when="1796">1796</birth>
   <death when="1869">1869</death>
   <sex>Male</sex>
+  <note type="biography"><p>John Bell was a US Representative and Senator from Tennessee. Born near Nashville, Tennessee, in 1796, he worked as a lawyer in Franklin, Tennessee, and served as a member of the Tennessee State Senate before being elected to the US House of Representatives in 1827. He served seven terms in the House (1827-1841), during which time he served one term as Speaker of the House (1833-1835) and chaired the Committee on Indian Affairs and Committee on the Judiciary. Initially a Jacksonian Democrat, Bell switched his loyalties and joined the Whig party during the 1830s. He was appointed by President William Henry Harrison as Secretary of War in 1841 but resigned later that year, after John Tyler, who became president following Harrison's death, refused to adopt a Whig agenda. Bell was later elected to the US Senate, serving two terms (1847-1859) during which time he changed party affiliations repeatedly, serving as, respectively, a member of the Whig, Opposition, and Know-Nothing parties.</p>
+<p>In 1860, Bell changed his party affiliation yet again, becoming the presidential candidate for the newly founded Constitutional Union Party. The Constitutional Union Party officially took no position on slavery, declaring that it endorsed "no political principle other than the Constitution . . . the Union . . . and the Enforcement of the Laws." Their slogan was "No North, no South, no East, no West. Nothing but the Union." Bell was a Southern slaveholder but had opposed the expansion of slavery in the 1850s and did not support secession, arguing that it was unnecessary because the US Constitution already protected slavery.
+The Constitutional Unionists did not believe they could win the election outright; their strategy was to gain votes that might otherwise go to other, stronger candidates. If no candidate in the 1860 presidential race won the number of electoral votes necessary to win the election, the decision would go to members of the House of Representatives, giving Bell would have a stronger chance of success. Seeing Lincoln as the biggest threat, supporters of the Constitutional Union Party created "fusion tickets" that combined the non-Republican candidates (besides Bell, these were John C. Breckinridge of the Southern Democratic Party and Stephen Douglas of the Democratic Party) into a single-candidate ticket in some strategically important states. Most support for the Bell came from Southern states in which slavery was legal, and he carried the border states of Kentucky, Tennessee, and Virginia. Ultimately, Lincoln won the election.</p>
+<p>Although he had initially opposed secession, Bell  supported the Confederacy after the outbreak of the Civil War. He died at his home near Cumberland Furnace, Tennessee, in 1869.</p></note>
+  <bibl><bibl>"Bell, John, (1796-1869)," Biographical Directory of the United States Congress, 1774-Present, accessed June 8, 2015. <ref target="http://bioguide.congress.gov/scripts/biodisplay.pl?index=B000340">Link</ref></bibl>
+<bibl>National Park Service, "The Election of 1860: Constitutional Union Party," accessed June 8, 2015. <ref target="http://www.nps.gov/arho/upload/Constitutional-Union.pdf">Link</ref></bibl>
+</bibl>
   <note type="internal">depicted in 11561; 11563; http://bioguide.congress.gov/scripts/biodisplay.pl?index=B000340; http://id.loc.gov/authorities/names/n87887395.html</note>
 </person>
 <person xml:id="ENT.000003636">
@@ -236,6 +242,13 @@ editor of NY Herald</note>
   <birth when="1786">1786</birth>
   <death when="1844">1844</death>
   <sex>Male</sex>
+  <note type="biography"><p>Nicholas Biddle was born in 1786 to a prominent Philadelphia. A child prodigy, Nicholas enrolled at the University of Pennsylvania at age 10 and completed his studies there by age 13—he was ineligible to receive a degree, however, due to his young age. He subsequently enrolled at Princeton, graduating as valedictorian at age 15, and began a law career.  In 1804, Biddle traveled to Europe as the secretary to US Minister to France John Armstrong and later served as secretary to James Monroe in England. In 1807 he returned to the United States, where he edited Port-Folio magazine, prepared the notes of the Lewis and Clark expedition for publication, opened his own law practice, and was elected to the Pennsylvania House of Representatives in 1810 and the Pennsylvania State Senate in 1814. As a state representative, Biddle helped to establish a Pennsylvania public school system and to renew the charter of the Bank of the United States, which expired in 1811. He married Jane M. Craig in 1811, which whom he had six children.</p>
+<p>President James Monroe appointed Biddle the federal government director of the re-chartered Second Bank of the United States, and in 1822, Biddle became its president. In 1832, however, President Andrew Jackson, who had been a longtime opponent of the bank, vetoed renewal of its charter. He followed up by withdrawing the federal government's funds from the bank in 1833, in a highly controversial move with widespread repercussions for the US economy. The bank's charter expired in 1836, but it continued as a state-chartered bank of Pennsylvania. Biddle resigned as president of the bank in 1839; it finally failed in 1841. Biddle died in 1844 at age 58.</p>
+</note>
+  <bibl><bibl>Biddle Family Papers finding aid, University of Delaware Library, accessed June 9, 2015. <ref target="http://www.lib.udel.edu/ud/spec/findaids/biddle.htm">Link</ref></bibl>
+<bibl>Biography at <hi rendition="#italics">The Roots of Lewis and Clark</hi> website, University of Virginia, accessed June 9, 2015. <ref target="http://www2.vcdh.virginia.edu/lewisandclark/biddle/biographies_html/biddle.html">Link</ref></bibl>
+<bibl>William G. Shade, "Biddle, Nicholas," <hi rendition="#italics">American National Biography Online</hi> (February 2000), accessed June 9, 2015. <ref target="http://www.anb.org/articles/03/03-00039.html">Link</ref></bibl> 
+</bibl>
 </person>
 <person xml:id="ENT.000003544">
   <persName key="ENT.000003544">
@@ -406,6 +419,7 @@ editor of NY Herald</note>
   <persName key="ENT.000003771">
     <forename type="first">Charles</forename>
     <surname type="last">Pratt</surname>
+    <addName type="alt">Candor</addName>
     <addName type="alt">Lord Camden</addName>
   </persName>
   <birth when="1714">1714</birth>
@@ -1460,6 +1474,8 @@ Depicted in Hint cartoon 11834</note>
   </persName>
   <birth when="1846">1846</birth>
   <sex>Male</sex>
+  <note type="biography"><p>George Frederick Keller was born in 1846 in Prussia and immigrated to the United States.  He settled in San Francisco where he worked as an apprentice for a lithographer.  He later partnered with F.M. Griswold to open a short-lived lithography business.  Keller worked for the <hi rendition="#italics">Wasp</hi> from 1876-1883.</p></note>
+  <bibl><bibl>West, Richard Samuel. 2004. <hi rendition="#italics">The San Francisco Wasp: an Illustrated History</hi>. Easthampton, Mass: Periodyssey Press.</bibl></bibl>
 </person>
 <person xml:id="ENT.000001353">
   <persName key="ENT.000001353">
@@ -1498,6 +1514,14 @@ Depicted in Hint cartoon 11834</note>
   <birth when="1838">1838</birth>
   <death when="1894">1894</death>
   <sex>Male</sex>
+  <note type="biography"><p>Joseph Keppler was a cartoonist and founder of<hi rendition="#italics"> Puck</hi>.</p>
+<p>Keppler was born in Austria on February 1, 1838 and was the son of Johann and Josepha Keppler.  After the Revolution of 1848 in Austria, Keppler’s father was forced to leave the country because of his political beliefs and fled to the United States.  Joseph Keppler remained in Vienna with his mother and three younger siblings and attended the Academy of Fine Arts and the Elementary Drawing and Modeling School.  When he was seventeen years old, he traveled throughout Europe, earning a modest living as a painter.  He joined a traveling theatrical company, designed their sets, performed on stage, and spent the next several years traveling.  In 1864, he married Minna Rubens and sought more stable employment.  He worked for time as a cartoonist for the humor magazine <hi rendition="#italics">Kikeriki</hi>.  In 1867, he immigrated to the United States.  He founded two short-lived magazines including a German language weekly and then moved to New York in 1875 to work as an artist for <hi rendition="#italics">Frank Leslie’s Illustrated Newspaper</hi>.   In 1876, he founded <hi rendition="#italics">Puck</hi>, a German language humor magazine, and a year later, began an English version which continued publication until 1918.  Puck stood out from other 19th century American magazines because of its large size and its color lithographs.  Keppler hired talented cartoonists such as Frederick Opper, Bernard Gillam, and James A. Wales.   The magazine covered topics such as immigration, political scandals, and presidential elections and its cartoons were heavily influenced by contemporary and classical art and literature.  Keppler died in New York in 1894.</p></note>
+  <bibl><bibl>Hess, Stephen and Milton Kaplan. <hi rendition="#italics">The Ungentlemanly Art:   A History of American Political Cartoons</hi>.  New York: Macmillan, 1968.</bibl>
+
+<bibl>West, Richard Samuel. <hi rendition="#italics">Satire On Stone: The Political Cartoons of Joseph Keppler.</hi> Urbana: University of Illinois Press, 1988.</bibl>
+
+<bibl>“Joseph Keppler.” <hi rendition="#italics">Encyclopedia Britannica Online</hi>.  Accessed June 9, 2015. <ref target="http://www.britannica.com/EBchecked/topic/315289/Joseph-Keppler">Link</ref>
+</bibl></bibl>
   <note type="internal">http://id.loc.gov/authorities/names/n87932523.html</note>
 </person>
 <person xml:id="ENT.000003358">
@@ -1885,6 +1909,13 @@ LOC:  http://id.loc.gov/authorities/names/n79060685</note>
   <birth when="1857">1857</birth>
   <death when="1937">1937</death>
   <sex>Male</sex>
+  <note type="biography"><p>Frederick Burr Opper was an American cartoonist.  He was born on January 2, 1857 in Madison, Ohio.  He dropped out of school when he was fourteen years old and worked as a printer’s apprentice for the <hi rendition="#italics">Madison Gazette</hi>.  He moved to New York City at the age of sixteen and soon began working for <hi rendition="#italics">Wild Oats</hi>.  He then worked for three years at <hi rendition="#italics">Leslie’s Magazine</hi> as a correspondent and cartoonist.  In 1880, Keppler hired him as a cartoonist for <hi rendition="#italics">Puck</hi>.  He remained on staff for almost twenty years.  In 1898, Opper began working as a cartoonist for William Randolph Hearst’s <hi rendition="#italics">New York Journal</hi>.   While working for Hearst, Opper created several popular and long running comic strip series including <hi rendition="#italics">Happy Hooligan</hi> and <hi rendition="#italics">Alphonse and Gastone</hi>.  He retired in 1934 due to vision problems.  He died in New York on August 27, 1937.</p></note>
+  <bibl><bibl>“Biography of Opper.” <hi rendition="#italics">Ohio State University, Opper Project</hi>. Accessed June 10, 2015. <ref target="http://hti.osu.edu/opper/opper-biography">Link</ref></bibl>
+                             
+<bibl>“Frederick Burr Opper Caricature Biography.” <hi rendition="#italics">Smithsonian Libraries</hi>. Accessed June 10, 2015. <ref target="http://www.sil.si.edu/ondisplay/caricatures/bio_opper.htm">Link</ref></bibl>
+
+<bibl>“Frederick Burr Opper, 1857-1937.” <hi rendition="#italics">Ohio State University, Billy Ireland Cartoon Library and Museum</hi>. Accessed June 10, 2015. <ref target="http://cartoons.osu.edu/digital_albums/newspaperartists/opper/Opper_bio.html">Link</ref></bibl>
+<bibl>West, Richard Samuel. <hi rendition="#italics">Satire On Stone: The Political Cartoons of Joseph Keppler</hi>. Urbana: University of Illinois Press, 1988.</bibl></bibl>
   <note type="internal">LOC:  http://id.loc.gov/authorities/names/n85247604</note>
 </person>
 <person xml:id="ENT.000000869">
@@ -1993,6 +2024,12 @@ LOC:  http://id.loc.gov/authorities/names/no2002039948</note>
     <forename type="first">Phrynē</forename>
   </persName>
   <sex>Female</sex>
+  <note type="biography"><p>Phryne was a 4th century BC Greek courtesan whose real name was Mnesarete.  It is believed that she received the nickname Phryne, the ancient greek word for toad, because of her pale complexion.</p>
+                <p>She had an affair with the artist Praxiteles who was so inspired by her beauty that he sculpted two statues of her.   One of the statues was displayed at the Temple of Apollo at Delphi and the other was sent to the city of her birth.  It’s also believed that she also modeled for Praxiteles’ sculpture “Cnidian Aphrodite” and Apelles’ painting “Aphrodite Anadyomene.” </p>
+                <p>Circa 347 Phryne was accused of blasphemy and was brought to court. Hypereides, her lawyer, feared she would be convicted and so brought her before the tribunal and removed her robes. Phryne’s beauty overwhelmed the tribunal and they acquitted her.  In the nineteenth-century, French artist Jean-Léon Gerôme recreated the famous the court scene in the painting <hi rendition="#italics">Phryne before the Areopagus</hi>.</p>
+                </note>
+  <bibl><bibl>“Frine.” <hi rendition="#italics">Treccani</hi>. Accessed June 11, 2015. <ref target="http://www.treccani.it/enciclopedia/frine_(Enciclopedia-Italiana)/">Link</ref></bibl>
+                <bibl>“Phryne.” <hi rendition="#italics">Encyclopedia Britannica Online</hi>. Accessed June 11, 2015.  <ref target= "http://www.britannica.com/EBchecked/topic/458409/Phryne">Link</ref></bibl></bibl>
   <note type="internal">real name Mnēsarétē ; mentioned/referenced in 11585-Bc612P567_1_TEI.xml&#13;
 &#13;
 http://id.loc.gov/authorities/names/n2001153414</note>
@@ -2011,6 +2048,7 @@ http://id.loc.gov/authorities/names/n2001153414</note>
   <persName key="ENT.000003770">
     <forename type="first">William</forename>
     <surname type="last">Pitt</surname>
+    <addName type="alt">1st Lord of Chatham</addName>
     <addName type="alt">William Pitt the Elder</addName>
   </persName>
   <birth when="1708">1708</birth>
@@ -2239,7 +2277,7 @@ LOC:http://id.loc.gov/authorities/names/n86025981.html</note>
   <sex>Male</sex>
   <note type="biography"><p>Theodore Roosevelt was the 26th President of the United States.</p>
                 <p>Roosevelt was born on October 27, 1858 in New York City and was the second child of Martha Bulloch Roosevelt and Theodore Roosevelt, Sr.  At a young age, Roosevelt developed bronchial asthma, a condition that was so severe, he almost died.  He had poor vision and at the age of fourteen began wearing glasses.  Despite his medical conditions, Roosevelt was a curious and energetic young boy.  He was interested in natural history, collected insects, and performed taxidermy on birds and other small creatures. When he was only nine years old he wrote a natural history paper entitled “The Natural History of Insects.”  Roosevelt’s poor health began to improve at the age of twelve when his father built him a gymnasium in the family home.  He lifted weights and learned how to box.  Roosevelt’s parents sought to expand their children’s world view and hired tutors to teach the children French, German, and Latin.  The family spent a year in Europe and the Middle East.  Roosevelt was mostly home schooled as a child, and in 1876 enrolled at Harvard College.  On October 27, 1880 Roosevelt married Alice Hathaway Lee.  Alice died on February 14, 1884, two days after giving birth to their daughter Alice.  His mother passed away from typhoid fever the same day.  Roosevelt was distraught and sent his daughter away to live with one of his sisters.</p>  
-                <p>In 1886, he unsuccessfully ran for mayor of New York.  On December 2, 1886 he married his second wife, Edith Kermit Carow.  From 1895-1897, he served as the head of the New York City Board of Police Commissioners.  In 1897, he was appointed assistant secretary of the navy.  In 1898, he became a military hero when he led the Rough Rider Regiment to victory at the battle of San Juan Hill in Cuba during the Spanish-American War. He served as the governor of New York from 1899 to 1901.  He became vice president in 1901 and President on September 14, 1901 after President McKinley’s assassination.  At the age of 42, he became the youngest president in American history.  He served from 1901-1909.</p>
+                <p>In 1886, he unsuccessfully ran for mayor of New York.  On December 2, 1886 he married his second wife, Edith Kermit Carow.  From 1895-1897, he served as the head of the New York City Board of Police Commissioners.  In 1897, he was appointed assistant secretary of the navy.  In 1898, he became a military hero when he led the Rough Riders Regiment to victory at the battle of San Juan Hill in Cuba during the Spanish-American War. He served as the governor of New York from 1899 to 1901.  He became vice president in 1901 and President on September 14, 1901 after President McKinley’s assassination.  At the age of 42, he became the youngest president in American history.  He served from 1901-1909.</p>
                 <p>Roosevelt’s administration began what would be later known as the progressive era.  As president, he enacted numerous reforms, expanded the powers of the executive office, and became known as the great “trust buster” who broke up Standard Oil and filed forty anti-trust lawsuits.  During the anthracite coal strike, he became the first president to use his powers to negotiate and settle a labor dispute.  He expanded trade, built the Panama Canal, increased US military power and presence in the Western hemisphere, and was an imperialist who supported American expansionism.  He established the Forest Service, created five national parks, and signed legislation to preserve millions of acres of land. </p> 
                 <p>In 1908, he decided not to run for re-election to a third term.  Instead, he supported and helped William Howard Taft win the presidency.  However, Roosevelt soon began to disagree with the policies of the Taft administration and decided to run against Taft in 1912.  Roosevelt formed the Bull Moose party.  Roosevelt and Taft lost to Woodrow Wilson.</p>
                 <p>Roosevelt died on January 6, 1919.</p></note>
@@ -2530,6 +2568,13 @@ LOC:  http://id.loc.gov/authorities/names/n95002542</note>
   <birth when="1814">1814</birth>
   <death when="1886">1886</death>
   <sex>Male</sex>
+  <note type="biography"><p>Samuel Jones Tilden was born in 1814 in New York.  He studied law in New York and was admitted to the bar in 1841.   He soon became a successful lawyer and political leader.  In 1874 he was elected to serve as Governor of New York.  As governor, he fought corruption and broke up the “Canal Ring,” a scheme involving illegal contracts for work on the State’s canal system.  He also helped bring about the downfall of the infamous William “Boss” Tweed.</p>
+<p>In 1876, Tilden became the Democratic nominee for president.  He ran against Republican Rutherford B. Hayes in what would become the most contested election in US history.  The election results in Florida, Louisiana, South Carolina, and Oregon were unclear, and so Congress assembled an Electoral Commission to decide who would win the disputed electoral college votes.  It is believed that Republicans and Southern Democrats made a deal in which they would support Hayes for president if he withdrew federal troops from the South and ended Reconstruction.  Although Tilden won the popular vote, Rutherford Hayes became president.  Tilden died on August 4, 1886.</p>
+</note>
+  <bibl><bibl>“Samuel J. Tilden.” <hi rendition="#italics">Encyclopedia Britannica Online</hi>. Accessed June 11, 2015. <ref target="http://www.britannica.com/EBchecked/topic/595754/Samuel-J-Tilden">Link</ref></bibl>
+                
+                
+                <bibl>“Samuel Tilden Biography.” <hi rendition="#italics">Gateway National Recreation Area (U.S. National Park Service)</hi>. Accessed June 11, 2015. <ref target="http://www.nps.gov/gate/learn/historyculture/samuel-tilden-biography.htm">Link</ref></bibl></bibl>
   <note type="internal">LOC:  http://id.loc.gov/authorities/names/n50013053</note>
 </person>
 <person xml:id="ENT.000000403">
@@ -2537,6 +2582,8 @@ LOC:  http://id.loc.gov/authorities/names/n95002542</note>
     <forename type="first">Morris</forename>
     <forename type="middle">H.</forename>
     <surname type="last">Traubel</surname>
+    <addName type="alt">M. H. Traubel</addName>
+    <addName type="alt">Martin H. Traubel</addName>
     <addName type="alt">Mauritz H. Traubel</addName>
   </persName>
   <birth when="1820">1820</birth>
@@ -2572,6 +2619,7 @@ LOC:  http://id.loc.gov/authorities/names/n95002542</note>
     <forename type="first">William</forename>
     <forename type="middle">Marcy</forename>
     <surname type="last">Tweed</surname>
+    <addName type="alt">Tweed, Boss, 1823-1878</addName>
     <addName type="alt">Tweed, William Magear, 1823-1878</addName>
   </persName>
   <birth when="1823-04-03">1823-04-03</birth>
@@ -2652,6 +2700,11 @@ http://id.loc.gov/authorities/names/n79017983</note>
   <birth when="1852">1852</birth>
   <death when="1886">1886</death>
   <sex>Male</sex>
+  <note type="biography"> <p>James Albert Wales was an American cartoonist.  He was born on August 20, 1852 in Clyde, Ohio.  He attended public school in Ohio and later traveled to London and Paris to study art.  He worked for an engraver in Toledo before moving to Cleveland to work as a cartoonist for the <hi rendition="#italics">Cleveland Ledger</hi>.  He became chief cartoonist for <hi rendition="#italics">Leslie’s Ilustrated Newspaper</hi>.  In 1879, Joseph Keppler hired him to work as a cartoonist at Puck.  In 1881, he had a disagreement with Joseph Keppler, left the magazine, and founded <hi rendition="#italics">Judge</hi>.  Wales sold <hi rendition="#italics">Judge</hi> in 1885 to William J. Arkell and went back to work for Keppler at <hi rendition="#italics">Puck</hi>.  He died at the age of 34 of a drug overdose.</p></note>
+  <bibl><bibl>Hess, Stephen and Milton Kaplan. <hi rendition="#italics">The Ungentlemanly Art: A History of American Political Cartoons</hi>.  New York: Macmillan, 1968.</bibl>
+                
+                <bibl>Kahn, Michael A, Richard Samuel West, Bill Watterson, and Dean Mullaney. <hi rendition="#italics">What Fools These Mortals Be!: The Story of Puck: America’s First and Most Influential Magazine of Color Political Cartoons</hi>, 2014.</bibl>       
+                <bibl>West, Richard Samuel. <hi rendition="#italics">Satire On Stone: The Political Cartoons of Joseph Keppler</hi>. Urbana: University of Illinois Press, 1988.</bibl></bibl>
   <note type="internal">LOC:  http://id.loc.gov/authorities/names/n95002906</note>
 </person>
 <person xml:id="ENT.000003711">
