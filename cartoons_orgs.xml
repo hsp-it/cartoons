@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-
 <?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 
@@ -65,7 +64,7 @@
             </projectDesc>
         </encodingDesc>
         <revisionDesc>
-            <change who="HSP" when="2015-06-11">Exported from Collective Access.</change>
+            <change who="HSP" when="2015-06-22">Exported from Collective Access.</change>
         </revisionDesc>
     </teiHeader>
 
@@ -148,7 +147,8 @@
   <note type="org"> <p>Perhaps the most famous and prolific lithography house, Currier and Ives was founded on Nassau Street in New York City in 1834 by Nathaniel Currier.  Currier operated this print shop, with its factory around the corner on Spruce Street, for 70 years.  Currier enlisted self-trained artist James Merritt Ives in 1857 to create images for the firm.  Under the new partnership, the business thrived; Currier and Ives innovated an assembly line-like factory floor, with a work flowing from artists, to lithographers, to letterers, to colorists in an efficient pattern.</p> 
                 <p>By the time the firm closed in 1907, they had a working catalog of over 7,000 images in a variety of genres:  popular news illustrations, political cartoons, celebrity portraits, sentimental images of families, children, and animals, as well as some copies of famous paintings.  In the years after the Civil War, Currier and Ives also began printing “darktown comics,” cartoons depicting racist stereotypes of African-Americans. </p>
                 <p>Business slowed for the firm at the turn of the 20th century, as costs dropped on photography and chromolithography, and hand-colored lithographs began to fall out of style. Currier and Ives had also suffered a myriad of personal tragedies over their careers and began to slow down. Just over a decade after the shop closed, after World War I, Currier and Ives prints came to be regarded as important pieces of Americana and became collectors’ items. </p></note>
-  <bibl>http://articles.baltimoresun.com/1997-06-26/features/1997177066_1_currier-ives-ives-print-unintentionally-funny</bibl>
+  <bibl><bibl>“Currier And Ives Dark Town, Currier &amp; Ives America Could Be a Dark Place Art: Printmakers Gave Us Shiny, Happy Scenes of the Bucolic Life of the Haves, but Moralizing, Hatred Were There, Too,” <hi rendition="#italics">Baltimore Sun</hi>, accessed March 3, 2015, <ref target="http://articles.baltimoresun.com/1997-06-26/features/1997177066_1_currier-ives-ives-print-unintentionally-funny">Link</ref></bibl>
+                <bibl>“Currier &amp; Ives, Printmakers to the American People,” accessed March 3, 2015, <ref target="http://www.tfaoi.com/aa/2aa/2aa36.htm">Link</ref></bibl></bibl>
   <note type="internal">LOC:  http://id.loc.gov/authorities/names/n80126271</note>
 </org>
 <org xml:id="ENT.000003554">
@@ -187,6 +187,10 @@
 </org>
 <org xml:id="ENT.000003683">
   <orgName key="ENT.000003683">Frank Leslie's Budget of Fun</orgName>
+  <note type="org"><p>A satirical, 16-page, well illustrated humor magazine, Frank Leslie’s Budget of Fun (1855- was the second publication of successful New York newspaper publisher Frank Leslie (1821-1880). Sold for six-cents a copy, the Budget became extraordinarily popular, beating out its many previously existing competitors: <hi rendition="#italics">Yankee Notions</hi>, <hi rendition="#italics">Nick-Nax for All Creation</hi>, <hi rendition="#italics">Phunny Phellow</hi>, <hi rendition="#italics">New York Picayune</hi>, and <hi rendition="#italics">Comic Monthly</hi>. The paper was unabashedly political, unlike its competitors, with a strong democratic leaning like Leslie himself. The paper was generally suspicious of Lincoln, the Republican Party, and abolitionists. Once the Civil War began, the <hi rendition="#italics">Budget</hi> aligned with the North but continued to comment on the inefficiency of the Republican war effort and provided a skeptic’s opinion to the success of emancipation. However, after Gettysburg, the publication became significantly more supportive of Lincoln. <hi rendition="#italics">Budget’s</hi> audience began to dwindle in 1859 due to the success of the new weekly, <hi rendition="#italics">Vanity Fair</hi>.</p></note>
+  <bibl>  <bibl>West, Richard S. “Budget of Fun.” <hi rendition="#italics">Illustrated Civil War Newspapers &amp; Magazine</hi>. Alexander Street Press online.
+                    <ref target="http://www.lincolnandthecivilwar.com/SubLevelPages/BudgetofFun.asp">Link</ref>
+                </bibl></bibl>
   <note type="internal">19th-century illustrated humor magazine, published by Frank Leslie.</note>
 </org>
 <org xml:id="ENT.000003053">
@@ -265,6 +269,12 @@ LOC name authority record spells Ottman with one "n", but in the cartoon "If-The
 </org>
 <org xml:id="ENT.000003698">
   <orgName key="ENT.000003698">L. Prang &amp; Co.</orgName>
+  <note type="org"><p>Louis Prang (1824-1909) was a German-born entrepreneur and chromolithographer. Born in Breslau (now Poland), Prang traveled as a journeyman before becoming involved in revolutionary activity against the Prussian government in 1848. He left Europe through Switzerland and arrived in Boston in 1850. He worked as a wood engraver until 1856 when he founded a lithograph and copper plate manufacturing company, Prang and Mayer, with business partner Julius Mayer. In 1860, Mayer dropped out and Prang continued solo with the newly formed L. Prang &amp; Co. The company printed business cards, announcements and other forms of ephemera. Later he branched into the production of Civil War maps and collectible novelty items.  Through a merger in 1897, L. Prang and Co. became the Taber-Prang Company and moved from Boston to Springfield, Massachusetts. </p></note>
+  <bibl><bibl>“Louis Prang papers, 1848-1932: Biographical Information.” <hi rendition="#italics">Archives of American Art</hi>. Accessed June 21, 2015
+                <ref target="http://www.aaa.si.edu/collections/louis-prang-papers-9709/more">Link</ref></bibl>
+                
+                <bibl>Kavanagh, Meredith. “Louis Prang: Father of the American Christmas Card.” <hi rendition="#italics">New York Historical Society Museum &amp; Library</hi>. Accessed June 21, 2015
+                <ref target="http://blog.nyhistory.org/prang/">Link</ref></bibl></bibl>
   <note type="internal">lithographer for political cartoon 11751_ Democracy: 1832, 1864</note>
 </org>
 <org xml:id="ENT.000003557">

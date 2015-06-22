@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+
+
 <?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 
@@ -64,7 +66,7 @@
             </projectDesc>
         </encodingDesc>
         <revisionDesc>
-            <change who="HSP" when="2015-06-11">Exported from Collective Access.</change>
+            <change who="HSP" when="2015-06-22">Exported from Collective Access.</change>
         </revisionDesc>
     </teiHeader>
 
@@ -307,6 +309,13 @@ editor of NY Herald</note>
   <birth when="1821">1821</birth>
   <death when="1875">1875</death>
   <sex>Male</sex>
+  <note type="biography"><p>John Cabell Breckinridge was the 14th vice president of the United States and the only vice president to take up arms against the United States. Breckinridge was born and raised in Kentucky, where his family had deep roots. He worked as a lawyer in Lexington before serving as an officer in the Mexican-American War, then returned to Kentucky, where he began his political career. In 1849, at the age of 28, he was elected to the Kentucky House of Representatives; in 1851, running as a Whig, he was elected to the US Senate, serving until 1855. Breckinridge argued fiercely in support of the Kansas-Nebraska Act of 1854, engaging in debates so rancorous that he nearly fought a duel with NY Representative Francis B. Cutting as a result. In 1856, Breckinridge was the running mate of presidential candidate James Buchanan, who won the election. At age 36, Breckinridge became the youngest vice president in US history.</p>
+<p>He served as vice president from 1857-61 but had a strained relationship with Buchanan, who excluded Breckinridge from his administration and rarely communicated with him.</p>
+<p>In 1860 the Democratic Party split when supporters of Stephen Douglas, the leading contender for the presidential nomination, refused to make support of slavery anywhere in the territories part of the party’s platform. Pro-slavery Democrats started their own Southern Democratic Party and chose Breckinridge as their presidential nominee. Breckinridge ran against Republican candidate Abraham Lincoln (whose wife, Mary Todd Lincoln, was a cousin of Breckinridge), Democratic candidate Stephen Douglas, and Constitutional Union Party candidate John Bell; ultimately, Lincoln won the election.</p>
+<p>After the election Breckinridge briefly served in the US Senate (1861). He counseled against secession and, after several Southern states seceded from the Union, tried to convince his home state of Kentucky to remain neutral, rather than to take up arms against the Confederacy. Several months later, however, he volunteered to fight for the Confederacy, despite the fact that Kentucky remained part of the Union. He became the second vice president in US history (after Aaron Burr) to be accused of treason and was expelled from the Senate. Breckinridge rose from brigadier general  to major general in the Confederate Army, helped lead a Confederate raid on Washington, DC, in 1864, and, in 1865, became Jefferson Davis’s secretary of war. After the war ended, Breckinridge fled to Cuba and then to England, eventually settling in Toronto, Canada. Following President Andrew Johnson’s pardon of Confederates in 1868, Breckinridge returned to Kentucky, where he resided for the rest of his life. He died in 1875 at the age of 54.</p></note>
+  <bibl>American President: James Buchanan, Miller Center, University of Virginia, accessed June 22, 2015. <ref target="http://millercenter.org/president/buchanan/essays/vicepresident/1857">Link</ref></bibl>
+<bibl>Breckinridge, John Cabell, (1821-1875), Biographical Directory of the United States Congress, accessed June 22, 2015. <ref target="http://bioguide.congress.gov/scripts/biodisplay.pl?index=b000789">Link</ref></bibl>
+<bibl>John Cabell Breckinridge, 14th Vice President (1857-1861), United States Senate website, accessed June 22, 2015. <ref target="http://www.senate.gov/artandhistory/history/common/generic/VP_John_Breckinridge.htm">Link</ref></bibl>
   <note type="internal">depicted in 11561; 11562; 11563; http://id.loc.gov/authorities/names/n85185549.html</note>
 </person>
 <person xml:id="ENT.000003334">
@@ -1749,6 +1758,15 @@ http://id.loc.gov/authorities/names/no97050463</note>
   <birth when="1838">1838</birth>
   <death when="1918">1918</death>
   <sex>Male</sex>
+  <note type="biography"><p>Warner Miller was a businessman and Republican Senator.</p>
+                <p>Miller was born in Hannibal, New York on August 12, 1838.  After graduating from Union College in 1860, he worked as a professor of Latin and Greek at the Fort Edward Collegiate Institute.  He served in the Civil War, was promoted to lieutenant, and was taken prisoner by the Confederate forces during the Battle of Winchester.  After serving in the military, he founded the Warner Miller and Company paper mill where he developed new techniques for the manufacturing of paper.</p> 
+                <p>He served in the New York State Assembly (1873-1876) and the United States House of Representatives (1879-1881).  He became a US Senator in 1881 and served until 1887.  In 1888, he ran for Governor of New York and lost to Davis Bennett Hill.  Miller died on March 12, 1918.</p></note>
+  <bibl><bibl>“The Election Case of Elbridge G. Lapham and Warner Miller of New York (1881).” <hi rendition="#italics">United States Senate</hi>. Accessed June 22, 2015. <ref target="http://www.senate.gov/artandhistory/history/common/contested_elections/073Lapham_Miller.htm">Link</ref></bibl>
+                
+                <bibl>“Miller, Warner.” <hi rendition="#italics">Biographical Directory of the United States Congress</hi>. Accessed June 22, 2015. <ref target="http://bioguide.congress.gov/scripts/biodisplay.pl?index=m000760">Link</ref></bibl>
+                
+                <bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). <hi rendition="#italics">Historical dictionary of the Gilded Age</hi>. Armonk, N.Y.: M.E. Sharpe.</bibl>
+</bibl>
   <note type="internal">http://id.loc.gov/authorities/names/no95043103 ; depicted in 11585-Bc612P567_1_TEI.xml</note>
 </person>
 <person xml:id="ENT.000003623">
@@ -2287,7 +2305,9 @@ LOC:http://id.loc.gov/authorities/names/n86025981.html</note>
 
                 <bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). <hi rendition="#italics">Historical dictionary of the Gilded Age</hi>. Armonk, N.Y.: M.E. Sharpe.</bibl> 
 
-<bibl>“Theodore Roosevelt.”  <hi rendition="#italics">Whitehouse.gov</hi>. Accessed June 8, 2015. <ref target="https://www.whitehouse.gov/1600/presidents/theodoreroosevelt">Link</ref></bibl></bibl>
+<bibl>“Theodore Roosevelt.”  <hi rendition="#italics">Whitehouse.gov</hi>. Accessed June 8, 2015. <ref target="https://www.whitehouse.gov/1600/presidents/theodoreroosevelt">Link</ref></bibl>
+
+<bibl>“TR Center - Theodore Roosevelt Center Home.” <hi rendition="#italics">Theodore Roosevelt Center at Dickinson State University</hi>. Accessed June 22, 2015. <ref target="http://www.theodorerooseveltcenter.org/">Link</ref></bibl></bibl>
   <note type="internal">LOC:  http://id.loc.gov/authorities/names/n79027239</note>
 </person>
 <person xml:id="ENT.000003562">
