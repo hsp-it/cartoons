@@ -275,8 +275,8 @@
                     George W. Curtis, William M. Evarts, Carl Schurz, Theodore Roosevelt, Benjamin
                     Helm Bristow, Warner Miller, William Henry Robertson, John Alexander Logan, John
                     Sherman, James Donald Cameron, Benjamin Harrison, and George Edmunds. According
-                    to the Library of Congress, the cartoon also depicts Simon Cameron, but the
-                    Historical Society of Pennsylvania's editorial staff is unable to identify
+                    to the Library of Congress, the cartoon also depicts Simon Cameron.  The
+                    Historical Society of Pennsylvania's editorial staff was unable to identify
                     Cameron in the cartoon.</p>
                 <p>Gillam, Keppler, and Opper illustrated a number of cartoons featuring the
                     tattooed man. <hi rendition="#italics">Phryne before the Chicago Tribunal</hi>
@@ -288,7 +288,7 @@
         <body>
 
             <div type="image_transcription" n="1" facs="#Title">
-                <head><supplied resp="editorial">Title and Date</supplied></head>
+                <head><supplied resp="editorial">Title, caption, and notes</supplied></head>
                 <p><persName key="ENT.000003374">PHRYNE</persName> BEFORE THE CHICAGO TRIBUNAL</p>
                 <p>ARDENT ADVOCATE.-"Now, Gentlemen, don't make any mistake in your decision! Here's
                     Purity and Magnetism for you-can't be beat!"</p>
@@ -297,15 +297,13 @@
             </div>
 
             <div type="image_transcription" n="2" facs="#Caption">
-                <head><supplied resp="editorial"><persName key="ENT.000003350">Jean-Léon
-                            Gérôme</persName></supplied></head>
-                <p>WITH APOLOGIES TO J.L. GEROME</p>
+                <head><supplied resp="editorial">Caption</supplied></head>
+                <p>WITH APOLOGIES TO <persName key="ENT.000003350">J.L. GEROME</persName></p>
             </div>
 
             <div type="image_transcription" n="3" facs="#Artist">
-                <head><supplied resp="editorial"><persName key="ENT.000003351">Bernhard
-                            Gillam</persName></supplied></head>
-                <p>GILLAM</p>
+                <head><supplied resp="editorial">Artist's signature</supplied></head>
+                <p><persName key="ENT.000003351">GILLAM</persName></p>
             </div>
 
             <div type="image_transcription" n="4" facs="#Reid">
@@ -342,9 +340,9 @@
             </div>
 
             <div type="image_transcription" n="7" facs="#Puck">
-                <head><supplied resp="editorial"><persName key="ENT.000000384"
-                        >Puck</persName></supplied></head>
-                <p>PUCK.</p>
+                <head><supplied resp="editorial">Magazine title</supplied></head>
+                <p><persName key="ENT.000000384"
+                        >PUCK.</persName></p>
             </div>
 
             <div type="image_transcription" n="8" facs="#Vase">
