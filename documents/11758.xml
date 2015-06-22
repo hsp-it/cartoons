@@ -223,7 +223,7 @@
       <div type="image_transcription" n="2" facs="#Artist">
         <head>
           <supplied resp="editorial">
-            <persName key="ENT.000003642">Artist's signature</persName>
+            Artist's signature
           </supplied>
         </head>
         <p><persName key="ENT.000003642">F. Graetz</persName></p>
@@ -262,11 +262,11 @@
           <supplied resp="editorial">Banner</supplied>
         </head>
         <p>CASTLE GARDEN<note n="2" type="editorial">Castle Garden was the United States' first
-            official immigrant processing station and is located in what is now know as Battery Park
+            official immigrant processing station and is located in what is now known as Battery Park
             in New York City. Southwest Battery, as it was first called, was constructed between
             1808 and 1811 and was used as a fort to defend against the British during the War of
             1812. In 1823, it was renamed Castle Garden and became an opera house and theater. From
-            1855 to 1890, Castle Garden served as an immigrant processing center and over 8 million
+            1855 to 1890, Castle Garden served as an immigrant processing center. Over 8 million
             immigrants passed through its doors. Today it is known as Castle Clinton National
             Monument.</note></p>
       </div>
