@@ -176,16 +176,17 @@
     </revisionDesc>
   </teiHeader>
   <facsimile>
-    <surface ulx="0" uly="0" lrx="100" lry="100">
+    <surface ulx="" uly="" lrx="" lry="">
       <graphic url="FIL.000091282"/>
-      <zone n="1" xml:id="Title" points="16.53,91.59 81.18,92.28 81.56,96.4 16.53,96.05"/>
-      <zone n="2" xml:id="Artist" points="52.52,87.72 58.29,88.15 58.07,92.66 52.48,92.49"/>
-      <zone n="4" xml:id="Note" points="3.24,29.17 5.08,29.32 5.08,37.71 3.28,37.61"/>
-      <zone n="5" xml:id="Elite" points="35.88,50.37 48.8,57.18 48.92,60.2 35.49,54.53"/>
-      <zone n="6" xml:id="Milligan" points="60.95,50.33 68.29,46.16 68.72,51.75 61.04,54.69"/>
-      <zone n="7" xml:id="Tobacco" points="68.47,80.51 71.72,81.33 71.72,84.91 68.54,83.77"/>
-      <zone n="8" xml:id="Dress" points="61.42,85.93 65.05,87.86 65.14,91.79 61.56,91.48"/>
-      <zone n="9" xml:id="Wash" points="85.95,84.92 90.25,85.7 90,89.56 86.13,88.98"/>
+      <zone n="1" xml:id="Title" points=""/>
+      <zone n="2" xml:id="Artist" points=""/>
+      <zone n="3" xml:id="Note" points=""/>
+      <zone n="4" xml:id="Elite" points=""/>
+      <zone n="5" xml:id="Milligan" points=""/>
+      <zone n="6" xml:id="Tobacco" points=""/>
+      <zone n="7" xml:id="Dress" points=""/>
+      <zone n="8" xml:id="Wash" points=""/>
+      <zone n="9" xml:id="Puck" points=""/>
     
     </surface>
   </facsimile>
@@ -241,6 +242,10 @@
       <div type="image_transcription" n="9" facs="#Wash">
         <head><supplied resp="editorial">Sign</supplied></head>
         <p>WASHING &amp; IRUNING</p>
+      </div>
+      <div type="image_transcription" n="9" facs="#Puck">
+        <head><supplied resp="editorial">Magazine title</supplied></head>
+        <p><orgName key="ENT.000000384">PUCK.</orgName></p>
       </div>
     </body>
   </text>
