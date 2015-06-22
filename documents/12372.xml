@@ -80,9 +80,10 @@
                                 <date from="1878-06-15">June 15, 1878</date>
                                 <extent>1 loose page </extent>
                                 <extent>
-                                    <dimensions type="image" unit="cm"/>
+                                    <dimensions type="image" unit="cm">
                                 <height quantity="37.5"/>
-                  <width quantity="52.5"/>
+                                <width quantity="52.5"/>
+                                </dimensions>
                 </extent>
 
                             </bibl>
@@ -109,7 +110,7 @@
                             >Wasp</orgName></title>
                         <imprint>
 
-                            <publisher><orgName key="ENT.000003546">E.C. MacFarlane &amp;
+                            <publisher><orgName key="ENT.000003554">E.C. MacFarlane &amp;
                                     Co</orgName></publisher>
                             <pubPlace>San Francisco</pubPlace>
                             <date from="1878-06-15">June 15, 1878</date>
@@ -210,7 +211,7 @@
         
         <front>
             <div type="editorial_desc">
-                <p>The broadside is divided into two sections. In the first section, a mob of Americans attack a group of European immigrants who have just arrived in New York City and are passing through the Castle Garden immigrant station.  In the background, there are ships and a sign labeled "Castle Garden". A woman wearing a scarf and carrying a trunk watches in horror as men throw stones and punches.  A man carrying a parcel and a large bag has blood coming out from his eye.  In the second section, a group of Chinese immigrants, wearing conical hats and long braids have just arrived in San Francisco, and are riding in a wagon. Americans throw stones at them and try to pull them from the wagon.  One man pulls the braid of an immigrant.</p>
+                <p>The broadside is divided into two sections. In the first section, a mob of Americans attack a group of European immigrants who have just arrived in New York City and are passing through the Castle Garden immigrant station.  In the background, there are ships and a sign labeled "Castle Garden". A woman wearing a scarf and carrying a trunk watches in horror as men throw stones and punch each other.  A man carrying a parcel and a large bag has suffered a serious injury to his eye. In the second section, a group of Chinese immigrants, wearing conical hats and long braids have just arrived in San Francisco, and are riding in a wagon. Americans throw stones at them and try to pull them from the wagon.  One man pulls the braid of an immigrant.</p>
             </div>
         </front>
 
@@ -221,13 +222,13 @@
             </div>
             
             <div type="image_transcription" n="2" facs="#Artist">
-                <head><supplied resp="editorial">Signature of<orgName key="ENT.000003164">George Frederick Keller</orgName></supplied></head>
+                <head><supplied resp="editorial">Signature of <orgName key="ENT.000003164">George Frederick Keller</orgName></supplied></head>
                 <p><hi rendition="#circled">KELLER</hi></p>
             </div>
             
             <div type="image_transcription" n="3" facs="#Garden">
                 <head><supplied resp="editorial">Castle Garden</supplied></head>
-                <p>CASTLE GARDEN <note n="1" type="editorial">Castle Garden was the United States' first official immigrant processing station and is located in what is now know as Battery Park in New York City.  Southwest Battery, as it was first called, was constructed between 1808 and 1811 and was used as a fort to defend against the British during the War of 1812.  In 1823, it was renamed Castle Garden and became an opera house and theater  From 1855 to 1890, Castle Garden served as an immigrant processing center and over 8 million immigrants passed through its doors.  Today it is known as Castle Clinton National Monument.</note></p>
+                <p>CASTLE GARDEN <note n="1" type="editorial">Castle Garden was the United States' first official immigrant processing station and is located in what is now known as Battery Park in New York City.  Southwest Battery, as it was first called, was constructed between 1808 and 1811 and was used as a fort to defend against the British during the War of 1812.  In 1823, it was renamed Castle Garden and became an opera house and theater.  From 1855 to 1890, Castle Garden served as an immigrant processing center.  Over 8 million immigrants passed through its doors.  Today it is known as Castle Clinton National Monument.</note></p>
             </div>
             
             <div type="image_transcription" n="4" facs="#Wasp">
