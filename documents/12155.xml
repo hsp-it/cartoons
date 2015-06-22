@@ -221,7 +221,7 @@
 
         <body>
             <div type="image_transcription" facs="#Title" n="1">
-                <head><supplied resp="editorial">Title and Artist</supplied></head>
+                <head><supplied resp="editorial">Title, artist, lithographer, and publisher</supplied></head>
                 <p><hi rendition="#bold">TO <hi rendition="#underline">OUR</hi> STARVING POOR-IF YOU WANT RELIEF, GO TO IRELAND.</hi></p>
                 <p>JAW</p>
                 <p>OFFICE OF "PUCK" 23 WARREN ST. NEW YORK.</p>
