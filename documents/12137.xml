@@ -81,9 +81,7 @@
                   <width quantity="32"/>
                   </dimensions>
                 </extent>
-                <listRelation>
-                  <relation/>
-                </listRelation>
+                
               </bibl>
             </msItem>
           </msContents>
@@ -176,17 +174,17 @@
     </revisionDesc>
   </teiHeader>
   <facsimile>
-    <surface ulx="" uly="" lrx="" lry="">
+    <surface ulx="0" uly="0" lrx="100" lry="100">
       <graphic url="FIL.000091282"/>
-      <zone n="1" xml:id="Title" points=""/>
-      <zone n="2" xml:id="Artist" points=""/>
-      <zone n="3" xml:id="Note" points=""/>
-      <zone n="4" xml:id="Elite" points=""/>
-      <zone n="5" xml:id="Milligan" points=""/>
-      <zone n="6" xml:id="Tobacco" points=""/>
-      <zone n="7" xml:id="Dress" points=""/>
-      <zone n="8" xml:id="Wash" points=""/>
-      <zone n="9" xml:id="Puck" points=""/>
+      <zone n="1" xml:id="Title" points="17.2,91.44 81.6,92.29 81.47,96.24 17.33,96.07"/>
+      <zone n="2" xml:id="Artist" points="52.82,87.92 58.51,87.45 57.82,92.92 52.82,92.92"/>
+      <zone n="3" xml:id="Note" points="2.93,28.56 5.59,28.39 5.59,39.02 2.81,38.68"/>
+      <zone n="4" xml:id="Elite" points="34.89,50.19 49.4,56.92 49.15,60.52 34.89,55.19"/>
+      <zone n="5" xml:id="Milligan" points="60.54,49.97 68.38,46.02 69.27,52.37 60.85,54.44"/>
+      <zone n="6" xml:id="Tobacco" points="68.66,80.1 72.2,81.46 72.03,84.99 68.42,83.95"/>
+      <zone n="7" xml:id="Dress" points="61.3,85.48 65.6,87.71 65.6,91.88 60.6,91.88"/>
+      <zone n="8" xml:id="Wash" points="85.58,84.92 90.58,84.92 90.58,89.92 85.58,89.92"/>
+      <zone n="9" xml:id="Puck" points="45.6,1.83 54.65,2.57 54.77,7.2 45.6,6.83"/>
     
     </surface>
   </facsimile>
@@ -219,27 +217,27 @@
         <p><persName key="ENT.000003630">James Albert
           Wales</persName></p>
       </div>
-      <div type="image_transcription" n="4" facs="#Note">
+      <div type="image_transcription" n="3" facs="#Note">
         <head><supplied resp="editorial">Note</supplied></head>
         <p><add>8-10-81</add></p>
       </div>
-      <div type="image_transcription" n="5" facs="#Elite">
+      <div type="image_transcription" n="4" facs="#Elite">
         <head><supplied resp="editorial">Sign</supplied></head>
         <p>HOTEL ELITE</p>
       </div>
-      <div type="image_transcription" n="6" facs="#Milligan">
+      <div type="image_transcription" n="5" facs="#Milligan">
         <head><supplied resp="editorial">Sign</supplied></head>
         <p>THE "MILLIGAN" APARTMENT HOUSE ROOMS TO LET</p>
       </div>
-      <div type="image_transcription" n="7" facs="#Tobacco">
+      <div type="image_transcription" n="6" facs="#Tobacco">
         <head><supplied resp="editorial">Sign</supplied></head>
         <p>TOBACCO FACTORY NO 1326</p>
       </div>
-      <div type="image_transcription" n="8" facs="#Dress">
+      <div type="image_transcription" n="7" facs="#Dress">
         <head><supplied resp="editorial">Sign</supplied></head>
         <p>MR GINNIS DRESS MAKER</p>
       </div>
-      <div type="image_transcription" n="9" facs="#Wash">
+      <div type="image_transcription" n="8" facs="#Wash">
         <head><supplied resp="editorial">Sign</supplied></head>
         <p>WASHING &amp; IRUNING</p>
       </div>
