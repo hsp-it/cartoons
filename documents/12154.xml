@@ -218,14 +218,14 @@
 
         <body>
             <div type="image_transcription" facs="#Title" n="1">
-                <head><supplied resp="editorial">Title and Artist</supplied></head>
+                <head><supplied resp="editorial">Title and artist</supplied></head>
                 <p>A TAIL THEY CAN'T TWIST.</p>
                 <p>THE LITTLE MEN AND THEIR LITTLE GRIP ON THE BRITISH LION.</p>
                 <p>GILLAM</p>
             </div>
 
             <div type="image_transcription" facs="#Notes" n="2">
-                <head><supplied resp="editorial">Publication Information and Notes</supplied></head>
+                <head><supplied resp="editorial">Masthead</supplied></head>
                 <p>PUBLISHED BY KEPPLER &amp; SCHWARZMANN.</p>
                 <p>NEW YORK TRADE MARK REGISTERED 1878</p>
                 <p>"ENTERED AT THE POST OFFICE AT NEW YORK, AND ADMITTED FOR TRANSMISSION THROUGH
@@ -235,12 +235,12 @@
             </div>
 
             <div type="image_transcription" facs="#ODonnell" n="3">
-                <head><supplied resp="editorial">Man with Handgun</supplied></head>
+                <head><supplied resp="editorial">Man with handgun</supplied></head>
                 <p>ASSASSIN O'DONNELL</p>
             </div>
 
             <div type="image_transcription" facs="#Men" n="4">
-                <head><supplied resp="editorial">Men holding Lion's Tail</supplied></head>
+                <head><supplied resp="editorial">Men holding lion's tail</supplied></head>
                 <p>THE DEMANDS OF 20.000.000 IRISH-AMERICANS</p>
                 <p>ROBINSON</p>
                 <p>HEWITT</p>
