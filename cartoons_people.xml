@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-
-
 <?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 
@@ -66,7 +64,7 @@
             </projectDesc>
         </encodingDesc>
         <revisionDesc>
-            <change who="HSP" when="2015-06-22">Exported from Collective Access.</change>
+            <change who="HSP" when="2015-06-23">Exported from Collective Access.</change>
         </revisionDesc>
     </teiHeader>
 
@@ -313,9 +311,9 @@ editor of NY Herald</note>
 <p>He served as vice president from 1857-61 but had a strained relationship with Buchanan, who excluded Breckinridge from his administration and rarely communicated with him.</p>
 <p>In 1860 the Democratic Party split when supporters of Stephen Douglas, the leading contender for the presidential nomination, refused to make support of slavery anywhere in the territories part of the party’s platform. Pro-slavery Democrats started their own Southern Democratic Party and chose Breckinridge as their presidential nominee. Breckinridge ran against Republican candidate Abraham Lincoln (whose wife, Mary Todd Lincoln, was a cousin of Breckinridge), Democratic candidate Stephen Douglas, and Constitutional Union Party candidate John Bell; ultimately, Lincoln won the election.</p>
 <p>After the election Breckinridge briefly served in the US Senate (1861). He counseled against secession and, after several Southern states seceded from the Union, tried to convince his home state of Kentucky to remain neutral, rather than to take up arms against the Confederacy. Several months later, however, he volunteered to fight for the Confederacy, despite the fact that Kentucky remained part of the Union. He became the second vice president in US history (after Aaron Burr) to be accused of treason and was expelled from the Senate. Breckinridge rose from brigadier general  to major general in the Confederate Army, helped lead a Confederate raid on Washington, DC, in 1864, and, in 1865, became Jefferson Davis’s secretary of war. After the war ended, Breckinridge fled to Cuba and then to England, eventually settling in Toronto, Canada. Following President Andrew Johnson’s pardon of Confederates in 1868, Breckinridge returned to Kentucky, where he resided for the rest of his life. He died in 1875 at the age of 54.</p></note>
-  <bibl>American President: James Buchanan, Miller Center, University of Virginia, accessed June 22, 2015. <ref target="http://millercenter.org/president/buchanan/essays/vicepresident/1857">Link</ref></bibl>
+  <bibl><bibl>American President: James Buchanan, Miller Center, University of Virginia, accessed June 22, 2015. <ref target="http://millercenter.org/president/buchanan/essays/vicepresident/1857">Link</ref></bibl>
 <bibl>Breckinridge, John Cabell, (1821-1875), Biographical Directory of the United States Congress, accessed June 22, 2015. <ref target="http://bioguide.congress.gov/scripts/biodisplay.pl?index=b000789">Link</ref></bibl>
-<bibl>John Cabell Breckinridge, 14th Vice President (1857-1861), United States Senate website, accessed June 22, 2015. <ref target="http://www.senate.gov/artandhistory/history/common/generic/VP_John_Breckinridge.htm">Link</ref></bibl>
+<bibl>John Cabell Breckinridge, 14th Vice President (1857-1861), United States Senate website, accessed June 22, 2015. <ref target="http://www.senate.gov/artandhistory/history/common/generic/VP_John_Breckinridge.htm">Link</ref></bibl></bibl>
   <note type="internal">depicted in 11561; 11562; 11563; http://id.loc.gov/authorities/names/n85185549.html</note>
 </person>
 <person xml:id="ENT.000003334">
@@ -362,6 +360,16 @@ editor of NY Herald</note>
   <birth when="1791">1791</birth>
   <death when="1868">1868</death>
   <sex>Male</sex>
+  <note type="biography"><p>James Buchanan, sometimes referred to as “Old Buck,” was the 15th president of the United States, serving from 1857-61. He was the only president to hail from Pennsylvania as well as the only president never to marry.</p>
+<p>Buchanan, one of 11 children, was born in 1791 outside of Mercersburg, Pennsylvania. He graduated from Dickinson College in 1809 and opened a law practice in Lancaster, then the capital of the state, in 1813. He served as a member of the state assembly from 1814 to 1815 before being elected to the US Congress, serving from 1821 to 1831, initially as a Federalist but eventually as a Jacksonian. From 1832-33, Buchanan served as US minister to Russia. In 1834, he was elected to the US Senate and served until 1845 before taking up the post of secretary of state under President James K. Polk, 1845-49.</p>
+<p>In 1853, he became US minister to Great Britain. In this role, Buchanan was instrumental in drafting the controversial Ostend Manifesto, which justified taking Cuba from Spain. In 1856, shortly after returning from Great Britain, Buchanan was nominated for president by the Democratic Party and won the election. Before 1856, he had campaigned unsuccessfully for president in 1844, 1848, and 1858.</p>
+<p>Buchanan’s presidency was defined by deepening controversy and division over issues of slavery. Two days after Buchanan was inaugurated, the US Supreme Court handed down its decision in the Dred Scott case, ruling that African Americans were not United States citizens and declaring unconstitutional the Missouri Compromise of 1820, which had limited the spread of slavery in the US’s northern and western territories. The Missouri Compromise had already been undermined by passage of the Kansas-Nebraska Act in 1854, which allowed settlers in these territories to decide via popular vote whether or not to permit slavery. In Kansas, this had led to bloody violence between pro- and anti-slavery forces, and conflict over questions of admitting it to the Union as a state. Buchanan advocated allowing Kansas into the Union as a slave state, encouraging adoption of the Lecompton Constitution, a proposed pro-slavery state constitution ultimately rejected by Kansas voters. Buchanan’s longtime ally Stephen Douglas, arguing that Kansas’s state constitution should be decided by legitimate popular vote, broke with Buchanan and left his administration, an event that led to the splitting of the Democratic Party. John Brown’s 1859 raid on Harpers Ferry further deepened national tensions.</p>
+<p>In 1860, Buchanan’s Democratic Party, now split between pro-slavery Southern Democrats who backed candidate John C. Breckinridge and traditional or Northern Democrats who supported Stephen Douglas, lost the election to Republican candidate Abraham Lincoln. Buchanan had promised at his inauguration to serve only one term, and did not seek reelection. In reaction to Lincoln’s election, South Carolina seceded from the Union in December 1860, and other Southern states followed suit. When Buchanan left office, the country was on the brink of war.</p>
+<p>Buchanan, under attack from across the political spectrum for his failure to avert civil war, retired to Wheatland, his estate in Lancaster, Pennsylvania, and died in 1868.</p>
+</note>
+  <bibl><bibl>James Buchanan papers (Collection 91), Historical Society of Pennsylvania. <ref target="http://www2.hsp.org/collections/manuscripts/b/Buchanan0091.html">Finding aid</ref></bibl>
+<bibl>James Buchanan, biography at WhiteHouse.gov, accessed June 9, 2015. <ref target="https://whitehouse.gov/1600/presidents/jamesbuchanan">Link</ref></bibl>
+<bibl>American President: James Buchanan, Miller Center, University of Virginia, accessed June 9, 2015. <ref target="http://millercenter.org/president/buchanan">Link</ref></bibl> </bibl>
   <note type="internal">depicted in 12332, 11730</note>
 </person>
 <person xml:id="ENT.000003382">
@@ -507,6 +515,11 @@ editor of NY Herald</note>
   <birth when="1776">1776</birth>
   <death when="1820">1820</death>
   <sex>Male</sex>
+  <note type="biography">William Charles, born in Edinburgh, Scotland, in 1776, is best known for his prolific political etchings, often embellished with aquatint, celebrating American military victories during the War of 1812. Historians Stephen Hess and Milton Kaplan deem him “the first major American cartoonist to work on American soil.” &#13;
+Little is known about his professional training, but Charles had his own printing shop in London by at least 1803, out of which his earliest known prints, cartoons commenting on the Napoleonic Wars, were published. He moved back to Scotland and established a business called “Charles’s Emporium of Art and Fancy’s Produce” in Edinburgh sometime between February and July 1804. Charles emigrated to New York around 1806, possibly as a result of having raised the ire of British church authorities he had lampooned in his caricatures. There he published numerous political cartoons, etched plates for the American Magazine of Wit, and published at least two illustrated children’s books: Pompey the Little Who Was Tied to the Kettle and The Comic Adventures of Old Mother Hubbard and Her Dog. He moved to Philadelphia at some point between 1808 and 1814; he is listed in city directories and in the account books of Philadelphia publisher and economist Matthew Carey from at least 1808. &#13;
+The War of 1812 represented Charles’s professional heyday; his  numerous political cartoons published in Philadelphia between 1812 and 1815 are his best-known works. At some point in or around 1813, Charles partnered with Samuel Kennedy, a Philadelphia carver, gilder, and looking-glass maker. The two collaborated on a handful of cartoons that commented on the war. For many of these prints, Kennedy seems to have been the primary artist and Charles the etcher and/or publisher. The pair also planned to publish a monthly folio of cartoons but were unable to raise the necessary funds. &#13;
+After the War of 1812 ended, Charles largely did commercial engraving and publishing—bank notes, illustrated plates for reference books, and book illustrations—and produced some images of landscapes. He published few other political caricatures.&#13;
+Charles died on August 9, 1820; on a journey to Boston to promote his toy books, he fell overboard into the Delaware River and drowned. He left behind a wife, Mary Charles, who published children’s books out of a shop in Philadelphia until her death in 1823.</note>
 </person>
 <person xml:id="ENT.000003542">
   <persName key="ENT.000003542">
@@ -2227,6 +2240,9 @@ depicted in hint cartoon 12233</note>
   <birth when="1823">1823</birth>
   <death when="1898">1898</death>
   <sex>Male</sex>
+  <note type="biography"><p>William Henry Robertson was a lawyer and politician.</p>
+      <p>Robertson was born in Bedford, New York on October 10, 1823.  He practiced law in New York. Robertson became a member of the NY State Assembly in 1849 and 1850.  He served in the State senate (1854-1855; 1872 -1881; 1888-1891) and the United States Congress (1867-1869), and ran unsuccessfully for the governorship of New York in 1872.  In 1881, President James A. Garfield appointed Robertson to the position of Collector of the Port of New York.  Robertson died in Katonah, New York on December 6, 1898.</p></note>
+  <bibl><bibl>“Robertson, William Henry.” <hi rendition="#italics">Biographical Directory of the United States Congress</hi>. Accessed June 23, 2015. <ref target="http://bioguide.congress.gov/scripts/biodisplay.pl?index=R000328">Link</ref></bibl></bibl>
   <note type="internal">depicted in 11585-Bc612P567_1_TEI.xml ; http://id.loc.gov/authorities/names/no2009045320.html</note>
 </person>
 <person xml:id="ENT.000003701">
@@ -2361,6 +2377,11 @@ LOC:http://id.loc.gov/authorities/names/n86025981.html</note>
   <birth when="1829">1829</birth>
   <death when="1906">1906</death>
   <sex>Male</sex>
+  <note type="biography"><p>Carl Schurz was a journalist and politician.</p>
+      <p>Schurz was born in Liblar, Germany on March 2, 1829.  After taking part in the failed revolution of 1848, he was forced to leave his homeland in order to escape imprisonment.  He immigrated to the United States in 1852 and practiced law in Milwaukee, Wisconsin.  During the Civil War, he fought in the Union Army.  In 1866, he became editor of the <hi rendition="#italics">Detroit Post</hi>, as well as, a German language newspaper.  He served in the United States Senate from 1869 to 1875.  In 1877, President Rutherford B. Hayes appointed him Secretary of the Interior.  He served until 1881.  Schurz was editor of the <hi rendition="#italics">New York Evening Post</hi> (1881-1884) and President of the National Civil Service Reform League (1892-1901).  He died on May 14, 1906.</p></note>
+  <bibl><bibl>“Carl Schurz.” <hi rendition="#italics">Encyclopedia Britannica Online</hi>. Accessed June 23, 2015. <ref target="http://www.britannica.com/biography/Carl-Schurz">Link</ref></bibl>
+      
+      <bibl>“Schurz, Carl.” Biographical Directory of the United States Congress. Accessed June 23, 2015. <ref target="http://bioguide.congress.gov/scripts/biodisplay.pl?index=s000151">Link</ref></bibl></bibl>
   <note type="internal">http://id.loc.gov/authorities/names/n50003179.html ; depicted in 11585-Bc612P567_1_TEI.xml</note>
 </person>
 <person xml:id="ENT.000003747">
@@ -2420,11 +2441,6 @@ LOC:http://id.loc.gov/authorities/names/n86025981.html</note>
   <birth when="1823">1823</birth>
   <death when="1900">1900</death>
   <sex>Male</sex>
-  <note type="biography"><p>William Tecumseh Sherman was one of the Union’s most famous generals, best known for his efforts to demoralize the South through the destruction of property, epitomized in his March through Georgia in the fall of 1864. Sherman was born in Lancaster, Ohio, in 1820, to a prominent state judge, one of 11 children. The death of his father in 1829, however, left his family destitute, and William became the ward of Ohio lawyer and politician Thomas Ewing. In 1836, Sherman entered the US Military Academy, where he excelled. After his graduation in 1840, he served mostly in the South, including in the Seminole War. During the Mexican War, he was stationed in California, where he saw no combat. He returned east in 1850, where he married Ewing’s daughter, Ellen Ewing. He left the military at her insistence in 1853. From 1853 until 1861, Sherman worked as a banker and businessman in various locations. By 1859, Sherman was eager to reenter the army and was able to secure the position of superintendent of the Louisiana Military Seminary, where he served until February 1861, when he left when Louisiana seceded from the Union. A few months later he became a colonel in the regular army. Sherman performed valiantly at Shiloh and served as military governor of Memphis in 1862, where he came to recognize the important role that civilians—and morale—played in the war. In 1863, Sherman participated in the Vicksburg campaign and was promoted to brigadier general. That fall, Sherman was named commander of the Department of the Army of the Tennessee. Sherman first implemented his strategy to break the South through the widespread destruction of property in the Meridian Campaign of early 1864, leaving behind a path of destruction from Jackson to Meridian, Mississippi. In March 1864, Sherman became commander of the Military Division of the Mississippi and in charge of all military operations in the West. Sherman began his famous March through Georgia on September 1, 1864, following the fall of Atlanta, reaching Savannah on December 21.</p>                 
-                <p>Despite his devastating approach to war, Sherman advocated a lenient peace, and in April 1865 he negotiated such a peace with Confederate general Joseph Johnston. A nation recently traumatized by Lincoln’s assassination, however, forced him to renegotiate the peace treaty. After the war, Sherman remained in the army, and when Grant was elected president, Sherman became commanding general. Sherman retired in 1883 and later settled in New York City, where he died in 1888.</p></note>
-  <bibl><bibl>“Sherman, William Tecumseh.” <hi rendition="#italics">American National Biography</hi>.</bibl>
-                
-                <bibl>William T. Sherman Family Papers, Finding Aid. University of Notre Dame Archives. Notre Dame, Indiana.  <ref target="http://archives.nd.edu/findaids/ead/xml/shr.xml">Link</ref></bibl></bibl>
   <note type="internal">depicted in 11585-Bc612P567_1_TEI.xml ; http://id.loc.gov/authorities/names/n50023075</note>
 </person>
 <person xml:id="ENT.000003694">
@@ -2436,6 +2452,11 @@ LOC:http://id.loc.gov/authorities/names/n86025981.html</note>
   <birth when="1820">1820</birth>
   <death when="1891">1891</death>
   <sex>Male</sex>
+  <note type="biography"><p>William Tecumseh Sherman was one of the Union’s most famous generals, best known for his efforts to demoralize the South through the destruction of property, epitomized in his March through Georgia in the fall of 1864. Sherman was born in Lancaster, Ohio, in 1820, to a prominent state judge, one of 11 children. The death of his father in 1829, however, left his family destitute, and William became the ward of Ohio lawyer and politician Thomas Ewing. In 1836, Sherman entered the US Military Academy, where he excelled. After his graduation in 1840, he served mostly in the South, including in the Seminole War. During the Mexican War, he was stationed in California, where he saw no combat. He returned east in 1850, where he married Ewing’s daughter, Ellen Ewing. He left the military at her insistence in 1853. From 1853 until 1861, Sherman worked as a banker and businessman in various locations. By 1859, Sherman was eager to reenter the army and was able to secure the position of superintendent of the Louisiana Military Seminary, where he served until February 1861, when he left when Louisiana seceded from the Union. A few months later he became a colonel in the regular army. Sherman performed valiantly at Shiloh and served as military governor of Memphis in 1862, where he came to recognize the important role that civilians—and morale—played in the war. In 1863, Sherman participated in the Vicksburg campaign and was promoted to brigadier general. That fall, Sherman was named commander of the Department of the Army of the Tennessee. Sherman first implemented his strategy to break the South through the widespread destruction of property in the Meridian Campaign of early 1864, leaving behind a path of destruction from Jackson to Meridian, Mississippi. In March 1864, Sherman became commander of the Military Division of the Mississippi and in charge of all military operations in the West. Sherman began his famous March through Georgia on September 1, 1864, following the fall of Atlanta, reaching Savannah on December 21.</p>                 
+                <p>Despite his devastating approach to war, Sherman advocated a lenient peace, and in April 1865 he negotiated such a peace with Confederate general Joseph Johnston. A nation recently traumatized by Lincoln’s assassination, however, forced him to renegotiate the peace treaty. After the war, Sherman remained in the army, and when Grant was elected president, Sherman became commanding general. Sherman retired in 1883 and later settled in New York City, where he died in 1891.</p></note>
+  <bibl><bibl>“Sherman, William Tecumseh.” <hi rendition="#italics">American National Biography</hi>.</bibl>
+                
+                <bibl>William T. Sherman Family Papers, Finding Aid. University of Notre Dame Archives. Notre Dame, Indiana.  <ref target="http://archives.nd.edu/findaids/ead/xml/shr.xml">Link</ref></bibl></bibl>
   <note type="internal">mentioned in 11751; http://id.loc.gov/authorities/names/n80013437.html</note>
 </person>
 <person xml:id="ENT.000003587">
