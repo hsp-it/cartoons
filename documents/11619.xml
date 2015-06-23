@@ -235,14 +235,14 @@
 
         <body>
             <div type="image_transcription" facs="#Title" n="1">
-                <head><supplied resp="editorial">Title, Signature, and Notes</supplied></head>
+                <head><supplied resp="editorial">Title, signature, and notes</supplied></head>
                 <p>SIEGFRIED THE FEARLESS IN THE POLITICAL "DISMAL SWAMP."</p>
                 <p>J. KEPPLER</p>
                 <p><add rendition="#handwritten">DEC. 28, 1887</add></p>
             </div>
             
             <div type="image_transcription" facs="#Puck" n="2">
-                <head><supplied resp="editorial">Magazine Title</supplied></head>
+                <head><supplied resp="editorial">Magazine title</supplied></head>
                 <p>PUCK.</p>
             </div>
             <div type="image_transcription" facs="#Tail" n="3">
@@ -268,7 +268,7 @@
                 <p>CIRCULATION</p>
             </div>
             <div type="image_transcription" facs="#Shirt" n="8">
-                <head><supplied resp="editorial">Ghost Shirt</supplied></head>
+                <head><supplied resp="editorial">Ghost</supplied></head>
                 <p>BLOODY SHIRT</p>
             </div>
             <div type="image_transcription" facs="#Snake" n="9">
