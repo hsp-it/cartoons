@@ -94,7 +94,7 @@
             </respStmt>
             <respStmt>
               <resp key="pbl">publisher</resp>
-              <persName key="ENT.000003387">Unknown</persName>
+              <orgName key="ENT.000000435">Philadelphia Public Ledger</orgName>
             </respStmt>
             <title type="main" level="a">He Knows How to Handle Them</title>
             <date from="1908-06-18">June 18, 1908</date>
@@ -106,7 +106,7 @@
               <pubPlace>Philadelphia</pubPlace>
               <date from="1908-06-18">June 18, 1908</date>
               <publisher>
-                <persName key="ENT.000003387">Unknown</persName>
+                <orgName key="ENT.000000435">Philadelphia Public Ledger</orgName>
               </publisher>
             </imprint>
           </monogr>
@@ -181,28 +181,26 @@
   <text>
     <front>
       <div type="editorial_desc">
-        <p>In the cartoon, Theodore Roosevelt is depicted as a bee keeper and wears a shirt with his
-          initials "T.R". The hive is labeled "G.O.P National Convention" and, below it, there is a
-          sign that reads "indorsement of administration in G.O.P. Platform.</p>
-        <p>The cartoon suggests that Roosevelt knows how to handle his Republican Party. Before the
+        <p>In the cartoon, Theodore Roosevelt is depicted as a bee keeper approaching a bee hive.  He wears a shirt           with his initials "T.R". The hive is labeled "G.O.P National Convention." Roosevelt holds a honeycomb frame             labeled "indorsement of administration in G.O.P. Platform.</p>
+        <p>The cartoon suggests that Roosevelt knew how to get the most out of his Republican Party. Before the
           1908 presidential election, Roosevelt decided not to run for a third term and, instead, to
           help his Secretary of War William Taft win the election. Due to Roosevelt's political
-          support, Taft won his party's nomination and later, the presidential election.</p>
+          support, Taft won his party's nomination and, later, the presidential election.</p>
       </div>
     </front>
     <body>
       <div type="image_transcription" n="1" facs="#Title">
         <head><supplied resp="editorial">Title and note</supplied></head>
         <p>HE KNOWS HOW TO HANDLE THEM</p>
-        <p><add rendition="#handwritten">Ledger 6-18-08</add></p>
+        <p><add rendition="#handwritten"><orgName key="ENT.000000435">Ledger</orgName> 6-18-08</add></p>
       </div>
       <div type="image_transcription" n="2" facs="#Sign">
-        <head><supplied resp="editorial">Sign</supplied></head>
+        <head><supplied resp="editorial">Honeycomb</supplied></head>
         <p>INDORSEMENT OF ADMINISTRATION IN G.O.P. PLATFORM</p>
       </div>
       <div type="image_transcription" n="3" facs="#Note">
         <head><supplied resp="editorial">Note</supplied></head>
-        <p><add rendition="#handwritten">Ledger 6-18-08</add></p>
+        <p><add rendition="#handwritten"><orgName key="ENT.000000435">Ledger</orgName> 6-18-08</add></p>
       </div>
       <div type="image_transcription" n="4" facs="#Hive">
         <head><supplied resp="editorial">Hive</supplied></head>
