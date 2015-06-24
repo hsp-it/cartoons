@@ -164,6 +164,8 @@
         <catRef target="cartoons_taxonomies.xml#econ"/>
         <catRef target="cartoons_taxonomies.xml#labor"/>
         <catRef target="cartoons_taxonomies.xml#twentieth"/>
+        <catRef target="cartoons_taxonomies.xml#children"/>
+        <catRef target="cartoons_taxonomies.xml#culture"/>
       </textClass>
     </profileDesc>
     <revisionDesc>
@@ -192,10 +194,10 @@
         <p>John D. Rockefeller sits on a rocking chair and recounts a "fairy tale" to a child
           sitting on his lap. The child is labeled "common people." In the fairy tale, Rockefeller
           defends Standard Oil and his business practices.</p>
-        <p>John D. Rockefeller was an American businessman, philanthropist and founder of Standard
+        <p>John D. Rockefeller was an American businessman, philanthropist, and founder of Standard
           Oil. In the 1870s and 1880s, Rockefeller drove all his competitors out of business and
-          monopolized the U.S. petroleum industry. In 1908, President Theodore Roosevelt launched a
-          major anti-trust suit which targeted Rockefeller's Standard Oil. In May 1911, the U.S.
+          monopolized the US petroleum industry. In 1908, President Theodore Roosevelt launched a
+          major anti-trust suit which targeted Rockefeller's Standard Oil. In May 1911, the US
           Supreme Court declared Standard Oil in violation of the Sherman Anti-Trust Law and
           dissolved the company. Despite the Supreme Court's decision, Rockefeller continued to
           amass a fortune and is considered one of the wealthiest men in US history.</p>
