@@ -27,7 +27,8 @@
         </respStmt>
         <respStmt>
           <resp key="pbl">publisher</resp>
-          <persName key="ENT.000003387">Unknown</persName>
+          <orgName key="ENT.000000437">Philadelphia
+                Record</orgName>
         </respStmt>
       </titleStmt>
       <editionStmt>
@@ -104,7 +105,8 @@
             </respStmt>
             <respStmt>
               <resp key="pbl">publisher</resp>
-              <persName key="ENT.000003387">Unknown</persName>
+              <orgName key="ENT.000000437">Philadelphia
+                Record</orgName>
             </respStmt>
             <title type="main" level="a">"For He Himself Has Said It"</title>
             <date from="1914-07-27">July 27, 1914</date>
@@ -116,7 +118,8 @@
               <pubPlace>Philadelphia</pubPlace>
               <date from="1914-07-27">July 27, 1914</date>
               <publisher>
-                <persName key="ENT.000003387">Unknown</persName>
+                <orgName key="ENT.000000437">Philadelphia
+                Record</orgName>
               </publisher>
             </imprint>
           </monogr>
@@ -168,6 +171,7 @@
         <catRef target="cartoons_taxonomies.xml#laws"/>
         <catRef target="cartoons_taxonomies.xml#children"/>
         <catRef target="cartoons_taxonomies.xml#press"/>
+        <catRef target="cartoons_taxonomies.xml#culture"/>
       </textClass>
     </profileDesc>
     <revisionDesc>
@@ -192,25 +196,25 @@
   <text>
     <front>
       <div type="editorial_desc">
-        <p>On a wall, A young Teddy Roosevelt draws an image of himself as an adult. He also has
-          drawn a group of men who he has labeled Charlie Murphy, Penrose, and Bill Barnes. Some of
+        <p>On a wall, a young Teddy Roosevelt, drawn as a schoolboy, draws an image of himself as an adult. He also has
+          drawn a group of men whom he has labeled Charlie Murphy, Penrose, and Bill Barnes. Some of
           the letters in their names are written backwards so that it looks like a child's
           handwriting.</p>
-        <p>On July 22, 1914 Roosevelt accused Bill Barnes, owner of the <hi rendition="#italics"
+        <p>On July 22, 1914, Roosevelt accused Bill Barnes, owner of the <hi rendition="#italics"
             >Albany Times-Union</hi>, of corruption and of working with two known political bosses,
           Boies Penrose and Charlie Murphy. His comments were published in newspapers across the
           country. The following day Barnes filed a suit against Roosevelt. At the conclusion of the
-          trial, Roosevelt was found innocent and Barnes' political career was over.</p>
+          trial, Roosevelt was found innocent and Barnes's political career was over.</p>
       </div>
     </front>
     <body>
       <div type="image_transcription" n="1" facs="#Title">
         <head><supplied resp="editorial">Title and artist</supplied></head>
         <p>"FOR HE HIMSELF HAS SAID IT."</p>
-        <p>"I regard the action of Mr. Barnes as the most striking proof that could be given that
+        <p>"I regard the action of Mr. <persName key="ENT.000003665">Barnes</persName> as the most striking proof that could be given that
           the bosses recognize in ME personally the ONE enemy that the type of machine government
           for which they stand has to fear."-Roosevelt.</p>
-        <p><add rendition="#handwritten">Record 7-27-1914</add></p>
+        <p><add rendition="#handwritten"><orgName key="ENT.000000437">Record</orgName> 7-27-1914</add></p>
         <p>-By <persName key="ENT.000000436">De Mar</persName>.</p>
       </div>
       <div type="image_transcription" n="2" facs="#Group">
