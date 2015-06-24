@@ -64,7 +64,7 @@
             </projectDesc>
         </encodingDesc>
         <revisionDesc>
-            <change who="HSP" when="2015-06-23">Exported from Collective Access.</change>
+            <change who="HSP" when="2015-06-24">Exported from Collective Access.</change>
         </revisionDesc>
     </teiHeader>
 
@@ -224,11 +224,11 @@ carton# 6807 Out with them all!</note>
                 <p>Post-war, <hi rendition="#italics">Harper’s</hi> supported the Republican Party. In 1863, George William Curtis became the political editor of the magazine, and remained in that capacity until his death in 1892. His editorials advocated civil service reform, low tariffs, and adherence to the gold standard. <hi rendition="#italics">Harper’s Weekly</hi> also became well-known as the forum for celebrated republican cartoonist Thomas Nast, “the father of modern political cartoons.” In the 1870s, Nast began an aggressive campaign in the journal against the corrupt New York political leader William “Boss” Tweed. Nast turned down a $500,000 bribe to end his attack. Tweed was arrested in 1873 and convicted of fraud.</p>
                 
                 <p>After 1900, <hi rendition="#italics">Harper’s Weekly</hi> devoted more print to political and social issues, and featured articles by some of the more prominent political figures of the time, such as Theodore Roosevelt and Woodrow Wilson. <hi rendition="#italics">Harper's Weekly</hi> published its final issue on May 13, 1916.</p></note>
-  <bibl><bibl>Cunningham, John M. “Alfred R. Waud.” <hi rendition="#italics">Encyclopedia Britannica online</hi>.  http://www.britannica.com/EBchecked/topic/637773/Alfred-R-Waud</bibl>
+  <bibl><bibl>Cunningham, John M. “Alfred R. Waud.” <hi rendition="#italics">Encyclopedia Britannica online</hi>.  <ref target="http://www.britannica.com/EBchecked/topic/637773/Alfred-R-Waud">Link</ref></bibl>
                 
                 <bibl>Halloran, Fiona Deans. <hi rendition="#italics">Thomas Nast: The Father of Modern Political Cartoons</hi>. Chapel Hill, NC: The University of North Carolina Press, 2012.</bibl>
                 
-                <bibl>“Harper’s Weekly.” <hi rendition="#italics">Wikipedia, the Free Encyclopedia</hi>. Accessed June 11, 2015. http://en.wikipedia.org/wiki/Harper's_Weekly</bibl></bibl>
+                <bibl>“Harper’s Weekly.” <hi rendition="#italics">Wikipedia, the Free Encyclopedia</hi>. Accessed June 11, 2015. <ref target="http://en.wikipedia.org/wiki/Harper's_Weekly">Link</ref></bibl></bibl>
 </org>
 <org xml:id="ENT.000003611">
   <orgName key="ENT.000003611">J. Ottman Lithographic Company<orgName type="alt">J. Ottmann Litho Co.</orgName><orgName type="alt">Ottman Lithographic Company</orgName></orgName>
@@ -287,8 +287,8 @@ LOC name authority record spells Ottman with one "n", but in the cartoon "If-The
 <org xml:id="ENT.000003582">
   <orgName key="ENT.000003582">Lithography of Imbert</orgName>
   <note type="org"><p> Anthony Imbert began a lithography company on Murray Street in New York City in 1825, and gained renown for producing the plates for <hi rendition="#italics">Memoir</hi>, a commemorative book by Cadwallader D. Colden celebrating the completion of the Erie Canal. The 35 plates in <hi rendition="#italics">Memoir</hi> showed a variety of new lithographic techniques, and the book’s text proclaimed Imbert’s relatively new lithography business “the most prominent in New York,” which was very likely an exaggeration. Imbert became well known as a lithographer of landscapes, and flourished as the Hudson River School style and interest in New York scenes grew.</p> 
-               <p> Imbert began lithographing music scores in 1827, and caricatures and satirical images in 1828; between 1828 and his death in 1834 he issued 19 cartoons, more than double that of any other publisher in the country. </p></note>
-  <bibl><bibl>Colden, Cadwallader D. <hi rendition="#italics">Memoir, prepared at the request of a committee of the Common Council of the city of New York, and presented to the mayor of the city, at the celebration of the completion of the New York canals.</hi> New York: Corp. of New York, 1825. </bibl>
+               <p> Imbert began lithographing music scores in 1827, and caricatures and satirical images in 1828; between 1828 and his death in 1834 he issued 19 cartoons, more than double that of any other publisher in the country. He is credited with producing the first lithographed political cartoon in America, A New Map of the United States with the Additional Territories on an Improved Plan (1829).</p></note>
+  <bibl><bibl>Colden, Cadwallader D. Colden, <hi rendition="#italics">Memoir, prepared at the request of a committee of the Common Council of the city of New York, and presented to the mayor of the city, at the celebration of the completion of the New York canals.</hi> New York: Corp. of New York, 1825. </bibl>
  <bibl>Gross, Robert A. and Mary Kelly.<hi rendition="#italics"> An Extensive Republic: Print, Culture, and Society in the New Nation, 1790-1840.</hi> Chapel Hill: UNC Press Books, 2010. </bibl>
 <bibl>Tatham, David. <hi rendition="#italics">Prints and Printmakers of New York State, 1825-1940.</hi> Syracuse: Syracuse University Press, 1986. </bibl></bibl>
 </org>

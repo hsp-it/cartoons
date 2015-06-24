@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+
+
 <?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 
@@ -64,7 +66,7 @@
             </projectDesc>
         </encodingDesc>
         <revisionDesc>
-            <change who="HSP" when="2015-06-23">Exported from Collective Access.</change>
+            <change who="HSP" when="2015-06-24">Exported from Collective Access.</change>
         </revisionDesc>
     </teiHeader>
 
@@ -515,11 +517,16 @@ editor of NY Herald</note>
   <birth when="1776">1776</birth>
   <death when="1820">1820</death>
   <sex>Male</sex>
-  <note type="biography">William Charles, born in Edinburgh, Scotland, in 1776, is best known for his prolific political etchings, often embellished with aquatint, celebrating American military victories during the War of 1812. Historians Stephen Hess and Milton Kaplan deem him “the first major American cartoonist to work on American soil.” &#13;
-Little is known about his professional training, but Charles had his own printing shop in London by at least 1803, out of which his earliest known prints, cartoons commenting on the Napoleonic Wars, were published. He moved back to Scotland and established a business called “Charles’s Emporium of Art and Fancy’s Produce” in Edinburgh sometime between February and July 1804. Charles emigrated to New York around 1806, possibly as a result of having raised the ire of British church authorities he had lampooned in his caricatures. There he published numerous political cartoons, etched plates for the American Magazine of Wit, and published at least two illustrated children’s books: Pompey the Little Who Was Tied to the Kettle and The Comic Adventures of Old Mother Hubbard and Her Dog. He moved to Philadelphia at some point between 1808 and 1814; he is listed in city directories and in the account books of Philadelphia publisher and economist Matthew Carey from at least 1808. &#13;
-The War of 1812 represented Charles’s professional heyday; his  numerous political cartoons published in Philadelphia between 1812 and 1815 are his best-known works. At some point in or around 1813, Charles partnered with Samuel Kennedy, a Philadelphia carver, gilder, and looking-glass maker. The two collaborated on a handful of cartoons that commented on the war. For many of these prints, Kennedy seems to have been the primary artist and Charles the etcher and/or publisher. The pair also planned to publish a monthly folio of cartoons but were unable to raise the necessary funds. &#13;
-After the War of 1812 ended, Charles largely did commercial engraving and publishing—bank notes, illustrated plates for reference books, and book illustrations—and produced some images of landscapes. He published few other political caricatures.&#13;
-Charles died on August 9, 1820; on a journey to Boston to promote his toy books, he fell overboard into the Delaware River and drowned. He left behind a wife, Mary Charles, who published children’s books out of a shop in Philadelphia until her death in 1823.</note>
+  <note type="biography"><p>William Charles, born in Edinburgh, Scotland, in 1776, is best known for his prolific political etchings, often embellished with aquatint, celebrating American military victories during the War of 1812. Historians Stephen Hess and Milton Kaplan deem him “the first major American cartoonist to work on American soil.”</p>
+<p>Little is known about his professional training, but Charles had his own printing shop in London by at least 1803, out of which his earliest known prints, cartoons commenting on the Napoleonic Wars, were published. He moved back to Scotland and established a business called “Charles’s Emporium of Art and Fancy’s Produce” in Edinburgh sometime between February and July 1804. Charles emigrated to New York around 1806, possibly as a result of having raised the ire of British church authorities he had lampooned in his caricatures. There he published numerous political cartoons, etched plates for the <hi rendition="#italics">American Magazine of Wit</hi>, and published at least two illustrated children’s books: <hi rendition="#italics">Pompey the Little Who Was Tied to the Kettle</hi> and <hi rendition="#italics">The Comic Adventures of Old Mother Hubbard and Her Dog</hi>. He moved to Philadelphia at some point between 1808 and 1814; he is listed in city directories and in the account books of Philadelphia publisher and economist Matthew Carey from at least 1808.</p>
+<p>The War of 1812 represented Charles’s professional heyday; his  numerous political cartoons published in Philadelphia between 1812 and 1815 are his best-known works. At some point in or around 1813, Charles partnered with Samuel Kennedy, a Philadelphia carver, gilder, and looking-glass maker. The two collaborated on a handful of cartoons that commented on the war. For many of these prints, Kennedy seems to have been the primary artist and Charles the etcher and/or publisher. The pair also planned to publish a monthly folio of cartoons but were unable to raise the necessary funds.</p>
+<p>After the War of 1812 ended, Charles largely did commercial engraving and publishing (bank notes, illustrated plates for reference books, and book illustrations) and produced some images of landscapes. He published few other political caricatures.</p>
+<p>Charles died on August 9, 1820; on a journey to Boston to promote his toy books, he fell overboard into the Delaware River and drowned. He left behind a wife, Mary Charles, who published children’s books out of a shop in Philadelphia until her death in 1823.</p></note>
+  <bibl><bibl>Stephen Hess and Milton Kaplan, <hi rendition="#italics">The Ungentlemanly Art: A History of American Political Cartoons</hi> (New York: Macmillan, 1968).</bibl>
+<bibl>Lorraine Welling Lanmon, “American Caricature in the English Tradition: The Personal and Political Satires of William Charles,” <hi rendition="#italics">Winterthur Portfolio</hi> 11 (1976): 1-51.</bibl>
+<bibl>Lorraine Dwelling Lanmon, “William Charles and His War of 1812 Caricatures,” in <hi rendition="#italics">Philadelphia Printmaking: American Prints before 1860</hi>, edited by Robert F. Looney (West Chester, PA: Tinicum Press, 1977), 91-109.</bibl>
+<bibl><hi rendition="#italics">Made in America: Printmaking 1760-1860</hi> (Philadelphia: Library Company of Philadelphia, 1973), 18-19.</bibl>
+<bibl>William Murrell, <hi rendition="#italics">A History of American Graphic Humor</hi>, vol. 1 (New York: Whitney Museum of American Art, 1933), 79-95.</bibl></bibl>
 </person>
 <person xml:id="ENT.000003542">
   <persName key="ENT.000003542">
@@ -1326,7 +1333,13 @@ He was born in Haverstraw, New York in 1822 and attended Columbia College where 
   <birth when="1794">1794</birth>
   <death when="1834">1834</death>
   <sex>Male</sex>
-  <note type="internal">http://id.loc.gov/authorities/names/nr90027492.html. Copy and paste bio from description of Lithography of Imbert (ENT.000003582) (org).</note>
+  <note type="biography"><p>Anthony Imbert is credited with producing the first lithographed political cartoon in America, <hi rendition="#italics">A New Map of the United States with the Additional Territories on an Improved Plan</hi> (1829). He was a French immigrant, believed to be born in Calais in 1794 or 1795 and to have served as an officer in the French navy during the Napoleonic Wars, during which time he was captured by the British and imprisoned between 1810 and 1814. At some point he immigrated to New York; city directories identifying him as a “painter” place him in the city by at least 1825. In 1825 he began his own lithography firm and soon gained renown for producing the plates for <hi rendition="#italics">Memoir</hi>, a commemorative book by Cadwallader D. Colden celebrating the completion of the Erie Canal. The 35 plates in <hi rendition="#italics">Memoir</hi>showed a variety of new lithographic techniques, and the book’s text proclaimed Imbert’s relatively new lithography business “the most prominent in New York,” which was very likely an exaggeration. Imbert became well known as a lithographer of landscapes, and flourished as the Hudson River School style and interest in New York scenes grew.</p>
+<p>Imbert began lithographing music scores in 1827 and caricatures and satirical images in 1828; between 1828 and his death in 1834 he issued 19 cartoons, more than double that of any other publisher in the country.</p>
+</note>
+  <bibl><bibl>John Carbonell, “Anthony Imbert: New York’s Pioneer Lithographer,” in <hi rendition="#italics">Prints and Printmakers of New York State, 1825-1940</hi>, edited by David Tatham (Syracuse, NY: Syracuse University Press, 1986), 11-41.</bibl>
+<bibl>William Murrell, <hi rendition="#italics">A History of American Graphic Humor</hi>, vol. 1, 1747-1865 (New York: Whitney Museum of American Art, 1933), 115-116.</bibl>
+</bibl>
+  <note type="internal">http://id.loc.gov/authorities/names/nr90027492.html. </note>
 </person>
 <person xml:id="ENT.000002223">
   <persName key="ENT.000002223">
@@ -2441,6 +2454,13 @@ LOC:http://id.loc.gov/authorities/names/n86025981.html</note>
   <birth when="1823">1823</birth>
   <death when="1900">1900</death>
   <sex>Male</sex>
+  <note type="biography"><p>John Sherman was born on May 10, 1823 in Ohio and was the brother of William Tecumseh Sherman.  He studied law and was admitted to the bar in 1844.  He represented Ohio in the US House of Representatives from 1855 to 1861.  Sherman became a US Senator in 1861 and served until 1877.  As Senator, he supported the passage of the National Bank Act and the Legal Tender Act which helped finance the war effort.  He also helped draft the Reconstruction Act of 1867, supported the Fifteenth Amendment, and voted to impeach Andrew Johnson.  In 1877, Sherman left the Senate to serve as Secretary of the Treasury during the Hayes’ administration.  He left Hayes’ cabinet in 1881 and returned to the United States Senate where he remained until 1897.  As Senator, he authored the Sherman Anti-Trust Act which limited the power of monopolies.   Although he was an influential and well respected politician, Sherman lost his bid to become the Republican presidential nominee three times (1880, 1884, and 1888).  In 1897, President McKinley appointed him Secretary of State, but, due to failing health, he resigned after serving only one year.  Sherman died on October 22, 1900.</p></note>
+  <bibl><bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). <hi rendition="#italics">Historical dictionary of the Gilded Age</hi>. Armonk, N.Y.: M.E. Sharpe.</bibl> 
+      
+      <bibl>“Sherman, John.” <hi rendition="#italics">Biographical Directory of the United States Congress</hi>. Accessed June 23, 2015. <ref target="http://bioguide.congress.gov/scripts/biodisplay.pl?index=s000346">Link</ref></bibl>
+      
+      <bibl>“John Sherman.” <hi rendition="#italics">Ohio History Central</hi>. Accessed June 24, 2015. <ref target="http://www.ohiohistorycentral.org/w/John_Sherman">Link</ref></bibl>
+      <bibl>“John Sherman.” <hi rendition="#italics">United States Department of State, Office of the Historian</hi>. Accessed June 23, 2015. <ref target="https://history.state.gov/departmenthistory/people/sherman-john">Link</ref></bibl></bibl>
   <note type="internal">depicted in 11585-Bc612P567_1_TEI.xml ; http://id.loc.gov/authorities/names/n50023075</note>
 </person>
 <person xml:id="ENT.000003694">
@@ -2829,7 +2849,12 @@ Depicted in Hint cartoon #11834</note>
   <birth when="1821">1821</birth>
   <death when="1885">1885</death>
   <sex>Male</sex>
-  <note type="internal">LOC:  http://id.loc.gov/authorities/names/no98076093.html
+  <note type="biography"><p>Theodoric Westbrook was a congressman and New York Supreme Court Justice.</p>
+      <p>Westbrook was born on November 20, 1882 in New York.  He graduated from Rutgers College in 1838, studied law, and was admitted to the bar in 1843.  He practiced in Kingston, Ulster County, NY.  Westbrook became a member of the US House of Representatives in 1853 and served only one term (1853-1855).  In 1873, Westbrook became a Justice of the New York Supreme Court.</p>  
+      <p>Westbrook was accused of using his judicial powers to help Jay Gould acquire the Manhattan Elevated Railway Company.  A special committee of the NY State Assembly investigated the accusations and found Westbrook innocent of the corruption charges.   It was rumored that the committee members had accepted bribes, and, thus, Westbrook’s reputation was forever tarnished.  He died on October 6, 1885.</p></note>
+  <bibl><bibl>“Found Dead in His Room:  Judge T.R. Westbrook Stricken with Heart Disease.” <hi rendition="#italics">NY Times Online</hi>.   Accessed June 24, 2015. <ref target="http://query.nytimes.com/mem/archive-free/pdf?res=9C03E5DE173AEF33A25754C0A9669D94649FD7CF">Link</ref></bibl>
+      <bibl>“Westbrook, Theodoric Romeyn.” <hi rendition="#italics">Biographical Directory of the United States Congress</hi>. Accessed June 24, 2015. <ref target="http://bioguide.congress.gov/scripts/biodisplay.pl?index=W000307">Link</ref></bibl></bibl>
+  <note type="internal">LOC:  http://id.loc.gov/authorities/names/no98076093.html. depicted in hint cartoon "deadly upas tree of wall street"
 </note>
 </person>
 <person xml:id="ENT.000003767">
