@@ -155,7 +155,7 @@
   </facsimile>
   <text>
     <front>
-      <div type="editorial_desc"><p>In order to avoid further economic collapse during the Panic of 1907, Roosevelt allowed US Steel, a major corporate trust, to buy out Tennessee Coal, Iron, and Railroad Company.  Thus, the political cartoon pokes fun at Theodore Roosevelt's image as a trust buster.  Roosevelt sits on his chair labeled "T.R." and revises his presidential plan by removing all of his "trust busting clubs."  Many of his clubs are in the waste paper basket or on the floor.  In the background there is an image of a building supported by three beams which is about to collapse.  The building is labeled "financial system."</p></div>
+      <div type="editorial_desc"><p>In order to avoid further economic collapse during the Panic of 1907, "trust-busting" President Theodore Roosevelt set aside enforcement of antitrust laws, allowing US Steel, a major corporate trust, to buy out Tennessee Coal, Iron, and Railroad Company. This political cartoon depicts Roosevelt sitting at a desk, revising his presidential plan by using scissors to cut out images of clubs (perhaps a reference to his mantra "speak softly and carry a big stick"?) underneath the headings "Corporations" and "Trusts." Several pieces of paper bearing images of clubs are in the waste paper basket or on the floor. In the background can be seen a building, labeled "financial system" and supported by three beams, which is about to collapse.</p></div>
     </front>
     <body>
       <div type="image_transcription" n="1" facs="#Title"><head><supplied resp="editorial">Title and notes</supplied></head>
@@ -164,7 +164,7 @@
                 <p>-By De Mar.</p></div>
       <div type="image_transcription" n="2" facs="#Message"><head><supplied resp="editorial">President's Message</supplied></head>
                 <p>PRESIDENT'S MESSAGE TO CONGRESS</p>
-                <p>WALLSTREET</p></div>
+                <p>WALL STREET</p></div>
       <div type="image_transcription" n="3" facs="#Paper"><head><supplied resp="editorial">Presidential plan</supplied></head>
                 <p>CORPORATIONS</p>
                 <p>TRUSTS</p></div>
@@ -173,7 +173,7 @@
       <div type="image_transcription" n="5" facs="#Building"><head><supplied resp="editorial">Financial building</supplied></head>
                 <p>FINANCIAL SITUATION</p></div>
       <div type="image_annotation" n="6" facs="#Roosevelt"><head><persName key="ENT.000002738">Theodore Roosevelt</persName></head>
-                <p>Theodore Roosevelt served as US president from 1901 to 1909 and became known as the "trust buster."  However, in order to avoid further economic collapse during the Panic of 1907, Roosevelt allowed US Steel, a major corporate trust, to buy out Tennessee Coal, Iron, and Railroad Company.  The cartoon pokes fun at Roosevelt's response to the financial crisis by depicting him cutting out all the "trust busting clubs" from his presidential plan.</p></div>
+                <p>Theodore Roosevelt served as US president from 1901 to 1909 and became known as "The Trust Buster" for his antimonopoly policies. However, in order to avoid further economic collapse during the Panic of 1907, Roosevelt allowed US Steel, a major corporate trust, to buy out Tennessee Coal, Iron, and Railroad Company. The cartoon pokes fun at Roosevelt's abandonment of his previous policies by depicting him cutting out all the "big sticks" he would use to enforce anti-trust legislation from his presidential plan.</p></div>
     </body>
   </text>
 </TEI>
