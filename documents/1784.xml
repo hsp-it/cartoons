@@ -23,10 +23,7 @@
           <resp key="pfr">Proofread by</resp>
           <persName key="ENT.000003544">Biunno, Diane</persName>
         </respStmt>
-        <respStmt>
-          <resp key="pbl">publisher</resp>
-          <persName key="ENT.000003387">Unknown</persName>
-        </respStmt>
+       
         <respStmt>
           <resp key="pbl">publisher</resp>
           <orgName key="ENT.000000437">Philadelphia Record</orgName>
@@ -97,10 +94,7 @@
               <resp key="art">artist</resp>
               <persName key="ENT.000000436">De Mar, John L.</persName>
             </respStmt>
-            <respStmt>
-              <resp key="pbl">publisher</resp>
-              <persName key="ENT.000003387">Unknown</persName>
-            </respStmt>
+           
             <respStmt>
               <resp key="pbl">publisher</resp>
               <orgName key="ENT.000000437">Philadelphia Record</orgName>
@@ -115,7 +109,8 @@
               <pubPlace>Philadelphia</pubPlace>
               <date from="1912-11-06">November 6, 1912</date>
               <publisher>
-                <persName key="ENT.000003387">Unknown</persName>
+                <orgName key="ENT.000000437">Philadelphia
+              Record</orgName>
               </publisher>
             </imprint>
           </monogr>
@@ -195,15 +190,15 @@
   <text>
     <front>
       <div type="editorial_desc">
-        <p>In the image, Woodrow Wilson rides a "Washington special" train to the White House.
+        <p>In the image, Woodrow Wilson rides a train labeled "Washington special" to the White House.
           Behind the train lies an elephant, symbol of the Republican party. A bull moose, symbol of
-          the Progressive party, hangs from the wires. A broken wagon with the sign "Wilson's
+          the Progressive party, hangs from the telegraph wires along the track. A broken wagon with the sign "Wilson's
           election will be a calamity" is next to the train tracks. A man labeled "the trusts" looks
           out from the wagon.</p>
         <p>Woodrow Wilson became the 28th president of the United States after winning the 1912
           election. He defeated Progressive candidate Theodore Roosevelt and Republican candidate
           Howard Taft. During the 1912 presidential campaign he called for stricter anti-trust laws
-          and disagreed with Roosevelt's policies which distinguished between "good" and "bad"
+          and disagreed with Roosevelt's policies distinguishing between "good" and "bad"
           trusts. According to Wilson, all trusts were harmful to the economy and must be
           dismantled. He served two presidential terms.</p>
       </div>
@@ -214,7 +209,7 @@
         <p>PLEASE OMIT FLOWERS.</p>
       </div>
       <div type="image_transcription" n="2" facs="#Artist">
-        <head><supplied resp="editorial">Artist and notes</supplied></head>
+        <head><supplied resp="editorial">Artist signature and notes</supplied></head>
         <p>By <persName key="ENT.000000436">De Mar.</persName></p>
         <p><add rendition="#handwritten">Phila Record 11-6-1912.</add></p>
       </div>
@@ -229,7 +224,7 @@
         <head><rs ref="cartoons_symbols.xml#bull_moose">Bull
           Moose</rs></head>
         <p>The bull moose is a symbol for the Progressive Party. <persName key="ENT.000002738"
-          >Theodore Roosevelt</persName> established the Party in 1912 because of political
+          >Theodore Roosevelt</persName> established the party in 1912 because of political
           disputes with the Republican Party and President Taft. Roosevelt ran as the Progressive
           Party nominee during the election of 1912 and lost to <persName key="ENT.000003084"
             >Woodrow Wilson</persName>.</p>
@@ -241,7 +236,7 @@
       </div>
       <div type="image_transcription" n="6" facs="#Wagon">
         <head><supplied resp="editorial">Wagon</supplied></head>
-        <p><hi rendition="#bold">WILSON'S</hi> ELECTION WILL BE A <hi rendition="#bold"
+        <p><hi rendition="#bold"><persName key="ENT.000003084">WILSON'S</persName></hi> ELECTION WILL BE A <hi rendition="#bold"
           >CALAMITY</hi></p>
         <p>THE TRUSTS</p>
       </div>
