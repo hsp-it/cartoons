@@ -20,7 +20,7 @@
         </respStmt>
         <respStmt>
           <resp key="pbl">publisher</resp>
-          <persName key="ENT.000003387">Unknown</persName>
+          <orgName key="ENT.000000437">Philadelphia Record</orgName>
         </respStmt>
       </titleStmt>
       <editionStmt><p>First edition, <date when="2015">2015</date></p></editionStmt>
@@ -65,7 +65,7 @@
           <analytic>
             <respStmt>
               <resp key="pbl">publisher</resp>
-              <persName key="ENT.000003387">Unknown</persName>
+              <orgName key="ENT.000000437">Philadelphia Record</orgName>
             </respStmt>
             <title type="main" level="a">The Hardest Job They Ever Tackled</title>
             <date from="1908-08-16">August 16, 1908</date>
@@ -78,7 +78,7 @@
               <biblScope unit="issue">14,314</biblScope>
               <biblScope unit="page">1</biblScope>
               <publisher>
-                <persName key="ENT.000003387">Unknown</persName>
+                <orgName key="ENT.000000437">Philadelphia Record</orgName>
               </publisher>
             </imprint>
           </monogr>
@@ -161,8 +161,8 @@
     <body>
       <div type="image_transcription" n="1" facs="#Title"><head><supplied resp="editorial">Title</supplied></head>
                 <p>THE HARDEST JOB THEY EVER TACKLED</p></div>
-      <div type="image_transcription" n="2" facs="#Artist"><head><supplied resp="editorial"><persName key="ENT.000000436">John L. De Mar's </persName> Signature</supplied></head>
-                <p>-By De Mar.</p></div>
+      <div type="image_transcription" n="2" facs="#Artist"><head><supplied resp="editorial">Artist's signature</supplied></head>
+                <p>-By <persName key="ENT.000000436">De Mar</perName>.</p></div>
       <div type="image_transcription" n="3" facs="#Weights"><head><supplied resp="editorial">Weights</supplied></head>
                 <p>INDUSTRIAL DEPRESSION</p>
                 <p>RECORD OF THE REPUBLICAN PARTY</p></div>
