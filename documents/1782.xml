@@ -26,7 +26,8 @@
         </respStmt>
         <respStmt>
           <resp key="pbl">publisher</resp>
-          <persName key="ENT.000003387">Unknown</persName>
+          <orgName key="ENT.000000437"
+            >Philadelphia Record</orgName>
         </respStmt>
       </titleStmt>
       <editionStmt>
@@ -99,7 +100,8 @@
             </respStmt>
             <respStmt>
               <resp key="pbl">publisher</resp>
-              <persName key="ENT.000003387">Unknown</persName>
+              <orgName key="ENT.000000437"
+                >Philadelphia Record</orgName>
             </respStmt>
             <title type="main" level="a">BLOCKED</title>
             <date from="1907-10-17">October 17, 1907</date>
@@ -111,7 +113,8 @@
               <pubPlace>Philadelphia</pubPlace>
               <date from="1907-10-17">October 17, 1907</date>
               <publisher>
-                <persName key="ENT.000003387">Unknown</persName>
+                <orgName key="ENT.000000437"
+                  >Philadelphia Record</orgName>
               </publisher>
             </imprint>
           </monogr>

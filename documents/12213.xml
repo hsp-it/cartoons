@@ -107,11 +107,11 @@
                     <analytic>
                         <respStmt>
                             <resp key="art">artist</resp>
-                            <persName key="ENT.000000553"/>
+                            <persName key="ENT.000000553">Unknown Artist</persName>
                         </respStmt>
                         <respStmt>
                             <resp key="pbl">publisher</resp>
-                            <orgName key="ENT.000003609">Joseph Pulitzer</orgName>
+                            <persName key="ENT.000003609">Joseph Pulitzer</persName>
                         </respStmt>
                         <title type="main" level="a">Effect of Roentgen's "Rays"</title>
                     </analytic>

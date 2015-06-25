@@ -26,7 +26,8 @@
 
             <respStmt>
           <resp key="pbl">publisher</resp>
-          <persName key="ENT.000003387">Unknown</persName>
+                <orgName key="ENT.000000437"
+                    >Philadelphia Record</orgName>
         </respStmt>
       </titleStmt>
 
@@ -107,7 +108,8 @@
                         
                         <respStmt>
               <resp key="pbl">publisher</resp>
-              <persName key="ENT.000003387">Unknown</persName>
+                            <orgName key="ENT.000000437"
+                                >Philadelphia Record</orgName>
             </respStmt>
             <title type="main" level="a">The Last Appropriation Was Delivered at the Wrong Address</title>
                     <date from="1907-10-08">October 8, 1907</date>
@@ -120,7 +122,8 @@
                             <date from="1907-10-08"
                                 >October 8, 1907</date>
                             <publisher>
-                <persName key="ENT.000003387">Unknown</persName>
+                                <orgName key="ENT.000000437"
+                                    >Philadelphia Record</orgName>
               </publisher>
                         </imprint>
                     </monogr>

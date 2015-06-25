@@ -24,7 +24,8 @@
                 </respStmt>
             <respStmt>
           <resp key="pbl">publisher</resp>
-          <persName key="ENT.000003387">Unknown</persName>
+                <orgName key="ENT.000003763"
+                    >Philadelphia Times</orgName>
         </respStmt>
       </titleStmt>
 
@@ -110,7 +111,8 @@
                         </respStmt>  
                         <respStmt>
               <resp key="pbl">publisher</resp>
-              <persName key="ENT.000003387">Unknown</persName>
+                            <orgName key="ENT.000003763"
+                                >Philadelphia Times</orgName>
             </respStmt>
             <title type="main" level="a">The Great Championship Race</title>
                     <date from="1895-07-15">July 15, 1895</date>
@@ -123,7 +125,8 @@
                             <date from="1895-07-15"
                                 >July 15, 1895</date>
                             <publisher>
-                                <persName key="ENT.000003387">Unknown</persName>
+                                <orgName key="ENT.000003763"
+                                    >Philadelphia Times</orgName>
                             </publisher>
                         </imprint>
                     </monogr>
