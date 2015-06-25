@@ -74,9 +74,10 @@
                 <date from="1865-01-01" to="1865-12-31">1865</date>
                 <extent>1 loose sheet</extent>
                 <extent>
-                  <dimensions type="image" unit="cm"/>
+                  <dimensions type="image" unit="cm">
                   <height quantity="33.5"/>
                   <width quantity="45"/>
+                  </dimensions>
                 </extent>
                 <listRelation>
                   <relation name="depicted" active="ENT.000001041"/>
