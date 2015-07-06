@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-
-
 <?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 
@@ -66,7 +64,7 @@
             </projectDesc>
         </encodingDesc>
         <revisionDesc>
-            <change who="HSP" when="2015-06-24">Exported from Collective Access.</change>
+            <change who="HSP" when="2015-07-06">Exported from Collective Access.</change>
         </revisionDesc>
     </teiHeader>
 
@@ -352,6 +350,10 @@ editor of NY Herald</note>
   <birth when="1860">1860</birth>
   <death when="1925">1925</death>
   <sex>Male</sex>
+  <note type="biography"><p>William Jennings Bryan was a congressman and Democratic leader.  He was born on March 19, 1860 in Illinois.  He studied law at Union College in Chicago and later moved to Nebraska.  In 1890 he became a US Representative from Nebraska.  After losing a campaign to become a US Senator in 1894, he became editor of the <hi rendition="#italics">Omaha World-Herald</hi> and gave lectures.  In 1896 he gave his famous “Cross of Gold” speech and was awarded the democratic nomination for president.  He lost the presidential election to Republican William McKinley.  He unsuccessfully ran again for president in 1900 and lost to McKinley.  He ran for the third and final time in 1908 and was defeated by Republican William Howard Taft.  President Woodrow Wilson appointed Bryan Secretary of State in 1912.  He died on July 26, 1925 in Tennessee.</p></note>
+  <bibl><bibl>“William Jennings Bryan, American Politician.” <hi rendition="#italics">Encyclopedia Britannica</hi>. Accessed July 1, 2015. <ref target="http://www.britannica.com/biography/William-Jennings-Bryan">Link</ref></bibl>
+      
+      <bibl>“Bryan, William Jennings.” <hi rendition="#italics">Biographical Directory of the United States Congress</hi>. Accessed July 1, 2015.  <ref target="http://bioguide.congress.gov/scripts/biodisplay.pl?index=b000995">Link</ref></bibl></bibl>
   <note type="internal">depicted in 11565-3133_b2f9_1_TEI.xml ; http://id.loc.gov/authorities/names/n80044871.html</note>
 </person>
 <person xml:id="ENT.000001011">
@@ -769,6 +771,8 @@ Depicted in Hint cartoon 11834</note>
     <surname type="last">De Mar</surname>
   </persName>
   <sex>Male</sex>
+  <note type="biography"><p>John De Mar was a cartoonist for the <hi rendition="#italics">Philadelphia Record</hi>.  He was born in 1865 in Pennsylvania and died in 1926.</p></note>
+  <bibl><bibl>Falk, Peter H, Audrey M Lewis, Georgia Kuchen, and Veronika Roessler. <hi rendition="#italics">Who Was Who in American Art, 1564-1975: 400 Years of Artists in America.</hi> Madison, CT: Sound View Press, 1999.</bibl></bibl>
   <note type="internal">cartoonist at the Philadelphia Record, early 1900s
 artist 11513-3133_b2f8_1_TEI.xml 11514-3133_b2f8_1_TEI.xml 11522-3133_b2f8_1_TEI.xml; 1782-3313_b2f8_1_TEI.xml; mentioned in 11570-3313_b2f9_1_TEI.xml 
 
@@ -1089,6 +1093,8 @@ depicted in hint cartoon #12371</note>
   <birth when="1840">1840</birth>
   <death when="1913">1913</death>
   <sex>Male</sex>
+  <note type="biography"><p>Friedrich Graetz was a cartoonist.  He was born in Austria circa 1840 and died circa 1913.  He  worked for Kikeriki in Vienna from 1872 until 1875.  He was a cartoonist for <hi rendition="#italics">Puck</hi> from 1882-1885.</p></note>
+  <bibl><bibl>Kahn, Michael A, Richard Samuel West, Bill Watterson, and Dean Mullaney. <hi rendition="#italics">What Fools These Mortals Be!: The Story of Puck: America’s First and Most Influential Magazine of Color Political Cartoons</hi>, 2014.</bibl></bibl>
   <note type="internal">LOC:  
     http://id.loc.gov/authorities/names/n94122601
 </note>
@@ -1281,6 +1287,12 @@ in cartoon 1801 "let us have peace"</note>
   <birth when="1863">1863</birth>
   <death when="1951">1951</death>
   <sex>Male</sex>
+  <note type="biography"><p>William Randolph Hearst was a journalist, editor, and newspaper publisher.</p>
+                <p>He was born on April 29, 1863 in California.  He attended Harvard College for two years and was expelled for bad behavior.  In 1887, he purchased the <hi rendition="#italics">San Francisco Examiner</hi>.  In 1895, he bought the struggling <hi rendition="#italics">New York Evening Journal</hi> and dramatically increased its circulation by hiring skilled journalists and lowering production costs.  Hearst used sensationalist news stories to boost newspaper sales.  In 1898, Hearst accused Spain of the sinking the <hi rendition="#italics">USS Maine</hi> off the coast of Cuba.  Although he did not have any real evidence for his claims against Spain, Hearst’s editorials enraged the American public and helped bolster support for American military involvement in the Cuban Revolution. </p> 
+                <p>Hearst served in Congress (1903-1907) and unsuccessfully ran for the Democratic Party nomination in 1904.  At the height of his career, he owned 28 newspapers and 18 magazines, as well as, several movie production and radio companies.  He died on August 14, 1951 in California.</p></note>
+  <bibl><bibl>Schlup, L. C., &amp; Ryan, J. G. (2003). <hi rendition="#italics">Historical dictionary of the Gilded Age</hi>. Armonk, N.Y.: M.E. Sharpe.</bibl>
+                <bibl>“William Randolph Hearst.” <hi rendition="#italics">Encyclopedia Britannica Online</hi>. Accessed June 30, 2015. <ref target="http://www.britannica.com/biography/William-Randolph-Hearst">Link</ref></bibl>
+                </bibl>
   <note type="internal">LOC 
     http://id.loc.gov/authorities/names/n80004058
 </note>
@@ -2042,6 +2054,13 @@ LOC:  http://id.loc.gov/authorities/names/no2002039948</note>
   <birth when="1843">1843</birth>
   <death when="1916">1916</death>
   <sex>Male</sex>
+  <note type="biography"><p>Samuel Pennypacker was the 23rd Governor of Pennsylvania.</p>
+                <p>Pennypacker was born on April 9, 1843 in Phoenixville, Pennsylvania.  He attended Grovemont Seminary and was accepted into Yale University.  His grandfather decided not to pay his tuition until he got some experience in the workforce.  In 1862 Pennypacker became a teacher at Mont Clare in Montgomery County, and the following year, enlisted in the 26th Pennsylvania Emergency Regiment.  After fighting in the militia, he returned to his studies and attended law school at the University of Pennsylvania.  In 1870 he married Virginia Earle Broomall.</p>
+                <p>He served on the Philadelphia Board of Education in 1885 and later became the judge of the Court of Common Pleas of Philadelphia.  In 1900 he became the president of the Historical Society of Pennsylvania.  He defeated Robert Pattison for the office of Governor of Pennsylvania and served from 1903-1907.  As Governor, Pennypacker signed legislation to create the Pennsylvania State Archives and the State Museum of Pennsylvania.  The Child Labor Act of 1905 was also passed during his governorship.  Pennypacker also helped pass the controversial Newspaper Libel Act of 1903 which was repealed in 1907.</p>
+                <p>Samuel Pennypacker died on September 2, 1916.</p></note>
+  <bibl><bibl>“Samuel Pennypacker.” <hi rendition="#italics">Pennsylvania Historical and Museum Commission</hi>. Accessed June 30, 2015. <ref target="http://www.portal.state.pa.us/portal/server.pt/community/1879-1951/4284/samuel_whitaker_pennypacker/469087">Link</ref></bibl>
+                
+                <bibl>“Samuel Whitaker Pennypacker.” <hi rendition="#italics">Pennsylvania Capitol Preservation Committee</hi>. Accessed June 30, 2015. <ref target="http://cpc.state.pa.us/history/notable/samuel-whitaker-pennypacker.cfm">Link</ref></bibl></bibl>
   <note type="internal">LOC:  http://id.loc.gov/authorities/names/n85199995.html</note>
 </person>
 <person xml:id="ENT.000002704">
@@ -2152,7 +2171,9 @@ http://id.loc.gov/authorities/names/n2001153414</note>
   <birth when="1870">1870</birth>
   <death when="1909">1909</death>
   <sex>Male</sex>
-  <bibl>LOC:  http://id.loc.gov/authorities/names/n95000431.html</bibl>
+  <note type="biography"><p>John Samuel Pughe was a cartoonist for the <hi rendition="#italics">New York World</hi> and <hi rendition="#italics">Puck</hi>.  He was born in Wales on June 3, 1870.  Two years after his birth, his family immigrated to the United States.  He attended public school in New York and later studied at Cooper Union.  He died on April 19, 1909 in New Jersey.</p></note>
+  <bibl><bibl>Kahn, Michael A, Richard Samuel West, Bill Watterson, and Dean Mullaney. <hi rendition="#italics">What Fools These Mortals Be!: The Story of Puck: America’s First and Most Influential Magazine of Color Political Cartoons</hi>, 2014.</bibl></bibl>
+  <note type="internal">LOC:  http://id.loc.gov/authorities/names/n95000431.html</note>
 </person>
 <person xml:id="ENT.000003609">
   <persName key="ENT.000003609">
@@ -2299,6 +2320,14 @@ LOC:http://id.loc.gov/authorities/names/n86025981.html</note>
   <birth when="1839">1839</birth>
   <death when="1937">1937</death>
   <sex>Male</sex>
+  <note type="biography"><p>John Davison Rockefeller was a wealthy American business tycoon, philanthropist, and founder of Standard Oil.</p>  
+<p>Rockefeller was born on July 8, 1839 in New York.  His father, William Avery Rockefeller, was a snake-oil salesman who sold treatments which he claimed would cure serious illnesses.   His mother, Eliza Davison, was a devout Baptist who instilled in her children a strong work ethic.</p>
+               <p> At the age of sixteen on September 26, 1855, Rockefeller got his first job as an assistant bookkeeper with Hew &amp; Tuttle.  His employers were immediately impressed with his work and began giving him greater responsibilities.  In 1859, Rockefeller decided to open his own business and partnered with Maurice Clark to form the produce commission business, Clark &amp; Rockefeller.  They sold hay, grain, and other goods and over the next several years, yielded large profits. </p>
+                <p>In 1870, he partnered with his brother and several others to form Standard Oil.  In 1870, Standard Oil accounted for 10% of the nation’s oil industry. By 1882, the company had grown and became the Standard Oil Trust.  By the 1890s, Standard Oil controlled more than three quarters of the US oil market.  On May 15, 1911 the United States Supreme Court declared Standard Oil in violation of the Sherman Anti-Trust Act and ordered its dissolution. </p> 
+                <p>Rockefeller was also a philanthropist who donated hundreds of millions of dollars.  He helped found the University of Chicago, the Rockefeller Institute for Medical Research, and the Rockefeller Foundation.  He died on May 23, 1937.</p></note>
+  <bibl> <bibl>“JDR Sr. Biographical Sketch.” <hi rendition="#italics">The Rockefeller Archive Center</hi>. Accessed June 30, 2015. <ref target="http://www.rockarch.org/bio/jdrsr.php">Link</ref></bibl>
+                    
+                    <bibl>“John D. Rockefeller, Senior.” <hi rendition="#italics">The Rockefellers. WGBH American Experience, PBS</hi>. Accessed June 30, 2015. <ref target="http://www.pbs.org/wgbh/americanexperience/features/biography/rockefellers-john/">Link</ref></bibl></bibl>
   <note type="internal">http://id.loc.gov/authorities/names/n79095196</note>
 </person>
 <person xml:id="ENT.000003785">
@@ -2552,6 +2581,12 @@ in cartoon "Bad Case of Chill"12174</note>
   <birth when="1882">1882</birth>
   <death when="1942">1942</death>
   <sex>Male</sex>
+  <note type="biography"><p>Charles Henry Sykes was an American cartoonist.  He was born on November 12, 1882 in Alabama.  He attended the Drexel Institute of Art, Science, and Industry.  He worked as a cartoonist for the <hi rendition="#italics">North American</hi>, <hi rendition="#italics">Evening Public Ledger</hi>, and the <hi rendition="#italics">New York Evening Post</hi>.  He was also an editorial cartoonist for <hi rendition="#italics">Life</hi> magazine from 1922-1928.  He died in 1942.</p></note>
+  <bibl><bibl>“Sykes Editorial Cartoon Collection.” <hi rendition="#italics">Virginia Commonwealth University Libraries Digital Collections</hi>. Accessed July 1, 2015. <ref target="http://dig.library.vcu.edu/cdm/landingpage/collection/syk">Link</ref></bibl>
+                
+               <bibl>“A Guide to the Charles Henry Sykes Cartoon Collection, Late 1930s to Early 1940s Sykes, Charles Henry, Cartoon Collection M 169.” <hi rendition="#italics">Virginia Heritage Guides to Manuscript and Archival Collections in Virginia</hi>. Accessed July 1, 2015. <ref target="http://ead.lib.virginia.edu/vivaxtf/view?docId=vcu-cab/vircu00110.xml;query=;">Link</ref></bibl>
+                
+               <bibl>“Charles H. Sykes Papers 3656.” Finding Aid. <hi rendition="#italics">Historical Society of Pennsylvania</hi>. <ref target="http://www2.hsp.org/collections/manuscripts/s/Sykes3656.html">Link</ref></bibl></bibl>
 </person>
 <person xml:id="ENT.000003384">
   <persName key="ENT.000003384">
@@ -2562,6 +2597,15 @@ in cartoon "Bad Case of Chill"12174</note>
   <birth when="1857">1857</birth>
   <death when="1930">1930</death>
   <sex>Male</sex>
+  <note type="biography"><p>William Howard Taft was the 27th President of the United States.</p>
+                <p>Taft was born on September 15, 1857.  He graduated from Yale University second in his class and attended the University of Cincinnati law school.  He became judge of the Cincinnati Superior Court, US solicitor general, and a member of the Sixth US Circuit Court of Appeals.  President McKinley appointed him Governor-General of the Philippines in 1900.  In 1904, he became President Roosevelt’s Secretary of War.</p>  
+                <p>Roosevelt decided he would not seek re-election in 1908 and choose Taft as his successor.  Taft defeated Democratic candidate William Jennings Bryan and became the 27th President.  Although President Taft broke up twice as many trusts as Roosevelt, he was perceived as a disappointment to many progressives.  Roosevelt quarreled with Taft and accused him of abandoning the ideals of the progressive movement.  In 1912, Roosevelt formed the Progressive or “Bull Moose” Party and ran against Taft.  The split in the Republican Party helped Woodrow Wilson to win the White House.</p>
+                <p>After leaving Washington, Taft became a Professor at Yale University, and later a Chief Justice of the United States.  He died on March 8, 1931.  </p></note>
+  <bibl><bibl>“William Howard Taft: A Life in Brief.”  <hi rendition="#italics">Miller Center</hi>.  Accessed June 30, 2015.  <ref target="http://millercenter.org/president/taft/essays/biography/1">Link</ref></bibl>
+                
+                <bibl>“William Howard Taft.” <hi rendition="#italics">Whitehouse.gov</hi>. Accessed June 30, 2015. <ref target="https://www.whitehouse.gov/1600/presidents/williamhowardtaft">Link</ref></bibl>
+                
+                <bibl>“William Howard Taft.” <hi rendition="#italics">WGBH American Experience PBS</hi>. Accessed June 30, 2015. <ref target="http://www.pbs.org/wgbh/americanexperience/features/biography/presidents-taft/">Link</ref></bibl></bibl>
   <note type="internal">depicted in 1782-3313_b2f8_1_TEI.xml; 11565-3133_b2f9_1_TEI.xml &#13;
 &#13;
 mentioned in 11570-3313_b2f9_1_TEI.xml &#13;
@@ -2894,6 +2938,12 @@ depicted in hint cartoon #12151</note>
   <birth when="1859">1859</birth>
   <death when="1941">1941</death>
   <sex>Male</sex>
+  <note type="biography"><p>William II was born on January 27, 1859 in Berlin and was the last German emperor and King of Prussia.  His full name in German was Friedrich Wilhelm Viktor Albert.  He was the oldest son of Crown Prince Frederick and Victoria, the daughter of Great Britain’s Queen Victoria. In 1888, at the age of 29, he became the Kaiser or German emperor and two years later, forced the resignation of the chancellor, Otto von Bismarck.  William II strengthened the navy and military and strongly promoted German colonial expansion.</p>
+                <p>In 1914 Archduke Franz Ferdinand, heir to the Austro-Hungarian Empire, was assassinated in Sarajevo by a Bosnian Serb Gavrilo Princip.  In response, William II encouraged Austria to use its military might to strike against Serbia and assured Austria that Germany would support them in the event of war.  On July 28, 1914 Austria declared war on Serbia.  Soon after, the Triple Entente or Allies (Russia, United Kingdom, and France) entered into war against the Central powers of Austria and Germany.  The United States Congress declared war on Germany on April 6, 1917.</p>
+                <p>At the conclusion of World War I, William II abdicated the throne and fled to the Netherlands.  The Allies unsuccessfully tried to extradite him and to put him on trial for war crimes.  He died on June 4, 1941.</p></note>
+  <bibl><bibl>“William II  Emperor of Germany.” <hi rendition="#italics">Encyclopedia Britannica Online</hi>. Accessed June 30, 2015. <ref target="http://www.britannica.com/biography/William-II-emperor-of-Germany">Link</ref></bibl>
+                
+                <bibl>“Wilhelm II (1859 - 1941).” BBC History, Historic Figures. Accessed June 30, 2015. <ref target="http://www.bbc.co.uk/history/historic_figures/wilhelm_kaiser_ii.shtml">Link</ref></bibl></bibl>
   <note type="internal">LOC:  http://id.loc.gov/authorities/names/n50018122</note>
 </person>
 <person xml:id="ENT.000003730">
@@ -2926,6 +2976,18 @@ http://strippersguide.blogspot.com/2012/11/ink-slinger-profiles-op-williams.html
   <birth when="1856">1856</birth>
   <death when="1924">1924</death>
   <sex>Male</sex>
+  <note type="biography"><p>Woodrow Wilson was the twenty-eighth President of the United States.</p>
+                <p>Wilson was born on December 28, 1856 in Virginia.  After graduating from Princeton University in 1879, Wilson studied law at the University of Virginia (1879-1873) and earned a Ph.D. in 1885 from Johns Hopkins University.  He became a professor and taught at Bryn Mawr College and Wesleyan University.  He married Ellen Louise Axson in 1885 and had three children.  She died in 1914.  Wilson later married Edith Bolling Galt in 1915. </p>
+                <p>In 1890, Wilson began working at Princeton University as a professor.  Twelve years later, in 1902, he became President of Princeton University and put forth a $12.5 million program that would forever transform Princeton University.   In 1910, United States Senator, James Smith, Jr. and New York editor George Harvey convinced Wilson to run for governor of New Jersey on the democratic ticket.  He won the election and served one term.</p>  
+                <p>In 1912 Wilson was nominated as the Democratic candidate for the office of President of the United States.  He ran against the Republican incumbent, William Howard Taft and the Progressive Party candidate, Theodore Roosevelt.  The split in the Republican Party vote helped Wilson to win the election.  He served two terms.  As president, Wilson worked with Congress to pass several social and economic reforms such as the Federal Reserve Act, the Child Labor Reform Act, and the 19th amendment which granted women the right to vote.  Wilson led the nation during World War I and tried to establish the League of Nations.  He suffered a stroke in 1919 and died on February 3, 1924.</p></note>
+  <bibl><bibl> “Woodrow Wilson.” <hi rendition="#italics">The White House</hi>. Accessed June 25, 2015. <ref target="https://www.whitehouse.gov/1600/presidents/woodrowwilson">Link</ref></bibl>
+                
+                <bibl>“Woodrow Wilson Biography.” <hi rendition="#italics">Woodrow Wilson Presidential Library and Museum</hi>. Accessed June 25, 2015. <ref target="http://www.woodrowwilson.org/about/biography">Link</ref></bibl>
+                
+                <bibl>“Woodrow Wilson- A Portrait.” <hi rendition="#italics">PBS American Experience</hi>. Accessed June 25, 2015. <ref target="http://www.pbs.org/wgbh/amex/wilson/portrait/index.html">Link</ref></bibl>
+                
+                <bibl>“Wilson, Woodrow.” <hi rendition="#italics">Princeton University</hi>. Accessed June 25, 2015. <ref target="http://etcweb.princeton.edu/CampusWWW/Companion/wilson_woodrow.html">Link</ref></bibl>
+</bibl>
   <note type="internal">LOC:  http://id.loc.gov/authorities/names/n79046299</note>
 </person>
 <person xml:id="ENT.000002960">
@@ -2976,7 +3038,12 @@ http://strippersguide.blogspot.com/2012/11/ink-slinger-profiles-op-williams.html
   <birth when="1880">1880</birth>
   <death when="1961">1961</death>
   <sex>Male</sex>
-  <note type="internal">http://id.loc.gov/authorities/names/n81138346</note>
+  <note type="biography"><p>Marius de Zayas was an artist, illustrator and gallery owner.  He was born on March 13, 1880 in Veracruz, Mexico.  He began his career working at his father’s newspaper as an illustrator.  In 1906 he began working at <hi rendition="#italics">El Diario</hi>, a newspaper critical of the policies of President Porfirio Diaz.  He soon fled to the United States and settled in New York City.  He worked for the <hi rendition="#italics">New York Evening World</hi> as a cartoonist.  Alfred Stieglitz displayed De Zayas’s artwork in his gallery in 1909 and 1910.  In 1910 he traveled to Paris where he became inspired by the artwork of Francis Picabia.  De Zayas opened an art gallery in New York City in 1915.  After closing the gallery in 1921, he moved to Europe where he spent the next two decades organizing modern art shows.  He died on January 10, 1961.</p> </note>
+  <bibl><bibl>“De Zaya, Marius.” <hi rendition="#italics">Oxford Art Online</hi>. Accessed July 1, 2015. <ref target="http://www.oxfordartonline.com/public/page/GAO_free_article_DeZayas">Link</ref></bibl>
+                
+                <bibl>Kahn, Michael A, Richard Samuel West, Bill Watterson, and Dean Mullaney. <hi rendition="#italics">What Fools These Mortals Be!: The Story of Puck: America’s First and Most Influential Magazine of Color Political Cartoons</hi>, 2014.</bibl></bibl>
+  <note type="internal">http://id.loc.gov/authorities/names/n81138346&#13;
+HINT 12239 artist</note>
 </person>
                 </listPerson>
             </div>
