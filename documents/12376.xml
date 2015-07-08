@@ -213,7 +213,7 @@
 
         <body>
             <div type="image_transcription" facs="#Title" n="1">
-                <head><supplied resp="editorial">Title and Signature</supplied></head>
+                <head><supplied resp="editorial">Title and signature</supplied></head>
                 <p>NO PASSAGE FOR A <hi rendition="#underline">DEMOCRATIC</hi> NEGRO!</p>
                 <p>J.KEPPLER</p>
             </div>
@@ -226,12 +226,12 @@
                 <p>JEWELL. HALE. SHERMAN DAWES SAWYER CAMERON HOAR INGALLS</p>
             </div>
             <div type="image_transcription" facs="#Banner" n="4">
-                <head><supplied resp="editorial">Banner and Door</supplied></head>
+                <head><supplied resp="editorial">Banner and door</supplied></head>
                 <p><hi rendition="#bold">NO</hi> SALVATION FOR THE <hi rendition="#bold">NEGRO</hi> OUTSIDE <hi rendition="#bold">OF THE</hi> G.O.P.</p>
             <p>U.S. SENATE</p>
       </div>
             <div type="image_transcription" facs="#Puck" n="5">
-                <head><supplied resp="editorial">Magazine Title and Notes</supplied></head>
+                <head><supplied resp="editorial">Magazine title and notes</supplied></head>
                 <p>PUCK.</p> <p><add rendition="#handwritten">1-12-87</add></p>
             </div>
         </body>
