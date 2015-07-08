@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+
 <?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 
@@ -64,7 +65,7 @@
             </projectDesc>
         </encodingDesc>
         <revisionDesc>
-            <change who="HSP" when="2015-07-06">Exported from Collective Access.</change>
+            <change who="HSP" when="2015-07-08">Exported from Collective Access.</change>
         </revisionDesc>
     </teiHeader>
 
@@ -147,6 +148,15 @@
                 <bibl>Falk, Peter Hastings et al., eds. <hi rendition="#italics">Who Was Who in American Art, 1564-1975: 400 Years of Artists in America, vol. 1, A-F</hi>. Madison, CT: Sound View Press, 1999.</bibl>
                 <bibl>1860 Federal Census, Boston, Ward 12, Suffolk, MA</bibl></bibl>
   <note type="internal">artist of 12331; http://id.loc.gov/authorities/names/nr92007310.html</note>
+</person>
+<person xml:id="ENT.000003665">
+  <persName key="ENT.000003665">
+    <forename type="first">William</forename>
+    <surname type="last">Barnes</surname>
+    <addName type="alt">Bill Barnes</addName>
+  </persName>
+  <sex>Male</sex>
+  <note type="internal">depicted in hint cartoon:  "for he himself hath said it".</note>
 </person>
 <person xml:id="ENT.000003561">
   <persName key="ENT.000003561">
@@ -489,6 +499,9 @@ editor of NY Herald</note>
   <birth when="1836">1836</birth>
   <death when="1926">1926</death>
   <sex>Male</sex>
+  <note type="biography"><p>Joseph Cannon was a congressman and speaker of the United States House of Representatives.  He was born on May 7, 1836 in North Carolina.  He studied law, moved to Illinois and was elected to the US House of Representatives in 1872.    He served as a Representative for 46 years and became Speaker of the House.  In 1908 lost the presidential nomination at the Republican National Convention to Howard Taft.  He died on November 12, 1926 in Indiana.</p></note>
+  <bibl> <bibl>“Cannon, Joseph Gurney.” <hi rendition="#italics">Biographical Directory of the United States Congress</hi>. Accessed July 8, 2015. <ref target="http://bioguide.congress.gov/scripts/biodisplay.pl?index=c000121">Link</ref></bibl>
+                <bibl>“Joseph Gurney Cannon,  Biography- American Politician.” <hi rendition="#italics">Encyclopedia Britannica Online</hi>. Accessed July 8, 2015. <ref target="http://www.britannica.com/biography/Joseph-Gurney-Cannon">Link</ref></bibl></bibl>
   <note type="internal">depicted in 1782-3313_b2f8_1_TEI.xml ; http://id.loc.gov/authorities/names/n50051508.html</note>
 </person>
 <person xml:id="ENT.000000910">
@@ -696,6 +709,8 @@ depicted in hint cartoon #12154</note>
   <birth when="1841">1841</birth>
   <death when="1942">1942</death>
   <sex>Male</sex>
+  <note type="biography"><p>Otho Cushing was born in 1871.  He attended the Boston School of Fine Arts and the Academie Julian in Paris.  Cushing was a professor at the Massachusetts Institute of Technology and later moved to Paris to serve as the art editor for the European edition of the <hi rendition="#italics">Herald-Tribune</hi>.  He was also a cartoonist for <hi rendition="#italics">Life</hi>.  He died in 1942 in New York.</p></note>
+  <bibl> <bibl>“Otho Cushing Caricature Biography.” <hi rendition="#italics">Smithsonian Libraries</hi>. Accessed July 7, 2015. <ref target="http://www.sil.si.edu/ondisplay/caricatures/bio_cushing.htm">Link</ref></bibl></bibl>
   <note type="internal">LOC:  http://id.loc.gov/authorities/names/n95000553.html</note>
 </person>
 <person xml:id="ENT.000003716">
@@ -901,6 +916,8 @@ See http://politicalgraveyard.com/death/offices.html; https://books.google.com/b
   <birth when="1852">1852</birth>
   <death when="1918">1918</death>
   <sex>Male</sex>
+  <note type="biography"><p>Charles Warren Fairbanks was the 26th Vice President of the United States.  Fairbanks was born on May 11, 1852 in Ohio.  He became a US Senator in 1897 and served until 1905.  In 1904 he became Vice President during the Theodore Roosevelt administration.  In 1908 Roosevelt decided not to run for re-election and supported Howard Taft for the presidency.  Taft won the election.  Fairbanks ran again for Vice President in 1916 and lost.  He died on June 4, 1918 in Indiana.</p></note>
+  <bibl><bibl>“Charles Warren Fairbanks, Biography-Vice President of United States.” <hi rendition="#italics">Encyclopedia Britannica</hi>. Accessed July 8, 2015.  <ref target="http://www.britannica.com/biography/Charles-Warren-Fairbanks">Link</ref></bibl></bibl>
   <note type="internal">depicted in 1782-3313_b2f8_1_TEI.xml ; http://id.loc.gov/authorities/names/n86114870.html</note>
 </person>
 <person xml:id="ENT.000003696">
@@ -939,6 +956,11 @@ See http://politicalgraveyard.com/death/offices.html; https://books.google.com/b
   <birth when="1846">1846</birth>
   <death when="1917">1917</death>
   <sex>Male</sex>
+  <note type="biography"><p>Joseph Foraker was an influential Republican politician and governor.  He was born on July 5, 1846 in Ohio.  After fighting in Union Army during the Civil War, he enrolled in the Salem Academy at Wesleyan University.  He later attended Cornell Law School and graduated in 1869.  He served as a judge of the superior court in Cincinnati from 1879 to 1882.  He became governor of Ohio in 1885 and served two terms.  He later served in the United States Senate.  In 1908 he sought the Republican party nomination for President, but lost to Taft.  That same year news that Foraker had accepted money from the Standard Oil Company was made public.  Foraker’s political career ended and he lost his bid for a third term in the Senate.  He died on May 10, 1917 in Ohio.</p>
+          </note>
+  <bibl><bibl>“Foraker, Joseph Benson.” <hi rendition="#italics">Biographical Directory of the United States Congress</hi>. Accessed July 8, 2015. <ref target="http://bioguide.congress.gov/scripts/biodisplay.pl?index=f000253">Link</ref></bibl>
+                
+                <bibl>“Joseph B. Foraker.” <hi rendition="#italics">Ohio History Central</hi>. Accessed July 8, 2015. <ref target="http://www.ohiohistorycentral.org/w/Joseph_B._Foraker">Link</ref></bibl></bibl>
   <note type="internal">depicted in 1782-3313_b2f8_1_TEI.xml  ; http://id.loc.gov/authorities/names/n92010125.html</note>
 </person>
 <person xml:id="ENT.000003601">
@@ -997,6 +1019,9 @@ See http://politicalgraveyard.com/death/offices.html; https://books.google.com/b
   <birth when="1878">1878</birth>
   <death when="1971">1971</death>
   <sex>Male</sex>
+  <note type="biography"> <p>Hy Gage was born on April 13, 1878 in Philadelphia.  His cartoons appeared in the <hi rendition="#italics">Philadelphia Press</hi> and <hi rendition="#italics">Philadelphia Evening Telegram</hi>.  He died in November 1971.</p></note>
+  <bibl><bibl>“Hy Gage.” <hi rendition="#italics">Lambiek.net</hi>. Accessed July 8, 2015. <ref target="https://www.lambiek.net/artists/g/gage_h.htm">Link</ref></bibl></bibl>
+  <note type="internal">artist HINT 6818</note>
 </person>
 <person xml:id="ENT.000003555">
   <persName key="ENT.000003555">
@@ -1580,6 +1605,9 @@ Depicted in Hint cartoon 11834</note>
   <birth when="1853">1853</birth>
   <death when="1921">1921</death>
   <sex>Male</sex>
+  <note type="biography"><p>Philader Chase Knox was a Pennsylvania Senator and the 40th Secretary of State.  Knox was born in Pennsylvania in 1853.  He studied law and was admitted to the bar in 1875.  He served as Attorney General in the administrations of Presidents McKinley and Theodore Roosevelt.  In 1904 Knox became a US Senator.  In 1908 Knox unsuccessfully sought the Republican Presidential nomination, but lost to Howard Taft.  President Taft later appointed him Secretary of State.  Knox died in 1921.</p></note>
+  <bibl><bibl>“Philander Chase Knox.” <hi rendition="#italics">U.S. Department of State, Office of the Historian</hi>.  Accessed July 8, 2015.  <ref target="https://history.state.gov/departmenthistory/people/knox-philander-chase">Link</ref></bibl>
+                    <bibl>“Philander C. Knox (1901–1901).” <hi rendition="#italics">Miller Center</hi>. Accessed July 8, 2015.  <ref target="http://millercenter.org/president/essays/knox-philander-1901-attorney-general">Link</ref></bibl></bibl>
   <note type="internal">depicted 11525-3133_b2f8_1_TEI.xml; 1782-3313_b2f8_1 ; http://id.loc.gov/authorities/names/n86053399.html</note>
 </person>
 <person xml:id="ENT.000002824">
@@ -1703,17 +1731,6 @@ fourth president of the United States (1809-1817). Not to be confused with James
   <sex>Male</sex>
   <note type="internal">Artist/publisher of lithographs and political cartoons. Bio at http://lcpdams.librarycompany.org:8881/R/?func=dbin-jump-full&amp;object_id=79511&amp;local_base=GEN01; http://id.loc.gov/authorities/names/n85352336.html.</note>
 </person>
-<person xml:id="ENT.000003654">
-  <persName key="ENT.000003654">
-    <addName type="honorific">Major</addName>
-    <forename type="first">Barclay Harding</forename>
-    <surname type="last">Warburton</surname>
-  </persName>
-  <birth when="1866">1866</birth>
-  <death when="1954">1954</death>
-  <sex>Male</sex>
-  <note type="internal">Publisher of Evening Telegraph (Phila.)</note>
-</person>
 <person xml:id="ENT.000003721">
   <persName key="ENT.000003721">
     <forename type="first">William</forename>
@@ -1816,6 +1833,8 @@ http://id.loc.gov/authorities/names/no97050463</note>
   <birth when="1845">1845</birth>
   <death when="1918">1918</death>
   <sex>Male</sex>
+  <note type="biography"><p>John Ames Mitchell founded <hi rendition="#italics">Life</hi> magazine in 1883.  Artists such as Edward Windsor Kemble and Charles Dana Gibson worked for the magazine.  After Mitchell’s death in 1918, the magazine experienced a steady decline in popularity.  In 1936 it was sold to Henry Luce who transformed the humor magazine into a picture magazine.</p></note>
+  <bibl><bibl>“About John Ames Mitchell.” <hi rendition="#italics">San Francisco Public Library</hi>. Accessed July 7, 2015. <ref target="http://sfpl.org/index.php?pg=2000047601">Link</ref></bibl></bibl>
 </person>
 <person xml:id="ENT.000003725">
   <persName key="ENT.000003725">
@@ -1898,6 +1917,9 @@ LOC:  http://id.loc.gov/authorities/names/n79060685</note>
   <birth when="1858">1858</birth>
   <death when="1904">1904</death>
   <sex>Male</sex>
+  <note type="biography"><p>Charles Nelan was born in 1858 in Ohio.  In 1888, he began working as a cartoonist for the <hi rendition="#italics">Cleveland Press</hi>.  He later worked at the <hi rendition="#italics">New York Herald</hi> where he published a series of cartoons about the Spanish-American War.  He began working for the <hi rendition="#italics">North American</hi> in 1901 and drew a series of unflattering cartoons about Samuel Pennypacker.  His cartoons prompted the State Legislature to pass an anti-cartoon bill in 1903 which prohibited cartoonists from depicting politicians as animals, birds, insects, fish, or any non-human creature.  The unpopular law was never enforced and was repealed in 1907.  Nelan also worked for the <hi rendition="#italics">New York Globe</hi>.  He died in 1904.</p></note>
+  <bibl><bibl>“Charles Nelan.” <hi rendition="#italics">Ohio State University Libraries Exhibitions: Ohio Cartoonists: A Bicentennial Celebration</hi>. Accessed July 6, 2015. <ref target="http://library.osu.edu/projects/ohio-cartoonists/nelan.html">Link</ref></bibl></bibl>
+  <note type="internal">HINT cartoonist; north american</note>
 </person>
 <person xml:id="ENT.000003371">
   <persName key="ENT.000003371">
@@ -1954,6 +1976,8 @@ LOC:  http://id.loc.gov/authorities/names/n79060685</note>
     <surname type="last">May</surname>
   </persName>
   <sex>Male</sex>
+  <note type="biography"><p>Ole May was born on June 24, 1873 in Iowa.  He was a cartoonist for the <hi rendition="#italics">Cleveland Ledger</hi> and the <hi rendition="#italics">Pittsburgh Gazette-Times</hi>.</p></note>
+  <bibl><bibl>Holtz, Allan. “Ink-Slinger Profiles: Ole May.” <hi rendition="#italics">Stripper’s Guide</hi>. Accessed July 7, 2015. <ref target="http://strippersguide.blogspot.com/2011/02/ink-slinger-profiles-ole-may.html">Link</ref></bibl></bibl>
   <note type="internal">artist of "Out with them all" political cartoon #6807</note>
 </person>
 <person xml:id="ENT.000003616">
@@ -2192,6 +2216,11 @@ http://id.loc.gov/authorities/names/n2001153414</note>
     <surname type="last">Pusey</surname>
   </persName>
   <sex>Male</sex>
+  <note type="biography"><p> Frederick Taylor Pusey was an attorney and a representative of Delaware County in the Pennsylvania State Legislature.  He was born in Philadelphia on June 3, 1872.  He was first elected to the Pennsylvania House of Representatives in 1902. </p>
+<p>During the 1902 campaign for governor of Pennsylvania, Charles Nelan of the <hi rendition="#italics">North American</hi> drew a series of unflattering cartoons depicting candidate Samuel Pennypacker as a parrot of Matthew Quay.  Pennypacker won the election, and, a short time later on January 28, 1903, Pusey introduced an “anti-cartoon bill” to the State Legislature.  The bill would make it illegal for publishers to print cartoons or depicting politicians as animals or in any non-human form.  Violators of the law would be susceptible to a $1000 fine and a maximum of two years in jail.  Pusey’s bill never became law, but the Salus-Grady bill which imposed similar restrictions was signed into law on May 12, 1903.  Because of public outcry, the law was never enforced and was repealed in 1907.</p></note>
+  <bibl> <bibl>Piott, Steven L. 1988. "The Right of the Cartoonist:  Samuel Pennypacker and Freedom of the Press". Pennsylvania History. 55 (2): 78-91.  <ref target="https://journals.psu.edu/phj/article/viewFile/24685/24454">Link</ref></bibl>
+                
+                <bibl>Smull, John Augustus; Miller, Herman P.; and Baker, W. Harry Baker. <hi rendition="#italics">Smull’s Legislative Hand Book and Manual of the State of Pennsylvania</hi>. Harrisburg:  The State, 1906.</bibl></bibl>
 </person>
 <person xml:id="ENT.000001953">
   <persName key="ENT.000001953">
@@ -2829,7 +2858,22 @@ http://id.loc.gov/authorities/names/n79017983</note>
   <birth when="1865">1865</birth>
   <death when="1908">1908</death>
   <sex>Male</sex>
+  <note type="biography"> <p>Thomas Wanamaker was born in San Francisco in 1865 and was the first son of John Wanamaker.  After graduating from Princeton, he joined his father's firm.  He bought the Philadelphia <hi rendition="#italics">North American</hi> in 1899.  He died suddenly on March 2, 1908.</p></note>
+  <bibl> <bibl>“San Francisco Call 3 March 1908 — California Digital Newspaper Collection.” Accessed July 6, 2015. <ref target="http://cdnc.ucr.edu/cgi-bin/cdnc?a=d&amp;d=SFC19080303.2.14#">Link</ref></bibl></bibl>
   <note type="internal">publisher of North American newspaper.  Purchased paper in 1899.</note>
+</person>
+<person xml:id="ENT.000003654">
+  <persName key="ENT.000003654">
+    <addName type="honorific">Major</addName>
+    <forename type="first">Barclay Harding</forename>
+    <surname type="last">Warburton</surname>
+  </persName>
+  <birth when="1866">1866</birth>
+  <death when="1954">1954</death>
+  <sex>Male</sex>
+  <note type="biography"><p>Barclay Harding Warburton I was born in 1866.  Warburton, a philanthropist and prominent Philadelphian, was married to the daughter of John Wanamaker.  He was the publisher of the <hi rendition="#italics">Philadelphia Evening Telegraph</hi>.  He died in 1954.</p></note>
+  <bibl><bibl>“Ex-Publisher Passes Away.” <hi rendition="#italics">Gettysburg Times - Google News Archive Search</hi>, December 7, 1954. <ref target="https://news.google.com/newspapers?id=XicmAAAAIBAJ&amp;sjid=If4FAAAAIBAJ&amp;pg=2301,1893331&amp;dq=philadelphia+evening+telegraph+warburton&amp;hl=en">Link</ref></bibl></bibl>
+  <note type="internal">Publisher of Evening Telegraph (Phila.)</note>
 </person>
 <person xml:id="ENT.000003754">
   <persName key="ENT.000003754">
@@ -2911,14 +2955,6 @@ Depicted in Hint cartoon #11834</note>
   <sex>Male</sex>
   <note type="internal">depicted in 12017</note>
 </person>
-<person xml:id="ENT.000003665">
-  <persName key="ENT.000003665">
-    <forename type="first">William</forename>
-    <surname type="last">Barnes</surname>
-    <addName type="alt">Bill Barnes</addName>
-  </persName>
-  <sex>Male</sex>
-</person>
 <person xml:id="ENT.000003708">
   <persName key="ENT.000003708">
     <surname type="last">William I, German Emperor</surname>
@@ -2964,6 +3000,8 @@ depicted in hint cartoon #12151</note>
   <birth when="1876">1876</birth>
   <death when="1944">1944</death>
   <sex>Male</sex>
+  <note type="biography"><p>Orville Peter Williams was an American cartoonist.  He was born on March 7, 1876 in Maine and attended public school in Boston.  He became the chief cartoonist of the <hi rendition="#italics">Boston Herald</hi>.  He left the Herald after his father became ill and worked for a brief time in the family business before returning to cartooning.  In addition to the <hi rendition="#italics">Herald</hi>, Williams worked for <hi rendition="#italics">Philadelphia Public Ledger</hi> and the <hi rendition="#italics">New York Journal</hi>.   He also drew illustrations for an advertisement campaign for the Quinona Company.  He died in 1944.</p></note>
+  <bibl><bibl>Holtz, Allan. “Ink-Slinger Profiles: O.P. Williams.” <hi rendition="#italics">Stripper’s Guide</hi>. Accessed July 1, 2015. <ref target="http://strippersguide.blogspot.com/2012/11/ink-slinger-profiles-op-williams.html">Link</ref></bibl></bibl>
   <note type="internal">artist of 11567-3133_b2f9_1_TEI.xml &#13;
 &#13;
 http://strippersguide.blogspot.com/2012/11/ink-slinger-profiles-op-williams.html</note>
