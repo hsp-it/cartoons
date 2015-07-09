@@ -236,7 +236,7 @@
             </div>
             <div type="image_transcription" facs="#Dog" n="4">
                 <head><supplied resp="editorial">Dog</supplied></head>
-                <p>LICENSED</p> <p>DAN</p>
+                <p>LICENSED</p> <p>DAN <note n="1" type="editorial">The dog may represent Daniel Lamont, Cleveland's private secretary.</note></p>
             </div>
             <div type="image_transcription" facs="#Curtis" n="5">
                 <head><supplied resp="editorial">G.W Curtis</supplied></head>
