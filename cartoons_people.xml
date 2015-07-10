@@ -65,7 +65,7 @@
             </projectDesc>
         </encodingDesc>
         <revisionDesc>
-            <change who="HSP" when="2015-07-08">Exported from Collective Access.</change>
+            <change who="HSP" when="2015-07-10">Exported from Collective Access.</change>
         </revisionDesc>
     </teiHeader>
 
@@ -155,7 +155,11 @@
     <surname type="last">Barnes</surname>
     <addName type="alt">Bill Barnes</addName>
   </persName>
+  <birth when="1866">1866</birth>
+  <death when="1930">1930</death>
   <sex>Male</sex>
+  <note type="biography"><p>William Barnes, Jr. was a prominent New York politician and political boss.  He was born in Albany, New York on November 17, 1886.  He was a newspaper editor and the founder of the Albany Evening Journal.  Barnes served as the New York Republican State Chair from 1911 to 1914 and the US Surveyor of Customs from 1899 to 1911.  In 1914 he sued Theodore Roosevelt for libel and lost.  He died in New York on June 25, 1930.</p></note>
+  <bibl>“May 2015 Archives.” Hoxsie! Accessed July 10, 2015. Link“The Political Graveyard: Index to Politicians: Barnes.” Political Graveyard. Accessed July 10, 2015. Link</bibl>
   <note type="internal">depicted in hint cartoon:  "for he himself hath said it".</note>
 </person>
 <person xml:id="ENT.000003561">
@@ -523,6 +527,8 @@ editor of NY Herald</note>
   <birth when="1858">1858</birth>
   <death when="1924">1924</death>
   <sex>Male</sex>
+  <note type="biography"><p>Charles Murphy was born on June 20, 1858.  He was a powerful Democratic leader in New York.  Murphy ruled Tammany Hall from 1902-1924.  He died of heart disease on April 25, 1924.</p></note>
+  <bibl>“Charles F. Murphy, Famous Boss of Tammany Hall, Dies of Sudden Attack of Heart Disease.” The Cornell Daily Sun, 1924 April 26, Vol. XLIV, No. 154. Link</bibl>
 </person>
 <person xml:id="ENT.000000848">
   <persName key="ENT.000000848">
@@ -1490,6 +1496,9 @@ Andrew Johnson was the seventeenth president of the United States, taking office
   <birth when="1878">1878</birth>
   <death when="1946">1946</death>
   <sex>Male</sex>
+  <note type="biography"><p>Herbert Johnson was born in 1878 in Nebraska.  He was a cartoonist for the Saturday Evening Post.  He died in 1946 in Philadelphia.</p></note>
+  <bibl>“Herbert Johnson.” Spartacus Educational. Accessed July 10, 2015. Link“Sutton Nebraska Museum: Herbert Johnson - Sutton’s Political Cartoonist.” Sutton Historical Society. Accessed July 10, 2015. Link</bibl>
+  <note type="internal">HINT cartoonist</note>
 </person>
 <person xml:id="ENT.000003704">
   <persName key="ENT.000003704">
@@ -2217,7 +2226,7 @@ http://id.loc.gov/authorities/names/n2001153414</note>
   </persName>
   <sex>Male</sex>
   <note type="biography"><p> Frederick Taylor Pusey was an attorney and a representative of Delaware County in the Pennsylvania State Legislature.  He was born in Philadelphia on June 3, 1872.  He was first elected to the Pennsylvania House of Representatives in 1902. </p>
-<p>During the 1902 campaign for governor of Pennsylvania, Charles Nelan of the <hi rendition="#italics">North American</hi> drew a series of unflattering cartoons depicting candidate Samuel Pennypacker as a parrot of Matthew Quay.  Pennypacker won the election, and, a short time later on January 28, 1903, Pusey introduced an “anti-cartoon bill” to the State Legislature.  The bill would make it illegal for publishers to print cartoons or depicting politicians as animals or in any non-human form.  Violators of the law would be susceptible to a $1000 fine and a maximum of two years in jail.  Pusey’s bill never became law, but the Salus-Grady bill which imposed similar restrictions was signed into law on May 12, 1903.  Because of public outcry, the law was never enforced and was repealed in 1907.</p></note>
+<p>During the 1902 campaign for governor of Pennsylvania, Charles Nelan of the <hi rendition="#italics">North American</hi> drew a series of unflattering cartoons depicting candidate Samuel Pennypacker as a parrot of Matthew Quay.  Pennypacker won the election, and, a short time later on January 28, 1903, Pusey introduced an “anti-cartoon bill” to the State Legislature.  The bill would make it illegal for publishers to print cartoons depicting politicians as animals.  Violators of the law would be susceptible to a $1000 fine and a maximum of two years in jail.  Pusey’s bill never became law, but the Salus-Grady bill which imposed similar restrictions was signed into law on May 12, 1903.  Because of public outcry, the law was never enforced and was repealed in 1907.</p></note>
   <bibl> <bibl>Piott, Steven L. 1988. "The Right of the Cartoonist:  Samuel Pennypacker and Freedom of the Press". Pennsylvania History. 55 (2): 78-91.  <ref target="https://journals.psu.edu/phj/article/viewFile/24685/24454">Link</ref></bibl>
                 
                 <bibl>Smull, John Augustus; Miller, Herman P.; and Baker, W. Harry Baker. <hi rendition="#italics">Smull’s Legislative Hand Book and Manual of the State of Pennsylvania</hi>. Harrisburg:  The State, 1906.</bibl></bibl>

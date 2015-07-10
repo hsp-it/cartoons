@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+
 <?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 
@@ -64,7 +65,7 @@
             </projectDesc>
         </encodingDesc>
         <revisionDesc>
-            <change who="HSP" when="2015-06-24">Exported from Collective Access.</change>
+            <change who="HSP" when="2015-07-10">Exported from Collective Access.</change>
         </revisionDesc>
     </teiHeader>
 
@@ -265,6 +266,20 @@ LOC name authority record spells Ottman with one "n", but in the cartoon "If-The
 </org>
 <org xml:id="ENT.000003599">
   <orgName key="ENT.000003599">Ku Klux Klan<orgName type="alt">KKK</orgName></orgName>
+  <note type="org"><p>The Ku Klux Klan is a white supremacist terror group based in the United States. There are two distinct incarnations of the organization that are recognized. The first developed in the post-civil war South, during the years of the radical reconstruction. The second sprang out of prejudiced reactions to large scale immigration and black migration of the 1920s. These two moments mark the points at which Klan membership was at its highest.  There have been more recent attempts to resurrect the organization to its former height, especially during the civil rights movement of the 1960s and 1970s, but the growing prominence of competitive white supremacist organizations such as the Aryan brotherhood have largely prevented this. </p>
+                <p>In 1866 the organization began as a social The Ku Klux Klan is a white supremacist terror group based in the United States. There are two distinct incarnations of the organization that are recognized. The first developed in the post-civil war South, during the years of the radical reconstruction. The second sprang out of prejudiced reactions to large scale immigration and black migration of the 1920s. These two moments mark the points at which Klan membership was at its highest.  There have been more recent attempts to resurrect the organization to its former height, especially during the civil rights movement of the 1960s and 1970s, but the growing prominence of competitive white supremacist organizations such as the Aryan brotherhood have largely prevented this.</p> 
+                <p>In 1866 the organization began as a social club for confederate veterans in Pulaski, Tennessee, and its aim was to reinstate white supremacy over the newly enfranchised free black population of the radical reconstruction. The Ku Klux Klan became a semi-anonymous vehicle for underground resistance during the immediate post-war period. The radical Republican government of the North believed that the black population of the South need to be afforded full rights as citizens and former slave owners had to be punished to institute a new paradigm in the South. African-Americans were afforded particularly progressive rights in the reconstruction era South. For instance, seven black men were elected to congress from southern states, the most famous being Hiram Revels from Mississippi. Such aggressive changes proved to be accelerants for the white supremacist cause.</p>
+                <p>In the summer of 1867, delegates from the former Confederate states declared the Klan as the “Invisible Empire of the South” at a convention in Nashville, Tennessee. The group was presided over by a “grand wizard,” the first was rumored to be Confederate cavalry general Nathan Bedford Forrest.  Dressed in robes and sheets designed to frighten “superstitious blacks” and to prevent identification by the occupying federal troops, Klansmen whipped and killed freedmen and their white supporters in nighttime raids. The Klan successfully reinstated white rule in North Carolina, Tennessee, and Georgia between 1860 and 1870. The post-restoration era brought Jim Crow laws and the further segregation, making a secret pro-white organization increasingly irrelevant and the Ku Klux Klan all but ceased their activity.</p>
+                <p>After World War I the Klan emerged again, this time in reaction to a new wave of immigration and the migration of black Americans to northern cities. Another impetus was the 1915, D.W. Griffiths motion picture Birth of a Nation, which successfully romanticized these “hooded knights preserving the South.” The film was shown across the United States despite protests from many prominent individuals and the NAACP, and it has the dubious title of being the first film shown in the White House. Despite the success of that infamous film the Klan did not fully revitalize until the 1920s when imperial wizard William Joseph Simmons hired professional publicists, Edward Young Clarke and Elizabeth Tyler. The Klan capitalized on the fears of the American public. Fears of Bolshevism after the Wall Street bombing, growing urbanism, black migration, Catholicism, dangerous new immigrants, all threatened what they perceived as the traditional American way. Richard T. Shaefer in his article “The Ku Klux Klan: Continuity and Change,” remarked that the Klan of the twentieth century “became anti-Catholic instead of Protestant, anti-alien instead of pro-American. The propaganda varied throughout the country--anti-Japanese in the Pacific states, anti-Semitic in the Atlantic states, and anti-Mexican in the Southwest. The Klan offered a target for every frustration.”</p>
+                <p>The twentieth-century Klan often employed boycotting and other non-violent means to effective ends, but at its height in the 1920s, the Klan had been accused of many killings, mutilations, brandings with acid, kidnappings, floggings, and tar and feathering. In March of 1924, at the height of Klan membership, they held a parade in Washington D.C. and marched down the boulevard in full regalia. It was around this point when the Klan began involving itself heavily in politics. Klansmen and pro-Klansmen were regularly elected to positions in government, particularly in the South.</p>
+               <p> However due to a number of scandals and accusations of corruption, the Klan’s success of the 1920s came crashing down in the 1930s. The dwindling organization became increasingly focused on anti-communism and anti-Semitism into the 1940s and by 1944 the Knights of the Ku Klux Klan, Inc. officially dissolved itself due to owing $685,305 in back taxes to the IRS. Despite the dissolution, the Klan never disappeared and is still operational regionally. But despite their efforts the organization has never regained the membership numbers and influence of the 1920s.</p></note>
+  <bibl><bibl>“35b. Radical Reconstruction.” U.S. History: Pre-Columbian to the New Millennium. <ref target="http://www.ushistory.org/us/35b.asp">Link</ref></bibl>
+                
+                <bibl>“Ku Klux Klan.” Encyclopaedia Britannica.
+                <ref target="www.britannica.com/topicKu-Klux-Klan">Link</ref></bibl>
+                
+                <bibl>Shaefer, Richard T. “The Ku Klux Klan: Continuity and Change.” Phylon 32, no. 2 (2nd Qtr., 1971), pp. 143-157
+                <ref target="http://www.jstor.org/stable/273999">Link</ref></bibl></bibl>
   <note type="internal">http://id.loc.gov/authorities/names/n80076146.html (for 19th-century KKK); depicted in 11820</note>
 </org>
 <org xml:id="ENT.000003698">
@@ -486,6 +501,15 @@ http://id.loc.gov/authorities/names/n50071988.html</note>
 </org>
 <org xml:id="ENT.000003626">
   <orgName key="ENT.000003626">Standard Oil Company</orgName>
+  <note type="org"><p>The Standard Oil Company and Trust was the industrial empire of John D. Rockefeller. Rockefeller and his associates controlled almost all oil production, refinery, transport, and marketing in the United States from 1870 to 1911. Rockefeller created the largest industry monopoly of the nineteenth century.</p> 
+                <p>The origins of the empire began in 1863 when Rockefeller joined Maurice B. Clark and Samuel Andrews in a Cleveland, Ohio oil-refining business. Rockefeller bought-out Clark in 1865 and gained Henry M. Flagler as partner. By 1870, Rockefeller, Andrews, and Flagler operated the largest refinery in Cleveland, and by 1880 they controlled refining of 90-95 percent of all oil produced in the United States. This ascension was achieved through the elimination of competitors, mergers with other firms, and skillful negotiations with the railroad industry. In 1882 the Standard Oil Company merged with affiliated companies that were engaged in producing and marketing oil into the industry monopoly, Standard Oil Trust.</p>
+                <p>The trust could purchase, create, dissolve, merge, and divide companies by the decisions of the trustees who controlled approximately forty corporations, fourteen of which were directly owned. Standard Oil also implemented a complex and impenetrable tangle of legal structures and bureaucracy to cement the trust as a clandestine entity. Ida Tarbell remarked in the <hi rendition="#italics">History of the Standard Oil Company</hi> (1904), “You could argue its existence from its effects, but you could not prove it.” Despite their efforts, the Ohio Supreme Court ordered the Trust dissolved in 1892. However, enforcement was nearly impossible and the trust continued to operate out of their headquarters in New York City. The court ruling did little to diminish their efficacy.</p>
+                <p>In 1899, their New Jersey firm was renamed the Standard Oil Company and became dedicated as a holding company. It assumed the assets and interests formerly held by the Trust.  In 1906 Standard Oil’s reputation as an unmatched and excessive economic powerhouse brought the ire of the U.S. government. A suit was filed against the Standard Oil Company (New Jersey) under the Sherman Antitrust Act of 1890. By 1911 the New Jersey Company was forcibly divested from over thirty-three companies, effectively ending the golden age of monopolies.</p>
+                <p>The Standard Oil Empire was broken down into eight distinct companies, and all retained Standard Oil in their names.</p></note>
+  <bibl><bibl>“John D. Rockefeller,” <hi rendition="#italics">New World Encyclopedia</hi>. <ref target="www.newworldencyclopedia.org/entry/John_D._Rockefeller">Link</ref></bibl>
+                
+                <bibl>“Standard Oil Company and Trust,” <hi rendition="#italics">Encyclopaedia Britannica</hi>.
+                <ref target="www.britannica.com/topic/Standard-Oil-Company_and_Trust">Link</ref></bibl></bibl>
   <note type="internal">LOC:  http://id.loc.gov/authorities/names/n79053083</note>
 </org>
 <org xml:id="ENT.000003627">
@@ -513,6 +537,10 @@ http://id.loc.gov/authorities/names/n50071988.html</note>
 </org>
 <org xml:id="ENT.000000382">
   <orgName key="ENT.000000382">Wasp (San Francisco, Calif.)<orgName type="alt">San Francisco Illustrated Wasp</orgName></orgName>
+  <note type="org"><p>Considered the more obscure, west-coast equivalent to Puck magazine, the San Francisco Illustrated Wasp also offered richly detailed political cartoons and caricatures for California readers. The Wasp was distinctive for its full-page folio-sized illustrations and large centerfolds, which were very costly to produce. As a result of these high-printing costs, the magazine was often financially unstable and ownership changed regularly. It was founded in 1876 by Francis Korbel, a successful bohemian cigar maker and lithographer. The Wasp’s original success was largely due to Korbel’s lithographer George Frederick Keller. Keller was one of Korbel’s cigar box lithographers who had previous experience working on the “virulently anti-Catholic” humor magazine, The Jolly Giant. Keller’s richly detailed oversized illustrations helped The Wasp become California’s premiere satire and humor magazine.  Ambrose Bierce served as editor of from 1881 to 1885.  It eventually ceased publication on April 25, 1941.</p></note>
+  <bibl>Hall, Nicholas Sean. “WASP: Racism and Satire in the 19th Century.” FoundSF 
+                Link“Illustrating Chinese Exclusion: The San Francisco Wasp.” Thomas Nast Cartoons online.
+                Link“The Wasp: Stinging Editorials and Political Cartoons.” Newsletter of the Friends of the Bancroft Library no. 121 (Fall 2002), University of California, Berkeley.</bibl>
   <note type="internal">LOC:  http://id.loc.gov/authorities/names/n2007069903</note>
 </org>
 <org xml:id="ENT.000003773">
