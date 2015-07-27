@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-
 <?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 
@@ -65,7 +64,7 @@
             </projectDesc>
         </encodingDesc>
         <revisionDesc>
-            <change who="HSP" when="2015-07-10">Exported from Collective Access.</change>
+            <change who="HSP" when="2014-08-26">Exported from Collective Access.</change>
         </revisionDesc>
     </teiHeader>
 
@@ -566,6 +565,10 @@ editor of NY Herald</note>
   <birth when="1799">1799</birth>
   <death when="1857">1857</death>
   <sex>Male</sex>
+  <note type="biography"><p>Born in Philadelphia in 1799, Edward Williams (E.W.) Clay became a prolific cartoonist of the Jacksonian era. Clay trained as a lawyer but also began working as an engraver during the course of his legal studies in the 1810s. Following his admittance to the bar in 1825, he departed for Europe to study art and began producing illustrations, covers for sheet music, portraits, and caricatures. After a few years, Clay returned to Philadelphia, where he produced his most famous and widely reproduced work, Life in Philadelphia (1828-30), a series of racist etchings mocking the supposed social and political aspirations of middle-class African Americans.</p>
+<p>Clay worked extensively in the emerging field of lithography and from the early 1830s on produced mainly political cartoons, including many critical of Andrew Jackson. Around 1835, Clay moved from Philadelphia to New York, where he primarily designed cartoons published by other well-known printers such as H. R. Robinson and John Childs. By the early 1850s, Clay, whose eyesight was failing, largely abandoned art and printing for the legal sphere, leveraging family connections to serve as Clerk of the Court of Chancery and Clerk of the Orphan’s Court for Delaware from 1854 through 1856. He died of “pulmonary consumption” in New York on December 31, 1857, and was buried in Philadelphia.</p></note>
+  <bibl>Philadelphia on Stone Biographical Dictionary of Lithographers, Library Company of Philadelphia Digital Collections (ImPAC), accessed July 22, 2015. Link
+“Edward W. Clay and ‘Life in Philadelphia,’” Reframing the Color Line: Race and the Visual Culture of the Atlantic World, University of Michigan Clements Library, accessed July 22, 2015. LinkWilliam Murrell, A History of American Graphic Humor, vol. 1 (New York: Whitney Museum of American Art, 1933), 108-10.</bibl>
 </person>
 <person xml:id="ENT.000002230">
   <persName key="ENT.000002230">
@@ -1258,6 +1261,8 @@ mentioned in 11585-Bc612P567_1_TEI.xml; painted Phryne Before the Aeropagus</not
   </persName>
   <birth when="1850">1850</birth>
   <sex>Male</sex>
+  <note type="biography"><p>William Harrity was born on October 19, 1850 in Wilmington, Delaware.  He graduated from La Salle College in 1870 and later became a lawyer.  He was the Democratic National Committee Chairman from 1892 to 1896.  He died in Pennsylvania on April 17, 1912.</p></note>
+  <bibl><bibl>Schlup, L. C., &amp; Ryan, J. G. (2003).  <hi rendition="#italics">Historical dictionary of the Gilded Age</hi>.  Armonk, N.Y.: M.E. Sharpe.</bibl></bibl>
   <note type="internal">http://id.loc.gov/authorities/names/n2005080164</note>
 </person>
 <person xml:id="ENT.000003607">
@@ -2104,6 +2109,8 @@ LOC:  http://id.loc.gov/authorities/names/no2002039948</note>
   <birth when="1860">1860</birth>
   <death when="1921">1921</death>
   <sex>Male</sex>
+  <note type="biography"><p>Boies Penrose was a US Senator and powerful Republican politician.  He was born on November 1, 1860 in Philadelphia.  He studied political economy at Harvard University and became a lawyer.  In 1887 he became a Senator in the Pennsylvania legislature where he served until 1897.  He unsuccessfully ran for Philadelphia mayor in 1895.  In 1897 Boss Matthew Quay used his influence to help Penrose become a US Senator.  Penrose died on December 31, 1921 in Washington, DC.</p></note>
+  <bibl><bibl>Schlup, L. C., &amp; Ryan, J. G. (2003).  <hi rendition="#italics">Historical dictionary of the Gilded Age</hi>.  Armonk, N.Y.: M.E. Sharpe.</bibl></bibl>
 </person>
 <person xml:id="ENT.000003543">
   <persName key="ENT.000003543">
@@ -2217,6 +2224,8 @@ http://id.loc.gov/authorities/names/n2001153414</note>
   <birth when="1847">1847</birth>
   <death when="1911">1911</death>
   <sex>Male</sex>
+  <note type="biography"><p>Joseph Pulitzer was an influential newspaper publisher.  He was born on April 10, 1847 in Hungary and immigrated to the United States in 1864.  In 1868 he began writing for the <hi rendition="#italics">Westliche Post</hi>.  In 1879 he created the <hi rendition="#italics">St. Louis Post-Dispatch</hi> when he purchased and merged the<hi rendition="#italics"> St. Louis Dispatch</hi> and the <hi rendition="#italics">Post</hi>.  He later purchased the New York World in 1883.  He died on October 29, 1911.</p></note>
+  <bibl><bibl>Schlup, L. C., &amp; Ryan, J. G. (2003).  <hi rendition="#italics">Historical dictionary of the Gilded Age</hi>.  Armonk, N.Y.: M.E. Sharpe.</bibl></bibl>
 </person>
 <person xml:id="ENT.000003606">
   <persName key="ENT.000003606">
@@ -2240,6 +2249,10 @@ http://id.loc.gov/authorities/names/n2001153414</note>
   <birth when="1833-09-30">1833-09-30</birth>
   <death when="1904-05-28">1904-05-28</death>
   <sex>Male</sex>
+  <note type="biography"><p>Matthew Quay was a Republican senator and influential Pennsylvania politician.  He was born on September 30, 1833 in Pennsylvania and studied law.  He fought in the Civil War and was awarded the Congressional Medal of Honor.  He began his political career after the Civil War when he became an ally of Simon Cameron, a powerful party boss.   From 1867 to 1921 he led the state political machine, and his power and influence was so great that President Benjamin Harrison called him the “kingmaker.”  Quay served in the US Senate from 1887 to 1904 and, in 1888, became the Republican Party Chairman.  He died on May 28, 1904.</p></note>
+  <bibl><bibl>“Quay, Matthew Stanley.” <hi rendition="#italics">Biographical Directory of the United States Congress</hi>. Accessed July 21, 2015. <ref target="http://bioguide.congress.gov/scripts/biodisplay.pl?index=q000006">Link</ref></bibl>
+
+<bibl>Schlup, L. C., &amp; Ryan, J. G. (2003).  <hi rendition="#italics">Historical dictionary of the Gilded Age</hi>.  Armonk, N.Y.: M.E. Sharpe.</bibl></bibl>
   <note type="internal">Appears in DAMS #11737, "The Silence of Matt Quay."</note>
 </person>
 <person xml:id="ENT.000003376">
