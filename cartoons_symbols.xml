@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 
@@ -63,7 +64,7 @@
             </projectDesc>
         </encodingDesc>
         <revisionDesc>
-            <change who="HSP" when="2015-06-03">Exported from Collective Access.</change>
+            <change who="HSP" when="2015-08-05">Exported from Collective Access.</change>
         </revisionDesc>
     </teiHeader>
 
@@ -82,7 +83,7 @@
 </item>
 <item xml:id="brother_jonathan">
   <label>Brother Jonathan</label>
-  <note type="symbol">Early personification of the United States as a man; precursor to Uncle Sam.</note>
+  <note type="symbol">Brother Jonathan was an early personification of the United States as a man and a precursor to Uncle Sam.  At first, he represented rural New England, but during the American Revolution he came to symbolize the colonies as well.  </note>
 </item>
 <item xml:id="bull_moose">
   <label>Bull moose</label>
@@ -94,7 +95,7 @@
 </item>
 <item xml:id="columbia">
   <label>Columbia</label>
-  <note type="symbol">Personification of America, often depicted as a woman wearing a liberty cap (or holding a staff topped with a liberty cap) and accompanied by an American bald eagle.</note>
+  <note type="symbol">PColumbia is one of the most famous female personifications of America from our nation’s early days.  Columbia is often depicted wearing classical robes and a Phrygian or liberty cap and is accompanied by an American Bald Eagle.  She defends liberty with her sword and shield and possesses superhuman qualities such as the ability to fly.  She is often depicted as a motherly figure who chastises corrupt politicians.  By the early 20th century, Columbia’s popularity declined as Uncle Sam’s increased, but Columbia still remains a part of contemporary American culture.  For example, the District of Columbia, Columbia University, and Columbia Pictures, as well as several American cities, were named after her.  “Hail, Columbia”, a former unofficial national anthem, is now the official Vice Presidential Anthem.  </note>
 </item>
 <item xml:id="death">
   <label>Death</label>
@@ -168,6 +169,7 @@
 </item>
 <item xml:id="statue_of_liberty">
   <label>Statue of Liberty</label>
+  <note type="symbol">The Statue of Liberty represents American liberty and is a 152 feet tall copper statue located in the New York Harbor.  The statue was a gift from France to the United States.  It was designed by Frederic Auguste Bartholdi and built by Gustave Eiffel.  President Grover Cleveland dedicated it on October 28, 1886.  It became a national monument in 1924.  </note>
 </item>
 <item xml:id="tortoise">
   <label>Tortoise</label>
@@ -175,7 +177,7 @@
 </item>
 <item xml:id="uncle_sam">
   <label>Uncle Sam</label>
-  <note type="symbol">Representation of the United States as a man.</note>
+  <note type="symbol">Uncle Sam is a fictional character and a symbol of the United States.  He often wears a top hat and stripped pants.  The character of Uncle Sam first appeared during the War of 1812 and according to popular belief, was named after Samuel Wilson, a government meat inspector during the War of 1812. Although the character of Uncle Sam has been around since the beginning of the 19th century, he didn’t begin to eclipse Columbia in popularity until the 20th century. </note>
 </item>
 <item xml:id="unicorn">
   <label>Unicorn</label>
