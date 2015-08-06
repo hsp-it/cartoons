@@ -65,7 +65,7 @@
             </projectDesc>
         </encodingDesc>
         <revisionDesc>
-            <change who="HSP" when="2014-08-26">Exported from Collective Access.</change>
+            <change who="HSP" when="2015-08-06">Exported from Collective Access.</change>
         </revisionDesc>
     </teiHeader>
 
@@ -590,6 +590,10 @@ http://id.loc.gov/authorities/names/n50071988.html</note>
 </org>
 <org xml:id="ENT.000003608">
   <orgName key="ENT.000003608">World (New York, N.Y. : 1860-1931)<orgName type="alt">New York World</orgName></orgName>
+  <note type="org"><p><hi rendition="#italics">The New York World</hi> was a daily newspaper published in New York City from 1860 to 1931. The <hi rendition="#italics">World</hi> was originally available as a penny paper that supported President Abraham Lincoln’s action in the American Civil War.   Circulation of the New York World dramatically increased after Joseph Pulitzer purchased it in 1883.  When William Randolph Hearst bought the competing <hi>New York Journal</hi> in 1895, he convinced many of Pulitzer’s Sunday newspaper staff to join the <hi rendition="#italics">Journal</hi>.  Rivalry between the William Randolph Hearst and Joseph Pulitzer sparked an era of publicity stunts and yellow journalism.  In 1931 the World was combined with the <hi rendition="#italics">New York Evening Telegram</hi> (founded 1867) to become the <hi rendition="#italics">New York World-Telegram</hi>. It lasted until 1966 until merging again to create the <hi rendition="#italics">New York World-Journal-Tribune</hi> which closed in 1967.</p></note>
+  <bibl><bibl>"New York World". Encyclopædia Britannica. Encyclopædia Britannica Online. Encyclopædia Britannica Inc., 2015. Web. 06 Aug. 2015 <ref target="http://www.britannica.com/topic/New-York-World">Link</ref></bibl>
+             
+            <bibl> “Sensationalism; Joseph Pulitzer and the New York World.” Ward &amp; Trent, et al. The Cambridge History of English and American Literature. New York: G.P. Putnam’s Sons, 1907–21; New York: Bartleby.com, 2000.</bibl></bibl>
   <note type="internal">mentioned in 11820</note>
 </org>
                 </listOrg>
