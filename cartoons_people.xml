@@ -62,7 +62,7 @@
       </projectDesc>
     </encodingDesc>
     <revisionDesc>
-      <change who="HSP" when="2015-07-28">Exported from Collective Access.</change>
+      <change who="HSP" when="2015-08-10">Exported from Collective Access.</change>
     </revisionDesc>
   </teiHeader>
 
@@ -479,9 +479,19 @@
             <birth when="1821">1821</birth>
             <death when="1875">1875</death>
             <sex>Male</sex>
-            <note type="internal">http://id.loc.gov/authorities/names/n87895303.html; mentioned in
-              11820 (quoted); vice-presidential candidate (with running mate Horatio Seymour) in
-              1868</note>
+            <note type="biography">Francis Preston Blair Jr. was a US Representative and later
+              Senator from Missouri and an officer in the Union Army, rising to the rank of major
+              general and becoming corps commander under General Sherman. In 1868, Blair, a
+              Democrat, ran for vice-president alongside presidential candidate Horatio Seymour.
+              They lost the presidential contest to Ulysses S. Grant, and some Democrats blamed
+              Blair’s racist and vitriolic speeches warning of the dangers of African American
+              emancipation and Reconstruction policies for costing them the election. A snippet of
+              one of these speeches is quoted in Thomas Nast’s editorial cartoon “Patience on a
+              Monument.” Following the 1868 election, Blair returned to the US Senate and served
+              until 1873. He died in 1875.</note>
+            <bibl><bibl>Biographical Directory of the United States Congress, accessed August 10,
+                2015. <ref target="http://bioguide.congress.gov/scripts/biodisplay.pl?index=B000523"
+                  >Link</ref></bibl></bibl>
           </person>
           <person xml:id="ENT.000003545">
             <persName key="ENT.000003545">
@@ -1438,6 +1448,19 @@
             <birth when="1849-03-31">1849-03-31</birth>
             <death when="1907-08-07">1907-08-07</death>
             <sex>Male</sex>
+            <note type="biography"><p>George Delameter was born on March 31, 1849 in Pennsylvania.
+                He became a prominent Pennsylvania Republican, banker, and State Senator from
+                1887-1890. He studied at Harvard Law School, was admitted to the bar, and later
+                became President of Meadville Fuel Gas Company. In 1876 he was elected to serve as
+                mayor of Meadville and ran an unsuccessful campaign for Pennsylvania Governor in
+                1890. He died on August 7, 1907 from a self-inflicted gunshot wound.</p></note>
+            <bibl><bibl>Encyclopaedia of Contemporary Biography, of Pennsylvania. Accessed August 3,
+                2015. <ref
+                  target="https://books.google.com/books/about/Encyclopaedia_of_contemporary_biography.html?id=h68bAQAAMAAJ"
+                  >Link</ref></bibl>
+              <bibl>“The Political Graveyard: Politicians: Death in Offices.” Accessed August 3,
+                2015. <ref target="http://politicalgraveyard.com/death/offices.html"
+                >Link</ref></bibl></bibl>
             <note type="internal">Pennsylvania State Senator from 1887-1890; depicted in DAMS
               #11737, "The Silence of Matt Quay." See
               http://politicalgraveyard.com/death/offices.html;
@@ -1893,9 +1916,12 @@
             <birth when="1738">1738</birth>
             <death when="1820">1820</death>
             <sex>Male</sex>
-            <note type="biography">King of Great Britain and Ireland, 1760-1801; king of the United
-              Kingdom of Great Britain and Ireland, 1801-1820.</note>
-            <note type="internal">http://id.loc.gov/authorities/names/n79061402.html</note>
+            <note type="biography">George III, born 1738, became king of Great Britain and Ireland
+              in 1760, succeeding his father, George II. Following the union of Great Britain and
+              Ireland in 1801, he was king of the United Kingdom of Great Britain and Ireland until
+              his death in 1820. George III was king during the Revolutionary War and the War of
+              1812 and featured prominently in many American and British political cartoons of the
+              era.</note>
           </person>
           <person xml:id="ENT.000003722">
             <persName key="ENT.000003722">
@@ -1944,7 +1970,7 @@
             <death when="1920">1920</death>
             <sex>Male</sex>
             <note type="biography"><p>F. Victor Gillam was the brother of fellow cartoonist Bernard
-                Gillam. He was a cartoonist for <hi rendition="#italics">Puck, St. Louis
+                Gillam. He was a cartoonist for <hi rendition="#italics">Judge, St. Louis
                   Dispatch</hi> and the <hi rendition="#italics">New York World</hi>.</p></note>
             <bibl><bibl>Hess, Stephen. <hi rendition="#italics">The Ungentlemanly Art; a History of
                   American Political Cartoons</hi>,. Macmillan, 1968.</bibl></bibl>
@@ -3021,9 +3047,23 @@
             </persName>
             <birth when="1820">1820</birth>
             <sex>Male</sex>
-            <note type="internal">Artist/publisher of lithographs and political cartoons. Bio at
-              http://lcpdams.librarycompany.org:8881/R/?func=dbin-jump-full&amp;object_id=79511&amp;local_base=GEN01;
-              http://id.loc.gov/authorities/names/n85352336.html.</note>
+            <note type="biography">John L. Magee, born circa 1820 in New York, worked as an artist
+              and lithographer in New York and Philadelphia during the mid-1800s and produced
+              several political cartoons. In New York, Magee worked in the lithographic firms of
+              James Baillie and Nathaniel Currier and produced illustrations for several children’s
+              picture books during the 1840s and 1850s. From at least 1850-1852 he seems to have had
+              his own establishment at 34 Mott Street in New York, from which he published cartoons.
+              Magee relocated to Philadelphia at some point after 1852 and began to be listed as a
+              lithographer in Philadelphia city directories by 1855. In Philadelphia, Magee worked
+              as a lithographer for his own firm, which had several addresses at different times, as
+              well as working for the publishing firms of Thomas Sinclair, Benjamin Mifflin,
+              Frederick Pilliner, and John Hart. He was married to Anne Magee, with whom he had
+              three children: Emma, Walter, and Howard. Although he still listed himself as a
+              lithographer at the time of the 1870 census, he seems not to have produced lithographs
+              after the 1860s. The year of his death is unknown.</note>
+            <bibl><bibl>Philadelphia on Stone Biographical Dictionary of Lithographers, Library
+                Company of Philadelphia Digital Collections (ImPAC), accessed July 29, 2015. <ref
+                  target="http://lcpdams.librarycompany.org">Link</ref></bibl></bibl>
           </person>
           <person xml:id="ENT.000003721">
             <persName key="ENT.000003721">
@@ -3060,10 +3100,29 @@
             <birth when="1832">1832</birth>
             <death when="1932">1932</death>
             <sex>Male</sex>
-            <note type="internal">lithographer for Currier &amp; Ives,
-              http://en.wikipedia.org/wiki/Louis_Maurer; responsible for 11561 (The Political
-              Gymnasium); 11564l (Cat out of the bag); 11563 (National Game);
-              http://id.loc.gov/authorities/names/nr00026936.html</note>
+            <note type="biography">The German-born artist, lithographer, and painter Louis Maurer is
+              believed to be responsible for the most well-known political cartoons published by the
+              printing firm of Currier and Ives during the Civil War era, although these images
+              rarely bore his name. Maurer was born in Biebrich, in the Rhineland, in 1832 and
+              studied art and lithography in Mainz. He migrated to the Unites States with his family
+              in 1851 and began working for the lithographic firm of T. W. Strong before being hired
+              by Currier and Ives in 1852. He worked for Currier and Ives for eight years, during
+              which time he became the firm’s foremost artist of political cartoons. He moved on to
+              the firm of Major and Knapp before establishing his own firm, Maurer and Heppenheimer,
+              in 1872. He was successful enough to retire in 1884, at the age of 52, and devote
+              himself painting. At the time of his death in New York in 1932—at age 100—Maurer was
+              the last surviving member of the Currier and Ives staff and the oldest living American
+              artist. </note>
+            <bibl><bibl><hi rendition="#italics">The Image of America in Caricature and
+                Cartoon</hi>, 2nd ed. (Fort Worth, TX: Amon Carter Museum of Western Art, 1976),
+                200-201.</bibl>
+              <bibl>J. G. Lewin and P. J. Huff, <hi rendition="#italics">Lines of Contention:
+                  Political Cartoons of the Civil War</hi> (New York: HarperCollins, 2007),
+                199.</bibl>
+              <bibl>Library of Congress Name Authority File, accessed July 29, 2015. <ref
+                  target="http://id.loc.gov/authorities/names/nr00026936.html">Link</ref></bibl>
+              <bibl>“Louis Maurer, 100, Oldest Artist, Dies,” <hi rendition="#italics">New York
+                  Times</hi>, July 20, 1932.</bibl></bibl>
           </person>
           <person xml:id="ENT.000001783">
             <persName key="ENT.000001783">
@@ -3341,6 +3400,62 @@
             <birth when="1785">1785</birth>
             <death when="1851">1851</death>
             <sex>Male</sex>
+            <note type="biography"><p>Born Philadelphia July 19, 1785, Mordecai Manuel Noah was a
+                prominent writer, newspaper editor, and political officeholder of the new republic.
+                The son of Manuel Noah, who had immigrated from Mannheim, Germany, and served in the
+                Revolutionary War, and Zipporah Phillips, whose grandfather had served as the <hi
+                  rendition="#italics">hazan</hi> of the Shearith Israel Congregation of New
+                York—the oldest Jewish congregation in the United States. Orphaned at a young age,
+                Noah worked as a carver’s apprentice and studied at the Franklin Library. He later
+                worked as a clerk for the auditor’s office in Philadelphia before moving to
+                Harrisburg to become a reporter for the Pennsylvania Legislature. By the outbreak of
+                the War of 1812, Noah was editor of the <hi rendition="#italics">City Gazette</hi>
+                of Charleston, SC, and an outspoken advocate of war with Britain. </p>
+              <p>In 1813 the 28-year-old Noah was appointed US Consul to the Kingdom of Tunis, but
+                his position was recalled. Although the likely reason for his recall was that he
+                spent more money than had been authorized by the government to ransom an American
+                ship’s crew that had been taken by Algerian pirates and enslaved, the reason given
+                in President James Monroe’s letter was that Noah’s religion, Judaism, represented
+                “an obstacle to the exercise of his function.” This decision aroused outrage among
+                many American Jews and non-Jews alike.</p>
+              <p>Upon his return to the United States, Noah settled in New York, where he became
+                sheriff of the city and county of New York in 1822, was appointed surveyor and
+                inspector of the Port of New York by President Andrew Jackson in 1829, and became a
+                judge of the New York Court of Sessions in 1841. Noah also founded and edited a
+                number of newspapers, including the <hi rendition="#italics">National Advocate</hi>
+                (1816-1824), and the <hi rendition="#italics">New York Enquirer</hi> (1826-1829),
+                which soon merged with James Watson Webb’s Courier to become the <hi
+                  rendition="#italics">New York Courier and Enquirer</hi>. Webb and Noah’s
+                partnership dissolved over the editors’ disagreement over the Bank of the United
+                States; Noah supported President Jackson’s controversial decision to remove
+                government deposits from the bank, while Webb opposed it. In 1834, Noah founded the
+                  <hi rendition="#italics">Evening Star</hi>, the country’s leading Whig newspaper,
+                and in 1842 established the <hi rendition="#italics">Union</hi>, which was later
+                renamed <hi rendition="#italics">Noah’s Sunday Times and Messenger</hi>. Noah was
+                also an active member of New York’s Tammany Hall political machine and helped to
+                found what would become New York University. In addition to his impressive
+                journalistic career and his involvement in politics, Noah was also a prolific
+                writer, penning popular plays such as <hi rendition="#italics">The Fortress of
+                  Sorrento</hi> (1808), <hi rendition="#italics">She Would be a Soldier</hi> (1819),
+                and <hi rendition="#italics">The Siege of Tripoli</hi> (1820). Noah was also a
+                proto-Zionist who attempted to found a Jewish homeland in the United States. In
+                1820, Noah petitioned the US government to purchase Grand Island, located in the
+                Niagara River near Buffalo, NY, in the hopes of making this land a state for Jewish
+                immigrants. He purchased Grand Island in 1825 and dubbed it “Ararat” in a lavish
+                ceremony marked by proclamations, pageants, and orations. Noah shortly realized that
+                his plan was unworkable, however, and advocated establishing a Jewish state in
+                Palestine, anticipating the ideas of modern Zionism by a good fifty years.</p>
+              <p>Noah married Rebecca Jackson (no relation to Andrew Jackson), with whom he had
+                seven children. He died following a stroke in 1851.</p></note>
+            <bibl><bibl>Cyrus Adler and Max Raisin, “Noah, Mordecai Manuel,” JewishEncyclopedia.com,
+                accessed July 29, 2015. <ref
+                  target="http://www.jewishencyclopedia.com/articles/11573-noah-mordecai-manuel"
+                  >Link</ref></bibl>
+              <bibl>Guide to the Papers of Mordecai Manuel Noah (1785-1851), undated, 1816-1851
+                (P-75), American Jeish Historical Society, accessed July 29, 2015. <ref
+                  target="http://digifindingaids.cjh.org/?pID=365022">Link</ref></bibl>
+              <bibl>Simon Wolf, <hi rendition="#italics">Mordecai Manuel Noah: A Biographical
+                  Sketch</hi> (Philadelphia: Levytype Company, 1897).</bibl></bibl>
           </person>
           <person xml:id="ENT.000003372">
             <persName key="ENT.000003372">
@@ -4081,6 +4196,12 @@
             <birth when="1845">1845</birth>
             <death when="1923">1923</death>
             <sex>Male</sex>
+            <note type="biography"><p>Wilhelm Röntgen was born on March 27, 1845 in Lennep, Prussia
+                and died on February 10, 1923 in Munich, Germany. He won the Nobel Prize for Physics
+                in 1901 for his discovery of the X-ray.</p></note>
+            <bibl><bibl>“Wilhelm Conrad Rontgen.” Encyclopedia Britannica. Accessed August 3, 2015.
+                  <ref target="http://www.britannica.com/biography/Wilhelm-Rontgen"
+                >Link</ref></bibl></bibl>
             <note type="internal">http://id.loc.gov/authorities/names/n50046876</note>
           </person>
           <person xml:id="ENT.000003762">
@@ -4313,8 +4434,17 @@
             <birth when="1824">1824</birth>
             <death when="1882">1882</death>
             <sex>Male</sex>
-            <note type="internal">http://id.loc.gov/authorities/names/n50022429.html; artist of
-              11747</note>
+            <note type="biography"><p>Born in Philadelphia on February 11, 1824, Henry Louis
+                Stephens was an illustrator and caricaturist best known for his book and magazine
+                illustrations. Around 1859 Stephens began working as an artist for Frank Leslie and
+                later worked Harper and Brothers. He also contributed cartoons and sketches to
+                magazines such as <hi rendition="#italics">Vanity Fair</hi>, <hi
+                  rendition="#italics">Punchinello</hi>, and <hi rendition="#italics">Mrs.
+                  Grundy</hi>, and produced numerous book illustrations. Stephens died in Bayonne,
+                NJ, on December 13, 1882.</p></note>
+            <bibl>James Grant Wilson and John Fiske, eds., <hi rendition="#italics">Appleton’s
+                Cyclopaedia of American Biography</hi>, vol. 5 (New York: D. Appleton, 1898),
+              666.</bibl>
           </person>
           <person xml:id="ENT.000003686">
             <persName key="ENT.000003686">
@@ -4641,6 +4771,27 @@
             <birth when="1823-04-03">1823-04-03</birth>
             <death when="1878-04-12">1878-04-12</death>
             <sex>Male</sex>
+            <note type="biography"><p>William Tweed was a powerful 19th century New York City
+                political boss. He was born on April 3, 1823 and was of Scottish descent. He worked
+                as a bookkeeper, a chairmaker, a volunteer firefighter, and a mason. In the late
+                1840s he served as president of the Order of United Americans, an anti-immigrant and
+                anti-Catholic organization. In 1851 he was elected a Democratic alderman and served
+                one term in congress from 1853 to 1855. During his term in Congress, Tweed engaged
+                in voter fraud in order to help elect fellow Democratic candidates to office. He
+                served as school commissioner from 1856 to 1857. In 1861 he was elected chairman of
+                the New York County Democratic Central Committee. In 1863 he became chairman of the
+                general committee of Tammany Hall, as well as, the grand sachem or leader. In 1867
+                he was elected to the State Senate and served two terms. He was found guilty of
+                forgery and larceny and was sentenced to twelve years imprisonment in 1873, but was
+                released in 1875. He was rearrested the day after his release, tried on civil
+                charges, and convicted. On December 4, 1875 he escaped prison and fled to Spain. He
+                was caught and returned to Ludlow Street jail on November 23, 1876. He died on April
+                12, 1878.</p></note>
+            <bibl><bibl>“Tweed, William Magear.” American National Biography.</bibl>
+              <bibl>“Tweed, William Magear.” Oxford Reference.</bibl>
+              <bibl>“William Magear Tweed.” Encyclopedia Britannica Online. Accessed June 25, 2015.
+                  <ref target="http://www.britannica.com/biography/William-Magear-Tweed"
+                >Link</ref></bibl></bibl>
             <note type="internal">Depicted as a lizard in "The Silence of Matt Quay," DAMS
               #11737</note>
           </person>
@@ -4888,8 +5039,25 @@
             <birth when="1802">1802</birth>
             <death when="1884">1884</death>
             <sex>Male</sex>
-            <note type="internal">depicted in 11561, 11508 ;
-              http://id.loc.gov/authorities/names/nr89007202.html</note>
+            <note type="biography">James Watson Webb, son of Revolutionary War General Samuel
+              Blatchely Webb, was born in New York in 1802. In 1827 he bought the <hi
+                rendition="#italics">Morning Courier</hi> and in 1829 purchased the <hi
+                rendition="#italics">New York Enquirer</hi>. He combined the two titles and began
+              publishing the <hi rendition="#italics">New York Courier and Enquirer</hi>. Originally
+              supportive of Jackson, Webb—and his paper—turned his support to the Whig Party and
+              later to the early Republican Party. The <hi rendition="#italics">Courier and
+                Enquirer</hi> would be the primary mouthpiece for Whig principles for years. <hi
+                rendition="#italics">He continued to own and edit the Courier and Enquirer</hi>
+              until 1861, when it merged with the <hi rendition="#italics">World</hi>. In 1861, Webb
+              became US ambassador to Brazil, a position in which he served until 1869. He died in
+              New York in 1884.</note>
+            <bibl><bibl>James Grant Wilson and John Fiske, eds., <hi rendition="#italics">Appleton’s
+                  Cyclopaedia of American Biography</hi> (New York: D. Appleton, 1900), s.b. “Webb,
+                Samuel Blatchley.”</bibl>
+              <bibl>“James Watson Webb (1802-1884),” Mr. Lincoln and New York, Lehrman Institute,
+                accessed August 10, 2015. <ref target="http://www.mrlincolnandnewyork.org"
+                  >Link</ref></bibl>
+            </bibl>
           </person>
           <person xml:id="ENT.000001368">
             <persName key="ENT.000001368">
@@ -5142,8 +5310,17 @@
             <birth when="1795">1795</birth>
             <death when="1847">1847</death>
             <sex>Male</sex>
-            <note type="internal">May be depicted in 11508;
-              http://id.loc.gov/authorities/names/n88130501.html</note>
+            <note type="biography">In the pro-Jackson cartoon <hi rendition="#italics">The Downfall
+                of Mother Bank,</hi> (1833), an unidentified man cries out “Burrow under the mammoth
+              sheet Silas.” It is possible that the “Silas” referenced in this cartoon is Silas
+              Wright Jr., a Democratic politician from New York and a defender of Andrew Jackson’s
+              decision to remove federal deposits from the Bank of the United States. Wright was a
+              member of Congress from 1827 to 1829, comptroller of the State of New York from 1829
+              to 1833, US Senator from New York (elected as a Jacksonian) from 1833 to 1844, and
+              governor of New York from 1844 to 1846. </note>
+            <bibl>Biographical Directory of the United States Congress, accessed August 10, 2015.
+                <ref target="http://bioguide.congress.gov/scripts/biodisplay.pl?index=W000770"
+                >Link</ref></bibl>
           </person>
           <person xml:id="ENT.000003756">
             <persName key="ENT.000003756">
