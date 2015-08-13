@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 
@@ -295,7 +296,8 @@ editor of NY Herald</note>
   <birth when="1821">1821</birth>
   <death when="1875">1875</death>
   <sex>Male</sex>
-  <note type="internal">http://id.loc.gov/authorities/names/n87895303.html; mentioned in 11820 (quoted); vice-presidential candidate (with running mate Horatio Seymour) in 1868</note>
+  <note type="biography">Francis Preston Blair Jr. was a US Representative and later Senator from Missouri and an officer in the Union Army, rising to the rank of major general and becoming corps commander under General Sherman. In 1868, Blair, a Democrat, ran for vice-president alongside presidential candidate Horatio Seymour. They lost the presidential contest to Ulysses S. Grant, and some Democrats blamed Blair’s racist and vitriolic speeches warning of the dangers of African American emancipation and Reconstruction policies for costing them the election. A snippet of one of these speeches is quoted in Thomas Nast’s editorial cartoon “Patience on a Monument.” Following the 1868 election, Blair returned to the US Senate and served until 1873. He died in 1875.</note>
+  <bibl><bibl>Biographical Directory of the United States Congress, accessed August 10, 2015. <ref target="http://bioguide.congress.gov/scripts/biodisplay.pl?index=B000523">Link</ref></bibl></bibl>
 </person>
 <person xml:id="ENT.000003545">
   <persName key="ENT.000003545">
@@ -1078,8 +1080,7 @@ See http://politicalgraveyard.com/death/offices.html; https://books.google.com/b
   <birth when="1738">1738</birth>
   <death when="1820">1820</death>
   <sex>Male</sex>
-  <note type="biography">King of Great Britain and Ireland, 1760-1801; king of the United Kingdom of Great Britain and Ireland, 1801-1820.</note>
-  <note type="internal">http://id.loc.gov/authorities/names/n79061402.html</note>
+  <note type="biography">George III, born 1738, became king of Great Britain and Ireland in 1760, succeeding his father, George II. Following the union of Great Britain and Ireland in 1801, he was king of the United Kingdom of Great Britain and Ireland until his death in 1820. George III was king during the Revolutionary War and the War of 1812 and featured prominently in many American and British political cartoons of the era.</note>
 </person>
 <person xml:id="ENT.000003722">
   <persName key="ENT.000003722">
@@ -2121,8 +2122,7 @@ LOC:  http://id.loc.gov/authorities/names/no2002039948</note>
   <sex>Male</sex>
   <note type="biography"><p>Samuel Pennypacker was the 23rd Governor of Pennsylvania.</p>
                 <p>Pennypacker was born on April 9, 1843 in Phoenixville, Pennsylvania.  He attended Grovemont Seminary and was accepted into Yale University.  His grandfather decided not to pay his tuition until he got some experience in the workforce.  In 1862 Pennypacker became a teacher at Mont Clare in Montgomery County, and the following year, enlisted in the 26th Pennsylvania Emergency Regiment.  After fighting in the militia, he returned to his studies and attended law school at the University of Pennsylvania.  In 1870 he married Virginia Earle Broomall.</p>
-                <p>He served on the Philadelphia Board of Education in 1885 and later became the judge of the Court of Common Pleas of Philadelphia.  In 1900 he became the president of the Historical Society of Pennsylvania.  He defeated Robert Pattison for the office of Governor of Pennsylvania and served from 1903-1907.  As Governor, Pennypacker signed legislation to create the Pennsylvania State Archives and the State Museum of Pennsylvania.  The Child Labor Act of 1905 was also passed during his governorship.  Pennypacker also helped pass the controversial Newspaper Libel Act of 1903 which was repealed in 1907.</p>
-                <p>Samuel Pennypacker died on September 2, 1916.</p></note>
+                <p>He served on the Philadelphia Board of Education in 1885 and later became the judge of the Court of Common Pleas of Philadelphia.  In 1900 he became the president of the Historical Society of Pennsylvania.  He defeated Robert Pattison for the office of Governor of Pennsylvania and served from 1903-1907.  During the 1902 gubernatorial campaign, Charles Nelan of the North American drew a series of unflattering cartoons depicting candidate Pennypacker as a parrot of Matthew Quay.  After the election, Pennsypacker signed into legislation the controversial Newspaper Libel Act of 1903.  Also known as the Pennsylvania anti-cartoon law, the Newspaper Libel Act made it easier for editors to be sued for libel.  The Newspaper Libel Act was extremely unpopular and was repealed in 1907.  As Governor, Pennypacker also signed legislation to create the Pennsylvania State Archives and the State Museum of Pennsylvania.  The Child Labor Act of 1905 was passed during his governorship.  Samuel Pennypacker died on September 2, 1916.</p></note>
   <bibl><bibl>“Samuel Pennypacker.” <hi rendition="#italics">Pennsylvania Historical and Museum Commission</hi>. Accessed June 30, 2015. <ref target="http://www.portal.state.pa.us/portal/server.pt/community/1879-1951/4284/samuel_whitaker_pennypacker/469087">Link</ref></bibl>
                 
                 <bibl>“Samuel Whitaker Pennypacker.” <hi rendition="#italics">Pennsylvania Capitol Preservation Committee</hi>. Accessed June 30, 2015. <ref target="http://cpc.state.pa.us/history/notable/samuel-whitaker-pennypacker.cfm">Link</ref></bibl></bibl>
@@ -2975,7 +2975,10 @@ Depicted in Hint cartoon #11834</note>
   <birth when="1802">1802</birth>
   <death when="1884">1884</death>
   <sex>Male</sex>
-  <note type="internal">depicted in 11561, 11508 ; http://id.loc.gov/authorities/names/nr89007202.html</note>
+  <note type="biography">James Watson Webb, son of Revolutionary War General Samuel Blatchely Webb, was born in New York in 1802. In 1827 he bought the <hi rendition="#italics">Morning Courier</hi> and in 1829 purchased the <hi rendition="#italics">New York Enquirer</hi>. He combined the two titles and began publishing the <hi rendition="#italics">New York Courier and Enquirer</hi>. Originally supportive of Jackson, Webb—and his paper—turned his support to the Whig Party and later to the early Republican Party. The <hi rendition="#italics">Courier and Enquirer</hi> would be the primary mouthpiece for Whig principles for years. <hi rendition="#italics">He continued to own and edit the Courier and Enquirer</hi> until 1861, when it merged with the <hi rendition="#italics">World</hi>. In 1861, Webb became US ambassador to Brazil, a position in which he served until 1869. He died in New York in 1884.</note>
+  <bibl><bibl>James Grant Wilson and John Fiske, eds., <hi rendition="#italics">Appleton’s Cyclopaedia of American Biography</hi> (New York: D. Appleton, 1900), s.b. “Webb, Samuel Blatchley.”</bibl>
+<bibl>“James Watson Webb (1802-1884),” Mr. Lincoln and New York, Lehrman Institute, accessed August 10, 2015. <ref target="http://www.mrlincolnandnewyork.org">Link</ref></bibl>
+</bibl>
 </person>
 <person xml:id="ENT.000001368">
   <persName key="ENT.000001368">
@@ -3112,7 +3115,8 @@ http://strippersguide.blogspot.com/2012/11/ink-slinger-profiles-op-williams.html
   <birth when="1795">1795</birth>
   <death when="1847">1847</death>
   <sex>Male</sex>
-  <note type="internal">May be depicted in 11508; http://id.loc.gov/authorities/names/n88130501.html</note>
+  <note type="biography">In the pro-Jackson cartoon <hi rendition="#italics">The Downfall of Mother Bank,</hi> (1833), an unidentified man cries out “Burrow under the mammoth sheet Silas.” It is possible that the “Silas” referenced in this cartoon is Silas Wright Jr., a Democratic politician from New York and a defender of Andrew Jackson’s decision to remove federal deposits from the Bank of the United States. Wright was a member of Congress from 1827 to 1829, comptroller of the State of New York from 1829 to 1833, US Senator from New York (elected as a Jacksonian) from 1833 to 1844, and governor of New York from 1844 to 1846. </note>
+  <bibl>Biographical Directory of the United States Congress, accessed August 10, 2015. <ref target="http://bioguide.congress.gov/scripts/biodisplay.pl?index=W000770">Link</ref></bibl>
 </person>
 <person xml:id="ENT.000003756">
   <persName key="ENT.000003756">

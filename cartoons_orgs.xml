@@ -65,7 +65,7 @@
             </projectDesc>
         </encodingDesc>
         <revisionDesc>
-            <change who="HSP" when="2015-08-06">Exported from Collective Access.</change>
+            <change who="HSP" when="2014-08-26">Exported from Collective Access.</change>
         </revisionDesc>
     </teiHeader>
 
@@ -88,6 +88,7 @@
 </org>
 <org xml:id="ENT.000003691">
   <orgName key="ENT.000003691">Arkell Publishing Company</orgName>
+  <note type="org"><p>The Arkell Publishing Company published <hi rendition="#italics">Judge</hi> magazine.</p></note>
 </org>
 <org xml:id="ENT.000003326">
   <orgName key="ENT.000003326">Bank of the United States (1816-1836)<orgName type="alt">Second Bank of the United States</orgName></orgName>
@@ -179,10 +180,14 @@
 </org>
 <org xml:id="ENT.000003667">
   <orgName key="ENT.000003667">Evening public ledger, 1914-1942 <orgName type="alt">Evening public ledger and the evening telegraph </orgName></orgName>
+  <note type="org"><p>The <hi rendition="#italics">Evening Public Ledger</hi> was a daily Philadelphia newspaper founded in 1914 by Cyrus Curtis.  It was a conservative newspaper which was popular among Philadelphia’s upper-middle class.  In the 1920s it became one of the most widely read newspapers in Philadephia.  Curtis died in 1934, and in 1941 Robert Cresswell purchased <hi rendition="#italics">Evening Public Ledger</hi>.  One year later the newspaper ceased publication.</p></note>
+  <bibl><bibl>“About Evening public ledger. (Philadelphia [Pa.]) 1914-1942.” Chronicling America, Historic American Newspapers. National Endowment for the Humanities. Library of Congress. <ref target="http://chroniclingamerica.loc.gov/lccn/sn83045211/">Link</ref></bibl></bibl>
   <note type="internal">Description in Chronicling Am:  http://chroniclingamerica.loc.gov/lccn/sn83045211/</note>
 </org>
 <org xml:id="ENT.000003653">
   <orgName key="ENT.000003653">Evening telegraph </orgName>
+  <note type="org"><p>The <hi rendition="#italics">Philadelphia Evening Telegraph</hi> was founded in 1864 by Charles Edward Warburton and James Barclay Harding.  After Harding’s death in October 1865, Warburton became the sole proprietor. Former <hi rendition="#italics">Telegraph</hi> reporter and city editor, Watson Armbruster, served as managing editor. The <hi rendition="#italics">Telegraph</hi> was an innovative newspaper that ran editorials from other leading newspapers in a feature called “Spirit of the Press.” Warburton died on September 1, 1896, and his son, Barclay Harding Warburton, inherited the newspaper. On February 2, 1911, Warburton sold the paper to Rodman Wanamaker, the son of John Wanamaker. The <hi rendition="#italics">Telegraph</hi> ceased publication on June 28, 1918.</p></note>
+  <bibl><bibl>“About The evening telegraph. (Philadelphia [Pa.]) 1864-1918.” Chronicling America: Historic American Newspapers, National Endowment for the Humanities. Library of Congress online. <ref target="http://chroniclingamerica.loc.gov/lccn/sn83025925/">Link</ref></bibl></bibl>
   <note type="internal">Chronicling America:  http://chroniclingamerica.loc.gov/lccn/sn83025925/
 </note>
 </org>
@@ -205,8 +210,10 @@
 </org>
 <org xml:id="ENT.000003657">
   <orgName key="ENT.000003657">Gazette Times</orgName>
+  <note type="org"><p>The <hi rendition="#italics">Pittsburgh Gazette</hi> was first published on July 29, 1786.  The newspaper changed ownership and titles several times until it was renamed the <hi rendition="#italics">Gazette Times</hi> in 1906.  In 1927 the <hi rendition="#italics">Gazette Times</hi> became the <hi rendition="#italics">Pittsburgh Post-Gazette</hi>.</p> </note>
+  <bibl><bibl>“The Gazette Times.” Accessed August 12, 2015. <ref target="http://chroniclingamerica.loc.gov/lccn/sn84024549/">Link</ref></bibl></bibl>
   <note type="internal">Chronicling Am:  http://chroniclingamerica.loc.gov/lccn/sn84024549/&#13;
-carton# 6807 Out with them all!</note>
+cartoon# 6807 Out with them all!</note>
 </org>
 <org xml:id="ENT.000003540">
   <orgName key="ENT.000003540">Harper &amp; Brothers</orgName>
@@ -263,6 +270,7 @@ LOC name authority record spells Ottman with one "n", but in the cartoon "If-The
 </org>
 <org xml:id="ENT.000003163">
   <orgName key="ENT.000003163">Keppler &amp; Schwarzmann<orgName type="alt">Keppler and Schwarzmann</orgName></orgName>
+  <note type="org"><p>Keppler &amp; Schwarzmann was a publishing team consisting of Joseph Ferdinand Keppler and Adolph Schwarzmann, who began publishing <hi rendition="#italics">Puck</hi> in 1871 in Saint Louis as a German-language humor magazine. They began publishing an English language version of <hi rendition="#italics">Puck</hi> in New York in 1877 which became hugely popular.</p></note>
 </org>
 <org xml:id="ENT.000000961">
   <orgName key="ENT.000000961">King &amp; Baird<orgName type="alt">King and Baird</orgName><orgName type="alt">King und Baird</orgName></orgName>
@@ -301,6 +309,9 @@ LOC name authority record spells Ottman with one "n", but in the cartoon "If-The
 </org>
 <org xml:id="ENT.000003557">
   <orgName key="ENT.000003557">Life</orgName>
+  <note type="org"><p><hi rendition="#italics">Life</hi> was founded in 1883 by John Ames Mitchell and was a popular humor magazine.  Henry Luce purchased the magazine in 1936 and changed the magazine’s focus from humor to photojournalism.  The magazine continued publication until 2002.</p>
+</note>
+  <bibl><bibl>“Life (magazine) - New World Encyclopedia.” Accessed August 12, 2015. <ref target="http://www.newworldencyclopedia.org/entry/Life_(magazine)">Link</ref></bibl></bibl>
 </org>
 <org xml:id="ENT.000003677">
   <orgName key="ENT.000003677">Lincoln Young Men's Wide Awake Club<orgName type="alt">Wide Awakes</orgName></orgName>
@@ -410,6 +421,9 @@ http://id.loc.gov/authorities/names/n2002162950.html</note>
 </org>
 <org xml:id="ENT.000003556">
   <orgName key="ENT.000003556">North American</orgName>
+  <note type="org"><p>The <hi rendition="#italics">North American</hi> was a Philadelphia newspaper founded in 1839. It ceased publication when it was purchased by the owner the <hi rendition="#italics">Public Ledger</hi> in 1925.</p> </note>
+  <bibl><bibl>“The North American.” Accessed August 12, 2015. <ref target="http://chroniclingamerica.loc.gov/lccn/sn84031905/">Link</ref></bibl> 
+                </bibl>
   <note type="internal">http://chroniclingamerica.loc.gov/lccn/sn84024584/</note>
 </org>
 <org xml:id="ENT.000001300">
@@ -431,9 +445,16 @@ http://id.loc.gov/authorities/names/n2002162950.html</note>
 </org>
 <org xml:id="ENT.000000435">
   <orgName key="ENT.000000435">Philadelphia Public Ledger</orgName>
+  <note type="org"><p>The <hi rendition="#italics">Public Ledger</hi> was a Philadelphia’s first penny newspaper.  The daily newspaper was first published in 1836 by William Moseley Swain, Arunah S. Abell, and Azariah H. Simmons.  It ceased publication in 1942.</p></note>
+  <bibl><bibl>“Falvey Memorial Library: Villanova University : Philadelphia’s Public Ledger Now Available via ‘America’s Historical Newspapers’.” Accessed August 13, 2015. <ref target="http://blog.library.villanova.edu/history-sociology/2009/03/10/philadelphias-public-ledger-now-available-via-americas-historical-newspapers/">Link</ref></bibl>
+                
+                <bibl>“Public Ledger Accessed August 13, 2015. <ref target="http://chroniclingamerica.loc.gov/lccn/sn91025277/">Link</ref></bibl></bibl>
+  <note type="internal">http://chroniclingamerica.loc.gov/lccn/sn91025277/</note>
 </org>
 <org xml:id="ENT.000000437">
   <orgName key="ENT.000000437">Philadelphia Record</orgName>
+  <note type="org"><p>The <hi rendition="#italics">Philadelphia Record</hi> was a popular one-cent daily newspaper.  It was founded in 1877 by William M. Singerly.  In the 1920s Rodman Wanamaker purchased the <hi rendition="#italics">Record</hi>.  After Wanamaker’s death in 1928, David Stern bought the paper.  The <hi rendition="#italics">Record</hi> ceased publication in 1947. </p> </note>
+  <bibl><bibl>“The Philadelphia Record,” Closed for Business: The Story of Bankers Trust Company During the Great Depression. Digital History Project, Historical Society of Pennsylvania. <ref target="http://digitalhistory.hsp.org/bnktr/org/philadelphia-record">Link</ref></bibl></bibl>
 </org>
 <org xml:id="ENT.000003763">
   <orgName key="ENT.000003763">Philadelphia Times</orgName>
@@ -451,12 +472,14 @@ http://id.loc.gov/authorities/names/n2002162950.html</note>
 </org>
 <org xml:id="ENT.000003658">
   <orgName key="ENT.000003658">Pittsburgh Commercial Gazette Inc.</orgName>
+  <note type="org"><p>Publisher of the <hi rendition="#italics">Gazette Times</hi></p></note>
   <note type="internal">http://chroniclingamerica.loc.gov/lccn/sn84024549/&#13;
 &#13;
 publisher of Gazette Times</note>
 </org>
 <org xml:id="ENT.000003668">
   <orgName key="ENT.000003668">Public Ledger Co.</orgName>
+  <note type="org"><p>Publisher of the <hi rendition="#italics">Evening Public Ledger</hi></p></note>
   <note type="internal">publisher of evening public ledger.  cartoon Dams ID 12262</note>
 </org>
 <org xml:id="ENT.000000384">
@@ -521,6 +544,7 @@ publisher of Gazette Times</note>
 </org>
 <org xml:id="ENT.000003688">
   <orgName key="ENT.000003688">Sackett &amp; Wilhelms Litho. &amp; Prt. Co.<orgName type="alt">Sackett &amp; Wilhelms Lithographing Corporation</orgName></orgName>
+  <note type="org"><p>Sackett &amp; Wilhelms Lithographing Corporation was located in New York and was the lithographer for <hi rendition="#italics">Judge</hi> magazine.</p></note>
   <note type="internal">http://id.loc.gov/authorities/names/no00092199</note>
 </org>
 <org xml:id="ENT.000003325">
@@ -549,6 +573,7 @@ http://id.loc.gov/authorities/names/n50071988.html</note>
 </org>
 <org xml:id="ENT.000003627">
   <orgName key="ENT.000003627">Swain, Abell &amp; Simmons</orgName>
+  <note type="org"><p>Publisher of the <hi rendition="#italics">Philadelphia Public Ledger</hi></p></note>
   <note type="internal"> http://id.loc.gov/authorities/names/nr2003020764
 </note>
 </org>
@@ -558,6 +583,7 @@ http://id.loc.gov/authorities/names/n50071988.html</note>
 </org>
 <org xml:id="ENT.000003640">
   <orgName key="ENT.000003640">The Illustrated American Publishing Company</orgName>
+  <note type="org"><p>The Illustrated American Publishing Company was the publisher for the <hi rendition="#italics">Illustrated American</hi>.</p></note>
   <note type="internal">Published "The Illustrated American," which featured the cartoon, "The Silence of Matt Quay" (DAMS #11737), unable to find much information about this publication.  See http://www.worldcat.org/title/illustrated-american-magazine/oclc/10048433.</note>
 </org>
 <org xml:id="ENT.000003622">
