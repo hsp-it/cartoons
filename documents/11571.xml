@@ -78,9 +78,9 @@
                   <relation name="depicted" active="ENT.000003084"/>
                   <relation name="depicted" active="ENT.000002738"/>
                   <relation name="depicted" active="ENT.000003384"/>
-                  <relation active="cartoons_symbols.xml#uncle_sam"/>
-                  <relation active="cartoons_symbols.xml#columbia"/>
-                  <relation active="cartoons_symbols.xml#liberty_cap"/>
+                  <relation name="depicted" active="cartoons_symbols.xml#uncle_sam"/>
+                  <relation name="depicted" active="cartoons_symbols.xml#columbia"/>
+                  <relation name="depicted" active="cartoons_symbols.xml#liberty_cap"/>
                 </listRelation>
               </bibl>
             </msItem>
