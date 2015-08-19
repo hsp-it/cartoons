@@ -84,7 +84,7 @@
                   <relation name="depicts" active="ENT.000003383"/>
                   <relation name="depicts" active="ENT.000003352"/>
                   <relation name="depicts" active="ENT.000003376"/>
-                  <relation name="depicted"/>
+                  <relation name="depicted" active="cartoons_symbols.xml#rail"/>
                 </listRelation>
               </bibl>
             </msItem>
