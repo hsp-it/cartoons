@@ -134,6 +134,7 @@
     <profileDesc>
       <textClass>
         <catRef target="cartoons_genres.xml#Engravings"/>
+        <catRef target="cartoons_genres.xml#political_cartoons"/>
         <catRef target="cartoons_taxonomies.xml#early"/>
         <catRef target="cartoons_taxonomies.xml#war"/>
         <catRef target="cartoons_taxonomies.xml#native"/>
