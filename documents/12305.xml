@@ -81,7 +81,6 @@
                 <listRelation>
                   <relation name="depicted" active="ENT.000003599"/>
                   <relation name="depicted" active="cartoons_symbols.xml#dove"/>
-                  <relation name="depicted" active="cartoons_symbols.xml#liberty_tree"/>
                 </listRelation>
               </bibl>
             </msItem>
