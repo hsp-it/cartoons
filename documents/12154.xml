@@ -88,6 +88,7 @@
                                     <relation name="depicted" active="ENT.000003712"/>
                                     <relation name="depicted" active="ENT.000003713"/>
                                     <relation name="mentioned" active="ENT.000003714"/>
+                                    <relation name="depicted" active="cartoons_symbols.xml#lion"/>
 
                                 </listRelation>
                             </bibl>
