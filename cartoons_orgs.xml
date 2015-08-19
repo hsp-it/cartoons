@@ -65,7 +65,7 @@
             </projectDesc>
         </encodingDesc>
         <revisionDesc>
-            <change who="HSP" when="2014-08-26">Exported from Collective Access.</change>
+            <change who="HSP" when="2015-08-19">Exported from Collective Access.</change>
         </revisionDesc>
     </teiHeader>
 
@@ -155,6 +155,7 @@
 </org>
 <org xml:id="ENT.000003554">
   <orgName key="ENT.000003554">E. C. MacFarlane &amp; Co.<orgName type="alt">E. C. MacFarlane and Company</orgName></orgName>
+  <note type="org"><p>E.C MacFarlane &amp; Co. was the publisher for the humor magazine, <hi rendition="#italics">Wasp</hi>.</p></note>
   <note type="internal">publisher for Wasp</note>
 </org>
 <org xml:id="ENT.000000637">
@@ -240,6 +241,8 @@ cartoon# 6807 Out with them all!</note>
 </org>
 <org xml:id="ENT.000003611">
   <orgName key="ENT.000003611">J. Ottman Lithographic Company<orgName type="alt">J. Ottmann Litho Co.</orgName><orgName type="alt">Ottman Lithographic Company</orgName></orgName>
+  <note type="org"><p>The J. Ottman Lithographic Company was the lithographer for the humor magazine Puck.  In 1874 Jacob Ottman formed Mayer, Merkel &amp; Ottman with partners Vincent Mayer and August Merkel.  After Mayer and Merkel retired in 1885, the first was renamed J. Ottman Lithographing Company.  Ottman died in 1890, but the firmed remained in business until the beginning of the 20th century.</p></note>
+  <bibl><bibl>“Jacquelyn A. Ottman Collection of J. Ottmann Lithographing Company 1880-1920 (bulk 1880-1890)  PR 281.” Accessed August 19, 2015. <ref target="http://dlib.nyu.edu/findingaids/html/nyhs/ottman/bioghist.html">Link</ref></bibl></bibl>
   <note type="internal">LOC:  http://id.loc.gov/authorities/names/nr95031115  
 
 LOC name authority record spells Ottman with one "n", but in the cartoon "If-The Inaugural Dinner at the White House" (DAMS 11687), it is spelled "Ottmann."</note>
@@ -588,6 +591,7 @@ http://id.loc.gov/authorities/names/n50071988.html</note>
 </org>
 <org xml:id="ENT.000003622">
   <orgName key="ENT.000003622">The Jefferson (TX)</orgName>
+  <note type="org"><p><hi rendition="#italics">The Jefferson (TX</hi>) is a newspaper mentioned in the political cartoon "Patience on a Monument."  The newspaper may be the <hi rendition="#italics">Jefferson Jimplecute</hi>, <hi rendition="#italics">Jefferson News</hi>, or another local publication.</p></note>
   <note type="internal">Jefferson (TX) newspaper, mentioned in 11820; could be "Jefferson Jimplecute," "Jefferson News," or various other local publications.</note>
 </org>
 <org xml:id="ENT.000003604">
