@@ -157,7 +157,8 @@
     </encodingDesc>
     <profileDesc>
       <textClass>
-        <catRef target="cartoons_genres.xml#lithograph"/>
+        <catRef target="cartoons_genres.xml#lithographs"/>
+    
         <catRef target="cartoons_genres.xml#political_cartoons"/>
         <catRef
           target="cartoons_taxonomies.xml#early"/>
