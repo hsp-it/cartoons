@@ -77,7 +77,7 @@
                   <relation name="depicts" active="ENT.000003333"/>
                   <relation name="mentioned" active="ENT.000003329"/>
                   <relation name="mentioned" active="ENT.000003317"/>
-                  <relation name="depicted"/>
+                  <relation name="depicted" active="cartoons_symbols.xml#rail"/>
                 </listRelation>
               </bibl>
             </msItem>
