@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+
 <?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 
@@ -64,7 +65,7 @@
             </projectDesc>
         </encodingDesc>
         <revisionDesc>
-            <change who="HSP" when="2015-08-05">Exported from Collective Access.</change>
+            <change who="HSP" when="2015-08-20">Exported from Collective Access.</change>
         </revisionDesc>
     </teiHeader>
 
@@ -83,11 +84,11 @@
 </item>
 <item xml:id="brother_jonathan">
   <label>Brother Jonathan</label>
-  <note type="symbol">Brother Jonathan was an early personification of the United States as a man and a precursor to Uncle Sam.  At first, he represented rural New England, but during the American Revolution he came to symbolize the colonies as well.  </note>
+  <note type="symbol">Brother Jonathan was an early personification of the United States as a man and a precursor to <ref target="cartoons_people.xml#uncle_sam">Uncle Sam</ref>.  At first, he represented rural New England, but during the American Revolution he came to symbolize the colonies as well.</note>
 </item>
 <item xml:id="bull_moose">
   <label>Bull moose</label>
-  <note type="symbol">The bull moose is a symbol for the Progressive Party which was founded by President Theodore Roosevelt in 1912. </note>
+  <note type="symbol">The bull moose is a symbol for the Progressive Party, which was founded by Theodore Roosevelt in 1912. </note>
 </item>
 <item xml:id="cerberus">
   <label>Cerberus</label>
@@ -95,7 +96,7 @@
 </item>
 <item xml:id="columbia">
   <label>Columbia</label>
-  <note type="symbol">Columbia is one of the most famous female personifications of America from our nation’s early days.  Columbia is often depicted wearing classical robes and a Phrygian or liberty cap and is accompanied by an American Bald Eagle.  She defends liberty with her sword and shield and possesses superhuman qualities such as the ability to fly.  She is often depicted as a motherly figure who chastises corrupt politicians.  By the early 20th century, Columbia’s popularity declined as Uncle Sam’s increased, but Columbia still remains a part of contemporary American culture.  For example, the District of Columbia, Columbia University, and Columbia Pictures, as well as several American cities, were named after her.  “Hail, Columbia”, a former unofficial national anthem, is now the official Vice Presidential Anthem.  </note>
+  <note type="symbol">Columbia is one of the most famous female personifications of America from the nation’s early days. Columbia is often depicted wearing classical robes and either wearing or holding a <ref target="cartoons_symbols.xml#liberty_cap">Phrygian or liberty cap</ref>. She is often drawn holding a sword and shield (sometimes decorated with the flag of the United States) and is frequently accompanied  by an American Bald Eagle. Columbia is often depicted as a motherly figure who chastises corrupt politicians. By the early 20th century, Columbia’s popularity declined as <ref target="cartoons_symbols.xml#uncle_sam">Uncle Sam</ref>’s increased, and following the completion of the <ref target="cartoons_symbols.xml#statue_of_liberty">Statue of Liberty</ref>, Liberty increasingly supplanted Columbia as the iconic female representation of the United States. </note>
 </item>
 <item xml:id="death">
   <label>Death</label>
@@ -113,7 +114,7 @@
 </item>
 <item xml:id="donkey">
   <label>Donkey</label>
-  <note type="symbol">Usage as a symbol of the Democratic Party attributed to Thomas Nast by many, but "jackass" also used in iconography of Andrew Jackson's 1828 presidential campaign. Nast also used donkey to symbolize Democratic-supporting newspaper the New York Herald during the 1870s.</note>
+  <note type="symbol">Thomas Nast is often credited with debuting the donkey as the symbol for the Democratic Party in the late 19th century, but the association between donkeys and Democrats in political cartoons goes back at least to the 1828 campaign of Andrew Jackson. After his opponents insulted him by calling him a "jackass," Jackson proudly adopted the symbol of the strong-willed animal in their campaign iconography. Before and during the Civil War, cartoonists often represented seceding Southern states as stubborn donkeys. From the 1870s onward, Thomas Nast's cartoons did much to solidify and popularize the donkey as the symbol of the Democratic Party; he also used the donkey to represent the Democratic-supporting <hi rendition="#italics">New York Herald</hi> during the 1870s.</note>
 </item>
 <item xml:id="dove">
   <label>Dove</label>
@@ -121,7 +122,7 @@
 </item>
 <item xml:id="elephant">
   <label>Elephant</label>
-  <note type="symbol">The elephant is a symbol of the Republican Party.  The origin of the Republican Elephant is attributed to Thomas Nast.</note>
+  <note type="symbol">The elephant is a symbol of the Republican Party. Thomas Nast is credited with popularizing the elephant as a Republican symbol in his cartoons from the 1870s.</note>
 </item>
 <item xml:id="fame">
   <label>Fame</label>
@@ -133,27 +134,23 @@
 </item>
 <item xml:id="giraffe">
   <label>Giraffe</label>
-  <note type="symbol">In the 1870s, Thomas Nast used the giraffe to represent the New York Tribune.</note>
+  <note type="symbol">In the 1870s, Thomas Nast used the giraffe to represent the <hi rendition="#italics">New York Tribune</hi>. The <hi rendition="#italics">Tribune</hi>'s office building—under construction when Nast debuted his giraffe symbol—was tall and skinny, like the neck of a giraffe.</note>
 </item>
 <item xml:id="jack_downing">
   <label>Jack Downing</label>
-  <note type="symbol">A fictional character popularized in a serial newspaper narrative by author Seba Smith, Jack Downing (who, over the course of his adventures, rose to the rank of Major) appears frequently in American political cartoons from the early republic as a stand-in for the American everyman. Several of the cartoons in the Historic Images, New Technologies (HINT) project bear the "signature" of Jack Downing's nephew, "Zek" Downing.</note>
+  <note type="symbol">A fictional character popularized in a serial newspaper narrative by author Seba Smith, Jack Downing (who, over the course of his adventures, rose to the rank of Major) appears frequently in American political cartoons from the early republic as a stand-in for the American everyman. In several cartoons, Jack Downing is depicted as a thin man wearing striped pants and a star-decorated waistcoat and either wearing or carrying a top hat, thus bearing a striking resemblance to <ref target="cartoons_symbols.xml#brother_jonathan">Brother Jonathan</ref> and his successor, <ref target="cartoons_symbols.xml#uncle_sam">Uncle Sam</ref>. Several of the cartoons in this exhibit bear the "signature" of Jack Downing's nephew, Zek Downing.</note>
 </item>
 <item xml:id="john_bull">
   <label>John Bull</label>
-  <note type="symbol">Symbolic representation of Great Britain, often depicted as a paunchy, middle-aged man.</note>
+  <note type="symbol">John Bull is a symbolic representation of Great Britain, often depicted as a heavy-set, middle-aged man. In cartoons published during the War of 1812, John Bull is often drawn to look like King George III or a British military officer; in some cases, John Bull appears as an actual bull with human characteristics.</note>
 </item>
 <item xml:id="justice">
   <label>Justice</label>
-  <note type="symbol">Justice is often depicted as a woman wearing a blindfold and holding a sword and a set of scales. <!-- provide explanation of what the sword, blindfold, and scales signify --></note>
+  <note type="symbol">Justice is often depicted as a woman (the Roman goddess Justitia) wearing a blindfold (indicating that justice should be rendered impartially) and holding a set of scales (with which to weigh evidence) and a sword  (with which to execute a verdict). Although the sword, scales, and blindfold are all frequently associated with Justice, representations of the goddess do not always include all three elements.</note>
 </item>
 <item xml:id="liberty_cap">
   <label>Liberty cap</label>
   <note type="symbol">Liberty caps, also sometimes called Phrygian caps, appear frequently in political cartoons. In ancient Rome, freed slaves wore pointed hats, with the peak bent or turned at the side or front, to indicate their status; thus, the Phrygian cap became a symbol of freedom. <rs ref="cartoons_symbols.xml#columbia">Columbia</rs>, the female personification of America, is often depicted wearing this type of cap, and many characters in American political cartoons are shown either wearing these caps or carrying poles decorated with liberty caps.<!-- do more research --></note>
-</item>
-<item xml:id="liberty_tree">
-  <label>Liberty tree</label>
-  <note type="symbol"><!-- see http://en.wikipedia.org/wiki/Liberty_Tree, David Hackett Fischer's "Liberty and Freedom" etc. for description --></note>
 </item>
 <item xml:id="lion">
   <label>Lion</label>
@@ -161,7 +158,7 @@
 </item>
 <item xml:id="marianne">
   <label>Marianne</label>
-  <note type="symbol">Marianne is the National emblem of France.  She is often depicted wearing a Phrygian cap.</note>
+  <note type="symbol">Marianne is the national emblem of France. She is often depicted wearing a <ref target="cartoons_symbols.xml#liberty_cap">liberty cap</ref>.</note>
 </item>
 <item xml:id="rail">
   <label>Fence rail</label>
@@ -169,19 +166,19 @@
 </item>
 <item xml:id="statue_of_liberty">
   <label>Statue of Liberty</label>
-  <note type="symbol">The Statue of Liberty represents American liberty and is a 152 feet tall copper statue located in the New York Harbor.  The statue was a gift from France to the United States.  It was designed by Frederic Auguste Bartholdi and built by Gustave Eiffel.  President Grover Cleveland dedicated it on October 28, 1886.  It became a national monument in 1924.  </note>
+  <note type="symbol">The Statue of Liberty represents American liberty and is a 152-feet tall copper statue located in the New York Harbor. The statue was a gift from France to the United States. It was designed by Frederic Auguste Bartholdi and built by Gustave Eiffel. President Grover Cleveland dedicated it on October 28, 1886. It became a national monument in 1924.</note>
 </item>
 <item xml:id="tortoise">
   <label>Tortoise</label>
-  <note type="symbol">In political cartoons of the 1820s-1840s, the tortoise (or land-dwelling turtle) was used to symbolize the Whig party. In the circa-1829 lithographed cartoon "A New Map of the United States..." John Quincy Adams and other Whigs are shown riding on the back of a gigantic tortoise.</note>
+  <note type="symbol">In political cartoons of the 1820s-1840s, the tortoise was used to symbolize the Whig party. In the circa-1829 lithographed cartoon "A New Map of the United States..." John Quincy Adams and other Whigs are shown riding on the back of a gigantic tortoise.</note>
 </item>
 <item xml:id="uncle_sam">
   <label>Uncle Sam</label>
-  <note type="symbol">Uncle Sam is a fictional character and a symbol of the United States.  He often wears a top hat and stripped pants.  The character of Uncle Sam first appeared during the War of 1812 and according to popular belief, was named after Samuel Wilson, a government meat inspector during the War of 1812. Although the character of Uncle Sam has been around since the beginning of the 19th century, he didn’t begin to eclipse Columbia in popularity until the 20th century. </note>
+  <note type="symbol">Uncle Sam is a fictional character and a symbol of the United States. He often wears a top hat and striped pants. The character of Uncle Sam first appeared during the War of 1812 and, according to popular belief, was named after Samuel Wilson, a government meat inspector during the War of 1812. Although the character of Uncle Sam has been around since the beginning of the 19th century, he didn’t begin to eclipse <ref target="cartoons_symbols.xml#columbia">Columbia</ref> in popularity until the 20th century. <ref target="cartoons_symbols.xml#brother_jonathan">Brother Jonathan</ref> (and, to some extent, the fictional character <ref target="cartoons_symbols.xml#jack_downing">Jack Downing</ref>) is considered a precursor to Uncle Sam.</note>
 </item>
 <item xml:id="unicorn">
   <label>Unicorn</label>
-  <note type="symbol">Used occasionally to symbolize Great Britain; in the 1870s, Thomas Nast also used a unicorn wearing a monocle to represent the New York Times.</note>
+  <note type="symbol">The unicorn is a symbol used in Britain's coat of arms, and is sometimes used to symbolize Great Britain. In the 1870s, Thomas Nast also used a unicorn wearing a monocle to represent the <hi rendition="#italics">New York Times</hi>, whose editor was English.</note>
 </item>
 </list>
 </div>
