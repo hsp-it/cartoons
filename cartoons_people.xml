@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-
 <?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 
@@ -65,7 +63,7 @@
             </projectDesc>
         </encodingDesc>
         <revisionDesc>
-            <change who="HSP" when="2014-08-26">Exported from Collective Access.</change>
+            <change who="HSP" when="2015-08-20">Exported from Collective Access.</change>
         </revisionDesc>
     </teiHeader>
 
@@ -95,7 +93,7 @@
   <birth when="1773">1773</birth>
   <death when="1846">1846</death>
   <sex>Male</sex>
-  <note type="biography">Copperplate and wood engraver, miniaturist, caricaturist, profilist, and designer; worked primarily in Philadelphia, but also in Salem and Newburyport, Mass., 1804-1808.</note>
+  <note type="biography">A copperplate and wood engraver, miniaturist, caricaturist, profilist, and designer, James Akin worked primarily in Philadelphia, but also in Salem and Newburyport, MA. He created numerous political cartoons of the American early republic.</note>
   <bibl>Library of Congress Name Authority File. <ref target="http://id.loc.gov/authorities/names/nr94028751.html">Link</ref></bibl>
 </person>
 <person xml:id="ENT.000003707">
@@ -1413,7 +1411,7 @@ He was born in Haverstraw, New York in 1822 and attended Columbia College where 
   <birth when="1767">1767</birth>
   <death when="1845">1845</death>
   <sex>Male</sex>
-  <note type="biography"><p>Andrew Jackson was the military hero and seventh president of the United States. Jackson was born in western South Carolina to a recently widowed mother with two young sons. By age fourteen, Jackson had lost his brothers and mother as well. Despite this inauspicious beginning, Jackson became a successful lawyer and politician in Tennessee, where he had settled in 1788. Jackson served in the convention that drafted Tennessee’s constitution, and then, once Tennessee was admitted to statehood, he became the state’s sole representative to the US House of Representatives in 1796. In 1797 he was elected to the US Senate. After a short, undistinguished congressional career, Jackson resigned from the Senate to serve on the Superior Court of Tennessee. 
+  <note type="biography"><p>Andrew Jackson was a military hero and seventh president of the United States. Jackson was born in western South Carolina to a recently widowed mother with two young sons. By age fourteen, Jackson had lost his brothers and mother as well. Despite this inauspicious beginning, Jackson became a successful lawyer and politician in Tennessee, where he had settled in 1788. Jackson served in the convention that drafted Tennessee’s constitution, and then, once Tennessee was admitted to statehood, he became the state’s sole representative to the US House of Representatives in 1796. In 1797 he was elected to the US Senate. After a short, undistinguished congressional career, Jackson resigned from the Senate to serve on the Superior Court of Tennessee. 
 </p>
 <p>Jackson’s military career included command of Tennessee forces in the Creek War of 1813, which led to his commission as major general in the US Army in 1814. He is best known for his victory of the British in the Battle of New Orleans at the conclusion of the War of 1812. This victory made Jackson a national hero. Jackson’s soldiers named him “Old Hickory” because of his strength during hardship. In 1818 he led an expedition that captured Florida, and then in 1821 he served as governor of the new territory. He resigned that post in 1821 and returned to Tennessee, where the state legislature nominated him for president in 1822.</p>
 
@@ -1427,7 +1425,6 @@ He was born in Haverstraw, New York in 1822 and attended Columbia College where 
 <bibl>“Jackson, Andrew.” <hi rendition="#italics">American National Biography</hi>.</bibl>
 
                 <bibl>“Jackson, Andrew.” <hi rendition="#italics">Biographical Directory of the United States Congress</hi>. <ref target="http://bioguide.congress.gov/scripts/biodisplay.pl?index=j000005">Link</ref></bibl></bibl>
-  <note type="internal">Andrew Jackson is referred to as "Old Hickory" in cartoon with DAMS #5545.  His biography should include a brief explanation of the origin of this nickname.</note>
 </person>
 <person xml:id="ENT.000003684">
   <persName key="ENT.000003684">
@@ -1895,6 +1892,8 @@ http://id.loc.gov/authorities/names/no97050463</note>
     <surname type="last">Morgan</surname>
   </persName>
   <sex>Male</sex>
+  <note type="biography"><p>Frederick Morgan was a cartoonist for the <hi rendition="#italics">Philadelphia Inquirer</hi>.  He was born in England and immigrated to the United States, most likely, in 1875. He was married and had three children.  No further information known.</p></note>
+  <bibl><bibl>“Stripper’s Guide: Ink-Slinger’s Profile: Fred Morgan.” Accessed August 20, 2015. <ref target="http://strippersguide.blogspot.com/2011/09/ink-slingers-profile-fred-morgan.html">Link</ref></bibl></bibl>
   <note type="internal">Philadelphia Inquirer cartoonist ; artist of 11565-3133_b2f9_1_TEI.xml&#13;
 &#13;
 LOC:  http://id.loc.gov/authorities/names/n79060685</note>
