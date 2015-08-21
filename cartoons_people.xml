@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+
+
 <?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 
@@ -63,7 +66,7 @@
             </projectDesc>
         </encodingDesc>
         <revisionDesc>
-            <change who="HSP" when="2015-08-20">Exported from Collective Access.</change>
+            <change who="HSP" when="2015-08-21">Exported from Collective Access.</change>
         </revisionDesc>
     </teiHeader>
 
@@ -1285,6 +1288,7 @@ mentioned in 11585-Bc612P567_1_TEI.xml; painted Phryne Before the Aeropagus</not
     <surname type="last">Hartman</surname>
   </persName>
   <sex>Male</sex>
+  <note type="biography">                <p>In 1896 Wencel Hartman was the Combine candidate for President of Select Council of Philadelphia.  The Anti-Combine wing of the Republican Party in Philadelphia, led by Israel Durham and Boies Penrose, opposed the Combine faction. The Anti-Combine won a decisive victory and elected thirty-two members in the two branches. The most contested election was held in the eighth ward between Wencel Hartman and John Roberts. Despite the Anti-Combine's efforts, Hartman won.  Wencel Hartman is depicted in the <hi rendition="#italics">New York World</hi> cartoon “Effect of Roentgen's "Rays."</p></note>
 </person>
 <person xml:id="ENT.000003766">
   <persName key="ENT.000003766">
@@ -2618,6 +2622,9 @@ LOC:http://id.loc.gov/authorities/names/n86025981.html</note>
   <birth when="1835">1835</birth>
   <death when="1914">1914</death>
   <sex>Male</sex>
+  <note type="biography"><p>Adlai Stevenson was the 23rd Vice President of the United States.  </p>
+                <p>Stevenson was born on October 23, 1835 in Kentucky.  He became a lawyer and in 1860 was appointed as a master in chancery of Woodford County’s circuit court. He later became State Attorney and served two terms in the United States House of Representatives.  In 1892 he became Grover Cleveland’s running mate and served one term as Vice President from 1893-1897.  He ran unsuccessfully for Vice President in 1900 and later for Governor of Illinois.  Stevenson died on June 14, 1914 in Chicago.</p></note>
+  <bibl><bibl>“Adlai Stevenson | Biography - Vice President of United States.” Encyclopedia Britannica. Accessed August 20, 2015. <ref target="http://www.britannica.com/biography/Adlai-Stevenson">Link</ref></bibl></bibl>
   <note type="internal">http://id.loc.gov/authorities/names/n88159812
 in cartoon "Bad Case of Chill"12174</note>
 </person>
@@ -2638,6 +2645,7 @@ in cartoon "Bad Case of Chill"12174</note>
     <surname type="last">Swayze</surname>
   </persName>
   <sex>Male</sex>
+  <note type="biography"><p>R.C. Swayze was a cartoonist for the <hi rendition="#italics">Philadelphia Inquirer</hi>.</p></note>
 </person>
 <person xml:id="ENT.000003784">
   <persName key="ENT.000003784">
