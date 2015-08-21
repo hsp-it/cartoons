@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+
 <?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 
@@ -63,7 +65,7 @@
             </projectDesc>
         </encodingDesc>
         <revisionDesc>
-            <change who="HSP" when="2015-08-20">Exported from Collective Access.</change>
+            <change who="HSP" when="2015-08-21">Exported from Collective Access.</change>
         </revisionDesc>
     </teiHeader>
 
@@ -223,14 +225,12 @@ cartoon# 6807 Out with them all!</note>
 </org>
 <org xml:id="ENT.000003139">
   <orgName key="ENT.000003139">Harper's Weekly</orgName>
-  <note type="org"><p><hi rendition="#italics">Harper’s Weekly (A Journal of Civilization)</hi> was a political magazine that printed news, foreign and domestic, essays, illustrations, and humor. It was printed by the New York City publishing house Harper &amp; Brothers from 1857 to 1916. The four brothers, James, John, Wesley, and Fletcher Harper, created <hi rendition="#italics">Harper’s</hi> after the success of their earlier venture the <hi rendition="#italics">Illustrated London New</hi>s. Featuring established authors like Charles Dickens and William Makepeace Thackeray, <hi rendition="#italics">Harper’s</hi> quickly became a popular weekly publication in New York. The prominent illustrations and cartoons that accompanied the news catapulted Harper’s circulation to 200,000 subscribers by 1860.</p> 
+  <note type="org"><p><hi rendition="#italics">Harper’s Weekly</hi> was an illustrated political magazine printed by the New York City publishing house Harper &amp; Brothers from 1857 to 1916. It quickly became a popular weekly publication in New York and featured prominent authors such as Charles Dickens and William Thackeray. By 1860 it had 200,000 subscribers.</p>
+                <p>Thomas Nast, “the father of modern political cartoons” was a cartoonist for <hi rendition="#italics">Harper’s Weekly</hi>. In the 1870s, Nast drew a series of cartoons criticizing corrupt New York political leader William “Boss” Tweed. Tweed offered Nast a $500,000 bribe to end his attack, but Nast refused. Tweed was arrested in 1873 and convicted of fraud.</p>   
                 
-                
-                <p><hi rendition="#italics">Harper’s</hi> is also well-known for containing the most extensive contemporary coverage of the Civil War. Their original political stance was moderate. Before the war, they had supported the Stephen A. Douglas presidential campaign against Abraham Lincoln, and a moderate editorial stance on slavery. However, once the war began, <hi rendition="#italics">Harper’s</hi> aligned politically with Union and the North. A July 1863 article on the escaped slave Gordon included the now iconic Mathew Brady photograph of his back, severely scarred from whippings. This image provided many readers in the North their first visual evidence of the brutality of slavery. Press correspondent and illustrator Alfred R. Waud also contributed battle sketches to the publication, such as the First Battle of Bull Run and the Battle of Gettysburg. </p>
-                
-                <p>Post-war, <hi rendition="#italics">Harper’s</hi> supported the Republican Party. In 1863, George William Curtis became the political editor of the magazine, and remained in that capacity until his death in 1892. His editorials advocated civil service reform, low tariffs, and adherence to the gold standard. <hi rendition="#italics">Harper’s Weekly</hi> also became well-known as the forum for celebrated republican cartoonist Thomas Nast, “the father of modern political cartoons.” In the 1870s, Nast began an aggressive campaign in the journal against the corrupt New York political leader William “Boss” Tweed. Nast turned down a $500,000 bribe to end his attack. Tweed was arrested in 1873 and convicted of fraud.</p>
-                
-                <p>After 1900, <hi rendition="#italics">Harper’s Weekly</hi> devoted more print to political and social issues, and featured articles by some of the more prominent political figures of the time, such as Theodore Roosevelt and Woodrow Wilson. <hi rendition="#italics">Harper's Weekly</hi> published its final issue on May 13, 1916.</p></note>
+                    <p><hi rendition="#italics">Harper’s</hi> is famous for its extensive coverage of the Civil War. Before the war, they supported the Stephen A. Douglas presidential campaign against Abraham Lincoln, and held a moderate editorial stance on slavery. However, it aligned politically with Union and the North after the start of the Civil War. In July 1863 it published an article about an escaped slave which included photographs of his back, severely scarred from whippings.  After the war, <hi rendition="#italics">Harper’s</hi> supported the Republican Party. From 1863 to 1892, George William Curtis served as editor of the magazine. </p>
+                    
+                    <p><hi rendition="#italics">Harper's Weekly</hi> published its final issue on May 13, 1916.</p></note>
   <bibl><bibl>Cunningham, John M. “Alfred R. Waud.” <hi rendition="#italics">Encyclopedia Britannica online</hi>.  <ref target="http://www.britannica.com/EBchecked/topic/637773/Alfred-R-Waud">Link</ref></bibl>
                 
                 <bibl>Halloran, Fiona Deans. <hi rendition="#italics">Thomas Nast: The Father of Modern Political Cartoons</hi>. Chapel Hill, NC: The University of North Carolina Press, 2012.</bibl>
@@ -294,7 +294,7 @@ LOC name authority record spells Ottman with one "n", but in the cartoon "If-The
 </org>
 <org xml:id="ENT.000003698">
   <orgName key="ENT.000003698">L. Prang &amp; Co.</orgName>
-  <note type="org"><p>Louis Prang (1824-1909) was a German-born entrepreneur and chromolithographer. Born in Breslau (now Poland), Prang traveled as a journeyman before becoming involved in revolutionary activity against the Prussian government in 1848. He left Europe through Switzerland and arrived in Boston in 1850. He worked as a wood engraver until 1856 when he founded a lithograph and copper plate manufacturing company, Prang and Mayer, with business partner Julius Mayer. In 1860, Mayer dropped out and Prang continued solo with the newly formed L. Prang &amp; Co. The company printed business cards, announcements and other forms of ephemera. Later he branched into the production of Civil War maps and collectible novelty items.  Through a merger in 1897, L. Prang and Co. became the Taber-Prang Company and moved from Boston to Springfield, Massachusetts. </p></note>
+  <note type="org"><p>Louis Prang (1824-1909) was a German-born entrepreneur and chromolithographer who was born in Breslau (now Poland). Prang became involved in revolutionary activity against the Prussian government in 1848 and immigrated to the United States in 1850. He was a wood engraver and founded a lithograph and copper plate manufacturing company, Prang and Mayer, with business partner Julius Mayer. In 1860, Mayer left the business and Prang formed L. Prang &amp; Co. The company printed business cards, announcements, and maps.</p></note>
   <bibl><bibl>“Louis Prang papers, 1848-1932: Biographical Information.” <hi rendition="#italics">Archives of American Art</hi>. Accessed June 21, 2015
                 <ref target="http://www.aaa.si.edu/collections/louis-prang-papers-9709/more">Link</ref></bibl>
                 
