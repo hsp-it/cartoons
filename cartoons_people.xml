@@ -66,7 +66,7 @@
             </projectDesc>
         </encodingDesc>
         <revisionDesc>
-            <change who="HSP" when="2015-08-21">Exported from Collective Access.</change>
+            <change who="HSP" when="2015-08-24">Exported from Collective Access.</change>
         </revisionDesc>
     </teiHeader>
 
@@ -115,6 +115,7 @@
     <addName type="alt">Mark Antony</addName>
   </persName>
   <sex>Male</sex>
+  <bibl> <bibl>“Mark Antony | Roman Triumvir.” Encyclopedia Britannica. Accessed August 24, 2015. <ref target="http://www.britannica.com/biography/Mark-Antony-Roman-triumvir ">Link</ref></bibl></bibl>
   <note type="internal">mentioned in 12338; http://id.loc.gov/authorities/names/n50051933.html</note>
 </person>
 <person xml:id="ENT.000003560">
@@ -433,6 +434,10 @@ editor of NY Herald</note>
     <surname type="last">Caesar</surname>
   </persName>
   <sex>Male</sex>
+  <note type="biography"><p>Gaius Julius Caesar was born into an aristocratic family circa 100 BCE in Rome and was assassinated in the Senate House on March 15, 44 BCE in Rome.   He became one of the most influential and controversial figures in world history and was a Roman general, consul, and dictator.  He played a vital role in the fall of the Roman Republic and the rise of the Roman Empire.</p>
+                <p>In 59 BCE Caesar was elected consul, the most powerful office in the Republic, and formed the first triumvirate, a political alliance with Pompey and Cassius. Between 58 and 50 BCE Caesar conquered Gaul, or modern-day France and Belgium.  He secured absolute political power after emerging as the victor of the civil war 49-45 BCE.  He became dictator in 46 BCE and ruled until he was assassinated in 44 BCE by a group of senators led by Marcus Junius Brutus. </p></note>
+  <bibl><bibl>“The Roman Empire: In the First Century. The Roman Empire. Emperors. Julius Caeser | PBS.” Accessed August 21, 2015. <ref target="http://www.pbs.org/empires/romans/empire/julius_caesar.html">Link</ref></bibl>
+                <bibl>“Julius Caesar | Biography - Roman Ruler.” Encyclopedia Britannica. Accessed August 21, 2015. <ref target="http://www.britannica.com/biography/Julius-Caesar-Roman-ruler">Link</ref></bibl></bibl>
   <note type="internal">mentioned in 12338; http://id.loc.gov/authorities/names/n79021400.html</note>
 </person>
 <person xml:id="ENT.000003693">

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-
 <?xml-model href="file:/V:/Digital%20Editing/HSP%20digital%20project%20schemas/HSPDigitalProjectsSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 
@@ -65,7 +64,7 @@
             </projectDesc>
         </encodingDesc>
         <revisionDesc>
-            <change who="HSP" when="2015-08-21">Exported from Collective Access.</change>
+            <change who="HSP" when="2015-08-24">Exported from Collective Access.</change>
         </revisionDesc>
     </teiHeader>
 
@@ -437,7 +436,9 @@ http://id.loc.gov/authorities/names/n2002162950.html</note>
 </org>
 <org xml:id="ENT.000000572">
   <orgName key="ENT.000000572">Philadelphia Inquirer</orgName>
-  <note type="org"><p><hi rendition="#italics">The Philadelphia Inquirer</hi> was founded by John R. Walker and John Norvell in June 1829 as <hi rendition="#italics">The Pennsylvania Inquirer</hi> and is the third-oldest surviving daily newspaper in the United States. The paper voiced strong support for the North, and was frequently delivered to Union troops in the field. Its circulation dropped after the war, then rose by the end of the 19th century. Originally supportive of the Democratic Party, the <hi rendition="#italics">Inquirer's</hi> political affiliation eventually shifted toward the Whig Party and then the Republican Party before officially becoming politically independent in the middle of the 20th century. The <hi rendition="#italics">Inquirer</hi> was involved in circulation wars throughout the latter half of the 19th century and the early years of the 20th. It survived by giving its readers broad coverage of the news and by constantly modernizing its plant and equipment. In 1863 the <hi rendition="#italics">Inquirer</hi> became one of the first daily newspapers to use a web-fed rotary press that could print on both sides of the paper at once.  There were several changes of ownership in the early 20th century, but the <hi rendition="#italics">Inquirer</hi> largely retained its character as an aggressive, investigatory paper. Moses L. Annenberg bought it in 1936 and managed within four years to boost its Sunday circulation to more than one million copies. The paper stayed in his family’s hands after his death in 1942.  It was acquired in 1969 by John S. Knight, along with the afternoon tabloid <hi rendition="#italics">Philadelphia Daily News</hi>. Both newspapers were included in the merger of the Knight and Ridder groups in 1974; each, however, maintained editorial independence. In 2006 the McClatchy Company acquired Knight Ridder; McClatchy subsequently sold the <hi rendition="#italics">Inquirer</hi> and the <hi rendition="#italics">Daily News</hi>, which passed through a succession of owners.</p></note>
+  <note type="org"> <p>The <hi rendition="#italics">Philadelphia Inquirer</hi> is the third-oldest surviving daily newspaper in the United States and has won 19 Pulitzer Prizes.  It was founded by John R. Walker and John Norvell in June 1829 as The Pennsylvania Inquirer.  Six months later Walker and Norvell sold the paper to Jesper Harding, the publisher of United States Gazette.  Under Harding’s leadership, the newspaper dramatically increased circulation.</p> 
+                <p>During the Civil War, the newspaper increased circulation to over 70,000 and was popular amongst Union and Confederate soldiers.  In 1863, the <hi rendition="#italics">Inquirer</hi> became one of the first American newspapers to use a web-fed rotary press which allowed for printing on both sides of the paper at once.  In the 1880s circulation decreased and in 1889 the <hi rendition="#italics">Inquirer</hi> was sold to James Elverson who increased staff and employed the latest technological advances in printing.  James Elverson, Jr. inherited the newspaper after his father’s death in 1911.  The <hi rendition="#italics">Inquirer</hi> is still in business today and is one of Philadelphia’s most prominent newspapers.
+                </p></note>
   <bibl><bibl>Williams, Edgar. “A history of The Inquirer,” Friday, June 2, 2003. <hi rendition="#italics">Philadelphia Inquirer online.</hi> 
                 <ref target="http://web.archive.org/web/20070219044935/http://www.philly.com/mld/inquirer/news/local/6135296.htm?1c">Link</ref></bibl></bibl>
 </org>
@@ -600,10 +601,14 @@ http://id.loc.gov/authorities/names/n50071988.html</note>
 </org>
 <org xml:id="ENT.000000382">
   <orgName key="ENT.000000382">Wasp (San Francisco, Calif.)<orgName type="alt">San Francisco Illustrated Wasp</orgName></orgName>
-  <note type="org"><p>Considered the more obscure, west-coast equivalent to Puck magazine, the San Francisco Illustrated Wasp also offered richly detailed political cartoons and caricatures for California readers. The Wasp was distinctive for its full-page folio-sized illustrations and large centerfolds, which were very costly to produce. As a result of these high-printing costs, the magazine was often financially unstable and ownership changed regularly. It was founded in 1876 by Francis Korbel, a successful bohemian cigar maker and lithographer. The Wasp’s original success was largely due to Korbel’s lithographer George Frederick Keller. Keller was one of Korbel’s cigar box lithographers who had previous experience working on the “virulently anti-Catholic” humor magazine, The Jolly Giant. Keller’s richly detailed oversized illustrations helped The Wasp become California’s premiere satire and humor magazine.  Ambrose Bierce served as editor of from 1881 to 1885.  It eventually ceased publication on April 25, 1941.</p></note>
-  <bibl>Hall, Nicholas Sean. “WASP: Racism and Satire in the 19th Century.” FoundSF 
-                Link“Illustrating Chinese Exclusion: The San Francisco Wasp.” Thomas Nast Cartoons online.
-                Link“The Wasp: Stinging Editorials and Political Cartoons.” Newsletter of the Friends of the Bancroft Library no. 121 (Fall 2002), University of California, Berkeley.</bibl>
+  <note type="org"><p>Considered the more obscure, west-coast equivalent to <hi rendition="#italics">Puck</hi> magazine, the <hi rendition="#italics">San Francisco Illustrated Wasp</hi> also offered richly detailed political cartoons and caricatures for California readers. The <hi rendition="#italics">Wasp</hi> was distinctive for its full-page folio-sized illustrations and large centerfolds, which were very costly to produce. As a result of these high-printing costs, the magazine was often financially unstable and ownership changed regularly. It was founded in 1876 by Francis Korbel, a successful bohemian cigar maker and lithographer. The <hi rendition="#italics">Wasp’s</hi> original success was largely due to Korbel’s lithographer George Frederick Keller. Keller was one of Korbel’s cigar box lithographers who had previous experience working on the “virulently anti-Catholic” humor magazine, <hi rendition="#italics">The Jolly Giant</hi>. Keller’s richly detailed oversized illustrations helped the <hi rendition="#italics">Wasp</hi> become California’s premiere satire and humor magazine.  Ambrose Bierce served as editor of from 1881 to 1885.  It eventually ceased publication on April 25, 1941.</p></note>
+  <bibl> <bibl>Hall, Nicholas Sean. “WASP: Racism and Satire in the 19th Century.” FoundSF 
+                <ref target="foundsf.org/index.php?title=WASP:_Racism_and_Satire_in_the_19th_Century">Link</ref></bibl>
+                
+                <bibl>“Illustrating Chinese Exclusion: The San Francisco Wasp.” Thomas Nast Cartoons online.
+                <ref target="thomasnastcartoons.com/west-coast-view/the-san-francisco-wasp/">Link</ref></bibl>
+                
+                <bibl>“The Wasp: Stinging Editorials and Political Cartoons.” Newsletter of the Friends of the Bancroft Library no. 121 (Fall 2002), University of California, Berkeley.</bibl></bibl>
   <note type="internal">LOC:  http://id.loc.gov/authorities/names/n2007069903</note>
 </org>
 <org xml:id="ENT.000003773">
