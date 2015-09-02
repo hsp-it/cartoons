@@ -189,49 +189,49 @@
       </div>
     </front>
     <body>
-      <div type="section" n="1" facs="#barrel">
+      <div type="image_transcription" n="1" facs="#barrel">
         <head>
           <supplied resp="editorial">Barrel</supplied>
         </head>
         <p>IP</p>
       </div>
-      <div type="section" n="2" facs="#james">
+      <div type="image_transcription" n="2" facs="#james">
         <head>
           <supplied resp="editorial">Abel James</supplied>
         </head>
         <p>Exercise those on the Scotch Irish &amp; Dutch &amp; I'll support you while I am Abel</p>
       </div>
-      <div type="section" n="3" facs="#fox">
+      <div type="image_transcription" n="3" facs="#fox">
         <head>
           <supplied resp="editorial">Joseph Fox</supplied>
         </head>
         <p>If you fail I must unturn Presbyterian again (aside)</p>
       </div>
-      <div type="section" n="4" facs="#quaker1">
+      <div type="image_transcription" n="4" facs="#quaker1">
         <head>
           <supplied resp="editorial">Quaker man 1</supplied>
         </head>
         <p>the Paxton spirit grows stronger and stronger I dread the consequence</p>
       </div>
-      <div type="section" n="5" facs="#quaker2">
+      <div type="image_transcription" n="5" facs="#quaker2">
         <head>
           <supplied resp="editorial">Quaker man 2</supplied>
         </head>
         <p>Verily I'm afraid Friend B--'s cool thoughts wont have warmth to prevail on them</p>
       </div>
-      <div type="section" n="6" facs="#quaker3">
+      <div type="image_transcription" n="6" facs="#quaker3">
         <head>
           <supplied resp="editorial">Quaker man 3</supplied>
         </head>
         <p>Ah cou'd we but git them to sign the Petition we'd then have them i'th' Noose</p>
       </div>
-      <div type="section" n="7" facs="#quaker4">
+      <div type="image_transcription" n="7" facs="#quaker4">
         <head>
           <supplied resp="editorial">Quaker man 4</supplied>
         </head>
         <p>I'm afraid those wicked Presbyterians will get their ends accomplished</p>
       </div>
-      <div type="section" n="8" facs="#franklin">
+      <div type="image_transcription" n="8" facs="#franklin">
         <head>
           <supplied resp="editorial">Benjamin Franklin</supplied>
         </head>
@@ -240,31 +240,31 @@
             <expan>Government</expan>
           </choice></p>
       </div>
-      <div type="section" n="9" facs="#sack">
+      <div type="image_transcription" n="9" facs="#sack">
         <head>
           <supplied resp="editorial">Sack</supplied>
         </head>
         <p><abbr>Pensilvan</abbr> Money</p>
       </div>
-      <div type="section" n="10" facs="#scroll">
+      <div type="image_transcription" n="10" facs="#scroll">
         <head>
           <supplied resp="editorial">Scroll</supplied>
         </head>
         <p>For <abbr>Doctr</abbr> Pringle</p>
       </div>
-      <div type="section" n="11" facs="#follower">
+      <div type="image_transcription" n="11" facs="#follower">
         <head>
           <supplied resp="editorial">Man following Franklin</supplied>
         </head>
         <p>This is the way our Money goes</p>
       </div>
-      <div type="section" n="12" facs="#indian_woman">
+      <div type="image_transcription" n="12" facs="#indian_woman">
         <head>
           <supplied resp="editorial">Native American woman</supplied>
         </head>
         <p>Thou hast something lovely in thy Fob I must enjoy it (aside)</p>
       </div>
-      <div type="section" n="13" facs="#pemberton">
+      <div type="image_transcription" n="13" facs="#pemberton">
         <head>
           <supplied resp="editorial">Israel Pemberton</supplied>
         </head>
