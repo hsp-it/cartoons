@@ -74,10 +74,10 @@
                 <date from="1876-05-13">May 13, 1876</date>
                 <extent>1 loose page</extent>
                 <listRelation>
-                  <relation name="depicts" active="ENT.000000941"/>
-                  <relation name="depicts" active="ENT.000003329"/>
-                  <relation name="depicts" active="ENT.000003541"/>
-                  <relation name="depicts" active="ENT.000003328"/>
+                  <relation name="depicted" active="ENT.000000941"/>
+                  <relation name="depicted" active="ENT.000003329"/>
+                  <relation name="depicted" active="ENT.000003541"/>
+                  <relation name="depicted" active="ENT.000003328"/>
                   <relation name="depicted" active="cartoons_symbols.xml#donkey"/>
                   <relation name="depicted" active="cartoons_symbols.xml#dogs"/>
                   <relation name="depicted" active="cartoons_symbols.xml#giraffe"/>
@@ -226,7 +226,7 @@
         </p>
         <p>389</p>
       </div>
-      <div type="section" n="2" facs="#scapegoat">
+      <div type="image_transcription" n="2" facs="#scapegoat">
         <head>The Scapegoat</head>
         <p>The Blunders of Congress</p>
         <p>News-paper scares</p>
