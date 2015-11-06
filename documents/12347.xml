@@ -9,10 +9,6 @@
         <author/>
         <respStmt>
           <resp key="art">artist</resp>
-          <persName key="ENT.000000553">Unknown Artist</persName>
-        </respStmt>
-        <respStmt>
-          <resp key="art">artist</resp>
           <persName key="ENT.000000251">Nast, Thomas, 1840-1902</persName>
         </respStmt>
         <respStmt>
@@ -73,7 +69,7 @@
           <msContents>
             <msItem>
               <bibl>
-                <date from="1867-01-01" to="1876-12-31">circa 1867-1876</date>
+                <date from="1867-01-01" to="1869-12-31">circa 1867-1869</date>
                 <extent>1 newspaper sheet</extent>
                 <listRelation>
                   <relation/>
@@ -93,10 +89,6 @@
           <analytic>
             <respStmt>
               <resp key="art">artist</resp>
-              <persName key="ENT.000000553">Unknown Artist</persName>
-            </respStmt>
-            <respStmt>
-              <resp key="art">artist</resp>
               <persName key="ENT.000000251">Nast, Thomas, 1840-1902</persName>
             </respStmt>
             <respStmt>
@@ -104,14 +96,14 @@
               <orgName key="ENT.000003655">Phunny Phellow</orgName>
             </respStmt>
             <title type="main" level="a">The Election: Before/After</title>
-            <date from="1867-01-01" to="1876-12-31">circa 1867-1876</date>
+            <date from="1867-01-01" to="1869-12-31">circa 1867-1869</date>
           </analytic>
           <monogr>
             <title type="marc245a" level="j"><orgName key="ENT.000003655">Phunny
               Phellow</orgName></title>
             <imprint>
               <pubPlace>New York</pubPlace>
-              <date from="1867-01-01" to="1876-12-31">circa 1867-1876</date>
+              <date from="1867-01-01" to="1869-12-31">circa 1867-1869</date>
               <publisher>
                 <orgName key="ENT.000003655">Phunny Phellow</orgName>
               </publisher>
