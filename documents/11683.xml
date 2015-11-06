@@ -8,7 +8,7 @@
         <author/>
         <respStmt>
           <resp key="art">artist</resp>
-          <persName key="ENT.000000553">Unknown Artist</persName>
+          <persName key="ENT.000003636">Bellew, Frank (1828-1888)</persName>
         </respStmt>
         <respStmt>
           <resp key="trc">Transcribed by</resp>
@@ -94,7 +94,7 @@
           <analytic>
             <respStmt>
               <resp key="art">artist</resp>
-              <persName key="ENT.000000553">Unknown Artist</persName>
+              <persName key="ENT.000003636">Bellew, Frank (1828-1888)</persName>
             </respStmt>
             <respStmt>
               <resp key="pbl">publisher</resp>
