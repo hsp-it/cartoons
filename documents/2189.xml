@@ -9,7 +9,7 @@
         <title type="main">TEI transcription of The True Issue or "That's What's the Matter"</title>
         <respStmt>
           <resp key="art">artist</resp>
-          <persName key="ENT.000000553">Unknown Artist</persName>
+          <persName key="ENT.000003364">Maurer, Louis, 1832-1932</persName>
         </respStmt>
         <respStmt>
           <resp key="trc">Transcribed by</resp>
@@ -93,7 +93,7 @@
           <monogr>
             <respStmt>
               <resp key="art">artist</resp>
-              <persName key="ENT.000000553">Unknown Artist</persName>
+              <persName key="ENT.000003364">Maurer, Louis, 1832-1932</persName>
             </respStmt>
             <respStmt>
               <orgName key="ENT.000000844">Currier &amp; Ives</orgName>
